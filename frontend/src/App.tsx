@@ -2,19 +2,22 @@
 // 참고: docs/architecture/01-system-overview.md
 
 /**
- * SKKU-INSIGHT 루트 컴포넌트
+ * MINT 루트 컴포넌트
  *
  * React Router 6를 사용한 라우팅 설정
- * Phase 1: Layout 컴포넌트 적용 완료
+ * MINT: 주식시장을 시원하고 빠르게!
  */
 
 import { Routes, Route, Navigate } from 'react-router-dom'
-import { Header, Footer, ErrorBoundary } from '@/components'
+import { Header, Footer, ErrorBoundary, ScrollToTop } from '@/components'
 import { Dashboard, ReportPage, TriggerList, AnalysisListPage, AnalysisDetailPage } from '@/pages'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900 flex flex-col">
+    <div className="min-h-screen bg-white flex flex-col">
+      {/* Scroll to top on route change */}
+      <ScrollToTop />
+
       {/* Header */}
       <Header />
 
