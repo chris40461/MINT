@@ -1,0 +1,876 @@
+{
+  "sheet_name": "선물옵션 주문체결내역조회",
+  "row_count": 86,
+  "columns": [
+    "선물옵션 주문체결내역조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "선물옵션 주문체결내역조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "메뉴 위치",
+      "Column_1": "[국내선물옵션] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "API 명",
+      "Column_1": "선물옵션 주문체결내역조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "API ID",
+      "Column_1": "v1_국내선물-003",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "실전 TR_ID",
+      "Column_1": "TTTO5201R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "모의 TR_ID",
+      "Column_1": "VTTO5201R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "URL 명",
+      "Column_1": "/uapi/domestic-futureoption/v1/trading/inquire-ccnl",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "개요",
+      "Column_1": "선물옵션 주문체결내역조회 API입니다. 한 번의 호출에 최대 100건​까지 확인 가능하며, 이후의 값은 연속조회를 통해 확인하실 수 있습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자] \r\nTTTO5201R : 선물 옵션 주문 체결 내역 조회\r\n\r\n[모의투자] \r\nVTTO5201R : 선물 옵션 주문 체결 내역 조회",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공백 : 초기 조회\r\nN : 다음 데이터 조회 (output header의 tr_cont가 M일 경우)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인\r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "STRT_ORD_DT",
+      "Column_2": "시작주문일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "주문내역 조회 시작 일자, YYYYMMDD",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "END_ORD_DT",
+      "Column_2": "종료주문일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "주문내역 조회 마지막 일자, YYYYMMDD",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "SLL_BUY_DVSN_CD",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "00 : 전체\r\n01 : 매도\r\n02 : 매수",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "CCLD_NCCS_DVSN",
+      "Column_2": "체결미체결구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "00 : 전체\r\n01 : 체결\r\n02 : 미체결",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "SORT_SQN",
+      "Column_2": "정렬순서",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "AS : 정순\r\nDS : 역순 ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "STRT_ODNO",
+      "Column_2": "시작주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "조회 시작 번호 입력",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "공란 시, 전체  조회\r\n선물 6자리 (예: 101S03)\r\n옵션 9자리 (예: 201S03370)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "MKET_ID_CD",
+      "Column_2": "시장ID코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "공란(Default)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "CTX_AREA_FK200",
+      "Column_2": "연속조회검색조건200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "공란 : 최초 조회시\r\n이전 조회 Output CTX_AREA_FK200값 : 다음페이지 조회시(2번째부터)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "CTX_AREA_NK200",
+      "Column_2": "연속조회키200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "공란 : 최초 조회시\r\n이전 조회 Output CTX_AREA_NK200값 : 다음페이지 조회시(2번째부터)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "F or M : 다음 데이터 있음\r\nD or E : 마지막 데이터",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공\r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "응답코드",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "응답메세지",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ctx_area_fk200",
+      "Column_2": "연속조회검색조건200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ctx_area_nk200",
+      "Column_2": "연속조회키200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세1",
+      "Column_3": "array",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ord_gno_brno",
+      "Column_2": "주문채번지점번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "계좌 개설 시 관리점으로 선택한 영업점의 고유번호",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "cano",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "csac_name",
+      "Column_2": "종합계좌명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "계좌의 고객명",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "acnt_prdt_cd",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ord_dt",
+      "Column_2": "주문일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "주문의 접수일자",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "odno",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "접수한 주문의 일련번호",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "orgn_odno",
+      "Column_2": "원주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "정정 또는 취소 대상 주문의 일련번호",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "sll_buy_dvsn_cd",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "00 : 전체 \r\n01 : 매도 \r\n02 : 매수",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "trad_dvsn_name",
+      "Column_2": "매매구분명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "매도/매수 등 구분값",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "nmpr_type_cd",
+      "Column_2": "호가유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 지정가\r\n02 : 시장가\r\n03 : 조건부\r\n04 : 최유리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "nmpr_type_name",
+      "Column_2": "호가유형명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "호가 유형의 명칭",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "선물옵션종목코드",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ord_qty",
+      "Column_2": "주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "주문 수량",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ord_idx",
+      "Column_2": "주문지수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "24",
+      "Column_6": "주문 가격",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "qty",
+      "Column_2": "잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "주문 체결되지 않고 남은 수량",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ord_tmd",
+      "Column_2": "주문시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "주문 접수 시간 ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tot_ccld_qty",
+      "Column_2": "총체결수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "주문 체결된 수량",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "avg_idx",
+      "Column_2": "평균지수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "27",
+      "Column_6": "체결된 주문 수량의 평균 체결 가격",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tot_ccld_amt",
+      "Column_2": "총체결금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "체결된 주문의 합계금액",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "rjct_qty",
+      "Column_2": "거부수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "접수된 주문이 정상 처리되지 못하고 거부된 수량",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ingr_trad_rjct_rson_cd",
+      "Column_2": "장내매매거부사유코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "정상 처리되지 못하고 거부된 주문의 사유코드",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ingr_trad_rjct_rson_name",
+      "Column_2": "장내매매거부사유명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "정상 처리되지 못하고 거부된 주문의 사유",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ord_stfno",
+      "Column_2": "주문직원번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "주문 접수한 직원의 사번 또는 온라인 주문 시 매체 유형코드",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "sprd_item_yn",
+      "Column_2": "스프레드종목여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "스프레드 종목 여부 구분값",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ord_ip_addr",
+      "Column_2": "주문IP주소",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "주문 시 사용한 매체의 IP 주소",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tot_ord_qty",
+      "Column_2": "총주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "전체 주문 수량",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tot_ccld_amt_smtl",
+      "Column_2": "총체결금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "체결된 주문 전체의 합계 금액",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "tot_ccld_qty_smtl",
+      "Column_2": "총체결수량합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "체결된 주문 전체의 합계 수량",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "fee_smtl",
+      "Column_2": "수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "체결된 주문에 대한 매매수수료의 합계 금액",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": null,
+      "Column_1": "ctac_tlno",
+      "Column_2": "연락전화번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "고객의 연락 가능한 전화번호 ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\": \"810XXXXX\",\r\n\t\"ACNT_PRDT_CD\":\"03\",\r\n\t\"STRT_ORD_DT\": \"20211122\",\r\n\t\"END_ORD_DT\": \"20211122\",\r\n\t\"SLL_BUY_DVSN_CD\": \"00\",\r\n\t\"CCLD_NCCS_DVSN\": \"00\",\r\n\t\"SORT_SQN\": \"DS\",\r\n\t\"STRT_ODNO\": \"\",\r\n\t\"PDNO\": \"\",\r\n\t\"MKET_ID_CD\": \"00\",\r\n\t\"CTX_AREA_FK200\": \"\",\r\n\t\"CTX_AREA_NK200\": \"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문체결내역조회": "Response Example",
+      "Column_1": "{\r\n  \"ctx_area_fk200\": \"81055689^03^20220101^20220114^DS^                                                                                                                                                                       \",\r\n  \"ctx_area_nk200\": \"                                                                                                                                                                                                        \",\r\n  \"output1\": [\r\n    {\r\n      \"ord_gno_brno\": \"06010\",\r\n      \"cano\": \"810XXXXX\",\r\n      \"csac_name\": \"\",\r\n      \"acnt_prdt_cd\": \"03\",\r\n      \"ord_dt\": \"20220113\",\r\n      \"odno\": \"0000007045\",\r\n      \"orgn_odno\": \"0000000000\",\r\n      \"sll_buy_dvsn_cd\": \"01\",\r\n      \"trad_dvsn_name\": \"HTS SELL\",\r\n      \"nmpr_type_cd\": \"01\",\r\n      \"nmpr_type_name\": \"Limit Order\",\r\n      \"pdno\": \"101S03\",\r\n      \"prdt_name\": \"F 202203\",\r\n      \"prdt_type_cd\": \"301\",\r\n      \"ord_qty\": \"1\",\r\n      \"ord_idx\": \"400.00\",\r\n      \"qty\": \"0\",\r\n      \"ord_tmd\": \"131604\",\r\n      \"tot_ccld_qty\": \"1\",\r\n      \"avg_idx\": \"400.00000000\",\r\n      \"tot_ccld_amt\": \"100000000\",\r\n      \"rjct_qty\": \"0\",\r\n      \"ingr_trad_rjct_rson_cd\": \"00000\",\r\n      \"ingr_trad_rjct_rson_name\": \"NORMAL\",\r\n      \"ord_stfno\": \"Nsmart\",\r\n      \"sprd_item_yn\": \"N\",\r\n      \"ord_ip_addr\": \"P01032651641\"\r\n    },\r\n    {\r\n      \"ord_gno_brno\": \"06010\",\r\n      \"cano\": \"810XXXXX\",\r\n      \"csac_name\": \"\",\r\n      \"acnt_prdt_cd\": \"03\",\r\n      \"ord_dt\": \"20220111\",\r\n      \"odno\": \"0000007006\",\r\n      \"orgn_odno\": \"0000007004\",\r\n      \"sll_buy_dvsn_cd\": \"01\",\r\n      \"trad_dvsn_name\": \"CANCEL CONFIRM\",\r\n      \"nmpr_type_cd\": \"01\",\r\n      \"nmpr_type_name\": \"Limit Order\",\r\n      \"pdno\": \"101S03\",\r\n      \"prdt_name\": \"F 202203\",\r\n      \"prdt_type_cd\": \"301\",\r\n      \"ord_qty\": \"1\",\r\n      \"ord_idx\": \"0.00\",\r\n      \"qty\": \"0\",\r\n      \"ord_tmd\": \"150233\",\r\n      \"tot_ccld_qty\": \"0\",\r\n      \"avg_idx\": \"0.00000000\",\r\n      \"tot_ccld_amt\": \"0\",\r\n      \"rjct_qty\": \"0\",\r\n      \"ingr_trad_rjct_rson_cd\": \"00000\",\r\n      \"ingr_trad_rjct_rson_name\": \"NORMAL\",\r\n      \"ord_stfno\": \"Nsmart\",\r\n      \"sprd_item_yn\": \"N\",\r\n      \"ord_ip_addr\": \"P01032651641\"\r\n    }\r\n  ],\r\n  \"output2\": {\r\n    \"tot_ord_qty\": \"4\",\r\n    \"tot_ccld_amt_smtl\": \"200000000\",\r\n    \"tot_ccld_qty_smtl\": \"2\",\r\n    \"fee_smtl\": \"28570\",\r\n    \"ctac_tlno\": \"01047859775\"\r\n  },\r\n  \"rt_cd\": \"0\",\r\n  \"msg_cd\": \"KIOK0510\",\r\n  \"msg1\": \"조회가 완료되었습니다                                                           \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

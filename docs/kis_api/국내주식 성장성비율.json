@@ -1,0 +1,486 @@
+{
+  "sheet_name": "국내주식 성장성비율",
+  "row_count": 47,
+  "columns": [
+    "국내주식 성장성비율",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 성장성비율": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "API 명",
+      "Column_1": "국내주식 성장성비율",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "API ID",
+      "Column_1": "v1_국내주식-085",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "실전 TR_ID",
+      "Column_1": "FHKST66430800",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/finance/growth-ratio",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "개요",
+      "Column_1": "국내주식 성장성비율 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0635] 재무분석종합 화면의 하단 '7.성장성비율' 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKST66430800",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "Request Query Parameter",
+      "Column_1": "fid_input_iscd",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "ex : 000660",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "fid_div_cls_code",
+      "Column_2": "분류 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0: 년, 1: 분기",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (주식 J)",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "stac_yymm",
+      "Column_2": "결산 년월",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "grs",
+      "Column_2": "매출액 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "124",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "bsop_prfi_inrt",
+      "Column_2": "영업 이익 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "124",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "equt_inrt",
+      "Column_2": "자기자본 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": null,
+      "Column_1": "totl_aset_inrt",
+      "Column_2": "총자산 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_input_iscd\":\"005930\",\r\n\"fid_div_cls_code\":\"1\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 성장성비율": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stac_yymm\": \"202312\",\r\n            \"grs\": \"-14.33\",\r\n            \"bsop_prfi_inrt\": \"-84.86\",\r\n            \"equt_inrt\": \"2.52\",\r\n            \"totl_aset_inrt\": \"1.67\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202309\",\r\n            \"grs\": \"-17.52\",\r\n            \"bsop_prfi_inrt\": \"-90.42\",\r\n            \"equt_inrt\": \"5.50\",\r\n            \"totl_aset_inrt\": \"-3.36\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202306\",\r\n            \"grs\": \"-20.15\",\r\n            \"bsop_prfi_inrt\": \"-95.36\",\r\n            \"equt_inrt\": \"9.47\",\r\n            \"totl_aset_inrt\": \"-0.01\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202303\",\r\n            \"grs\": \"-18.05\",\r\n            \"bsop_prfi_inrt\": \"-95.47\",\r\n            \"equt_inrt\": \"14.12\",\r\n            \"totl_aset_inrt\": \"3.36\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202212\",\r\n            \"grs\": \"8.09\",\r\n            \"bsop_prfi_inrt\": \"-15.99\",\r\n            \"equt_inrt\": \"16.35\",\r\n            \"totl_aset_inrt\": \"5.11\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202209\",\r\n            \"grs\": \"14.15\",\r\n            \"bsop_prfi_inrt\": \"3.45\",\r\n            \"equt_inrt\": \"16.22\",\r\n            \"totl_aset_inrt\": \"14.58\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202206\",\r\n            \"grs\": \"20.09\",\r\n            \"bsop_prfi_inrt\": \"28.56\",\r\n            \"equt_inrt\": \"16.15\",\r\n            \"totl_aset_inrt\": \"16.44\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202203\",\r\n            \"grs\": \"18.95\",\r\n            \"bsop_prfi_inrt\": \"50.50\",\r\n            \"equt_inrt\": \"14.96\",\r\n            \"totl_aset_inrt\": \"11.84\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202112\",\r\n            \"grs\": \"18.07\",\r\n            \"bsop_prfi_inrt\": \"43.45\",\r\n            \"equt_inrt\": \"10.49\",\r\n            \"totl_aset_inrt\": \"12.79\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202109\",\r\n            \"grs\": \"15.85\",\r\n            \"bsop_prfi_inrt\": \"40.15\",\r\n            \"equt_inrt\": \"7.47\",\r\n            \"totl_aset_inrt\": \"9.22\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202106\",\r\n            \"grs\": \"19.18\",\r\n            \"bsop_prfi_inrt\": \"50.41\",\r\n            \"equt_inrt\": \"4.64\",\r\n            \"totl_aset_inrt\": \"7.49\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202103\",\r\n            \"grs\": \"18.19\",\r\n            \"bsop_prfi_inrt\": \"45.53\",\r\n            \"equt_inrt\": \"2.96\",\r\n            \"totl_aset_inrt\": \"9.89\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202012\",\r\n            \"grs\": \"2.78\",\r\n            \"bsop_prfi_inrt\": \"29.62\",\r\n            \"equt_inrt\": \"4.97\",\r\n            \"totl_aset_inrt\": \"7.28\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202009\",\r\n            \"grs\": \"2.78\",\r\n            \"bsop_prfi_inrt\": \"30.76\",\r\n            \"equt_inrt\": \"4.82\",\r\n            \"totl_aset_inrt\": \"6.34\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202006\",\r\n            \"grs\": \"-0.20\",\r\n            \"bsop_prfi_inrt\": \"13.74\",\r\n            \"equt_inrt\": \"4.68\",\r\n            \"totl_aset_inrt\": \"4.38\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202003\",\r\n            \"grs\": \"5.61\",\r\n            \"bsop_prfi_inrt\": \"3.43\",\r\n            \"equt_inrt\": \"5.20\",\r\n            \"totl_aset_inrt\": \"3.59\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201912\",\r\n            \"grs\": \"-5.48\",\r\n            \"bsop_prfi_inrt\": \"-52.84\",\r\n            \"equt_inrt\": \"6.11\",\r\n            \"totl_aset_inrt\": \"3.89\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201909\",\r\n            \"grs\": \"-7.58\",\r\n            \"bsop_prfi_inrt\": \"-57.14\",\r\n            \"equt_inrt\": \"8.81\",\r\n            \"totl_aset_inrt\": \"4.80\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201906\",\r\n            \"grs\": \"-8.85\",\r\n            \"bsop_prfi_inrt\": \"-57.95\",\r\n            \"equt_inrt\": \"10.56\",\r\n            \"totl_aset_inrt\": \"7.61\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201903\",\r\n            \"grs\": \"-13.50\",\r\n            \"bsop_prfi_inrt\": \"-60.15\",\r\n            \"equt_inrt\": \"13.42\",\r\n            \"totl_aset_inrt\": \"10.43\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201812\",\r\n            \"grs\": \"1.75\",\r\n            \"bsop_prfi_inrt\": \"9.77\",\r\n            \"equt_inrt\": \"15.51\",\r\n            \"totl_aset_inrt\": \"12.46\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201809\",\r\n            \"grs\": \"6.28\",\r\n            \"bsop_prfi_inrt\": \"24.91\",\r\n            \"equt_inrt\": \"14.91\",\r\n            \"totl_aset_inrt\": \"13.70\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201806\",\r\n            \"grs\": \"6.72\",\r\n            \"bsop_prfi_inrt\": \"27.32\",\r\n            \"equt_inrt\": \"16.15\",\r\n            \"totl_aset_inrt\": \"14.81\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201803\",\r\n            \"grs\": \"19.82\",\r\n            \"bsop_prfi_inrt\": \"58.03\",\r\n            \"equt_inrt\": \"17.62\",\r\n            \"totl_aset_inrt\": \"18.26\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201712\",\r\n            \"grs\": \"18.68\",\r\n            \"bsop_prfi_inrt\": \"83.46\",\r\n            \"equt_inrt\": \"11.16\",\r\n            \"totl_aset_inrt\": \"15.10\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201709\",\r\n            \"grs\": \"16.87\",\r\n            \"bsop_prfi_inrt\": \"92.30\",\r\n            \"equt_inrt\": \"17.35\",\r\n            \"totl_aset_inrt\": \"21.31\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201706\",\r\n            \"grs\": \"10.75\",\r\n            \"bsop_prfi_inrt\": \"61.71\",\r\n            \"equt_inrt\": \"10.37\",\r\n            \"totl_aset_inrt\": \"13.78\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201703\",\r\n            \"grs\": \"1.54\",\r\n            \"bsop_prfi_inrt\": \"48.27\",\r\n            \"equt_inrt\": \"6.44\",\r\n            \"totl_aset_inrt\": \"9.52\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201612\",\r\n            \"grs\": \"0.60\",\r\n            \"bsop_prfi_inrt\": \"10.70\",\r\n            \"equt_inrt\": \"7.76\",\r\n            \"totl_aset_inrt\": \"8.26\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201609\",\r\n            \"grs\": \"0.81\",\r\n            \"bsop_prfi_inrt\": \"-1.24\",\r\n            \"equt_inrt\": \"-0.66\",\r\n            \"totl_aset_inrt\": \"-0.85\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

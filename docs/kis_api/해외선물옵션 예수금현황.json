@@ -1,0 +1,696 @@
+{
+  "sheet_name": "해외선물옵션 예수금현황",
+  "row_count": 68,
+  "columns": [
+    "해외선물옵션 예수금현황",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외선물옵션 예수금현황": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "메뉴 위치",
+      "Column_1": "[해외선물옵션] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "API 명",
+      "Column_1": "해외선물옵션 예수금현황",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "API ID",
+      "Column_1": "해외선물-012",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "실전 TR_ID",
+      "Column_1": "OTFM1411R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "URL 명",
+      "Column_1": "/uapi/overseas-futureoption/v1/trading/inquire-deposit",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "개요",
+      "Column_1": "해외선물옵션 예수금현황 API입니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)\r\n\r\n※ 토큰 지정시 토큰 타입(\"Bearer\") 지정 필요. 즉, 발급받은 접근토큰 앞에 앞에 \"Bearer\" 붙여서 호출\r\nEX) \"Bearer eyJ..........8GA\"",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "OTFM1411R",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "CRCY_CD",
+      "Column_2": "통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "TUS: TOT_USD  / TKR: TOT_KRW\r\nKRW: 한국  / USD: 미국\r\nEUR: EUR   / HKD: 홍콩\r\nCNY: 중국  / JPY: 일본\r\nVND: 베트남",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "INQR_DT",
+      "Column_2": "조회일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "output",
+      "Column_2": "응답상세1",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_nxdy_dncl_amt",
+      "Column_2": "FM익일예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_tot_asst_evlu_amt",
+      "Column_2": "FM총자산평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "cano",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "acnt_prdt_cd",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "crcy_cd",
+      "Column_2": "통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "resp_dt",
+      "Column_2": "응답일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_dnca_rmnd",
+      "Column_2": "FM예수금잔액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_lqd_pfls_amt",
+      "Column_2": "FM청산손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_fee",
+      "Column_2": "FM수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_fuop_evlu_pfls_amt",
+      "Column_2": "FM선물옵션평가손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_rcvb_amt",
+      "Column_2": "FM미수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_brkg_mgn_amt",
+      "Column_2": "FM위탁증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_mntn_mgn_amt",
+      "Column_2": "FM유지증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_add_mgn_amt",
+      "Column_2": "FM추가증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_risk_rt",
+      "Column_2": "FM위험율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_ord_psbl_amt",
+      "Column_2": "FM주문가능금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_drwg_psbl_amt",
+      "Column_2": "FM출금가능금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_echm_rqrm_amt",
+      "Column_2": "FM환전요청금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_drwg_prar_amt",
+      "Column_2": "FM출금예정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_opt_tr_chgs",
+      "Column_2": "FM옵션거래대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_opt_icld_asst_evlu_amt",
+      "Column_2": "FM옵션포함자산평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_opt_evlu_amt",
+      "Column_2": "FM옵션평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_crcy_sbst_amt",
+      "Column_2": "FM통화대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_crcy_sbst_use_amt",
+      "Column_2": "FM통화대용사용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": null,
+      "Column_1": "fm_crcy_sbst_stup_amt",
+      "Column_2": "FM통화대용설정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\":\"80012345\",\r\n\t\"ACNT_PRDT_CD\":\"08\",\r\n\t\"CRCY_CD\":\":\"KRW\",\r\n\t\"INQR_DT\":\"20221214\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 예수금현황": "Response Example",
+      "Column_1": "{\r\n    \"output\": {\r\n        \"cano\": \"81012345\",\r\n        \"acnt_prdt_cd\": \"08\",\r\n        \"crcy_cd\": \"KRW\",\r\n        \"resp_dt\": \"20230104\",\r\n        \"fm_dnca_rmnd\": \"9990000012\",\r\n        \"fm_lqd_pfls_amt\": \"0\",\r\n        \"fm_fee\": \"0\",\r\n        \"fm_nxdy_dncl_amt\": \"9990000012\",\r\n        \"fm_tot_asst_evlu_amt\": \"9990000012\",\r\n        \"fm_fuop_evlu_pfls_amt\": \"0\",\r\n        \"fm_rcvb_amt\": \"0\",\r\n        \"fm_brkg_mgn_amt\": \"0\",\r\n        \"fm_mntn_mgn_amt\": \"0\",\r\n        \"fm_add_mgn_amt\": \"0\",\r\n        \"fm_risk_rt\": \"0.00\",\r\n        \"fm_ord_psbl_amt\": \"9718323936\",\r\n        \"fm_drwg_psbl_amt\": \"9704739489\",\r\n        \"fm_echm_rqrm_amt\": \"0\",\r\n        \"fm_drwg_prar_amt\": \"0\",\r\n        \"fm_opt_tr_chgs\": \"0\",\r\n        \"fm_opt_icld_asst_evlu_amt\": \"9990000012\",\r\n        \"fm_opt_evlu_amt\": \"0\",\r\n        \"fm_crcy_sbst_amt\": \"0\",\r\n        \"fm_crcy_sbst_use_amt\": \"0\",\r\n        \"fm_crcy_sbst_stup_amt\": \"0\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0510\",\r\n    \"msg1\": \"조회가 완료되었습니다                                                           \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

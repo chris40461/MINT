@@ -1,0 +1,726 @@
+{
+  "sheet_name": "선물옵션 총자산현황",
+  "row_count": 71,
+  "columns": [
+    "선물옵션 총자산현황",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "선물옵션 총자산현황": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "메뉴 위치",
+      "Column_1": "[국내선물옵션] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "API 명",
+      "Column_1": "선물옵션 총자산현황",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "API ID",
+      "Column_1": "v1_국내선물-014",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "실전 TR_ID",
+      "Column_1": "CTRP6550R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "URL 명",
+      "Column_1": "/uapi/domestic-futureoption/v1/trading/inquire-deposit",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "개요",
+      "Column_1": "선물옵션 총자산현황 API 입니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTRP6550R",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "dnca_tota",
+      "Column_2": "예수금총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "bfdy_chck_amt",
+      "Column_2": "전일수표금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "thdt_chck_amt",
+      "Column_2": "당일수표금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "rlth_uwdl_dpos_amt",
+      "Column_2": "실물인수도예치금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "brkg_mgna_cash",
+      "Column_2": "위탁증거금현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "wdrw_psbl_tot_amt",
+      "Column_2": "인출가능총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "ord_psbl_cash",
+      "Column_2": "주문가능현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "ord_psbl_tota",
+      "Column_2": "주문가능총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "dnca_sbst",
+      "Column_2": "예수금대용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "scts_sbst_amt",
+      "Column_2": "유가증권대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "frcr_evlu_amt",
+      "Column_2": "외화평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "brkg_mgna_sbst",
+      "Column_2": "위탁증거금대용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "sbst_rlse_psbl_amt",
+      "Column_2": "대용해제가능금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "mtnc_rt",
+      "Column_2": "유지비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "add_mgna_tota",
+      "Column_2": "추가증거금총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "add_mgna_cash",
+      "Column_2": "추가증거금현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "rcva",
+      "Column_2": "미수금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "futr_trad_pfls",
+      "Column_2": "선물매매손익",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "opt_trad_pfls_amt",
+      "Column_2": "옵션매매손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "trad_pfls_smtl",
+      "Column_2": "매매손익합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "futr_evlu_pfls_amt",
+      "Column_2": "선물평가손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "opt_evlu_pfls_amt",
+      "Column_2": "옵션평가손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "evlu_pfls_smtl",
+      "Column_2": "평가손익합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "excc_dfpa",
+      "Column_2": "정산차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "opt_dfpa",
+      "Column_2": "옵션차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "brkg_fee",
+      "Column_2": "위탁수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "nxdy_dnca",
+      "Column_2": "익일예수금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "prsm_dpast_amt",
+      "Column_2": "추정예탁자산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "cash_mntn_amt",
+      "Column_2": "현금유지금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": null,
+      "Column_1": "hack_acdt_acnt_move_amt",
+      "Column_2": "해킹사고계좌이전금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\":\"12345678\",\r\n\t\"ACNT_PRDT_CD\":\"03\",\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 총자산현황": "Response Example",
+      "Column_1": "{\r\n    \"output\": {\r\n        \"dnca_tota\": \"100000000\",\r\n        \"bfdy_chck_amt\": \"0\",\r\n        \"thdt_chck_amt\": \"0\",\r\n        \"rlth_uwdl_dpos_amt\": \"0\",\r\n        \"brkg_mgna_cash\": \"17907612\",\r\n        \"wdrw_psbl_tot_amt\": \"34046775\",\r\n        \"ord_psbl_cash\": \"64184775\",\r\n        \"ord_psbl_tota\": \"64184775\",\r\n        \"dnca_sbst\": \"0\",\r\n        \"scts_sbst_amt\": \"0\",\r\n        \"frcr_evlu_amt\": \"0\",\r\n        \"brkg_mgna_sbst\": \"17907613\",\r\n        \"sbst_rlse_psbl_amt\": \"0\",\r\n        \"mtnc_rt\": \"418.23000000\",\r\n        \"add_mgna_tota\": \"0\",\r\n        \"add_mgna_cash\": \"0\",\r\n        \"rcva\": \"0\",\r\n        \"futr_trad_pfls\": \"0\",\r\n        \"opt_trad_pfls_amt\": \"0\",\r\n        \"trad_pfls_smtl\": \"0\",\r\n        \"futr_evlu_pfls_amt\": \"4187500\",\r\n        \"opt_evlu_pfls_amt\": \"-697500\",\r\n        \"evlu_pfls_smtl\": \"3490000\",\r\n        \"excc_dfpa\": \"-30138000\",\r\n        \"opt_dfpa\": \"0\",\r\n        \"brkg_fee\": \"0\",\r\n        \"nxdy_dnca\": \"69862000\",\r\n        \"prsm_dpast_amt\": \"69864500\",\r\n        \"cash_mntn_amt\": \"0\",\r\n        \"hack_acdt_acnt_move_amt\": \"0\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"APRP0126\",\r\n    \"msg1\": \"조회이(가) 완료되었습니다.                                                      \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "sheet_name": "예탁원정보(배당일정)",
+  "row_count": 58,
+  "columns": [
+    "예탁원정보(배당일정)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "예탁원정보(배당일정)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "API 명",
+      "Column_1": "예탁원정보(배당일정)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "API ID",
+      "Column_1": "국내주식-145",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "실전 TR_ID",
+      "Column_1": "HHKDB669102C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ksdinfo/dividend",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "개요",
+      "Column_1": "예탁원정보(배당일정) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0658] 배당 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 예탁원에서 제공한 자료이므로 정보용으로만 사용하시기 바랍니다.\r\n'주식배당지급일'은 배당주식의 주식교부일자를 말합니다. 배당주식의 계좌입고는 배당주식 상장일인데 일반적으로 주권교부일의 익영업일입니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHKDB669102C0",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "Request Query Parameter",
+      "Column_1": "CTS",
+      "Column_2": "CTS",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "GB1",
+      "Column_2": "조회구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0:배당전체, 1:결산배당, 2:중간배당",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "F_DT",
+      "Column_2": "조회일자From",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "T_DT",
+      "Column_2": "조회일자To",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "SHT_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "공백: 전체,  특정종목 조회시 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "HIGH_GB",
+      "Column_2": "고배당여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "record_date",
+      "Column_2": "기준일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "sht_cd",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "isin_name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "divi_kind",
+      "Column_2": "배당종류",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "face_val",
+      "Column_2": "액면가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "per_sto_divi_amt",
+      "Column_2": "현금배당금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "divi_rate",
+      "Column_2": "현금배당률(%)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "62",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "stk_divi_rate",
+      "Column_2": "주식배당률(%)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "152",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "divi_pay_dt",
+      "Column_2": "배당금지급일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "stk_div_pay_dt",
+      "Column_2": "주식배당지급일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "odd_pay_dt",
+      "Column_2": "단주대금지급일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "stk_kind",
+      "Column_2": "주식종류",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": null,
+      "Column_1": "high_divi_gb",
+      "Column_2": "고배당종목여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "Request Example (Python)",
+      "Column_1": "cts:\r\ngb1:0\r\nf_dt:20230301\r\nt_dt:20240326\r\nsht_cd:\r\nhigh_gb:0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(배당일정)": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"record_date\": \"20240326\",\r\n            \"sht_cd\": \"000720\",\r\n            \"isin_name\": \"현대건설\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000600\",\r\n            \"divi_rate\": \" 12.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240326\",\r\n            \"sht_cd\": \"000725\",\r\n            \"isin_name\": \"현대건설1우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000650\",\r\n            \"divi_rate\": \" 13.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240326\",\r\n            \"sht_cd\": \"003540\",\r\n            \"isin_name\": \"대신증권\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000001200\",\r\n            \"divi_rate\": \" 24.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/16\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240326\",\r\n            \"sht_cd\": \"003545\",\r\n            \"isin_name\": \"대신증권1우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000001250\",\r\n            \"divi_rate\": \" 25.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/16\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240326\",\r\n            \"sht_cd\": \"003547\",\r\n            \"isin_name\": \"대신증권2우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000001200\",\r\n            \"divi_rate\": \" 24.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/16\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240326\",\r\n            \"sht_cd\": \"012510\",\r\n            \"isin_name\": \"더존비즈온\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000217\",\r\n            \"divi_rate\": \" 43.40\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/15\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240326\",\r\n            \"sht_cd\": \"01251K\",\r\n            \"isin_name\": \"더존비즈온2우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000004861\",\r\n            \"divi_rate\": \"972.20\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/15\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240325\",\r\n            \"sht_cd\": \"012330\",\r\n            \"isin_name\": \"현대모비스\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000003500\",\r\n            \"divi_rate\": \" 70.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240325\",\r\n            \"sht_cd\": \"012335\",\r\n            \"isin_name\": \"현대모비스1우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000003550\",\r\n            \"divi_rate\": \" 71.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240322\",\r\n            \"sht_cd\": \"030210\",\r\n            \"isin_name\": \"다올투자증권\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000150\",\r\n            \"divi_rate\": \"  3.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/09\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240322\",\r\n            \"sht_cd\": \"03021K\",\r\n            \"isin_name\": \"다올투자증권3우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000356\",\r\n            \"divi_rate\": \"  7.14\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/09\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"3우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240322\",\r\n            \"sht_cd\": \"03021L\",\r\n            \"isin_name\": \"다올투자증권4우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000295\",\r\n            \"divi_rate\": \"  5.91\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/09\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"4우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240321\",\r\n            \"sht_cd\": \"006840\",\r\n            \"isin_name\": \"에이케이홀딩스\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000200\",\r\n            \"divi_rate\": \"  4.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240321\",\r\n            \"sht_cd\": \"014680\",\r\n            \"isin_name\": \"한솔케미칼\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000002100\",\r\n            \"divi_rate\": \" 42.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/08\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240321\",\r\n            \"sht_cd\": \"380440\",\r\n            \"isin_name\": \"엔에이치기업인수목적19호\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000000\",\r\n            \"divi_rate\": \"  0.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240320\",\r\n            \"sht_cd\": \"000270\",\r\n            \"isin_name\": \"기아\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000005600\",\r\n            \"divi_rate\": \"112.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/15\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240320\",\r\n            \"sht_cd\": \"276970\",\r\n            \"isin_name\": \"삼성KODEX 미국S&P500배당귀족커버드콜증권\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000130\",\r\n            \"divi_rate\": \"  1.30\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/22\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"012690\",\r\n            \"isin_name\": \"모나리자\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000050\",\r\n            \"divi_rate\": \" 10.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/11\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"474220\",\r\n            \"isin_name\": \"미래에셋TIGER미국테크TOP10+10%프리미엄증\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000092\",\r\n            \"divi_rate\": \"  0.92\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/19\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240311\",\r\n            \"sht_cd\": \"028100\",\r\n            \"isin_name\": \"동아지질\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000500\",\r\n            \"divi_rate\": \"100.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240311\",\r\n            \"sht_cd\": \"267790\",\r\n            \"isin_name\": \"배럴\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000050\",\r\n            \"divi_rate\": \" 10.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/16\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240311\",\r\n            \"sht_cd\": \"26779L\",\r\n            \"isin_name\": \"배럴 2우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000112\",\r\n            \"divi_rate\": \" 22.40\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/16\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"114100\",\r\n            \"isin_name\": \"KB KBSTAR 국고채3년 증권 상장지수 투자신\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000720\",\r\n            \"divi_rate\": \"  0.70\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"114460\",\r\n            \"isin_name\": \"한국투자ACE국고채증권상장지수투자신탁(채\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000580\",\r\n            \"divi_rate\": \"  0.56\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"114470\",\r\n            \"isin_name\": \"키움 KOSEF 국고채 상장지수증권투자신탁[\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000580\",\r\n            \"divi_rate\": \"  0.57\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/13\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"114820\",\r\n            \"isin_name\": \"미래에셋TIGER국채3증권상장지수투자신탁(\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000518\",\r\n            \"divi_rate\": \"  0.50\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"346000\",\r\n            \"isin_name\": \"NH-Amundi HANARO KAP 초장기국고채 증권 \",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000354\",\r\n            \"divi_rate\": \"  0.71\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"385560\",\r\n            \"isin_name\": \"KB KBSTAR KIS국고채30년Enhanced 증권 상\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000001570\",\r\n            \"divi_rate\": \"  1.57\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"464230\",\r\n            \"isin_name\": \"키움히어로즈24-09회사채(AA-이상)액티브증\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000300\",\r\n            \"divi_rate\": \"  0.60\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/13\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"464240\",\r\n            \"isin_name\": \"키움히어로즈26-09회사채(AA-이상)액티브증\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000300\",\r\n            \"divi_rate\": \"  0.60\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/13\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"467620\",\r\n            \"isin_name\": \"키움히어로즈25-09미국달러채권(AA-이상)액\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000200\",\r\n            \"divi_rate\": \"  0.40\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/13\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240307\",\r\n            \"sht_cd\": \"042700\",\r\n            \"isin_name\": \"한미반도체\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000100\",\r\n            \"per_sto_divi_amt\": \"000000000420\",\r\n            \"divi_rate\": \"420.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/29\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240306\",\r\n            \"sht_cd\": \"004310\",\r\n            \"isin_name\": \"현대약품\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000035\",\r\n            \"divi_rate\": \"  7.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/27\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240305\",\r\n            \"sht_cd\": \"152550\",\r\n            \"isin_name\": \"한국투자ANKOR유전해외자원개발특별자산투\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000000\",\r\n            \"divi_rate\": \"  0.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240305\",\r\n            \"sht_cd\": \"377630\",\r\n            \"isin_name\": \"삼성기업인수목적4호\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000100\",\r\n            \"per_sto_divi_amt\": \"000000000000\",\r\n            \"divi_rate\": \"2079.0\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240301\",\r\n            \"sht_cd\": \"002900\",\r\n            \"isin_name\": \"티와이엠\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000002500\",\r\n            \"per_sto_divi_amt\": \"000000000110\",\r\n            \"divi_rate\": \"  4.40\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/19\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240301\",\r\n            \"sht_cd\": \"084870\",\r\n            \"isin_name\": \"티비에이치글로벌\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000050\",\r\n            \"divi_rate\": \" 10.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"002380\",\r\n            \"isin_name\": \"케이씨씨\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000007000\",\r\n            \"divi_rate\": \"140.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"005380\",\r\n            \"isin_name\": \"현대자동차\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000008400\",\r\n            \"divi_rate\": \"168.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/19\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"005385\",\r\n            \"isin_name\": \"현대자동차1우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000008450\",\r\n            \"divi_rate\": \"169.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/19\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"005387\",\r\n            \"isin_name\": \"현대자동차2우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000008500\",\r\n            \"divi_rate\": \"170.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/19\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"005389\",\r\n            \"isin_name\": \"현대자동차3우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000008450\",\r\n            \"divi_rate\": \"169.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/19\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"3우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"005490\",\r\n            \"isin_name\": \"포스코홀딩스\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000002500\",\r\n            \"divi_rate\": \" 50.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"007340\",\r\n            \"isin_name\": \"디엔오토모티브\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000002500\",\r\n            \"divi_rate\": \"500.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"035720\",\r\n            \"isin_name\": \"카카오\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000100\",\r\n            \"per_sto_divi_amt\": \"000000000061\",\r\n            \"divi_rate\": \" 61.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"092870\",\r\n            \"isin_name\": \"엑시콘\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000100\",\r\n            \"divi_rate\": \" 20.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/16\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"097950\",\r\n            \"isin_name\": \"씨제이제일제당\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000002500\",\r\n            \"divi_rate\": \" 50.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"097955\",\r\n            \"isin_name\": \"씨제이제일제당1우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000002550\",\r\n            \"divi_rate\": \" 51.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"105560\",\r\n            \"isin_name\": \"KB금융지주\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000001530\",\r\n            \"divi_rate\": \" 30.60\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/11\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"136340\",\r\n            \"isin_name\": \"KB KBSTAR 중기우량회사채 증권 상장지수 \",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000370\",\r\n            \"divi_rate\": \"  0.37\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"138930\",\r\n            \"isin_name\": \"BNK금융지주\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000410\",\r\n            \"divi_rate\": \"  8.20\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"139130\",\r\n            \"isin_name\": \"DGB금융지주\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000550\",\r\n            \"divi_rate\": \" 11.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"148150\",\r\n            \"isin_name\": \"세경하이테크\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000100\",\r\n            \"divi_rate\": \" 20.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"14815K\",\r\n            \"isin_name\": \"세경하이테크1우\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000180\",\r\n            \"divi_rate\": \" 36.17\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/12\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"우선\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"166400\",\r\n            \"isin_name\": \"미래에셋 TIGER 200커버드콜5%OTM 증권상장\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000060\",\r\n            \"divi_rate\": \"  0.60\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"175330\",\r\n            \"isin_name\": \"JB금융지주\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000735\",\r\n            \"divi_rate\": \" 14.70\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"182480\",\r\n            \"isin_name\": \"미래에셋TIGERMSCIUS리츠부동산상장지수투\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000040\",\r\n            \"divi_rate\": \"  0.40\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"245340\",\r\n            \"isin_name\": \"미래에셋TIGER미국다우존스30증권상장지수\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000020\",\r\n            \"divi_rate\": \"  0.20\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"246250\",\r\n            \"isin_name\": \"에스엘에스바이오\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000000050\",\r\n            \"divi_rate\": \" 10.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/15\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"251600\",\r\n            \"isin_name\": \"한화ARIRANG고배당주채권혼합증권상장지수\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000030\",\r\n            \"divi_rate\": \"  0.30\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"271830\",\r\n            \"isin_name\": \"팸텍\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000100\",\r\n            \"per_sto_divi_amt\": \"000000000030\",\r\n            \"divi_rate\": \" 30.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/19\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"282690\",\r\n            \"isin_name\": \"동아타이어공업(신설)\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000000500\",\r\n            \"per_sto_divi_amt\": \"000000001000\",\r\n            \"divi_rate\": \"200.00\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"289480\",\r\n            \"isin_name\": \"미래에셋TIGER200커버드콜ATM증권상장지수\",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000062\",\r\n            \"divi_rate\": \"  0.62\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"290080\",\r\n            \"isin_name\": \"KB KBSTAR 200 고배당 커버드콜 ATM 증권 \",\r\n            \"divi_kind\": \"\",\r\n            \"face_val\": \"000000000\",\r\n            \"per_sto_divi_amt\": \"000000000053\",\r\n            \"divi_rate\": \"  0.53\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/03/05\",\r\n            \"stk_div_pay_dt\": \"\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"stk_kind\": \"보통\",\r\n            \"high_divi_gb\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"316140\",\r\n            \"isin_name\": \"우리금융지주\",\r\n            \"divi_kind\": \"결산\",\r\n            \"face_val\": \"000005000\",\r\n            \"per_sto_divi_amt\": \"000000000640\",\r\n            \"divi_rate\": \" 12.80\",\r\n            \"stk_divi_rate\": \"  0.00\",\r\n            \"divi_pay_dt\": \"2024/04/09\",\r\n            \"stk_div_pay_dt\": \"\",\r\n        ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

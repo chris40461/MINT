@@ -1,0 +1,566 @@
+{
+  "sheet_name": "해외주식 권리종합",
+  "row_count": 55,
+  "columns": [
+    "해외주식 권리종합",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 권리종합": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "메뉴 위치",
+      "Column_1": "[해외주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "API 명",
+      "Column_1": "해외주식 권리종합",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "API ID",
+      "Column_1": "해외주식-050",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "실전 TR_ID",
+      "Column_1": "HHDFS78330900",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "URL 명",
+      "Column_1": "/uapi/overseas-price/v1/quotations/rights-by-ice",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "개요",
+      "Column_1": "해외주식 권리종합 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [7833] 해외주식 권리(ICE제공) 화면의 \"전체\" 탭 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 조회기간 기준일 입력시 참고 - 상환: 상환일자, 조기상환: 조기상환일자, 티커변경: 적용일, 그 외: 발표일",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHDFS78330900",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "Request Query Parameter",
+      "Column_1": "NCOD",
+      "Column_2": "국가코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "CN:중국 HK:홍콩 US:미국 JP:일본 VN:베트남",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "SYMB",
+      "Column_2": "심볼",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "종목코드",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "ST_YMD",
+      "Column_2": "일자 시작일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "미입력 시, 오늘-3개월\r\n기간지정 시, 종료일 입력(ex. 20240514)\r\n\r\n※ 조회기간 기준일 입력시 참고\r\n- 상환: 상환일자, 조기상환: 조기상환일자, 티커변경: 적용일, 그 외: 발표일",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "ED_YMD",
+      "Column_2": "일자 종료일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "미입력 시, 오늘+3개월\r\n기간지정 시, 종료일 입력(ex. 20240514)\r\n\r\n※ 조회기간 기준일 입력시 참고\r\n- 상환: 상환일자, 조기상환: 조기상환일자, 티커변경: 적용일, 그 외: 발표일",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "anno_dt",
+      "Column_2": "ICE공시일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "ca_title",
+      "Column_2": "권리유형",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "div_lock_dt",
+      "Column_2": "배당락일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "pay_dt",
+      "Column_2": "지급일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "record_dt",
+      "Column_2": "기준일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "validity_dt",
+      "Column_2": "효력일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "local_end_dt",
+      "Column_2": "현지지시마감일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "lock_dt",
+      "Column_2": "권리락일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "delist_dt",
+      "Column_2": "상장폐지일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "redempt_dt",
+      "Column_2": "상환일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "early_redempt_dt",
+      "Column_2": "조기상환일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": null,
+      "Column_1": "effective_dt",
+      "Column_2": "적용일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "Request Example (Python)",
+      "Column_1": "NCOD:US\r\nSYMB:MAIN\r\nST_YMD:20240214\r\nED_YMD:20240514",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 권리종합": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"anno_dt\": \"20240221\",\r\n            \"ca_title\": \"현금배당\",\r\n            \"div_lock_dt\": \"20240607\",\r\n            \"pay_dt\": \"20240614\",\r\n            \"record_dt\": \"20240607\",\r\n            \"validity_dt\": \"\",\r\n            \"local_end_dt\": \"\",\r\n            \"lock_dt\": \"\",\r\n            \"delist_dt\": \"\",\r\n            \"redempt_dt\": \"\",\r\n            \"early_redempt_dt\": \"\",\r\n            \"effective_dt\": \"\"\r\n        },\r\n        {\r\n            \"anno_dt\": \"20240221\",\r\n            \"ca_title\": \"현금배당\",\r\n            \"div_lock_dt\": \"20240405\",\r\n            \"pay_dt\": \"20240415\",\r\n            \"record_dt\": \"20240408\",\r\n            \"validity_dt\": \"\",\r\n            \"local_end_dt\": \"\",\r\n            \"lock_dt\": \"\",\r\n            \"delist_dt\": \"\",\r\n            \"redempt_dt\": \"\",\r\n            \"early_redempt_dt\": \"\",\r\n            \"effective_dt\": \"\"\r\n        },\r\n        {\r\n            \"anno_dt\": \"20240221\",\r\n            \"ca_title\": \"현금배당\",\r\n            \"div_lock_dt\": \"20240507\",\r\n            \"pay_dt\": \"20240515\",\r\n            \"record_dt\": \"20240508\",\r\n            \"validity_dt\": \"\",\r\n            \"local_end_dt\": \"\",\r\n            \"lock_dt\": \"\",\r\n            \"delist_dt\": \"\",\r\n            \"redempt_dt\": \"\",\r\n            \"early_redempt_dt\": \"\",\r\n            \"effective_dt\": \"\"\r\n        },\r\n        {\r\n            \"anno_dt\": \"20240507\",\r\n            \"ca_title\": \"현금배당\",\r\n            \"div_lock_dt\": \"20240808\",\r\n            \"pay_dt\": \"20240815\",\r\n            \"record_dt\": \"20240808\",\r\n            \"validity_dt\": \"\",\r\n            \"local_end_dt\": \"\",\r\n            \"lock_dt\": \"\",\r\n            \"delist_dt\": \"\",\r\n            \"redempt_dt\": \"\",\r\n            \"early_redempt_dt\": \"\",\r\n            \"effective_dt\": \"\"\r\n        },\r\n        {\r\n            \"anno_dt\": \"20240507\",\r\n            \"ca_title\": \"현금배당\",\r\n            \"div_lock_dt\": \"20240708\",\r\n            \"pay_dt\": \"20240715\",\r\n            \"record_dt\": \"20240708\",\r\n            \"validity_dt\": \"\",\r\n            \"local_end_dt\": \"\",\r\n            \"lock_dt\": \"\",\r\n            \"delist_dt\": \"\",\r\n            \"redempt_dt\": \"\",\r\n            \"early_redempt_dt\": \"\",\r\n            \"effective_dt\": \"\"\r\n        },\r\n        {\r\n            \"anno_dt\": \"20240507\",\r\n            \"ca_title\": \"현금배당\",\r\n            \"div_lock_dt\": \"20240906\",\r\n            \"pay_dt\": \"20240913\",\r\n            \"record_dt\": \"20240906\",\r\n            \"validity_dt\": \"\",\r\n            \"local_end_dt\": \"\",\r\n            \"lock_dt\": \"\",\r\n            \"delist_dt\": \"\",\r\n            \"redempt_dt\": \"\",\r\n            \"early_redempt_dt\": \"\",\r\n            \"effective_dt\": \"\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

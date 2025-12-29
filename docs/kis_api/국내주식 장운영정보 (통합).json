@@ -1,0 +1,366 @@
+{
+  "sheet_name": "국내주식 장운영정보 (통합)",
+  "row_count": 35,
+  "columns": [
+    "국내주식 장운영정보 (통합)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 장운영정보 (통합)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "메뉴 위치",
+      "Column_1": "[국내주식] 실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "API 명",
+      "Column_1": "국내주식 장운영정보 (통합)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "API ID",
+      "Column_1": "국내주식 장운영정보 (통합)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "실전 TR_ID",
+      "Column_1": "H0UNMKO0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "URL 명",
+      "Column_1": "/tryitout/H0UNMKO0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "개요",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "286",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "tr_type",
+      "Column_2": "거래타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "1 : 등록\r\n2 : 해제",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "H0UNMKO0 : 국내주식 장운영정보 (통합)",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "tr_key",
+      "Column_2": "구분값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드 (ex 005930 삼성전자)",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "Response Body",
+      "Column_1": "TRHT_YN",
+      "Column_2": "거래정지 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "TR_SUSP_REAS_CNTT",
+      "Column_2": "거래 정지 사유 내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "MKOP_CLS_CODE",
+      "Column_2": "장운영 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "ANTC_MKOP_CLS_CODE",
+      "Column_2": "예상 장운영 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "MRKT_TRTM_CLS_CODE",
+      "Column_2": "임의연장구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "DIVI_APP_CLS_CODE",
+      "Column_2": "동시호가배분처리구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "ISCD_STAT_CLS_CODE",
+      "Column_2": "종목상태구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "VI_CLS_CODE",
+      "Column_2": "VI적용구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "OVTM_VI_CLS_CODE",
+      "Column_2": "시간외단일가VI적용구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": null,
+      "Column_1": "EXCH_CLS_CODE",
+      "Column_2": "거래소 구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "Request Example (Python)",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 장운영정보 (통합)": "Response Example",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

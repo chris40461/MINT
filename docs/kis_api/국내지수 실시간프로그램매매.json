@@ -1,0 +1,1146 @@
+{
+  "sheet_name": "국내지수 실시간프로그램매매",
+  "row_count": 113,
+  "columns": [
+    "국내지수 실시간프로그램매매",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내지수 실시간프로그램매매": "API 통신방식",
+      "Column_1": "WEBSOCKET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "메뉴 위치",
+      "Column_1": "[국내주식] 실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "API 명",
+      "Column_1": "국내지수 실시간프로그램매매",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "API ID",
+      "Column_1": "실시간-028",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "실전 TR_ID",
+      "Column_1": "H0UPPGM0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "URL 명",
+      "Column_1": "/tryitout/H0UPPGM0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "개요",
+      "Column_1": "[참고자료]\r\n실시간시세(웹소켓) 파이썬 샘플코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/blob/main/websocket/python/ws_domestic_overseas_all.py\r\n\r\n실시간시세(웹소켓) API 사용방법에 대한 자세한 설명은 한국투자증권 Wikidocs 참고 부탁드립니다.\r\nhttps://wikidocs.net/book/7847 (국내주식 업데이트 완료, 추후 해외주식·국내선물옵션 업데이트 예정)\r\n\r\n종목코드 마스터파일 파이썬 정제코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/tree/main/stocks_info\r\n\r\n[호출 데이터]\r\n헤더와 바디 값을 합쳐 JSON 형태로 전송합니다.\r\n\r\n[응답 데이터]\r\n1. 정상 등록 여부 (JSON)\r\n- JSON[\"body\"][\"msg1\"] - 정상 응답 시, SUBSCRIBE SUCCESS\r\n- JSON[\"body\"][\"output\"][\"iv\"] - 실시간 결과 복호화에 필요한 AES256 IV (Initialize Vector)\r\n- JSON[\"body\"][\"output\"][\"key\"] - 실시간 결과 복호화에 필요한 AES256 Key\r\n\r\n2. 실시간 결과 응답 ( | 로 구분되는 값)\r\nex) 0|H0STCNT0|004|005930^123929^73100^5^...\r\n- 암호화 유무 : 0 암호화 되지 않은 데이터 / 1 암호화된 데이터\r\n- TR_ID : 등록한 tr_id (ex. H0STCNT0)\r\n- 데이터 건수 : (ex. 001 인 경우 데이터 건수 1건, 004인 경우 데이터 건수 4건)\r\n- 응답 데이터 : 아래 response 데이터 참조 ( ^로 구분됨)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 / P : 개인",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "tr_type",
+      "Column_2": "등록/해제",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "\"1: 등록, 2:해제\"",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "utf-8",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": "H0UPPGM0",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "tr_key",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "업종구분코드",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "Response Body",
+      "Column_1": "BSTP_CLS_CODE",
+      "Column_2": "업종 구분 코드",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "'각 항목사이에는 구분자로 ^ 사용,\r\n모든 데이터타입은 String으로 변환되어 push 처리됨'",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "BSOP_HOUR",
+      "Column_2": "영업 시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SELN_ENTM_CNQN",
+      "Column_2": "차익 매도 위탁 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SELN_ONSL_CNQN",
+      "Column_2": "차익 매도 자기 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SHNU_ENTM_CNQN",
+      "Column_2": "차익 매수2 위탁 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SHNU_ONSL_CNQN",
+      "Column_2": "차익 매수2 자기 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SELN_ENTM_CNQN",
+      "Column_2": "비차익 매도 위탁 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SELN_ONSL_CNQN",
+      "Column_2": "비차익 매도 자기 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SHNU_ENTM_CNQN",
+      "Column_2": "비차익 매수2 위탁 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SHNU_ONSL_CNQN",
+      "Column_2": "비차익 매수2 자기 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SELN_ENTM_CNTG_AMT",
+      "Column_2": "차익 매도 위탁 체결 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SELN_ONSL_CNTG_AMT",
+      "Column_2": "차익 매도 자기 체결 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SHNU_ENTM_CNTG_AMT",
+      "Column_2": "차익 매수2 위탁 체결 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SHNU_ONSL_CNTG_AMT",
+      "Column_2": "차익 매수2 자기 체결 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SELN_ENTM_CNTG_AMT",
+      "Column_2": "비차익 매도 위탁 체결 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SELN_ONSL_CNTG_AMT",
+      "Column_2": "비차익 매도 자기 체결 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SHNU_ENTM_CNTG_AMT",
+      "Column_2": "비차익 매수2 위탁 체결 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SHNU_ONSL_CNTG_AMT",
+      "Column_2": "비차익 매수2 자기 체결 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTN_SELN_VOL",
+      "Column_2": "차익 합계 매도 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTM_SELN_VOL_RATE",
+      "Column_2": "차익 합계 매도 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTN_SELN_TR_PBMN",
+      "Column_2": "차익 합계 매도 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTM_SELN_TR_PBMN_RATE",
+      "Column_2": "차익 합계 매도 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTN_SHNU_VOL",
+      "Column_2": "차익 합계 매수2 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTM_SHNU_VOL_RATE",
+      "Column_2": "차익 합계 매수 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTN_SHNU_TR_PBMN",
+      "Column_2": "차익 합계 매수2 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTM_SHNU_TR_PBMN_RATE",
+      "Column_2": "차익 합계 매수 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTN_NTBY_QTY",
+      "Column_2": "차익 합계 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTM_NTBY_QTY_RATE",
+      "Column_2": "차익 합계 순매수 수량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTN_NTBY_TR_PBMN",
+      "Column_2": "차익 합계 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_SMTM_NTBY_TR_PBMN_RATE",
+      "Column_2": "차익 합계 순매수 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTN_SELN_VOL",
+      "Column_2": "비차익 합계 매도 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTM_SELN_VOL_RATE",
+      "Column_2": "비차익 합계 매도 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTN_SELN_TR_PBMN",
+      "Column_2": "비차익 합계 매도 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTM_SELN_TR_PBMN_RATE",
+      "Column_2": "비차익 합계 매도 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTN_SHNU_VOL",
+      "Column_2": "비차익 합계 매수2 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTM_SHNU_VOL_RATE",
+      "Column_2": "비차익 합계 매수 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTN_SHNU_TR_PBMN",
+      "Column_2": "비차익 합계 매수2 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTM_SHNU_TR_PBMN_RATE",
+      "Column_2": "비차익 합계 매수 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTN_NTBY_QTY",
+      "Column_2": "비차익 합계 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTM_NTBY_QTY_RATE",
+      "Column_2": "비차익 합계 순매수 수량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTN_NTBY_TR_PBMN",
+      "Column_2": "비차익 합계 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_SMTM_NTBY_TR_PBMN_RATE",
+      "Column_2": "비차익 합계 순매수 거래대금 비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ENTM_SELN_VOL",
+      "Column_2": "전체 위탁 매도 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ENTM_SELN_VOL_RATE",
+      "Column_2": "위탁 매도 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ENTM_SELN_TR_PBMN",
+      "Column_2": "전체 위탁 매도 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ENTM_SELN_TR_PBMN_RATE",
+      "Column_2": "위탁 매도 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ENTM_SHNU_VOL",
+      "Column_2": "전체 위탁 매수2 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ENTM_SHNU_VOL_RATE",
+      "Column_2": "위탁 매수 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ENTM_SHNU_TR_PBMN",
+      "Column_2": "전체 위탁 매수2 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ENTM_SHNU_TR_PBMN_RATE",
+      "Column_2": "위탁 매수 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ENTM_NTBY_QT",
+      "Column_2": "전체 위탁 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ENTM_NTBY_QTY_RAT",
+      "Column_2": "위탁 순매수 수량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ENTM_NTBY_TR_PBMN",
+      "Column_2": "전체 위탁 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ENTM_NTBY_TR_PBMN_RATE",
+      "Column_2": "위탁 순매수 금액 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ONSL_SELN_VOL",
+      "Column_2": "전체 자기 매도 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ONSL_SELN_VOL_RATE",
+      "Column_2": "자기 매도 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ONSL_SELN_TR_PBMN",
+      "Column_2": "전체 자기 매도 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ONSL_SELN_TR_PBMN_RATE",
+      "Column_2": "자기 매도 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ONSL_SHNU_VOL",
+      "Column_2": "전체 자기 매수2 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ONSL_SHNU_VOL_RATE",
+      "Column_2": "자기 매수 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ONSL_SHNU_TR_PBMN",
+      "Column_2": "전체 자기 매수2 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ONSL_SHNU_TR_PBMN_RATE",
+      "Column_2": "자기 매수 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ONSL_NTBY_QTY",
+      "Column_2": "전체 자기 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ONSL_NTBY_QTY_RATE",
+      "Column_2": "자기 순매수량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_ONSL_NTBY_TR_PBMN",
+      "Column_2": "전체 자기 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ONSL_NTBY_TR_PBMN_RATE",
+      "Column_2": "자기 순매수 대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "TOTAL_SELN_QTY",
+      "Column_2": "총 매도 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_SELN_VOL_RATE",
+      "Column_2": "전체 매도 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "TOTAL_SELN_TR_PBMN",
+      "Column_2": "총 매도 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_SELN_TR_PBMN_RATE",
+      "Column_2": "전체 매도 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "SHNU_CNTG_SMTN",
+      "Column_2": "총 매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_SHUN_VOL_RATE",
+      "Column_2": "전체 매수 거래량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "TOTAL_SHNU_TR_PBMN",
+      "Column_2": "총 매수2 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_SHUN_TR_PBMN_RATE",
+      "Column_2": "전체 매수 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_NTBY_QTY",
+      "Column_2": "전체 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_SMTM_NTBY_QTY_RATE",
+      "Column_2": "전체 합계 순매수 수량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_NTBY_TR_PBMN",
+      "Column_2": "전체 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "WHOL_NTBY_TR_PBMN_RATE",
+      "Column_2": "전체 순매수 거래대금 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_ENTM_NTBY_QTY",
+      "Column_2": "차익 위탁 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_ENTM_NTBY_TR_PBMN",
+      "Column_2": "차익 위탁 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_ONSL_NTBY_QTY",
+      "Column_2": "차익 자기 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ARBT_ONSL_NTBY_TR_PBMN",
+      "Column_2": "차익 자기 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_ENTM_NTBY_QTY",
+      "Column_2": "비차익 위탁 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_ENTM_NTBY_TR_PBMN",
+      "Column_2": "비차익 위탁 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_ONSL_NTBY_QTY",
+      "Column_2": "비차익 자기 순매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "NABT_ONSL_NTBY_TR_PBMN",
+      "Column_2": "비차익 자기 순매수 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ACML_VOL",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": null,
+      "Column_1": "ACML_TR_PBMN",
+      "Column_2": "누적 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "Request Example (Python)",
+      "Column_1": "{\r\n    \"header\": {\r\n        \"approval_key\": \"35xxxxxa-bxxa-4xxb-87xxx-f56xxxxxxxxxx\",\r\n        \"custtype\": \"P\",\r\n        \"tr_type\": \"1\",\r\n        \"content-type\": \"utf-8\"\r\n    },\r\n    \"body\": {\r\n        \"input\": {\r\n            \"tr_id\": \"H0UPPGM0\",\r\n            \"tr_key\": \"0001\"\r\n        }\r\n    }\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내지수 실시간프로그램매매": "Response Example",
+      "Column_1": "# 연결 확인\r\n{\r\n    \"header\": {\r\n        \"tr_id\": \"H0UPPGM0\", \r\n        \"tr_key\": \"0001\", \r\n        \"encrypt\": \"N\"\r\n        }, \r\n    \"body\": {\r\n        \"rt_cd\": \"0\", \r\n        \"msg_cd\": \"OPSP0000\",\r\n        \"msg1\": \"SUBSCRIBE SUCCESS\", \r\n        \"output\": {\r\n            \"iv\": \"0123456789abcdef\", \r\n            \"key\": \"abcdefghijklmnopabcdefghijklmnop\"}\r\n        }\r\n}\r\n\r\n# output\r\n0|H0UPPGM0|001|0001^085913^0^0^0^0^0^0^1^0^0^0^0^0^1^0^10^0^0^0.00^0^0.00^0^\r\n0.00^0^0.00^0^0.00^0^0.00^0^0.00^1^0.00^1^0.00^10^0.00^1^0.00^9^0.00^0^0.00^1^0.00^1^0.00^10^0\r\n.00^1^0.00^9^0.00^0^0.00^0^0.00^0^0.00^0^0.00^0^0.00^0^0.00^0^0.00^1^0.00^1^0.00^10^0.00^1^0.0\r\n0^9^0.00^0^0^0^0^1^9^0^0^0^0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

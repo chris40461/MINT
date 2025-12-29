@@ -1,0 +1,656 @@
+{
+  "sheet_name": "해외옵션 상품기본정보",
+  "row_count": 64,
+  "columns": [
+    "해외옵션 상품기본정보",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외옵션 상품기본정보": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "메뉴 위치",
+      "Column_1": "[해외선물옵션] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "API 명",
+      "Column_1": "해외옵션 상품기본정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "API ID",
+      "Column_1": "해외선물-041",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "실전 TR_ID",
+      "Column_1": "HHDFO55200000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "URL 명",
+      "Column_1": "/uapi/overseas-futureoption/v1/quotations/search-opt-detail",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "개요",
+      "Column_1": "해외옵션 상품기본정보 API입니다.\r\n\r\n(중요) 해외옵션시세 출력값을 해석하실 때 focode.mst(해외지수옵션 종목마스터파일), fostkcode.mst(해외주식옵션 종목마스터파일)에 있는 sCalcDesz(계산 소수점) 값을 활용하셔야 정확한 값을 받아오실 수 있습니다.\r\n\r\n- focode.mst(해외지수옵션 종목마스터파일), (해외주식옵션 종목마스터파일) 다운로드 방법\r\n  1) focode.mst(해외지수옵션 종목마스터파일)\r\n     : 포럼 &gt; FAQ &gt; 종목정보 다운로드(해외) - 해외지수옵션 클릭하여 다운로드 후\r\n       Github의 헤더정보(https://github.com/koreainvestment/open-trading-api/blob/main/stocks_info/해외옵션정보.h)를 참고하여 해석\r\n  2) fostkcode.mst(해외주식옵션 종목마스터파일)\r\n     : 포럼 &gt; FAQ &gt; 종목정보 다운로드(해외) - 해외주식옵션 클릭하여 다운로드 후\r\n       Github의 헤더정보(https://github.com/koreainvestment/open-trading-api/blob/main/stocks_info/해외주식옵션정보.h)를 참고하여 해석\r\n\r\n- 소수점 계산 시, focode.mst(해외지수옵션 종목마스터파일), fostkcode.mst(해외주식옵션 종목마스터파일)의 sCalcDesz(계산 소수점) 값 참고\r\n  EX) focode.mst 파일의 sCalcDesz(계산 소수점) 값\r\n       품목코드 OES 계산소수점 -2 → 시세 7525 수신 시 75.25 로 해석\r\n       품목코드 O6E 계산소수점 -4 → 시세 54.0 수신 시 0.0054 로 해석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHDFO55200000",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "Request Query Parameter",
+      "Column_1": "QRY_CNT",
+      "Column_2": "요청개수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "입력한 코드 개수",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "SRS_CD_01",
+      "Column_2": "종목코드1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "SRS_CD_01부터 차례로 입력(ex ) OESU24 C5500\r\n최대 30개 까지 가능",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "SRS_CD_02...",
+      "Column_2": "종목코드2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "SRS_CD_30",
+      "Column_2": "종목코드30",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "exch_cd",
+      "Column_2": "거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "clas_cd",
+      "Column_2": "품목종류",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "crc_cd",
+      "Column_2": "거래통화",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "sttl_price",
+      "Column_2": "정산가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "정산가\r\n※ focode.mst, fostkcode.mst* 의 sCalcDesz(계산 소수점) 값 참고\r\n* 포럼 > FAQ > 종목정보 다운로드(해외) - 해외지수옵션/해외주식옵션",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "sttl_date",
+      "Column_2": "정산일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "trst_mgn",
+      "Column_2": "증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "disp_digit",
+      "Column_2": "가격표시진법",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "tick_sz",
+      "Column_2": "틱사이즈",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "tick_val",
+      "Column_2": "틱가치",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "mrkt_open_date",
+      "Column_2": "장개시일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "mrkt_open_time",
+      "Column_2": "장개시시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "mrkt_close_date",
+      "Column_2": "장마감일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "mrkt_close_time",
+      "Column_2": "장마감시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "trd_fr_date",
+      "Column_2": "상장일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "expr_date",
+      "Column_2": "만기일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "trd_to_date",
+      "Column_2": "최종거래일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "remn_cnt",
+      "Column_2": "잔존일수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "stat_tp",
+      "Column_2": "매매여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "ctrt_size",
+      "Column_2": "계약크기",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "stl_tp",
+      "Column_2": "최종결제구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": null,
+      "Column_1": "frst_noti_date",
+      "Column_2": "최초식별일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "Request Example (Python)",
+      "Column_1": "QRY_CNT:3\r\nSRS_CD_01:OESU24 C5600\r\nSRS_CD_02:OESU24 C5590\r\nSRS_CD_03:OESU24 C5580",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외옵션 상품기본정보": "Response Example",
+      "Column_1": "{\r\n    \"output2\": [\r\n        {\r\n            \"exch_cd\": \"CME\",\r\n            \"clas_cd\": \"4\",\r\n            \"crc_cd\": \"USD\",\r\n            \"sttl_price\": \"          11000\",\r\n            \"sttl_date\": \"20240826\",\r\n            \"trst_mgn\": \"               7788\",\r\n            \"disp_digit\": \"        10\",\r\n            \"tick_sz\": \"                  0\",\r\n            \"tick_val\": \"                2.5\",\r\n            \"mrkt_open_date\": \"20240826\",\r\n            \"mrkt_open_time\": \"000700\",\r\n            \"mrkt_close_date\": \"20240827\",\r\n            \"mrkt_close_time\": \"000600\",\r\n            \"trd_fr_date\": \"20240610\",\r\n            \"expr_date\": \"20240920\",\r\n            \"trd_to_date\": \"20240920\",\r\n            \"remn_cnt\": \"0026\",\r\n            \"stat_tp\": \"\",\r\n            \"ctrt_size\": \"                 50\",\r\n            \"stl_tp\": \"현금결제\",\r\n            \"frst_noti_date\": \"\"\r\n        },\r\n        {\r\n            \"exch_cd\": \"CME\",\r\n            \"clas_cd\": \"4\",\r\n            \"crc_cd\": \"USD\",\r\n            \"sttl_price\": \"          11675\",\r\n            \"sttl_date\": \"20240826\",\r\n            \"trst_mgn\": \"               7788\",\r\n            \"disp_digit\": \"        10\",\r\n            \"tick_sz\": \"                  0\",\r\n            \"tick_val\": \"                2.5\",\r\n            \"mrkt_open_date\": \"20240826\",\r\n            \"mrkt_open_time\": \"000700\",\r\n            \"mrkt_close_date\": \"20240827\",\r\n            \"mrkt_close_time\": \"000600\",\r\n            \"trd_fr_date\": \"20240610\",\r\n            \"expr_date\": \"20240920\",\r\n            \"trd_to_date\": \"20240920\",\r\n            \"remn_cnt\": \"0026\",\r\n            \"stat_tp\": \"\",\r\n            \"ctrt_size\": \"                 50\",\r\n            \"stl_tp\": \"현금결제\",\r\n            \"frst_noti_date\": \"\"\r\n        },\r\n        {\r\n            \"exch_cd\": \"CME\",\r\n            \"clas_cd\": \"4\",\r\n            \"crc_cd\": \"USD\",\r\n            \"sttl_price\": \"          12400\",\r\n            \"sttl_date\": \"20240826\",\r\n            \"trst_mgn\": \"               7788\",\r\n            \"disp_digit\": \"        10\",\r\n            \"tick_sz\": \"                  0\",\r\n            \"tick_val\": \"                2.5\",\r\n            \"mrkt_open_date\": \"20240826\",\r\n            \"mrkt_open_time\": \"000700\",\r\n            \"mrkt_close_date\": \"20240827\",\r\n            \"mrkt_close_time\": \"000600\",\r\n            \"trd_fr_date\": \"20240718\",\r\n            \"expr_date\": \"20240920\",\r\n            \"trd_to_date\": \"20240920\",\r\n            \"remn_cnt\": \"0026\",\r\n            \"stat_tp\": \"\",\r\n            \"ctrt_size\": \"                 50\",\r\n            \"stl_tp\": \"현금결제\",\r\n            \"frst_noti_date\": \"\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

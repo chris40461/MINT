@@ -1,0 +1,686 @@
+{
+  "sheet_name": "국내주식 시간외거래량순위",
+  "row_count": 67,
+  "columns": [
+    "국내주식 시간외거래량순위",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 시간외거래량순위": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "메뉴 위치",
+      "Column_1": "[국내주식] 순위분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "API 명",
+      "Column_1": "국내주식 시간외거래량순위",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "API ID",
+      "Column_1": "국내주식-139",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "실전 TR_ID",
+      "Column_1": "FHPST02350000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ranking/overtime-volume",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "개요",
+      "Column_1": "국내주식 시간외거래량순위 API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0235] 시간외 거래량순위 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n최대 30건 확인 가능하며, 다음 조회가 불가합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST02350000",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (J: 주식)",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "FID_COND_SCR_DIV_CODE",
+      "Column_2": "조건 화면 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "Unique key(20235)",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "0000(전체), 0001(코스피), 1001(코스닥)",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "FID_RANK_SORT_CLS_CODE",
+      "Column_2": "순위 정렬 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0(매수잔량),  1(매도잔량), 2(거래량)",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "FID_INPUT_PRICE_1",
+      "Column_2": "입력 가격1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "가격 ~",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "FID_INPUT_PRICE_2",
+      "Column_2": "입력 가격2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "~ 가격",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "FID_VOL_CNT",
+      "Column_2": "거래량 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "거래량 ~",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "FID_TRGT_CLS_CODE",
+      "Column_2": "대상 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "FID_TRGT_EXLS_CLS_CODE",
+      "Column_2": "대상 제외 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_exch_vol",
+      "Column_2": "시간외 단일가 거래소 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_exch_tr_pbmn",
+      "Column_2": "시간외 단일가 거래소 거래대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_kosdaq_vol",
+      "Column_2": "시간외 단일가 KOSDAQ 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_kosdaq_tr_pbmn",
+      "Column_2": "시간외 단일가 KOSDAQ 거래대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "stck_shrn_iscd",
+      "Column_2": "주식 단축 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "hts_kor_isnm",
+      "Column_2": "HTS 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_prpr",
+      "Column_2": "시간외 단일가 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_prdy_vrss",
+      "Column_2": "시간외 단일가 전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_prdy_vrss_sign",
+      "Column_2": "시간외 단일가 전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_prdy_ctrt",
+      "Column_2": "시간외 단일가 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_seln_rsqn",
+      "Column_2": "시간외 단일가 매도 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_shnu_rsqn",
+      "Column_2": "시간외 단일가 매수 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_untp_vol",
+      "Column_2": "시간외 단일가 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "ovtm_vrss_acml_vol_rlim",
+      "Column_2": "시간외 대비 누적 거래량 비중",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "52",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "bidp",
+      "Column_2": "매수호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": null,
+      "Column_1": "askp",
+      "Column_2": "매도호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:J\r\nFID_COND_SCR_DIV_CODE:20235\r\nFID_INPUT_ISCD:0000\r\nFID_RANK_SORT_CLS_CODE:0\r\nFID_INPUT_PRICE_1:\r\nFID_INPUT_PRICE_2:\r\nFID_VOL_CNT:\r\nFID_TRGT_CLS_CODE:\r\nFID_TRGT_EXLS_CLS_CODE:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 시간외거래량순위": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"ovtm_untp_exch_vol\": \"5806628\",\r\n        \"ovtm_untp_exch_tr_pbmn\": \"54755931392\",\r\n        \"ovtm_untp_kosdaq_vol\": \"5204621\",\r\n        \"ovtm_untp_kosdaq_tr_pbmn\": \"47577538957\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"stck_shrn_iscd\": \"024840\",\r\n            \"hts_kor_isnm\": \"KBI메탈\",\r\n            \"ovtm_untp_prpr\": \"1805\",\r\n            \"ovtm_untp_prdy_vrss\": \"164\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"1\",\r\n            \"ovtm_untp_prdy_ctrt\": \"9.99\",\r\n            \"ovtm_untp_seln_rsqn\": \"0\",\r\n            \"ovtm_untp_shnu_rsqn\": \"1518111\",\r\n            \"ovtm_untp_vol\": \"830822\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"5.78\",\r\n            \"stck_prpr\": \"1641\",\r\n            \"acml_vol\": \"14376124\",\r\n            \"bidp\": \"1641\",\r\n            \"askp\": \"1642\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"251340\",\r\n            \"hts_kor_isnm\": \"KODEX 코스닥150선물인버스\",\r\n            \"ovtm_untp_prpr\": \"3480\",\r\n            \"ovtm_untp_prdy_vrss\": \"-5\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.14\",\r\n            \"ovtm_untp_seln_rsqn\": \"483261\",\r\n            \"ovtm_untp_shnu_rsqn\": \"1280469\",\r\n            \"ovtm_untp_vol\": \"271489\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.76\",\r\n            \"stck_prpr\": \"3485\",\r\n            \"acml_vol\": \"35798171\",\r\n            \"bidp\": \"3480\",\r\n            \"askp\": \"3485\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"Q530036\",\r\n            \"hts_kor_isnm\": \"삼성 인버스 2X WTI원유 선물 ETN\",\r\n            \"ovtm_untp_prpr\": \"83\",\r\n            \"ovtm_untp_prdy_vrss\": \"-1\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-1.19\",\r\n            \"ovtm_untp_seln_rsqn\": \"733502\",\r\n            \"ovtm_untp_shnu_rsqn\": \"1129085\",\r\n            \"ovtm_untp_vol\": \"500\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.00\",\r\n            \"stck_prpr\": \"84\",\r\n            \"acml_vol\": \"14500093\",\r\n            \"bidp\": \"83\",\r\n            \"askp\": \"84\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"900110\",\r\n            \"hts_kor_isnm\": \"이스트아시아홀딩스\",\r\n            \"ovtm_untp_prpr\": \"92\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"116978\",\r\n            \"ovtm_untp_shnu_rsqn\": \"929131\",\r\n            \"ovtm_untp_vol\": \"3590\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.33\",\r\n            \"stck_prpr\": \"92\",\r\n            \"acml_vol\": \"1072096\",\r\n            \"bidp\": \"91\",\r\n            \"askp\": \"92\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"Q500027\",\r\n            \"hts_kor_isnm\": \"신한 인버스 2X WTI원유 선물 ETN(H)\",\r\n            \"ovtm_untp_prpr\": \"70\",\r\n            \"ovtm_untp_prdy_vrss\": \"-1\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-1.41\",\r\n            \"ovtm_untp_seln_rsqn\": \"146853\",\r\n            \"ovtm_untp_shnu_rsqn\": \"736280\",\r\n            \"ovtm_untp_vol\": \"800\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.01\",\r\n            \"stck_prpr\": \"71\",\r\n            \"acml_vol\": \"11331167\",\r\n            \"bidp\": \"70\",\r\n            \"askp\": \"71\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"900300\",\r\n            \"hts_kor_isnm\": \"오가닉티코스메틱\",\r\n            \"ovtm_untp_prpr\": \"86\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"259326\",\r\n            \"ovtm_untp_shnu_rsqn\": \"542857\",\r\n            \"ovtm_untp_vol\": \"2054\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.03\",\r\n            \"stck_prpr\": \"86\",\r\n            \"acml_vol\": \"6493528\",\r\n            \"bidp\": \"85\",\r\n            \"askp\": \"86\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"252670\",\r\n            \"hts_kor_isnm\": \"KODEX 200선물인버스2X\",\r\n            \"ovtm_untp_prpr\": \"2075\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"1095223\",\r\n            \"ovtm_untp_shnu_rsqn\": \"487107\",\r\n            \"ovtm_untp_vol\": \"385969\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.29\",\r\n            \"stck_prpr\": \"2075\",\r\n            \"acml_vol\": \"131543542\",\r\n            \"bidp\": \"2075\",\r\n            \"askp\": \"2080\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"900280\",\r\n            \"hts_kor_isnm\": \"골든센츄리\",\r\n            \"ovtm_untp_prpr\": \"105\",\r\n            \"ovtm_untp_prdy_vrss\": \"1\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"2\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.96\",\r\n            \"ovtm_untp_seln_rsqn\": \"305981\",\r\n            \"ovtm_untp_shnu_rsqn\": \"297740\",\r\n            \"ovtm_untp_vol\": \"112558\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.90\",\r\n            \"stck_prpr\": \"104\",\r\n            \"acml_vol\": \"12494891\",\r\n            \"bidp\": \"104\",\r\n            \"askp\": \"105\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"241770\",\r\n            \"hts_kor_isnm\": \"메카로\",\r\n            \"ovtm_untp_prpr\": \"11050\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"0\",\r\n            \"ovtm_untp_shnu_rsqn\": \"218703\",\r\n            \"ovtm_untp_vol\": \"14328\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.54\",\r\n            \"stck_prpr\": \"11050\",\r\n            \"acml_vol\": \"2660105\",\r\n            \"bidp\": \"11050\",\r\n            \"askp\": \"0\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"039740\",\r\n            \"hts_kor_isnm\": \"한국정보공학\",\r\n            \"ovtm_untp_prpr\": \"3705\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"0\",\r\n            \"ovtm_untp_shnu_rsqn\": \"212928\",\r\n            \"ovtm_untp_vol\": \"8904\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.32\",\r\n            \"stck_prpr\": \"3705\",\r\n            \"acml_vol\": \"2745049\",\r\n            \"bidp\": \"3705\",\r\n            \"askp\": \"0\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"443670\",\r\n            \"hts_kor_isnm\": \"에스피소프트\",\r\n            \"ovtm_untp_prpr\": \"19110\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"0\",\r\n            \"ovtm_untp_shnu_rsqn\": \"200228\",\r\n            \"ovtm_untp_vol\": \"8728\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.10\",\r\n            \"stck_prpr\": \"19110\",\r\n            \"acml_vol\": \"8933701\",\r\n            \"bidp\": \"19110\",\r\n            \"askp\": \"0\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"114800\",\r\n            \"hts_kor_isnm\": \"KODEX 인버스\",\r\n            \"ovtm_untp_prpr\": \"4180\",\r\n            \"ovtm_untp_prdy_vrss\": \"-5\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.12\",\r\n            \"ovtm_untp_seln_rsqn\": \"113209\",\r\n            \"ovtm_untp_shnu_rsqn\": \"132778\",\r\n            \"ovtm_untp_vol\": \"19807\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.08\",\r\n            \"stck_prpr\": \"4185\",\r\n            \"acml_vol\": \"23680596\",\r\n            \"bidp\": \"4180\",\r\n            \"askp\": \"4185\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"Q550043\",\r\n            \"hts_kor_isnm\": \"QV 인버스 레버리지 WTI원유 선물 ETN(H)\",\r\n            \"ovtm_untp_prpr\": \"65\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"0\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"9499\",\r\n            \"ovtm_untp_shnu_rsqn\": \"121250\",\r\n            \"ovtm_untp_vol\": \"0\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.00\",\r\n            \"stck_prpr\": \"65\",\r\n            \"acml_vol\": \"857825\",\r\n            \"bidp\": \"64\",\r\n            \"askp\": \"65\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"032800\",\r\n            \"hts_kor_isnm\": \"판타지오\",\r\n            \"ovtm_untp_prpr\": \"293\",\r\n            \"ovtm_untp_prdy_vrss\": \"-3\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-1.01\",\r\n            \"ovtm_untp_seln_rsqn\": \"23665\",\r\n            \"ovtm_untp_shnu_rsqn\": \"114241\",\r\n            \"ovtm_untp_vol\": \"243174\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.60\",\r\n            \"stck_prpr\": \"296\",\r\n            \"acml_vol\": \"40758423\",\r\n            \"bidp\": \"295\",\r\n            \"askp\": \"296\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"900120\",\r\n            \"hts_kor_isnm\": \"씨엑스아이\",\r\n            \"ovtm_untp_prpr\": \"114\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"51602\",\r\n            \"ovtm_untp_shnu_rsqn\": \"97874\",\r\n            \"ovtm_untp_vol\": \"6\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.00\",\r\n            \"stck_prpr\": \"114\",\r\n            \"acml_vol\": \"585089\",\r\n            \"bidp\": \"113\",\r\n            \"askp\": \"114\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"006345\",\r\n            \"hts_kor_isnm\": \"대원전선우\",\r\n            \"ovtm_untp_prpr\": \"4425\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"0\",\r\n            \"ovtm_untp_shnu_rsqn\": \"73543\",\r\n            \"ovtm_untp_vol\": \"53\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.00\",\r\n            \"stck_prpr\": \"4425\",\r\n            \"acml_vol\": \"2444147\",\r\n            \"bidp\": \"4425\",\r\n            \"askp\": \"0\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"152550\",\r\n            \"hts_kor_isnm\": \"한국ANKOR유전\",\r\n            \"ovtm_untp_prpr\": \"370\",\r\n            \"ovtm_untp_prdy_vrss\": \"1\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"2\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.27\",\r\n            \"ovtm_untp_seln_rsqn\": \"66842\",\r\n            \"ovtm_untp_shnu_rsqn\": \"67407\",\r\n            \"ovtm_untp_vol\": \"48762\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"1.29\",\r\n            \"stck_prpr\": \"369\",\r\n            \"acml_vol\": \"3781036\",\r\n            \"bidp\": \"368\",\r\n            \"askp\": \"369\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"036630\",\r\n            \"hts_kor_isnm\": \"세종텔레콤\",\r\n            \"ovtm_untp_prpr\": \"627\",\r\n            \"ovtm_untp_prdy_vrss\": \"-2\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.32\",\r\n            \"ovtm_untp_seln_rsqn\": \"794\",\r\n            \"ovtm_untp_shnu_rsqn\": \"53745\",\r\n            \"ovtm_untp_vol\": \"1660\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.97\",\r\n            \"stck_prpr\": \"629\",\r\n            \"acml_vol\": \"171476\",\r\n            \"bidp\": \"629\",\r\n            \"askp\": \"630\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"018470\",\r\n            \"hts_kor_isnm\": \"조일알미늄\",\r\n            \"ovtm_untp_prpr\": \"2375\",\r\n            \"ovtm_untp_prdy_vrss\": \"150\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"2\",\r\n            \"ovtm_untp_prdy_ctrt\": \"6.74\",\r\n            \"ovtm_untp_seln_rsqn\": \"84458\",\r\n            \"ovtm_untp_shnu_rsqn\": \"49908\",\r\n            \"ovtm_untp_vol\": \"1243060\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"12.24\",\r\n            \"stck_prpr\": \"2225\",\r\n            \"acml_vol\": \"10159482\",\r\n            \"bidp\": \"2225\",\r\n            \"askp\": \"2230\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"004410\",\r\n            \"hts_kor_isnm\": \"서울식품\",\r\n            \"ovtm_untp_prpr\": \"176\",\r\n            \"ovtm_untp_prdy_vrss\": \"1\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"2\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.57\",\r\n            \"ovtm_untp_seln_rsqn\": \"68739\",\r\n            \"ovtm_untp_shnu_rsqn\": \"49034\",\r\n            \"ovtm_untp_vol\": \"2\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.00\",\r\n            \"stck_prpr\": \"175\",\r\n            \"acml_vol\": \"648132\",\r\n            \"bidp\": \"175\",\r\n            \"askp\": \"176\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"015590\",\r\n            \"hts_kor_isnm\": \"KIB플러그에너지\",\r\n            \"ovtm_untp_prpr\": \"438\",\r\n            \"ovtm_untp_prdy_vrss\": \"1\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"2\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.23\",\r\n            \"ovtm_untp_seln_rsqn\": \"9286\",\r\n            \"ovtm_untp_shnu_rsqn\": \"45672\",\r\n            \"ovtm_untp_vol\": \"10598\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.30\",\r\n            \"stck_prpr\": \"437\",\r\n            \"acml_vol\": \"3556231\",\r\n            \"bidp\": \"437\",\r\n            \"askp\": \"438\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"011930\",\r\n            \"hts_kor_isnm\": \"신성이엔지\",\r\n            \"ovtm_untp_prpr\": \"2275\",\r\n            \"ovtm_untp_prdy_vrss\": \"-5\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.22\",\r\n            \"ovtm_untp_seln_rsqn\": \"14814\",\r\n            \"ovtm_untp_shnu_rsqn\": \"45606\",\r\n            \"ovtm_untp_vol\": \"24996\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.88\",\r\n            \"stck_prpr\": \"2280\",\r\n            \"acml_vol\": \"2824930\",\r\n            \"bidp\": \"2280\",\r\n            \"askp\": \"2285\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"001620\",\r\n            \"hts_kor_isnm\": \"케이비아이동국실업\",\r\n            \"ovtm_untp_prpr\": \"591\",\r\n            \"ovtm_untp_prdy_vrss\": \"-1\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.17\",\r\n            \"ovtm_untp_seln_rsqn\": \"6526\",\r\n            \"ovtm_untp_shnu_rsqn\": \"43357\",\r\n            \"ovtm_untp_vol\": \"10\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.01\",\r\n            \"stck_prpr\": \"592\",\r\n            \"acml_vol\": \"180490\",\r\n            \"bidp\": \"591\",\r\n            \"askp\": \"592\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"403490\",\r\n            \"hts_kor_isnm\": \"우듬지팜\",\r\n            \"ovtm_untp_prpr\": \"2220\",\r\n            \"ovtm_untp_prdy_vrss\": \"-5\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.22\",\r\n            \"ovtm_untp_seln_rsqn\": \"0\",\r\n            \"ovtm_untp_shnu_rsqn\": \"39260\",\r\n            \"ovtm_untp_vol\": \"785\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.59\",\r\n            \"stck_prpr\": \"2225\",\r\n            \"acml_vol\": \"132387\",\r\n            \"bidp\": \"2225\",\r\n            \"askp\": \"2230\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"461030\",\r\n            \"hts_kor_isnm\": \"아이엠비디엑스\",\r\n            \"ovtm_untp_prpr\": \"20500\",\r\n            \"ovtm_untp_prdy_vrss\": \"-200\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.97\",\r\n            \"ovtm_untp_seln_rsqn\": \"2804\",\r\n            \"ovtm_untp_shnu_rsqn\": \"34783\",\r\n            \"ovtm_untp_vol\": \"14490\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.54\",\r\n            \"stck_prpr\": \"20700\",\r\n            \"acml_vol\": \"2705963\",\r\n            \"bidp\": \"20650\",\r\n            \"askp\": \"20700\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"012170\",\r\n            \"hts_kor_isnm\": \"아센디오\",\r\n            \"ovtm_untp_prpr\": \"1059\",\r\n            \"ovtm_untp_prdy_vrss\": \"-5\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.47\",\r\n            \"ovtm_untp_seln_rsqn\": \"2520\",\r\n            \"ovtm_untp_shnu_rsqn\": \"34715\",\r\n            \"ovtm_untp_vol\": \"7166\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.35\",\r\n            \"stck_prpr\": \"1064\",\r\n            \"acml_vol\": \"2070608\",\r\n            \"bidp\": \"1063\",\r\n            \"askp\": \"1064\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"177350\",\r\n            \"hts_kor_isnm\": \"베셀\",\r\n            \"ovtm_untp_prpr\": \"425\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"11404\",\r\n            \"ovtm_untp_shnu_rsqn\": \"33089\",\r\n            \"ovtm_untp_vol\": \"5185\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.15\",\r\n            \"stck_prpr\": \"425\",\r\n            \"acml_vol\": \"3365030\",\r\n            \"bidp\": \"425\",\r\n            \"askp\": \"426\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"017040\",\r\n            \"hts_kor_isnm\": \"광명전기\",\r\n            \"ovtm_untp_prpr\": \"2735\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"17827\",\r\n            \"ovtm_untp_shnu_rsqn\": \"33064\",\r\n            \"ovtm_untp_vol\": \"45996\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.31\",\r\n            \"stck_prpr\": \"2735\",\r\n            \"acml_vol\": \"14823773\",\r\n            \"bidp\": \"2735\",\r\n            \"askp\": \"2740\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"377220\",\r\n            \"hts_kor_isnm\": \"프롬바이오\",\r\n            \"ovtm_untp_prpr\": \"2170\",\r\n            \"ovtm_untp_prdy_vrss\": \"0\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"3\",\r\n            \"ovtm_untp_prdy_ctrt\": \"0.00\",\r\n            \"ovtm_untp_seln_rsqn\": \"1471\",\r\n            \"ovtm_untp_shnu_rsqn\": \"30408\",\r\n            \"ovtm_untp_vol\": \"1\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.00\",\r\n            \"stck_prpr\": \"2170\",\r\n            \"acml_vol\": \"220931\",\r\n            \"bidp\": \"2170\",\r\n            \"askp\": \"2190\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"005320\",\r\n            \"hts_kor_isnm\": \"국동\",\r\n            \"ovtm_untp_prpr\": \"613\",\r\n            \"ovtm_untp_prdy_vrss\": \"-4\",\r\n            \"ovtm_untp_prdy_vrss_sign\": \"5\",\r\n            \"ovtm_untp_prdy_ctrt\": \"-0.65\",\r\n            \"ovtm_untp_seln_rsqn\": \"3\",\r\n            \"ovtm_untp_shnu_rsqn\": \"29101\",\r\n            \"ovtm_untp_vol\": \"23\",\r\n            \"ovtm_vrss_acml_vol_rlim\": \"0.04\",\r\n            \"stck_prpr\": \"617\",\r\n            \"acml_vol\": \"56414\",\r\n            \"bidp\": \"616\",\r\n            \"askp\": \"617\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+services:
+  # FastAPI 백엔드
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: skku-insight-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # 데이터 영속화 (DB, 로그)
+      - ./data:/app/data
+      # 개발 모드: 코드 Hot Reload (아래 주석 해제)
+      # - ./backend:/app/backend
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=false
+      - LOG_LEVEL=INFO
+      - DATABASE_URL=sqlite:////app/data/skku_insight.db
+      - SCHEDULER_ENABLED=true
+      - TZ=Asia/Seoul
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+    networks:
+      - skku-network
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import httpx; httpx.get('http://localhost:8000/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # 준실시간 주가 폴링 서비스
+  price-poller:
+    build:
+      context: ./price-poller
+      dockerfile: Dockerfile
+    container_name: skku-insight-price-poller
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+    environment:
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+      - DATABASE_URL=sqlite:////app/data/skku_insight.db
+      - TZ=Asia/Seoul
+    env_file:
+      - ./.env
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - skku-network
+
+networks:
+  skku-network:
+    driver: bridge
+
+volumes:
+  postgres_data:

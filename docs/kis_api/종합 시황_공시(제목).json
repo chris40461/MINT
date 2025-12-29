@@ -1,0 +1,606 @@
+{
+  "sheet_name": "종합 시황_공시(제목)",
+  "row_count": 59,
+  "columns": [
+    "종합 시황_공시(제목)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "종합 시황_공시(제목)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "메뉴 위치",
+      "Column_1": "[국내주식] 업종/기타",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "API 명",
+      "Column_1": "종합 시황_공시(제목)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "API ID",
+      "Column_1": "국내주식-141",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "실전 TR_ID",
+      "Column_1": "FHKST01011800",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/news-title",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "개요",
+      "Column_1": "종합 시황/공시(제목) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0601] 종합 시황/공시 화면의 \"우측 상단 리스트\" 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKST01011800",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "Request Query Parameter",
+      "Column_1": "FID_NEWS_OFER_ENTP_CODE",
+      "Column_2": "뉴스 제공 업체 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "공백 필수 입력",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "FID_COND_MRKT_CLS_CODE",
+      "Column_2": "조건 시장 구분 코드 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "공백 필수 입력",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "공백: 전체, 종목코드 : 해당코드가 등록된 뉴스",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "FID_TITL_CNTT",
+      "Column_2": "제목 내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "132",
+      "Column_6": "공백 필수 입력",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "FID_INPUT_DATE_1",
+      "Column_2": "입력 날짜",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "공백: 현재기준, 조회일자(ex 00YYYYMMDD)",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "FID_INPUT_HOUR_1",
+      "Column_2": "입력 시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "공백: 현재기준, 조회시간(ex 0000HHMMSS)",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "FID_RANK_SORT_CLS_CODE",
+      "Column_2": "순위 정렬 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "공백 필수 입력",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "FID_INPUT_SRNO",
+      "Column_2": "입력 일련번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "공백 필수 입력",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "cntt_usiq_srno",
+      "Column_2": "내용 조회용 일련번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "news_ofer_entp_code",
+      "Column_2": "뉴스 제공 업체 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " '2'  /* 한경  news  */\r\n'3'  /* 사용안함 */\r\n'4'  /* 이데일리    */\r\n'5'  /* 머니투데이  */\r\n'6'  /* 연합뉴스    */\r\n'7'  /* 인포스탁    */\r\n'8'  /* 아시아경제  */\r\n'9'  /* 뉴스핌      */\r\n'A'  /* 매일경제    */\r\n'B'  /* 헤럴드경제  */\r\n'C'  /* 파이낸셜    */\r\n'D'  /* 이투데이    */\r\n'F'  /* 장내공시    */\r\n'G'  /* 코스닥공시  */\r\n'H'  /* 프리보드공시*/\r\n'I'  /* 기타공시    */\r\n'N'  /* 코넥스공시  */\r\n'J'  /*  동향       */ /*  'L'   리서치 */\r\n'K'  /* 청약안내 전송             */\r\n'M'  /* 타사 추천종목             */\r\n'O'  /* edaily  fx                */\r\n'U'  /* 서울 경제 */\r\n'V'  /* 조선 경제 */\r\n'X'  /* CEO스코어               */\r\n'Y'  /* 이프렌드 Air 뉴스       */\r\n'Z'  /* 인베스트조선            */\r\n'd'  /* NSP통신              */",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "data_dt",
+      "Column_2": "작성일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "data_tm",
+      "Column_2": "작성시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "hts_pbnt_titl_cntt",
+      "Column_2": "HTS 공시 제목 내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "400",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "news_lrdv_code",
+      "Column_2": "뉴스 대구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "1:0:종합\r\n1:FGHIN:공시\r\n2:F:거래소\r\n3:01:수시공시\r\n3:02:공정공시\r\n3:03:시장조치\r\n3:04:신고사항\r\n3:05:정기공시 \r\n3:06:특수공시  \r\n3:07:발행공시  \r\n3:08:지분공시\r\n3:09:워런트공시\r\n3:10:의결권행사공시\r\n3:11:공정위공시\r\n3:12:선물시장공시\r\n3:A1:시장조치안내\r\n3:A2:상장안내\r\n3:A3:안내사항\r\n3:A4:투자유의사항\r\n3:A5:수익증권\r\n3:A6:투자자참고사항\r\n3:A7:뮤츄얼펀드\r\n2:G:코스닥\r\n3:01:수시공시\r\n3:02:공정공시\r\n3:03:시장조치\r\n3:04:신고사항\r\n3:05:정기공시 \r\n3:06:특수공시  \r\n3:07:발행공시  \r\n3:08:지분공시\r\n3:09:워런트공시\r\n3:10:의결권행사공시\r\n3:11:공정위공시\r\n3:12:선물시장공시\r\n3:A1:시장조치안내\r\n3:A2:상장안내\r\n3:A3:안내사항\r\n3:A4:투자유의사항\r\n3:A5:수익증권\r\n3:A6:투자자참고사항\r\n3:A7:뮤츄얼펀드\r\n2:N:코넥스\r\n3:01:수시공시\r\n3:02:공정공시\r\n3:03:시장조치\r\n3:04:신고사항\r\n3:05:정기공시 \r\n3:06:특수공시  \r\n3:07:발행공시  \r\n3:08:지분공시\r\n3:09:워런트공시\r\n3:10:의결권행사공시\r\n3:11:공정위공시\r\n3:12:선물시장공시\r\n3:A1:시장조치안내\r\n3:A2:상장안내\r\n3:A3:안내사항\r\n3:A4:투자유의사항\r\n3:A5:수익증권\r\n3:A6:투자자참고사항\r\n3:A7:뮤츄얼펀드\r\n2:H:K-OTC\r\n2:I:기타\r\n1:6:연합뉴스\r\n3:01:정치\r\n3:02:경제\r\n3:03:증권/금융\r\n3:04:산업\r\n3:05:사회\r\n3:06:사건사고\r\n3:07:문화\r\n3:08:생활건강\r\n3:09:IT. 과학\r\n3:10:북한\r\n3:11:국제\r\n3:12:스포츠\r\n3:13:기타\r\n1:2:한경\r\n3:01:증권\r\n3:04:경제\r\n3:03:부동산\r\n3:07:IT/과학\r\n3:08:정치\r\n3:09:국제\r\n3:10:사회\r\n3:11:생활/문화\r\n3:00:오피니언\r\n3:12:스포츠\r\n3:20:연예\r\n3:18:보도자료\r\n1:A:매경\r\n3:01:경제\r\n3:02:금융\r\n3:03:산업/기업\r\n3:04:중기/벤쳐/과기\r\n3:05:증권\r\n3:06:부동산\r\n3:07:정치\r\n3:08:사회\r\n3:09:인물/동정\r\n3:10:국제\r\n3:11:문화\r\n3:12:레저/스포츠\r\n3:13:사설/칼럼\r\n3:14:기획/분석\r\n3:15:섹션\r\n3:16:English News\r\n3:17:매경이코노미\r\n3:18:mbn\r\n3:90:기타\r\n1:4:이데일리\r\n3:B1:채권시황\r\n3:B2:신종채권\r\n3:F1:외환시황\r\n3:G1:보도자료\r\n3:H1:정책뉴스\r\n3:H2:금융뉴스\r\n3:H3:금융금리/수익율\r\n3:I1:IPO뉴스\r\n3:J1:뉴욕\r\n3:J2:아시아/유럽\r\n3:J3:월드마켓\r\n3:J4:국제기업/산업\r\n3:J5:경제흐름\r\n3:L1:기업뉴스\r\n3:L2:IT\r\n3:L3:벤처\r\n3:L4:e3비즈월드\r\n3:S1:주식시황\r\n3:S2:거래소\r\n3:S3:코스닥&장외\r\n3:S4:루머\r\n3:S5:증권가\r\n1:5:머니투데이\r\n3:A01:주식\r\n3:A02:선물옵션\r\n3:A05:해외증시\r\n3:A06:외환\r\n3:A07:채권\r\n3:A08:펀드\r\n3:B01:경제\r\n3:B02:산업\r\n3:B03:정보과학\r\n3:B04:국제\r\n3:B05:금융보험\r\n3:B07:부동산\r\n3:B08:성공학\r\n3:B09:재테크\r\n3:B10:바이오\r\n1:9:뉴스핌\r\n3:01:주식\r\n3:02:채권\r\n3:03:외환\r\n3:04:국제\r\n3:05:금융/제테크\r\n3:06:산업\r\n3:07:경제\r\n3:08:광장\r\n3:09:전문가기고\r\n3:90:기타\r\n1:8:아시아경제\r\n3:A0:증권\r\n3:B0:금융\r\n3:C0:부동산\r\n3:D0:산업\r\n3:E0:경제\r\n3:F0:정치,사회\r\n3:G0:사설,칼럼\r\n3:H0:인사,동정,부고\r\n3:I0:루머&팩트\r\n3:J0:국내뉴스\r\n3:K0:아시아시각\r\n3:L0:골프\r\n3:M0:모닝브리핑\r\n3:N0:연예\r\n3:10:국제\r\n3:20:중국\r\n3:30:인도\r\n3:40:일본\r\n3:50:이머징마켓\r\n1:B:헤럴드경제 \r\n3:01:뉴스\r\n3:02:기업\r\n3:03:재테크\r\n3:04:스타\r\n3:05:문화\r\n3:90:기타\r\n1:C:파이낸셜\r\n3:01:증권\r\n3:02:금융\r\n3:03:부동산\r\n3:04:산업\r\n3:05:경제\r\n3:06:정보과학\r\n3:07:유통\r\n3:08:국제\r\n3:09:정치\r\n3:10:전국/사회\r\n3:11:문화\r\n3:12:스포츠\r\n3:13:교육\r\n3:14:피플\r\n3:15:사설/컬럼\r\n3:16:기획/연재\r\n3:17:fn재테크\r\n3:18:광고\r\n3:90:기타\r\n1:D:이투데이\r\n3:21:증권\r\n3:51:금융\r\n3:22:정치/정책\r\n3:31:글로벌\r\n3:23:산업\r\n3:24:부동산\r\n3:26:라이프\r\n3:25:칼럼/인물\r\n3:41:연예/스포츠\r\n3:90:기타\r\n1:U:서울경제\r\n3:31:증권\r\n3:32:부동산\r\n3:33:경제/금융\r\n3:34:산업/기업\r\n3:35:IT/과학\r\n3:36:정치\r\n3:37:사회\r\n3:38:국제\r\n3:39:칼럼\r\n3:3A:인사/동정/부음\r\n3:3B:문화/건강/레저\r\n3:3C:골프/스포츠\r\n1:V:조선경제i\r\n3:1:뉴스\r\n3:2:Market\r\n3:4:부동산\r\n3:6:글로벌경제\r\n3:8:위클리비즈\r\n3:B:자동차\r\n3:C:녹색BIZ\r\n1:7:인포스탁\r\n3:01:거래소종목\r\n3:02:코스닥종목\r\n3:03:해외증시\r\n3:04:선물동향\r\n3:00:기타\r\n1:X:CEO스코어\r\n3:01:경제\r\n3:02:산업\r\n3:03:금융\r\n3:04:공기업\r\n3:05:전자\r\n3:06:통신\r\n3:07:게임,인터넷\r\n3:08:자동차\r\n3:09:조선,철강\r\n3:10:식음료\r\n3:11:유통\r\n3:12:건설\r\n3:13:제약\r\n3:14:화학,에너지\r\n3:15:생활산업\r\n3:16:기타\r\n1:S:컨슈머타임스\r\n3:01:종합\r\n3:02:파이낸셜컨슈머\r\n3:03:컨슈머리뷰\r\n3:04:정치,사회\r\n3:05:스포츠,연예\r\n3:06:컨슈머뷰티\r\n3:07:오피니언\r\n3:09:기타\r\n1:Z:인베스트조선\r\n3:01:증권/금융\r\n1:d:NSP통신\r\n3:11:IT/과학\r\n3:12:금융/증권\r\n3:13:부동산\r\n3:14:자동차\r\n3:15:연예/문화\r\n3:16:생활경제\r\n3:17:물류/유통\r\n3:18:인사/동정\r\n3:19:정치/사회\r\n3:20:기업\r\n3:21:의학/건강\r\n3:23:신상품/리뷰\r\n3:24:해명/반론\r\n1:a:IRGO\r\n3:10:IR정보\r\n3:20:IR일정\r\n3:50:IR FOCUS\r\n1:Y:eFriend Air\r\n3:01:종목상담\r\n3:02:VOD\r\n1:J:동향\r\n1:L:한투리서치",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "dorg",
+      "Column_2": "자료원",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "iscd1",
+      "Column_2": "종목 코드1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "iscd2",
+      "Column_2": "종목 코드2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "iscd3",
+      "Column_2": "종목 코드3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "iscd4",
+      "Column_2": "종목 코드4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": null,
+      "Column_1": "iscd5",
+      "Column_2": "종목 코드5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "Request Example (Python)",
+      "Column_1": "FID_NEWS_OFER_ENTP_CODE:\r\nFID_COND_MRKT_CLS_CODE:\r\nFID_INPUT_ISCD:\r\nFID_TITL_CNTT:\r\nFID_INPUT_DATE_1:\r\nFID_INPUT_HOUR_1:\r\nFID_RANK_SORT_CLS_CODE:\r\nFID_INPUT_SRNO:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종합 시황_공시(제목)": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"cntt_usiq_srno\": \"2024041217173779111\",\r\n            \"news_ofer_entp_code\": \"9\",\r\n            \"data_dt\": \"20240412\",\r\n            \"data_tm\": \"171737\",\r\n            \"hts_pbnt_titl_cntt\": \"금융투자협회, 인도 기프트 시티 규제당국 IFSCA와 라운드테이블\",\r\n            \"news_lrdv_code\": \"10\",\r\n            \"dorg\": \"뉴스핌\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024041217173438610\",\r\n            \"news_ofer_entp_code\": \"5\",\r\n            \"data_dt\": \"20240412\",\r\n            \"data_tm\": \"171734\",\r\n            \"hts_pbnt_titl_cntt\": \"미국 매출 90% 껑충…BBQ, 지난해 4730억원 사상최대 매출\",\r\n            \"news_lrdv_code\": \"B02\",\r\n            \"dorg\": \"머니투데이\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024041217172998812\",\r\n            \"news_ofer_entp_code\": \"9\",\r\n            \"data_dt\": \"20240412\",\r\n            \"data_tm\": \"171729\",\r\n            \"hts_pbnt_titl_cntt\": \"한미-한국여자의사회 제정 '젊은의학자학술상'에 정선재 부교수\",\r\n            \"news_lrdv_code\": \"10\",\r\n            \"dorg\": \"뉴스핌\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024041217165428809\",\r\n            \"news_ofer_entp_code\": \"6\",\r\n            \"data_dt\": \"20240412\",\r\n            \"data_tm\": \"171654\",\r\n            \"hts_pbnt_titl_cntt\": \"[亞증시-종합] 강달러 속 혼조\",\r\n            \"news_lrdv_code\": \"03\",\r\n            \"dorg\": \"연합뉴스\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024041217161911807\",\r\n            \"news_ofer_entp_code\": \"5\",\r\n            \"data_dt\": \"20240412\",\r\n            \"data_tm\": \"171619\",\r\n            \"hts_pbnt_titl_cntt\": \"골드팡, 'Hello Spring' 진행..최대 61% 할인 이벤트\",\r\n            \"news_lrdv_code\": \"B02\",\r\n            \"dorg\": \"머니투데이\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024041217161867008\",\r\n            \"news_ofer_entp_code\": \"7\",\r\n            \"data_dt\": \"20240412\",\r\n            \"data_tm\": \"171618\",\r\n            \"hts_pbnt_titl_cntt\": \"자람테크놀로지, 임원ㆍ주요주주 특정증권등 소유주식수 변동\",\r\n            \"news_lrdv_code\": \"02\",\r\n            \"dorg\": \"인포스탁\",\r\n            \"iscd1\": \"389020\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \"자람테크놀로지\",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+{
+  "sheet_name": "국내업종 구분별전체시세",
+  "row_count": 75,
+  "columns": [
+    "국내업종 구분별전체시세",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내업종 구분별전체시세": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "메뉴 위치",
+      "Column_1": "[국내주식] 업종/기타",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "API 명",
+      "Column_1": "국내업종 구분별전체시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "API ID",
+      "Column_1": "v1_국내주식-066",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "실전 TR_ID",
+      "Column_1": "FHPUP02140000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/inquire-index-category-price",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "개요",
+      "Column_1": "국내업종 구분별전체시세 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0214] 업종 전체시세 화면 의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPUP02140000",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "FID 조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (업종 U)",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "FID 입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "코스피(0001), 코스닥(1001), 코스피200(2001)\r\n...\r\n포탈 (FAQ : 종목정보 다운로드(국내) - 업종코드 참조)",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "FID_COND_SCR_DIV_CODE",
+      "Column_2": "FID 조건 화면 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "Unique key( 20214 )",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "FID_MRKT_CLS_CODE",
+      "Column_2": "FID 시장 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드(K:거래소, Q:코스닥, K2:코스피200)",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "FID_BLNG_CLS_CODE",
+      "Column_2": "FID 소속 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드에 따라 아래와 같이 입력\r\n시장구분코드(K:거래소) 0:전업종, 1:기타구분, 2:자본금구분 3:상업별구분\r\n시장구분코드(Q:코스닥) 0:전업종, 1:기타구분, 2:벤처구분 3:일반구분\r\n시장구분코드(K2:코스닥) 0:전업종",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세1",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_prpr",
+      "Column_2": "업종 지수 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_prdy_vrss",
+      "Column_2": "업종 지수 전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_prdy_ctrt",
+      "Column_2": "업종 지수 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "acml_tr_pbmn",
+      "Column_2": "누적 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_oprc",
+      "Column_2": "업종 지수 시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_hgpr",
+      "Column_2": "업종 지수 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_lwpr",
+      "Column_2": "업종 지수 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "prdy_vol",
+      "Column_2": "전일 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "ascn_issu_cnt",
+      "Column_2": "상승 종목 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "down_issu_cnt",
+      "Column_2": "하락 종목 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "stnr_issu_cnt",
+      "Column_2": "보합 종목 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "uplm_issu_cnt",
+      "Column_2": "상한 종목 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "lslm_issu_cnt",
+      "Column_2": "하한 종목 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "prdy_tr_pbmn",
+      "Column_2": "전일 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "dryy_bstp_nmix_hgpr_date",
+      "Column_2": "연중업종지수최고가일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "dryy_bstp_nmix_hgpr",
+      "Column_2": "연중업종지수최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "dryy_bstp_nmix_lwpr",
+      "Column_2": "연중업종지수최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "dryy_bstp_nmix_lwpr_date",
+      "Column_2": "연중업종지수최저가일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_cls_code",
+      "Column_2": "업종 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "hts_kor_isnm",
+      "Column_2": "HTS 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_prpr",
+      "Column_2": "업종 지수 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_prdy_vrss",
+      "Column_2": "업종 지수 전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "bstp_nmix_prdy_ctrt",
+      "Column_2": "업종 지수 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "acml_tr_pbmn",
+      "Column_2": "누적 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "acml_vol_rlim",
+      "Column_2": "누적 거래량 비중",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "72",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": null,
+      "Column_1": "acml_tr_pbmn_rlim",
+      "Column_2": "누적 거래 대금 비중",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "72",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"U\",\r\n\"fid_input_iscd\":\"0001\",\r\n\"fid_cond_scr_div_code\":\"20214\",\r\n\"fid_mrkt_cls_code\":\"K2\",\r\n\"fid_blng_cls_code\":\"0\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내업종 구분별전체시세": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"bstp_nmix_prpr\": \"2648.76\",\r\n        \"bstp_nmix_prdy_vrss\": \"34.96\",\r\n        \"prdy_vrss_sign\": \"2\",\r\n        \"bstp_nmix_prdy_ctrt\": \"1.34\",\r\n        \"acml_vol\": \"584715\",\r\n        \"acml_tr_pbmn\": \"10001487\",\r\n        \"bstp_nmix_oprc\": \"2635.63\",\r\n        \"bstp_nmix_hgpr\": \"2648.76\",\r\n        \"bstp_nmix_lwpr\": \"2625.01\",\r\n        \"prdy_vol\": \"621363\",\r\n        \"ascn_issu_cnt\": \"628\",\r\n        \"down_issu_cnt\": \"250\",\r\n        \"stnr_issu_cnt\": \"58\",\r\n        \"uplm_issu_cnt\": \"0\",\r\n        \"lslm_issu_cnt\": \"0\",\r\n        \"prdy_tr_pbmn\": \"10691024\",\r\n        \"dryy_bstp_nmix_hgpr_date\": \"20240102\",\r\n        \"dryy_bstp_nmix_hgpr\": \"2675.80\",\r\n        \"dryy_bstp_nmix_lwpr\": \"2429.12\",\r\n        \"dryy_bstp_nmix_lwpr_date\": \"20240118\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"bstp_cls_code\": \"2001\",\r\n            \"hts_kor_isnm\": \"KOSPI200\",\r\n            \"bstp_nmix_prpr\": \"355.52\",\r\n            \"bstp_nmix_prdy_vrss\": \"4.31\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.23\",\r\n            \"acml_vol\": \"118963\",\r\n            \"acml_tr_pbmn\": \"7078909\",\r\n            \"acml_vol_rlim\": \"100.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2007\",\r\n            \"hts_kor_isnm\": \"KOSPI100\",\r\n            \"bstp_nmix_prpr\": \"2691.34\",\r\n            \"bstp_nmix_prdy_vrss\": \"33.27\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.25\",\r\n            \"acml_vol\": \"76784\",\r\n            \"acml_tr_pbmn\": \"6124444\",\r\n            \"acml_vol_rlim\": \"64.54\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2008\",\r\n            \"hts_kor_isnm\": \"KOSPI50\",\r\n            \"bstp_nmix_prpr\": \"2478.39\",\r\n            \"bstp_nmix_prdy_vrss\": \"28.83\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.18\",\r\n            \"acml_vol\": \"52269\",\r\n            \"acml_tr_pbmn\": \"5222300\",\r\n            \"acml_vol_rlim\": \"43.94\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2039\",\r\n            \"hts_kor_isnm\": \"K커뮤니케이션서비스\",\r\n            \"bstp_nmix_prpr\": \"1850.38\",\r\n            \"bstp_nmix_prdy_vrss\": \"3.14\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.17\",\r\n            \"acml_vol\": \"5893\",\r\n            \"acml_tr_pbmn\": \"477398\",\r\n            \"acml_vol_rlim\": \"4.95\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2009\",\r\n            \"hts_kor_isnm\": \"K건설\",\r\n            \"bstp_nmix_prpr\": \"325.34\",\r\n            \"bstp_nmix_prdy_vrss\": \"8.08\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.55\",\r\n            \"acml_vol\": \"6636\",\r\n            \"acml_tr_pbmn\": \"225841\",\r\n            \"acml_vol_rlim\": \"5.58\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2010\",\r\n            \"hts_kor_isnm\": \"K중공업\",\r\n            \"bstp_nmix_prpr\": \"322.92\",\r\n            \"bstp_nmix_prdy_vrss\": \"3.37\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.05\",\r\n            \"acml_vol\": \"9613\",\r\n            \"acml_tr_pbmn\": \"203930\",\r\n            \"acml_vol_rlim\": \"8.08\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2011\",\r\n            \"hts_kor_isnm\": \"K철강소재\",\r\n            \"bstp_nmix_prpr\": \"884.98\",\r\n            \"bstp_nmix_prdy_vrss\": \"35.05\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"4.12\",\r\n            \"acml_vol\": \"4814\",\r\n            \"acml_tr_pbmn\": \"456186\",\r\n            \"acml_vol_rlim\": \"4.05\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2012\",\r\n            \"hts_kor_isnm\": \"K에너지화학\",\r\n            \"bstp_nmix_prpr\": \"1385.94\",\r\n            \"bstp_nmix_prdy_vrss\": \"45.89\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"3.42\",\r\n            \"acml_vol\": \"7623\",\r\n            \"acml_tr_pbmn\": \"833756\",\r\n            \"acml_vol_rlim\": \"6.41\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2013\",\r\n            \"hts_kor_isnm\": \"K정보기술\",\r\n            \"bstp_nmix_prpr\": \"3233.61\",\r\n            \"bstp_nmix_prdy_vrss\": \"42.48\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.33\",\r\n            \"acml_vol\": \"20799\",\r\n            \"acml_tr_pbmn\": \"1899061\",\r\n            \"acml_vol_rlim\": \"17.48\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2014\",\r\n            \"hts_kor_isnm\": \"K금융\",\r\n            \"bstp_nmix_prpr\": \"780.59\",\r\n            \"bstp_nmix_prdy_vrss\": \"27.94\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"3.71\",\r\n            \"acml_vol\": \"23753\",\r\n            \"acml_tr_pbmn\": \"672909\",\r\n            \"acml_vol_rlim\": \"19.97\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2015\",\r\n            \"hts_kor_isnm\": \"K생활소비재\",\r\n            \"bstp_nmix_prpr\": \"793.68\",\r\n            \"bstp_nmix_prdy_vrss\": \"12.81\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.64\",\r\n            \"acml_vol\": \"4244\",\r\n            \"acml_tr_pbmn\": \"288488\",\r\n            \"acml_vol_rlim\": \"3.57\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2016\",\r\n            \"hts_kor_isnm\": \"K경기소비재\",\r\n            \"bstp_nmix_prpr\": \"1724.67\",\r\n            \"bstp_nmix_prdy_vrss\": \"42.88\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.55\",\r\n            \"acml_vol\": \"10060\",\r\n            \"acml_tr_pbmn\": \"1004566\",\r\n            \"acml_vol_rlim\": \"8.46\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2017\",\r\n            \"hts_kor_isnm\": \"K산업재\",\r\n            \"bstp_nmix_prpr\": \"633.49\",\r\n            \"bstp_nmix_prdy_vrss\": \"6.82\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.09\",\r\n            \"acml_vol\": \"23323\",\r\n            \"acml_tr_pbmn\": \"823914\",\r\n            \"acml_vol_rlim\": \"19.61\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2018\",\r\n            \"hts_kor_isnm\": \"K헬스케어\",\r\n            \"bstp_nmix_prpr\": \"1840.09\",\r\n            \"bstp_nmix_prdy_vrss\": \"14.36\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.79\",\r\n            \"acml_vol\": \"2204\",\r\n            \"acml_tr_pbmn\": \"192860\",\r\n            \"acml_vol_rlim\": \"1.85\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2019\",\r\n            \"hts_kor_isnm\": \"K고배당\",\r\n            \"bstp_nmix_prpr\": \"3173.16\",\r\n            \"bstp_nmix_prdy_vrss\": \"86.09\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.79\",\r\n            \"acml_vol\": \"41569\",\r\n            \"acml_tr_pbmn\": \"2859723\",\r\n            \"acml_vol_rlim\": \"34.94\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2021\",\r\n            \"hts_kor_isnm\": \"K200가치저변동성\",\r\n            \"bstp_nmix_prpr\": \"5446.64\",\r\n            \"bstp_nmix_prdy_vrss\": \"120.03\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.25\",\r\n            \"acml_vol\": \"86859\",\r\n            \"acml_tr_pbmn\": \"4469357\",\r\n            \"acml_vol_rlim\": \"73.01\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2022\",\r\n            \"hts_kor_isnm\": \"K200중소형주\",\r\n            \"bstp_nmix_prpr\": \"1221.07\",\r\n            \"bstp_nmix_prdy_vrss\": \"22.17\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.85\",\r\n            \"acml_vol\": \"42179\",\r\n            \"acml_tr_pbmn\": \"954465\",\r\n            \"acml_vol_rlim\": \"35.46\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2023\",\r\n            \"hts_kor_isnm\": \"K200경기방어소비재\",\r\n            \"bstp_nmix_prpr\": \"903.55\",\r\n            \"bstp_nmix_prdy_vrss\": \"8.98\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.00\",\r\n            \"acml_vol\": \"8450\",\r\n            \"acml_tr_pbmn\": \"550010\",\r\n            \"acml_vol_rlim\": \"7.10\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2024\",\r\n            \"hts_kor_isnm\": \"K200에너지화학 레버리지\",\r\n            \"bstp_nmix_prpr\": \"836.53\",\r\n            \"bstp_nmix_prdy_vrss\": \"53.55\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"6.84\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2025\",\r\n            \"hts_kor_isnm\": \"K200정보기술 레버리지\",\r\n            \"bstp_nmix_prpr\": \"4350.42\",\r\n            \"bstp_nmix_prdy_vrss\": \"112.40\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.65\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2026\",\r\n            \"hts_kor_isnm\": \"K200금융 레버리지\",\r\n            \"bstp_nmix_prpr\": \"517.48\",\r\n            \"bstp_nmix_prdy_vrss\": \"35.72\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"7.41\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2027\",\r\n            \"hts_kor_isnm\": \"K200경기소비재 레버리지\",\r\n            \"bstp_nmix_prpr\": \"989.98\",\r\n            \"bstp_nmix_prdy_vrss\": \"47.94\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"5.09\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2035\",\r\n            \"hts_kor_isnm\": \"코스피200 TR\",\r\n            \"bstp_nmix_prpr\": \"449.66\",\r\n            \"bstp_nmix_prdy_vrss\": \"5.45\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.23\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2036\",\r\n            \"hts_kor_isnm\": \"코스피200 NTR\",\r\n            \"bstp_nmix_prpr\": \"433.34\",\r\n            \"bstp_nmix_prdy_vrss\": \"5.25\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.23\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2028\",\r\n            \"hts_kor_isnm\": \"K200건설 레버리지\",\r\n            \"bstp_nmix_prpr\": \"204.06\",\r\n            \"bstp_nmix_prdy_vrss\": \"9.87\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"5.08\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2029\",\r\n            \"hts_kor_isnm\": \"K200중공업 레버리지\",\r\n            \"bstp_nmix_prpr\": \"169.43\",\r\n            \"bstp_nmix_prdy_vrss\": \"3.48\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.10\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2030\",\r\n            \"hts_kor_isnm\": \"K200헬스케어 레버리지\",\r\n            \"bstp_nmix_prpr\": \"659.07\",\r\n            \"bstp_nmix_prdy_vrss\": \"10.14\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.56\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2040\",\r\n            \"hts_kor_isnm\": \"코스피200 초대형 제외지수\",\r\n            \"bstp_nmix_prpr\": \"256.52\",\r\n            \"bstp_nmix_prdy_vrss\": \"4.70\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.87\",\r\n            \"acml_vol\": \"105736\",\r\n            \"acml_tr_pbmn\": \"6115607\",\r\n            \"acml_vol_rlim\": \"88.88\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2037\",\r\n            \"hts_kor_isnm\": \"코스피200 예측 고배당 50\",\r\n            \"bstp_nmix_prpr\": \"1989.88\",\r\n            \"bstp_nmix_prdy_vrss\": \"49.77\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.57\",\r\n            \"acml_vol\": \"22491\",\r\n            \"acml_tr_pbmn\": \"1659649\",\r\n            \"acml_vol_rlim\": \"18.91\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2038\",\r\n            \"hts_kor_isnm\": \"코스피200 예측 배당성장 50\",\r\n            \"bstp_nmix_prpr\": \"1661.50\",\r\n            \"bstp_nmix_prdy_vrss\": \"33.18\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.04\",\r\n            \"acml_vol\": \"39463\",\r\n            \"acml_tr_pbmn\": \"2424471\",\r\n            \"acml_vol_rlim\": \"33.17\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2041\",\r\n            \"hts_kor_isnm\": \"K200 정보기술 TR\",\r\n            \"bstp_nmix_prpr\": \"3742.21\",\r\n            \"bstp_nmix_prdy_vrss\": \"49.16\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.33\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2042\",\r\n            \"hts_kor_isnm\": \"K200 금융 TR\",\r\n            \"bstp_nmix_prpr\": \"1192.40\",\r\n            \"bstp_nmix_prdy_vrss\": \"42.68\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"3.71\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2044\",\r\n            \"hts_kor_isnm\": \"K200 에너지화학 TR\",\r\n            \"bstp_nmix_prpr\": \"1786.68\",\r\n            \"bstp_nmix_prdy_vrss\": \"59.16\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"3.42\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2045\",\r\n            \"hts_kor_isnm\": \"K200 생활소비재 TR\",\r\n            \"bstp_nmix_prpr\": \"1031.76\",\r\n            \"bstp_nmix_prdy_vrss\": \"16.65\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.64\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2046\",\r\n            \"hts_kor_isnm\": \"K200 건설 TR\",\r\n            \"bstp_nmix_prpr\": \"386.22\",\r\n            \"bstp_nmix_prdy_vrss\": \"9.59\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.55\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2047\",\r\n            \"hts_kor_isnm\": \"K200 중공업 TR\",\r\n            \"bstp_nmix_prpr\": \"356.92\",\r\n            \"bstp_nmix_prdy_vrss\": \"3.72\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.05\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2048\",\r\n            \"hts_kor_isnm\": \"K200 철강소재 TR\",\r\n            \"bstp_nmix_prpr\": \"1172.71\",\r\n            \"bstp_nmix_prdy_vrss\": \"46.45\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"4.12\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2049\",\r\n            \"hts_kor_isnm\": \"K200 산업재 TR\",\r\n            \"bstp_nmix_prpr\": \"753.63\",\r\n            \"bstp_nmix_prdy_vrss\": \"8.11\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.09\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2050\",\r\n            \"hts_kor_isnm\": \"K200 헬스케어 TR\",\r\n            \"bstp_nmix_prpr\": \"1966.27\",\r\n            \"bstp_nmix_prdy_vrss\": \"15.34\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.79\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2051\",\r\n            \"hts_kor_isnm\": \"K200 커뮤니케이션서비스 TR\",\r\n            \"bstp_nmix_prpr\": \"2355.58\",\r\n            \"bstp_nmix_prdy_vrss\": \"4.00\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.17\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2224\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 30%\",\r\n            \"bstp_nmix_prpr\": \"355.08\",\r\n            \"bstp_nmix_prdy_vrss\": \"4.37\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.25\",\r\n            \"acml_vol\": \"118963\",\r\n            \"acml_tr_pbmn\": \"7078909\",\r\n            \"acml_vol_rlim\": \"100.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2225\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 30%  TR\",\r\n            \"bstp_nmix_prpr\": \"449.00\",\r\n            \"bstp_nmix_prdy_vrss\": \"5.53\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.25\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2226\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 30%  NTR\",\r\n            \"bstp_nmix_prpr\": \"432.91\",\r\n            \"bstp_nmix_prdy_vrss\": \"5.33\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.25\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2227\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 25%\",\r\n            \"bstp_nmix_prpr\": \"351.32\",\r\n            \"bstp_nmix_prdy_vrss\": \"4.69\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.35\",\r\n            \"acml_vol\": \"118963\",\r\n            \"acml_tr_pbmn\": \"7078909\",\r\n            \"acml_vol_rlim\": \"100.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2228\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 25%  TR\",\r\n            \"bstp_nmix_prpr\": \"444.32\",\r\n            \"bstp_nmix_prdy_vrss\": \"5.93\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.35\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2230\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 25%  NTR\",\r\n            \"bstp_nmix_prpr\": \"428.34\",\r\n            \"bstp_nmix_prdy_vrss\": \"5.72\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.35\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2232\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 20%\",\r\n            \"bstp_nmix_prpr\": \"341.02\",\r\n            \"bstp_nmix_prdy_vrss\": \"4.89\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.45\",\r\n            \"acml_vol\": \"118963\",\r\n            \"acml_tr_pbmn\": \"7078909\",\r\n            \"acml_vol_rlim\": \"100.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2233\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 20%  TR\",\r\n            \"bstp_nmix_prpr\": \"430.39\",\r\n            \"bstp_nmix_prdy_vrss\": \"6.17\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.45\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2235\",\r\n            \"hts_kor_isnm\": \"K200 비중상한 20%  NTR\",\r\n            \"bstp_nmix_prpr\": \"415.42\",\r\n            \"bstp_nmix_prdy_vrss\": \"5.96\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.46\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2043\",\r\n            \"hts_kor_isnm\": \"K200 경기소비재 TR\",\r\n            \"bstp_nmix_prpr\": \"2152.99\",\r\n            \"bstp_nmix_prdy_vrss\": \"53.53\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.55\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2284\",\r\n            \"hts_kor_isnm\": \"코스피 200 선물지수 TWAP형\",\r\n            \"bstp_nmix_prpr\": \"1786.47\",\r\n            \"bstp_nmix_prdy_vrss\": \"18.33\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.04\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2285\",\r\n            \"hts_kor_isnm\": \"코스피 200 선물 TWAP 인버스지수\",\r\n            \"bstp_nmix_prpr\": \"2555.41\",\r\n            \"bstp_nmix_prdy_vrss\": \"-26.53\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"bstp_nmix_prdy_ctrt\": \"-1.03\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2286\",\r\n            \"hts_kor_isnm\": \"코스피 200 선물 TWAP 레버리지\",\r\n            \"bstp_nmix_prpr\": \"1448.92\",\r\n            \"bstp_nmix_prdy_vrss\": \"29.55\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.08\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2287\",\r\n            \"hts_kor_isnm\": \"코스피 200 선물 TWAP 인버스-2X\",\r\n            \"bstp_nmix_prpr\": \"2598.71\",\r\n            \"bstp_nmix_prdy_vrss\": \"-54.80\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"bstp_nmix_prdy_ctrt\": \"-2.07\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2751\",\r\n            \"hts_kor_isnm\": \"F-K200 에너지/화학\",\r\n            \"bstp_nmix_prpr\": \"1201.20\",\r\n            \"bstp_nmix_prdy_vrss\": \"34.48\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.96\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2752\",\r\n            \"hts_kor_isnm\": \"F-K200 정보기술\",\r\n            \"bstp_nmix_prpr\": \"2051.35\",\r\n            \"bstp_nmix_prdy_vrss\": \"18.30\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.90\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2753\",\r\n            \"hts_kor_isnm\": \"F-K200 금융\",\r\n            \"bstp_nmix_prpr\": \"1291.69\",\r\n            \"bstp_nmix_prdy_vrss\": \"40.86\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"3.27\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2754\",\r\n            \"hts_kor_isnm\": \"F-K200 경기소비재\",\r\n            \"bstp_nmix_prpr\": \"1121.37\",\r\n            \"bstp_nmix_prdy_vrss\": \"17.42\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.58\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2755\",\r\n            \"hts_kor_isnm\": \"F-K200 건설\",\r\n            \"bstp_nmix_prpr\": \"1218.34\",\r\n            \"bstp_nmix_prdy_vrss\": \"25.51\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"2.14\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2756\",\r\n            \"hts_kor_isnm\": \"F-K200 중공업\",\r\n            \"bstp_nmix_prpr\": \"962.17\",\r\n            \"bstp_nmix_prdy_vrss\": \"8.96\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.94\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2757\",\r\n            \"hts_kor_isnm\": \"F-K200 헬스케어\",\r\n            \"bstp_nmix_prpr\": \"963.71\",\r\n            \"bstp_nmix_prdy_vrss\": \"2.84\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.30\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2758\",\r\n            \"hts_kor_isnm\": \"F-K200 생활소비재\",\r\n            \"bstp_nmix_prpr\": \"637.56\",\r\n            \"bstp_nmix_prdy_vrss\": \"1.77\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.28\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2759\",\r\n            \"hts_kor_isnm\": \"F-K200 철강/소재\",\r\n            \"bstp_nmix_prpr\": \"903.55\",\r\n            \"bstp_nmix_prdy_vrss\": \"0.00\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.00\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2760\",\r\n            \"hts_kor_isnm\": \"F-K200 산업재\",\r\n            \"bstp_nmix_prpr\": \"1031.59\",\r\n            \"bstp_nmix_prdy_vrss\": \"7.80\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.76\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2761\",\r\n            \"hts_kor_isnm\": \"F-K200 에너지/화학  레버리지\",\r\n            \"bstp_nmix_prpr\": \"1039.81\",\r\n            \"bstp_nmix_prdy_vrss\": \"58.10\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"5.92\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2762\",\r\n            \"hts_kor_isnm\": \"F-K200 정보기술  레버리지\",\r\n            \"bstp_nmix_prpr\": \"3228.56\",\r\n            \"bstp_nmix_prdy_vrss\": \"57.34\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.81\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2763\",\r\n            \"hts_kor_isnm\": \"F-K200 금융  레버리지\",\r\n            \"bstp_nmix_prpr\": \"1311.74\",\r\n            \"bstp_nmix_prdy_vrss\": \"80.53\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"6.54\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2764\",\r\n            \"hts_kor_isnm\": \"F-K200 경기소비재  레버리지\",\r\n            \"bstp_nmix_prpr\": \"1001.75\",\r\n            \"bstp_nmix_prdy_vrss\": \"30.72\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"3.16\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2765\",\r\n            \"hts_kor_isnm\": \"F-K200 건설  레버리지\",\r\n            \"bstp_nmix_prpr\": \"976.07\",\r\n            \"bstp_nmix_prdy_vrss\": \"40.10\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"4.28\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2766\",\r\n            \"hts_kor_isnm\": \"F-K200 중공업  레버리지\",\r\n            \"bstp_nmix_prpr\": \"532.58\",\r\n            \"bstp_nmix_prdy_vrss\": \"9.86\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.89\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2767\",\r\n            \"hts_kor_isnm\": \"F-K200 헬스케어  레버리지\",\r\n            \"bstp_nmix_prpr\": \"610.89\",\r\n            \"bstp_nmix_prdy_vrss\": \"3.63\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.60\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2768\",\r\n            \"hts_kor_isnm\": \"F-K200 생활소비재  레버리지\",\r\n            \"bstp_nmix_prpr\": \"376.44\",\r\n            \"bstp_nmix_prdy_vrss\": \"2.12\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.57\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2769\",\r\n            \"hts_kor_isnm\": \"F-K200 철강/소재  레버리지\",\r\n            \"bstp_nmix_prpr\": \"546.02\",\r\n            \"bstp_nmix_prdy_vrss\": \"0.04\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.01\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2770\",\r\n            \"hts_kor_isnm\": \"F-K200 산업재  레버리지\",\r\n            \"bstp_nmix_prpr\": \"868.46\",\r\n            \"bstp_nmix_prdy_vrss\": \"13.10\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"bstp_nmix_prdy_ctrt\": \"1.53\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2771\",\r\n            \"hts_kor_isnm\": \"F-K200 에너지/화학  인버스\",\r\n            \"bstp_nmix_prpr\": \"607.50\",\r\n            \"bstp_nmix_prdy_vrss\": \"-18.44\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"bstp_nmix_prdy_ctrt\": \"-2.95\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2772\",\r\n            \"hts_kor_isnm\": \"F-K200 정보기술  인버스\",\r\n            \"bstp_nmix_prpr\": \"379.71\",\r\n            \"bstp_nmix_prdy_vrss\": \"-3.41\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"bstp_nmix_prdy_ctrt\": \"-0.89\",\r\n            \"acml_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"0\",\r\n            \"acml_vol_rlim\": \"0.00\",\r\n            \"acml_tr_pbmn_rlim\": \"\"\r\n        },\r\n        {\r\n            \"bstp_cls_code\": \"2773\",\r\n            \"hts_kor_isnm\": \"F-K200 금융  인버스\",\r\n            \"bstp_nmix_prpr\": \"615.73\",\r\n            \"bstp_nmix_prdy_vrss\": \"-20.73\",\r\n       ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "sheet_name": "국내주식 예상체결가 추이",
+  "row_count": 57,
+  "columns": [
+    "국내주식 예상체결가 추이",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 예상체결가 추이": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "메뉴 위치",
+      "Column_1": "[국내주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "API 명",
+      "Column_1": "국내주식 예상체결가 추이",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "API ID",
+      "Column_1": "국내주식-118",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "실전 TR_ID",
+      "Column_1": "FHPST01810000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/exp-price-trend",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "개요",
+      "Column_1": "국내주식 예상체결가 추이 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0184] 예상체결지수 추이 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n최대 30건 확인 가능하며, 다음 조회가 불가합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST01810000",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "Request Query Parameter",
+      "Column_1": "fid_mkop_cls_code",
+      "Column_2": "장운영 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "0:전체, 4:체결량 0 제외",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (주식 J)",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "fid_input_iscd",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "종목코드(ex. 005930)",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "rprs_mrkt_kor_name",
+      "Column_2": "대표 시장 한글 명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "antc_cnpr",
+      "Column_2": "예상 체결가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "antc_cntg_vrss_sign",
+      "Column_2": "예상 체결 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "antc_cntg_vrss",
+      "Column_2": "예상 체결 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "antc_cntg_prdy_ctrt",
+      "Column_2": "예상 체결 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "antc_vol",
+      "Column_2": "예상 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "antc_tr_pbmn",
+      "Column_2": "예상 거래대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식 영업 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "stck_cntg_hour",
+      "Column_2": "주식 체결 시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_input_iscd\":\"005930\",\r\n\"fid_mkop_cls_code\":\"0\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 예상체결가 추이": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"rprs_mrkt_kor_name\": \"KOSPI200\",\r\n        \"antc_cnpr\": \"72600\",\r\n        \"antc_cntg_vrss_sign\": \"2\",\r\n        \"antc_cntg_vrss\": \"300\",\r\n        \"antc_cntg_prdy_ctrt\": \"0.41\",\r\n        \"antc_vol\": \"420303\",\r\n        \"antc_tr_pbmn\": \"30513997800\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090023\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"420303\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090023\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"420196\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090023\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"420206\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090023\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"419330\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090022\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"419131\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090022\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418134\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090022\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418123\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090021\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418123\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090020\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418123\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090019\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418123\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090019\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418120\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090018\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418120\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090017\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418120\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090017\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418121\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090016\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418121\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090016\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"418003\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090016\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"417953\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090016\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"417729\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090016\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"417679\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090015\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"417679\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090015\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"417060\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090015\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"417050\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090015\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"416945\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090015\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"416921\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090015\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"416915\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090014\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"416915\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090014\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"416770\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090014\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"416759\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090014\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"415059\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240318\",\r\n            \"stck_cntg_hour\": \"090013\",\r\n            \"stck_prpr\": \"72600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"414942\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

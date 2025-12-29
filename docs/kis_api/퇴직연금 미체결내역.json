@@ -1,0 +1,686 @@
+{
+  "sheet_name": "퇴직연금 미체결내역",
+  "row_count": 67,
+  "columns": [
+    "퇴직연금 미체결내역",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "퇴직연금 미체결내역": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "메뉴 위치",
+      "Column_1": "[국내주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "API 명",
+      "Column_1": "퇴직연금 미체결내역",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "API ID",
+      "Column_1": "v1_국내주식-033",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "실전 TR_ID",
+      "Column_1": "TTTC2201R(기존 KRX만 가능), TTTC2210R (KRX,NXT/SOR)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/trading/pension/inquire-daily-ccld",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "개요",
+      "Column_1": "​※ 55번 계좌(DC가입자계좌)의 경우 해당 API 이용이 불가합니다.\r\nKIS Developers API의 경우 HTS ID에 반드시 연결되어있어야만 API 신청 및 앱정보 발급이 가능한 서비스로 개발되어서 실물계좌가 아닌 55번 계좌는 API 이용이 불가능한 점 양해 부탁드립니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "TTTC2201R(기존 KRX만 가능), TTTC2210R (KRX,NXT/SOR)",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "29",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "USER_DVSN_CD",
+      "Column_2": "사용자구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "%%",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "SLL_BUY_DVSN_CD",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "00 : 전체 / 01 : 매도 / 02 : 매수",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "CCLD_NCCS_DVSN",
+      "Column_2": "체결미체결구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "%% : 전체 / 01 : 체결 / 02 : 미체결",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "INQR_DVSN_3",
+      "Column_2": "조회구분3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "00 : 전체",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "CTX_AREA_FK100",
+      "Column_2": "연속조회검색조건100",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "CTX_AREA_NK100",
+      "Column_2": "연속조회키100",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "output",
+      "Column_2": "응답상세1",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "Array",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "ord_gno_brno",
+      "Column_2": "주문채번지점번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "sll_buy_dvsn_cd",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "trad_dvsn_name",
+      "Column_2": "매매구분명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "odno",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "ord_unpr",
+      "Column_2": "주문단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "ord_qty",
+      "Column_2": "주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "tot_ccld_qty",
+      "Column_2": "총체결수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "nccs_qty",
+      "Column_2": "미체결수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "ord_dvsn_cd",
+      "Column_2": "주문구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "ord_dvsn_name",
+      "Column_2": "주문구분명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "orgn_odno",
+      "Column_2": "원주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "ord_tmd",
+      "Column_2": "주문시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "objt_cust_dvsn_name",
+      "Column_2": "대상고객구분명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "pchs_avg_pric",
+      "Column_2": "매입평균가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "184",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "stpm_cndt_pric",
+      "Column_2": "스톱지정가조건가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "신규 API용 필드",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "stpm_efct_occr_dtmd",
+      "Column_2": "스톱지정가효력발생상세시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "신규 API용 필드",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "stpm_efct_occr_yn",
+      "Column_2": "스톱지정가효력발생여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "신규 API용 필드",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": null,
+      "Column_1": "excg_id_dvsn_cd",
+      "Column_2": "거래소ID구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "신규 API용 필드",
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\":\"63512345\",\r\n\t\"ACNT_PRDT_CD\":\"29\",\r\n\t\"USER_DVSN_CD\":\"%%\",\r\n\t\"SLL_BUY_DVSN_CD\":\"00\",\r\n\t\"CCLD_NCCS_DVSN\":\"%%\",\r\n\t\"INQR_DVSN_3\":\"00\",\r\n\t\"CTX_AREA_FK100\":\"\",\r\n\t\"CTX_AREA_NK100\":\"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "퇴직연금 미체결내역": "Response Example",
+      "Column_1": "{\r\n    \"ctx_area_fk100\": \"63512345^29^%%^00^%%^00^                                                                            \",\r\n    \"ctx_area_nk100\": \"^^                                                                                                  \",\r\n    \"output\": [],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0490\",\r\n    \"msg1\": \"조회가 계속됩니다                                                               \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

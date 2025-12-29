@@ -1,0 +1,586 @@
+{
+  "sheet_name": "예탁원정보(합병_분할일정)",
+  "row_count": 57,
+  "columns": [
+    "예탁원정보(합병_분할일정)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "예탁원정보(합병_분할일정)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "API 명",
+      "Column_1": "예탁원정보(합병_분할일정)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "API ID",
+      "Column_1": "국내주식-147",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "실전 TR_ID",
+      "Column_1": "HHKDB669104C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ksdinfo/merger-split",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "개요",
+      "Column_1": "예탁원정보(합병/분할일정) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0664] 합병/분할 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 예탁원에서 제공한 자료이므로 정보용으로만 사용하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHKDB669104C0",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "Request Query Parameter",
+      "Column_1": "CTS",
+      "Column_2": "CTS",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "F_DT",
+      "Column_2": "조회일자From",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "T_DT",
+      "Column_2": "조회일자To",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "SHT_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "공백: 전체,  특정종목 조회시 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "record_date",
+      "Column_2": "기준일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "sht_cd",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "opp_cust_cd",
+      "Column_2": "피합병(피분할)회사코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "opp_cust_nm",
+      "Column_2": "피합병(피분할)회사명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "37",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "cust_cd",
+      "Column_2": "합병(분할)회사코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "cust_nm",
+      "Column_2": "합병(분할)회사명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "37",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "merge_type",
+      "Column_2": "합병사유",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "merge_rate",
+      "Column_2": "비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "142",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "td_stop_dt",
+      "Column_2": "매매거래정지기간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "23",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "list_dt",
+      "Column_2": "상장/등록일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "odd_amt_pay_dt",
+      "Column_2": "단주대금지급일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "tot_issue_stk_qty",
+      "Column_2": "발행주식",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "issue_stk_qty",
+      "Column_2": "발행할주식",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": null,
+      "Column_1": "seq",
+      "Column_2": "연번",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "Request Example (Python)",
+      "Column_1": "cts:\r\nf_dt:20230301\r\nt_dt:20240326\r\nsht_cd:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(합병_분할일정)": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"record_date\": \"20240311\",\r\n            \"sht_cd\": \"224020\",\r\n            \"opp_cust_cd\": \"22402\",\r\n            \"opp_cust_nm\": \"에스케이씨에스\",\r\n            \"cust_cd\": \"17735\",\r\n            \"cust_nm\": \"베셀\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.66\",\r\n            \"td_stop_dt\": \"2024/03/08 ~ 2024/03/28\",\r\n            \"list_dt\": \"20240329\",\r\n            \"odd_amt_pay_dt\": \"2024/04/05\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240305\",\r\n            \"sht_cd\": \"397880\",\r\n            \"opp_cust_cd\": \"39788\",\r\n            \"opp_cust_nm\": \"교보11호기업인수목적\",\r\n            \"cust_cd\": \"42057\",\r\n            \"cust_nm\": \"제이투케이바이오\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.12\",\r\n            \"td_stop_dt\": \"2024/03/04 ~\",\r\n            \"list_dt\": \"20240325\",\r\n            \"odd_amt_pay_dt\": \"2024/04/01\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"210980\",\r\n            \"opp_cust_cd\": \"21098\",\r\n            \"opp_cust_nm\": \"에스케이디앤디\",\r\n            \"cust_cd\": \"47515\",\r\n            \"cust_nm\": \"에스케이이터닉스\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 1.15\",\r\n            \"td_stop_dt\": \"2024/02/28 ~ 2024/03/28\",\r\n            \"list_dt\": \"20240329\",\r\n            \"odd_amt_pay_dt\": \"2024/04/05\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"21098L\",\r\n            \"opp_cust_cd\": \"21098\",\r\n            \"opp_cust_nm\": \"에스케이디앤디\",\r\n            \"cust_cd\": \"21098\",\r\n            \"cust_nm\": \"에스케이디앤디\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.77\",\r\n            \"td_stop_dt\": \"2024/02/28 ~ 2024/03/28\",\r\n            \"list_dt\": \"20240329\",\r\n            \"odd_amt_pay_dt\": \"2024/04/05\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240228\",\r\n            \"sht_cd\": \"072700\",\r\n            \"opp_cust_cd\": \"07270\",\r\n            \"opp_cust_nm\": \"더존홀딩스\",\r\n            \"cust_cd\": \"01251\",\r\n            \"cust_nm\": \"더존비즈온\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \"834.0\",\r\n            \"td_stop_dt\": \"2024/02/27 ~ 2024/03/21\",\r\n            \"list_dt\": \"20240322\",\r\n            \"odd_amt_pay_dt\": \"2024/03/29\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240228\",\r\n            \"sht_cd\": \"452240\",\r\n            \"opp_cust_cd\": \"45224\",\r\n            \"opp_cust_nm\": \"뉴온\",\r\n            \"cust_cd\": \"12384\",\r\n            \"cust_nm\": \"뉴온\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \"24.52\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"20240325\",\r\n            \"odd_amt_pay_dt\": \"2024/04/02\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240213\",\r\n            \"sht_cd\": \"001880\",\r\n            \"opp_cust_cd\": \"00188\",\r\n            \"opp_cust_nm\": \"디엘건설\",\r\n            \"cust_cd\": \"37550\",\r\n            \"cust_nm\": \"디엘이앤씨\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 0.37\",\r\n            \"td_stop_dt\": \"2024/02/08 ~ 2024/03/03\",\r\n            \"list_dt\": \"20240304\",\r\n            \"odd_amt_pay_dt\": \"2024/03/12\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240213\",\r\n            \"sht_cd\": \"00188K\",\r\n            \"opp_cust_cd\": \"00188\",\r\n            \"opp_cust_nm\": \"디엘건설\",\r\n            \"cust_cd\": \"00188\",\r\n            \"cust_nm\": \"디엘건설\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 1.00\",\r\n            \"td_stop_dt\": \"2024/02/08 ~ 2024/03/03\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240213\",\r\n            \"sht_cd\": \"115960\",\r\n            \"opp_cust_cd\": \"11596\",\r\n            \"opp_cust_nm\": \"연우\",\r\n            \"cust_cd\": \"16189\",\r\n            \"cust_nm\": \"한국콜마\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 0.29\",\r\n            \"td_stop_dt\": \"2024/02/08 ~ 2024/03/05\",\r\n            \"list_dt\": \"20240306\",\r\n            \"odd_amt_pay_dt\": \"2024/03/13\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240130\",\r\n            \"sht_cd\": \"183410\",\r\n            \"opp_cust_cd\": \"18341\",\r\n            \"opp_cust_nm\": \"골프존데카\",\r\n            \"cust_cd\": \"21500\",\r\n            \"cust_nm\": \"골프존\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 0.01\",\r\n            \"td_stop_dt\": \"2024/01/29 ~ 2024/02/21\",\r\n            \"list_dt\": \"20240222\",\r\n            \"odd_amt_pay_dt\": \"2024/02/28\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240123\",\r\n            \"sht_cd\": \"372290\",\r\n            \"opp_cust_cd\": \"37229\",\r\n            \"opp_cust_nm\": \"하나머스트7호기업인수목적\",\r\n            \"cust_cd\": \"45243\",\r\n            \"cust_nm\": \"사피엔반도체\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.13\",\r\n            \"td_stop_dt\": \"2024/01/22 ~\",\r\n            \"list_dt\": \"20240219\",\r\n            \"odd_amt_pay_dt\": \"2024/02/23\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240122\",\r\n            \"sht_cd\": \"426550\",\r\n            \"opp_cust_cd\": \"42655\",\r\n            \"opp_cust_nm\": \"아이비케이에스제19호기업인수목적\",\r\n            \"cust_cd\": \"44367\",\r\n            \"cust_nm\": \"에스피소프트\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.62\",\r\n            \"td_stop_dt\": \"2024/01/19 ~\",\r\n            \"list_dt\": \"20240215\",\r\n            \"odd_amt_pay_dt\": \"2024/02/22\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240115\",\r\n            \"sht_cd\": \"068400\",\r\n            \"opp_cust_cd\": \"06840\",\r\n            \"opp_cust_nm\": \"에스케이렌터카\",\r\n            \"cust_cd\": \"06840\",\r\n            \"cust_nm\": \"에스케이렌터카\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 1.00\",\r\n            \"td_stop_dt\": \"2024/01/12 ~ 2024/01/30\",\r\n            \"list_dt\": \"20240131\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240115\",\r\n            \"sht_cd\": \"427950\",\r\n            \"opp_cust_cd\": \"42795\",\r\n            \"opp_cust_nm\": \"하나금융23호기업인수목적\",\r\n            \"cust_cd\": \"19955\",\r\n            \"cust_nm\": \"레이저옵텍\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.23\",\r\n            \"td_stop_dt\": \"2024/01/12 ~\",\r\n            \"list_dt\": \"20240201\",\r\n            \"odd_amt_pay_dt\": \"2024/02/07\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240108\",\r\n            \"sht_cd\": \"377400\",\r\n            \"opp_cust_cd\": \"37740\",\r\n            \"opp_cust_nm\": \"하이제6호기업인수목적\",\r\n            \"cust_cd\": \"36299\",\r\n            \"cust_nm\": \"드림인사이트\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.37\",\r\n            \"td_stop_dt\": \"2024/01/05 ~\",\r\n            \"list_dt\": \"20240125\",\r\n            \"odd_amt_pay_dt\": \"2024/02/02\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231227\",\r\n            \"sht_cd\": \"033290\",\r\n            \"opp_cust_cd\": \"03329\",\r\n            \"opp_cust_nm\": \"코웰패션\",\r\n            \"cust_cd\": \"47285\",\r\n            \"cust_nm\": \"폰드그룹\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.37\",\r\n            \"td_stop_dt\": \"2023/12/26 ~ 2024/02/01\",\r\n            \"list_dt\": \"20240202\",\r\n            \"odd_amt_pay_dt\": \"2024/02/08\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231219\",\r\n            \"sht_cd\": \"091990\",\r\n            \"opp_cust_cd\": \"09199\",\r\n            \"opp_cust_nm\": \"셀트리온헬스케어\",\r\n            \"cust_cd\": \"06827\",\r\n            \"cust_nm\": \"셀트리온\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.45\",\r\n            \"td_stop_dt\": \"2023/12/18 ~ 2024/01/11\",\r\n            \"list_dt\": \"20240112\",\r\n            \"odd_amt_pay_dt\": \"2024/02/08\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231211\",\r\n            \"sht_cd\": \"404950\",\r\n            \"opp_cust_cd\": \"40495\",\r\n            \"opp_cust_nm\": \"디비금융제10호기업인수목적\",\r\n            \"cust_cd\": \"45219\",\r\n            \"cust_nm\": \"한빛레이저\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.65\",\r\n            \"td_stop_dt\": \"2023/12/08 ~\",\r\n            \"list_dt\": \"20240104\",\r\n            \"odd_amt_pay_dt\": \"2024/01/11\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231204\",\r\n            \"sht_cd\": \"450410\",\r\n            \"opp_cust_cd\": \"45041\",\r\n            \"opp_cust_nm\": \"엔에이치기업인수목적28호\",\r\n            \"cust_cd\": \"10967\",\r\n            \"cust_nm\": \"씨싸이트\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.18\",\r\n            \"td_stop_dt\": \"2023/12/01 ~\",\r\n            \"list_dt\": \"20231221\",\r\n            \"odd_amt_pay_dt\": \"2023/12/28\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231203\",\r\n            \"sht_cd\": \"046140\",\r\n            \"opp_cust_cd\": \"04614\",\r\n            \"opp_cust_nm\": \"에스비에스콘텐츠허브\",\r\n            \"cust_cd\": \"04614\",\r\n            \"cust_nm\": \"에스비에스콘텐츠허브\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 1.00\",\r\n            \"td_stop_dt\": \"2023/11/30 ~ 2023/12/17\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"2023/12/26\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231107\",\r\n            \"sht_cd\": \"173200\",\r\n            \"opp_cust_cd\": \"17320\",\r\n            \"opp_cust_nm\": \"아센텍\",\r\n            \"cust_cd\": \"47196\",\r\n            \"cust_nm\": \"세종에이앤에프\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.14\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231107\",\r\n            \"sht_cd\": \"367360\",\r\n            \"opp_cust_cd\": \"36736\",\r\n            \"opp_cust_nm\": \"디비금융제9호기업인수목적\",\r\n            \"cust_cd\": \"45216\",\r\n            \"cust_nm\": \"제이엔비\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.35\",\r\n            \"td_stop_dt\": \"2023/11/06 ~\",\r\n            \"list_dt\": \"20231124\",\r\n            \"odd_amt_pay_dt\": \"2023/12/01\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231017\",\r\n            \"sht_cd\": \"440200\",\r\n            \"opp_cust_cd\": \"44020\",\r\n            \"opp_cust_nm\": \"케이비제23호기업인수목적\",\r\n            \"cust_cd\": \"18826\",\r\n            \"cust_nm\": \"세니젠\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.24\",\r\n            \"td_stop_dt\": \"2023/10/16 ~\",\r\n            \"list_dt\": \"20231103\",\r\n            \"odd_amt_pay_dt\": \"2023/11/10\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231012\",\r\n            \"sht_cd\": \"085370\",\r\n            \"opp_cust_cd\": \"08537\",\r\n            \"opp_cust_nm\": \"루트로닉\",\r\n            \"cust_cd\": \"08537\",\r\n            \"cust_nm\": \"루트로닉\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 1.00\",\r\n            \"td_stop_dt\": \"2023/10/11 ~\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231012\",\r\n            \"sht_cd\": \"08537M\",\r\n            \"opp_cust_cd\": \"08537\",\r\n            \"opp_cust_nm\": \"루트로닉\",\r\n            \"cust_cd\": \"08537\",\r\n            \"cust_nm\": \"루트로닉\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 1.00\",\r\n            \"td_stop_dt\": \"2023/10/11 ~\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231011\",\r\n            \"sht_cd\": \"284100\",\r\n            \"opp_cust_cd\": \"28410\",\r\n            \"opp_cust_nm\": \"이안프론티어\",\r\n            \"cust_cd\": \"46939\",\r\n            \"cust_nm\": \"퍼스트온파트너스\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.11\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231011\",\r\n            \"sht_cd\": \"405350\",\r\n            \"opp_cust_cd\": \"40535\",\r\n            \"opp_cust_nm\": \"아이비케이에스제17호기업인수목적\",\r\n            \"cust_cd\": \"29056\",\r\n            \"cust_nm\": \"신시웨이\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.23\",\r\n            \"td_stop_dt\": \"2023/10/10 ~\",\r\n            \"list_dt\": \"20231103\",\r\n            \"odd_amt_pay_dt\": \"2023/11/08\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231010\",\r\n            \"sht_cd\": \"177900\",\r\n            \"opp_cust_cd\": \"17790\",\r\n            \"opp_cust_nm\": \"쓰리에이로직스\",\r\n            \"cust_cd\": \"46933\",\r\n            \"cust_nm\": \"쓰리에이솔루션\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.20\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"2023/11/29\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230927\",\r\n            \"sht_cd\": \"077500\",\r\n            \"opp_cust_cd\": \"07750\",\r\n            \"opp_cust_nm\": \"유니퀘스트\",\r\n            \"cust_cd\": \"19265\",\r\n            \"cust_nm\": \"드림텍\",\r\n            \"merge_type\": \"분할합병\",\r\n            \"merge_rate\": \" 0.92\",\r\n            \"td_stop_dt\": \"2023/09/26 ~ 2023/10/22\",\r\n            \"list_dt\": \"20231023\",\r\n            \"odd_amt_pay_dt\": \"2023/11/01\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230919\",\r\n            \"sht_cd\": \"019360\",\r\n            \"opp_cust_cd\": \"01936\",\r\n            \"opp_cust_nm\": \"한국신소재\",\r\n            \"cust_cd\": \"01796\",\r\n            \"cust_nm\": \"한국카본\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \"39.74\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"20231020\",\r\n            \"odd_amt_pay_dt\": \"2023/10/27\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230904\",\r\n            \"sht_cd\": \"366330\",\r\n            \"opp_cust_cd\": \"36633\",\r\n            \"opp_cust_nm\": \"신한제7호기업인수목적\",\r\n            \"cust_cd\": \"38447\",\r\n            \"cust_nm\": \"코어라인소프트\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.19\",\r\n            \"td_stop_dt\": \"2023/09/01 ~\",\r\n            \"list_dt\": \"20230918\",\r\n            \"odd_amt_pay_dt\": \"2023/09/26\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230831\",\r\n            \"sht_cd\": \"011810\",\r\n            \"opp_cust_cd\": \"01181\",\r\n            \"opp_cust_nm\": \"STX\",\r\n            \"cust_cd\": \"46577\",\r\n            \"cust_nm\": \"STX 그린로지스\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.23\",\r\n            \"td_stop_dt\": \"2023/08/30 ~ 2023/09/14\",\r\n            \"list_dt\": \"20230915\",\r\n            \"odd_amt_pay_dt\": \"2023/10/31\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230824\",\r\n            \"sht_cd\": \"048120\",\r\n            \"opp_cust_cd\": \"04812\",\r\n            \"opp_cust_nm\": \"원옥\",\r\n            \"cust_cd\": \"16857\",\r\n            \"cust_nm\": \"포겟\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \"12.00\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"20230912\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230822\",\r\n            \"sht_cd\": \"400560\",\r\n            \"opp_cust_cd\": \"40056\",\r\n            \"opp_cust_nm\": \"하나금융20호기업인수목적\",\r\n            \"cust_cd\": \"40349\",\r\n            \"cust_nm\": \"농업회사법인 우듬지팜\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.74\",\r\n            \"td_stop_dt\": \"2023/08/21 ~\",\r\n            \"list_dt\": \"20230919\",\r\n            \"odd_amt_pay_dt\": \"2023/09/26\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230821\",\r\n            \"sht_cd\": \"259210\",\r\n            \"opp_cust_cd\": \"25921\",\r\n            \"opp_cust_nm\": \"글람\",\r\n            \"cust_cd\": \"25921\",\r\n            \"cust_nm\": \"글람\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 0.00\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230821\",\r\n            \"sht_cd\": \"367480\",\r\n            \"opp_cust_cd\": \"36748\",\r\n            \"opp_cust_nm\": \"유안타제8호기업인수목적\",\r\n            \"cust_cd\": \"14606\",\r\n            \"cust_nm\": \"율촌\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.87\",\r\n            \"td_stop_dt\": \"2023/08/18 ~\",\r\n            \"list_dt\": \"20230908\",\r\n            \"odd_amt_pay_dt\": \"2023/09/14\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230808\",\r\n            \"sht_cd\": \"409570\",\r\n            \"opp_cust_cd\": \"40957\",\r\n            \"opp_cust_nm\": \"한국제10호기업인수목적\",\r\n            \"cust_cd\": \"35539\",\r\n            \"cust_nm\": \"크라우드웍스\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.09\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"20230831\",\r\n            \"odd_amt_pay_dt\": \"2023/09/07\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230807\",\r\n            \"sht_cd\": \"010050\",\r\n            \"opp_cust_cd\": \"01005\",\r\n            \"opp_cust_nm\": \"우리종합금융\",\r\n            \"cust_cd\": \"31614\",\r\n            \"cust_nm\": \"우리금융지주\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 0.06\",\r\n            \"td_stop_dt\": \"2023/08/04 ~ 2023/08/27\",\r\n            \"list_dt\": \"20230828\",\r\n            \"odd_amt_pay_dt\": \"2023/08/31\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230807\",\r\n            \"sht_cd\": \"298870\",\r\n            \"opp_cust_cd\": \"29887\",\r\n            \"opp_cust_nm\": \"우리벤처파트너스\",\r\n            \"cust_cd\": \"31614\",\r\n            \"cust_nm\": \"우리금융지주\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 0.22\",\r\n            \"td_stop_dt\": \"2023/08/04 ~ 2023/08/27\",\r\n            \"list_dt\": \"20230828\",\r\n            \"odd_amt_pay_dt\": \"2023/08/31\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230702\",\r\n            \"sht_cd\": \"390620\",\r\n            \"opp_cust_cd\": \"39062\",\r\n            \"opp_cust_nm\": \"엠리테일\",\r\n            \"cust_cd\": \"05788\",\r\n            \"cust_nm\": \"피에이치씨\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.00\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230630\",\r\n            \"sht_cd\": \"000480\",\r\n            \"opp_cust_cd\": \"00048\",\r\n            \"opp_cust_nm\": \"시알홀딩스\",\r\n            \"cust_cd\": \"46252\",\r\n            \"cust_nm\": \"조선내화\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.30\",\r\n            \"td_stop_dt\": \"2023/06/29 ~ 2023/07/27\",\r\n            \"list_dt\": \"20230728\",\r\n            \"odd_amt_pay_dt\": \"2023/08/04\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230630\",\r\n            \"sht_cd\": \"011870\",\r\n            \"opp_cust_cd\": \"01187\",\r\n            \"opp_cust_nm\": \"엘티삼보\",\r\n            \"cust_cd\": \"46220\",\r\n            \"cust_nm\": \"엘티\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.33\",\r\n            \"td_stop_dt\": \"2023/06/29 ~ 2023/07/30\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230626\",\r\n            \"sht_cd\": \"046110\",\r\n            \"opp_cust_cd\": \"04611\",\r\n            \"opp_cust_nm\": \"한일네트웍스\",\r\n            \"cust_cd\": \"03787\",\r\n            \"cust_nm\": \"유베이스\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 0.00\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230531\",\r\n            \"sht_cd\": \"001230\",\r\n            \"opp_cust_cd\": \"00123\",\r\n            \"opp_cust_nm\": \"동국홀딩스\",\r\n            \"cust_cd\": \"46086\",\r\n            \"cust_nm\": \"동국제강\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.52\",\r\n            \"td_stop_dt\": \"2023/05/30 ~ 2023/06/15\",\r\n            \"list_dt\": \"20230616\",\r\n            \"odd_amt_pay_dt\": \"2023/06/23\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230501\",\r\n            \"sht_cd\": \"388220\",\r\n            \"opp_cust_cd\": \"38822\",\r\n            \"opp_cust_nm\": \"하나금융19호기업인수목적\",\r\n            \"cust_cd\": \"27183\",\r\n            \"cust_nm\": \"팸텍\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.41\",\r\n            \"td_stop_dt\": \"2023/04/27 ~\",\r\n            \"list_dt\": \"20230523\",\r\n            \"odd_amt_pay_dt\": \"2023/05/30\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230428\",\r\n            \"sht_cd\": \"005950\",\r\n            \"opp_cust_cd\": \"00595\",\r\n            \"opp_cust_nm\": \"이수화학\",\r\n            \"cust_cd\": \"45719\",\r\n            \"cust_nm\": \"이수스페셜티케미컬\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.20\",\r\n            \"td_stop_dt\": \"2023/04/27 ~ 2023/05/30\",\r\n            \"list_dt\": \"20230531\",\r\n            \"odd_amt_pay_dt\": \"2023/06/14\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230428\",\r\n            \"sht_cd\": \"010060\",\r\n            \"opp_cust_cd\": \"01006\",\r\n            \"opp_cust_nm\": \"OCI홀딩스\",\r\n            \"cust_cd\": \"45604\",\r\n            \"cust_nm\": \"OCI\",\r\n            \"merge_type\": \"회사분할\",\r\n            \"merge_rate\": \" 0.31\",\r\n            \"td_stop_dt\": \"2023/04/27 ~ 2023/05/29\",\r\n            \"list_dt\": \"20230530\",\r\n            \"odd_amt_pay_dt\": \"2023/06/05\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230411\",\r\n            \"sht_cd\": \"246070\",\r\n            \"opp_cust_cd\": \"24607\",\r\n            \"opp_cust_nm\": \"딤채홀딩스\",\r\n            \"cust_cd\": \"00288\",\r\n            \"cust_nm\": \"대유에이텍\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.00\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\",\r\n            \"odd_amt_pay_dt\": \"\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230410\",\r\n            \"sht_cd\": \"396770\",\r\n            \"opp_cust_cd\": \"39677\",\r\n            \"opp_cust_nm\": \"엔에이치기업인수목적22호\",\r\n            \"cust_cd\": \"29883\",\r\n            \"cust_nm\": \"슈어소프트테크\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.37\",\r\n            \"td_stop_dt\": \"2023/04/07 ~\",\r\n            \"list_dt\": \"20230428\",\r\n            \"odd_amt_pay_dt\": \"2023/05/04\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230410\",\r\n            \"sht_cd\": \"421750\",\r\n            \"opp_cust_cd\": \"42175\",\r\n            \"opp_cust_nm\": \"벨로크\",\r\n            \"cust_cd\": \"42476\",\r\n            \"cust_nm\": \"벨로크\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 5.12\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"20230428\",\r\n            \"odd_amt_pay_dt\": \"2023/05/04\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230404\",\r\n            \"sht_cd\": \"008560\",\r\n            \"opp_cust_cd\": \"00856\",\r\n            \"opp_cust_nm\": \"메리츠증권\",\r\n            \"cust_cd\": \"13804\",\r\n            \"cust_nm\": \"메리츠금융지주\",\r\n            \"merge_type\": \"주식교환\",\r\n            \"merge_rate\": \" 0.16\",\r\n            \"td_stop_dt\": \"2023/04/03 ~ 2023/04/24\",\r\n            \"list_dt\": \"20230425\",\r\n            \"odd_amt_pay_dt\": \"2023/04/28\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230403\",\r\n            \"sht_cd\": \"426670\",\r\n            \"opp_cust_cd\": \"42667\",\r\n            \"opp_cust_nm\": \"대신밸런스제12호기업인수목적\",\r\n            \"cust_cd\": \"31816\",\r\n            \"cust_nm\": \"셀바이오휴먼텍\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 0.33\",\r\n            \"td_stop_dt\": \"2023/03/31 ~\",\r\n            \"list_dt\": \"20230420\",\r\n            \"odd_amt_pay_dt\": \"2023/04/26\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230317\",\r\n            \"sht_cd\": \"062760\",\r\n            \"opp_cust_cd\": \"06276\",\r\n            \"opp_cust_nm\": \"코스텍시스\",\r\n            \"cust_cd\": \"35515\",\r\n            \"cust_nm\": \"코스텍시스\",\r\n            \"merge_type\": \"흡수합병\",\r\n            \"merge_rate\": \" 6.42\",\r\n            \"td_stop_dt\": \"2023/03/16 ~ 2023/04/02\",\r\n            \"list_dt\": \"20230403\",\r\n            \"odd_amt_pay_dt\": \"2023/04/10\",\r\n            \"tot_issue_stk_qty\": \"           0\",\r\n            \"issue_stk_qty\": \"           0\",\r\n            \"seq\": \"00\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

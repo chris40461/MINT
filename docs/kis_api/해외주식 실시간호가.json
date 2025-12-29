@@ -1,0 +1,436 @@
+{
+  "sheet_name": "해외주식 실시간호가",
+  "row_count": 42,
+  "columns": [
+    "해외주식 실시간호가",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 실시간호가": "API 통신방식",
+      "Column_1": "WEBSOCKET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "메뉴 위치",
+      "Column_1": "[해외주식] 실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "API 명",
+      "Column_1": "해외주식 실시간호가",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "API ID",
+      "Column_1": "실시간-021",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "실전 TR_ID",
+      "Column_1": "HDFSASP0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "URL 명",
+      "Column_1": "/tryitout/HDFSASP0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "개요",
+      "Column_1": "해외주식 실시간호가를 이용하여 미국시세 실시간 1호가(매수/매도) 시세가 무료로 제공됩니다. (미국은 유료시세 제공 X)\r\n\r\n아시아 국가의 경우, HTS(efriend Plus) [7781] 시세신청(실시간) 화면에서 유료 서비스 신청 시, \r\n\"해외주식 실시간호가 HDFSASP0\" 을 이용하여 아시아국가 유료시세(실시간호가)를 받아보실 수 있습니다. (24.11.29 반영)\r\n(아시아 국가 무료시세는 \"해외주식 지연호가(아시아) HDFSASP1\" 를 이용하시기 바랍니다.)\r\n\r\n※ 미국 - 무료(매수/매도 각 1호가) : 실시간 무료(0분지연) / 나스닥 마켓센터에서 거래되는 호가 및 호가 잔량 정보\r\n※ 아시아(홍콩, 베트남, 중국, 일본) : 실시간 유료 (단, 중국은 HTS[7781]에서 실시간시세 무료로 신청 후 이용 가능)\r\n\r\n해당 API로 미국주간거래(10:00~16:00) 시세 조회도 가능합니다.\r\n※ 미국주간거래 실시간 조회 시, 맨 앞자리(R), tr_key 중 시장구분 값을 다음과 같이 입력 → 나스닥: BAQ, 뉴욕: BAY, 아멕스: BAA\r\n\r\n[참고자료]\r\n\r\n실시간시세(웹소켓) 파이썬 샘플코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/blob/main/websocket/python/ws_domestic_overseas_all.py\r\n\r\n실시간시세(웹소켓) API 사용방법에 대한 자세한 설명은 한국투자증권 Wikidocs 참고 부탁드립니다.\r\nhttps://wikidocs.net/book/7847 (국내주식 업데이트 완료, 추후 해외주식·국내선물옵션 업데이트 예정)\r\n\r\n​[미국주식시세 이용시 유의사항]\r\n■ 무료 실시간 시세(0분 지연) 제공\r\n※ 무료(매수/매도 각 1호가) : 나스닥 마켓센터에서 거래되는 호가 및 호가 잔량 정보\r\n■ 무료 실시간 시세 서비스는 유료 실시간 시세 서비스 대비 평균 50% 수준에 해당하는 정보이므로\r\n현재가/호가/순간체결량/차트 등에서 일시적·부분적 차이가 있을 수 있습니다. \r\n■ 무료∙유료 모두 미국에 상장된 종목(뉴욕, 나스닥, 아멕스 등)의 시세를 제공하며, 동일한 시스템을 사용하여 주문∙체결됩니다. \r\n단, 무료∙유료의 기반 데이터 차이로 호가 및 체결 데이터는 차이가 발생할 수 있고, 이로 인해 발생하는 손실에 대해서 당사가 책임지지 않습니다.\r\n■ 무료 실시간 시세 서비스의 시가, 저가, 고가, 종가는 유료 실시간 시세 서비스와 다를 수 있으며, \r\n종목별 과거 데이터(거래량, 시가, 종가, 고가, 차트 데이터 등)는 장 종료 후(오후 12시경) 유료 실시간 시세 서비스 데이터와 동일하게 업데이트됩니다.\r\n(출처: 한국투자증권 외화증권 거래설명서 - https://securities.koreainvestment.com/main/customer/guide/Guide.jsp?&cmd=TF04ag010002¤tPage=1&num=64)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "286",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 / P : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "tr_type",
+      "Column_2": "등록/해제",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "\"1: 등록, 2:해제\"",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": "HDFSASP0",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "tr_key",
+      "Column_2": "R거래소명종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "<미국 야간거래 - 무료시세>\r\nD+시장구분(3자리)+종목코드\r\n예) DNASAAPL : D+NAS(나스닥)+AAPL(애플)\r\n[시장구분]\r\nNYS : 뉴욕, NAS : 나스닥, AMS : 아멕스\r\n\r\n<미국 주간거래>\r\nR+시장구분(3자리)+종목코드\r\n예) RBAQAAPL : R+BAQ(나스닥)+AAPL(애플)\r\n[시장구분]\r\nBAY : 뉴욕(주간), BAQ : 나스닥(주간). BAA : 아멕스(주간)\r\n\r\n<아시아국가 - 유료시세>\r\n※ 유료시세 신청시에만 유료시세 수신가능\r\n\"포럼 > FAQ > 해외주식 유료시세 신청방법\" 참고\r\nR+시장구분(3자리)+종목코드\r\n예) RHKS00003 : R+HKS(홍콩)+00003(홍콩중화가스)\r\n[시장구분]\r\nTSE : 도쿄, HKS : 홍콩,\r\nSHS : 상해, SZS : 심천\r\nHSX : 호치민, HNX : 하노이",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "Response Body",
+      "Column_1": "RSYM",
+      "Column_2": "실시간종목코드",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "'각 항목사이에는 구분자로 ^ 사용,\r\n모든 데이터타입은 String으로 변환되어 push 처리됨'",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "SYMB",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "ZDIV",
+      "Column_2": "소숫점자리수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "XYMD",
+      "Column_2": "현지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "XHMS",
+      "Column_2": "현지시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "KYMD",
+      "Column_2": "한국일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "KHMS",
+      "Column_2": "한국시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "BVOL",
+      "Column_2": "매수총잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "AVOL",
+      "Column_2": "매도총잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "BDVL",
+      "Column_2": "매수총잔량대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "ADVL",
+      "Column_2": "매도총잔량대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "PBID1",
+      "Column_2": "매수호가1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "PASK1",
+      "Column_2": "매도호가1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "VBID1",
+      "Column_2": "매수잔량1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "VASK1",
+      "Column_2": "매도잔량1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "DBID1",
+      "Column_2": "매수잔량대비1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": null,
+      "Column_1": "DASK1",
+      "Column_2": "매도잔량대비1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "Request Example (Python)",
+      "Column_1": "{\r\n    \"header\": {\r\n        \"approval_key\": \"35xxxxxa-bxxa-4xxb-87xxx-f56xxxxxxxxxx\",\r\n        \"custtype\": \"P\",\r\n        \"tr_type\": \"1\",\r\n        \"content-type\": \"utf-8\"\r\n    },\r\n    \"body\": {\r\n        \"input\": {\r\n            \"tr_id\": \"HDFSASP0\",\r\n            \"tr_key\": \"RBAQAAPL\"\r\n        }\r\n    }\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간호가": "Response Example",
+      "Column_1": "# 연결 확인\r\n{\r\n    \"header\": {\r\n        \"tr_id\": \"HDFSASP0\", \r\n        \"tr_key\": \"RBAQAAPL\", \r\n        \"encrypt\": \"N\"\r\n        }, \r\n    \"body\": {\r\n        \"rt_cd\": \"0\", \r\n        \"msg_cd\": \"OPSP0000\",\r\n        \"msg1\": \"SUBSCRIBE SUCCESS\", \r\n        \"output\": {\r\n            \"iv\": \"0123456789abcdef\", \r\n            \"key\": \"abcdefghijklmnopabcdefghijklmnop\"}\r\n        }\r\n}\r\n\r\n# output\r\n0|HDFSASP0|001|RBAQAAPL^AAPL^4^20240506^202223^20240507^092223^1482^381^0^-10^182.8500^182.8700^350^57^0^-10^182.8400^182.9000^1^10^0^0^182.8300^182.9100^6^54^0^0^182.7900^182.9500^54^5^0^0^182.7500^182.9600^309^3^0^0^182.7300^182.9700^20^81^0^0^182.7000^182.9800^124^3^0^0^182.6600^182.9900^397^1^0^0^182.6500^183.0000^20^69^0^0^182.6300^183.0100^201^98^0^0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

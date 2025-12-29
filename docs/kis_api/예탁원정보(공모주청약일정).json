@@ -1,0 +1,576 @@
+{
+  "sheet_name": "예탁원정보(공모주청약일정)",
+  "row_count": 56,
+  "columns": [
+    "예탁원정보(공모주청약일정)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "예탁원정보(공모주청약일정)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "API 명",
+      "Column_1": "예탁원정보(공모주청약일정)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "API ID",
+      "Column_1": "국내주식-151",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "실전 TR_ID",
+      "Column_1": "HHKDB669108C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ksdinfo/pub-offer",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "개요",
+      "Column_1": "예탁원정보(공모주청약일정) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0667] 공모주청약 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 예탁원에서 제공한 자료이므로 정보용으로만 사용하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHKDB669108C0",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "Request Query Parameter",
+      "Column_1": "SHT_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "공백: 전체,  특정종목 조회시 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "CTS",
+      "Column_2": "CTS",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "F_DT",
+      "Column_2": "조회일자From",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "T_DT",
+      "Column_2": "조회일자To",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "record_date",
+      "Column_2": "기준일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "sht_cd",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "isin_name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "fix_subscr_pri",
+      "Column_2": "공모가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "face_value",
+      "Column_2": "액면가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "subscr_dt",
+      "Column_2": "청약기간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "23",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "pay_dt",
+      "Column_2": "납입일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "refund_dt",
+      "Column_2": "환불일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "list_dt",
+      "Column_2": "상장/등록일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "lead_mgr",
+      "Column_2": "주간사",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "41",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "pub_bf_cap",
+      "Column_2": "공모전자본금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "pub_af_cap",
+      "Column_2": "공모후자본금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": null,
+      "Column_1": "assign_stk_qty",
+      "Column_2": "당사배정물량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "Request Example (Python)",
+      "Column_1": "cts:\r\nf_dt:20230301\r\nt_dt:20240326\r\nsht_cd:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(공모주청약일정)": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"record_date\": \"20240325\",\r\n            \"sht_cd\": \"461030\",\r\n            \"isin_name\": \"아이엠비디엑스\",\r\n            \"fix_subscr_pri\": \"       13000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/03/25 ~ 2024/03/26\",\r\n            \"pay_dt\": \"2024/03/28\",\r\n            \"refund_dt\": \"2024/03/28\",\r\n            \"list_dt\": \"\",\r\n            \"lead_mgr\": \"미래에셋증권\",\r\n            \"pub_bf_cap\": \"     1141762\",\r\n            \"pub_af_cap\": \"       62500\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240318\",\r\n            \"sht_cd\": \"475240\",\r\n            \"isin_name\": \"하나32호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/03/18 ~ 2024/03/19\",\r\n            \"pay_dt\": \"2024/03/21\",\r\n            \"refund_dt\": \"2024/03/21\",\r\n            \"list_dt\": \"2024/03/27\",\r\n            \"lead_mgr\": \"하나증권\",\r\n            \"pub_bf_cap\": \"       20000\",\r\n            \"pub_af_cap\": \"       75000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240314\",\r\n            \"sht_cd\": \"455900\",\r\n            \"isin_name\": \"엔젤로보틱스\",\r\n            \"fix_subscr_pri\": \"       20000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/03/14 ~ 2024/03/15\",\r\n            \"pay_dt\": \"2024/03/19\",\r\n            \"refund_dt\": \"2024/03/19\",\r\n            \"list_dt\": \"2024/03/26\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"     6648690\",\r\n            \"pub_af_cap\": \"      240000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240312\",\r\n            \"sht_cd\": \"437730\",\r\n            \"isin_name\": \"삼현\",\r\n            \"fix_subscr_pri\": \"       30000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/03/12 ~ 2024/03/13\",\r\n            \"pay_dt\": \"2024/03/15\",\r\n            \"refund_dt\": \"2024/03/15\",\r\n            \"list_dt\": \"2024/03/21\",\r\n            \"lead_mgr\": \"한국투자증권\",\r\n            \"pub_bf_cap\": \"     4267928\",\r\n            \"pub_af_cap\": \"      250000\",\r\n            \"assign_stk_qty\": \"      500000\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240304\",\r\n            \"sht_cd\": \"036220\",\r\n            \"isin_name\": \"오상헬스케어\",\r\n            \"fix_subscr_pri\": \"       20000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/03/04 ~ 2024/03/05\",\r\n            \"pay_dt\": \"2024/03/07\",\r\n            \"refund_dt\": \"2024/03/07\",\r\n            \"list_dt\": \"\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"     6542358\",\r\n            \"pub_af_cap\": \"      123750\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240226\",\r\n            \"sht_cd\": \"199430\",\r\n            \"isin_name\": \"케이엔알시스템\",\r\n            \"fix_subscr_pri\": \"       13500\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/02/26 ~ 2024/02/27\",\r\n            \"pay_dt\": \"2024/02/29\",\r\n            \"refund_dt\": \"2024/02/29\",\r\n            \"list_dt\": \"2024/03/07\",\r\n            \"lead_mgr\": \"DB금융투자\",\r\n            \"pub_bf_cap\": \"      870059\",\r\n            \"pub_af_cap\": \"       52600\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240222\",\r\n            \"sht_cd\": \"469900\",\r\n            \"isin_name\": \"하나31호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/02/22 ~ 2024/02/23\",\r\n            \"pay_dt\": \"2024/02/27\",\r\n            \"refund_dt\": \"2024/02/27\",\r\n            \"list_dt\": \"2024/03/05\",\r\n            \"lead_mgr\": \"하나증권\",\r\n            \"pub_bf_cap\": \"       60500\",\r\n            \"pub_af_cap\": \"      125000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240220\",\r\n            \"sht_cd\": \"472230\",\r\n            \"isin_name\": \"에스케이증권제11호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/02/20 ~ 2024/02/21\",\r\n            \"pay_dt\": \"2024/02/23\",\r\n            \"refund_dt\": \"2024/02/23\",\r\n            \"list_dt\": \"2024/03/04\",\r\n            \"lead_mgr\": \"SK증권\",\r\n            \"pub_bf_cap\": \"       15500\",\r\n            \"pub_af_cap\": \"      100000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240220\",\r\n            \"sht_cd\": \"473050\",\r\n            \"isin_name\": \"유안타제15호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/02/20 ~ 2024/02/21\",\r\n            \"pay_dt\": \"2024/02/23\",\r\n            \"refund_dt\": \"2024/02/23\",\r\n            \"list_dt\": \"2024/02/29\",\r\n            \"lead_mgr\": \"유안타증권\",\r\n            \"pub_bf_cap\": \"       51000\",\r\n            \"pub_af_cap\": \"      162500\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240219\",\r\n            \"sht_cd\": \"468760\",\r\n            \"isin_name\": \"유진기업인수목적10호\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/02/19 ~ 2024/02/20\",\r\n            \"pay_dt\": \"2024/02/22\",\r\n            \"refund_dt\": \"2024/02/22\",\r\n            \"list_dt\": \"2024/02/29\",\r\n            \"lead_mgr\": \"유진투자증권\",\r\n            \"pub_bf_cap\": \"       24000\",\r\n            \"pub_af_cap\": \"      100000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240219\",\r\n            \"sht_cd\": \"473370\",\r\n            \"isin_name\": \"비엔케이제2호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/02/19 ~ 2024/02/20\",\r\n            \"pay_dt\": \"2024/02/22\",\r\n            \"refund_dt\": \"2024/02/22\",\r\n            \"list_dt\": \"2024/03/05\",\r\n            \"lead_mgr\": \"비엔케이투자증권\",\r\n            \"pub_bf_cap\": \"       21000\",\r\n            \"pub_af_cap\": \"      100000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240214\",\r\n            \"sht_cd\": \"278470\",\r\n            \"isin_name\": \"에이피알\",\r\n            \"fix_subscr_pri\": \"      250000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/02/14 ~ 2024/02/15\",\r\n            \"pay_dt\": \"2024/02/19\",\r\n            \"refund_dt\": \"2024/02/19\",\r\n            \"list_dt\": \"2024/02/27\",\r\n            \"lead_mgr\": \"신한투자증권, 하나증권\",\r\n            \"pub_bf_cap\": \"     3637689\",\r\n            \"pub_af_cap\": \"       56850\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240213\",\r\n            \"sht_cd\": \"068100\",\r\n            \"isin_name\": \"케이웨더\",\r\n            \"fix_subscr_pri\": \"        7000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/02/13 ~ 2024/02/14\",\r\n            \"pay_dt\": \"2024/02/16\",\r\n            \"refund_dt\": \"2024/02/16\",\r\n            \"list_dt\": \"2024/02/22\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"     4454807\",\r\n            \"pub_af_cap\": \"      125000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240213\",\r\n            \"sht_cd\": \"360350\",\r\n            \"isin_name\": \"코셈\",\r\n            \"fix_subscr_pri\": \"       16000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/02/13 ~ 2024/02/14\",\r\n            \"pay_dt\": \"2024/02/16\",\r\n            \"refund_dt\": \"2024/02/16\",\r\n            \"list_dt\": \"2024/02/23\",\r\n            \"lead_mgr\": \"키움증권\",\r\n            \"pub_bf_cap\": \"     2521985\",\r\n            \"pub_af_cap\": \"       75000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240213\",\r\n            \"sht_cd\": \"418620\",\r\n            \"isin_name\": \"이에이트\",\r\n            \"fix_subscr_pri\": \"       20000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/02/13 ~ 2024/02/14\",\r\n            \"pay_dt\": \"2024/02/16\",\r\n            \"refund_dt\": \"2024/02/16\",\r\n            \"list_dt\": \"2024/02/23\",\r\n            \"lead_mgr\": \"한화투자증권\",\r\n            \"pub_bf_cap\": \"     4205888\",\r\n            \"pub_af_cap\": \"      141250\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240125\",\r\n            \"sht_cd\": \"415380\",\r\n            \"isin_name\": \"스튜디오삼익\",\r\n            \"fix_subscr_pri\": \"       18000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/01/25 ~ 2024/01/26\",\r\n            \"pay_dt\": \"2024/01/30\",\r\n            \"refund_dt\": \"2024/01/30\",\r\n            \"list_dt\": \"2024/02/06\",\r\n            \"lead_mgr\": \"DB금융투자\",\r\n            \"pub_bf_cap\": \"     1674999\",\r\n            \"pub_af_cap\": \"      106250\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240125\",\r\n            \"sht_cd\": \"472220\",\r\n            \"isin_name\": \"신영해피투모로우제10호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/01/25 ~ 2024/01/26\",\r\n            \"pay_dt\": \"2024/01/30\",\r\n            \"refund_dt\": \"2024/01/30\",\r\n            \"list_dt\": \"2024/02/06\",\r\n            \"lead_mgr\": \"신영증권\",\r\n            \"pub_bf_cap\": \"       11500\",\r\n            \"pub_af_cap\": \"      114375\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240123\",\r\n            \"sht_cd\": \"452400\",\r\n            \"isin_name\": \"이닉스\",\r\n            \"fix_subscr_pri\": \"       14000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/01/23 ~ 2024/01/24\",\r\n            \"pay_dt\": \"2024/01/26\",\r\n            \"refund_dt\": \"2024/01/26\",\r\n            \"list_dt\": \"2024/02/01\",\r\n            \"lead_mgr\": \"삼성증권㈜\",\r\n            \"pub_bf_cap\": \"     3000000\",\r\n            \"pub_af_cap\": \"      375000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240123\",\r\n            \"sht_cd\": \"469480\",\r\n            \"isin_name\": \"아이비케이에스제24호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/01/23 ~ 2024/01/24\",\r\n            \"pay_dt\": \"2024/01/26\",\r\n            \"refund_dt\": \"2024/01/26\",\r\n            \"list_dt\": \"\",\r\n            \"lead_mgr\": \"아이비케이투자증권㈜\",\r\n            \"pub_bf_cap\": \"       23000\",\r\n            \"pub_af_cap\": \"      100000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240117\",\r\n            \"sht_cd\": \"105760\",\r\n            \"isin_name\": \"포스뱅크\",\r\n            \"fix_subscr_pri\": \"       18000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/01/17 ~ 2024/01/18\",\r\n            \"pay_dt\": \"2024/01/22\",\r\n            \"refund_dt\": \"2024/01/22\",\r\n            \"list_dt\": \"2024/01/29\",\r\n            \"lead_mgr\": \"하나증권\",\r\n            \"pub_bf_cap\": \"     3905242\",\r\n            \"pub_af_cap\": \"      187500\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240117\",\r\n            \"sht_cd\": \"460930\",\r\n            \"isin_name\": \"현대힘스\",\r\n            \"fix_subscr_pri\": \"        7300\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/01/17 ~ 2024/01/18\",\r\n            \"pay_dt\": \"2024/01/22\",\r\n            \"refund_dt\": \"2024/01/24\",\r\n            \"list_dt\": \"2024/01/26\",\r\n            \"lead_mgr\": \"미래에셋증권\",\r\n            \"pub_bf_cap\": \"    14800000\",\r\n            \"pub_af_cap\": \"     1306050\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240116\",\r\n            \"sht_cd\": \"440290\",\r\n            \"isin_name\": \"에이치비인베스트먼트\",\r\n            \"fix_subscr_pri\": \"        3400\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/01/16 ~ 2024/01/17\",\r\n            \"pay_dt\": \"2024/01/19\",\r\n            \"refund_dt\": \"2024/01/19\",\r\n            \"list_dt\": \"2024/01/25\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"    10000000\",\r\n            \"pub_af_cap\": \"      833375\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240116\",\r\n            \"sht_cd\": \"457550\",\r\n            \"isin_name\": \"우진엔텍\",\r\n            \"fix_subscr_pri\": \"        5300\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2024/01/16 ~ 2024/01/17\",\r\n            \"pay_dt\": \"2024/01/19\",\r\n            \"refund_dt\": \"2024/01/19\",\r\n            \"list_dt\": \"2024/01/24\",\r\n            \"lead_mgr\": \"KB증권\",\r\n            \"pub_bf_cap\": \"     3574770\",\r\n            \"pub_af_cap\": \"      257500\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240115\",\r\n            \"sht_cd\": \"471050\",\r\n            \"isin_name\": \"대신밸런스제17호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2024/01/15 ~ 2024/01/16\",\r\n            \"pay_dt\": \"2024/01/18\",\r\n            \"refund_dt\": \"2024/01/18\",\r\n            \"list_dt\": \"2024/01/24\",\r\n            \"lead_mgr\": \"대신증권\",\r\n            \"pub_bf_cap\": \"       56000\",\r\n            \"pub_af_cap\": \"      137500\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231214\",\r\n            \"sht_cd\": \"017860\",\r\n            \"isin_name\": \"디에스단석\",\r\n            \"fix_subscr_pri\": \"      100000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/12/14 ~ 2023/12/15\",\r\n            \"pay_dt\": \"2023/12/19\",\r\n            \"refund_dt\": \"2023/12/19\",\r\n            \"list_dt\": \"\",\r\n            \"lead_mgr\": \"KB증권,NH투자증권\",\r\n            \"pub_bf_cap\": \"     2530702\",\r\n            \"pub_af_cap\": \"      152500\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231213\",\r\n            \"sht_cd\": \"469880\",\r\n            \"isin_name\": \"하나30호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/12/13 ~ 2023/12/14\",\r\n            \"pay_dt\": \"2023/12/18\",\r\n            \"refund_dt\": \"2023/12/18\",\r\n            \"list_dt\": \"2023/12/22\",\r\n            \"lead_mgr\": \"하나증권㈜\",\r\n            \"pub_bf_cap\": \"       30500\",\r\n            \"pub_af_cap\": \"      175000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231212\",\r\n            \"sht_cd\": \"467930\",\r\n            \"isin_name\": \"아이비케이에스제23호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/12/12 ~ 2023/12/13\",\r\n            \"pay_dt\": \"2023/12/15\",\r\n            \"refund_dt\": \"2023/12/15\",\r\n            \"list_dt\": \"2023/12/22\",\r\n            \"lead_mgr\": \"아이비케이투자증권\",\r\n            \"pub_bf_cap\": \"       23000\",\r\n            \"pub_af_cap\": \"      100000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231204\",\r\n            \"sht_cd\": \"439580\",\r\n            \"isin_name\": \"블루엠텍\",\r\n            \"fix_subscr_pri\": \"       19000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/12/04 ~ 2023/12/05\",\r\n            \"pay_dt\": \"2023/12/07\",\r\n            \"refund_dt\": \"2023/12/07\",\r\n            \"list_dt\": \"2023/12/13\",\r\n            \"lead_mgr\": \"하나증권,키움증권\",\r\n            \"pub_bf_cap\": \"      920819\",\r\n            \"pub_af_cap\": \"       35000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231201\",\r\n            \"sht_cd\": \"417200\",\r\n            \"isin_name\": \"엘에스머트리얼즈\",\r\n            \"fix_subscr_pri\": \"        6000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/12/01 ~ 2023/12/04\",\r\n            \"pay_dt\": \"2023/12/06\",\r\n            \"refund_dt\": \"2023/12/06\",\r\n            \"list_dt\": \"2023/12/12\",\r\n            \"lead_mgr\": \"키움증권,KB증권,이베스트투자증권,하이투\",\r\n            \"pub_bf_cap\": \"    29438830\",\r\n            \"pub_af_cap\": \"     1828125\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231127\",\r\n            \"sht_cd\": \"432470\",\r\n            \"isin_name\": \"케이엔에스\",\r\n            \"fix_subscr_pri\": \"       23000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/11/27 ~ 2023/11/28\",\r\n            \"pay_dt\": \"2023/11/30\",\r\n            \"refund_dt\": \"2023/11/30\",\r\n            \"list_dt\": \"2023/12/06\",\r\n            \"lead_mgr\": \"신영증권\",\r\n            \"pub_bf_cap\": \"      311106\",\r\n            \"pub_af_cap\": \"       18750\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231123\",\r\n            \"sht_cd\": \"338840\",\r\n            \"isin_name\": \"와이바이오로직스\",\r\n            \"fix_subscr_pri\": \"        9000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/23 ~ 2023/11/24\",\r\n            \"pay_dt\": \"2023/11/28\",\r\n            \"refund_dt\": \"2023/11/28\",\r\n            \"list_dt\": \"2023/12/05\",\r\n            \"lead_mgr\": \"유안타증권\",\r\n            \"pub_bf_cap\": \"     6639074\",\r\n            \"pub_af_cap\": \"      750000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231123\",\r\n            \"sht_cd\": \"465320\",\r\n            \"isin_name\": \"교보15호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/11/23 ~ 2023/11/24\",\r\n            \"pay_dt\": \"2023/11/28\",\r\n            \"refund_dt\": \"2023/11/28\",\r\n            \"list_dt\": \"\",\r\n            \"lead_mgr\": \"교보증권\",\r\n            \"pub_bf_cap\": \"       31000\",\r\n            \"pub_af_cap\": \"      350000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231123\",\r\n            \"sht_cd\": \"468510\",\r\n            \"isin_name\": \"삼성기업인수목적9호\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/11/23 ~ 2023/11/24\",\r\n            \"pay_dt\": \"2023/11/28\",\r\n            \"refund_dt\": \"2023/11/28\",\r\n            \"list_dt\": \"2023/12/04\",\r\n            \"lead_mgr\": \"삼성증권\",\r\n            \"pub_bf_cap\": \"      105000\",\r\n            \"pub_af_cap\": \"     1000000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231121\",\r\n            \"sht_cd\": \"355690\",\r\n            \"isin_name\": \"에이텀\",\r\n            \"fix_subscr_pri\": \"       18000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/21 ~ 2023/11/22\",\r\n            \"pay_dt\": \"2023/11/24\",\r\n            \"refund_dt\": \"2023/11/24\",\r\n            \"list_dt\": \"2023/12/01\",\r\n            \"lead_mgr\": \"하나증권\",\r\n            \"pub_bf_cap\": \"     2337840\",\r\n            \"pub_af_cap\": \"       81250\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231121\",\r\n            \"sht_cd\": \"466910\",\r\n            \"isin_name\": \"엔에이치기업인수목적30호\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/11/21 ~ 2023/11/22\",\r\n            \"pay_dt\": \"2023/11/24\",\r\n            \"refund_dt\": \"2023/11/24\",\r\n            \"list_dt\": \"2023/12/01\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"      110000\",\r\n            \"pub_af_cap\": \"      200000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231116\",\r\n            \"sht_cd\": \"453860\",\r\n            \"isin_name\": \"에이에스텍\",\r\n            \"fix_subscr_pri\": \"       28000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/16 ~ 2023/11/17\",\r\n            \"pay_dt\": \"2023/11/21\",\r\n            \"refund_dt\": \"2023/11/21\",\r\n            \"list_dt\": \"2023/11/28\",\r\n            \"lead_mgr\": \"미래에셋증권\",\r\n            \"pub_bf_cap\": \"     2388750\",\r\n            \"pub_af_cap\": \"      175875\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231113\",\r\n            \"sht_cd\": \"402490\",\r\n            \"isin_name\": \"그린리소스\",\r\n            \"fix_subscr_pri\": \"       17000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/13 ~ 2023/11/14\",\r\n            \"pay_dt\": \"2023/11/16\",\r\n            \"refund_dt\": \"2023/11/16\",\r\n            \"list_dt\": \"2023/11/24\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"     3247372\",\r\n            \"pub_af_cap\": \"      205000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231113\",\r\n            \"sht_cd\": \"452280\",\r\n            \"isin_name\": \"한선엔지니어링\",\r\n            \"fix_subscr_pri\": \"        7000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/13 ~ 2023/11/14\",\r\n            \"pay_dt\": \"2023/11/16\",\r\n            \"refund_dt\": \"2023/11/16\",\r\n            \"list_dt\": \"2023/11/24\",\r\n            \"lead_mgr\": \"대신증권\",\r\n            \"pub_bf_cap\": \"     6312500\",\r\n            \"pub_af_cap\": \"      531250\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231110\",\r\n            \"sht_cd\": \"448280\",\r\n            \"isin_name\": \"에코아이\",\r\n            \"fix_subscr_pri\": \"       34700\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/10 ~ 2023/11/13\",\r\n            \"pay_dt\": \"2023/11/15\",\r\n            \"refund_dt\": \"2023/11/15\",\r\n            \"list_dt\": \"2023/11/21\",\r\n            \"lead_mgr\": \"KB증권\",\r\n            \"pub_bf_cap\": \"     3884612\",\r\n            \"pub_af_cap\": \"      259875\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231109\",\r\n            \"sht_cd\": \"111380\",\r\n            \"isin_name\": \"동인기연\",\r\n            \"fix_subscr_pri\": \"       30000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/11/09 ~ 2023/11/10\",\r\n            \"pay_dt\": \"2023/11/14\",\r\n            \"refund_dt\": \"2023/11/14\",\r\n            \"list_dt\": \"2023/11/21\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"      500000\",\r\n            \"pub_af_cap\": \"       44112\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231109\",\r\n            \"sht_cd\": \"352090\",\r\n            \"isin_name\": \"스톰테크\",\r\n            \"fix_subscr_pri\": \"       11000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/11/09 ~ 2023/11/10\",\r\n            \"pay_dt\": \"2023/11/14\",\r\n            \"refund_dt\": \"2023/11/14\",\r\n            \"list_dt\": \"2023/11/20\",\r\n            \"lead_mgr\": \"하이투자증권\",\r\n            \"pub_bf_cap\": \"      999559\",\r\n            \"pub_af_cap\": \"       83750\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231108\",\r\n            \"sht_cd\": \"450080\",\r\n            \"isin_name\": \"에코프로머티리얼즈\",\r\n            \"fix_subscr_pri\": \"       36200\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/08 ~ 2023/11/09\",\r\n            \"pay_dt\": \"2023/11/13\",\r\n            \"refund_dt\": \"2023/11/13\",\r\n            \"list_dt\": \"2023/11/17\",\r\n            \"lead_mgr\": \"미래에셋증권, NH투자증권, 하이투자증권\",\r\n            \"pub_bf_cap\": \"    28951079\",\r\n            \"pub_af_cap\": \"     1737120\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231106\",\r\n            \"sht_cd\": \"452300\",\r\n            \"isin_name\": \"캡스톤파트너스\",\r\n            \"fix_subscr_pri\": \"        4000\",\r\n            \"face_value\": \"000000200\",\r\n            \"subscr_dt\": \"2023/11/06 ~ 2023/11/07\",\r\n            \"pay_dt\": \"2023/11/09\",\r\n            \"refund_dt\": \"2023/11/09\",\r\n            \"list_dt\": \"2023/11/15\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"     2340500\",\r\n            \"pub_af_cap\": \"       79800\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231102\",\r\n            \"sht_cd\": \"445090\",\r\n            \"isin_name\": \"에이직랜드\",\r\n            \"fix_subscr_pri\": \"       25000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/02 ~ 2023/11/03\",\r\n            \"pay_dt\": \"2023/11/07\",\r\n            \"refund_dt\": \"2023/11/07\",\r\n            \"list_dt\": \"2023/11/13\",\r\n            \"lead_mgr\": \"삼성증권\",\r\n            \"pub_bf_cap\": \"     3954495\",\r\n            \"pub_af_cap\": \"      329542\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231101\",\r\n            \"sht_cd\": \"365330\",\r\n            \"isin_name\": \"에스와이스틸텍\",\r\n            \"fix_subscr_pri\": \"        1800\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/11/01 ~ 2023/11/02\",\r\n            \"pay_dt\": \"2023/11/06\",\r\n            \"refund_dt\": \"2023/11/06\",\r\n            \"list_dt\": \"2023/11/13\",\r\n            \"lead_mgr\": \"KB증권\",\r\n            \"pub_bf_cap\": \"    11700000\",\r\n            \"pub_af_cap\": \"      875000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231101\",\r\n            \"sht_cd\": \"464440\",\r\n            \"isin_name\": \"한국제13호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/11/01 ~ 2023/11/02\",\r\n            \"pay_dt\": \"2023/11/06\",\r\n            \"refund_dt\": \"2023/11/06\",\r\n            \"list_dt\": \"2023/11/13\",\r\n            \"lead_mgr\": \"한국투자증권\",\r\n            \"pub_bf_cap\": \"       32000\",\r\n            \"pub_af_cap\": \"      100000\",\r\n            \"assign_stk_qty\": \"     1000000\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231031\",\r\n            \"sht_cd\": \"372320\",\r\n            \"isin_name\": \"큐로셀\",\r\n            \"fix_subscr_pri\": \"       20000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/31 ~ 2023/11/01\",\r\n            \"pay_dt\": \"2023/11/03\",\r\n            \"refund_dt\": \"2023/11/03\",\r\n            \"list_dt\": \"2023/11/09\",\r\n            \"lead_mgr\": \"삼성증권,미래에셋증권\",\r\n            \"pub_bf_cap\": \"     5982368\",\r\n            \"pub_af_cap\": \"      200000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231031\",\r\n            \"sht_cd\": \"413640\",\r\n            \"isin_name\": \"비아이매트릭스\",\r\n            \"fix_subscr_pri\": \"       13000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/31 ~ 2023/11/01\",\r\n            \"pay_dt\": \"2023/11/03\",\r\n            \"refund_dt\": \"2023/11/03\",\r\n            \"list_dt\": \"2023/11/09\",\r\n            \"lead_mgr\": \"아이비케이투자증권\",\r\n            \"pub_bf_cap\": \"     2985470\",\r\n            \"pub_af_cap\": \"      150000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231031\",\r\n            \"sht_cd\": \"446540\",\r\n            \"isin_name\": \"메가터치\",\r\n            \"fix_subscr_pri\": \"        4800\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/31 ~ 2023/11/01\",\r\n            \"pay_dt\": \"2023/11/03\",\r\n            \"refund_dt\": \"2023/11/03\",\r\n            \"list_dt\": \"2023/11/09\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"     7707500\",\r\n            \"pub_af_cap\": \"      650000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231031\",\r\n            \"sht_cd\": \"451760\",\r\n            \"isin_name\": \"컨텍\",\r\n            \"fix_subscr_pri\": \"       22500\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/31 ~ 2023/11/01\",\r\n            \"pay_dt\": \"2023/11/03\",\r\n            \"refund_dt\": \"2023/11/03\",\r\n            \"list_dt\": \"2023/11/09\",\r\n            \"lead_mgr\": \"대신증권\",\r\n            \"pub_bf_cap\": \"     6169890\",\r\n            \"pub_af_cap\": \"      257500\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231026\",\r\n            \"sht_cd\": \"088280\",\r\n            \"isin_name\": \"쏘닉스\",\r\n            \"fix_subscr_pri\": \"        7500\",\r\n            \"face_value\": \"000001000\",\r\n            \"subscr_dt\": \"2023/10/26 ~ 2023/10/27\",\r\n            \"pay_dt\": \"2023/10/31\",\r\n            \"refund_dt\": \"2023/10/31\",\r\n            \"list_dt\": \"2023/11/07\",\r\n            \"lead_mgr\": \"KB증권\",\r\n            \"pub_bf_cap\": \"    13598490\",\r\n            \"pub_af_cap\": \"      900000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231024\",\r\n            \"sht_cd\": \"464680\",\r\n            \"isin_name\": \"케이비제27호기업인수목적\",\r\n            \"fix_subscr_pri\": \"        2000\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/10/24 ~ 2023/10/25\",\r\n            \"pay_dt\": \"2023/10/27\",\r\n            \"refund_dt\": \"2023/10/27\",\r\n            \"list_dt\": \"2023/11/03\",\r\n            \"lead_mgr\": \"KB증권\",\r\n            \"pub_bf_cap\": \"       40500\",\r\n            \"pub_af_cap\": \"      312500\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231023\",\r\n            \"sht_cd\": \"221800\",\r\n            \"isin_name\": \"유투바이오\",\r\n            \"fix_subscr_pri\": \"        4400\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/23 ~ 2023/10/24\",\r\n            \"pay_dt\": \"2023/10/26\",\r\n            \"refund_dt\": \"2023/10/26\",\r\n            \"list_dt\": \"\",\r\n            \"lead_mgr\": \"신한투자증권\",\r\n            \"pub_bf_cap\": \"     5051020\",\r\n            \"pub_af_cap\": \"      141090\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231023\",\r\n            \"sht_cd\": \"240600\",\r\n            \"isin_name\": \"유진테크놀로지\",\r\n            \"fix_subscr_pri\": \"       17000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/23 ~ 2023/10/24\",\r\n            \"pay_dt\": \"2023/10/26\",\r\n            \"refund_dt\": \"2023/10/26\",\r\n            \"list_dt\": \"2023/11/02\",\r\n            \"lead_mgr\": \"NH투자증권\",\r\n            \"pub_bf_cap\": \"     2642734\",\r\n            \"pub_af_cap\": \"      131186\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231018\",\r\n            \"sht_cd\": \"432720\",\r\n            \"isin_name\": \"퀄리타스반도체\",\r\n            \"fix_subscr_pri\": \"       17000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/18 ~ 2023/10/19\",\r\n            \"pay_dt\": \"2023/10/23\",\r\n            \"refund_dt\": \"2023/10/23\",\r\n            \"list_dt\": \"2023/10/27\",\r\n            \"lead_mgr\": \"한국투자증권\",\r\n            \"pub_bf_cap\": \"     4476920\",\r\n            \"pub_af_cap\": \"      225000\",\r\n            \"assign_stk_qty\": \"      450000\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231016\",\r\n            \"sht_cd\": \"396470\",\r\n            \"isin_name\": \"워트\",\r\n            \"fix_subscr_pri\": \"        6500\",\r\n            \"face_value\": \"000000100\",\r\n            \"subscr_dt\": \"2023/10/16 ~ 2023/10/17\",\r\n            \"pay_dt\": \"2023/10/19\",\r\n            \"refund_dt\": \"2023/10/19\",\r\n            \"list_dt\": \"2023/10/26\",\r\n            \"lead_mgr\": \"키움증권\",\r\n            \"pub_bf_cap\": \"     1200000\",\r\n            \"pub_af_cap\": \"      100000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231010\",\r\n            \"sht_cd\": \"246250\",\r\n            \"isin_name\": \"에스엘에스바이오\",\r\n            \"fix_subscr_pri\": \"        7000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/10 ~ 2023/10/11\",\r\n            \"pay_dt\": \"2023/10/13\",\r\n            \"refund_dt\": \"2023/10/13\",\r\n            \"list_dt\": \"2023/10/20\",\r\n            \"lead_mgr\": \"하나증권\",\r\n            \"pub_bf_cap\": \"     3432802\",\r\n            \"pub_af_cap\": \"       96250\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231010\",\r\n            \"sht_cd\": \"416180\",\r\n            \"isin_name\": \"신성에스티\",\r\n            \"fix_subscr_pri\": \"       26000\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/10 ~ 2023/10/11\",\r\n            \"pay_dt\": \"2023/10/13\",\r\n            \"refund_dt\": \"2023/10/13\",\r\n            \"list_dt\": \"2023/10/19\",\r\n            \"lead_mgr\": \"미래에셋증권\",\r\n            \"pub_bf_cap\": \"     3500658\",\r\n            \"pub_af_cap\": \"      250000\",\r\n            \"assign_stk_qty\": \"           0\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231005\",\r\n            \"sht_cd\": \"445180\",\r\n            \"isin_name\": \"퓨릿\",\r\n            \"fix_subscr_pri\": \"       10700\",\r\n            \"face_value\": \"000000500\",\r\n            \"subscr_dt\": \"2023/10/05 ~ 2023/10/06\",\r\n            \"pay_dt\": \"2023/10/11\",\r\n            \"refu",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

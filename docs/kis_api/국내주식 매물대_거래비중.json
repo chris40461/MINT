@@ -1,0 +1,606 @@
+{
+  "sheet_name": "국내주식 매물대_거래비중",
+  "row_count": 59,
+  "columns": [
+    "국내주식 매물대_거래비중",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 매물대_거래비중": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "메뉴 위치",
+      "Column_1": "[국내주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "API 명",
+      "Column_1": "국내주식 매물대_거래비중",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "API ID",
+      "Column_1": "국내주식-196",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "실전 TR_ID",
+      "Column_1": "FHPST01130000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/pbar-tratio",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "개요",
+      "Column_1": "국내주식 매물대/거래비중 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0113] 당일가격대별 매물대 화면의 데이터 중 일부를 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST01130000",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건시장분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J:KRX, NX:NXT, UN:통합",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "주식단축종목코드",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "FID_COND_SCR_DIV_CODE",
+      "Column_2": "조건화면분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "Uniquekey(20113)",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "FID_INPUT_HOUR_1",
+      "Column_2": "입력시간1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "rprs_mrkt_kor_name",
+      "Column_2": "대표시장한글명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "stck_shrn_iscd",
+      "Column_2": "주식단축종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "hts_kor_isnm",
+      "Column_2": "HTS한글종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "prdy_vol",
+      "Column_2": "전일거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "wghn_avrg_stck_prc",
+      "Column_2": "가중평균주식가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "192",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "lstn_stcn",
+      "Column_2": "상장주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "data_rank",
+      "Column_2": "데이터순위",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "cntg_vol",
+      "Column_2": "체결거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": null,
+      "Column_1": "acml_vol_rlim",
+      "Column_2": "누적거래량비중",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "72",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:J\r\nFID_INPUT_ISCD:136480\r\nFID_COND_SCR_DIV_CODE:20113\r\nFID_INPUT_HOUR_1:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 매물대_거래비중": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"rprs_mrkt_kor_name\": \"KOSDAQ\",\r\n        \"stck_shrn_iscd\": \"136480\",\r\n        \"hts_kor_isnm\": \"하림\",\r\n        \"stck_prpr\": \"3240\",\r\n        \"prdy_vrss_sign\": \"5\",\r\n        \"prdy_vrss\": \"-65\",\r\n        \"prdy_ctrt\": \"-1.97\",\r\n        \"acml_vol\": \"847563\",\r\n        \"prdy_vol\": \"974060\",\r\n        \"wghn_avrg_stck_prc\": \"3256.34\",\r\n        \"lstn_stcn\": \"106209702\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"data_rank\": \"1\",\r\n            \"stck_prpr\": \"3255\",\r\n            \"cntg_vol\": \"124515\",\r\n            \"acml_vol_rlim\": \"14.69\"\r\n        },\r\n        {\r\n            \"data_rank\": \"2\",\r\n            \"stck_prpr\": \"3260\",\r\n            \"cntg_vol\": \"123909\",\r\n            \"acml_vol_rlim\": \"14.62\"\r\n        },\r\n        {\r\n            \"data_rank\": \"3\",\r\n            \"stck_prpr\": \"3250\",\r\n            \"cntg_vol\": \"87983\",\r\n            \"acml_vol_rlim\": \"10.38\"\r\n        },\r\n        {\r\n            \"data_rank\": \"4\",\r\n            \"stck_prpr\": \"3245\",\r\n            \"cntg_vol\": \"83496\",\r\n            \"acml_vol_rlim\": \"9.85\"\r\n        },\r\n        {\r\n            \"data_rank\": \"5\",\r\n            \"stck_prpr\": \"3235\",\r\n            \"cntg_vol\": \"72101\",\r\n            \"acml_vol_rlim\": \"8.51\"\r\n        },\r\n        {\r\n            \"data_rank\": \"6\",\r\n            \"stck_prpr\": \"3240\",\r\n            \"cntg_vol\": \"70712\",\r\n            \"acml_vol_rlim\": \"8.34\"\r\n        },\r\n        {\r\n            \"data_rank\": \"7\",\r\n            \"stck_prpr\": \"3265\",\r\n            \"cntg_vol\": \"65838\",\r\n            \"acml_vol_rlim\": \"7.77\"\r\n        },\r\n        {\r\n            \"data_rank\": \"8\",\r\n            \"stck_prpr\": \"3275\",\r\n            \"cntg_vol\": \"57283\",\r\n            \"acml_vol_rlim\": \"6.76\"\r\n        },\r\n        {\r\n            \"data_rank\": \"9\",\r\n            \"stck_prpr\": \"3270\",\r\n            \"cntg_vol\": \"56295\",\r\n            \"acml_vol_rlim\": \"6.64\"\r\n        },\r\n        {\r\n            \"data_rank\": \"10\",\r\n            \"stck_prpr\": \"3230\",\r\n            \"cntg_vol\": \"30998\",\r\n            \"acml_vol_rlim\": \"3.66\"\r\n        },\r\n        {\r\n            \"data_rank\": \"11\",\r\n            \"stck_prpr\": \"3290\",\r\n            \"cntg_vol\": \"27419\",\r\n            \"acml_vol_rlim\": \"3.24\"\r\n        },\r\n        {\r\n            \"data_rank\": \"12\",\r\n            \"stck_prpr\": \"3280\",\r\n            \"cntg_vol\": \"15080\",\r\n            \"acml_vol_rlim\": \"1.78\"\r\n        },\r\n        {\r\n            \"data_rank\": \"13\",\r\n            \"stck_prpr\": \"3295\",\r\n            \"cntg_vol\": \"13623\",\r\n            \"acml_vol_rlim\": \"1.61\"\r\n        },\r\n        {\r\n            \"data_rank\": \"14\",\r\n            \"stck_prpr\": \"3285\",\r\n            \"cntg_vol\": \"9580\",\r\n            \"acml_vol_rlim\": \"1.13\"\r\n        },\r\n        {\r\n            \"data_rank\": \"15\",\r\n            \"stck_prpr\": \"3310\",\r\n            \"cntg_vol\": \"3646\",\r\n            \"acml_vol_rlim\": \"0.43\"\r\n        },\r\n        {\r\n            \"data_rank\": \"16\",\r\n            \"stck_prpr\": \"3225\",\r\n            \"cntg_vol\": \"2199\",\r\n            \"acml_vol_rlim\": \"0.26\"\r\n        },\r\n        {\r\n            \"data_rank\": \"17\",\r\n            \"stck_prpr\": \"3300\",\r\n            \"cntg_vol\": \"1898\",\r\n            \"acml_vol_rlim\": \"0.22\"\r\n        },\r\n        {\r\n            \"data_rank\": \"18\",\r\n            \"stck_prpr\": \"3305\",\r\n            \"cntg_vol\": \"988\",\r\n            \"acml_vol_rlim\": \"0.12\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

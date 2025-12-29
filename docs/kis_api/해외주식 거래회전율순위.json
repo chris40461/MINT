@@ -1,0 +1,686 @@
+{
+  "sheet_name": "해외주식 거래회전율순위",
+  "row_count": 67,
+  "columns": [
+    "해외주식 거래회전율순위",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 거래회전율순위": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "메뉴 위치",
+      "Column_1": "[해외주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "API 명",
+      "Column_1": "해외주식 거래회전율순위",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "API ID",
+      "Column_1": "해외주식-046",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "실전 TR_ID",
+      "Column_1": "HHDFS76340000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "URL 명",
+      "Column_1": "/uapi/overseas-stock/v1/ranking/trade-turnover",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "개요",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHDFS76340000",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "Request Query Parameter",
+      "Column_1": "KEYB",
+      "Column_2": "NEXT KEY BUFF",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "AUTH",
+      "Column_2": "사용자권한정보",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "EXCD",
+      "Column_2": "거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "'NYS : 뉴욕, NAS : 나스닥,  AMS : 아멕스 \r\nHKS : 홍콩, SHS : 상해 , SZS : 심천\r\nHSX : 호치민, HNX : 하노이\r\nTSE : 도쿄 '",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "NDAY",
+      "Column_2": "N일자값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "N일전 : 0(당일), 1(2일), 2(3일), 3(5일), 4(10일), 5(20일전), 6(30일), 7(60일), 8(120일), 9(1년)",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "VOL_RANG",
+      "Column_2": "거래량조건",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0(전체), 1(1백주이상), 2(1천주이상), 3(1만주이상), 4(10만주이상), 5(100만주이상), 6(1000만주이상)",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "zdiv",
+      "Column_2": "소수점자리수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "stat",
+      "Column_2": "거래상태정보",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "crec",
+      "Column_2": "현재조회종목수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "trec",
+      "Column_2": "전체조회종목수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "nrec",
+      "Column_2": "RecordCount",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "rsym",
+      "Column_2": "실시간조회심볼",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "excd",
+      "Column_2": "거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "symb",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "48",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "last",
+      "Column_2": "현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "sign",
+      "Column_2": "기호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "diff",
+      "Column_2": "대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "rate",
+      "Column_2": "등락율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "tvol",
+      "Column_2": "거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "14",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "pask",
+      "Column_2": "매도호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "pbid",
+      "Column_2": "매수호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "n_tvol",
+      "Column_2": "평균거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "14",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "shar",
+      "Column_2": "상장주식수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "tover",
+      "Column_2": "회전율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "rank",
+      "Column_2": "순위",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "ename",
+      "Column_2": "영문종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "48",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": null,
+      "Column_1": "e_ordyn",
+      "Column_2": "매매가능",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "Request Example (Python)",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 거래회전율순위": "Response Example",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

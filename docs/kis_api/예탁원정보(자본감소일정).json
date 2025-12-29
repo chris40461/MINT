@@ -1,0 +1,536 @@
+{
+  "sheet_name": "예탁원정보(자본감소일정)",
+  "row_count": 52,
+  "columns": [
+    "예탁원정보(자본감소일정)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "예탁원정보(자본감소일정)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "API 명",
+      "Column_1": "예탁원정보(자본감소일정)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "API ID",
+      "Column_1": "국내주식-149",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "실전 TR_ID",
+      "Column_1": "HHKDB669106C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ksdinfo/cap-dcrs",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "개요",
+      "Column_1": "예탁원정보(자본감소일정) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0665] 자본감소 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 예탁원에서 제공한 자료이므로 정보용으로만 사용하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHKDB669106C0",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "Request Query Parameter",
+      "Column_1": "CTS",
+      "Column_2": "CTS",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "F_DT",
+      "Column_2": "조회일자From",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "T_DT",
+      "Column_2": "조회일자To",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "SHT_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "공백: 전체,  특정종목 조회시 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "record_date",
+      "Column_2": "기준일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "sht_cd",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "isin_name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "stk_kind",
+      "Column_2": "주식종류",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "reduce_cap_type",
+      "Column_2": "감자구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "reduce_cap_rate",
+      "Column_2": "감자배정율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "142",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "comp_way",
+      "Column_2": "계산방법",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "td_stop_dt",
+      "Column_2": "매매거래정지기간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "23",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": null,
+      "Column_1": "list_dt",
+      "Column_2": "상장/등록일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "Request Example (Python)",
+      "Column_1": "cts:\r\nf_dt:20230301\r\nt_dt:20240326\r\nsht_cd:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(자본감소일정)": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"067390\",\r\n            \"isin_name\": \"아스트\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2024/03/14 ~ 2024/03/31\",\r\n            \"list_dt\": \"2024/04/01\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240226\",\r\n            \"sht_cd\": \"000040\",\r\n            \"isin_name\": \"케이알모터스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.30\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2024/02/23 ~ 2024/03/17\",\r\n            \"list_dt\": \"2024/03/18\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240208\",\r\n            \"sht_cd\": \"033180\",\r\n            \"isin_name\": \"케이에이치필룩스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.20\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2024/02/07 ~ 2024/02/28\",\r\n            \"list_dt\": \"2024/02/29\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240207\",\r\n            \"sht_cd\": \"219750\",\r\n            \"isin_name\": \"지티지웰니스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 4.00\",\r\n            \"comp_way\": \"나누기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240129\",\r\n            \"sht_cd\": \"057880\",\r\n            \"isin_name\": \"피에이치씨\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2024/01/26 ~ 2024/02/20\",\r\n            \"list_dt\": \"2024/02/21\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240115\",\r\n            \"sht_cd\": \"001140\",\r\n            \"isin_name\": \"국보\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2024/01/12 ~ 2024/02/01\",\r\n            \"list_dt\": \"2024/02/02\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240108\",\r\n            \"sht_cd\": \"078130\",\r\n            \"isin_name\": \"국일제지\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2024/01/05 ~ 2024/02/21\",\r\n            \"list_dt\": \"2024/02/22\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240102\",\r\n            \"sht_cd\": \"013090\",\r\n            \"isin_name\": \"인켈\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.07\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240102\",\r\n            \"sht_cd\": \"013095\",\r\n            \"isin_name\": \"인켈1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.07\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240102\",\r\n            \"sht_cd\": \"013097\",\r\n            \"isin_name\": \"인켈2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.07\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231227\",\r\n            \"sht_cd\": \"078130\",\r\n            \"isin_name\": \"국일제지\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/26 ~ 2024/02/20\",\r\n            \"list_dt\": \"2024/02/21\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231227\",\r\n            \"sht_cd\": \"088240\",\r\n            \"isin_name\": \"대우조선해양건설\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231226\",\r\n            \"sht_cd\": \"043590\",\r\n            \"isin_name\": \"웰킵스하이텍\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.75\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/22 ~ 2024/01/18\",\r\n            \"list_dt\": \"2024/01/19\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231222\",\r\n            \"sht_cd\": \"227420\",\r\n            \"isin_name\": \"도부마스크\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.50\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"2024/01/19\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231218\",\r\n            \"sht_cd\": \"076610\",\r\n            \"isin_name\": \"해성옵틱스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.20\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/15 ~ 2024/01/07\",\r\n            \"list_dt\": \"2024/01/08\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231218\",\r\n            \"sht_cd\": \"217480\",\r\n            \"isin_name\": \"에스디생명공학\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.70\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/15 ~ 2024/01/24\",\r\n            \"list_dt\": \"2024/01/25\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231215\",\r\n            \"sht_cd\": \"321080\",\r\n            \"isin_name\": \"메타엠\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.43\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/14 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231214\",\r\n            \"sht_cd\": \"299910\",\r\n            \"isin_name\": \"베스파\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.10\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/13 ~ 2024/01/14\",\r\n            \"list_dt\": \"2024/01/15\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231213\",\r\n            \"sht_cd\": \"314170\",\r\n            \"isin_name\": \"메디에이지\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.20\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/12 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231211\",\r\n            \"sht_cd\": \"003560\",\r\n            \"isin_name\": \"아이에이치큐\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.33\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/08 ~ 2024/01/03\",\r\n            \"list_dt\": \"2024/01/04\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231211\",\r\n            \"sht_cd\": \"078860\",\r\n            \"isin_name\": \"아이오케이컴퍼니\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/08 ~ 2023/12/26\",\r\n            \"list_dt\": \"2023/12/27\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231208\",\r\n            \"sht_cd\": \"088240\",\r\n            \"isin_name\": \"대우조선해양건설\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231208\",\r\n            \"sht_cd\": \"08824K\",\r\n            \"isin_name\": \"대우조선해양건설1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231208\",\r\n            \"sht_cd\": \"08824L\",\r\n            \"isin_name\": \"대우조선해양건설2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231208\",\r\n            \"sht_cd\": \"08824M\",\r\n            \"isin_name\": \"대우조선해양건설3우\",\r\n            \"stk_kind\": \"3우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231207\",\r\n            \"sht_cd\": \"159910\",\r\n            \"isin_name\": \"스킨앤스킨\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.10\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/06 ~ 2023/12/26\",\r\n            \"list_dt\": \"2023/12/27\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231205\",\r\n            \"sht_cd\": \"013090\",\r\n            \"isin_name\": \"인켈\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.01\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/04 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231205\",\r\n            \"sht_cd\": \"013095\",\r\n            \"isin_name\": \"인켈1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.01\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/04 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231205\",\r\n            \"sht_cd\": \"013097\",\r\n            \"isin_name\": \"인켈2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.01\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/04 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231204\",\r\n            \"sht_cd\": \"002880\",\r\n            \"isin_name\": \"대유에이텍\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 3.00\",\r\n            \"comp_way\": \"나누기\",\r\n            \"td_stop_dt\": \"2023/12/01 ~ 2023/12/19\",\r\n            \"list_dt\": \"2023/12/20\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231204\",\r\n            \"sht_cd\": \"174880\",\r\n            \"isin_name\": \"장원테크\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.20\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/01 ~ 2023/12/20\",\r\n            \"list_dt\": \"2023/12/21\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231204\",\r\n            \"sht_cd\": \"406830\",\r\n            \"isin_name\": \"여기어때컴퍼니\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.46\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/01 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231204\",\r\n            \"sht_cd\": \"40683K\",\r\n            \"isin_name\": \"여기어때컴퍼니1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.46\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/12/01 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231129\",\r\n            \"sht_cd\": \"299910\",\r\n            \"isin_name\": \"베스파\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.33\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/11/28 ~ 2024/01/14\",\r\n            \"list_dt\": \"2024/01/15\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231127\",\r\n            \"sht_cd\": \"412790\",\r\n            \"isin_name\": \"테람스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.10\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231123\",\r\n            \"sht_cd\": \"181690\",\r\n            \"isin_name\": \"디엔지비\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.25\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/11/22 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231117\",\r\n            \"sht_cd\": \"058450\",\r\n            \"isin_name\": \"엔터파트너즈\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.20\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/11/16 ~ 2023/12/11\",\r\n            \"list_dt\": \"2023/12/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231117\",\r\n            \"sht_cd\": \"155960\",\r\n            \"isin_name\": \"지디\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.10\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/11/16 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231117\",\r\n            \"sht_cd\": \"186630\",\r\n            \"isin_name\": \"리치앤타임\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/11/16 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231113\",\r\n            \"sht_cd\": \"144620\",\r\n            \"isin_name\": \"코오롱머티리얼\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.75\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/11/10 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231107\",\r\n            \"sht_cd\": \"181690\",\r\n            \"isin_name\": \"디엔지비\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.50\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/11/06 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231106\",\r\n            \"sht_cd\": \"148140\",\r\n            \"isin_name\": \"비디아이\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.10\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/11/03 ~ 2023/12/11\",\r\n            \"list_dt\": \"2023/12/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231101\",\r\n            \"sht_cd\": \"155900\",\r\n            \"isin_name\": \"바다로19호선박투자회사\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/10/31 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231030\",\r\n            \"sht_cd\": \"197210\",\r\n            \"isin_name\": \"리드\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.10\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/10/27 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231030\",\r\n            \"sht_cd\": \"238500\",\r\n            \"isin_name\": \"로보쓰리에이아이앤로보틱스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/10/27 ~ 2023/11/16\",\r\n            \"list_dt\": \"2023/11/17\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231020\",\r\n            \"sht_cd\": \"148140\",\r\n            \"isin_name\": \"비디아이\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.25\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/10/19 ~ 2023/12/11\",\r\n            \"list_dt\": \"2023/12/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231018\",\r\n            \"sht_cd\": \"115390\",\r\n            \"isin_name\": \"락앤락\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.86\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/10/17 ~ 2023/11/05\",\r\n            \"list_dt\": \"2023/11/06\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231012\",\r\n            \"sht_cd\": \"326830\",\r\n            \"isin_name\": \"모르페우스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.20\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231010\",\r\n            \"sht_cd\": \"005110\",\r\n            \"isin_name\": \"한창\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.20\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/10/06 ~ 2023/10/26\",\r\n            \"list_dt\": \"2023/10/27\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230926\",\r\n            \"sht_cd\": \"065560\",\r\n            \"isin_name\": \"녹원씨엔아이\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.50\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/25 ~ 2023/10/22\",\r\n            \"list_dt\": \"2023/10/23\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230925\",\r\n            \"sht_cd\": \"447800\",\r\n            \"isin_name\": \"브릿지벤처스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230922\",\r\n            \"sht_cd\": \"101140\",\r\n            \"isin_name\": \"인바이오젠\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/21 ~ 2023/10/22\",\r\n            \"list_dt\": \"2023/10/23\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230922\",\r\n            \"sht_cd\": \"101145\",\r\n            \"isin_name\": \"인바이오젠1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/21 ~ 2023/10/22\",\r\n            \"list_dt\": \"2023/10/23\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230919\",\r\n            \"sht_cd\": \"06911M\",\r\n            \"isin_name\": \"코스온3우\",\r\n            \"stk_kind\": \"3우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.17\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/18 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230914\",\r\n            \"sht_cd\": \"234760\",\r\n            \"isin_name\": \"고위드\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.72\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/13 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230912\",\r\n            \"sht_cd\": \"069110\",\r\n            \"isin_name\": \"코스온\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.17\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/11 ~ 2023/10/10\",\r\n            \"list_dt\": \"2023/10/11\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230911\",\r\n            \"sht_cd\": \"046640\",\r\n            \"isin_name\": \"씨디데이타\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.40\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230907\",\r\n            \"sht_cd\": \"058420\",\r\n            \"isin_name\": \"제이웨이\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/06 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230907\",\r\n            \"sht_cd\": \"05842L\",\r\n            \"isin_name\": \"제이웨이2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/06 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230906\",\r\n            \"sht_cd\": \"033180\",\r\n            \"isin_name\": \"케이에이치필룩스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.33\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/09/05 ~ 2023/10/03\",\r\n            \"list_dt\": \"2023/10/04\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230823\",\r\n            \"sht_cd\": \"003560\",\r\n            \"isin_name\": \"아이에이치큐\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.07\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/08/22 ~ 2023/09/13\",\r\n            \"list_dt\": \"2023/09/14\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230822\",\r\n            \"sht_cd\": \"036630\",\r\n            \"isin_name\": \"세종텔레콤\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.81\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/08/21 ~ 2023/09/07\",\r\n            \"list_dt\": \"2023/09/08\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230822\",\r\n            \"sht_cd\": \"043420\",\r\n            \"isin_name\": \"에코이에스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.73\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230822\",\r\n            \"sht_cd\": \"220630\",\r\n            \"isin_name\": \"맘스터치앤컴퍼니\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.26\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/08/21 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230811\",\r\n            \"sht_cd\": \"000360\",\r\n            \"isin_name\": \"삼환기업\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/08/10 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230807\",\r\n            \"sht_cd\": \"048180\",\r\n            \"isin_name\": \"씨제이푸드빌\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.63\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230807\",\r\n            \"sht_cd\": \"434840\",\r\n            \"isin_name\": \"니즈게임즈\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.88\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/08/04 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230725\",\r\n            \"sht_cd\": \"111870\",\r\n            \"isin_name\": \"케이에이치전자\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.07\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/07/24 ~ 2023/08/16\",\r\n            \"list_dt\": \"2023/08/17\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230720\",\r\n            \"sht_cd\": \"091090\",\r\n            \"isin_name\": \"세원이앤씨\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.20\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/07/19 ~ 2023/08/13\",\r\n            \"list_dt\": \"2023/08/14\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230719\",\r\n            \"sht_cd\": \"203810\",\r\n            \"isin_name\": \"국제16호선박투자회사\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.16\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/07/18 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230710\",\r\n            \"sht_cd\": \"087800\",\r\n            \"isin_name\": \"KDB생명보험\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.25\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/07/07 ~ 2023/07/26\",\r\n            \"list_dt\": \"2023/07/27\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230703\",\r\n            \"sht_cd\": \"038530\",\r\n            \"isin_name\": \"케이바이오컴퍼니\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"\",\r\n            \"reduce_cap_rate\": \" 1.00\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/06/30 ~ 2023/07/20\",\r\n            \"list_dt\": \"2023/07/21\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230612\",\r\n            \"sht_cd\": \"197210\",\r\n            \"isin_name\": \"리드\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.04\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/06/09 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230612\",\r\n            \"sht_cd\": \"19721K\",\r\n            \"isin_name\": \"리드1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.04\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/06/09 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230608\",\r\n            \"sht_cd\": \"139050\",\r\n            \"isin_name\": \"시티랩스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.07\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/06/07 ~ 2023/06/27\",\r\n            \"list_dt\": \"2023/06/28\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230515\",\r\n            \"sht_cd\": \"373560\",\r\n            \"isin_name\": \"페이투스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.50\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230509\",\r\n            \"sht_cd\": \"351160\",\r\n            \"isin_name\": \"케이온네트워크\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.58\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/05/08 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230508\",\r\n            \"sht_cd\": \"138690\",\r\n            \"isin_name\": \"엘아이에스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.04\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/05/04 ~ 2023/06/26\",\r\n            \"list_dt\": \"2023/06/27\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230502\",\r\n            \"sht_cd\": \"115580\",\r\n            \"isin_name\": \"현대인프라코어\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.50\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/28 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230501\",\r\n            \"sht_cd\": \"333830\",\r\n            \"isin_name\": \"티비에스머티리얼\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.10\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230428\",\r\n            \"sht_cd\": \"113300\",\r\n            \"isin_name\": \"세명테크\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.50\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/27 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230424\",\r\n            \"sht_cd\": \"112240\",\r\n            \"isin_name\": \"에스에프씨\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/21 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230420\",\r\n            \"sht_cd\": \"050320\",\r\n            \"isin_name\": \"에스에이치엔엘\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230420\",\r\n            \"sht_cd\": \"05032K\",\r\n            \"isin_name\": \"에스에이치엔엘1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230418\",\r\n            \"sht_cd\": \"203810\",\r\n            \"isin_name\": \"국제16호선박투자회사\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"유상감자\",\r\n            \"reduce_cap_rate\": \" 0.91\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/17 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230418\",\r\n            \"sht_cd\": \"391360\",\r\n            \"isin_name\": \"버디버디(budybudy)\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/17 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230417\",\r\n            \"sht_cd\": \"141020\",\r\n            \"isin_name\": \"디에스앤엘\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.25\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/14 ~ 2023/05/08\",\r\n            \"list_dt\": \"2023/05/09\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230417\",\r\n            \"sht_cd\": \"219750\",\r\n            \"isin_name\": \"지티지웰니스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.50\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/14 ~ 2023/05/07\",\r\n            \"list_dt\": \"2023/05/08\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230417\",\r\n            \"sht_cd\": \"329820\",\r\n            \"isin_name\": \"정금에프앤씨\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.05\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230413\",\r\n            \"sht_cd\": \"019570\",\r\n            \"isin_name\": \"리더스기술투자\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.33\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/12 ~ 2023/05/02\",\r\n            \"list_dt\": \"2023/05/03\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230411\",\r\n            \"sht_cd\": \"050090\",\r\n            \"isin_name\": \"비케이홀딩스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.25\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/04/10 ~ 2023/05/07\",\r\n            \"list_dt\": \"2023/05/08\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230403\",\r\n            \"sht_cd\": \"362570\",\r\n            \"isin_name\": \"아이프리원\",\r\n            \"stk_kind\": \"보통\",\r\n            \"reduce_cap_type\": \"무상감자\",\r\n            \"reduce_cap_rate\": \" 0.50\",\r\n            \"comp_way\": \"곱하기\",\r\n            \"td_stop_dt\": \"2023/03/31 ~\",\r\n            \"list_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20230329\",\r\n            \"sht_cd\": \"101000\",\r\n ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

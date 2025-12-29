@@ -1,0 +1,596 @@
+{
+  "sheet_name": "해외선물옵션 실시간체결내역통보",
+  "row_count": 58,
+  "columns": [
+    "해외선물옵션 실시간체결내역통보",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외선물옵션 실시간체결내역통보": "API 통신방식",
+      "Column_1": "WEBSOCKET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "메뉴 위치",
+      "Column_1": "[해외선물옵션]실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "API 명",
+      "Column_1": "해외선물옵션 실시간체결내역통보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "API ID",
+      "Column_1": "실시간-020",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "실전 TR_ID",
+      "Column_1": "HDFFF2C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "URL 명",
+      "Column_1": "/tryitout/HDFFF2C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "개요",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "tr_type",
+      "Column_2": "등록/해제",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "\"1: 등록, 2:해제\"",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 / P : 개인",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "utf-8",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": "HDFFF2C0",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "tr_key",
+      "Column_2": "HTSID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "HTSID",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "Response Body",
+      "Column_1": "USER_ID",
+      "Column_2": "유저ID",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "'각 항목사이에는 구분자로 ^ 사용,\r\n모든 데이터타입은 String으로 변환되어 push 처리됨'",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ACCT_NO",
+      "Column_2": "계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ORD_DT",
+      "Column_2": "주문일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ODNO",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ORGN_ORD_DT",
+      "Column_2": "원주문일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ORGN_ODNO",
+      "Column_2": "원주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "SERIES",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "RVSE_CNCL_DVSN_CD",
+      "Column_2": "정정취소구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "해당없음 : 00 , 정정 : 01 , 취소 : 02",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "SLL_BUY_DVSN_CD",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 매도,  02 : 매수",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "CPLX_ORD_DVSN_CD",
+      "Column_2": "복합주문구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 (hedge청산만 이용)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "PRCE_TP",
+      "Column_2": "가격구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "FM_EXCG_RCIT_DVSN_CD",
+      "Column_2": "FM거래소접수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ORD_QTY",
+      "Column_2": "주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "FM_LMT_PRIC",
+      "Column_2": "FMLIMIT가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "21",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "FM_STOP_ORD_PRIC",
+      "Column_2": "FMSTOP주문가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "21",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "TOT_CCLD_QTY",
+      "Column_2": "총체결수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " 동일한 주문건에 대한 누적된 체결수량 (하나의 주문건에 여러건의 체결내역 발생)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "TOT_CCLD_UV",
+      "Column_2": "총체결단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "21",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ORD_REMQ",
+      "Column_2": "잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "21",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "FM_ORD_GRP_DT",
+      "Column_2": "FM주문그룹일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ORD_GRP_STNO",
+      "Column_2": "주문그룹번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ORD_DTL_DTIME",
+      "Column_2": "주문상세일시",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "OPRT_DTL_DTIME",
+      "Column_2": "조작상세일시",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "WORK_EMPL",
+      "Column_2": "주문자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "CCLD_DT",
+      "Column_2": "체결일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "CCNO",
+      "Column_2": "체결번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "API_CCNO",
+      "Column_2": "API 체결번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "CCLD_QTY",
+      "Column_2": "체결수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "매 체결 단위 체결수량임 (여러건 체결내역 누적 체결수량인 총체결수량과 다름)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "FM_CCLD_PRIC",
+      "Column_2": "FM체결가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "21",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "CRCY_CD",
+      "Column_2": "통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "TRST_FEE",
+      "Column_2": "위탁수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "21",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "ORD_MDIA_ONLINE_YN",
+      "Column_2": "주문매체온라인여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "FM_CCLD_AMT",
+      "Column_2": "FM체결금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "21",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": null,
+      "Column_1": "FUOP_ITEM_DVSN_CD",
+      "Column_2": "선물옵션종목구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "Request Example (Python)",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 실시간체결내역통보": "Response Example",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

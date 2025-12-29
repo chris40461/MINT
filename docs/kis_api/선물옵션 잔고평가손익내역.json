@@ -1,0 +1,926 @@
+{
+  "sheet_name": "선물옵션 잔고평가손익내역",
+  "row_count": 91,
+  "columns": [
+    "선물옵션 잔고평가손익내역",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "선물옵션 잔고평가손익내역": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "메뉴 위치",
+      "Column_1": "[국내선물옵션] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "API 명",
+      "Column_1": "선물옵션 잔고평가손익내역",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "API ID",
+      "Column_1": "v1_국내선물-015",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "실전 TR_ID",
+      "Column_1": "CTFO6159R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "URL 명",
+      "Column_1": "/uapi/domestic-futureoption/v1/trading/inquire-balance-valuation-pl",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "개요",
+      "Column_1": "선물옵션 잔고평가손익내역 API입니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTFO6159R",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공백 : 초기 조회\r\nN : 다음 데이터 조회 (output header의 tr_cont가 M일 경우)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "MGNA_DVSN",
+      "Column_2": "증거금구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 개시, 02 : 유지",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "EXCC_STAT_CD",
+      "Column_2": "정산상태코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "1 : 정산 (정산가격으로 잔고 조회)\r\n2 : 본정산 (매입가격으로 잔고 조회)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "CTX_AREA_FK200",
+      "Column_2": "연속조회검색조건200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "연속조회검색조건200",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "CTX_AREA_NK200",
+      "Column_2": "연속조회키200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "연속조회키200",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "F or M : 다음 데이터 있음\r\nD or E : 마지막 데이터",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "dnca_cash",
+      "Column_2": "예수금현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "frcr_dncl_amt",
+      "Column_2": "외화예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "dnca_sbst",
+      "Column_2": "예수금대용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "tot_dncl_amt",
+      "Column_2": "총예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "tot_ccld_amt",
+      "Column_2": "총체결금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "cash_mgna",
+      "Column_2": "현금증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "sbst_mgna",
+      "Column_2": "대용증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "mgna_tota",
+      "Column_2": "증거금총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "opt_dfpa",
+      "Column_2": "옵션차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "thdt_dfpa",
+      "Column_2": "당일차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "rnwl_dfpa",
+      "Column_2": "갱신차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "fee",
+      "Column_2": "수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "nxdy_dnca",
+      "Column_2": "익일예수금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "nxdy_dncl_amt",
+      "Column_2": "익일예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "prsm_dpast",
+      "Column_2": "추정예탁자산",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "prsm_dpast_amt",
+      "Column_2": "추정예탁자산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "pprt_ord_psbl_cash",
+      "Column_2": "적정주문가능현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "add_mgna_cash",
+      "Column_2": "추가증거금현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "add_mgna_tota",
+      "Column_2": "추가증거금총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "futr_trad_pfls_amt",
+      "Column_2": "선물매매손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "opt_trad_pfls_amt",
+      "Column_2": "옵션매매손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "futr_evlu_pfls_amt",
+      "Column_2": "선물평가손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "opt_evlu_pfls_amt",
+      "Column_2": "옵션평가손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "trad_pfls_amt_smtl",
+      "Column_2": "매매손익금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "evlu_pfls_amt_smtl",
+      "Column_2": "평가손익금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "wdrw_psbl_tot_amt",
+      "Column_2": "인출가능총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "ord_psbl_cash",
+      "Column_2": "주문가능현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "ord_psbl_sbst",
+      "Column_2": "주문가능대용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "ord_psbl_tota",
+      "Column_2": "주문가능총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세2",
+      "Column_3": "array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "cano",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "acnt_prdt_cd",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "shtn_pdno",
+      "Column_2": "단축상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "sll_buy_dvsn_name",
+      "Column_2": "매도매수구분명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "cblc_qty1",
+      "Column_2": "잔고수량1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "excc_unpr",
+      "Column_2": "정산단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "24",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "ccld_avg_unpr1",
+      "Column_2": "체결평균단가1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "24",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "idx_clpr",
+      "Column_2": "지수종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "24",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "pchs_amt",
+      "Column_2": "매입금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "evlu_amt",
+      "Column_2": "평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "evlu_pfls_amt",
+      "Column_2": "평가손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "trad_pfls_amt",
+      "Column_2": "매매손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": null,
+      "Column_1": "lqd_psbl_qty",
+      "Column_2": "청산가능수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\":\"12345678\",\r\n\t\"ACNT_PRDT_CD\":\"03\",\r\n\t\"MGNA_DVSN\":\"02\",\r\n\t\"EXCC_STAT_CD\":\"1\",\r\n\t\"CTX_AREA_FK200\":\"\",\r\n\t\"CTX_AREA_NK200\":\"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 잔고평가손익내역": "Response Example",
+      "Column_1": "{\r\n    \"ctx_area_fk200\": \"12345678!^03!^02!^1                                                                                                                                                                                     \",\r\n    \"ctx_area_nk200\": \" !^ !^ !^                                                                                                                                                                                               \",\r\n    \"output1\": [\r\n        {\r\n            \"cano\": \"12345678\",\r\n            \"acnt_prdt_cd\": \"03\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"prdt_type_cd\": \"301\",\r\n            \"shtn_pdno\": \"101T09\",\r\n            \"prdt_name\": \"F 202309\",\r\n            \"sll_buy_dvsn_name\": \"매수\",\r\n            \"cblc_qty1\": \"2\",\r\n            \"excc_unpr\": \"340.30000000\",\r\n            \"ccld_avg_unpr1\": \"345.50000000\",\r\n            \"idx_clpr\": \"0.00000000\",\r\n            \"pchs_amt\": \"170150000\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"trad_pfls_amt\": \"0\",\r\n            \"lqd_psbl_qty\": \"2\"\r\n        },\r\n        {\r\n            \"cano\": \"12345678\",\r\n            \"acnt_prdt_cd\": \"03\",\r\n            \"pdno\": \"KR4101TC0008\",\r\n            \"prdt_type_cd\": \"301\",\r\n            \"shtn_pdno\": \"101T12\",\r\n            \"prdt_name\": \"F 202312\",\r\n            \"sll_buy_dvsn_name\": \"매수\",\r\n            \"cblc_qty1\": \"5\",\r\n            \"excc_unpr\": \"350.00000000\",\r\n            \"ccld_avg_unpr1\": \"335.50000000\",\r\n            \"idx_clpr\": \"353.35000000\",\r\n            \"pchs_amt\": \"437500000\",\r\n            \"evlu_amt\": \"441687500\",\r\n            \"evlu_pfls_amt\": \"4187500\",\r\n            \"trad_pfls_amt\": \"0\",\r\n            \"lqd_psbl_qty\": \"5\"\r\n        },\r\n        {\r\n            \"cano\": \"12345678\",\r\n            \"acnt_prdt_cd\": \"03\",\r\n            \"pdno\": \"KR4175TA0001\",\r\n            \"prdt_type_cd\": \"301\",\r\n            \"shtn_pdno\": \"175T10\",\r\n            \"prdt_name\": \"미국달러 F 202310\",\r\n            \"sll_buy_dvsn_name\": \"매수\",\r\n            \"cblc_qty1\": \"1\",\r\n            \"excc_unpr\": \"1349.20000000\",\r\n            \"ccld_avg_unpr1\": \"1338.60000000\",\r\n            \"idx_clpr\": \"0.00000000\",\r\n            \"pchs_amt\": \"13492000\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"trad_pfls_amt\": \"0\",\r\n            \"lqd_psbl_qty\": \"1\"\r\n        },\r\n        {\r\n            \"cano\": \"12345678\",\r\n            \"acnt_prdt_cd\": \"03\",\r\n            \"pdno\": \"KR4201TA3409\",\r\n            \"prdt_type_cd\": \"301\",\r\n            \"shtn_pdno\": \"201T10340\",\r\n            \"prdt_name\": \"C 202310 340.0\",\r\n            \"sll_buy_dvsn_name\": \"매수\",\r\n            \"cblc_qty1\": \"1\",\r\n            \"excc_unpr\": \"2.80000000\",\r\n            \"ccld_avg_unpr1\": \"2.80000000\",\r\n            \"idx_clpr\": \"0.01000000\",\r\n            \"pchs_amt\": \"700000\",\r\n            \"evlu_amt\": \"2500\",\r\n            \"evlu_pfls_amt\": \"-697500\",\r\n            \"trad_pfls_amt\": \"0\",\r\n            \"lqd_psbl_qty\": \"1\"\r\n        }\r\n    ],\r\n    \"output2\": {\r\n        \"dnca_cash\": \"100000000\",\r\n        \"frcr_dncl_amt\": \"0\",\r\n        \"dnca_sbst\": \"0\",\r\n        \"tot_dncl_amt\": \"100000000\",\r\n        \"tot_ccld_amt\": \"0\",\r\n        \"cash_mgna\": \"0\",\r\n        \"sbst_mgna\": \"23910150\",\r\n        \"mgna_tota\": \"23910150\",\r\n        \"opt_dfpa\": \"0\",\r\n        \"thdt_dfpa\": \"0\",\r\n        \"rnwl_dfpa\": \"-30138000\",\r\n        \"fee\": \"0\",\r\n        \"nxdy_dnca\": \"69862000\",\r\n        \"nxdy_dncl_amt\": \"69862000\",\r\n        \"prsm_dpast\": \"69864500\",\r\n        \"prsm_dpast_amt\": \"69864500\",\r\n        \"pprt_ord_psbl_cash\": \"64184775\",\r\n        \"add_mgna_cash\": \"0\",\r\n        \"add_mgna_tota\": \"0\",\r\n        \"futr_trad_pfls_amt\": \"0\",\r\n        \"opt_trad_pfls_amt\": \"0\",\r\n        \"futr_evlu_pfls_amt\": \"4187500\",\r\n        \"opt_evlu_pfls_amt\": \"-697500\",\r\n        \"trad_pfls_amt_smtl\": \"0\",\r\n        \"evlu_pfls_amt_smtl\": \"3490000\",\r\n        \"wdrw_psbl_tot_amt\": \"34046775\",\r\n        \"ord_psbl_cash\": \"64184775\",\r\n        \"ord_psbl_sbst\": \"0\",\r\n        \"ord_psbl_tota\": \"64184775\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0460\",\r\n    \"msg1\": \"조회 되었습니다. (마지막 자료)                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

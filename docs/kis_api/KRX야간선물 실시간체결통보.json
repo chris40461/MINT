@@ -1,0 +1,456 @@
+{
+  "sheet_name": "KRX야간선물 실시간체결통보",
+  "row_count": 44,
+  "columns": [
+    "KRX야간선물 실시간체결통보",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "KRX야간선물 실시간체결통보": "API 통신방식",
+      "Column_1": "WEBSOCKET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "메뉴 위치",
+      "Column_1": "[국내선물옵션] 실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "API 명",
+      "Column_1": "KRX야간선물 실시간체결통보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "API ID",
+      "Column_1": "실시간-066",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "실전 TR_ID",
+      "Column_1": "H0MFCNI0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "URL 명",
+      "Column_1": "/tryitout/H0MFCNI0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "개요",
+      "Column_1": "[참고자료]\r\n\r\n실시간시세(웹소켓) 파이썬 샘플코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/blob/main/websocket/python/ws_domestic_overseas_all.py\r\n\r\n실시간시세(웹소켓) API 사용방법에 대한 자세한 설명은 한국투자증권 Wikidocs 참고 부탁드립니다.\r\nhttps://wikidocs.net/book/7847 (국내주식 업데이트 완료, 추후 해외주식·국내선물옵션 업데이트 예정)\r\n\r\n종목코드 마스터파일 파이썬 정제코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/tree/main/stocks_info",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 / P : 개인",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "tr_type",
+      "Column_2": "등록/해제",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "1: 등록, 2:해제",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "utf-8",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "H0MFCNI0",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "tr_key",
+      "Column_2": "구분값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "HTS ID",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "Response Body",
+      "Column_1": "CUST_ID",
+      "Column_2": "고객 ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "ACNT_NO",
+      "Column_2": "계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "ODER_NO",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "OODER_NO",
+      "Column_2": "원주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "SELN_BYOV_CLS",
+      "Column_2": "매도매수구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "RCTF_CLS",
+      "Column_2": "정정구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "ODER_KIND2",
+      "Column_2": "주문종류2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "STCK_SHRN_ISCD",
+      "Column_2": "주식 단축 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "CNTG_QTY",
+      "Column_2": "체결 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "CNTG_UNPR",
+      "Column_2": "체결단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "STCK_CNTG_HOUR",
+      "Column_2": "주식 체결 시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "RFUS_YN",
+      "Column_2": "거부여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "CNTG_YN",
+      "Column_2": "체결여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "ACPT_YN",
+      "Column_2": "접수여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "BRNC_NO",
+      "Column_2": "지점번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "ODER_QTY",
+      "Column_2": "주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "ACNT_NAME",
+      "Column_2": "계좌명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "CNTG_ISNM",
+      "Column_2": "체결종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "14",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": null,
+      "Column_1": "ODER_COND",
+      "Column_2": "주문조건",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "Request Example (Python)",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "KRX야간선물 실시간체결통보": "Response Example",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

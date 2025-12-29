@@ -1,0 +1,15 @@
+# HTTP Client
+httpx==0.28.1
+requests==2.32.3
+
+# Database
+sqlalchemy==2.0.44
+
+# Configuration
+pydantic==2.10.6
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# Utilities
+tenacity==9.0.0
+python-dateutil==2.9.0

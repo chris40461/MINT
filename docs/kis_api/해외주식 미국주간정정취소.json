@@ -1,0 +1,536 @@
+{
+  "sheet_name": "해외주식 미국주간정정취소",
+  "row_count": 52,
+  "columns": [
+    "해외주식 미국주간정정취소",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 미국주간정정취소": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "메뉴 위치",
+      "Column_1": "[해외주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "API 명",
+      "Column_1": "해외주식 미국주간정정취소",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "API ID",
+      "Column_1": "v1_해외주식-027",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "실전 TR_ID",
+      "Column_1": "TTTS6038U",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "URL 명",
+      "Column_1": "/uapi/overseas-stock/v1/trading/daytime-order-rvsecncl",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "개요",
+      "Column_1": "해외주식 미국주간정정취소 API입니다.\r\n\r\n* 미국주식 주간거래 시 아래 참고 부탁드립니다.\r\n. 포럼 &gt; FAQ &gt; 미국주식 주간거래 시 어떤 API를 사용해야 하나요?\r\n\r\n* 미국주간거래의 경우, 모든 미국 종목 매매가 지원되지 않습니다. 일부 종목만 매매 가능한 점 유의 부탁드립니다.\r\n\r\n* 해외주식 서비스 신청 후 이용 가능합니다. (아래 링크 3번 해외증권 거래신청 참고)\r\nhttps://securities.koreainvestment.com/main/bond/research/_static/TF03ca010001.jsp\r\n\r\n* 미국주간거래시간 외 API 호출 시 에러가 발생하오니 운영시간을 확인해주세요.\r\n. 주간거래(장전거래)(한국시간 기준) : 10:00 ~ 18:00 (Summer Time 동일)\r\n\r\n* 한국투자증권 해외주식 시장별 매매안내(매매수수료, 거래시간 안내, 결제일 정보, 환전안내)\r\n   https://securities.koreainvestment.com/main/bond/research/_static/TF03ca050000.jsp\r\n\r\n※ POST API의 경우 BODY값의 key값들을 대문자로 작성하셔야 합니다.\r\n   (EX. \"CANO\" : \"12345678\", \"ACNT_PRDT_CD\": \"01\",...)\r\n\r\n※ 종목코드 마스터파일 파이썬 정제코드는 한국투자증권 Github 참고 부탁드립니다.\r\n   https://github.com/koreainvestment/open-trading-api/tree/main/stocks_info",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자]\r\n미국주간 정정취소 : TTTS6038U",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "Request Body",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "OVRS_EXCG_CD",
+      "Column_2": "해외거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "NASD:나스닥 / NYSE:뉴욕 / AMEX:아멕스",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "ORGN_ODNO",
+      "Column_2": "원주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "'정정 또는 취소할 원주문번호(매매 TR의 주문번호)\r\n- 해외주식 주문체결내역api (/uapi/overseas-stock/v1/trading/inquire-nccs)에서 odno(주문번호) 참조'",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "RVSE_CNCL_DVSN_CD",
+      "Column_2": "정정취소구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "'01 : 정정 \r\n02 : 취소'",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "ORD_QTY",
+      "Column_2": "주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "OVRS_ORD_UNPR",
+      "Column_2": "해외주문단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "소수점 포함, 1주당 가격",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "CTAC_TLNO",
+      "Column_2": "연락전화번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "\" \"",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "MGCO_APTM_ODNO",
+      "Column_2": "운용사지정주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "\" \"",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "ORD_SVR_DVSN_CD",
+      "Column_2": "주문서버구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "\"0\"",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "N",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "KRX_FWDG_ORD_ORGNO",
+      "Column_2": "한국거래소전송주문조직번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "주문시 한국투자증권 시스템에서 지정된 영업점코드",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "ODNO",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "주문시 한국투자증권 시스템에서 채번된 주문번호",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": null,
+      "Column_1": "ORD_TMD",
+      "Column_2": "주문시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "주문시각(시분초HHMMSS)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "Request Example (Python)",
+      "Column_1": "{\r\n    \"CANO\": \"12345678\",\r\n    \"ACNT_PRDT_CD\": \"01\",\r\n    \"OVRS_EXCG_CD\": \"NASD\",\r\n    \"PDNO\": \"AMZN\",\r\n    \"ORGN_ODNO\": \"0000034436\",\r\n    \"RVSE_CNCL_DVSN_CD\": \"01\",\r\n    \"ORD_QTY\": \"111\",\r\n    \"OVRS_ORD_UNPR\": \"1.9\",\r\n    \"CTAC_TLNO\": \"\",\r\n    \"MGCO_APTM_ODNO\": \"\",\r\n    \"ORD_SVR_DVSN_CD\": \"0\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미국주간정정취소": "Response Example",
+      "Column_1": "{\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"APBK0013\",\r\n    \"msg1\": \"주문 전송 완료 되었습니다.\",\r\n    \"output\": {\r\n        \"KRX_FWDG_ORD_ORGNO\": \"01790\",\r\n        \"ODNO\": \"0000034437\",\r\n        \"ORD_TMD\": \"104202\"\r\n    }\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "sheet_name": "해외주식 기간별시세",
+  "row_count": 64,
+  "columns": [
+    "해외주식 기간별시세",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 기간별시세": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "메뉴 위치",
+      "Column_1": "[해외주식] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "API 명",
+      "Column_1": "해외주식 기간별시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "API ID",
+      "Column_1": "v1_해외주식-010",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "실전 TR_ID",
+      "Column_1": "HHDFS76240000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "모의 TR_ID",
+      "Column_1": "HHDFS76240000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "URL 명",
+      "Column_1": "/uapi/overseas-price/v1/quotations/dailyprice",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "개요",
+      "Column_1": "해외주식의 기간별시세를 확인하는 API 입니다.\r\n실전계좌/모의계좌의 경우, 한 번의 호출에 최대 100건까지 확인 가능합니다.\r\n\r\n해외주식 시세는 무료시세(지연체결가)만이 제공되며, API로는 유료시세(실시간체결가)를 받아보실 수 없습니다.\r\n\r\n※ 지연시세 지연시간 : 미국 - 실시간무료(0분지연) / 홍콩, 베트남, 중국, 일본 - 15분지연 (중국은 실시간시세 신청 시 무료실시간시세 제공)\r\n   미국의 경우 0분지연시세로 제공되나, 장중 당일 시가는 상이할 수 있으며, 익일 정정 표시됩니다.\r\n\r\n※ 2024년 12월 13일(금) 오후 5시부터 HTS(efriend Plus) [7781] 시세신청(실시간) 화면에서 유료 서비스 신청 후 접근토큰 발급하면 최대 2시간 이후 실시간 유료 시세 수신 가능\r\n\r\n※ 당사 미국주식 주간거래는 별도 일봉을 제공하지 않고 당일 시세만 제공하고 있습니다.\r\n\r\n[미국주식시세 이용시 유의사항]\r\n■ 무료 실시간 시세 서비스가 기본 제공되며, 유료 실시간 시세 서비스는 HTS ‘[7781] 시세신청 (실시간)’과 MTS(모바일) ‘고객서비스 &gt; 거래 서비스신청 &gt; 해외주식 &gt; 해외 실시간시세 신청’ 에서 신청 가능합니다. \r\n※ 무료(매수/매도 각 1호가) : 나스닥 마켓센터에서 거래되는 호가 및 호가 잔량 정보\r\n※ 유료(매수/매도 각 1호가) : 미국 전체 거래소들의 통합 주문체결 및 최우선 호가\r\n■ 무료 실시간 시세 서비스는 유료 실시간 시세 서비스 대비 평균 50% 수준에 해당하는 정보이므로 \r\n현재가/호가/순간체결량/차트 등에서 일시적·부분적 차이가 있을 수 있습니다. \r\n■ 무료∙유료 모두 미국에 상장된 종목(뉴욕, 나스닥, 아멕스 등)의 시세를 제공하며, 동일한 시스템을 사용하여 주문∙체결됩니다. \r\n단, 무료∙유료의 기반 데이터 차이로 호가 및 체결 데이터는 차이가 발생할 수 있고, 이로 인해 발생하는 손실에 대해서 당사가 책임지지 않습니다.\r\n■ 무료 실시간 시세 서비스의 시가, 저가, 고가, 종가는 유료 실시간 시세 서비스와 다를 수 있으며, \r\n종목별 과거 데이터(거래량, 시가, 종가, 고가, 차트 데이터 등)는 장 종료 후(오후 12시경) 유료 실시간 시세 서비스 데이터와 동일하게 업데이트됩니다.\r\n■ 유료 실시간 시세 서비스는 신청 시 1~12개월까지 기간 선택 후 해당 요금을 일괄 납부하며, \r\n해지 시 해지한 달의 말일까지 시세 제공 후 남은 기간 해당 금액이 환급되니 유의하시기 바랍니다.\r\n(출처: 한국투자증권 외화증권 거래설명서 - https://www.truefriend.com/main/customer/guide/Guide.jsp?&cmd=TF04ag010002&currentPage=1&num=64)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token\r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용)\r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)\r\n\r\n※ 토큰 지정시 토큰 타입(\"Bearer\") 지정 필요. 즉, 발급받은 접근토큰 앞에 앞에 \"Bearer\" 붙여서 호출\r\nEX) \"Bearer eyJ..........8GA\"",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자/모의투자]\r\nHHDFS76240000",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인\r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호\r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "Request Query Parameter",
+      "Column_1": "AUTH",
+      "Column_2": "사용자권한정보",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "\"\" (Null 값 설정)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "EXCD",
+      "Column_2": "거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "HKS : 홍콩\r\nNYS : 뉴욕\r\nNAS : 나스닥\r\nAMS : 아멕스\r\nTSE : 도쿄\r\nSHS : 상해\r\nSZS : 심천\r\nSHI : 상해지수\r\nSZI : 심천지수\r\nHSX : 호치민\r\nHNX : 하노이",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "SYMB",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "종목코드 (ex. TSLA)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "GUBN",
+      "Column_2": "일/주/월구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 일\r\n1 : 주\r\n2 : 월",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "BYMD",
+      "Column_2": "조회기준일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "조회기준일자(YYYYMMDD)\r\n※ 공란 설정 시, 기준일 오늘 날짜로 설정",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "MODP",
+      "Column_2": "수정주가반영여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 미반영\r\n1 : 반영",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "KEYB",
+      "Column_2": "NEXT KEY BUFF",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "응답시 다음값이 있으면 값이 셋팅되어 있으므로 다음 조회시 응답값 그대로 셋팅",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공 \r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "응답코드",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "응답메세지",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세1",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "rsym",
+      "Column_2": "실시간조회종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "D+시장구분(3자리)+종목코드\r\n예) DNASAAPL : D+NAS(나스닥)+AAPL(애플)\r\n[시장구분]\r\nNYS : 뉴욕, NAS : 나스닥, AMS : 아멕스 ,\r\nTSE : 도쿄, HKS : 홍콩,\r\nSHS : 상해, SZS : 심천\r\nHSX : 호치민, HNX : 하노이",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "zdiv",
+      "Column_2": "소수점자리수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "nrec",
+      "Column_2": "전일종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "xymd",
+      "Column_2": "일자(YYYYMMDD)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "clos",
+      "Column_2": "종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "해당 일자의 종가",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "sign",
+      "Column_2": "대비기호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "1 : 상한\r\n2 : 상승\r\n3 : 보합\r\n4 : 하한\r\n5 : 하락",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "diff",
+      "Column_2": "대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "해당 일자의 종가와 해당 전일 종가의 차이 (해당일 종가-해당 전일 종가)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "rate",
+      "Column_2": "등락율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "해당 전일 대비 / 해당일 종가 * 100",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "open",
+      "Column_2": "시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "해당일 최초 거래가격",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "high",
+      "Column_2": "고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "해당일 가장 높은 거래가격",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "low",
+      "Column_2": "저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "해당일 가장 낮은 거래가격",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "tvol",
+      "Column_2": "거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "14",
+      "Column_6": "해당일 거래량",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "tamt",
+      "Column_2": "거래대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "14",
+      "Column_6": "해당일 거래대금",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "pbid",
+      "Column_2": "매수호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "마지막 체결이 발생한 시점의 매수호가\r\n* 해당 일자 거래량 0인 경우 값이 수신되지 않음",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "vbid",
+      "Column_2": "매수호가잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "* 해당 일자 거래량 0인 경우 값이 수신되지 않음",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "pask",
+      "Column_2": "매도호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "마지막 체결이 발생한 시점의 매도호가\r\n* 해당 일자 거래량 0인 경우 값이 수신되지 않음",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": null,
+      "Column_1": "vask",
+      "Column_2": "매도호가잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "* 해당 일자 거래량 0인 경우 값이 수신되지 않음",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "Request Example (Python)",
+      "Column_1": "{\r\n\"AUTH\": \"\",\r\n\"EXCD\": \"NAS\",\r\n\"SYMB\": \"TSLA\",\r\n\"GUBN\": \"0\",\r\n\"BYMD\": \"\",\r\n\"MODP\": \"0\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별시세": "Response Example",
+      "Column_1": "{\r\n  \"output1\": {\r\n    \"rsym\": \"DNASTSLA\",\r\n    \"zdiv\": \"4\",\r\n    \"nrec\": \"100\"\r\n  },\r\n  \"output2\": [\r\n    {\r\n      \"xymd\": \"20220406\",\r\n      \"clos\": \"1045.7600\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"45.5000\",\r\n      \"rate\": \"-4.17\",\r\n      \"open\": \"1073.4700\",\r\n      \"high\": \"1079.0000\",\r\n      \"low\": \"1027.7000\",\r\n      \"tvol\": \"29782845\",\r\n      \"tamt\": \"31190274312\",\r\n      \"pbid\": \"1042.8900\",\r\n      \"vbid\": \"7\",\r\n      \"pask\": \"1043.2200\",\r\n      \"vask\": \"1\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220405\",\r\n      \"clos\": \"1091.2600\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"54.1900\",\r\n      \"rate\": \"-4.73\",\r\n      \"open\": \"1136.3000\",\r\n      \"high\": \"1152.8700\",\r\n      \"low\": \"1087.3000\",\r\n      \"tvol\": \"26691673\",\r\n      \"tamt\": \"29742125077\",\r\n      \"pbid\": \"1090.0000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1090.5000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220404\",\r\n      \"clos\": \"1145.4500\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"60.8600\",\r\n      \"rate\": \"+5.61\",\r\n      \"open\": \"1089.3800\",\r\n      \"high\": \"1149.9100\",\r\n      \"low\": \"1072.5300\",\r\n      \"tvol\": \"27392567\",\r\n      \"tamt\": \"30743176589\",\r\n      \"pbid\": \"1143.3000\",\r\n      \"vbid\": \"300\",\r\n      \"pask\": \"1143.6000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220401\",\r\n      \"clos\": \"1084.5900\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"6.9900\",\r\n      \"rate\": \"+0.65\",\r\n      \"open\": \"1081.1500\",\r\n      \"high\": \"1094.7500\",\r\n      \"low\": \"1066.6400\",\r\n      \"tvol\": \"18087741\",\r\n      \"tamt\": \"19558845872\",\r\n      \"pbid\": \"1090.0100\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1090.7500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220331\",\r\n      \"clos\": \"1077.6000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"16.3900\",\r\n      \"rate\": \"-1.50\",\r\n      \"open\": \"1094.5700\",\r\n      \"high\": \"1103.1399\",\r\n      \"low\": \"1076.6410\",\r\n      \"tvol\": \"16330919\",\r\n      \"tamt\": \"17799070958\",\r\n      \"pbid\": \"1079.2900\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1079.8000\",\r\n      \"vask\": \"400\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220330\",\r\n      \"clos\": \"1093.9900\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"5.5800\",\r\n      \"rate\": \"-0.51\",\r\n      \"open\": \"1091.1700\",\r\n      \"high\": \"1113.9500\",\r\n      \"low\": \"1084.0000\",\r\n      \"tvol\": \"19955002\",\r\n      \"tamt\": \"21921529520\",\r\n      \"pbid\": \"1095.0100\",\r\n      \"vbid\": \"1000\",\r\n      \"pask\": \"1095.4900\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220329\",\r\n      \"clos\": \"1099.5700\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"7.7300\",\r\n      \"rate\": \"+0.71\",\r\n      \"open\": \"1107.9900\",\r\n      \"high\": \"1114.7700\",\r\n      \"low\": \"1073.1100\",\r\n      \"tvol\": \"24538273\",\r\n      \"tamt\": \"26908896769\",\r\n      \"pbid\": \"1096.0000\",\r\n      \"vbid\": \"700\",\r\n      \"pask\": \"1096.8800\",\r\n      \"vask\": \"700\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220328\",\r\n      \"clos\": \"1091.8400\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"81.2000\",\r\n      \"rate\": \"+8.03\",\r\n      \"open\": \"1065.1000\",\r\n      \"high\": \"1097.8799\",\r\n      \"low\": \"1053.6000\",\r\n      \"tvol\": \"34168693\",\r\n      \"tamt\": \"36935543398\",\r\n      \"pbid\": \"1094.3000\",\r\n      \"vbid\": \"500\",\r\n      \"pask\": \"1094.7500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220325\",\r\n      \"clos\": \"1010.6400\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"3.2800\",\r\n      \"rate\": \"-0.32\",\r\n      \"open\": \"1008.0000\",\r\n      \"high\": \"1021.7999\",\r\n      \"low\": \"997.3201\",\r\n      \"tvol\": \"20677182\",\r\n      \"tamt\": \"20833543456\",\r\n      \"pbid\": \"1010.6000\",\r\n      \"vbid\": \"300\",\r\n      \"pask\": \"1011.5000\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220324\",\r\n      \"clos\": \"1013.9200\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"14.8100\",\r\n      \"rate\": \"+1.48\",\r\n      \"open\": \"1009.7300\",\r\n      \"high\": \"1024.4900\",\r\n      \"low\": \"988.8000\",\r\n      \"tvol\": \"22973626\",\r\n      \"tamt\": \"23177427182\",\r\n      \"pbid\": \"1011.8500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1012.0000\",\r\n      \"vask\": \"1800\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220323\",\r\n      \"clos\": \"999.1100\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"5.1300\",\r\n      \"rate\": \"+0.52\",\r\n      \"open\": \"979.9400\",\r\n      \"high\": \"1040.7000\",\r\n      \"low\": \"976.4000\",\r\n      \"tvol\": \"40225383\",\r\n      \"tamt\": \"40613152436\",\r\n      \"pbid\": \"994.4100\",\r\n      \"vbid\": \"300\",\r\n      \"pask\": \"995.0000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220322\",\r\n      \"clos\": \"993.9800\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"72.8200\",\r\n      \"rate\": \"+7.91\",\r\n      \"open\": \"930.0000\",\r\n      \"high\": \"997.8600\",\r\n      \"low\": \"921.7500\",\r\n      \"tvol\": \"35289519\",\r\n      \"tamt\": \"33994169075\",\r\n      \"pbid\": \"986.5000\",\r\n      \"vbid\": \"300\",\r\n      \"pask\": \"987.0000\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220321\",\r\n      \"clos\": \"921.1600\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"15.7700\",\r\n      \"rate\": \"+1.74\",\r\n      \"open\": \"914.9800\",\r\n      \"high\": \"942.8500\",\r\n      \"low\": \"907.0900\",\r\n      \"tvol\": \"27327216\",\r\n      \"tamt\": \"25211905771\",\r\n      \"pbid\": \"922.7000\",\r\n      \"vbid\": \"400\",\r\n      \"pask\": \"923.2000\",\r\n      \"vask\": \"500\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220318\",\r\n      \"clos\": \"905.3900\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"33.7900\",\r\n      \"rate\": \"+3.88\",\r\n      \"open\": \"874.4900\",\r\n      \"high\": \"907.8500\",\r\n      \"low\": \"867.3900\",\r\n      \"tvol\": \"33471397\",\r\n      \"tamt\": \"30178912165\",\r\n      \"pbid\": \"904.5000\",\r\n      \"vbid\": \"300\",\r\n      \"pask\": \"905.2500\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220317\",\r\n      \"clos\": \"871.6000\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"31.3700\",\r\n      \"rate\": \"+3.73\",\r\n      \"open\": \"830.9900\",\r\n      \"high\": \"875.0000\",\r\n      \"low\": \"825.7178\",\r\n      \"tvol\": \"22194324\",\r\n      \"tamt\": \"19011422979\",\r\n      \"pbid\": \"867.2100\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"868.0400\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220316\",\r\n      \"clos\": \"840.2300\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"38.3400\",\r\n      \"rate\": \"+4.78\",\r\n      \"open\": \"809.0000\",\r\n      \"high\": \"842.0000\",\r\n      \"low\": \"802.2601\",\r\n      \"tvol\": \"28009607\",\r\n      \"tamt\": \"23198872371\",\r\n      \"pbid\": \"841.9500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"842.5000\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220315\",\r\n      \"clos\": \"801.8900\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"35.5200\",\r\n      \"rate\": \"+4.63\",\r\n      \"open\": \"775.2700\",\r\n      \"high\": \"805.5700\",\r\n      \"low\": \"756.5700\",\r\n      \"tvol\": \"22280381\",\r\n      \"tamt\": \"17560285765\",\r\n      \"pbid\": \"801.0000\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"801.8000\",\r\n      \"vask\": \"500\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220314\",\r\n      \"clos\": \"766.3700\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"28.9800\",\r\n      \"rate\": \"-3.64\",\r\n      \"open\": \"780.6100\",\r\n      \"high\": \"800.7000\",\r\n      \"low\": \"756.0400\",\r\n      \"tvol\": \"23717421\",\r\n      \"tamt\": \"18350554191\",\r\n      \"pbid\": \"762.5100\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"763.6900\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220311\",\r\n      \"clos\": \"795.3500\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"42.9500\",\r\n      \"rate\": \"-5.12\",\r\n      \"open\": \"840.1970\",\r\n      \"high\": \"843.8020\",\r\n      \"low\": \"793.7700\",\r\n      \"tvol\": \"22345722\",\r\n      \"tamt\": \"18076185507\",\r\n      \"pbid\": \"794.6000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"794.9900\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220310\",\r\n      \"clos\": \"838.3000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"20.6700\",\r\n      \"rate\": \"-2.41\",\r\n      \"open\": \"851.4500\",\r\n      \"high\": \"854.4500\",\r\n      \"low\": \"810.3601\",\r\n      \"tvol\": \"19549548\",\r\n      \"tamt\": \"16229710911\",\r\n      \"pbid\": \"836.2000\",\r\n      \"vbid\": \"800\",\r\n      \"pask\": \"836.5000\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220309\",\r\n      \"clos\": \"858.9700\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"34.5700\",\r\n      \"rate\": \"+4.19\",\r\n      \"open\": \"839.4800\",\r\n      \"high\": \"860.5600\",\r\n      \"low\": \"832.0100\",\r\n      \"tvol\": \"19727993\",\r\n      \"tamt\": \"16782318027\",\r\n      \"pbid\": \"860.1000\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"860.5000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220308\",\r\n      \"clos\": \"824.4000\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"19.8200\",\r\n      \"rate\": \"+2.46\",\r\n      \"open\": \"795.5300\",\r\n      \"high\": \"849.9900\",\r\n      \"low\": \"782.1700\",\r\n      \"tvol\": \"26799702\",\r\n      \"tamt\": \"22014058629\",\r\n      \"pbid\": \"819.5900\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"820.8500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220307\",\r\n      \"clos\": \"804.5800\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"33.7100\",\r\n      \"rate\": \"-4.02\",\r\n      \"open\": \"856.3000\",\r\n      \"high\": \"866.1400\",\r\n      \"low\": \"804.5700\",\r\n      \"tvol\": \"24164724\",\r\n      \"tamt\": \"20086515519\",\r\n      \"pbid\": \"798.7500\",\r\n      \"vbid\": \"500\",\r\n      \"pask\": \"799.5700\",\r\n      \"vask\": \"500\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220304\",\r\n      \"clos\": \"838.2900\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"1.0000\",\r\n      \"rate\": \"-0.12\",\r\n      \"open\": \"849.1000\",\r\n      \"high\": \"855.6500\",\r\n      \"low\": \"825.1609\",\r\n      \"tvol\": \"22393287\",\r\n      \"tamt\": \"18802769433\",\r\n      \"pbid\": \"837.5000\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"837.8600\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220303\",\r\n      \"clos\": \"839.2900\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"40.6000\",\r\n      \"rate\": \"-4.61\",\r\n      \"open\": \"878.7700\",\r\n      \"high\": \"886.4390\",\r\n      \"low\": \"832.6001\",\r\n      \"tvol\": \"20541169\",\r\n      \"tamt\": \"17565872720\",\r\n      \"pbid\": \"843.6500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"844.1500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220302\",\r\n      \"clos\": \"879.8900\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"15.5200\",\r\n      \"rate\": \"+1.80\",\r\n      \"open\": \"872.1300\",\r\n      \"high\": \"886.4800\",\r\n      \"low\": \"844.2721\",\r\n      \"tvol\": \"24881146\",\r\n      \"tamt\": \"21649806528\",\r\n      \"pbid\": \"871.0500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"871.9900\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220301\",\r\n      \"clos\": \"864.3700\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"6.0600\",\r\n      \"rate\": \"-0.70\",\r\n      \"open\": \"869.6800\",\r\n      \"high\": \"889.8800\",\r\n      \"low\": \"853.7800\",\r\n      \"tvol\": \"24922287\",\r\n      \"tamt\": \"21622906438\",\r\n      \"pbid\": \"861.5700\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"862.3700\",\r\n      \"vask\": \"2500\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220228\",\r\n      \"clos\": \"870.4300\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"60.5600\",\r\n      \"rate\": \"+7.48\",\r\n      \"open\": \"815.0100\",\r\n      \"high\": \"876.8600\",\r\n      \"low\": \"814.7075\",\r\n      \"tvol\": \"33002289\",\r\n      \"tamt\": \"28246358471\",\r\n      \"pbid\": \"870.0800\",\r\n      \"vbid\": \"500\",\r\n      \"pask\": \"870.4800\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220225\",\r\n      \"clos\": \"809.8700\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"9.1000\",\r\n      \"rate\": \"+1.14\",\r\n      \"open\": \"809.2300\",\r\n      \"high\": \"819.5000\",\r\n      \"low\": \"782.4005\",\r\n      \"tvol\": \"25355921\",\r\n      \"tamt\": \"20339391276\",\r\n      \"pbid\": \"809.9500\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"810.0000\",\r\n      \"vask\": \"500\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220224\",\r\n      \"clos\": \"800.7700\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"36.7300\",\r\n      \"rate\": \"+4.81\",\r\n      \"open\": \"700.3900\",\r\n      \"high\": \"802.4800\",\r\n      \"low\": \"700.0000\",\r\n      \"tvol\": \"45107425\",\r\n      \"tamt\": \"34166549623\",\r\n      \"pbid\": \"798.4500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"799.0000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220223\",\r\n      \"clos\": \"764.0400\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"57.4900\",\r\n      \"rate\": \"-7.00\",\r\n      \"open\": \"830.4300\",\r\n      \"high\": \"835.2997\",\r\n      \"low\": \"760.5600\",\r\n      \"tvol\": \"31752336\",\r\n      \"tamt\": \"25094325267\",\r\n      \"pbid\": \"757.3000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"757.8000\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220222\",\r\n      \"clos\": \"821.5300\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"35.4500\",\r\n      \"rate\": \"-4.14\",\r\n      \"open\": \"834.1300\",\r\n      \"high\": \"856.7338\",\r\n      \"low\": \"801.1001\",\r\n      \"tvol\": \"27762734\",\r\n      \"tamt\": \"23190823879\",\r\n      \"pbid\": \"823.0000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"824.0800\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220218\",\r\n      \"clos\": \"856.9800\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"19.3700\",\r\n      \"rate\": \"-2.21\",\r\n      \"open\": \"886.0000\",\r\n      \"high\": \"886.8700\",\r\n      \"low\": \"837.6100\",\r\n      \"tvol\": \"22833947\",\r\n      \"tamt\": \"19556715049\",\r\n      \"pbid\": \"854.8300\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"854.9300\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220217\",\r\n      \"clos\": \"876.3500\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"47.0400\",\r\n      \"rate\": \"-5.09\",\r\n      \"open\": \"913.2600\",\r\n      \"high\": \"918.4999\",\r\n      \"low\": \"874.1000\",\r\n      \"tvol\": \"18392806\",\r\n      \"tamt\": \"16381253397\",\r\n      \"pbid\": \"874.0500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"874.9000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220216\",\r\n      \"clos\": \"923.3900\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"0.9600\",\r\n      \"rate\": \"+0.10\",\r\n      \"open\": \"914.0500\",\r\n      \"high\": \"926.4299\",\r\n      \"low\": \"901.2100\",\r\n      \"tvol\": \"17098132\",\r\n      \"tamt\": \"15630459694\",\r\n      \"pbid\": \"919.6000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"919.9900\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220215\",\r\n      \"clos\": \"922.4300\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"46.6700\",\r\n      \"rate\": \"+5.33\",\r\n      \"open\": \"900.0000\",\r\n      \"high\": \"923.0000\",\r\n      \"low\": \"893.3774\",\r\n      \"tvol\": \"19216514\",\r\n      \"tamt\": \"17583891909\",\r\n      \"pbid\": \"919.9000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"920.2000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220214\",\r\n      \"clos\": \"875.7600\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"15.7600\",\r\n      \"rate\": \"+1.83\",\r\n      \"open\": \"861.5700\",\r\n      \"high\": \"898.8799\",\r\n      \"low\": \"853.1500\",\r\n      \"tvol\": \"22585472\",\r\n      \"tamt\": \"19771806435\",\r\n      \"pbid\": \"874.2200\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"874.9000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220211\",\r\n      \"clos\": \"860.0000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"44.5500\",\r\n      \"rate\": \"-4.93\",\r\n      \"open\": \"909.6300\",\r\n      \"high\": \"915.9600\",\r\n      \"low\": \"850.7000\",\r\n      \"tvol\": \"26548623\",\r\n      \"tamt\": \"23354363403\",\r\n      \"pbid\": \"860.3100\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"860.7900\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220210\",\r\n      \"clos\": \"904.5500\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"27.4500\",\r\n      \"rate\": \"-2.95\",\r\n      \"open\": \"908.3700\",\r\n      \"high\": \"943.8100\",\r\n      \"low\": \"896.7000\",\r\n      \"tvol\": \"22042277\",\r\n      \"tamt\": \"20302484250\",\r\n      \"pbid\": \"903.1400\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"903.9800\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220209\",\r\n      \"clos\": \"932.0000\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"10.0000\",\r\n      \"rate\": \"+1.08\",\r\n      \"open\": \"935.0000\",\r\n      \"high\": \"946.2699\",\r\n      \"low\": \"920.0000\",\r\n      \"tvol\": \"17419848\",\r\n      \"tamt\": \"16264353533\",\r\n      \"pbid\": \"932.6100\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"933.0000\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220208\",\r\n      \"clos\": \"922.0000\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"14.6600\",\r\n      \"rate\": \"+1.62\",\r\n      \"open\": \"905.5300\",\r\n      \"high\": \"926.2899\",\r\n      \"low\": \"894.8000\",\r\n      \"tvol\": \"16909671\",\r\n      \"tamt\": \"15469715617\",\r\n      \"pbid\": \"921.7500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"922.2500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220207\",\r\n      \"clos\": \"907.3400\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"15.9800\",\r\n      \"rate\": \"-1.73\",\r\n      \"open\": \"923.7900\",\r\n      \"high\": \"947.7700\",\r\n      \"low\": \"902.7089\",\r\n      \"tvol\": \"20331488\",\r\n      \"tamt\": \"18757045232\",\r\n      \"pbid\": \"908.7000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"909.0000\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220204\",\r\n      \"clos\": \"923.3200\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"32.1800\",\r\n      \"rate\": \"+3.61\",\r\n      \"open\": \"897.2200\",\r\n      \"high\": \"936.5000\",\r\n      \"low\": \"881.1700\",\r\n      \"tvol\": \"24541822\",\r\n      \"tamt\": \"22445587121\",\r\n      \"pbid\": \"921.5000\",\r\n      \"vbid\": \"1200\",\r\n      \"pask\": \"922.0000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220203\",\r\n      \"clos\": \"891.1400\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"14.5200\",\r\n      \"rate\": \"-1.60\",\r\n      \"open\": \"882.0000\",\r\n      \"high\": \"937.0000\",\r\n      \"low\": \"880.5200\",\r\n      \"tvol\": \"26285186\",\r\n      \"tamt\": \"23895432177\",\r\n      \"pbid\": \"906.5000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"907.3900\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220202\",\r\n      \"clos\": \"905.6600\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"25.5900\",\r\n      \"rate\": \"-2.75\",\r\n      \"open\": \"928.1800\",\r\n      \"high\": \"931.5000\",\r\n      \"low\": \"889.4100\",\r\n      \"tvol\": \"22264345\",\r\n      \"tamt\": \"20251309655\",\r\n      \"pbid\": \"887.5000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"888.0000\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220201\",\r\n      \"clos\": \"931.2500\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"5.4700\",\r\n      \"rate\": \"-0.58\",\r\n      \"open\": \"935.2100\",\r\n      \"high\": \"943.7000\",\r\n      \"low\": \"905.0000\",\r\n      \"tvol\": \"24379446\",\r\n      \"tamt\": \"22603049750\",\r\n      \"pbid\": \"934.4000\",\r\n      \"vbid\": \"300\",\r\n      \"pask\": \"934.9900\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220131\",\r\n      \"clos\": \"936.7200\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"90.3700\",\r\n      \"rate\": \"+10.68\",\r\n      \"open\": \"872.7100\",\r\n      \"high\": \"937.9900\",\r\n      \"low\": \"862.0500\",\r\n      \"tvol\": \"34812032\",\r\n      \"tamt\": \"31796186854\",\r\n      \"pbid\": \"934.5000\",\r\n      \"vbid\": \"1000\",\r\n      \"pask\": \"934.9700\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220128\",\r\n      \"clos\": \"846.3500\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"17.2500\",\r\n      \"rate\": \"+2.08\",\r\n      \"open\": \"831.5600\",\r\n      \"high\": \"857.5000\",\r\n      \"low\": \"792.0100\",\r\n      \"tvol\": \"44929650\",\r\n      \"tamt\": \"37312553843\",\r\n      \"pbid\": \"847.6600\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"848.4000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220127\",\r\n      \"clos\": \"829.1000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"108.3100\",\r\n      \"rate\": \"-11.55\",\r\n      \"open\": \"933.3600\",\r\n      \"high\": \"935.3900\",\r\n      \"low\": \"829.0000\",\r\n      \"tvol\": \"49036523\",\r\n      \"tamt\": \"42522912142\",\r\n      \"pbid\": \"837.6200\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"838.5000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220126\",\r\n      \"clos\": \"937.4100\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"19.0100\",\r\n      \"rate\": \"+2.07\",\r\n      \"open\": \"952.4300\",\r\n      \"high\": \"987.6900\",\r\n      \"low\": \"906.0000\",\r\n      \"tvol\": \"34955761\",\r\n      \"tamt\": \"33134684349\",\r\n      \"pbid\": \"932.5500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"933.5000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220125\",\r\n      \"clos\": \"918.4000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"11.6000\",\r\n      \"rate\": \"-1.25\",\r\n      \"open\": \"914.2000\",\r\n      \"high\": \"951.2600\",\r\n      \"low\": \"903.2100\",\r\n      \"tvol\": \"28865302\",\r\n      \"tamt\": \"26613334628\",\r\n      \"pbid\": \"903.0000\",\r\n      \"vbid\": \"400\",\r\n      \"pask\": \"903.5500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220124\",\r\n      \"clos\": \"930.0000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"13.9000\",\r\n      \"rate\": \"-1.47\",\r\n      \"open\": \"904.7600\",\r\n      \"high\": \"933.5131\",\r\n      \"low\": \"851.4700\",\r\n      \"tvol\": \"50791714\",\r\n      \"tamt\": \"45100773316\",\r\n      \"pbid\": \"926.2500\",\r\n      \"vbid\": \"500\",\r\n      \"pask\": \"926.6500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220121\",\r\n      \"clos\": \"943.9000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"52.3700\",\r\n      \"rate\": \"-5.26\",\r\n      \"open\": \"996.3400\",\r\n      \"high\": \"1004.5500\",\r\n      \"low\": \"940.5000\",\r\n      \"tvol\": \"34472009\",\r\n      \"tamt\": \"33231719767\",\r\n      \"pbid\": \"939.8000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"940.0000\",\r\n      \"vask\": \"500\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220120\",\r\n      \"clos\": \"996.2700\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"0.6200\",\r\n      \"rate\": \"+0.06\",\r\n      \"open\": \"1009.7300\",\r\n      \"high\": \"1041.6600\",\r\n      \"low\": \"994.0000\",\r\n      \"tvol\": \"23496248\",\r\n      \"tamt\": \"23944890598\",\r\n      \"pbid\": \"989.9900\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"991.5000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220119\",\r\n      \"clos\": \"995.6500\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"34.8600\",\r\n      \"rate\": \"-3.38\",\r\n      \"open\": \"1041.7050\",\r\n      \"high\": \"1054.6699\",\r\n      \"low\": \"995.0000\",\r\n      \"tvol\": \"25147496\",\r\n      \"tamt\": \"25534130239\",\r\n      \"pbid\": \"993.5100\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"994.0000\",\r\n      \"vask\": \"700\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220118\",\r\n      \"clos\": \"1030.5100\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"19.1000\",\r\n      \"rate\": \"-1.82\",\r\n      \"open\": \"1026.6050\",\r\n      \"high\": \"1070.7899\",\r\n      \"low\": \"1016.0600\",\r\n      \"tvol\": \"22329803\",\r\n      \"tamt\": \"23272387126\",\r\n      \"pbid\": \"1031.0000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1031.9500\",\r\n      \"vask\": \"500\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220114\",\r\n      \"clos\": \"1049.6100\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"18.0500\",\r\n      \"rate\": \"+1.75\",\r\n      \"open\": \"1019.8800\",\r\n      \"high\": \"1052.0000\",\r\n      \"low\": \"1013.3788\",\r\n      \"tvol\": \"24308137\",\r\n      \"tamt\": \"25162720831\",\r\n      \"pbid\": \"1049.9200\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1050.0900\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220113\",\r\n      \"clos\": \"1031.5600\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"74.6600\",\r\n      \"rate\": \"-6.75\",\r\n      \"open\": \"1109.0650\",\r\n      \"high\": \"1115.6000\",\r\n      \"low\": \"1026.5391\",\r\n      \"tvol\": \"32403264\",\r\n      \"tamt\": \"34906936185\",\r\n      \"pbid\": \"1034.1000\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"1034.8400\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220112\",\r\n      \"clos\": \"1106.2200\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"41.8200\",\r\n      \"rate\": \"+3.93\",\r\n      \"open\": \"1078.8500\",\r\n      \"high\": \"1114.8400\",\r\n      \"low\": \"1072.5901\",\r\n      \"tvol\": \"27913005\",\r\n      \"tamt\": \"30590414517\",\r\n      \"pbid\": \"1107.1300\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1107.7300\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220111\",\r\n      \"clos\": \"1064.4000\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"6.2800\",\r\n      \"rate\": \"+0.59\",\r\n      \"open\": \"1053.6700\",\r\n      \"high\": \"1075.8500\",\r\n      \"low\": \"1038.8200\",\r\n      \"tvol\": \"22021070\",\r\n      \"tamt\": \"23353565457\",\r\n      \"pbid\": \"1060.5900\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1061.2800\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220110\",\r\n      \"clos\": \"1058.1200\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"31.1600\",\r\n      \"rate\": \"+3.03\",\r\n      \"open\": \"1000.0000\",\r\n      \"high\": \"1059.1000\",\r\n      \"low\": \"980.0000\",\r\n      \"tvol\": \"30604959\",\r\n      \"tamt\": \"31132010979\",\r\n      \"pbid\": \"1061.1500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1061.9300\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220107\",\r\n      \"clos\": \"1026.9600\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"37.7400\",\r\n      \"rate\": \"-3.54\",\r\n      \"open\": \"1080.3700\",\r\n      \"high\": \"1080.9299\",\r\n      \"low\": \"1010.0000\",\r\n      \"tvol\": \"28054916\",\r\n      \"tamt\": \"29158872307\",\r\n      \"pbid\": \"1025.0000\",\r\n      \"vbid\": \"300\",\r\n      \"pask\": \"1025.2500\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220106\",\r\n      \"clos\": \"1064.7000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"23.4200\",\r\n      \"rate\": \"-2.15\",\r\n      \"open\": \"1077.0000\",\r\n      \"high\": \"1088.0000\",\r\n      \"low\": \"1020.5000\",\r\n      \"tvol\": \"30112158\",\r\n      \"tamt\": \"31965624488\",\r\n      \"pbid\": \"1066.7900\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1067.0000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220105\",\r\n      \"clos\": \"1088.1200\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"61.4700\",\r\n      \"rate\": \"-5.35\",\r\n      \"open\": \"1146.6500\",\r\n      \"high\": \"1170.3400\",\r\n      \"low\": \"1081.0101\",\r\n      \"tvol\": \"26706599\",\r\n      \"tamt\": \"30187690088\",\r\n      \"pbid\": \"1079.0000\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"1079.9500\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220104\",\r\n      \"clos\": \"1149.5900\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"50.1900\",\r\n      \"rate\": \"-4.18\",\r\n      \"open\": \"1189.5500\",\r\n      \"high\": \"1208.0000\",\r\n      \"low\": \"1123.0500\",\r\n      \"tvol\": \"33416086\",\r\n      \"tamt\": \"38836082001\",\r\n      \"pbid\": \"1147.5000\",\r\n      \"vbid\": \"500\",\r\n      \"pask\": \"1147.8900\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20220103\",\r\n      \"clos\": \"1199.7800\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"143.0000\",\r\n      \"rate\": \"+13.53\",\r\n      \"open\": \"1147.7500\",\r\n      \"high\": \"1201.0700\",\r\n      \"low\": \"1136.0400\",\r\n      \"tvol\": \"34895349\",\r\n      \"tamt\": \"40850633547\",\r\n      \"pbid\": \"1205.0200\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1205.4200\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211231\",\r\n      \"clos\": \"1056.7800\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"13.5600\",\r\n      \"rate\": \"-1.27\",\r\n      \"open\": \"1073.4444\",\r\n      \"high\": \"1081.9999\",\r\n      \"low\": \"1054.5900\",\r\n      \"tvol\": \"13577875\",\r\n      \"tamt\": \"14495135610\",\r\n      \"pbid\": \"1060.0000\",\r\n      \"vbid\": \"900\",\r\n      \"pask\": \"1060.0500\",\r\n      \"vask\": \"400\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211230\",\r\n      \"clos\": \"1070.3400\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"15.8500\",\r\n      \"rate\": \"-1.46\",\r\n      \"open\": \"1061.3300\",\r\n      \"high\": \"1095.5500\",\r\n      \"low\": \"1053.1500\",\r\n      \"tvol\": \"15680313\",\r\n      \"tamt\": \"16895880951\",\r\n      \"pbid\": \"1065.5100\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1066.0000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211229\",\r\n      \"clos\": \"1086.1900\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"2.2800\",\r\n      \"rate\": \"-0.21\",\r\n      \"open\": \"1098.6400\",\r\n      \"high\": \"1104.0000\",\r\n      \"low\": \"1064.1400\",\r\n      \"tvol\": \"18718015\",\r\n      \"tamt\": \"20304732279\",\r\n      \"pbid\": \"1082.6500\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1083.2500\",\r\n      \"vask\": \"400\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211228\",\r\n      \"clos\": \"1088.4700\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"5.4700\",\r\n      \"rate\": \"-0.50\",\r\n      \"open\": \"1109.4900\",\r\n      \"high\": \"1118.9999\",\r\n      \"low\": \"1078.4200\",\r\n      \"tvol\": \"20107969\",\r\n      \"tamt\": \"21985026462\",\r\n      \"pbid\": \"1088.5000\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"1089.2000\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211227\",\r\n      \"clos\": \"1093.9400\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"26.9400\",\r\n      \"rate\": \"+2.52\",\r\n      \"open\": \"1073.6700\",\r\n      \"high\": \"1117.0000\",\r\n      \"low\": \"1070.7152\",\r\n      \"tvol\": \"23715273\",\r\n      \"tamt\": \"26093712075\",\r\n      \"pbid\": \"1095.0000\",\r\n      \"vbid\": \"400\",\r\n      \"pask\": \"1095.5000\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211223\",\r\n      \"clos\": \"1067.0000\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"58.1300\",\r\n      \"rate\": \"+5.76\",\r\n      \"open\": \"1006.8000\",\r\n      \"high\": \"1072.9767\",\r\n      \"low\": \"997.5600\",\r\n      \"tvol\": \"30904429\",\r\n      \"tamt\": \"32322659050\",\r\n      \"pbid\": \"1065.1100\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"1065.3800\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211222\",\r\n      \"clos\": \"1008.8700\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"70.3400\",\r\n      \"rate\": \"+7.49\",\r\n      \"open\": \"965.6600\",\r\n      \"high\": \"1015.6599\",\r\n      \"low\": \"957.0500\",\r\n      \"tvol\": \"31211362\",\r\n      \"tamt\": \"31022952137\",\r\n      \"pbid\": \"1011.5500\",\r\n      \"vbid\": \"400\",\r\n      \"pask\": \"1011.8500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211221\",\r\n      \"clos\": \"938.5300\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"38.5900\",\r\n      \"rate\": \"+4.29\",\r\n      \"open\": \"916.8700\",\r\n      \"high\": \"939.5000\",\r\n      \"low\": \"886.1200\",\r\n      \"tvol\": \"23839305\",\r\n      \"tamt\": \"21840827169\",\r\n      \"pbid\": \"934.5600\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"935.5000\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211220\",\r\n      \"clos\": \"899.9400\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"32.6300\",\r\n      \"rate\": \"-3.50\",\r\n      \"open\": \"910.7000\",\r\n      \"high\": \"921.6884\",\r\n      \"low\": \"893.3900\",\r\n      \"tvol\": \"18826671\",\r\n      \"tamt\": \"17012127943\",\r\n      \"pbid\": \"901.5000\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"902.4400\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211217\",\r\n      \"clos\": \"932.5700\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"5.6500\",\r\n      \"rate\": \"+0.61\",\r\n      \"open\": \"914.7700\",\r\n      \"high\": \"960.6599\",\r\n      \"low\": \"909.0401\",\r\n      \"tvol\": \"33626754\",\r\n      \"tamt\": \"31525298596\",\r\n      \"pbid\": \"934.6000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"935.1200\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211216\",\r\n      \"clos\": \"926.9200\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"49.0700\",\r\n      \"rate\": \"-5.03\",\r\n      \"open\": \"994.5000\",\r\n      \"high\": \"994.9800\",\r\n      \"low\": \"921.8500\",\r\n      \"tvol\": \"27590483\",\r\n      \"tamt\": \"26096160964\",\r\n      \"pbid\": \"926.1000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"926.5000\",\r\n      \"vask\": \"1100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211215\",\r\n      \"clos\": \"975.9900\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"17.4800\",\r\n      \"rate\": \"+1.82\",\r\n      \"open\": \"953.2100\",\r\n      \"high\": \"978.7499\",\r\n      \"low\": \"928.2501\",\r\n      \"tvol\": \"25056410\",\r\n      \"tamt\": \"23881193367\",\r\n      \"pbid\": \"975.9000\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"976.2500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211214\",\r\n      \"clos\": \"958.5100\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"7.9000\",\r\n      \"rate\": \"-0.82\",\r\n      \"open\": \"945.0000\",\r\n      \"high\": \"966.4100\",\r\n      \"low\": \"930.0000\",\r\n      \"tvol\": \"23602090\",\r\n      \"tamt\": \"22364807150\",\r\n      \"pbid\": \"957.1000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"957.6500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211213\",\r\n      \"clos\": \"966.4100\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"50.6200\",\r\n      \"rate\": \"-4.98\",\r\n      \"open\": \"1001.0900\",\r\n      \"high\": \"1005.0000\",\r\n      \"low\": \"951.4200\",\r\n      \"tvol\": \"26198502\",\r\n      \"tamt\": \"25425098410\",\r\n      \"pbid\": \"963.6100\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"964.3600\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211210\",\r\n      \"clos\": \"1017.0300\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"13.2300\",\r\n      \"rate\": \"+1.32\",\r\n      \"open\": \"1008.7500\",\r\n      \"high\": \"1020.9797\",\r\n      \"low\": \"982.5300\",\r\n      \"tvol\": \"19888122\",\r\n      \"tamt\": \"19981816818\",\r\n      \"pbid\": \"1015.0000\",\r\n      \"vbid\": \"900\",\r\n      \"pask\": \"1015.5700\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211209\",\r\n      \"clos\": \"1003.8000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"65.1600\",\r\n      \"rate\": \"-6.10\",\r\n      \"open\": \"1060.6400\",\r\n      \"high\": \"1062.4900\",\r\n      \"low\": \"1002.3600\",\r\n      \"tvol\": \"19812832\",\r\n      \"tamt\": \"20343865631\",\r\n      \"pbid\": \"1005.5000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1006.0000\",\r\n      \"vask\": \"300\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211208\",\r\n      \"clos\": \"1068.9600\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"17.2100\",\r\n      \"rate\": \"+1.64\",\r\n      \"open\": \"1052.7100\",\r\n      \"high\": \"1072.3800\",\r\n      \"low\": \"1033.0001\",\r\n      \"tvol\": \"13968790\",\r\n      \"tamt\": \"14723658662\",\r\n      \"pbid\": \"1067.0000\",\r\n      \"vbid\": \"100\",\r\n      \"pask\": \"1067.9500\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211207\",\r\n      \"clos\": \"1051.7500\",\r\n      \"sign\": \"2\",\r\n      \"diff\": \"42.7400\",\r\n      \"rate\": \"+4.24\",\r\n      \"open\": \"1044.2000\",\r\n      \"high\": \"1057.6739\",\r\n      \"low\": \"1026.8100\",\r\n      \"tvol\": \"18694857\",\r\n      \"tamt\": \"19529382052\",\r\n      \"pbid\": \"1054.6700\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"1054.9000\",\r\n      \"vask\": \"900\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211206\",\r\n      \"clos\": \"1009.0100\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"5.9600\",\r\n      \"rate\": \"-0.59\",\r\n      \"open\": \"1001.5100\",\r\n      \"high\": \"1021.6400\",\r\n      \"low\": \"950.5000\",\r\n      \"tvol\": \"27221037\",\r\n      \"tamt\": \"26964573844\",\r\n      \"pbid\": \"1007.6500\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"1008.1100\",\r\n      \"vask\": \"100\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211203\",\r\n      \"clos\": \"1014.9700\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"69.6300\",\r\n      \"rate\": \"-6.42\",\r\n      \"open\": \"1084.7900\",\r\n      \"high\": \"1090.5753\",\r\n      \"low\": \"1000.2100\",\r\n      \"tvol\": \"30773995\",\r\n      \"tamt\": \"31668617672\",\r\n      \"pbid\": \"1010.2600\",\r\n      \"vbid\": \"200\",\r\n      \"pask\": \"1011.0000\",\r\n      \"vask\": \"200\"\r\n    },\r\n    {\r\n      \"xymd\": \"20211202\",\r\n      \"clos\": \"1084.6000\",\r\n      \"sign\": \"5\",\r\n      \"diff\": \"10.4000\",\r\n      \"rate\": \"-0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

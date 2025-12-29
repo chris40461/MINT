@@ -1,0 +1,686 @@
+{
+  "sheet_name": "해외주식 기간별권리조회",
+  "row_count": 67,
+  "columns": [
+    "해외주식 기간별권리조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 기간별권리조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "메뉴 위치",
+      "Column_1": "[해외주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "API 명",
+      "Column_1": "해외주식 기간별권리조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "API ID",
+      "Column_1": "해외주식-052",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "실전 TR_ID",
+      "Column_1": "CTRGT011R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "URL 명",
+      "Column_1": "/uapi/overseas-price/v1/quotations/period-rights",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "개요",
+      "Column_1": "해외주식 기간별권리조회 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [7520] 기간별해외증권권리조회 화면을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 확정여부가 '예정'으로 표시되는 경우는 권리정보가 변경될 수 있으니 참고자료로만 활용하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTRGT011R",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "Request Query Parameter",
+      "Column_1": "RGHT_TYPE_CD",
+      "Column_2": "권리유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "'%%(전체), 01(유상), 02(무상), 03(배당), 11(합병), \r\n14(액면분할), 15(액면병합), 17(감자), 54(WR청구),\r\n61(원리금상환), 71(WR소멸), 74(배당옵션), 75(특별배당), 76(ISINCODE변경), 77(실권주청약)'",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "INQR_DVSN_CD",
+      "Column_2": "조회구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "02(현지기준일), 03(청약시작일), 04(청약종료일)",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "INQR_STRT_DT",
+      "Column_2": "조회시작일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "INQR_END_DT",
+      "Column_2": "조회종료일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "PRDT_TYPE_CD",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "CTX_AREA_NK50",
+      "Column_2": "연속조회키50",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "50",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "CTX_AREA_FK50",
+      "Column_2": "연속조회검색조건50",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "50",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " array",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "bass_dt",
+      "Column_2": "기준일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "rght_type_cd",
+      "Column_2": "권리유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "std_pdno",
+      "Column_2": "표준상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "acpl_bass_dt",
+      "Column_2": "현지기준일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "sbsc_strt_dt",
+      "Column_2": "청약시작일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "sbsc_end_dt",
+      "Column_2": "청약종료일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "cash_alct_rt",
+      "Column_2": "현금배정비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "191",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "stck_alct_rt",
+      "Column_2": "주식배정비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2012",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "crcy_cd",
+      "Column_2": "통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "crcy_cd2",
+      "Column_2": "통화코드2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "crcy_cd3",
+      "Column_2": "통화코드3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "crcy_cd4",
+      "Column_2": "통화코드4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "alct_frcr_unpr",
+      "Column_2": "배정외화단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "195",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "stkp_dvdn_frcr_amt2",
+      "Column_2": "주당배당외화금액2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "195",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "stkp_dvdn_frcr_amt3",
+      "Column_2": "주당배당외화금액3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "195",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "stkp_dvdn_frcr_amt4",
+      "Column_2": "주당배당외화금액4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "195",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": null,
+      "Column_1": "dfnt_yn",
+      "Column_2": "확정여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "Request Example (Python)",
+      "Column_1": "RGHT_TYPE_CD:%%\r\nINQR_DVSN_CD:02\r\nINQR_STRT_DT:20240417\r\nINQR_END_DT:20240417\r\nPDNO:\r\nPRDT_TYPE_CD:\r\nCTX_AREA_NK50:\r\nCTX_AREA_FK50:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 기간별권리조회": "Response Example",
+      "Column_1": "{\r\n    \"ctx_area_nk50\": \"                                                  \",\r\n    \"ctx_area_fk50\": \"%%!^02!^20240417!^20240417!^!^                    \",\r\n    \"output\": [\r\n        {\r\n            \"bass_dt\": \"20240418\",\r\n            \"rght_type_cd\": \"03\",\r\n            \"pdno\": \"000661\",\r\n            \"prdt_name\": \"[000661]CHANGCHUN HIGH-TECH INDUSTRY (GROUP\",\r\n            \"prdt_type_cd\": \"552\",\r\n            \"std_pdno\": \"CNE0000007J8\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"\",\r\n            \"sbsc_end_dt\": \"\",\r\n            \"cash_alct_rt\": \"450.0000000000\",\r\n            \"stck_alct_rt\": \"0.000000000000\",\r\n            \"crcy_cd\": \"CNY\",\r\n            \"crcy_cd2\": \"\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"4.50000\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240418\",\r\n            \"rght_type_cd\": \"03\",\r\n            \"pdno\": \"AIR\",\r\n            \"prdt_name\": \"AIRBUS GROUP NV\",\r\n            \"prdt_type_cd\": \"542\",\r\n            \"std_pdno\": \"NL0000235190\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"\",\r\n            \"sbsc_end_dt\": \"\",\r\n            \"cash_alct_rt\": \"180.0000000000\",\r\n            \"stck_alct_rt\": \"0.000000000000\",\r\n            \"crcy_cd\": \"EUR\",\r\n            \"crcy_cd2\": \"\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"1.80000\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240418\",\r\n            \"rght_type_cd\": \"03\",\r\n            \"pdno\": \"GYLD\",\r\n            \"prdt_name\": \"ARROW ETF TR ARROW DOW JONES GLOBAL YIELD ETF\",\r\n            \"prdt_type_cd\": \"513\",\r\n            \"std_pdno\": \"US04273H1041\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"\",\r\n            \"sbsc_end_dt\": \"\",\r\n            \"cash_alct_rt\": \"12.6000000000\",\r\n            \"stck_alct_rt\": \"0.000000000000\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"crcy_cd2\": \"\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"0.12600\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240418\",\r\n            \"rght_type_cd\": \"03\",\r\n            \"pdno\": \"NORAM\",\r\n            \"prdt_name\": \"NORAM DRILLING\",\r\n            \"prdt_type_cd\": \"525\",\r\n            \"std_pdno\": \"NO0010360019\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"\",\r\n            \"sbsc_end_dt\": \"\",\r\n            \"cash_alct_rt\": \"43.8000000000\",\r\n            \"stck_alct_rt\": \"0.000000000000\",\r\n            \"crcy_cd\": \"NOK\",\r\n            \"crcy_cd2\": \"\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"0.43800\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240418\",\r\n            \"rght_type_cd\": \"15\",\r\n            \"pdno\": \"BENF\",\r\n            \"prdt_name\": \"BENEFICIENT\",\r\n            \"prdt_type_cd\": \"512\",\r\n            \"std_pdno\": \"US08178Q3092\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"\",\r\n            \"sbsc_end_dt\": \"\",\r\n            \"cash_alct_rt\": \"0.0000000000\",\r\n            \"stck_alct_rt\": \"1.250000000000\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"crcy_cd2\": \"\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240418\",\r\n            \"rght_type_cd\": \"15\",\r\n            \"pdno\": \"NCNA\",\r\n            \"prdt_name\": \"NUCANA PLC SPON ADR EACH REP 25 ORD SHS(POST SPLIT)\",\r\n            \"prdt_type_cd\": \"512\",\r\n            \"std_pdno\": \"US67022C2052\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"\",\r\n            \"sbsc_end_dt\": \"\",\r\n            \"cash_alct_rt\": \"0.0000000000\",\r\n            \"stck_alct_rt\": \"4.000000000000\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"crcy_cd2\": \"\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240415\",\r\n            \"rght_type_cd\": \"54\",\r\n            \"pdno\": \"WWRSF\",\r\n            \"prdt_name\": \"RIVERNORTH CAPITAL AND INCM FD INC\",\r\n            \"prdt_type_cd\": \"513\",\r\n            \"std_pdno\": \"USX589013472\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"20240415\",\r\n            \"sbsc_end_dt\": \"20240417\",\r\n            \"cash_alct_rt\": \"0.0000000000\",\r\n            \"stck_alct_rt\": \"33.333340000000\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"crcy_cd2\": \"\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"15.28000\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240411\",\r\n            \"rght_type_cd\": \"74\",\r\n            \"pdno\": \"FTF\",\r\n            \"prdt_name\": \"FRANKLIN LIMITED DURATION INCOME TR\",\r\n            \"prdt_type_cd\": \"529\",\r\n            \"std_pdno\": \"US35472T1016\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"20240411\",\r\n            \"sbsc_end_dt\": \"20240416\",\r\n            \"cash_alct_rt\": \"0.0000000000\",\r\n            \"stck_alct_rt\": \"0.000000000000\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"crcy_cd2\": \"USD\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240411\",\r\n            \"rght_type_cd\": \"74\",\r\n            \"pdno\": \"TEI\",\r\n            \"prdt_name\": \"TEMPLETON EMERGING MARKETS INC FD\",\r\n            \"prdt_type_cd\": \"513\",\r\n            \"std_pdno\": \"US8801921094\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"20240411\",\r\n            \"sbsc_end_dt\": \"20240416\",\r\n            \"cash_alct_rt\": \"0.0000000000\",\r\n            \"stck_alct_rt\": \"0.000000000000\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"crcy_cd2\": \"USD\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        },\r\n        {\r\n            \"bass_dt\": \"20240418\",\r\n            \"rght_type_cd\": \"75\",\r\n            \"pdno\": \"AIR\",\r\n            \"prdt_name\": \"AIRBUS GROUP NV\",\r\n            \"prdt_type_cd\": \"542\",\r\n            \"std_pdno\": \"NL0000235190\",\r\n            \"acpl_bass_dt\": \"20240417\",\r\n            \"sbsc_strt_dt\": \"\",\r\n            \"sbsc_end_dt\": \"\",\r\n            \"cash_alct_rt\": \"100.0000000000\",\r\n            \"stck_alct_rt\": \"0.000000000000\",\r\n            \"crcy_cd\": \"EUR\",\r\n            \"crcy_cd2\": \"\",\r\n            \"crcy_cd3\": \"\",\r\n            \"crcy_cd4\": \"\",\r\n            \"alct_frcr_unpr\": \"1.00000\",\r\n            \"stkp_dvdn_frcr_amt2\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt3\": \"0.00000\",\r\n            \"stkp_dvdn_frcr_amt4\": \"0.00000\",\r\n            \"dfnt_yn\": \"Y\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0460\",\r\n    \"msg1\": \"조회 되었습니다. (마지막 자료)                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

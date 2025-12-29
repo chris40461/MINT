@@ -1,0 +1,596 @@
+{
+  "sheet_name": "매수가능조회",
+  "row_count": 58,
+  "columns": [
+    "매수가능조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "매수가능조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "메뉴 위치",
+      "Column_1": "[국내주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "API 명",
+      "Column_1": "매수가능조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "API ID",
+      "Column_1": "v1_국내주식-007",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "실전 TR_ID",
+      "Column_1": "TTTC8908R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "모의 TR_ID",
+      "Column_1": "VTTC8908R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/trading/inquire-psbl-order",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "개요",
+      "Column_1": "매수가능 조회 API입니다. \r\n실전계좌/모의계좌의 경우, 한 번의 호출에 최대 1건까지 확인 가능합니다.\r\n\r\n\r\n1) 매수가능금액 확인\r\n . 미수 사용 X: nrcvb_buy_amt(미수없는매수금액) 확인\r\n . 미수 사용 O: max_buy_amt(최대매수금액) 확인\r\n\r\n\r\n2) 매수가능수량 확인\r\n . 특정 종목 전량매수 시 가능수량을 확인하실 경우 ORD_DVSN:00(지정가)는 종목증거금율이 반영되지 않습니다. \r\n   따라서 \"반드시\" ORD_DVSN:01(시장가)로 지정하여 종목증거금율이 반영된 가능수량을 확인하시기 바랍니다. \r\n\r\n   (다만, 조건부지정가 등 특정 주문구분(ex.IOC)으로 주문 시 가능수량을 확인할 경우 주문 시와 동일한 주문구분(ex.IOC) 입력하여 가능수량 확인)\r\n\r\n . 미수 사용 X: ORD_DVSN:01(시장가) or 특정 주문구분(ex.IOC)로 지정하여 nrcvb_buy_qty(미수없는매수수량) 확인\r\n . 미수 사용 O: ORD_DVSN:01(시장가) or 특정 주문구분(ex.IOC)로 지정하여 max_buy_qty(최대매수수량) 확인",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token\r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용)\r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자]\r\nTTTC8908R : 매수 가능 조회\r\n\r\n[모의투자]\r\nVTTC8908R : 매수 가능 조회",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인\r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호\r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목번호(6자리)\r\n* PDNO, ORD_UNPR 공란 입력 시, 매수수량 없이 매수금액만 조회됨",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ORD_UNPR",
+      "Column_2": "주문단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "1주당 가격\r\n* 시장가(ORD_DVSN:01)로 조회 시, 공란으로 입력\r\n* PDNO, ORD_UNPR 공란 입력 시, 매수수량 없이 매수금액만 조회됨",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ORD_DVSN",
+      "Column_2": "주문구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "* 특정 종목 전량매수 시 가능수량을 확인할 경우\r\n    00:지정가는 증거금율이 반영되지 않으므로\r\n    증거금율이 반영되는 01: 시장가로 조회\r\n* 다만, 조건부지정가 등 특정 주문구분(ex.IOC)으로 주문 시 가능수량을 확인할 경우 주문 시와 동일한 주문구분(ex.IOC) 입력하여 가능수량 확인\r\n* 종목별 매수가능수량 조회 없이 매수금액만 조회하고자 할 경우 임의값(00) 입력\r\n00 : 지정가\r\n01 : 시장가\r\n02 : 조건부지정가\r\n03 : 최유리지정가\r\n04 : 최우선지정가\r\n05 : 장전 시간외\r\n06 : 장후 시간외\r\n07 : 시간외 단일가\r\n08 : 자기주식\r\n09 : 자기주식S-Option\r\n10 : 자기주식금전신탁\r\n11 : IOC지정가 (즉시체결,잔량취소)\r\n12 : FOK지정가 (즉시체결,전량취소)\r\n13 : IOC시장가 (즉시체결,잔량취소)\r\n14 : FOK시장가 (즉시체결,전량취소)\r\n15 : IOC최유리 (즉시체결,잔량취소)\r\n16 : FOK최유리 (즉시체결,전량취소)\r\n51 : 장중대량\r\n52 : 장중바스켓\r\n62 : 장개시전 시간외대량\r\n63 : 장개시전 시간외바스켓\r\n67 : 장개시전 금전신탁자사주\r\n69 : 장개시전 자기주식\r\n72 : 시간외대량\r\n77 : 시간외자사주신탁\r\n79 : 시간외대량자기주식\r\n80 : 바스켓",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "CMA_EVLU_AMT_ICLD_YN",
+      "Column_2": "CMA평가금액포함여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "Y : 포함\r\nN : 포함하지 않음",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "OVRS_ICLD_YN",
+      "Column_2": "해외포함여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "Y : 포함\r\nN : 포함하지 않음",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공\r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "응답코드",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "응답메세지",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "Single",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ord_psbl_cash",
+      "Column_2": "주문가능현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "예수금으로 계산된 주문가능금액",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ord_psbl_sbst",
+      "Column_2": "주문가능대용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ruse_psbl_amt",
+      "Column_2": "재사용가능금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "전일/금일 매도대금으로 계산된 주문가능금액",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "fund_rpch_chgs",
+      "Column_2": "펀드환매대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "psbl_qty_calc_unpr",
+      "Column_2": "가능수량계산단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "nrcvb_buy_amt",
+      "Column_2": "미수없는매수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "미수를 사용하지 않으실 경우 nrcvb_buy_amt(미수없는매수금액)을 확인",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "nrcvb_buy_qty",
+      "Column_2": "미수없는매수수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "미수를 사용하지 않으실 경우 nrcvb_buy_qty(미수없는매수수량)을 확인\r\n\r\n* 특정 종목 전량매수 시 가능수량을 확인하실 경우\r\n  조회 시 ORD_DVSN:01(시장가)로 지정 필수\r\n* 다만, 조건부지정가 등 특정 주문구분(ex.IOC)으로 주문 시 가능수량을 확인할 경우 주문 시와 동일한 주문구분(ex.IOC) 입력",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "max_buy_amt",
+      "Column_2": "최대매수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "미수를 사용하시는 경우 max_buy_amt(최대매수금액)를 확인",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "max_buy_qty",
+      "Column_2": "최대매수수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "미수를 사용하시는 경우 max_buy_qty(최대매수수량)를 확인\r\n\r\n* 특정 종목 전량매수 시 가능수량을 확인하실 경우\r\n  조회 시 ORD_DVSN:01(시장가)로 지정 필수\r\n* 다만, 조건부지정가 등 특정 주문구분(ex.IOC)으로 주문 시 가능수량을 확인할 경우 주문 시와 동일한 주문구분(ex.IOC) 입력",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "cma_evlu_amt",
+      "Column_2": "CMA평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ovrs_re_use_amt_wcrc",
+      "Column_2": "해외재사용금액원화",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": null,
+      "Column_1": "ord_psbl_frcr_amt_wcrc",
+      "Column_2": "주문가능외화금액원화",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\": \"810XXXXX\",\r\n\t\"ACNT_PRDT_CD\": \"01\",\r\n\t\"PDNO\": \"005930\",\r\n\t\"ORD_UNPR\": \"0\",\r\n\t\"ORD_DVSN\": \"01\",\r\n\t\"CMA_EVLU_AMT_ICLD_YN\": \"N\",\r\n\t\"OVRS_ICLD_YN\": \"N\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "매수가능조회": "Response Example",
+      "Column_1": "{\r\n  \"output\": {\r\n    \"ord_psbl_cash\": \"741191178\",\r\n    \"ord_psbl_sbst\": \"0\",\r\n    \"ruse_psbl_amt\": \"0\",\r\n    \"fund_rpch_chgs\": \"0\",\r\n    \"psbl_qty_calc_unpr\": \"70000\",\r\n    \"nrcvb_buy_amt\": \"107177377\",\r\n    \"nrcvb_buy_qty\": \"1531\",\r\n    \"max_buy_amt\": \"1482382356\",\r\n    \"max_buy_qty\": \"21176\",\r\n    \"cma_evlu_amt\": \"0\",\r\n    \"ovrs_re_use_amt_wcrc\": \"0\",\r\n    \"ord_psbl_frcr_amt_wcrc\": \"1468797045293\"\r\n  },\r\n  \"rt_cd\": \"0\",\r\n  \"msg_cd\": \"KIOK0510\",\r\n  \"msg1\": \"조회가 완료되었습니다                                                           \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

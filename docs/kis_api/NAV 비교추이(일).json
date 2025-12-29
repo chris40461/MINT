@@ -1,0 +1,576 @@
+{
+  "sheet_name": "NAV 비교추이(일)",
+  "row_count": 56,
+  "columns": [
+    "NAV 비교추이(일)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "NAV 비교추이(일)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "메뉴 위치",
+      "Column_1": "[국내주식] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "API 명",
+      "Column_1": "NAV 비교추이(일)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "API ID",
+      "Column_1": "v1_국내주식-071",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "실전 TR_ID",
+      "Column_1": "FHPST02440200",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "실전 Domain",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "모의 Domain",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "URL 명",
+      "Column_1": "/uapi/etfetn/v1/quotations/nav-comparison-daily-trend",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "개요",
+      "Column_1": "NAV 비교추이(일) API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0244] ETF/ETN 비교추이(NAV/IIV) 좌측 화면 \"일별\" 비교추이 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n실전계좌의 경우, 한 번의 호출에 최대 100건까지 확인 가능합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST02440200",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "Request Query Parameter",
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "FID 조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J 입력",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "fid_input_iscd",
+      "Column_2": "FID 입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드 (6자리)",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "fid_input_date_1",
+      "Column_2": "FID 입력 날짜1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "조회 시작일자 (ex. 20240101)",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "fid_input_date_2",
+      "Column_2": "FID 입력 날짜2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "조회 종료일자 (ex. 20240220)",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식 영업 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "stck_clpr",
+      "Column_2": "주식 종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "cntg_vol",
+      "Column_2": "체결 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "dprt",
+      "Column_2": "괴리율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "nav_vrss_prpr",
+      "Column_2": "NAV 대비 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "nav",
+      "Column_2": "NAV",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "nav_prdy_vrss_sign",
+      "Column_2": "NAV 전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "nav_prdy_vrss",
+      "Column_2": "NAV 전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": null,
+      "Column_1": "nav_prdy_ctrt",
+      "Column_2": "NAV 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_input_iscd\":\"069500\",\r\n\"fid_input_date_1\":\"20240101\",\r\n\"fid_input_date_2\":\"20240220\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "NAV 비교추이(일)": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240220\",\r\n            \"stck_clpr\": \"35875\",\r\n            \"prdy_vrss\": \"-425\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.17\",\r\n            \"acml_vol\": \"6441149\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.21\",\r\n            \"nav_vrss_prpr\": \"-77.09\",\r\n            \"nav\": \"35952.09\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-400.32\",\r\n            \"nav_prdy_ctrt\": \"-1.10\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240219\",\r\n            \"stck_clpr\": \"36300\",\r\n            \"prdy_vrss\": \"560\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.57\",\r\n            \"acml_vol\": \"6673013\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.14\",\r\n            \"nav_vrss_prpr\": \"-52.41\",\r\n            \"nav\": \"36352.41\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"536.42\",\r\n            \"nav_prdy_ctrt\": \"1.50\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240216\",\r\n            \"stck_clpr\": \"35740\",\r\n            \"prdy_vrss\": \"355\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.00\",\r\n            \"acml_vol\": \"7035777\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.21\",\r\n            \"nav_vrss_prpr\": \"-75.99\",\r\n            \"nav\": \"35815.99\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"432.75\",\r\n            \"nav_prdy_ctrt\": \"1.22\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240215\",\r\n            \"stck_clpr\": \"35385\",\r\n            \"prdy_vrss\": \"-50\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.14\",\r\n            \"acml_vol\": \"6137814\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.00\",\r\n            \"nav_vrss_prpr\": \"1.76\",\r\n            \"nav\": \"35383.24\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-147.98\",\r\n            \"nav_prdy_ctrt\": \"-0.42\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240214\",\r\n            \"stck_clpr\": \"35435\",\r\n            \"prdy_vrss\": \"-490\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.36\",\r\n            \"acml_vol\": \"7163970\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.27\",\r\n            \"nav_vrss_prpr\": \"-96.22\",\r\n            \"nav\": \"35531.22\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-468.25\",\r\n            \"nav_prdy_ctrt\": \"-1.30\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240213\",\r\n            \"stck_clpr\": \"35925\",\r\n            \"prdy_vrss\": \"435\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.23\",\r\n            \"acml_vol\": \"6108254\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.21\",\r\n            \"nav_vrss_prpr\": \"-74.47\",\r\n            \"nav\": \"35999.47\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"407.86\",\r\n            \"nav_prdy_ctrt\": \"1.15\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240208\",\r\n            \"stck_clpr\": \"35490\",\r\n            \"prdy_vrss\": \"40\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.11\",\r\n            \"acml_vol\": \"6259742\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.29\",\r\n            \"nav_vrss_prpr\": \"-101.61\",\r\n            \"nav\": \"35591.61\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"109.10\",\r\n            \"nav_prdy_ctrt\": \"0.31\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240207\",\r\n            \"stck_clpr\": \"35450\",\r\n            \"prdy_vrss\": \"495\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.42\",\r\n            \"acml_vol\": \"7548365\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.09\",\r\n            \"nav_vrss_prpr\": \"-32.51\",\r\n            \"nav\": \"35482.51\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"447.69\",\r\n            \"nav_prdy_ctrt\": \"1.28\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240206\",\r\n            \"stck_clpr\": \"34955\",\r\n            \"prdy_vrss\": \"-135\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.38\",\r\n            \"acml_vol\": \"9454374\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.23\",\r\n            \"nav_vrss_prpr\": \"-79.82\",\r\n            \"nav\": \"35034.82\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-140.20\",\r\n            \"nav_prdy_ctrt\": \"-0.40\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240205\",\r\n            \"stck_clpr\": \"35090\",\r\n            \"prdy_vrss\": \"-430\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.21\",\r\n            \"acml_vol\": \"11378063\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.24\",\r\n            \"nav_vrss_prpr\": \"-85.02\",\r\n            \"nav\": \"35175.02\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-427.65\",\r\n            \"nav_prdy_ctrt\": \"-1.20\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240202\",\r\n            \"stck_clpr\": \"35520\",\r\n            \"prdy_vrss\": \"1110\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"3.23\",\r\n            \"acml_vol\": \"11476191\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.23\",\r\n            \"nav_vrss_prpr\": \"-82.67\",\r\n            \"nav\": \"35602.67\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"1106.53\",\r\n            \"nav_prdy_ctrt\": \"3.21\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240201\",\r\n            \"stck_clpr\": \"34410\",\r\n            \"prdy_vrss\": \"580\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.71\",\r\n            \"acml_vol\": \"7021653\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.25\",\r\n            \"nav_vrss_prpr\": \"-86.14\",\r\n            \"nav\": \"34496.14\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"608.63\",\r\n            \"nav_prdy_ctrt\": \"1.80\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240131\",\r\n            \"stck_clpr\": \"33830\",\r\n            \"prdy_vrss\": \"-165\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.49\",\r\n            \"acml_vol\": \"8485416\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.17\",\r\n            \"nav_vrss_prpr\": \"-57.51\",\r\n            \"nav\": \"33887.51\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-124.46\",\r\n            \"nav_prdy_ctrt\": \"-0.37\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240130\",\r\n            \"stck_clpr\": \"33995\",\r\n            \"prdy_vrss\": \"-60\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.18\",\r\n            \"acml_vol\": \"7939707\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.05\",\r\n            \"nav_vrss_prpr\": \"-16.97\",\r\n            \"nav\": \"34011.97\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-38.87\",\r\n            \"nav_prdy_ctrt\": \"-0.11\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_clpr\": \"34054\",\r\n            \"prdy_vrss\": \"398\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.19\",\r\n            \"acml_vol\": \"4283579\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.29\",\r\n            \"nav_vrss_prpr\": \"3.16\",\r\n            \"nav\": \"34050.84\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"267.74\",\r\n            \"nav_prdy_ctrt\": \"0.79\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_clpr\": \"33656\",\r\n            \"prdy_vrss\": \"59\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.18\",\r\n            \"acml_vol\": \"4543490\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.10\",\r\n            \"nav_vrss_prpr\": \"-127.10\",\r\n            \"nav\": \"33783.10\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"42.30\",\r\n            \"nav_prdy_ctrt\": \"0.13\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240125\",\r\n            \"stck_clpr\": \"33596\",\r\n            \"prdy_vrss\": \"39\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.12\",\r\n            \"acml_vol\": \"7370595\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.15\",\r\n            \"nav_vrss_prpr\": \"-144.80\",\r\n            \"nav\": \"33740.80\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"52.50\",\r\n            \"nav_prdy_ctrt\": \"0.16\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240124\",\r\n            \"stck_clpr\": \"33556\",\r\n            \"prdy_vrss\": \"-129\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.38\",\r\n            \"acml_vol\": \"5469085\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.11\",\r\n            \"nav_vrss_prpr\": \"-132.30\",\r\n            \"nav\": \"33688.30\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-167.19\",\r\n            \"nav_prdy_ctrt\": \"-0.49\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240123\",\r\n            \"stck_clpr\": \"33686\",\r\n            \"prdy_vrss\": \"174\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.52\",\r\n            \"acml_vol\": \"4518601\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.22\",\r\n            \"nav_vrss_prpr\": \"-169.49\",\r\n            \"nav\": \"33855.49\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"232.50\",\r\n            \"nav_prdy_ctrt\": \"0.69\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240122\",\r\n            \"stck_clpr\": \"33511\",\r\n            \"prdy_vrss\": \"34\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.10\",\r\n            \"acml_vol\": \"6779930\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.05\",\r\n            \"nav_vrss_prpr\": \"-111.99\",\r\n            \"nav\": \"33622.99\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-33.56\",\r\n            \"nav_prdy_ctrt\": \"-0.10\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240119\",\r\n            \"stck_clpr\": \"33476\",\r\n            \"prdy_vrss\": \"493\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.50\",\r\n            \"acml_vol\": \"8228124\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.26\",\r\n            \"nav_vrss_prpr\": \"-180.55\",\r\n            \"nav\": \"33656.55\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"585.07\",\r\n            \"nav_prdy_ctrt\": \"1.77\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240118\",\r\n            \"stck_clpr\": \"32982\",\r\n            \"prdy_vrss\": \"154\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.47\",\r\n            \"acml_vol\": \"13010124\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.01\",\r\n            \"nav_vrss_prpr\": \"-89.48\",\r\n            \"nav\": \"33071.48\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"102.06\",\r\n            \"nav_prdy_ctrt\": \"0.31\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240117\",\r\n            \"stck_clpr\": \"32828\",\r\n            \"prdy_vrss\": \"-822\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-2.44\",\r\n            \"acml_vol\": \"13805092\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.15\",\r\n            \"nav_vrss_prpr\": \"-141.42\",\r\n            \"nav\": \"32969.42\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-864.88\",\r\n            \"nav_prdy_ctrt\": \"-2.56\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240116\",\r\n            \"stck_clpr\": \"33651\",\r\n            \"prdy_vrss\": \"-468\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.37\",\r\n            \"acml_vol\": \"6009593\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.26\",\r\n            \"nav_vrss_prpr\": \"-183.30\",\r\n            \"nav\": \"33834.30\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-452.30\",\r\n            \"nav_prdy_ctrt\": \"-1.32\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240115\",\r\n            \"stck_clpr\": \"34119\",\r\n            \"prdy_vrss\": \"144\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.43\",\r\n            \"acml_vol\": \"6335725\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.21\",\r\n            \"nav_vrss_prpr\": \"-167.60\",\r\n            \"nav\": \"34286.60\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"102.68\",\r\n            \"nav_prdy_ctrt\": \"0.30\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240112\",\r\n            \"stck_clpr\": \"33975\",\r\n            \"prdy_vrss\": \"-329\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.96\",\r\n            \"acml_vol\": \"8112877\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.33\",\r\n            \"nav_vrss_prpr\": \"-208.92\",\r\n            \"nav\": \"34183.92\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-209.94\",\r\n            \"nav_prdy_ctrt\": \"-0.61\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240111\",\r\n            \"stck_clpr\": \"34304\",\r\n            \"prdy_vrss\": \"54\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.16\",\r\n            \"acml_vol\": \"5419064\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.02\",\r\n            \"nav_vrss_prpr\": \"-89.86\",\r\n            \"nav\": \"34393.86\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-36.03\",\r\n            \"nav_prdy_ctrt\": \"-0.10\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240110\",\r\n            \"stck_clpr\": \"34249\",\r\n            \"prdy_vrss\": \"-378\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.09\",\r\n            \"acml_vol\": \"4018306\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.25\",\r\n            \"nav_vrss_prpr\": \"-180.89\",\r\n            \"nav\": \"34429.89\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-317.89\",\r\n            \"nav_prdy_ctrt\": \"-0.91\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240109\",\r\n            \"stck_clpr\": \"34628\",\r\n            \"prdy_vrss\": \"-129\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.37\",\r\n            \"acml_vol\": \"7533350\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.07\",\r\n            \"nav_vrss_prpr\": \"-119.78\",\r\n            \"nav\": \"34747.78\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-174.39\",\r\n            \"nav_prdy_ctrt\": \"-0.50\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240108\",\r\n            \"stck_clpr\": \"34758\",\r\n            \"prdy_vrss\": \"-114\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.33\",\r\n            \"acml_vol\": \"5377681\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.19\",\r\n            \"nav_vrss_prpr\": \"-164.17\",\r\n            \"nav\": \"34922.17\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-164.17\",\r\n            \"nav_prdy_ctrt\": \"-0.47\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240105\",\r\n            \"stck_clpr\": \"34872\",\r\n            \"prdy_vrss\": \"-99\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.29\",\r\n            \"acml_vol\": \"6681806\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.33\",\r\n            \"nav_vrss_prpr\": \"-214.34\",\r\n            \"nav\": \"35086.34\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-85.10\",\r\n            \"nav_prdy_ctrt\": \"-0.24\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240104\",\r\n            \"stck_clpr\": \"34972\",\r\n            \"prdy_vrss\": \"-309\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.88\",\r\n            \"acml_vol\": \"8904699\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.29\",\r\n            \"nav_vrss_prpr\": \"-199.44\",\r\n            \"nav\": \"35171.44\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-315.36\",\r\n            \"nav_prdy_ctrt\": \"-0.89\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240103\",\r\n            \"stck_clpr\": \"35281\",\r\n            \"prdy_vrss\": \"-1007\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-2.78\",\r\n            \"acml_vol\": \"8122576\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.30\",\r\n            \"nav_vrss_prpr\": \"-205.80\",\r\n            \"nav\": \"35486.80\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-936.81\",\r\n            \"nav_prdy_ctrt\": \"-2.57\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240102\",\r\n            \"stck_clpr\": \"36288\",\r\n            \"prdy_vrss\": \"219\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.61\",\r\n            \"acml_vol\": \"7440266\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.09\",\r\n            \"nav_vrss_prpr\": \"-135.61\",\r\n            \"nav\": \"36423.61\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"253.99\",\r\n            \"nav_prdy_ctrt\": \"0.70\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231228\",\r\n            \"stck_clpr\": \"36069\",\r\n            \"prdy_vrss\": \"583\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.64\",\r\n            \"acml_vol\": \"10612352\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.00\",\r\n            \"nav_vrss_prpr\": \"-100.62\",\r\n            \"nav\": \"36169.62\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"557.43\",\r\n            \"nav_prdy_ctrt\": \"1.57\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231227\",\r\n            \"stck_clpr\": \"35486\",\r\n            \"prdy_vrss\": \"388\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.11\",\r\n            \"acml_vol\": \"10990385\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.08\",\r\n            \"nav_vrss_prpr\": \"-126.19\",\r\n            \"nav\": \"35612.19\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"443.80\",\r\n            \"nav_prdy_ctrt\": \"1.26\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231226\",\r\n            \"stck_clpr\": \"35097\",\r\n            \"prdy_vrss\": \"144\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"2674516\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.08\",\r\n            \"nav_vrss_prpr\": \"-71.39\",\r\n            \"nav\": \"35168.39\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"126.07\",\r\n            \"nav_prdy_ctrt\": \"0.36\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231222\",\r\n            \"stck_clpr\": \"34952\",\r\n            \"prdy_vrss\": \"109\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.31\",\r\n            \"acml_vol\": \"3164234\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.02\",\r\n            \"nav_vrss_prpr\": \"-90.32\",\r\n            \"nav\": \"35042.32\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"37.36\",\r\n            \"nav_prdy_ctrt\": \"0.11\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231221\",\r\n            \"stck_clpr\": \"34842\",\r\n            \"prdy_vrss\": \"-229\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.65\",\r\n            \"acml_vol\": \"6328185\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.19\",\r\n            \"nav_vrss_prpr\": \"-162.96\",\r\n            \"nav\": \"35004.96\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-132.38\",\r\n            \"nav_prdy_ctrt\": \"-0.38\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231220\",\r\n            \"stck_clpr\": \"35072\",\r\n            \"prdy_vrss\": \"663\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.93\",\r\n            \"acml_vol\": \"9429470\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.09\",\r\n            \"nav_vrss_prpr\": \"-65.34\",\r\n            \"nav\": \"35137.34\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"618.66\",\r\n            \"nav_prdy_ctrt\": \"1.79\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231219\",\r\n            \"stck_clpr\": \"34409\",\r\n            \"prdy_vrss\": \"29\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.09\",\r\n            \"acml_vol\": \"5026536\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.04\",\r\n            \"nav_vrss_prpr\": \"-109.68\",\r\n            \"nav\": \"34518.68\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"44.10\",\r\n            \"nav_prdy_ctrt\": \"0.13\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231218\",\r\n            \"stck_clpr\": \"34379\",\r\n            \"prdy_vrss\": \"109\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.32\",\r\n            \"acml_vol\": \"4144760\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.00\",\r\n            \"nav_vrss_prpr\": \"-95.58\",\r\n            \"nav\": \"34474.58\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-48.04\",\r\n            \"nav_prdy_ctrt\": \"-0.14\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231215\",\r\n            \"stck_clpr\": \"34269\",\r\n            \"prdy_vrss\": \"194\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.57\",\r\n            \"acml_vol\": \"6278790\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.46\",\r\n            \"nav_vrss_prpr\": \"-253.62\",\r\n            \"nav\": \"34522.62\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"267.35\",\r\n            \"nav_prdy_ctrt\": \"0.78\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231214\",\r\n            \"stck_clpr\": \"34074\",\r\n            \"prdy_vrss\": \"408\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.21\",\r\n            \"acml_vol\": \"8817261\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.25\",\r\n            \"nav_vrss_prpr\": \"-181.27\",\r\n            \"nav\": \"34255.27\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"463.50\",\r\n            \"nav_prdy_ctrt\": \"1.37\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231213\",\r\n            \"stck_clpr\": \"33666\",\r\n            \"prdy_vrss\": \"-329\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.97\",\r\n            \"acml_vol\": \"3999100\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.09\",\r\n            \"nav_vrss_prpr\": \"-125.77\",\r\n            \"nav\": \"33791.77\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-309.47\",\r\n            \"nav_prdy_ctrt\": \"-0.91\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231212\",\r\n            \"stck_clpr\": \"33995\",\r\n            \"prdy_vrss\": \"139\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"11182364\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.03\",\r\n            \"nav_vrss_prpr\": \"-106.24\",\r\n            \"nav\": \"34101.24\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"186.45\",\r\n            \"nav_prdy_ctrt\": \"0.55\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231211\",\r\n            \"stck_clpr\": \"33855\",\r\n            \"prdy_vrss\": \"114\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.34\",\r\n            \"acml_vol\": \"7051429\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.10\",\r\n            \"nav_vrss_prpr\": \"-59.79\",\r\n            \"nav\": \"33914.79\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"133.04\",\r\n            \"nav_prdy_ctrt\": \"0.39\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231208\",\r\n            \"stck_clpr\": \"33740\",\r\n            \"prdy_vrss\": \"483\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.45\",\r\n            \"acml_vol\": \"8622554\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.16\",\r\n            \"nav_vrss_prpr\": \"-41.75\",\r\n            \"nav\": \"33781.75\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"393.25\",\r\n            \"nav_prdy_ctrt\": \"1.18\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231207\",\r\n            \"stck_clpr\": \"33257\",\r\n            \"prdy_vrss\": \"-129\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.39\",\r\n            \"acml_vol\": \"9708274\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.12\",\r\n            \"nav_vrss_prpr\": \"-131.50\",\r\n            \"nav\": \"33388.50\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-80.08\",\r\n            \"nav_prdy_ctrt\": \"-0.24\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231206\",\r\n            \"stck_clpr\": \"33386\",\r\n            \"prdy_vrss\": \"109\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.33\",\r\n            \"acml_vol\": \"7842575\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.03\",\r\n            \"nav_vrss_prpr\": \"-82.58\",\r\n            \"nav\": \"33468.58\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"60.53\",\r\n            \"nav_prdy_ctrt\": \"0.18\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231205\",\r\n            \"stck_clpr\": \"33277\",\r\n            \"prdy_vrss\": \"-368\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.10\",\r\n            \"acml_vol\": \"4362025\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.11\",\r\n            \"nav_vrss_prpr\": \"-131.05\",\r\n            \"nav\": \"33408.05\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-331.44\",\r\n            \"nav_prdy_ctrt\": \"-0.98\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231204\",\r\n            \"stck_clpr\": \"33646\",\r\n            \"prdy_vrss\": \"169\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.51\",\r\n            \"acml_vol\": \"6753956\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.00\",\r\n            \"nav_vrss_prpr\": \"-93.49\",\r\n            \"nav\": \"33739.49\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"134.45\",\r\n            \"nav_prdy_ctrt\": \"0.40\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231201\",\r\n            \"stck_clpr\": \"33476\",\r\n            \"prdy_vrss\": \"-383\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.13\",\r\n            \"acml_vol\": \"5002078\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.10\",\r\n            \"nav_vrss_prpr\": \"-129.04\",\r\n            \"nav\": \"33605.04\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-363.63\",\r\n            \"nav_prdy_ctrt\": \"-1.07\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231130\",\r\n            \"stck_clpr\": \"33860\",\r\n            \"prdy_vrss\": \"194\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.58\",\r\n            \"acml_vol\": \"6853984\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.04\",\r\n            \"nav_vrss_prpr\": \"-108.67\",\r\n            \"nav\": \"33968.67\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"181.26\",\r\n            \"nav_prdy_ctrt\": \"0.54\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231129\",\r\n            \"stck_clpr\": \"33666\",\r\n            \"prdy_vrss\": \"-109\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.32\",\r\n            \"acml_vol\": \"3321521\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.08\",\r\n            \"nav_vrss_prpr\": \"-121.41\",\r\n            \"nav\": \"33787.41\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-90.00\",\r\n            \"nav_prdy_ctrt\": \"-0.27\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231128\",\r\n            \"stck_clpr\": \"33775\",\r\n            \"prdy_vrss\": \"383\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.15\",\r\n            \"acml_vol\": \"4282814\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.02\",\r\n            \"nav_vrss_prpr\": \"-102.41\",\r\n            \"nav\": \"33877.41\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"385.31\",\r\n            \"nav_prdy_ctrt\": \"1.15\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231127\",\r\n            \"stck_clpr\": \"33391\",\r\n            \"prdy_vrss\": \"-39\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.12\",\r\n            \"acml_vol\": \"4330338\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.02\",\r\n            \"nav_vrss_prpr\": \"-101.10\",\r\n            \"nav\": \"33492.10\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-33.37\",\r\n            \"nav_prdy_ctrt\": \"-0.10\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231124\",\r\n            \"stck_clpr\": \"33431\",\r\n            \"prdy_vrss\": \"-264\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.78\",\r\n            \"acml_vol\": \"4927288\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.00\",\r\n            \"nav_vrss_prpr\": \"-94.47\",\r\n            \"nav\": \"33525.47\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-292.15\",\r\n            \"nav_prdy_ctrt\": \"-0.86\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231123\",\r\n            \"stck_clpr\": \"33695\",\r\n            \"prdy_vrss\": \"4\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.01\",\r\n            \"acml_vol\": \"4829299\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.08\",\r\n            \"nav_vrss_prpr\": \"-122.62\",\r\n            \"nav\": \"33817.62\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"10.88\",\r\n            \"nav_prdy_ctrt\": \"0.03\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231122\",\r\n            \"stck_clpr\": \"33691\",\r\n            \"prdy_vrss\": \"59\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.18\",\r\n            \"acml_vol\": \"5625954\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.06\",\r\n            \"nav_vrss_prpr\": \"-115.74\",\r\n            \"nav\": \"33806.74\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"23.43\",\r\n            \"nav_prdy_ctrt\": \"0.07\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231121\",\r\n            \"stck_clpr\": \"33631\",\r\n            \"prdy_vrss\": \"159\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.48\",\r\n            \"acml_vol\": \"7282929\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.17\",\r\n            \"nav_vrss_prpr\": \"-152.31\",\r\n            \"nav\": \"33783.31\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"235.05\",\r\n            \"nav_prdy_ctrt\": \"0.70\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231120\",\r\n            \"stck_clpr\": \"33471\",\r\n            \"prdy_vrss\": \"264\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.80\",\r\n            \"acml_vol\": \"7447159\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.05\",\r\n            \"nav_vrss_prpr\": \"-77.26\",\r\n            \"nav\": \"33548.26\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"216.76\",\r\n            \"nav_prdy_ctrt\": \"0.65\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231117\",\r\n            \"stck_clpr\": \"33207\",\r\n            \"prdy_vrss\": \"-169\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.51\",\r\n            \"acml_vol\": \"6027534\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.09\",\r\n            \"nav_vrss_prpr\": \"-124.50\",\r\n            \"nav\": \"33331.50\",\r\n            \"nav_prdy_vrss_sign\": \"5\",\r\n            \"nav_prdy_vrss\": \"-225.76\",\r\n            \"nav_prdy_ctrt\": \"-0.67\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231116\",\r\n            \"stck_clpr\": \"33376\",\r\n            \"prdy_vrss\": \"-24\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.07\",\r\n            \"acml_vol\": \"5482070\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.26\",\r\n            \"nav_vrss_prpr\": \"-181.26\",\r\n            \"nav\": \"33557.26\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"35.17\",\r\n            \"nav_prdy_ctrt\": \"0.10\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231115\",\r\n            \"stck_clpr\": \"33401\",\r\n            \"prdy_vrss\": \"708\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"2.17\",\r\n            \"acml_vol\": \"9706175\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"-0.08\",\r\n            \"nav_vrss_prpr\": \"-121.09\",\r\n            \"nav\": \"33522.09\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"739.73\",\r\n            \"nav_prdy_ctrt\": \"2.26\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231114\",\r\n            \"stck_clpr\": \"32693\",\r\n            \"prdy_vrss\": \"334\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.03\",\r\n            \"acml_vol\": \"4723626\",\r\n            \"cntg_vol\": \"\",\r\n            \"dprt\": \"0.01\",\r\n            \"nav_vrss_prpr\": \"-89.36\",\r\n            \"nav\": \"32782.36\",\r\n            \"nav_prdy_vrss_sign\": \"2\",\r\n            \"nav_prdy_vrss\": \"327.59\",\r\n            \"nav_prdy_ctrt\": \"1.01\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231113\",\r\n            \"stck_clpr\": \"32359\",\r\n            \"prdy_vrss\": \"-24\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n  ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

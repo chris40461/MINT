@@ -1,0 +1,516 @@
+{
+  "sheet_name": "종목별일별매수매도체결량",
+  "row_count": 50,
+  "columns": [
+    "종목별일별매수매도체결량",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "종목별일별매수매도체결량": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "메뉴 위치",
+      "Column_1": "[국내주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "API 명",
+      "Column_1": "종목별일별매수매도체결량",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "API ID",
+      "Column_1": "v1_국내주식-056",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "실전 TR_ID",
+      "Column_1": "FHKST03010800",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/inquire-daily-trade-volume",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "개요",
+      "Column_1": "종목별일별매수매도체결량 API입니다. 실전계좌의 경우, 한 번의 호출에 최대 100건까지 확인 가능합니다.\r\n국내주식 종목의 일별 매수체결량, 매도체결량 데이터를 확인할 수 있습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKST03010800",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "FID 조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J: KRX, NX: NXT, UN: 통합",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "FID 입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "005930",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "FID_INPUT_DATE_1",
+      "Column_2": "FID 입력 날짜1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "from",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "FID_INPUT_DATE_2",
+      "Column_2": "FID 입력 날짜2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "to",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "FID_PERIOD_DIV_CODE",
+      "Column_2": "FID 기간 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "D",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "shnu_cnqn_smtn",
+      "Column_2": "매수 체결량 합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "seln_cnqn_smtn",
+      "Column_2": "매도 체결량 합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "거래상태정보",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "total_seln_qty",
+      "Column_2": "총 매도 수량\t",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": null,
+      "Column_1": "total_shnu_qty",
+      "Column_2": "총 매수 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"fid_cond_mrkt_div_code\":\"J\",\r\n\t\"fid_input_iscd\":\"005930\",\r\n\t\"fid_input_date_1\":\"20240101\",\r\n\t\"fid_input_date_2\":\"20240126\",\r\n\t\"fid_period_div_code\":\"D\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별일별매수매도체결량": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"shnu_cnqn_smtn\": \"4520816\",\r\n        \"seln_cnqn_smtn\": \"5285722\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"total_seln_qty\": \"5285722\",\r\n            \"total_shnu_qty\": \"4520816\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240125\",\r\n            \"total_seln_qty\": \"5610781\",\r\n            \"total_shnu_qty\": \"4008095\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240124\",\r\n            \"total_seln_qty\": \"7001409\",\r\n            \"total_shnu_qty\": \"4628223\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240123\",\r\n            \"total_seln_qty\": \"6929612\",\r\n            \"total_shnu_qty\": \"6221072\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240122\",\r\n            \"total_seln_qty\": \"9304203\",\r\n            \"total_shnu_qty\": \"8269298\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240119\",\r\n            \"total_seln_qty\": \"7937786\",\r\n            \"total_shnu_qty\": \"12024544\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240118\",\r\n            \"total_seln_qty\": \"7130130\",\r\n            \"total_shnu_qty\": \"8051305\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240117\",\r\n            \"total_seln_qty\": \"12448352\",\r\n            \"total_shnu_qty\": \"7781842\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240116\",\r\n            \"total_seln_qty\": \"7231456\",\r\n            \"total_shnu_qty\": \"5660392\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240115\",\r\n            \"total_seln_qty\": \"5146657\",\r\n            \"total_shnu_qty\": \"6242907\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240112\",\r\n            \"total_seln_qty\": \"6112124\",\r\n            \"total_shnu_qty\": \"5706461\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240111\",\r\n            \"total_seln_qty\": \"10835895\",\r\n            \"total_shnu_qty\": \"10905905\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240110\",\r\n            \"total_seln_qty\": \"12367976\",\r\n            \"total_shnu_qty\": \"6256368\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240109\",\r\n            \"total_seln_qty\": \"16376304\",\r\n            \"total_shnu_qty\": \"7458947\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240108\",\r\n            \"total_seln_qty\": \"5318849\",\r\n            \"total_shnu_qty\": \"4631085\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240105\",\r\n            \"total_seln_qty\": \"4907468\",\r\n            \"total_shnu_qty\": \"5219184\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240104\",\r\n            \"total_seln_qty\": \"6041013\",\r\n            \"total_shnu_qty\": \"7038798\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240103\",\r\n            \"total_seln_qty\": \"12066549\",\r\n            \"total_shnu_qty\": \"7713276\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240102\",\r\n            \"total_seln_qty\": \"5855872\",\r\n            \"total_shnu_qty\": \"9333762\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

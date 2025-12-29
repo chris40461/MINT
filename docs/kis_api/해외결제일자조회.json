@@ -1,0 +1,516 @@
+{
+  "sheet_name": "해외결제일자조회",
+  "row_count": 50,
+  "columns": [
+    "해외결제일자조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외결제일자조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "메뉴 위치",
+      "Column_1": "[해외주식] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "API 명",
+      "Column_1": "해외결제일자조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "API ID",
+      "Column_1": "해외주식-017",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "실전 TR_ID",
+      "Column_1": "CTOS5011R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "URL 명",
+      "Column_1": "/uapi/overseas-stock/v1/quotations/countries-holiday",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "개요",
+      "Column_1": "해외결제일자조회 API입니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTOS5011R",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "Request Query Parameter",
+      "Column_1": "TRAD_DT",
+      "Column_2": "기준일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "기준일자(YYYYMMDD)",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "CTX_AREA_NK",
+      "Column_2": "연속조회키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " 공백으로 입력",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "CTX_AREA_FK",
+      "Column_2": "연속조회검색조건",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "공백으로 입력",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세1",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "512  미국 나스닥 / 513  미국 뉴욕거래소 / 529  미국 아멕스 \r\n515  일본\r\n501  홍콩 / 543  홍콩CNY / 558  홍콩USD\r\n507  베트남 하노이거래소 / 508  베트남 호치민거래소\r\n551  중국 상해A / 552  중국 심천A",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "tr_natn_cd",
+      "Column_2": "거래국가코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "840 미국 / 392 일본 / 344 홍콩\r\n704 베트남 / 156 중국",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "tr_natn_name",
+      "Column_2": "거래국가명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "natn_eng_abrv_cd",
+      "Column_2": "국가영문약어코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "US 미국 / JP 일본 / HK 홍콩\r\nVN 베트남 / CN 중국",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "tr_mket_cd",
+      "Column_2": "거래시장코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "tr_mket_name",
+      "Column_2": "거래시장명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "acpl_sttl_dt",
+      "Column_2": "현지결제일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "현지결제일자(YYYYMMDD)",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": null,
+      "Column_1": "dmst_sttl_dt",
+      "Column_2": "국내결제일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " 국내결제일자(YYYYMMDD)",
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "Request Example (Python)",
+      "Column_1": "{\r\n    \"TRAD_DT\":\"20221227\",\r\n    \"CTX_AREA_NK\":\"\",\r\n    \"CTX_AREA_FK\":\"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외결제일자조회": "Response Example",
+      "Column_1": "{\r\n    \"ctx_area_fk\": \"20221227            \",\r\n    \"ctx_area_nk\": \"                    \",\r\n    \"output\": [\r\n        {\r\n            \"prdt_type_cd\": \"507\",\r\n            \"tr_natn_cd\": \"704\",\r\n            \"tr_natn_name\": \"베트남\",\r\n            \"natn_eng_abrv_cd\": \"VN\",\r\n            \"tr_mket_cd\": \"01\",\r\n            \"tr_mket_name\": \"하노이거래소\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221229\"\r\n        },\r\n        {\r\n            \"prdt_type_cd\": \"508\",\r\n            \"tr_natn_cd\": \"704\",\r\n            \"tr_natn_name\": \"베트남\",\r\n            \"natn_eng_abrv_cd\": \"VN\",\r\n            \"tr_mket_cd\": \"02\",\r\n            \"tr_mket_name\": \"호치민거래소\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221229\"\r\n        },\r\n        {\r\n            \"prdt_type_cd\": \"512\",\r\n            \"tr_natn_cd\": \"840\",\r\n            \"tr_natn_name\": \"미국\",\r\n            \"natn_eng_abrv_cd\": \"US\",\r\n            \"tr_mket_cd\": \"01\",\r\n            \"tr_mket_name\": \"나스닥\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221230\"\r\n        },\r\n        {\r\n            \"prdt_type_cd\": \"513\",\r\n            \"tr_natn_cd\": \"840\",\r\n            \"tr_natn_name\": \"미국\",\r\n            \"natn_eng_abrv_cd\": \"US\",\r\n            \"tr_mket_cd\": \"02\",\r\n            \"tr_mket_name\": \"뉴욕거래소\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221230\"\r\n        },\r\n        {\r\n            \"prdt_type_cd\": \"515\",\r\n            \"tr_natn_cd\": \"392\",\r\n            \"tr_natn_name\": \"일본\",\r\n            \"natn_eng_abrv_cd\": \"JP\",\r\n            \"tr_mket_cd\": \"01\",\r\n            \"tr_mket_name\": \"일본\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221229\"\r\n        },\r\n        {\r\n            \"prdt_type_cd\": \"527\",\r\n            \"tr_natn_cd\": \"840\",\r\n            \"tr_natn_name\": \"미국\",\r\n            \"natn_eng_abrv_cd\": \"US\",\r\n            \"tr_mket_cd\": \"03\",\r\n            \"tr_mket_name\": \"미국\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221230\"\r\n        },\r\n        {\r\n            \"prdt_type_cd\": \"528\",\r\n            \"tr_natn_cd\": \"840\",\r\n            \"tr_natn_name\": \"미국\",\r\n            \"natn_eng_abrv_cd\": \"US\",\r\n            \"tr_mket_cd\": \"04\",\r\n            \"tr_mket_name\": \"미국\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221230\"\r\n        },\r\n        {\r\n            \"prdt_type_cd\": \"529\",\r\n            \"tr_natn_cd\": \"840\",\r\n            \"tr_natn_name\": \"미국\",\r\n            \"natn_eng_abrv_cd\": \"US\",\r\n            \"tr_mket_cd\": \"05\",\r\n            \"tr_mket_name\": \"아멕스\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221230\"\r\n        },\r\n        {\r\n            \"prdt_type_cd\": \"556\",\r\n            \"tr_natn_cd\": \"704\",\r\n            \"tr_natn_name\": \"베트남\",\r\n            \"natn_eng_abrv_cd\": \"VN\",\r\n            \"tr_mket_cd\": \"03\",\r\n            \"tr_mket_name\": \"업콤거래소\",\r\n            \"acpl_sttl_dt\": \"20221229\",\r\n            \"dmst_sttl_dt\": \"20221229\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0460\",\r\n    \"msg1\": \"조회 되었습니다. (마지막 자료)                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

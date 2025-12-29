@@ -1,0 +1,706 @@
+{
+  "sheet_name": "해외주식분봉조회",
+  "row_count": 69,
+  "columns": [
+    "해외주식분봉조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식분봉조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "메뉴 위치",
+      "Column_1": "[해외주식] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "API 명",
+      "Column_1": "해외주식분봉조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "API ID",
+      "Column_1": "v1_해외주식-030",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "실전 TR_ID",
+      "Column_1": "HHDFS76950200",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "URL 명",
+      "Column_1": "/uapi/overseas-price/v1/quotations/inquire-time-itemchartprice",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "개요",
+      "Column_1": "해외주식분봉조회 API입니다. 실전계좌의 경우, 한 번의 호출에 최근 120건까지 확인 가능합니다.\r\nNEXT 및 KEYB 값을 사용하여 데이터를 계속해서 다음 조회할 수 있으며, 최대 다음조회 가능 기간은 약 1개월입니다. \r\n\r\n※ 해외주식분봉조회 조회 방법\r\nparams\r\n. 초기 조회: \r\n - PINC: \"1\" 입력\r\n - NEXT: 처음 조회 시, \"\" 공백 입력\r\n - KEYB: 처음 조회 시, \"\" 공백 입력\r\n. 다음 조회:\r\n - PINC: \"1\" 입력\r\n - NEXT: \"1\" 입력\r\n - KEYB: 이전 조회 결과의 마지막 분봉 데이터를 이용하여, 1분 전 혹은 n분 전의 시간을 입력 (형식: YYYYMMDDHHMMSS, ex. 20241014140100)\r\n\r\n* 따라서 분봉데이터를 기간별로 수집하고자 하실 경우 NEXT, KEYB 값을 이용하시면서 다음조회하시면 됩니다.\r\n* 한국투자 Github에서 해외주식 분봉 다음조회 파이썬 샘플코드 참고하실 수 있습니다. (아래 링크 참고)\r\n  https://github.com/koreainvestment/open-trading-api/blob/main/rest/get_ovsstk_chart_price.py\r\n\r\n※ 해외주식 분봉은 정규장만 과거조회 가능합니다.\r\n미국주식 주간거래( EXCD: BAY, BAQ, BAA )의 경우 본 API로 최대 1일치 분봉만 조회가 가능합니다.\r\n\r\n※ 지연시세 지연시간 : 미국 - 실시간무료(0분지연) / 홍콩, 베트남, 중국, 일본 - 15분지연\r\n   미국의 경우 0분지연시세로 제공되나, 장중 당일 시가는 상이할 수 있으며, 익일 정정 표시됩니다.\r\n\r\n※ 2024년 12월 13일(금) 오후 5시부터 HTS(efriend Plus) [7781] 시세신청(실시간) 화면에서 유료 서비스 신청 후 접근토큰 발급하면 최대 2시간 이후 실시간 유료 시세 수신 가능\r\n\r\n[미국주식시세 이용시 유의사항]\r\n■ 무료 실시간 시세 서비스가 기본 제공되며, 유료 실시간 시세 서비스는 HTS ‘[7781] 시세신청 (실시간)’과 MTS(모바일) ‘고객서비스 &gt; 거래 서비스신청 &gt; 해외주식 &gt; 해외 실시간시세 신청’ 에서 신청 가능합니다. \r\n※ 무료(매수/매도 각 1호가) : 나스닥 마켓센터에서 거래되는 호가 및 호가 잔량 정보\r\n※ 유료(매수/매도 각 1호가) : 미국 전체 거래소들의 통합 주문체결 및 최우선 호가\r\n■ 무료 실시간 시세 서비스는 유료 실시간 시세 서비스 대비 평균 50% 수준에 해당하는 정보이므로 \r\n현재가/호가/순간체결량/차트 등에서 일시적·부분적 차이가 있을 수 있습니다. \r\n■ 무료∙유료 모두 미국에 상장된 종목(뉴욕, 나스닥, 아멕스 등)의 시세를 제공하며, 동일한 시스템을 사용하여 주문∙체결됩니다. \r\n단, 무료∙유료의 기반 데이터 차이로 호가 및 체결 데이터는 차이가 발생할 수 있고, 이로 인해 발생하는 손실에 대해서 당사가 책임지지 않습니다.\r\n■ 무료 실시간 시세 서비스의 시가, 저가, 고가, 종가는 유료 실시간 시세 서비스와 다를 수 있으며, \r\n종목별 과거 데이터(거래량, 시가, 종가, 고가, 차트 데이터 등)는 장 종료 후(오후 12시경) 유료 실시간 시세 서비스 데이터와 동일하게 업데이트됩니다.\r\n■ 유료 실시간 시세 서비스는 신청 시 1~12개월까지 기간 선택 후 해당 요금을 일괄 납부하며, \r\n해지 시 해지한 달의 말일까지 시세 제공 후 남은 기간 해당 금액이 환급되니 유의하시기 바랍니다.\r\n(출처: 한국투자증권 외화증권 거래설명서 - https://www.truefriend.com/main/customer/guide/Guide.jsp?&cmd=TF04ag010002&currentPage=1&num=64)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHDFS76950200",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "Request Query Parameter",
+      "Column_1": "AUTH",
+      "Column_2": "사용자권한정보",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "\"\" 공백으로 입력",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "EXCD",
+      "Column_2": "거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "NYS : 뉴욕\r\nNAS : 나스닥\r\nAMS : 아멕스 \r\nHKS : 홍콩\r\nSHS : 상해 \r\nSZS : 심천\r\nHSX : 호치민\r\nHNX : 하노이\r\nTSE : 도쿄 \r\n\r\n※ 주간거래는 최대 1일치 분봉만 조회 가능\r\nBAY : 뉴욕(주간)\r\nBAQ : 나스닥(주간)\r\nBAA : 아멕스(주간) ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "SYMB",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "종목코드(ex. TSLA)",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "NMIN",
+      "Column_2": "분갭",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "분단위(1: 1분봉, 2: 2분봉, ...)",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "PINC",
+      "Column_2": "전일포함여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0:당일 1:전일포함\r\n※ 다음조회 시 반드시 \"1\"로 입력",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "NEXT",
+      "Column_2": "다음여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "처음조회 시, \"\" 공백 입력\r\n다음조회 시, \"1\" 입력",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "NREC",
+      "Column_2": "요청갯수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "레코드요청갯수 (최대 120)",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "FILL",
+      "Column_2": "미체결채움구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "\"\" 공백으로 입력",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "KEYB",
+      "Column_2": "NEXT KEY BUFF",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "처음 조회 시, \"\" 공백 입력\r\n다음 조회 시, 이전 조회 결과의 마지막 분봉 데이터를 이용하여, 1분 전 혹은 n분 전의 시간을 입력 \r\n(형식: YYYYMMDDHHMMSS, ex. 20241014140100)",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "rsym",
+      "Column_2": "실시간종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "zdiv",
+      "Column_2": "소수점자리수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "stim",
+      "Column_2": "장시작현지시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "etim",
+      "Column_2": "장종료현지시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "sktm",
+      "Column_2": "장시작한국시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "ektm",
+      "Column_2": "장종료한국시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "next",
+      "Column_2": "다음가능여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "more",
+      "Column_2": "추가데이타여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "nrec",
+      "Column_2": "레코드갯수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "tymd",
+      "Column_2": "현지영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "xymd",
+      "Column_2": "현지기준일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "xhms",
+      "Column_2": "현지기준시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "kymd",
+      "Column_2": "한국기준일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "khms",
+      "Column_2": "한국기준시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "open",
+      "Column_2": "시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "high",
+      "Column_2": "고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "low",
+      "Column_2": "저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "last",
+      "Column_2": "종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "evol",
+      "Column_2": "체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": null,
+      "Column_1": "eamt",
+      "Column_2": "체결대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "14",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "Request Example (Python)",
+      "Column_1": "{\r\n\"AUTH\":\"\",\r\n\"EXCD\":\"NAS\",\r\n\"SYMB\":\"TSLA\",\r\n\"NMIN\":\"5\",\r\n\"PINC\":\"1\",\r\n\"NEXT\":\"1\",\r\n\"NREC\":\"120\",\r\n\"FILL\":\"\",\r\n\"KEYB\":\"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식분봉조회": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"rsym\": \"DNASTSLA\",\r\n        \"zdiv\": \"4\",\r\n        \"stim\": \"093000\",\r\n        \"etim\": \"160000\",\r\n        \"sktm\": \"233000\",\r\n        \"ektm\": \"060000\",\r\n        \"next\": \"1\",\r\n        \"more\": \"0\",\r\n        \"nrec\": \"120\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"160000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"060000\",\r\n            \"open\": \"197.3400\",\r\n            \"high\": \"197.4100\",\r\n            \"low\": \"197.2800\",\r\n            \"last\": \"197.4100\",\r\n            \"evol\": \"5695\",\r\n            \"eamt\": \"1123799\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"155500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"055500\",\r\n            \"open\": \"197.7200\",\r\n            \"high\": \"197.9900\",\r\n            \"low\": \"197.1700\",\r\n            \"last\": \"197.3800\",\r\n            \"evol\": \"1810184\",\r\n            \"eamt\": \"357462976\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"155000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"055000\",\r\n            \"open\": \"197.3800\",\r\n            \"high\": \"197.8200\",\r\n            \"low\": \"197.3400\",\r\n            \"last\": \"197.7320\",\r\n            \"evol\": \"1063296\",\r\n            \"eamt\": \"210158482\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"154500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"054500\",\r\n            \"open\": \"197.8572\",\r\n            \"high\": \"197.8800\",\r\n            \"low\": \"197.3000\",\r\n            \"last\": \"197.3800\",\r\n            \"evol\": \"924730\",\r\n            \"eamt\": \"182753296\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"154000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"054000\",\r\n            \"open\": \"198.1258\",\r\n            \"high\": \"198.3200\",\r\n            \"low\": \"197.7200\",\r\n            \"last\": \"197.8572\",\r\n            \"evol\": \"1057656\",\r\n            \"eamt\": \"209470055\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"153500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"053500\",\r\n            \"open\": \"197.6900\",\r\n            \"high\": \"198.1500\",\r\n            \"low\": \"197.6600\",\r\n            \"last\": \"198.1258\",\r\n            \"evol\": \"1139444\",\r\n            \"eamt\": \"225542973\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"153000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"053000\",\r\n            \"open\": \"197.6600\",\r\n            \"high\": \"197.8600\",\r\n            \"low\": \"197.4300\",\r\n            \"last\": \"197.6900\",\r\n            \"evol\": \"761441\",\r\n            \"eamt\": \"150467794\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"152500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"052500\",\r\n            \"open\": \"197.8660\",\r\n            \"high\": \"197.9900\",\r\n            \"low\": \"197.6121\",\r\n            \"last\": \"197.6600\",\r\n            \"evol\": \"819504\",\r\n            \"eamt\": \"162136366\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"152000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"052000\",\r\n            \"open\": \"197.5600\",\r\n            \"high\": \"197.9800\",\r\n            \"low\": \"197.5068\",\r\n            \"last\": \"197.8660\",\r\n            \"evol\": \"782871\",\r\n            \"eamt\": \"154797120\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"151500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"051500\",\r\n            \"open\": \"197.1000\",\r\n            \"high\": \"197.5900\",\r\n            \"low\": \"196.9900\",\r\n            \"last\": \"197.5600\",\r\n            \"evol\": \"867446\",\r\n            \"eamt\": \"171222685\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"151000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"051000\",\r\n            \"open\": \"196.7074\",\r\n            \"high\": \"197.1800\",\r\n            \"low\": \"196.6400\",\r\n            \"last\": \"197.1000\",\r\n            \"evol\": \"569977\",\r\n            \"eamt\": \"112253777\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"150500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"050500\",\r\n            \"open\": \"197.3599\",\r\n            \"high\": \"197.4343\",\r\n            \"low\": \"196.6700\",\r\n            \"last\": \"196.7074\",\r\n            \"evol\": \"849967\",\r\n            \"eamt\": \"167469928\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"150000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"050000\",\r\n            \"open\": \"197.0850\",\r\n            \"high\": \"197.4300\",\r\n            \"low\": \"196.8300\",\r\n            \"last\": \"197.3500\",\r\n            \"evol\": \"659810\",\r\n            \"eamt\": \"130081018\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"145500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"045500\",\r\n            \"open\": \"197.1479\",\r\n            \"high\": \"197.2500\",\r\n            \"low\": \"196.7101\",\r\n            \"last\": \"197.0850\",\r\n            \"evol\": \"619793\",\r\n            \"eamt\": \"122098483\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"145000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"045000\",\r\n            \"open\": \"196.8100\",\r\n            \"high\": \"197.1900\",\r\n            \"low\": \"196.5000\",\r\n            \"last\": \"197.1479\",\r\n            \"evol\": \"873328\",\r\n            \"eamt\": \"171928260\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"144500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"044500\",\r\n            \"open\": \"196.9101\",\r\n            \"high\": \"197.0800\",\r\n            \"low\": \"196.7700\",\r\n            \"last\": \"196.8100\",\r\n            \"evol\": \"581293\",\r\n            \"eamt\": \"114481341\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"144000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"044000\",\r\n            \"open\": \"196.9500\",\r\n            \"high\": \"196.9700\",\r\n            \"low\": \"196.7800\",\r\n            \"last\": \"196.9101\",\r\n            \"evol\": \"445301\",\r\n            \"eamt\": \"87672935\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"143500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"043500\",\r\n            \"open\": \"196.9000\",\r\n            \"high\": \"197.1000\",\r\n            \"low\": \"196.7300\",\r\n            \"last\": \"196.9700\",\r\n            \"evol\": \"668604\",\r\n            \"eamt\": \"131649303\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"143000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"043000\",\r\n            \"open\": \"197.5350\",\r\n            \"high\": \"197.5800\",\r\n            \"low\": \"196.8600\",\r\n            \"last\": \"196.9000\",\r\n            \"evol\": \"632781\",\r\n            \"eamt\": \"124810145\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"142500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"042500\",\r\n            \"open\": \"197.4899\",\r\n            \"high\": \"197.5500\",\r\n            \"low\": \"197.2101\",\r\n            \"last\": \"197.5350\",\r\n            \"evol\": \"467904\",\r\n            \"eamt\": \"92355303\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"142000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"042000\",\r\n            \"open\": \"197.2050\",\r\n            \"high\": \"197.5100\",\r\n            \"low\": \"197.2000\",\r\n            \"last\": \"197.4899\",\r\n            \"evol\": \"569973\",\r\n            \"eamt\": \"112499816\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"141500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"041500\",\r\n            \"open\": \"197.3400\",\r\n            \"high\": \"197.5300\",\r\n            \"low\": \"197.1400\",\r\n            \"last\": \"197.2000\",\r\n            \"evol\": \"649456\",\r\n            \"eamt\": \"128189425\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"141000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"041000\",\r\n            \"open\": \"197.1300\",\r\n            \"high\": \"197.3900\",\r\n            \"low\": \"196.8100\",\r\n            \"last\": \"197.3400\",\r\n            \"evol\": \"782988\",\r\n            \"eamt\": \"154313193\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"140500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"040500\",\r\n            \"open\": \"196.9650\",\r\n            \"high\": \"197.3500\",\r\n            \"low\": \"196.8300\",\r\n            \"last\": \"197.1300\",\r\n            \"evol\": \"656325\",\r\n            \"eamt\": \"129386566\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"140000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"040000\",\r\n            \"open\": \"196.9000\",\r\n            \"high\": \"197.1500\",\r\n            \"low\": \"196.8100\",\r\n            \"last\": \"196.9650\",\r\n            \"evol\": \"615130\",\r\n            \"eamt\": \"121166181\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"135500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"035500\",\r\n            \"open\": \"197.1420\",\r\n            \"high\": \"197.2250\",\r\n            \"low\": \"196.7000\",\r\n            \"last\": \"196.9000\",\r\n            \"evol\": \"866814\",\r\n            \"eamt\": \"170720320\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"135000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"035000\",\r\n            \"open\": \"197.4801\",\r\n            \"high\": \"197.6000\",\r\n            \"low\": \"196.8900\",\r\n            \"last\": \"197.1420\",\r\n            \"evol\": \"1022321\",\r\n            \"eamt\": \"201612257\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"134500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"034500\",\r\n            \"open\": \"197.6611\",\r\n            \"high\": \"197.6900\",\r\n            \"low\": \"197.2700\",\r\n            \"last\": \"197.4900\",\r\n            \"evol\": \"760553\",\r\n            \"eamt\": \"150216953\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"134000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"034000\",\r\n            \"open\": \"197.6105\",\r\n            \"high\": \"197.8600\",\r\n            \"low\": \"197.4580\",\r\n            \"last\": \"197.6611\",\r\n            \"evol\": \"919295\",\r\n            \"eamt\": \"181745095\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"133500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"033500\",\r\n            \"open\": \"197.2399\",\r\n            \"high\": \"197.6800\",\r\n            \"low\": \"197.2200\",\r\n            \"last\": \"197.6105\",\r\n            \"evol\": \"879318\",\r\n            \"eamt\": \"173669092\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"133000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"033000\",\r\n            \"open\": \"197.2800\",\r\n            \"high\": \"197.4500\",\r\n            \"low\": \"197.1936\",\r\n            \"last\": \"197.2400\",\r\n            \"evol\": \"678779\",\r\n            \"eamt\": \"133936325\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"132500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"032500\",\r\n            \"open\": \"197.1400\",\r\n            \"high\": \"197.4000\",\r\n            \"low\": \"196.9000\",\r\n            \"last\": \"197.2850\",\r\n            \"evol\": \"1368950\",\r\n            \"eamt\": \"269897694\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"132000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"032000\",\r\n            \"open\": \"197.1871\",\r\n            \"high\": \"197.2600\",\r\n            \"low\": \"197.0000\",\r\n            \"last\": \"197.1415\",\r\n            \"evol\": \"614010\",\r\n            \"eamt\": \"121048703\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"131500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"031500\",\r\n            \"open\": \"196.7600\",\r\n            \"high\": \"197.3899\",\r\n            \"low\": \"196.7600\",\r\n            \"last\": \"197.1989\",\r\n            \"evol\": \"1205848\",\r\n            \"eamt\": \"237706856\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"131000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"031000\",\r\n            \"open\": \"196.6600\",\r\n            \"high\": \"196.7700\",\r\n            \"low\": \"196.2500\",\r\n            \"last\": \"196.7600\",\r\n            \"evol\": \"817284\",\r\n            \"eamt\": \"160599464\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"130500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"030500\",\r\n            \"open\": \"196.7329\",\r\n            \"high\": \"196.8700\",\r\n            \"low\": \"196.5000\",\r\n            \"last\": \"196.6600\",\r\n            \"evol\": \"773879\",\r\n            \"eamt\": \"152168496\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"130000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"030000\",\r\n            \"open\": \"196.4700\",\r\n            \"high\": \"196.8400\",\r\n            \"low\": \"196.4000\",\r\n            \"last\": \"196.7329\",\r\n            \"evol\": \"997013\",\r\n            \"eamt\": \"196017987\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"125500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"025500\",\r\n            \"open\": \"196.1565\",\r\n            \"high\": \"196.5000\",\r\n            \"low\": \"196.0000\",\r\n            \"last\": \"196.4700\",\r\n            \"evol\": \"1402472\",\r\n            \"eamt\": \"275108172\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"125000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"025000\",\r\n            \"open\": \"195.7900\",\r\n            \"high\": \"196.2400\",\r\n            \"low\": \"195.7900\",\r\n            \"last\": \"196.1500\",\r\n            \"evol\": \"724616\",\r\n            \"eamt\": \"142057985\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"124500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"024500\",\r\n            \"open\": \"195.9650\",\r\n            \"high\": \"196.1200\",\r\n            \"low\": \"195.6300\",\r\n            \"last\": \"195.7900\",\r\n            \"evol\": \"731597\",\r\n            \"eamt\": \"143315155\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"124000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"024000\",\r\n            \"open\": \"196.1800\",\r\n            \"high\": \"196.2000\",\r\n            \"low\": \"195.3300\",\r\n            \"last\": \"195.9650\",\r\n            \"evol\": \"1650897\",\r\n            \"eamt\": \"323200735\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"123500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"023500\",\r\n            \"open\": \"195.7994\",\r\n            \"high\": \"196.4700\",\r\n            \"low\": \"195.7709\",\r\n            \"last\": \"196.1986\",\r\n            \"evol\": \"1077671\",\r\n            \"eamt\": \"211388949\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"123000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"023000\",\r\n            \"open\": \"195.9050\",\r\n            \"high\": \"196.0500\",\r\n            \"low\": \"195.6600\",\r\n            \"last\": \"195.7994\",\r\n            \"evol\": \"1466167\",\r\n            \"eamt\": \"287231878\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"122500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"022500\",\r\n            \"open\": \"196.0824\",\r\n            \"high\": \"196.1200\",\r\n            \"low\": \"195.8300\",\r\n            \"last\": \"195.9050\",\r\n            \"evol\": \"694628\",\r\n            \"eamt\": \"136126676\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"122000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"022000\",\r\n            \"open\": \"195.7950\",\r\n            \"high\": \"196.1800\",\r\n            \"low\": \"195.6100\",\r\n            \"last\": \"196.0824\",\r\n            \"evol\": \"1088972\",\r\n            \"eamt\": \"213363586\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"121500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"021500\",\r\n            \"open\": \"195.3500\",\r\n            \"high\": \"195.8299\",\r\n            \"low\": \"195.1100\",\r\n            \"last\": \"195.7950\",\r\n            \"evol\": \"862850\",\r\n            \"eamt\": \"168642290\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"121000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"021000\",\r\n            \"open\": \"195.7939\",\r\n            \"high\": \"195.8500\",\r\n            \"low\": \"195.1451\",\r\n            \"last\": \"195.3500\",\r\n            \"evol\": \"945068\",\r\n            \"eamt\": \"184752544\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"120500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"020500\",\r\n            \"open\": \"194.8500\",\r\n            \"high\": \"195.9100\",\r\n            \"low\": \"194.8100\",\r\n            \"last\": \"195.7939\",\r\n            \"evol\": \"1211841\",\r\n            \"eamt\": \"236762153\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"120000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"020000\",\r\n            \"open\": \"194.5600\",\r\n            \"high\": \"195.0500\",\r\n            \"low\": \"194.3700\",\r\n            \"last\": \"194.8500\",\r\n            \"evol\": \"773910\",\r\n            \"eamt\": \"150724507\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"115500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"015500\",\r\n            \"open\": \"194.2200\",\r\n            \"high\": \"194.7300\",\r\n            \"low\": \"194.1700\",\r\n            \"last\": \"194.5600\",\r\n            \"evol\": \"718495\",\r\n            \"eamt\": \"139761181\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"115000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"015000\",\r\n            \"open\": \"194.4200\",\r\n            \"high\": \"194.4700\",\r\n            \"low\": \"194.1700\",\r\n            \"last\": \"194.2200\",\r\n            \"evol\": \"579935\",\r\n            \"eamt\": \"112701458\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"114500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"014500\",\r\n            \"open\": \"195.0000\",\r\n            \"high\": \"195.0400\",\r\n            \"low\": \"194.0601\",\r\n            \"last\": \"194.3900\",\r\n            \"evol\": \"1160400\",\r\n            \"eamt\": \"225686790\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"114000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"014000\",\r\n            \"open\": \"194.8100\",\r\n            \"high\": \"195.0500\",\r\n            \"low\": \"194.5701\",\r\n            \"last\": \"195.0000\",\r\n            \"evol\": \"920600\",\r\n            \"eamt\": \"179353816\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"113500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"013500\",\r\n            \"open\": \"194.6650\",\r\n            \"high\": \"194.8400\",\r\n            \"low\": \"194.2800\",\r\n            \"last\": \"194.8100\",\r\n            \"evol\": \"1325692\",\r\n            \"eamt\": \"257999048\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"113000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"013000\",\r\n            \"open\": \"193.9000\",\r\n            \"high\": \"194.7100\",\r\n            \"low\": \"193.8901\",\r\n            \"last\": \"194.6650\",\r\n            \"evol\": \"1088470\",\r\n            \"eamt\": \"211605921\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"112500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"012500\",\r\n            \"open\": \"193.9000\",\r\n            \"high\": \"194.2700\",\r\n            \"low\": \"193.8000\",\r\n            \"last\": \"193.9000\",\r\n            \"evol\": \"943018\",\r\n            \"eamt\": \"183000343\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"112000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"012000\",\r\n            \"open\": \"193.5700\",\r\n            \"high\": \"194.1100\",\r\n            \"low\": \"193.2650\",\r\n            \"last\": \"193.9000\",\r\n            \"evol\": \"1000913\",\r\n            \"eamt\": \"193911350\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"111500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"011500\",\r\n            \"open\": \"193.6272\",\r\n            \"high\": \"193.7500\",\r\n            \"low\": \"193.4000\",\r\n            \"last\": \"193.5700\",\r\n            \"evol\": \"828731\",\r\n            \"eamt\": \"160451259\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"111000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"011000\",\r\n            \"open\": \"193.3900\",\r\n            \"high\": \"193.6500\",\r\n            \"low\": \"193.2000\",\r\n            \"last\": \"193.6272\",\r\n            \"evol\": \"857727\",\r\n            \"eamt\": \"165875323\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"110500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"010500\",\r\n            \"open\": \"192.9700\",\r\n            \"high\": \"193.5000\",\r\n            \"low\": \"192.8400\",\r\n            \"last\": \"193.3900\",\r\n            \"evol\": \"1059410\",\r\n            \"eamt\": \"204686966\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"110000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"010000\",\r\n            \"open\": \"193.2000\",\r\n            \"high\": \"193.2500\",\r\n            \"low\": \"192.7300\",\r\n            \"last\": \"192.9700\",\r\n            \"evol\": \"947701\",\r\n            \"eamt\": \"182878463\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"105500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"005500\",\r\n            \"open\": \"192.7500\",\r\n            \"high\": \"193.2100\",\r\n            \"low\": \"192.6500\",\r\n            \"last\": \"193.2000\",\r\n            \"evol\": \"1068442\",\r\n            \"eamt\": \"206104973\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"105000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"005000\",\r\n            \"open\": \"192.5100\",\r\n            \"high\": \"192.8800\",\r\n            \"low\": \"192.4700\",\r\n            \"last\": \"192.7500\",\r\n            \"evol\": \"1270027\",\r\n            \"eamt\": \"244704237\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"104500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"004500\",\r\n            \"open\": \"192.0301\",\r\n            \"high\": \"192.5400\",\r\n            \"low\": \"191.3900\",\r\n            \"last\": \"192.5100\",\r\n            \"evol\": \"2212812\",\r\n            \"eamt\": \"424463260\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"104000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"004000\",\r\n            \"open\": \"192.5250\",\r\n            \"high\": \"192.8700\",\r\n            \"low\": \"191.9700\",\r\n            \"last\": \"192.0300\",\r\n            \"evol\": \"1679593\",\r\n            \"eamt\": \"323107778\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"103500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"003500\",\r\n            \"open\": \"192.9499\",\r\n            \"high\": \"193.1800\",\r\n            \"low\": \"192.4900\",\r\n            \"last\": \"192.5250\",\r\n            \"evol\": \"1503653\",\r\n            \"eamt\": \"289911663\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"103000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"003000\",\r\n            \"open\": \"193.2250\",\r\n            \"high\": \"193.3999\",\r\n            \"low\": \"192.5900\",\r\n            \"last\": \"192.9499\",\r\n            \"evol\": \"1667872\",\r\n            \"eamt\": \"321710100\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"102500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"002500\",\r\n            \"open\": \"193.5550\",\r\n            \"high\": \"193.7500\",\r\n            \"low\": \"192.9601\",\r\n            \"last\": \"193.2250\",\r\n            \"evol\": \"1348645\",\r\n            \"eamt\": \"260572277\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"102000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"002000\",\r\n            \"open\": \"194.2120\",\r\n            \"high\": \"194.2120\",\r\n            \"low\": \"193.3706\",\r\n            \"last\": \"193.5550\",\r\n            \"evol\": \"1495301\",\r\n            \"eamt\": \"289774601\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"101500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"001500\",\r\n            \"open\": \"194.7200\",\r\n            \"high\": \"195.3700\",\r\n            \"low\": \"194.1100\",\r\n            \"last\": \"194.2120\",\r\n            \"evol\": \"1768809\",\r\n            \"eamt\": \"344578091\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"101000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"001000\",\r\n            \"open\": \"194.5134\",\r\n            \"high\": \"194.8300\",\r\n            \"low\": \"193.9700\",\r\n            \"last\": \"194.7200\",\r\n            \"evol\": \"1402838\",\r\n            \"eamt\": \"272825843\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"100500\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"000500\",\r\n            \"open\": \"194.1109\",\r\n            \"high\": \"194.7200\",\r\n            \"low\": \"193.9200\",\r\n            \"last\": \"194.5134\",\r\n            \"evol\": \"1538510\",\r\n            \"eamt\": \"298949025\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"100000\",\r\n            \"kymd\": \"20240223\",\r\n            \"khms\": \"000000\",\r\n            \"open\": \"192.9500\",\r\n            \"high\": \"194.1800\",\r\n            \"low\": \"192.1000\",\r\n            \"last\": \"194.1000\",\r\n            \"evol\": \"2128350\",\r\n            \"eamt\": \"411408371\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"095500\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"235500\",\r\n            \"open\": \"193.3050\",\r\n            \"high\": \"193.9900\",\r\n            \"low\": \"192.8800\",\r\n            \"last\": \"192.9200\",\r\n            \"evol\": \"1313537\",\r\n            \"eamt\": \"254115390\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"095000\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"235000\",\r\n            \"open\": \"193.8900\",\r\n            \"high\": \"194.2500\",\r\n            \"low\": \"192.6800\",\r\n            \"last\": \"193.3050\",\r\n            \"evol\": \"1883937\",\r\n            \"eamt\": \"364537424\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"094500\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"234500\",\r\n            \"open\": \"193.1280\",\r\n            \"high\": \"194.1400\",\r\n            \"low\": \"192.7700\",\r\n            \"last\": \"193.8900\",\r\n            \"evol\": \"1908198\",\r\n            \"eamt\": \"368889083\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"094000\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"234000\",\r\n            \"open\": \"192.3000\",\r\n            \"high\": \"193.8300\",\r\n            \"low\": \"192.2940\",\r\n            \"last\": \"193.1280\",\r\n            \"evol\": \"2095911\",\r\n            \"eamt\": \"404757381\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"093500\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"233500\",\r\n            \"open\": \"191.4772\",\r\n            \"high\": \"193.2700\",\r\n            \"low\": \"191.3600\",\r\n            \"last\": \"192.3000\",\r\n            \"evol\": \"2795070\",\r\n            \"eamt\": \"537882973\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240222\",\r\n            \"xymd\": \"20240222\",\r\n            \"xhms\": \"093000\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"233000\",\r\n            \"open\": \"194.0000\",\r\n            \"high\": \"194.3000\",\r\n            \"low\": \"191.3801\",\r\n            \"last\": \"191.4772\",\r\n            \"evol\": \"3537695\",\r\n            \"eamt\": \"682410049\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240221\",\r\n            \"xymd\": \"20240221\",\r\n            \"xhms\": \"160000\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"060000\",\r\n            \"open\": \"194.8400\",\r\n            \"high\": \"194.8400\",\r\n            \"low\": \"194.7700\",\r\n            \"last\": \"194.7700\",\r\n            \"evol\": \"31421\",\r\n            \"eamt\": \"6119886\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240221\",\r\n            \"xymd\": \"20240221\",\r\n            \"xhms\": \"155500\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"055500\",\r\n            \"open\": \"194.2100\",\r\n            \"high\": \"194.8800\",\r\n            \"low\": \"194.2100\",\r\n            \"last\": \"194.8799\",\r\n            \"evol\": \"1848035\",\r\n            \"eamt\": \"359756004\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240221\",\r\n            \"xymd\": \"20240221\",\r\n            \"xhms\": \"155000\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"055000\",\r\n            \"open\": \"194.2000\",\r\n            \"high\": \"194.4300\",\r\n            \"low\": \"193.9500\",\r\n            \"last\": \"194.2100\",\r\n            \"evol\": \"1120789\",\r\n            \"eamt\": \"217632045\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240221\",\r\n            \"xymd\": \"20240221\",\r\n            \"xhms\": \"154500\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"054500\",\r\n            \"open\": \"194.4650\",\r\n            \"high\": \"194.4800\",\r\n            \"low\": \"194.0350\",\r\n            \"last\": \"194.2000\",\r\n            \"evol\": \"985171\",\r\n            \"eamt\": \"191345989\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240221\",\r\n            \"xymd\": \"20240221\",\r\n            \"xhms\": \"154000\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"054000\",\r\n            \"open\": \"194.5231\",\r\n            \"high\": \"194.6700\",\r\n            \"low\": \"194.2600\",\r\n            \"last\": \"194.4650\",\r\n            \"evol\": \"967078\",\r\n            \"eamt\": \"188061926\"\r\n        },\r\n        {\r\n            \"tymd\": \"20240221\",\r\n            \"xymd\": \"20240221\",\r\n            \"xhms\": \"153500\",\r\n            \"kymd\": \"20240222\",\r\n            \"khms\": \"053500\",\r\n            \"open\": \"193.7400\",\r\n            \"high\": \"194.5500\",\r\n            \"low\": \"193.7200\",\r\n            \"last\": \"194.5231\",\r\n            \"evol\": \"1176735\",\r\n            \"eamt\": \"228544",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

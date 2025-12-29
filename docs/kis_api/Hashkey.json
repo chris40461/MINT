@@ -1,0 +1,266 @@
+{
+  "sheet_name": "Hashkey",
+  "row_count": 25,
+  "columns": [
+    "Hashkey",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "Hashkey": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "메뉴 위치",
+      "Column_1": "OAuth인증",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "API 명",
+      "Column_1": "Hashkey",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "API ID",
+      "Column_1": "Hashkey",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "실전 TR_ID",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "모의 TR_ID",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "URL 명",
+      "Column_1": "/uapi/hashkey",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "개요",
+      "Column_1": "해쉬키(Hashkey)는 보안을 위한 요소로 사용자가 보낸 요청 값을 중간에 탈취하여 변조하지 못하도록 하는데 사용됩니다.\r\n해쉬키를 사용하면 POST로 보내는 요청(주로 주문/정정/취소 API 해당)의 body 값을 사전에 암호화시킬 수 있습니다.\r\n해쉬키는 비필수값으로 사용하지 않아도 POST API 호출은 가능합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "Hashkey": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "Hashkey": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "Hashkey": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "Hashkey": "Request Body",
+      "Column_1": "JsonBody",
+      "Column_2": "요청값",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "POST로 보낼 body값\r\n\r\nex)\r\ndatas = {\r\n    \"CANO\": '00000000',\r\n    \"ACNT_PRDT_CD\": \"01\",\r\n    \"OVRS_EXCG_CD\": \"SHAA\"\r\n }",
+      "Column_7": null
+    },
+    {
+      "Hashkey": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "Response Body",
+      "Column_1": "JsonBody",
+      "Column_2": "요청값",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "요청한 JsonBody",
+      "Column_7": null
+    },
+    {
+      "Hashkey": null,
+      "Column_1": "HASH",
+      "Column_2": "해쉬키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "256",
+      "Column_6": "[POST API 대상] Client가 요청하는 Request Body를 hashkey api로 생성한 Hash값\r\n* API문서 > hashkey 참조",
+      "Column_7": null
+    },
+    {
+      "Hashkey": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"ORD_PRCS_DVSN_CD\": \"02\",\r\n\t\"CANO\": \"계좌번호\",\r\n\t\"ACNT_PRDT_CD\": \"03\",\r\n\t\"SLL_BUY_DVSN_CD\": \"02\",\r\n\t\"SHTN_PDNO\": \"101S06\",\r\n\t\"ORD_QTY\": \"1\",\r\n\t\"UNIT_PRICE\": \"370\",\r\n\t\"NMPR_TYPE_CD\": \"\",\r\n\t\"KRX_NMPR_CNDT_CD\": \"\",\r\n\t\"CTAC_TLNO\": \"\",\r\n\t\"FUOP_ITEM_DVSN_CD\": \"\",\r\n\t\"ORD_DVSN_CD\": \"02\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "Hashkey": "Response Example",
+      "Column_1": "{\r\n  \"BODY\": {\r\n    \"ORD_PRCS_DVSN_CD\": \"02\",\r\n    \"CANO\": \"계좌번호\",\r\n    \"ACNT_PRDT_CD\": \"03\",\r\n    \"SLL_BUY_DVSN_CD\": \"02\",\r\n    \"SHTN_PDNO\": \"101S06\",\r\n    \"ORD_QTY\": \"1\",\r\n    \"UNIT_PRICE\": \"370\",\r\n    \"NMPR_TYPE_CD\": \"\",\r\n    \"KRX_NMPR_CNDT_CD\": \"\",\r\n    \"CTAC_TLNO\": \"\",\r\n    \"FUOP_ITEM_DVSN_CD\": \"\",\r\n    \"ORD_DVSN_CD\": \"02\"\r\n  },\r\n  \"HASH\": \"8b84068222a49302f7ef58226d90403f62e216828f8103465f900de0e7be2f0f\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

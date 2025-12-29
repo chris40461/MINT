@@ -1,0 +1,566 @@
+{
+  "sheet_name": "ELW 신규상장종목",
+  "row_count": 55,
+  "columns": [
+    "ELW 신규상장종목",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "ELW 신규상장종목": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "메뉴 위치",
+      "Column_1": "[국내주식] ELW 시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "API 명",
+      "Column_1": "ELW 신규상장종목",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "API ID",
+      "Column_1": "국내주식-181",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "실전 TR_ID",
+      "Column_1": "FHKEW154800C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "URL 명",
+      "Column_1": "/uapi/elw/v1/quotations/newly-listed",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "개요",
+      "Column_1": "ELW 신규상장종목 API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0297] ELW 신규상장종목 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKEW154800C0",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건시장분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (W)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "FID_COND_SCR_DIV_CODE",
+      "Column_2": "조건화면분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "Unique key(11548)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "FID_DIV_CLS_CODE",
+      "Column_2": "분류구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "전체(02), 콜(00), 풋(01)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "FID_UNAS_INPUT_ISCD",
+      "Column_2": "기초자산입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "'ex) 000000(전체), 2001(코스피200)\r\n, 3003(코스닥150), 005930(삼성전자) '",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "FID_INPUT_ISCD_2",
+      "Column_2": "입력종목코드2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "'00003(한국투자증권), 00017(KB증권),\r\n 00005(미래에셋증권)'",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "FID_INPUT_DATE_1",
+      "Column_2": "입력날짜1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "날짜 (ex) 20240402)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "FID_BLNC_CLS_CODE",
+      "Column_2": "결재방법",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0(전체), 1(일반), 2(조기종료)",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "stck_lstn_date",
+      "Column_2": "주식상장일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "elw_kor_isnm",
+      "Column_2": "ELW한글종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "elw_shrn_iscd",
+      "Column_2": "ELW단축종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "unas_isnm",
+      "Column_2": "기초자산종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "pblc_co_name",
+      "Column_2": "발행회사명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "lstn_stcn",
+      "Column_2": "상장주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "acpr",
+      "Column_2": "행사가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "stck_last_tr_date",
+      "Column_2": "주식최종거래일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": null,
+      "Column_1": "elw_ko_barrier",
+      "Column_2": "조기종료발생기준가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:W\r\nFID_COND_SCR_DIV_CODE:11548\r\nFID_DIV_CLS_CODE:02\r\nFID_UNAS_INPUT_ISCD:000000\r\nFID_INPUT_ISCD_2:00003\r\nFID_INPUT_DATE_1:20240410\r\nFID_BLNG_CLS_CODE:0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 신규상장종목": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국K924HLB콜\",\r\n            \"elw_shrn_iscd\": \"57K924\",\r\n            \"unas_isnm\": \"HLB\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"7100000\",\r\n            \"acpr\": \"78000.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국K925HMM콜\",\r\n            \"elw_shrn_iscd\": \"57K925\",\r\n            \"unas_isnm\": \"HMM\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"6700000\",\r\n            \"acpr\": \"20000.00\",\r\n            \"stck_last_tr_date\": \"20240912\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국K926HMM콜\",\r\n            \"elw_shrn_iscd\": \"57K926\",\r\n            \"unas_isnm\": \"HMM\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"5600000\",\r\n            \"acpr\": \"20000.00\",\r\n            \"stck_last_tr_date\": \"20241212\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KB45HMM풋\",\r\n            \"elw_shrn_iscd\": \"57KB45\",\r\n            \"unas_isnm\": \"HMM\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"6900000\",\r\n            \"acpr\": \"17700.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국K927KB금융콜\",\r\n            \"elw_shrn_iscd\": \"57K927\",\r\n            \"unas_isnm\": \"KB금융\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"24400000\",\r\n            \"acpr\": \"73600.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국K928KB금융콜\",\r\n            \"elw_shrn_iscd\": \"57K928\",\r\n            \"unas_isnm\": \"KB금융\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"22300000\",\r\n            \"acpr\": \"73600.00\",\r\n            \"stck_last_tr_date\": \"20240912\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국K929KB금융콜\",\r\n            \"elw_shrn_iscd\": \"57K929\",\r\n            \"unas_isnm\": \"KB금융\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"18200000\",\r\n            \"acpr\": \"72000.00\",\r\n            \"stck_last_tr_date\": \"20240711\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국K930KB금융콜\",\r\n            \"elw_shrn_iscd\": \"57K930\",\r\n            \"unas_isnm\": \"KB금융\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"20000000\",\r\n            \"acpr\": \"70500.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국K931KB금융콜\",\r\n            \"elw_shrn_iscd\": \"57K931\",\r\n            \"unas_isnm\": \"KB금융\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"15700000\",\r\n            \"acpr\": \"69000.00\",\r\n            \"stck_last_tr_date\": \"20240711\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KB46KB금융풋\",\r\n            \"elw_shrn_iscd\": \"57KB46\",\r\n            \"unas_isnm\": \"KB금융\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"11200000\",\r\n            \"acpr\": \"65000.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KB47KB금융풋\",\r\n            \"elw_shrn_iscd\": \"57KB47\",\r\n            \"unas_isnm\": \"KB금융\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"12000000\",\r\n            \"acpr\": \"63700.00\",\r\n            \"stck_last_tr_date\": \"20240711\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KB98KOSPI200풋\",\r\n            \"elw_shrn_iscd\": \"57KB98\",\r\n            \"unas_isnm\": \"KOSPI200\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"7000000\",\r\n            \"acpr\": \"400.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KB99KOSPI200풋\",\r\n            \"elw_shrn_iscd\": \"57KB99\",\r\n            \"unas_isnm\": \"KOSPI200\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"7000000\",\r\n            \"acpr\": \"395.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KC00KOSPI200풋\",\r\n            \"elw_shrn_iscd\": \"57KC00\",\r\n            \"unas_isnm\": \"KOSPI200\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"7000000\",\r\n            \"acpr\": \"390.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KC01KOSPI200풋\",\r\n            \"elw_shrn_iscd\": \"57KC01\",\r\n            \"unas_isnm\": \"KOSPI200\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"9000000\",\r\n            \"acpr\": \"387.50\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KC02KOSPI200풋\",\r\n            \"elw_shrn_iscd\": \"57KC02\",\r\n            \"unas_isnm\": \"KOSPI200\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"10000000\",\r\n            \"acpr\": \"385.00\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_lstn_date\": \"20240320\",\r\n            \"elw_kor_isnm\": \"한국KC03KOSPI200풋\",\r\n            \"elw_shrn_iscd\": \"57KC03\",\r\n            \"unas_isnm\": \"KOSPI200\",\r\n            \"pblc_co_name\": \"한국투자증권(주)\",\r\n            \"lstn_stcn\": \"9000000\",\r\n            \"acpr\": \"382.50\",\r\n            \"stck_last_tr_date\": \"20240613\",\r\n            \"elw_ko_barrier\": \"0.00\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

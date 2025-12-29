@@ -1,0 +1,636 @@
+{
+  "sheet_name": "해외선물 체결추이(월간)",
+  "row_count": 62,
+  "columns": [
+    "해외선물 체결추이(월간)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외선물 체결추이(월간)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "메뉴 위치",
+      "Column_1": "[해외선물옵션] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "API 명",
+      "Column_1": "해외선물 체결추이(월간)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "API ID",
+      "Column_1": "해외선물-020",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "실전 TR_ID",
+      "Column_1": "HHDFC55020300",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "URL 명",
+      "Column_1": "/uapi/overseas-futureoption/v1/quotations/monthly-ccnl",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "개요",
+      "Column_1": "해외선물옵션 체결추이(월간) API입니다. \r\n한국투자 HTS(eFriend Force) &gt; [5502] 해외선물옵션 체결추이 화면에서 \"월간\" 선택 시 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n(중요) 해외선물시세 출력값을 해석하실 때 ffcode.mst(해외선물종목마스터 파일)에 있는 sCalcDesz(계산 소수점) 값을 활용하셔야 정확한 값을 받아오실 수 있습니다.\r\n\r\n- ffcode.mst(해외선물종목마스터 파일) 다운로드 방법 2가지\r\n  1) 한국투자증권 Github의 파이썬 샘플코드를 사용하여 mst 파일 다운로드 및 excel 파일로 정제   \r\n     https://github.com/koreainvestment/open-trading-api/blob/main/stocks_info/overseas_future_code.py\r\n   \r\n  2) 혹은 포럼 - FAQ - 종목정보 다운로드(해외) - 해외지수선물 클릭하셔서 ffcode.mst(해외선물종목마스터 파일)을 다운로드 후\r\n     Github의 헤더정보(https://github.com/koreainvestment/open-trading-api/blob/main/stocks_info/해외선물정보.h)를 참고하여 해석\r\n\r\n- 소수점 계산 시, ffcode.mst(해외선물종목마스터 파일)의 sCalcDesz(계산 소수점) 값 참고\r\n  EX) ffcode.mst 파일의 sCalcDesz(계산 소수점) 값\r\n       품목코드 6A 계산소수점 -4 → 시세 6882.5 수신 시 0.68825 로 해석\r\n       품목코드 GC 계산소수점 -1 → 시세 19225 수신 시 1922.5 로 해석\r\n\r\n※ CME, SGX 거래소 API시세는 유료시세로 HTS/MTS에서 유료가입 후 익일부터 시세 이용 가능합니다.\r\n포럼 &gt; FAQ &gt; 해외선물옵션 API 유료시세 신청방법(CME, SGX 거래소)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHDFC55020300",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "Request Query Parameter",
+      "Column_1": "SRS_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "예) 6AM24",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "EXCH_CD",
+      "Column_2": "거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "예) CME",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "START_DATE_TIME",
+      "Column_2": "조회시작일시",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "CLOSE_DATE_TIME",
+      "Column_2": "조회종료일시",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "예) 20240402",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "QRY_TP",
+      "Column_2": "조회구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "Q : 최초조회시 , P : 다음키(INDEX_KEY) 입력하여 조회시 ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "QRY_CNT",
+      "Column_2": "요청개수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "예) 30 (최대 40)",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "QRY_GAP",
+      "Column_2": "묶음개수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "공백 (분만 사용)",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "INDEX_KEY",
+      "Column_2": "이전조회KEY",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "30",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "tret_cnt",
+      "Column_2": "자료개수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "last_n_cnt",
+      "Column_2": "N틱최종개수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "index_key",
+      "Column_2": "이전조회KEY",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "30",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "data_date",
+      "Column_2": "일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "data_time",
+      "Column_2": "시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "open_price",
+      "Column_2": "시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "high_price",
+      "Column_2": "고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "low_price",
+      "Column_2": "저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "last_price",
+      "Column_2": "체결가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "last_qntt",
+      "Column_2": "체결수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "vol",
+      "Column_2": "누적거래수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "prev_diff_flag",
+      "Column_2": "전일대비구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "prev_diff_price",
+      "Column_2": "전일대비가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": null,
+      "Column_1": "prev_diff_rate",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "Request Example (Python)",
+      "Column_1": "SRS_CD:6AM24\r\nEXCH_CD:CME\r\nSTART_DATE_TIME:\r\nCLOSE_DATE_TIME:20240423\r\nQRY_TP:\r\nQRY_CNT:30\r\nQRY_GAP:\r\nINDEX_KEY:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물 체결추이(월간)": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"ret_cnt\": \"0013\",\r\n        \"last_n_cnt\": \"\",\r\n        \"index_key\": \"\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"data_date\": \"20230401\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6770.0\",\r\n            \"high_price\": \"         6770.0\",\r\n            \"low_price\": \"         6770.0\",\r\n            \"last_price\": \"         6770.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"3\",\r\n            \"prev_diff_flag\": \"3\",\r\n            \"prev_diff_price\": \"      0.0000000\",\r\n            \"prev_diff_rate\": \"      0.00\"\r\n        },\r\n        {\r\n            \"data_date\": \"20230501\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6795.0\",\r\n            \"high_price\": \"         6800.0\",\r\n            \"low_price\": \"         6620.0\",\r\n            \"last_price\": \"         6620.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"        16\",\r\n            \"prev_diff_flag\": \"5\",\r\n            \"prev_diff_price\": \"    150.0000000\",\r\n            \"prev_diff_rate\": \"     -2.22\"\r\n        },\r\n        {\r\n            \"data_date\": \"20230601\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6809.5\",\r\n            \"high_price\": \"         6817.0\",\r\n            \"low_price\": \"         6692.0\",\r\n            \"last_price\": \"         6692.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"        25\",\r\n            \"prev_diff_flag\": \"2\",\r\n            \"prev_diff_price\": \"     72.0000000\",\r\n            \"prev_diff_rate\": \"      1.09\"\r\n        },\r\n        {\r\n            \"data_date\": \"20230701\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6840.5\",\r\n            \"high_price\": \"         6840.5\",\r\n            \"low_price\": \"         6840.0\",\r\n            \"last_price\": \"         6840.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"5\",\r\n            \"prev_diff_flag\": \"2\",\r\n            \"prev_diff_price\": \"    148.0000000\",\r\n            \"prev_diff_rate\": \"      2.21\"\r\n        },\r\n        {\r\n            \"data_date\": \"20230801\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6702.0\",\r\n            \"high_price\": \"         6702.0\",\r\n            \"low_price\": \"         6594.5\",\r\n            \"last_price\": \"         6594.5\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"        16\",\r\n            \"prev_diff_flag\": \"5\",\r\n            \"prev_diff_price\": \"    245.5000000\",\r\n            \"prev_diff_rate\": \"     -3.59\"\r\n        },\r\n        {\r\n            \"data_date\": \"20230901\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6535.0\",\r\n            \"high_price\": \"         6558.5\",\r\n            \"low_price\": \"         6430.0\",\r\n            \"last_price\": \"         6450.5\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"        55\",\r\n            \"prev_diff_flag\": \"5\",\r\n            \"prev_diff_price\": \"    144.0000000\",\r\n            \"prev_diff_rate\": \"     -2.18\"\r\n        },\r\n        {\r\n            \"data_date\": \"20231001\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6480.5\",\r\n            \"high_price\": \"         6480.5\",\r\n            \"low_price\": \"         6345.0\",\r\n            \"last_price\": \"         6366.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"        83\",\r\n            \"prev_diff_flag\": \"5\",\r\n            \"prev_diff_price\": \"     84.5000000\",\r\n            \"prev_diff_rate\": \"     -1.31\"\r\n        },\r\n        {\r\n            \"data_date\": \"20231101\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6460.5\",\r\n            \"high_price\": \"         6675.0\",\r\n            \"low_price\": \"         6395.0\",\r\n            \"last_price\": \"         6640.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"       532\",\r\n            \"prev_diff_flag\": \"2\",\r\n            \"prev_diff_price\": \"    274.0000000\",\r\n            \"prev_diff_rate\": \"      4.30\"\r\n        },\r\n        {\r\n            \"data_date\": \"20231201\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6642.0\",\r\n            \"high_price\": \"         6900.0\",\r\n            \"low_price\": \"         6565.0\",\r\n            \"last_price\": \"         6858.5\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"      1914\",\r\n            \"prev_diff_flag\": \"2\",\r\n            \"prev_diff_price\": \"    218.5000000\",\r\n            \"prev_diff_rate\": \"      3.29\"\r\n        },\r\n        {\r\n            \"data_date\": \"20240101\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6841.0\",\r\n            \"high_price\": \"         6864.5\",\r\n            \"low_price\": \"         6556.0\",\r\n            \"last_price\": \"         6591.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"      2302\",\r\n            \"prev_diff_flag\": \"5\",\r\n            \"prev_diff_price\": \"    267.5000000\",\r\n            \"prev_diff_rate\": \"     -3.90\"\r\n        },\r\n        {\r\n            \"data_date\": \"20240201\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6588.0\",\r\n            \"high_price\": \"         6629.0\",\r\n            \"low_price\": \"         6469.0\",\r\n            \"last_price\": \"         6519.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"      6753\",\r\n            \"prev_diff_flag\": \"5\",\r\n            \"prev_diff_price\": \"     72.0000000\",\r\n            \"prev_diff_rate\": \"     -1.09\"\r\n        },\r\n        {\r\n            \"data_date\": \"20240301\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6517.5\",\r\n            \"high_price\": \"         6686.5\",\r\n            \"low_price\": \"        0.66235\",\r\n            \"last_price\": \"           6530\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"    781551\",\r\n            \"prev_diff_flag\": \"2\",\r\n            \"prev_diff_price\": \"     11.0000000\",\r\n            \"prev_diff_rate\": \"      0.17\"\r\n        },\r\n        {\r\n            \"data_date\": \"20240401\",\r\n            \"data_time\": \"\",\r\n            \"open_price\": \"         6531.5\",\r\n            \"high_price\": \"         6657.5\",\r\n            \"low_price\": \"         6373.0\",\r\n            \"last_price\": \"         6460.0\",\r\n            \"last_qntt\": \"\",\r\n            \"vol\": \"   1692383\",\r\n            \"prev_diff_flag\": \"5\",\r\n            \"prev_diff_price\": \"     70.0000000\",\r\n            \"prev_diff_rate\": \"     -1.07\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

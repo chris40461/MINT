@@ -1,0 +1,766 @@
+{
+  "sheet_name": "해외속보(제목)",
+  "row_count": 75,
+  "columns": [
+    "해외속보(제목)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외속보(제목)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "메뉴 위치",
+      "Column_1": "[해외주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "API 명",
+      "Column_1": "해외속보(제목)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "API ID",
+      "Column_1": "해외주식-055",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "실전 TR_ID",
+      "Column_1": "FHKST01011801",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "URL 명",
+      "Column_1": "/uapi/overseas-price/v1/quotations/brknews-title",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "개요",
+      "Column_1": "해외속보(제목) API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [7704] 해외속보 화면 의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n최대 100건까지 조회 가능합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKST01011801",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "Request Query Parameter",
+      "Column_1": "FID_NEWS_OFER_ENTP_CODE",
+      "Column_2": "뉴스제공업체코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "뉴스제공업체구분=>0:전체조회",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "FID_COND_MRKT_CLS_CODE",
+      "Column_2": "조건시장구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "FID_TITL_CNTT",
+      "Column_2": "제목내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "132",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "FID_INPUT_DATE_1",
+      "Column_2": "입력날짜1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "FID_INPUT_HOUR_1",
+      "Column_2": "입력시간1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "FID_RANK_SORT_CLS_CODE",
+      "Column_2": "순위정렬구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "FID_INPUT_SRNO",
+      "Column_2": "입력일련번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "FID_COND_SCR_DIV_CODE",
+      "Column_2": "조건화면분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "화면번호:11801",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "cntt_usiq_srno",
+      "Column_2": "내용조회용일련번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "news_ofer_entp_code",
+      "Column_2": "뉴스제공업체코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "data_dt",
+      "Column_2": "작성일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "data_tm",
+      "Column_2": "작성시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "hts_pbnt_titl_cntt",
+      "Column_2": "HTS공시제목내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "400",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "news_lrdv_code",
+      "Column_2": "뉴스대구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "dorg",
+      "Column_2": "자료원",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd1",
+      "Column_2": "종목코드1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd2",
+      "Column_2": "종목코드2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd3",
+      "Column_2": "종목코드3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd4",
+      "Column_2": "종목코드4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd5",
+      "Column_2": "종목코드5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd6",
+      "Column_2": "종목코드6",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd7",
+      "Column_2": "종목코드7",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd8",
+      "Column_2": "종목코드8",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd9",
+      "Column_2": "종목코드9",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "iscd10",
+      "Column_2": "종목코드10",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm1",
+      "Column_2": "한글종목명1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm2",
+      "Column_2": "한글종목명2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm3",
+      "Column_2": "한글종목명3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm4",
+      "Column_2": "한글종목명4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm5",
+      "Column_2": "한글종목명5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm6",
+      "Column_2": "한글종목명6",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm7",
+      "Column_2": "한글종목명7",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm8",
+      "Column_2": "한글종목명8",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm9",
+      "Column_2": "한글종목명9",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": null,
+      "Column_1": "kor_isnm10",
+      "Column_2": "한글종목명10",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "Request Example (Python)",
+      "Column_1": "FID_NEWS_OFER_ENTP_CODE:0\r\nFID_COND_MRKT_CLS_CODE:00\r\nFID_INPUT_ISCD:\r\nFID_TITL_CNTT:\r\nFID_INPUT_DATE_1:\r\nFID_INPUT_HOUR_1:\r\nFID_RANK_SORT_CLS_CODE:\r\nFID_INPUT_SRNO:\r\nFID_COND_SCR_DIV_CODE:11801",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외속보(제목)": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"cntt_usiq_srno\": \"2024052817340622954\",\r\n            \"news_ofer_entp_code\": \"U\",\r\n            \"data_dt\": \"20240528\",\r\n            \"data_tm\": \"173406\",\r\n            \"hts_pbnt_titl_cntt\": \"“시진핑, 기업인들 만나 신에너지 분야 과잉투자 경고”\",\r\n            \"news_lrdv_code\": \"38\",\r\n            \"dorg\": \"서울경제\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024052817332725534\",\r\n            \"news_ofer_entp_code\": \"6\",\r\n            \"data_dt\": \"20240528\",\r\n            \"data_tm\": \"173327\",\r\n            \"hts_pbnt_titl_cntt\": \"군부대 찾은 라이칭더, 中포위훈련 언급하며 \\\"모두 잘 대응\\\"\",\r\n            \"news_lrdv_code\": \"11\",\r\n            \"dorg\": \"연합뉴스\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024052817332721133\",\r\n            \"news_ofer_entp_code\": \"6\",\r\n            \"data_dt\": \"20240528\",\r\n            \"data_tm\": \"173327\",\r\n            \"hts_pbnt_titl_cntt\": \"적십자 \\\"기후변화로 '극단적 더위' 일수 1년 새 26일 증가\\\"\",\r\n            \"news_lrdv_code\": \"11\",\r\n            \"dorg\": \"연합뉴스\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024052817312094823\",\r\n            \"news_ofer_entp_code\": \"6\",\r\n            \"data_dt\": \"20240528\",\r\n            \"data_tm\": \"173120\",\r\n            \"hts_pbnt_titl_cntt\": \"미국제재 우려했나…중국 하이크비전, 러시아 사업 중단설\",\r\n            \"news_lrdv_code\": \"11\",\r\n            \"dorg\": \"연합뉴스\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024052817304250020\",\r\n            \"news_ofer_entp_code\": \"8\",\r\n            \"data_dt\": \"20240528\",\r\n            \"data_tm\": \"173042\",\r\n            \"hts_pbnt_titl_cntt\": \"[유럽개장]장 초반 혼조세…獨 0.25%↑\",\r\n            \"news_lrdv_code\": \"10\",\r\n            \"dorg\": \"아시아 경제\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },\r\n        {\r\n            \"cntt_usiq_srno\": \"2024052817264510344\",\r\n            \"news_ofer_entp_code\": \"A\",\r\n            \"data_dt\": \"20240528\",\r\n            \"data_tm\": \"172645\",\r\n            \"hts_pbnt_titl_cntt\": \"122m 협곡 아래로 떨어졌는데 멀쩡하디니…기적 일어난 美 10대\",\r\n            \"news_lrdv_code\": \"10\",\r\n            \"dorg\": \"매일경제\",\r\n            \"iscd1\": \"\",\r\n            \"iscd2\": \"\",\r\n            \"iscd3\": \"\",\r\n            \"iscd4\": \"\",\r\n            \"iscd5\": \"\",\r\n            \"iscd6\": \"\",\r\n            \"iscd7\": \"\",\r\n            \"iscd8\": \"\",\r\n            \"iscd9\": \"\",\r\n            \"iscd10\": \"\",\r\n            \"kor_isnm1\": \" \",\r\n            \"kor_isnm2\": \"\",\r\n            \"kor_isnm3\": \"\",\r\n            \"kor_isnm4\": \"\",\r\n            \"kor_isnm5\": \"\",\r\n            \"kor_isnm6\": \"\",\r\n            \"kor_isnm7\": \"\",\r\n            \"kor_isnm8\": \"\",\r\n            \"kor_isnm9\": \"\",\r\n            \"kor_isnm10\": \"\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

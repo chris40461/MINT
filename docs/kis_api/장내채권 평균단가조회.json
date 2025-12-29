@@ -1,0 +1,986 @@
+{
+  "sheet_name": "장내채권 평균단가조회",
+  "row_count": 97,
+  "columns": [
+    "장내채권 평균단가조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "장내채권 평균단가조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "메뉴 위치",
+      "Column_1": "[장내채권] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "API 명",
+      "Column_1": "장내채권 평균단가조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "API ID",
+      "Column_1": "국내주식-158",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "실전 TR_ID",
+      "Column_1": "CTPF2005R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "URL 명",
+      "Column_1": "/uapi/domestic-bond/v1/quotations/avg-unit",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "개요",
+      "Column_1": "장내채권 평균단가조회 API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [7216] 채권 발행정보 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다. ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTPF2005R",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "Request Query Parameter",
+      "Column_1": "INQR_STRT_DT",
+      "Column_2": "조회시작일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "INQR_END_DT",
+      "Column_2": "조회종료일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "공백: 전체,  특정종목 조회시 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "PRDT_TYPE_CD",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "Unique key(302)",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "VRFC_KIND_CD",
+      "Column_2": "검증종류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "Unique key(00)",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "CTX_AREA_NK30",
+      "Column_2": "연속조회키30",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "30",
+      "Column_6": "공백 ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "CTX_AREA_FK100",
+      "Column_2": "연속조회검색조건100",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": "공백 ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "evlu_dt",
+      "Column_2": "평가일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "245",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "202",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kis_unpr",
+      "Column_2": "한국신용평가단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kbp_unpr",
+      "Column_2": "한국채권평가단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "500",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "nice_evlu_unpr",
+      "Column_2": "한국신용정보평가단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "fnp_unpr",
+      "Column_2": "에프앤자산평가단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "202",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "avg_evlu_unpr",
+      "Column_2": "평균평가단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "500",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kis_crdt_grad_text",
+      "Column_2": "한국신용평가신용등급내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kbp_crdt_grad_text",
+      "Column_2": "한국채권평가신용등급내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "202",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "nice_crdt_grad_text",
+      "Column_2": "한국신용정보신용등급내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "fnp_crdt_grad_text",
+      "Column_2": "에프앤자산평가신용등급내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "500",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "chng_yn",
+      "Column_2": "변경여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kis_erng_rt",
+      "Column_2": "한국신용평가수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "202",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kbp_erng_rt",
+      "Column_2": "한국채권평가수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "nice_evlu_erng_rt",
+      "Column_2": "한국신용정보평가수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "500",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "fnp_erng_rt",
+      "Column_2": "에프앤자산평가수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "179",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "avg_evlu_erng_rt",
+      "Column_2": "평균평가수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "202",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kis_rf_unpr",
+      "Column_2": "한국신용평가RF단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kbp_rf_unpr",
+      "Column_2": "한국채권평가RF단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "nice_evlu_rf_unpr",
+      "Column_2": "한국신용정보평가RF단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "avg_evlu_rf_unpr",
+      "Column_2": "평균평가RF단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "evlu_dt",
+      "Column_2": "평가일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kis_evlu_amt",
+      "Column_2": "한국신용평가평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kbp_evlu_amt",
+      "Column_2": "한국채권평가평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "nice_evlu_amt",
+      "Column_2": "한국신용정보평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "fnp_evlu_amt",
+      "Column_2": "에프앤자산평가평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "avg_evlu_amt",
+      "Column_2": "평균평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "chng_yn",
+      "Column_2": "변경여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "output3",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "evlu_dt",
+      "Column_2": "평가일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "236",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kis_crcy_cd",
+      "Column_2": "한국신용평가통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kis_evlu_unit_pric",
+      "Column_2": "한국신용평가평가단위가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "236",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kis_evlu_pric",
+      "Column_2": "한국신용평가평가가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kbp_crcy_cd",
+      "Column_2": "한국채권평가통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kbp_evlu_unit_pric",
+      "Column_2": "한국채권평가평가단위가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "236",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "kbp_evlu_pric",
+      "Column_2": "한국채권평가평가가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "nice_crcy_cd",
+      "Column_2": "한국신용정보통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "nice_evlu_unit_pric",
+      "Column_2": "한국신용정보평가단위가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "236",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "nice_evlu_pric",
+      "Column_2": "한국신용정보평가가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "avg_evlu_unit_pric",
+      "Column_2": "평균평가단위가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "avg_evlu_pric",
+      "Column_2": "평균평가가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": null,
+      "Column_1": "chng_yn",
+      "Column_2": "변경여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "Request Example (Python)",
+      "Column_1": "INQR_STRT_DT:20240101\r\nINQR_END_DT:20240425\r\nPDNO:KR2033022D33\r\nPRDT_TYPE_CD:302\r\nVRFC_KIND_CD:00\r\nCTX_AREA_NK30:\r\nCTX_AREA_FK100:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 평균단가조회": "Response Example",
+      "Column_1": "{\r\n    \"ctx_area_nk30\": \"20240406!^KR2033022D33!^302   \",\r\n    \"ctx_area_fk100\": \"20240101!^20240425!^KR2033022D33!^302!^00                                                           \",\r\n    \"output1\": [\r\n        {\r\n            \"evlu_dt\": \"20240425\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9745.69000000\",\r\n            \"kbp_unpr\": \"9760.39000000\",\r\n            \"nice_evlu_unpr\": \"9767.78000000\",\r\n            \"fnp_unpr\": \"9760.76\",\r\n            \"avg_evlu_unpr\": \"9758.65000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.87000000\",\r\n            \"kbp_erng_rt\": \"3.83000000\",\r\n            \"nice_evlu_erng_rt\": \"3.810000000\",\r\n            \"fnp_erng_rt\": \"3.82900000\",\r\n            \"avg_evlu_erng_rt\": \"3.83480\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240424\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9757.62000000\",\r\n            \"kbp_unpr\": \"9771.98000000\",\r\n            \"nice_evlu_unpr\": \"9780.14000000\",\r\n            \"fnp_unpr\": \"9773.46\",\r\n            \"avg_evlu_unpr\": \"9770.80000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.83500000\",\r\n            \"kbp_erng_rt\": \"3.79600000\",\r\n            \"nice_evlu_erng_rt\": \"3.774000000\",\r\n            \"fnp_erng_rt\": \"3.79200000\",\r\n            \"avg_evlu_erng_rt\": \"3.79930\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240423\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9764.04000000\",\r\n            \"kbp_unpr\": \"9778.42000000\",\r\n            \"nice_evlu_unpr\": \"9785.84000000\",\r\n            \"fnp_unpr\": \"9779.90\",\r\n            \"avg_evlu_unpr\": \"9777.05000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.81500000\",\r\n            \"kbp_erng_rt\": \"3.77600000\",\r\n            \"nice_evlu_erng_rt\": \"3.756000000\",\r\n            \"fnp_erng_rt\": \"3.77200000\",\r\n            \"avg_evlu_erng_rt\": \"3.77980\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240422\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9753.79000000\",\r\n            \"kbp_unpr\": \"9768.17000000\",\r\n            \"nice_evlu_unpr\": \"9777.44000000\",\r\n            \"fnp_unpr\": \"9769.65\",\r\n            \"avg_evlu_unpr\": \"9767.26000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.84000000\",\r\n            \"kbp_erng_rt\": \"3.80100000\",\r\n            \"nice_evlu_erng_rt\": \"3.776000000\",\r\n            \"fnp_erng_rt\": \"3.79700000\",\r\n            \"avg_evlu_erng_rt\": \"3.80350\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240421\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9765.77000000\",\r\n            \"kbp_unpr\": \"9780.18000000\",\r\n            \"nice_evlu_unpr\": \"9789.47000000\",\r\n            \"fnp_unpr\": \"9781.66\",\r\n            \"avg_evlu_unpr\": \"9779.27000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.80500000\",\r\n            \"kbp_erng_rt\": \"3.76600000\",\r\n            \"nice_evlu_erng_rt\": \"3.741000000\",\r\n            \"fnp_erng_rt\": \"3.76200000\",\r\n            \"avg_evlu_erng_rt\": \"3.76850\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240420\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9764.79000000\",\r\n            \"kbp_unpr\": \"9779.20000000\",\r\n            \"nice_evlu_unpr\": \"9788.50000000\",\r\n            \"fnp_unpr\": \"9780.69\",\r\n            \"avg_evlu_unpr\": \"9778.29000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.80500000\",\r\n            \"kbp_erng_rt\": \"3.76600000\",\r\n            \"nice_evlu_erng_rt\": \"3.741000000\",\r\n            \"fnp_erng_rt\": \"3.76200000\",\r\n            \"avg_evlu_erng_rt\": \"3.76850\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240419\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9763.81000000\",\r\n            \"kbp_unpr\": \"9778.23000000\",\r\n            \"nice_evlu_unpr\": \"9787.53000000\",\r\n            \"fnp_unpr\": \"9779.72\",\r\n            \"avg_evlu_unpr\": \"9777.32000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.80500000\",\r\n            \"kbp_erng_rt\": \"3.76600000\",\r\n            \"nice_evlu_erng_rt\": \"3.741000000\",\r\n            \"fnp_erng_rt\": \"3.76200000\",\r\n            \"avg_evlu_erng_rt\": \"3.76850\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240418\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9782.54000000\",\r\n            \"kbp_unpr\": \"9793.65000000\",\r\n            \"nice_evlu_unpr\": \"9805.22000000\",\r\n            \"fnp_unpr\": \"9798.50\",\r\n            \"avg_evlu_unpr\": \"9794.97000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.75200000\",\r\n            \"kbp_erng_rt\": \"3.72200000\",\r\n            \"nice_evlu_erng_rt\": \"3.691000000\",\r\n            \"fnp_erng_rt\": \"3.70900000\",\r\n            \"avg_evlu_erng_rt\": \"3.71850\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240417\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9770.02000000\",\r\n            \"kbp_unpr\": \"9777.77000000\",\r\n            \"nice_evlu_unpr\": \"9791.94000000\",\r\n            \"fnp_unpr\": \"9784.10\",\r\n            \"avg_evlu_unpr\": \"9780.95000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.78300000\",\r\n            \"kbp_erng_rt\": \"3.76200000\",\r\n            \"nice_evlu_erng_rt\": \"3.724000000\",\r\n            \"fnp_erng_rt\": \"3.74500000\",\r\n            \"avg_evlu_erng_rt\": \"3.75350\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240416\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9767.18000000\",\r\n            \"kbp_unpr\": \"9774.93000000\",\r\n            \"nice_evlu_unpr\": \"9788.73000000\",\r\n            \"fnp_unpr\": \"9782.02\",\r\n            \"avg_evlu_unpr\": \"9778.21000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.78800000\",\r\n            \"kbp_erng_rt\": \"3.76700000\",\r\n            \"nice_evlu_erng_rt\": \"3.730000000\",\r\n            \"fnp_erng_rt\": \"3.74800000\",\r\n            \"avg_evlu_erng_rt\": \"3.75830\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240415\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9778.13000000\",\r\n            \"kbp_unpr\": \"9787.02000000\",\r\n            \"nice_evlu_unpr\": \"9798.98000000\",\r\n            \"fnp_unpr\": \"9794.12\",\r\n            \"avg_evlu_unpr\": \"9789.56000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.75600000\",\r\n            \"kbp_erng_rt\": \"3.73200000\",\r\n            \"nice_evlu_erng_rt\": \"3.700000000\",\r\n            \"fnp_erng_rt\": \"3.71300000\",\r\n            \"avg_evlu_erng_rt\": \"3.72530\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240414\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9795.10000000\",\r\n            \"kbp_unpr\": \"9802.13000000\",\r\n            \"nice_evlu_unpr\": \"9812.25000000\",\r\n            \"fnp_unpr\": \"9808.13\",\r\n            \"avg_evlu_unpr\": \"9804.40000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.70800000\",\r\n            \"kbp_erng_rt\": \"3.68900000\",\r\n            \"nice_evlu_erng_rt\": \"3.662000000\",\r\n            \"fnp_erng_rt\": \"3.67300000\",\r\n            \"avg_evlu_erng_rt\": \"3.68300\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240413\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9794.13000000\",\r\n            \"kbp_unpr\": \"9801.18000000\",\r\n            \"nice_evlu_unpr\": \"9811.30000000\",\r\n            \"fnp_unpr\": \"9807.17\",\r\n            \"avg_evlu_unpr\": \"9803.44000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.70800000\",\r\n            \"kbp_erng_rt\": \"3.68900000\",\r\n            \"nice_evlu_erng_rt\": \"3.662000000\",\r\n            \"fnp_erng_rt\": \"3.67300000\",\r\n            \"avg_evlu_erng_rt\": \"3.68300\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240412\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9793.17000000\",\r\n            \"kbp_unpr\": \"9800.22000000\",\r\n            \"nice_evlu_unpr\": \"9810.35000000\",\r\n            \"fnp_unpr\": \"9806.22\",\r\n            \"avg_evlu_unpr\": \"9802.49000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.70800000\",\r\n            \"kbp_erng_rt\": \"3.68900000\",\r\n            \"nice_evlu_erng_rt\": \"3.662000000\",\r\n            \"fnp_erng_rt\": \"3.67300000\",\r\n            \"avg_evlu_erng_rt\": \"3.68300\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240411\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9764.91000000\",\r\n            \"kbp_unpr\": \"9773.80000000\",\r\n            \"nice_evlu_unpr\": \"9783.16000000\",\r\n            \"fnp_unpr\": \"9778.67\",\r\n            \"avg_evlu_unpr\": \"9775.13000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.78100000\",\r\n            \"kbp_erng_rt\": \"3.75700000\",\r\n            \"nice_evlu_erng_rt\": \"3.732000000\",\r\n            \"fnp_erng_rt\": \"3.74400000\",\r\n            \"avg_evlu_erng_rt\": \"3.75350\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240410\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9793.13000000\",\r\n            \"kbp_unpr\": \"9799.81000000\",\r\n            \"nice_evlu_unpr\": \"9809.20000000\",\r\n            \"fnp_unpr\": \"9804.69\",\r\n            \"avg_evlu_unpr\": \"9801.70000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.70300000\",\r\n            \"kbp_erng_rt\": \"3.68500000\",\r\n            \"nice_evlu_erng_rt\": \"3.660000000\",\r\n            \"fnp_erng_rt\": \"3.67200000\",\r\n            \"avg_evlu_erng_rt\": \"3.68000\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240409\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9792.17000000\",\r\n            \"kbp_unpr\": \"9798.85000000\",\r\n            \"nice_evlu_unpr\": \"9808.25000000\",\r\n            \"fnp_unpr\": \"9803.74\",\r\n            \"avg_evlu_unpr\": \"9800.75000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.70300000\",\r\n            \"kbp_erng_rt\": \"3.68500000\",\r\n            \"nice_evlu_erng_rt\": \"3.660000000\",\r\n            \"fnp_erng_rt\": \"3.67200000\",\r\n            \"avg_evlu_erng_rt\": \"3.68000\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240408\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9796.84000000\",\r\n            \"kbp_unpr\": \"9802.41000000\",\r\n            \"nice_evlu_unpr\": \"9812.94000000\",\r\n            \"fnp_unpr\": \"9806.92\",\r\n            \"avg_evlu_unpr\": \"9804.77000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.68800000\",\r\n            \"kbp_erng_rt\": \"3.67300000\",\r\n            \"nice_evlu_erng_rt\": \"3.645000000\",\r\n            \"fnp_erng_rt\": \"3.66100000\",\r\n            \"avg_evlu_erng_rt\": \"3.66680\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240407\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9814.71000000\",\r\n            \"kbp_unpr\": \"9818.40000000\",\r\n            \"nice_evlu_unpr\": \"9830.10000000\",\r\n            \"fnp_unpr\": \"9822.93\",\r\n            \"avg_evlu_unpr\": \"9821.53000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.63800000\",\r\n            \"kbp_erng_rt\": \"3.62800000\",\r\n            \"nice_evlu_erng_rt\": \"3.597000000\",\r\n            \"fnp_erng_rt\": \"3.61600000\",\r\n            \"avg_evlu_erng_rt\": \"3.61980\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        },\r\n        {\r\n            \"evlu_dt\": \"20240406\",\r\n            \"pdno\": \"KR2033022D33\",\r\n            \"prdt_type_cd\": \"302\",\r\n            \"prdt_name\": \"충북지역개발채권23-03\",\r\n            \"kis_unpr\": \"9813.76000000\",\r\n            \"kbp_unpr\": \"9817.46000000\",\r\n            \"nice_evlu_unpr\": \"9829.16000000\",\r\n            \"fnp_unpr\": \"9821.99\",\r\n            \"avg_evlu_unpr\": \"9820.59000000\",\r\n            \"kis_crdt_grad_text\": \"\",\r\n            \"kbp_crdt_grad_text\": \"\",\r\n            \"nice_crdt_grad_text\": \"\",\r\n            \"fnp_crdt_grad_text\": \"\",\r\n            \"chng_yn\": \"N\",\r\n            \"kis_erng_rt\": \"3.63800000\",\r\n            \"kbp_erng_rt\": \"3.62800000\",\r\n            \"nice_evlu_erng_rt\": \"3.597000000\",\r\n            \"fnp_erng_rt\": \"3.61600000\",\r\n            \"avg_evlu_erng_rt\": \"3.61980\",\r\n            \"kis_rf_unpr\": \"0.00\",\r\n            \"kbp_rf_unpr\": \"0.00\",\r\n            \"nice_evlu_rf_unpr\": \"0.00\",\r\n            \"avg_evlu_rf_unpr\": \"0.00\"\r\n        }\r\n    ],\r\n    \"output2\": [],\r\n    \"output3\": [],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0500\",\r\n    \"msg1\": \"조회가 계속됩니다..다음버튼을 Click 하십시오.                                   \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

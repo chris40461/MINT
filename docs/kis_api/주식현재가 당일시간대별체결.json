@@ -1,0 +1,616 @@
+{
+  "sheet_name": "주식현재가 당일시간대별체결",
+  "row_count": 60,
+  "columns": [
+    "주식현재가 당일시간대별체결",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "주식현재가 당일시간대별체결": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "메뉴 위치",
+      "Column_1": "[국내주식] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "API 명",
+      "Column_1": "주식현재가 당일시간대별체결",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "API ID",
+      "Column_1": "v1_국내주식-023",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "실전 TR_ID",
+      "Column_1": "FHPST01060000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "모의 TR_ID",
+      "Column_1": "FHPST01060000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/inquire-time-itemconclusion",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "개요",
+      "Column_1": "주식현재가 당일시간대별체결 API입니다. ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST01060000",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J:KRX, NX:NXT, UN:통합",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드 (ex 005930 삼성전자)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "FID_INPUT_HOUR_1",
+      "Column_2": "입력 시간1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "입력시간",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "single",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일 대비 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "prdy_vol",
+      "Column_2": "전일 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "rprs_mrkt_kor_name",
+      "Column_2": "대표 시장 한글 명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "single",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "stck_cntg_hour",
+      "Column_2": "주식 체결 시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "stck_pbpr",
+      "Column_2": "주식 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일 대비 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "askp",
+      "Column_2": "매도호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "bidp",
+      "Column_2": "매수호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "tday_rltv",
+      "Column_2": "당일 체결강도",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "14",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": null,
+      "Column_1": "cnqn",
+      "Column_2": "체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "Request Example (Python)",
+      "Column_1": "        \"input\": {\r\n            \"fid_cond_mrkt_div_code\": \"J\",\r\n            \"fid_input_hour_1\": \"141200\",\r\n            \"fid_input_iscd\": \"000660\"\r\n        }",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 당일시간대별체결": "Response Example",
+      "Column_1": "        \"output1\": {\r\n            \"acml_vol\": \"2315529\",\r\n            \"prdy_ctrt\": \"-2.80\",\r\n            \"prdy_vol\": \"1638006\",\r\n            \"prdy_vrss\": \"-3000\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"rprs_mrkt_kor_name\": \"KOSPI200\",\r\n            \"stck_prpr\": \"104000\"\r\n        },\r\n        \"output2\": [\r\n            {\r\n                \"acml_vol\": \"1979727\",\r\n                \"askp\": \"105000\",\r\n                \"bidp\": \"104500\",\r\n                \"cnqn\": \"20\",\r\n                \"prdy_ctrt\": \"-2.34\",\r\n                \"prdy_vrss\": \"-2500\",\r\n                \"prdy_vrss_sign\": \"5\",\r\n                \"stck_cntg_hour\": \"141159\",\r\n                \"stck_prpr\": \"104500\",\r\n                \"tday_rltv\": \"42.43\"\r\n            },\r\n            {\r\n                \"acml_vol\": \"1979707\",\r\n                \"askp\": \"105000\",\r\n                \"bidp\": \"104500\",\r\n                \"cnqn\": \"4\",\r\n                \"prdy_ctrt\": \"-2.34\",\r\n                \"prdy_vrss\": \"-2500\",\r\n                \"prdy_vrss_sign\": \"5\",\r\n                \"stck_cntg_hour\": \"141158\",\r\n                \"stck_prpr\": \"104500\",\r\n                \"tday_rltv\": \"42.43\"\r\n            },\r\n....\r\n            {\r\n                \"acml_vol\": \"1979079\",\r\n                \"askp\": \"105000\",\r\n                \"bidp\": \"104500\",\r\n                \"cnqn\": \"92\",\r\n                \"prdy_ctrt\": \"-2.34\",\r\n                \"prdy_vrss\": \"-2500\",\r\n                \"prdy_vrss_sign\": \"5\",\r\n                \"stck_cntg_hour\": \"141142\",\r\n                \"stck_prpr\": \"104500\",\r\n                \"tday_rltv\": \"42.44\"\r\n            }\r\n        ],\r\n        \"rt_cd\": \"0\"",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

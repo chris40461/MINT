@@ -1,0 +1,576 @@
+{
+  "sheet_name": "ELW 투자지표추이(일별)",
+  "row_count": 56,
+  "columns": [
+    "ELW 투자지표추이(일별)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "ELW 투자지표추이(일별)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "메뉴 위치",
+      "Column_1": "[국내주식] ELW 시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "API 명",
+      "Column_1": "ELW 투자지표추이(일별)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "API ID",
+      "Column_1": "국내주식-173",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "실전 TR_ID",
+      "Column_1": "FHPEW02740200",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "URL 명",
+      "Column_1": "/uapi/elw/v1/quotations/indicator-trend-daily",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "개요",
+      "Column_1": "ELW 투자지표추이(일별) API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0274] ELW 투자지표추이 화면에서 \"일자별 비교추이\" 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다. ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPEW02740200",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "시장분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "W",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "종콕코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "ex. 57K281",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "elw_prpr",
+      "Column_2": "ELW현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "lvrg_val",
+      "Column_2": "레버리지값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "114",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "gear",
+      "Column_2": "기어링",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "tmvl_val",
+      "Column_2": "시간가치값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "132",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "invl_val",
+      "Column_2": "내재가치값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "132",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "prit",
+      "Column_2": "패리티",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "elw_oprc",
+      "Column_2": "ELW시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "elw_hgpr",
+      "Column_2": "ELW최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "elw_lwpr",
+      "Column_2": "ELW최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": null,
+      "Column_1": "apprch_rate",
+      "Column_2": "접근도",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:W\r\nFID_INPUT_ISCD:57K281",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 투자지표추이(일별)": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240503\",\r\n            \"elw_prpr\": \"40\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-5\",\r\n            \"prdy_ctrt\": \"-11.11\",\r\n            \"acml_vol\": \"1000020\",\r\n            \"lvrg_val\": \"-11.0377\",\r\n            \"gear\": \"19.45\",\r\n            \"tmvl_val\": \"18.00\",\r\n            \"invl_val\": \"22.00\",\r\n            \"prit\": \"102.82\",\r\n            \"elw_oprc\": \"40\",\r\n            \"elw_hgpr\": \"40\",\r\n            \"elw_lwpr\": \"35\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240502\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"acml_vol\": \"789280\",\r\n            \"lvrg_val\": \"-9.5810\",\r\n            \"gear\": \"17.33\",\r\n            \"tmvl_val\": \"25.00\",\r\n            \"invl_val\": \"20.00\",\r\n            \"prit\": \"102.56\",\r\n            \"elw_oprc\": \"45\",\r\n            \"elw_hgpr\": \"45\",\r\n            \"elw_lwpr\": \"35\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240430\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-5\",\r\n            \"prdy_ctrt\": \"-10.00\",\r\n            \"acml_vol\": \"62090\",\r\n            \"lvrg_val\": \"-10.0683\",\r\n            \"gear\": \"17.22\",\r\n            \"tmvl_val\": \"20.00\",\r\n            \"invl_val\": \"25.00\",\r\n            \"prit\": \"103.22\",\r\n            \"elw_oprc\": \"50\",\r\n            \"elw_hgpr\": \"50\",\r\n            \"elw_lwpr\": \"45\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },...\r\n        {\r\n            \"stck_bsop_date\": \"20240117\",\r\n            \"elw_prpr\": \"0\",\r\n            \"prdy_vrss_sign\": \"0\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"acml_vol\": \"0\",\r\n            \"lvrg_val\": \"-0.0000\",\r\n            \"gear\": \"0.00\",\r\n            \"tmvl_val\": \"-90.00\",\r\n            \"invl_val\": \"90.00\",\r\n            \"prit\": \"0.00\",\r\n            \"elw_oprc\": \"0\",\r\n            \"elw_hgpr\": \"0\",\r\n            \"elw_lwpr\": \"0\",\r\n            \"apprch_rate\": \"0.00\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

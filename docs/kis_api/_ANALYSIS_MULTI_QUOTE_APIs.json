@@ -1,0 +1,81 @@
+{
+  "finding": "KIS API에는 멀티종목 시세조회 API가 단 하나만 존재",
+  "api_details": {
+    "name": "관심종목(멀티종목) 시세조회",
+    "api_id": "국내주식-205",
+    "endpoint": "/uapi/domestic-stock/v1/quotations/intstock-multprice",
+    "tr_id_real": "FHKST11300006",
+    "tr_id_mock": "모의투자 미지원",
+    "max_stocks": 30,
+    "method": "GET"
+  },
+  "response_hour_cls_code": {
+    "description": "시간 구분 코드 - API 응답에 포함되어 현재 거래 세션을 나타냄",
+    "values": {
+      "0": "정규장 (Regular trading hours)",
+      "1": "장전 (Pre-market)",
+      "2": "장후 (After-hours)"
+    }
+  },
+  "available_time_periods": {
+    "장전_시간외": {
+      "time": "08:30~08:40",
+      "note": "이 시간대에도 API 호출 가능한지 테스트 필요",
+      "current_implementation": "미지원 (09:00 이전 차단)"
+    },
+    "장_시작_동시호가": {
+      "time": "08:30~09:00",
+      "note": "동시호가 구간 - 단일종목 API만 가능 (멀티 불가)",
+      "current_implementation": "미지원 (09:00 이전 차단)"
+    },
+    "정규시간": {
+      "time": "09:00~15:30",
+      "note": "멀티종목 API 정상 동작 (현재 구현)",
+      "current_implementation": "지원 중"
+    },
+    "장_마감_동시호가": {
+      "time": "15:20~15:30",
+      "note": "동시호가 구간 - 단일종목 API만 가능 (멀티 불가)",
+      "current_implementation": "현재 정규시간에 포함되어 있음"
+    },
+    "장후_시간외": {
+      "time": "15:40~16:00",
+      "note": "이 시간대에도 API 호출 가능한지 테스트 필요",
+      "current_implementation": "미지원 (15:30 이후 차단)"
+    },
+    "시간외_단일가": {
+      "time": "16:00~18:00",
+      "note": "이 시간대에도 API 호출 가능한지 테스트 필요",
+      "current_implementation": "미지원 (15:30 이후 차단)"
+    }
+  },
+  "alternative_single_stock_apis": {
+    "국내주식_시간외현재가": {
+      "tr_id": "FHPST02300000",
+      "endpoint": "/uapi/domestic-stock/v1/quotations/inquire-overtime-price",
+      "support": "시간외 거래 시간대",
+      "limit": "단일종목만 가능 (멀티 불가)"
+    },
+    "국내주식_시간외호가": {
+      "tr_id": "FHPST02300400",
+      "endpoint": "/uapi/domestic-stock/v1/quotations/inquire-overtime-asking-price",
+      "support": "시간외 거래 시간대",
+      "limit": "단일종목만 가능 (멀티 불가)"
+    },
+    "주식현재가_시세": {
+      "tr_id": "FHKST01010100",
+      "support": "정규시간",
+      "limit": "단일종목만 가능 (멀티 불가)"
+    }
+  },
+  "recommendation": {
+    "current_strategy": "09:00~15:30 정규시간에만 멀티종목 API 사용",
+    "reason": "625개 종목 × 30개 배치 = 21회 API 호출이 필요하므로, 단일종목 API로는 비현실적 (625회 호출 필요)",
+    "optimization_options": [
+      "정규시간 (09:00~15:30) 전용 유지 - 가장 중요한 시간대",
+      "시간외 시간대는 pykrx 폴백 사용",
+      "09:10 트리거 시점에는 정규시간이므로 문제 없음"
+    ]
+  },
+  "conclusion": "현재 구현이 최적 - KIS API에서 멀티종목 조회는 정규시간 전용 API 1개만 제공됨"
+}

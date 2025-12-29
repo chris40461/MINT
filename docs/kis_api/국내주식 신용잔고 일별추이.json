@@ -1,0 +1,706 @@
+{
+  "sheet_name": "국내주식 신용잔고 일별추이",
+  "row_count": 69,
+  "columns": [
+    "국내주식 신용잔고 일별추이",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 신용잔고 일별추이": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "메뉴 위치",
+      "Column_1": "[국내주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "API 명",
+      "Column_1": "국내주식 신용잔고 일별추이",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "API ID",
+      "Column_1": "국내주식-110",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "실전 TR_ID",
+      "Column_1": "FHPST04760000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/daily-credit-balance",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "개요",
+      "Column_1": "국내주식 신용잔고 일별추이 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0476] 국내주식 신용잔고 일별추이 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n한 번의 호출에 최대 30건 확인 가능하며, fid_input_date_1 을 입력하여 다음 조회가 가능합니다.\r\n\r\n※ 상환수량은 \"매도상환수량+현금상환수량\"의 합계 수치입니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST04760000",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "Request Query Parameter",
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (주식 J)",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "fid_cond_scr_div_code",
+      "Column_2": "화면 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "Unique key(20476)",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "fid_input_iscd",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드 (ex 005930)",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "fid_input_date_1",
+      "Column_2": "결제일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "결제일자 (ex 20240313)",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "deal_date",
+      "Column_2": "매매 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "stlm_date",
+      "Column_2": "결제 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_loan_new_stcn",
+      "Column_2": "전체 융자 신규 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 주",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_loan_rdmp_stcn",
+      "Column_2": "전체 융자 상환 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 주",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_loan_rmnd_stcn",
+      "Column_2": "전체 융자 잔고 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 주",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_loan_new_amt",
+      "Column_2": "전체 융자 신규 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 만원",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_loan_rdmp_amt",
+      "Column_2": "전체 융자 상환 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 만원",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_loan_rmnd_amt",
+      "Column_2": "전체 융자 잔고 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 만원",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_loan_rmnd_rate",
+      "Column_2": "전체 융자 잔고 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_loan_gvrt",
+      "Column_2": "전체 융자 공여율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_stln_new_stcn",
+      "Column_2": "전체 대주 신규 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 주",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_stln_rdmp_stcn",
+      "Column_2": "전체 대주 상환 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 주",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_stln_rmnd_stcn",
+      "Column_2": "전체 대주 잔고 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 주",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_stln_new_amt",
+      "Column_2": "전체 대주 신규 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 만원",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_stln_rdmp_amt",
+      "Column_2": "전체 대주 상환 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 만원",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_stln_rmnd_amt",
+      "Column_2": "전체 대주 잔고 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "단위: 만원",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_stln_rmnd_rate",
+      "Column_2": "전체 대주 잔고 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "whol_stln_gvrt",
+      "Column_2": "전체 대주 공여율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "stck_oprc",
+      "Column_2": "주식 시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "stck_hgpr",
+      "Column_2": "주식 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": null,
+      "Column_1": "stck_lwpr",
+      "Column_2": "주식 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_cond_scr_div_code\":\"20476\",\r\n\"fid_input_iscd\":\"005930\",\r\n\"fid_input_date_1\":\"20240315\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 신용잔고 일별추이": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"deal_date\": \"20240313\",\r\n            \"stck_prpr\": \"74100\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"800\",\r\n            \"prdy_ctrt\": \"1.09\",\r\n            \"acml_vol\": \"15243134\",\r\n            \"stlm_date\": \"20240315\",\r\n            \"whol_loan_new_stcn\": \"253817\",\r\n            \"whol_loan_rdmp_stcn\": \"603451\",\r\n            \"whol_loan_rmnd_stcn\": \"7155720\",\r\n            \"whol_loan_new_amt\": \"1678904\",\r\n            \"whol_loan_rdmp_amt\": \"3982732\",\r\n            \"whol_loan_rmnd_amt\": \"47321639\",\r\n            \"whol_loan_rmnd_rate\": \"0.11\",\r\n            \"whol_loan_gvrt\": \"1.65\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6861\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43104\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73700\",\r\n            \"stck_hgpr\": \"74100\",\r\n            \"stck_lwpr\": \"73500\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240312\",\r\n            \"stck_prpr\": \"73300\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"900\",\r\n            \"prdy_ctrt\": \"1.24\",\r\n            \"acml_vol\": \"13011654\",\r\n            \"stlm_date\": \"20240314\",\r\n            \"whol_loan_new_stcn\": \"357971\",\r\n            \"whol_loan_rdmp_stcn\": \"429002\",\r\n            \"whol_loan_rmnd_stcn\": \"7507526\",\r\n            \"whol_loan_new_amt\": \"2370294\",\r\n            \"whol_loan_rdmp_amt\": \"2871401\",\r\n            \"whol_loan_rmnd_amt\": \"49639923\",\r\n            \"whol_loan_rmnd_rate\": \"0.12\",\r\n            \"whol_loan_gvrt\": \"2.74\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6861\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43104\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"72600\",\r\n            \"stck_hgpr\": \"73500\",\r\n            \"stck_lwpr\": \"72100\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240311\",\r\n            \"stck_prpr\": \"72400\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-900\",\r\n            \"prdy_ctrt\": \"-1.23\",\r\n            \"acml_vol\": \"9740504\",\r\n            \"stlm_date\": \"20240313\",\r\n            \"whol_loan_new_stcn\": \"395234\",\r\n            \"whol_loan_rdmp_stcn\": \"242330\",\r\n            \"whol_loan_rmnd_stcn\": \"7586197\",\r\n            \"whol_loan_new_amt\": \"2579480\",\r\n            \"whol_loan_rdmp_amt\": \"1479272\",\r\n            \"whol_loan_rmnd_amt\": \"50194590\",\r\n            \"whol_loan_rmnd_rate\": \"0.12\",\r\n            \"whol_loan_gvrt\": \"4.05\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6861\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43104\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"72900\",\r\n            \"stck_hgpr\": \"73100\",\r\n            \"stck_lwpr\": \"72300\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240308\",\r\n            \"stck_prpr\": \"73300\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1100\",\r\n            \"prdy_ctrt\": \"1.52\",\r\n            \"acml_vol\": \"19271349\",\r\n            \"stlm_date\": \"20240312\",\r\n            \"whol_loan_new_stcn\": \"350421\",\r\n            \"whol_loan_rdmp_stcn\": \"580071\",\r\n            \"whol_loan_rmnd_stcn\": \"7433714\",\r\n            \"whol_loan_new_amt\": \"2212537\",\r\n            \"whol_loan_rdmp_amt\": \"3786566\",\r\n            \"whol_loan_rmnd_amt\": \"49096831\",\r\n            \"whol_loan_rmnd_rate\": \"0.12\",\r\n            \"whol_loan_gvrt\": \"1.81\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6861\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43104\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"72800\",\r\n            \"stck_hgpr\": \"73400\",\r\n            \"stck_lwpr\": \"72600\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240307\",\r\n            \"stck_prpr\": \"72200\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-700\",\r\n            \"prdy_ctrt\": \"-0.96\",\r\n            \"acml_vol\": \"14516963\",\r\n            \"stlm_date\": \"20240311\",\r\n            \"whol_loan_new_stcn\": \"497407\",\r\n            \"whol_loan_rdmp_stcn\": \"252707\",\r\n            \"whol_loan_rmnd_stcn\": \"7666721\",\r\n            \"whol_loan_new_amt\": \"3207234\",\r\n            \"whol_loan_rdmp_amt\": \"1692347\",\r\n            \"whol_loan_rmnd_amt\": \"50691156\",\r\n            \"whol_loan_rmnd_rate\": \"0.12\",\r\n            \"whol_loan_gvrt\": \"3.42\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"1\",\r\n            \"whol_stln_rmnd_stcn\": \"6861\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"7\",\r\n            \"whol_stln_rmnd_amt\": \"43104\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73100\",\r\n            \"stck_hgpr\": \"73300\",\r\n            \"stck_lwpr\": \"72200\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240306\",\r\n            \"stck_prpr\": \"72900\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-800\",\r\n            \"prdy_ctrt\": \"-1.09\",\r\n            \"acml_vol\": \"21547905\",\r\n            \"stlm_date\": \"20240308\",\r\n            \"whol_loan_new_stcn\": \"619036\",\r\n            \"whol_loan_rdmp_stcn\": \"176578\",\r\n            \"whol_loan_rmnd_stcn\": \"7424246\",\r\n            \"whol_loan_new_amt\": \"4069217\",\r\n            \"whol_loan_rdmp_amt\": \"1148738\",\r\n            \"whol_loan_rmnd_amt\": \"49189736\",\r\n            \"whol_loan_rmnd_rate\": \"0.12\",\r\n            \"whol_loan_gvrt\": \"2.87\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6862\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43111\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73200\",\r\n            \"stck_hgpr\": \"73500\",\r\n            \"stck_lwpr\": \"72700\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240305\",\r\n            \"stck_prpr\": \"73700\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-1200\",\r\n            \"prdy_ctrt\": \"-1.60\",\r\n            \"acml_vol\": \"19505125\",\r\n            \"stlm_date\": \"20240307\",\r\n            \"whol_loan_new_stcn\": \"422627\",\r\n            \"whol_loan_rdmp_stcn\": \"301232\",\r\n            \"whol_loan_rmnd_stcn\": \"6981765\",\r\n            \"whol_loan_new_amt\": \"2822363\",\r\n            \"whol_loan_rdmp_amt\": \"1986157\",\r\n            \"whol_loan_rmnd_amt\": \"46269511\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"2.15\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"20\",\r\n            \"whol_stln_rmnd_stcn\": \"6862\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"139\",\r\n            \"whol_stln_rmnd_amt\": \"43111\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"74600\",\r\n            \"stck_hgpr\": \"74800\",\r\n            \"stck_lwpr\": \"73700\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240304\",\r\n            \"stck_prpr\": \"74900\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1500\",\r\n            \"prdy_ctrt\": \"2.04\",\r\n            \"acml_vol\": \"23210474\",\r\n            \"stlm_date\": \"20240306\",\r\n            \"whol_loan_new_stcn\": \"838785\",\r\n            \"whol_loan_rdmp_stcn\": \"1450926\",\r\n            \"whol_loan_rmnd_stcn\": \"6862995\",\r\n            \"whol_loan_new_amt\": \"5536867\",\r\n            \"whol_loan_rdmp_amt\": \"9135415\",\r\n            \"whol_loan_rmnd_amt\": \"45449103\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"3.61\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"74300\",\r\n            \"stck_hgpr\": \"75000\",\r\n            \"stck_lwpr\": \"74000\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240229\",\r\n            \"stck_prpr\": \"73400\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"200\",\r\n            \"prdy_ctrt\": \"0.27\",\r\n            \"acml_vol\": \"21176403\",\r\n            \"stlm_date\": \"20240305\",\r\n            \"whol_loan_new_stcn\": \"563158\",\r\n            \"whol_loan_rdmp_stcn\": \"330265\",\r\n            \"whol_loan_rmnd_stcn\": \"7477578\",\r\n            \"whol_loan_new_amt\": \"3366177\",\r\n            \"whol_loan_rdmp_amt\": \"2109787\",\r\n            \"whol_loan_rmnd_amt\": \"49063520\",\r\n            \"whol_loan_rmnd_rate\": \"0.12\",\r\n            \"whol_loan_gvrt\": \"2.65\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"72600\",\r\n            \"stck_hgpr\": \"73400\",\r\n            \"stck_lwpr\": \"72000\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240228\",\r\n            \"stck_prpr\": \"73200\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_ctrt\": \"0.41\",\r\n            \"acml_vol\": \"11795859\",\r\n            \"stlm_date\": \"20240304\",\r\n            \"whol_loan_new_stcn\": \"506896\",\r\n            \"whol_loan_rdmp_stcn\": \"458211\",\r\n            \"whol_loan_rmnd_stcn\": \"7245825\",\r\n            \"whol_loan_new_amt\": \"3059090\",\r\n            \"whol_loan_rdmp_amt\": \"2956451\",\r\n            \"whol_loan_rmnd_amt\": \"47813948\",\r\n            \"whol_loan_rmnd_rate\": \"0.11\",\r\n            \"whol_loan_gvrt\": \"4.29\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"72900\",\r\n            \"stck_hgpr\": \"73900\",\r\n            \"stck_lwpr\": \"72800\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240227\",\r\n            \"stck_prpr\": \"72900\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"100\",\r\n            \"prdy_ctrt\": \"0.14\",\r\n            \"acml_vol\": \"13201981\",\r\n            \"stlm_date\": \"20240229\",\r\n            \"whol_loan_new_stcn\": \"319365\",\r\n            \"whol_loan_rdmp_stcn\": \"291088\",\r\n            \"whol_loan_rmnd_stcn\": \"7199469\",\r\n            \"whol_loan_new_amt\": \"2086955\",\r\n            \"whol_loan_rdmp_amt\": \"1907718\",\r\n            \"whol_loan_rmnd_amt\": \"47725597\",\r\n            \"whol_loan_rmnd_rate\": \"0.11\",\r\n            \"whol_loan_gvrt\": \"2.41\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73100\",\r\n            \"stck_hgpr\": \"73400\",\r\n            \"stck_lwpr\": \"72700\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240226\",\r\n            \"stck_prpr\": \"72800\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-100\",\r\n            \"prdy_ctrt\": \"-0.14\",\r\n            \"acml_vol\": \"14669352\",\r\n            \"stlm_date\": \"20240228\",\r\n            \"whol_loan_new_stcn\": \"282018\",\r\n            \"whol_loan_rdmp_stcn\": \"261288\",\r\n            \"whol_loan_rmnd_stcn\": \"7171604\",\r\n            \"whol_loan_new_amt\": \"1838364\",\r\n            \"whol_loan_rdmp_amt\": \"1639156\",\r\n            \"whol_loan_rmnd_amt\": \"47549260\",\r\n            \"whol_loan_rmnd_rate\": \"0.11\",\r\n            \"whol_loan_gvrt\": \"1.91\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"72300\",\r\n            \"stck_hgpr\": \"73200\",\r\n            \"stck_lwpr\": \"72200\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240223\",\r\n            \"stck_prpr\": \"72900\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-200\",\r\n            \"prdy_ctrt\": \"-0.27\",\r\n            \"acml_vol\": \"16225166\",\r\n            \"stlm_date\": \"20240227\",\r\n            \"whol_loan_new_stcn\": \"526563\",\r\n            \"whol_loan_rdmp_stcn\": \"473526\",\r\n            \"whol_loan_rmnd_stcn\": \"7151330\",\r\n            \"whol_loan_new_amt\": \"3397702\",\r\n            \"whol_loan_rdmp_amt\": \"3122338\",\r\n            \"whol_loan_rmnd_amt\": \"47353285\",\r\n            \"whol_loan_rmnd_rate\": \"0.11\",\r\n            \"whol_loan_gvrt\": \"3.23\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73600\",\r\n            \"stck_hgpr\": \"74200\",\r\n            \"stck_lwpr\": \"72900\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240222\",\r\n            \"stck_prpr\": \"73100\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"100\",\r\n            \"prdy_ctrt\": \"0.14\",\r\n            \"acml_vol\": \"15208934\",\r\n            \"stlm_date\": \"20240226\",\r\n            \"whol_loan_new_stcn\": \"617034\",\r\n            \"whol_loan_rdmp_stcn\": \"362458\",\r\n            \"whol_loan_rmnd_stcn\": \"7098784\",\r\n            \"whol_loan_new_amt\": \"4055099\",\r\n            \"whol_loan_rdmp_amt\": \"2420852\",\r\n            \"whol_loan_rmnd_amt\": \"47080801\",\r\n            \"whol_loan_rmnd_rate\": \"0.11\",\r\n            \"whol_loan_gvrt\": \"4.05\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73800\",\r\n            \"stck_hgpr\": \"73900\",\r\n            \"stck_lwpr\": \"72700\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240221\",\r\n            \"stck_prpr\": \"73000\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-300\",\r\n            \"prdy_ctrt\": \"-0.41\",\r\n            \"acml_vol\": \"11503495\",\r\n            \"stlm_date\": \"20240223\",\r\n            \"whol_loan_new_stcn\": \"181753\",\r\n            \"whol_loan_rdmp_stcn\": \"159505\",\r\n            \"whol_loan_rmnd_stcn\": \"6849915\",\r\n            \"whol_loan_new_amt\": \"1154019\",\r\n            \"whol_loan_rdmp_amt\": \"997307\",\r\n            \"whol_loan_rmnd_amt\": \"45485001\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"1.57\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73400\",\r\n            \"stck_hgpr\": \"73700\",\r\n            \"stck_lwpr\": \"72900\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240220\",\r\n            \"stck_prpr\": \"73300\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-500\",\r\n            \"prdy_ctrt\": \"-0.68\",\r\n            \"acml_vol\": \"14681477\",\r\n            \"stlm_date\": \"20240222\",\r\n            \"whol_loan_new_stcn\": \"245659\",\r\n            \"whol_loan_rdmp_stcn\": \"162302\",\r\n            \"whol_loan_rmnd_stcn\": \"6827253\",\r\n            \"whol_loan_new_amt\": \"1650740\",\r\n            \"whol_loan_rdmp_amt\": \"1053242\",\r\n            \"whol_loan_rmnd_amt\": \"45325256\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"1.66\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"100\",\r\n            \"whol_stln_rmnd_stcn\": \"6882\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"699\",\r\n            \"whol_stln_rmnd_amt\": \"43251\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73700\",\r\n            \"stck_hgpr\": \"73700\",\r\n            \"stck_lwpr\": \"72800\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240219\",\r\n            \"stck_prpr\": \"73800\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1000\",\r\n            \"prdy_ctrt\": \"1.37\",\r\n            \"acml_vol\": \"12726404\",\r\n            \"stlm_date\": \"20240221\",\r\n            \"whol_loan_new_stcn\": \"196561\",\r\n            \"whol_loan_rdmp_stcn\": \"395332\",\r\n            \"whol_loan_rmnd_stcn\": \"6746234\",\r\n            \"whol_loan_new_amt\": \"1233245\",\r\n            \"whol_loan_rdmp_amt\": \"2617252\",\r\n            \"whol_loan_rmnd_amt\": \"44744474\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"1.53\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"15\",\r\n            \"whol_stln_rmnd_stcn\": \"6982\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"105\",\r\n            \"whol_stln_rmnd_amt\": \"43950\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"72800\",\r\n            \"stck_hgpr\": \"73900\",\r\n            \"stck_lwpr\": \"72800\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240216\",\r\n            \"stck_prpr\": \"72800\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-200\",\r\n            \"prdy_ctrt\": \"-0.27\",\r\n            \"acml_vol\": \"13444781\",\r\n            \"stlm_date\": \"20240220\",\r\n            \"whol_loan_new_stcn\": \"353711\",\r\n            \"whol_loan_rdmp_stcn\": \"258304\",\r\n            \"whol_loan_rmnd_stcn\": \"6946822\",\r\n            \"whol_loan_new_amt\": \"2336237\",\r\n            \"whol_loan_rdmp_amt\": \"1746554\",\r\n            \"whol_loan_rmnd_amt\": \"46141630\",\r\n            \"whol_loan_rmnd_rate\": \"0.11\",\r\n            \"whol_loan_gvrt\": \"2.63\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6997\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"44055\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73300\",\r\n            \"stck_hgpr\": \"73400\",\r\n            \"stck_lwpr\": \"72500\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240215\",\r\n            \"stck_prpr\": \"73000\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-1000\",\r\n            \"prdy_ctrt\": \"-1.35\",\r\n            \"acml_vol\": \"14120600\",\r\n            \"stlm_date\": \"20240219\",\r\n            \"whol_loan_new_stcn\": \"668521\",\r\n            \"whol_loan_rdmp_stcn\": \"244617\",\r\n            \"whol_loan_rmnd_stcn\": \"6851613\",\r\n            \"whol_loan_new_amt\": \"4541397\",\r\n            \"whol_loan_rdmp_amt\": \"1581331\",\r\n            \"whol_loan_rmnd_amt\": \"45553486\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"4.72\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6997\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"44055\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"74200\",\r\n            \"stck_hgpr\": \"74400\",\r\n            \"stck_lwpr\": \"73000\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240214\",\r\n            \"stck_prpr\": \"74000\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-1200\",\r\n            \"prdy_ctrt\": \"-1.60\",\r\n            \"acml_vol\": \"12434945\",\r\n            \"stlm_date\": \"20240216\",\r\n            \"whol_loan_new_stcn\": \"607994\",\r\n            \"whol_loan_rdmp_stcn\": \"168766\",\r\n            \"whol_loan_rmnd_stcn\": \"6428256\",\r\n            \"whol_loan_new_amt\": \"4042856\",\r\n            \"whol_loan_rdmp_amt\": \"1140083\",\r\n            \"whol_loan_rmnd_amt\": \"42597320\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"4.88\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"6997\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"44055\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73700\",\r\n            \"stck_hgpr\": \"74300\",\r\n            \"stck_lwpr\": \"73700\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240213\",\r\n            \"stck_prpr\": \"75200\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1100\",\r\n            \"prdy_ctrt\": \"1.48\",\r\n            \"acml_vol\": \"21966745\",\r\n            \"stlm_date\": \"20240215\",\r\n            \"whol_loan_new_stcn\": \"510482\",\r\n            \"whol_loan_rdmp_stcn\": \"766361\",\r\n            \"whol_loan_rmnd_stcn\": \"5989340\",\r\n            \"whol_loan_new_amt\": \"2751983\",\r\n            \"whol_loan_rdmp_amt\": \"4536820\",\r\n            \"whol_loan_rmnd_amt\": \"39696538\",\r\n            \"whol_loan_rmnd_rate\": \"0.09\",\r\n            \"whol_loan_gvrt\": \"2.32\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"139\",\r\n            \"whol_stln_rmnd_stcn\": \"6997\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"996\",\r\n            \"whol_stln_rmnd_amt\": \"44055\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"74800\",\r\n            \"stck_hgpr\": \"75200\",\r\n            \"stck_lwpr\": \"74400\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240208\",\r\n            \"stck_prpr\": \"74100\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-900\",\r\n            \"prdy_ctrt\": \"-1.20\",\r\n            \"acml_vol\": \"20810708\",\r\n            \"stlm_date\": \"20240214\",\r\n            \"whol_loan_new_stcn\": \"943012\",\r\n            \"whol_loan_rdmp_stcn\": \"549849\",\r\n            \"whol_loan_rmnd_stcn\": \"6247522\",\r\n            \"whol_loan_new_amt\": \"5594562\",\r\n            \"whol_loan_rdmp_amt\": \"2907687\",\r\n            \"whol_loan_rmnd_amt\": \"41495520\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"4.52\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"1\",\r\n            \"whol_stln_rmnd_stcn\": \"7136\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"6\",\r\n            \"whol_stln_rmnd_amt\": \"45052\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"75000\",\r\n            \"stck_hgpr\": \"75200\",\r\n            \"stck_lwpr\": \"73600\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240207\",\r\n            \"stck_prpr\": \"75000\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"600\",\r\n            \"prdy_ctrt\": \"0.81\",\r\n            \"acml_vol\": \"16566445\",\r\n            \"stlm_date\": \"20240213\",\r\n            \"whol_loan_new_stcn\": \"252078\",\r\n            \"whol_loan_rdmp_stcn\": \"439983\",\r\n            \"whol_loan_rmnd_stcn\": \"5856240\",\r\n            \"whol_loan_new_amt\": \"1614166\",\r\n            \"whol_loan_rdmp_amt\": \"2860455\",\r\n            \"whol_loan_rmnd_amt\": \"38821115\",\r\n            \"whol_loan_rmnd_rate\": \"0.09\",\r\n            \"whol_loan_gvrt\": \"1.51\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"7137\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"45059\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"74600\",\r\n            \"stck_hgpr\": \"75500\",\r\n            \"stck_lwpr\": \"74300\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240206\",\r\n            \"stck_prpr\": \"74400\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"100\",\r\n            \"prdy_ctrt\": \"0.13\",\r\n            \"acml_vol\": \"14559254\",\r\n            \"stlm_date\": \"20240208\",\r\n            \"whol_loan_new_stcn\": \"295323\",\r\n            \"whol_loan_rdmp_stcn\": \"281735\",\r\n            \"whol_loan_rmnd_stcn\": \"6045644\",\r\n            \"whol_loan_new_amt\": \"1941262\",\r\n            \"whol_loan_rdmp_amt\": \"1889253\",\r\n            \"whol_loan_rmnd_amt\": \"40074751\",\r\n            \"whol_loan_rmnd_rate\": \"0.09\",\r\n            \"whol_loan_gvrt\": \"2.02\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"0\",\r\n            \"whol_stln_rmnd_stcn\": \"7137\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"0\",\r\n            \"whol_stln_rmnd_amt\": \"45059\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"74300\",\r\n            \"stck_hgpr\": \"74700\",\r\n            \"stck_lwpr\": \"73300\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240205\",\r\n            \"stck_prpr\": \"74300\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-900\",\r\n            \"prdy_ctrt\": \"-1.20\",\r\n            \"acml_vol\": \"19026021\",\r\n            \"stlm_date\": \"20240207\",\r\n            \"whol_loan_new_stcn\": \"580976\",\r\n            \"whol_loan_rdmp_stcn\": \"315236\",\r\n            \"whol_loan_rmnd_stcn\": \"6035531\",\r\n            \"whol_loan_new_amt\": \"3882685\",\r\n            \"whol_loan_rdmp_amt\": \"2127798\",\r\n            \"whol_loan_rmnd_amt\": \"40047278\",\r\n            \"whol_loan_rmnd_rate\": \"0.09\",\r\n            \"whol_loan_gvrt\": \"3.04\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"728\",\r\n            \"whol_stln_rmnd_stcn\": \"7137\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"5099\",\r\n            \"whol_stln_rmnd_amt\": \"45059\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"74200\",\r\n            \"stck_hgpr\": \"74800\",\r\n            \"stck_lwpr\": \"73500\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240202\",\r\n            \"stck_prpr\": \"75200\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1600\",\r\n            \"prdy_ctrt\": \"2.17\",\r\n            \"acml_vol\": \"14955881\",\r\n            \"stlm_date\": \"20240206\",\r\n            \"whol_loan_new_stcn\": \"227532\",\r\n            \"whol_loan_rdmp_stcn\": \"559999\",\r\n            \"whol_loan_rmnd_stcn\": \"5770153\",\r\n            \"whol_loan_new_amt\": \"1423587\",\r\n            \"whol_loan_rdmp_amt\": \"3552220\",\r\n            \"whol_loan_rmnd_amt\": \"38294939\",\r\n            \"whol_loan_rmnd_rate\": \"0.08\",\r\n            \"whol_loan_gvrt\": \"1.52\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"8\",\r\n            \"whol_stln_rmnd_stcn\": \"7865\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"55\",\r\n            \"whol_stln_rmnd_amt\": \"50158\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"74000\",\r\n            \"stck_hgpr\": \"75200\",\r\n            \"stck_lwpr\": \"73700\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240201\",\r\n            \"stck_prpr\": \"73600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"900\",\r\n            \"prdy_ctrt\": \"1.24\",\r\n            \"acml_vol\": \"19881033\",\r\n            \"stlm_date\": \"20240205\",\r\n            \"whol_loan_new_stcn\": \"340408\",\r\n            \"whol_loan_rdmp_stcn\": \"432474\",\r\n            \"whol_loan_rmnd_stcn\": \"6103384\",\r\n            \"whol_loan_new_amt\": \"2222626\",\r\n            \"whol_loan_rdmp_amt\": \"2835418\",\r\n            \"whol_loan_rmnd_amt\": \"40428694\",\r\n            \"whol_loan_rmnd_rate\": \"0.09\",\r\n            \"whol_loan_gvrt\": \"1.70\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"347\",\r\n            \"whol_stln_rmnd_stcn\": \"7873\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"2376\",\r\n            \"whol_stln_rmnd_amt\": \"50214\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73000\",\r\n            \"stck_hgpr\": \"74200\",\r\n            \"stck_lwpr\": \"72900\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240131\",\r\n            \"stck_prpr\": \"72700\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-1600\",\r\n            \"prdy_ctrt\": \"-2.15\",\r\n            \"acml_vol\": \"15703560\",\r\n            \"stlm_date\": \"20240202\",\r\n            \"whol_loan_new_stcn\": \"401245\",\r\n            \"whol_loan_rdmp_stcn\": \"234735\",\r\n            \"whol_loan_rmnd_stcn\": \"6207574\",\r\n            \"whol_loan_new_amt\": \"2627294\",\r\n            \"whol_loan_rdmp_amt\": \"1541985\",\r\n            \"whol_loan_rmnd_amt\": \"41122407\",\r\n            \"whol_loan_rmnd_rate\": \"0.10\",\r\n            \"whol_loan_gvrt\": \"2.55\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"30\",\r\n            \"whol_stln_rmnd_stcn\": \"8220\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"204\",\r\n            \"whol_stln_rmnd_amt\": \"52590\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73400\",\r\n            \"stck_hgpr\": \"74000\",\r\n            \"stck_lwpr\": \"72500\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240130\",\r\n            \"stck_prpr\": \"74300\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-100\",\r\n            \"prdy_ctrt\": \"-0.13\",\r\n            \"acml_vol\": \"12244418\",\r\n            \"stlm_date\": \"20240201\",\r\n            \"whol_loan_new_stcn\": \"308957\",\r\n            \"whol_loan_rdmp_stcn\": \"165640\",\r\n            \"whol_loan_rmnd_stcn\": \"6042179\",\r\n            \"whol_loan_new_amt\": \"1980096\",\r\n            \"whol_loan_rdmp_amt\": \"1089607\",\r\n            \"whol_loan_rmnd_amt\": \"40044649\",\r\n            \"whol_loan_rmnd_rate\": \"0.09\",\r\n            \"whol_loan_gvrt\": \"2.51\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"894\",\r\n            \"whol_stln_rmnd_stcn\": \"8250\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"5983\",\r\n            \"whol_stln_rmnd_amt\": \"52795\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"75000\",\r\n            \"stck_hgpr\": \"75300\",\r\n            \"stck_lwpr\": \"73700\"\r\n        },\r\n        {\r\n            \"deal_date\": \"20240129\",\r\n            \"stck_prpr\": \"74400\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1000\",\r\n            \"prdy_ctrt\": \"1.36\",\r\n            \"acml_vol\": \"13976521\",\r\n            \"stlm_date\": \"20240131\",\r\n            \"whol_loan_new_stcn\": \"207309\",\r\n            \"whol_loan_rdmp_stcn\": \"415351\",\r\n            \"whol_loan_rmnd_stcn\": \"5901536\",\r\n            \"whol_loan_new_amt\": \"1397554\",\r\n            \"whol_loan_rdmp_amt\": \"2745405\",\r\n            \"whol_loan_rmnd_amt\": \"39169933\",\r\n            \"whol_loan_rmnd_rate\": \"0.09\",\r\n            \"whol_loan_gvrt\": \"1.47\",\r\n            \"whol_stln_new_stcn\": \"0\",\r\n            \"whol_stln_rdmp_stcn\": \"39\",\r\n            \"whol_stln_rmnd_stcn\": \"9144\",\r\n            \"whol_stln_new_amt\": \"0\",\r\n            \"whol_stln_rdmp_amt\": \"261\",\r\n            \"whol_stln_rmnd_amt\": \"58779\",\r\n            \"whol_stln_rmnd_rate\": \"0.00\",\r\n            \"whol_stln_gvrt\": \"0.00\",\r\n            \"stck_oprc\": \"73800\",\r\n            \"stck_hgpr\": \"75200\",\r\n            \"stck_lwpr\": \"73500\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

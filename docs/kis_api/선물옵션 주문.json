@@ -1,0 +1,556 @@
+{
+  "sheet_name": "선물옵션 주문",
+  "row_count": 54,
+  "columns": [
+    "선물옵션 주문",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "선물옵션 주문": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "메뉴 위치",
+      "Column_1": "[국내선물옵션] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "API 명",
+      "Column_1": "선물옵션 주문",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "API ID",
+      "Column_1": "v1_국내선물-001",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "실전 TR_ID",
+      "Column_1": "(주간 매수/매도) TTTO1101U (야간 매수/매도) (구) JTCE1001U (신) STTN1101U",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "모의 TR_ID",
+      "Column_1": "(주간 매수/매도) VTTO1101U (야간은 모의투자 미제공)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "URL 명",
+      "Column_1": "/uapi/domestic-futureoption/v1/trading/order",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "개요",
+      "Column_1": "​선물옵션 주문 API입니다.\r\n* 선물옵션 운영시간 외 API 호출 시 애러가 발생하오니 운영시간을 확인해주세요.\r\n\r\n※ POST API의 경우 BODY값의 key값들을 대문자로 작성하셔야 합니다.\r\n   (EX. \"CANO\" : \"12345678\", \"ACNT_PRDT_CD\": \"01\",...)\r\n\r\n※ 종목코드 마스터파일 파이썬 정제코드는 한국투자증권 Github 참고 부탁드립니다.\r\n   https://github.com/koreainvestment/open-trading-api/tree/main/stocks_info",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)\r\n\r\n※ 토큰 지정시 토큰 타입(\"Bearer\") 지정 필요. 즉, 발급받은 접근토큰 앞에 앞에 \"Bearer\" 붙여서 호출\r\nEX) \"Bearer eyJ..........8GA\"",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자]\r\nTTTO1101U : 선물 옵션 매수 매도 주문 주간\r\n(구) JTCE1001U : 선물 옵션 매수 매도 주문 야간\r\n(신) STTN1101U : 선물 옵션 매수 매도 주문 야간 \r\n\r\n[모의투자]\r\nVTTO1101U : 선물 옵션 매수 매도 주문 주간",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "Request Body",
+      "Column_1": "ORD_PRCS_DVSN_CD",
+      "Column_2": "주문처리구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "02 : 주문전송",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "SLL_BUY_DVSN_CD",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 매도\r\n02 : 매수",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "SHTN_PDNO",
+      "Column_2": "단축상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목번호\r\n선물 6자리 (예: 101S03)\r\n옵션 9자리 (예: 201S03370)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ORD_QTY",
+      "Column_2": "주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "UNIT_PRICE",
+      "Column_2": "주문가격1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "23",
+      "Column_6": "시장가나 최유리 지정가인 경우 0으로 입력 ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "NMPR_TYPE_CD",
+      "Column_2": "호가유형코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "※ ORD_DVSN_CD(주문구분코드)를 입력한 경우 \"\"(공란)으로 입력해도 됨\r\n01 : 지정가\r\n02 : 시장가 \r\n03 : 조건부\r\n04 : 최유리",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "KRX_NMPR_CNDT_CD",
+      "Column_2": "한국거래소호가조건코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "※ ORD_DVSN_CD(주문구분코드)를 입력한 경우 \"\"(공란)으로 입력해도 됨\r\n0 : 없음\r\n3 : IOC\r\n4 : FOK",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "CTAC_TLNO",
+      "Column_2": "연락전화번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "20",
+      "Column_6": "고객의 연락 가능한 전화번호 ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "FUOP_ITEM_DVSN_CD",
+      "Column_2": "선물옵션종목구분코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "공란(Default)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ORD_DVSN_CD",
+      "Column_2": "주문구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 지정가\r\n02 : 시장가\r\n03 : 조건부\r\n04 : 최유리,\r\n10 : 지정가(IOC)\r\n11 : 지정가(FOK)\r\n12 : 시장가(IOC)\r\n13 : 시장가(FOK)\r\n14 : 최유리(IOC)\r\n15 : 최유리(FOK)",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공\r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "응답코드",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "응답메세지",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "array",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ACNT_NAME",
+      "Column_2": "계좌명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "계좌의 고객명",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "TRAD_DVSN_NAME",
+      "Column_2": "매매구분명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "매도/매수 등 구분값",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ITEM_NAME",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "주문 종목 명칭",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ORD_TMD",
+      "Column_2": "주문시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "주문 접수 시간 ",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ORD_GNO_BRNO",
+      "Column_2": "주문채번지점번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "계좌 개설 시 관리점으로 선택한 영업점의 고유번호",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": null,
+      "Column_1": "ODNO",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "접수한 주문의 일련번호",
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"ORD_PRCS_DVSN_CD\":\"02\",\r\n\t\"CANO\": \"810XXXXX\",\r\n\t\"ACNT_PRDT_CD\":\"03\",           \r\n\t\"SLL_BUY_DVSN_CD\":\"02\",\r\n\t\"SHTN_PDNO\":\"167R12\",\r\n\t\"ORD_QTY\":\"1\",\r\n\t\"UNIT_PRICE\":\"123\",\r\n\t\"NMPR_TYPE_CD\":\"\",\r\n\t\"KRX_NMPR_CNDT_CD\":\"\",\r\n\t\"CTAC_TLNO\":\"\",\r\n\t\"FUOP_ITEM_DVSN_CD\":\"\",\r\n\t\"ORD_DVSN_CD\":\"01\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션 주문": "Response Example",
+      "Column_1": "{\r\n  \"rt_cd\": \"0\",\r\n  \"msg_cd\": \"APBK0029\",\r\n  \"msg1\": \"주문전송이 정상적으로 처리되었습니다.\",\r\n  \"output\": {\r\n    \"ACNT_NAME\": \"류민수\",\r\n    \"TRAD_DVSN_NAME\": \"매도\",\r\n    \"ITEM_NAME\": \"코스피200 F 202203\",\r\n    \"ORD_TMD\": \"131604\",\r\n    \"ORD_GNO_BRNO\": \"06010\",\r\n    \"ODNO\": \"0000007045\"\r\n  }\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

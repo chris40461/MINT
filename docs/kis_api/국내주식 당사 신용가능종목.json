@@ -1,0 +1,486 @@
+{
+  "sheet_name": "국내주식 당사 신용가능종목",
+  "row_count": 47,
+  "columns": [
+    "국내주식 당사 신용가능종목",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 당사 신용가능종목": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "API 명",
+      "Column_1": "국내주식 당사 신용가능종목",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "API ID",
+      "Column_1": "국내주식-111",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "실전 TR_ID",
+      "Column_1": "FHPST04770000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/credit-by-company",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "개요",
+      "Column_1": "국내주식 당사 신용가능종목 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0477] 당사 신용가능 종목 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n최대 100건 확인 가능하며, 다음 조회가 불가합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST04770000",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "Request Query Parameter",
+      "Column_1": "fid_rank_sort_cls_code",
+      "Column_2": "순위 정렬 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0:코드순, 1:이름순",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "fid_slct_yn",
+      "Column_2": "선택 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0:신용주문가능, 1: 신용주문불가",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "fid_input_iscd",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "0000:전체, 0001:거래소, 1001:코스닥, 2001:코스피200, 4001: KRX100",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "fid_cond_scr_div_code",
+      "Column_2": "조건 화면 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "Unique key(20477)",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (주식 J)",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "stck_shrn_iscd",
+      "Column_2": "주식 단축 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "hts_kor_isnm",
+      "Column_2": "HTS 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": null,
+      "Column_1": "crdt_rate",
+      "Column_2": "신용 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_cond_scr_div_code\":\"20477\",\r\n\"fid_input_iscd\":\"0000\",\r\n\"fid_slct_yn\":\"0\",\r\n\"fid_rank_sort_cls_code\":\"1\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 당사 신용가능종목": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stck_shrn_iscd\": \"473440\",\r\n            \"hts_kor_isnm\": \"ACE 11월만기자동연장회사채AA-이상액티브\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"105190\",\r\n            \"hts_kor_isnm\": \"ACE 200\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"332500\",\r\n            \"hts_kor_isnm\": \"ACE 200TR\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"448880\",\r\n            \"hts_kor_isnm\": \"ACE 24-12 회사채(AA-이상)액티브\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"461270\",\r\n            \"hts_kor_isnm\": \"ACE 26-06 회사채(AA-이상)액티브\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"414270\",\r\n            \"hts_kor_isnm\": \"ACE G2전기차&자율주행액티브\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"365780\",\r\n            \"hts_kor_isnm\": \"ACE 국고채10년\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"446770\",\r\n            \"hts_kor_isnm\": \"ACE 글로벌반도체TOP4 Plus SOLACTIVE\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"190620\",\r\n            \"hts_kor_isnm\": \"ACE 단기통안채\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"453850\",\r\n            \"hts_kor_isnm\": \"ACE 미국30년국채액티브(H)\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"360200\",\r\n            \"hts_kor_isnm\": \"ACE 미국S&P500\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"438080\",\r\n            \"hts_kor_isnm\": \"ACE 미국S&P500채권혼합액티브\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"309230\",\r\n            \"hts_kor_isnm\": \"ACE 미국WideMoat가치주\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"367380\",\r\n            \"hts_kor_isnm\": \"ACE 미국나스닥100\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"456880\",\r\n            \"hts_kor_isnm\": \"ACE 미국달러SOFR금리(합성)\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"402970\",\r\n            \"hts_kor_isnm\": \"ACE 미국배당다우존스\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"465580\",\r\n            \"hts_kor_isnm\": \"ACE 미국빅테크TOP7 Plus\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"245710\",\r\n            \"hts_kor_isnm\": \"ACE 베트남VN30(합성)\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"448540\",\r\n            \"hts_kor_isnm\": \"ACE 엔비디아채권혼합블룸버그\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"238720\",\r\n            \"hts_kor_isnm\": \"ACE 일본Nikkei225(H)\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"356540\",\r\n            \"hts_kor_isnm\": \"ACE 종합채권(AA-이상)KIS액티브\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"457480\",\r\n            \"hts_kor_isnm\": \"ACE 테슬라밸류체인액티브\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"469170\",\r\n            \"hts_kor_isnm\": \"ACE 포스코그룹포커스\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"265520\",\r\n            \"hts_kor_isnm\": \"AP시스템\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"152100\",\r\n            \"hts_kor_isnm\": \"ARIRANG 200\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"453010\",\r\n            \"hts_kor_isnm\": \"ARIRANG KOFR금리\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"449450\",\r\n            \"hts_kor_isnm\": \"ARIRANG K방산Fn\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"161510\",\r\n            \"hts_kor_isnm\": \"ARIRANG 고배당주\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"464470\",\r\n            \"hts_kor_isnm\": \"ARIRANG 미국채30년액티브\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"195980\",\r\n            \"hts_kor_isnm\": \"ARIRANG 신흥국MSCI(합성 H)\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"421320\",\r\n            \"hts_kor_isnm\": \"ARIRANG 우주항공&UAM iSelect\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"328370\",\r\n            \"hts_kor_isnm\": \"ARIRANG 코스피TR\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"027410\",\r\n            \"hts_kor_isnm\": \"BGF\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"282330\",\r\n            \"hts_kor_isnm\": \"BGF리테일\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"126600\",\r\n            \"hts_kor_isnm\": \"BGF에코머티리얼즈\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"138930\",\r\n            \"hts_kor_isnm\": \"BNK금융지주\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"001040\",\r\n            \"hts_kor_isnm\": \"CJ\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"000120\",\r\n            \"hts_kor_isnm\": \"CJ대한통운\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"011150\",\r\n            \"hts_kor_isnm\": \"CJ씨푸드\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"097950\",\r\n            \"hts_kor_isnm\": \"CJ제일제당\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"097955\",\r\n            \"hts_kor_isnm\": \"CJ제일제당 우\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"051500\",\r\n            \"hts_kor_isnm\": \"CJ프레시웨이\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"058820\",\r\n            \"hts_kor_isnm\": \"CMG제약\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"012030\",\r\n            \"hts_kor_isnm\": \"DB\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"005830\",\r\n            \"hts_kor_isnm\": \"DB손해보험\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"000990\",\r\n            \"hts_kor_isnm\": \"DB하이텍\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"139130\",\r\n            \"hts_kor_isnm\": \"DGB금융지주\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"001530\",\r\n            \"hts_kor_isnm\": \"DI동일\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"375500\",\r\n            \"hts_kor_isnm\": \"DL이앤씨\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"068790\",\r\n            \"hts_kor_isnm\": \"DMS\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"007340\",\r\n            \"hts_kor_isnm\": \"DN오토모티브\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"241520\",\r\n            \"hts_kor_isnm\": \"DSC인베스트먼트\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"017940\",\r\n            \"hts_kor_isnm\": \"E1\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"007700\",\r\n            \"hts_kor_isnm\": \"F&F홀딩스\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"078930\",\r\n            \"hts_kor_isnm\": \"GS\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"001250\",\r\n            \"hts_kor_isnm\": \"GS글로벌\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"007070\",\r\n            \"hts_kor_isnm\": \"GS리테일\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"293180\",\r\n            \"hts_kor_isnm\": \"HANARO 200\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"454320\",\r\n            \"hts_kor_isnm\": \"HANARO CAPEX설비투자iSelect\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"395290\",\r\n            \"hts_kor_isnm\": \"HANARO Fn K-POP&미디어\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"395270\",\r\n            \"hts_kor_isnm\": \"HANARO Fn K-반도체\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"441540\",\r\n            \"hts_kor_isnm\": \"HANARO Fn조선해운\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"434730\",\r\n            \"hts_kor_isnm\": \"HANARO 원자력iSelect\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"078150\",\r\n            \"hts_kor_isnm\": \"HB테크놀러지\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"089470\",\r\n            \"hts_kor_isnm\": \"HDC현대EP\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"009540\",\r\n            \"hts_kor_isnm\": \"HD한국조선해양\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"267250\",\r\n            \"hts_kor_isnm\": \"HD현대\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"267270\",\r\n            \"hts_kor_isnm\": \"HD현대건설기계\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"322000\",\r\n            \"hts_kor_isnm\": \"HD현대에너지솔루션\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"042670\",\r\n            \"hts_kor_isnm\": \"HD현대인프라코어\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"329180\",\r\n            \"hts_kor_isnm\": \"HD현대중공업\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"195940\",\r\n            \"hts_kor_isnm\": \"HK이노엔\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"204320\",\r\n            \"hts_kor_isnm\": \"HL만도\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"060980\",\r\n            \"hts_kor_isnm\": \"HL홀딩스\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"011200\",\r\n            \"hts_kor_isnm\": \"HMM\",\r\n            \"crdt_rate\": \"20.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"036640\",\r\n            \"hts_kor_isnm\": \"HRS\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"095340\",\r\n            \"hts_kor_isnm\": \"ISC\",\r\n            \"crdt_rate\": \"60.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"175330\",\r\n            \"hts_kor_isnm\": \"JB금융지주\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"234080\",\r\n            \"hts_kor_isnm\": \"JW생명과학\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"035900\",\r\n            \"hts_kor_isnm\": \"JYP Ent.\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"148020\",\r\n            \"hts_kor_isnm\": \"KBSTAR 200\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"448600\",\r\n            \"hts_kor_isnm\": \"KBSTAR 25-11 회사채(AA-이상)액티브\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"465330\",\r\n            \"hts_kor_isnm\": \"KBSTAR 2차전지TOP10\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"422420\",\r\n            \"hts_kor_isnm\": \"KBSTAR 2차전지액티브\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"469070\",\r\n            \"hts_kor_isnm\": \"KBSTAR AI&로봇\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"290130\",\r\n            \"hts_kor_isnm\": \"KBSTAR ESG사회책임투자\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"367760\",\r\n            \"hts_kor_isnm\": \"KBSTAR Fn5G테크\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"367770\",\r\n            \"hts_kor_isnm\": \"KBSTAR Fn수소경제테마\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"326240\",\r\n            \"hts_kor_isnm\": \"KBSTAR IT플러스\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"385560\",\r\n            \"hts_kor_isnm\": \"KBSTAR KIS국고채30년Enhanced\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"401170\",\r\n            \"hts_kor_isnm\": \"KBSTAR iSelect메타버스\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"266160\",\r\n            \"hts_kor_isnm\": \"KBSTAR 고배당\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"385550\",\r\n            \"hts_kor_isnm\": \"KBSTAR 단기종합채권(AA-이상)액티브\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"196230\",\r\n            \"hts_kor_isnm\": \"KBSTAR 단기통안채\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"315960\",\r\n            \"hts_kor_isnm\": \"KBSTAR 대형고배당10TR\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"455890\",\r\n            \"hts_kor_isnm\": \"KBSTAR 머니마켓액티브\",\r\n            \"crdt_rate\": \"30.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"379780\",\r\n            \"hts_kor_isnm\": \"KBSTAR 미국S&P500\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"453330\",\r\n            \"hts_kor_isnm\": \"KBSTAR 미국S&P500(H)\",\r\n            \"crdt_rate\": \"50.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"368590\",\r\n            \"hts_kor_isnm\": \"KBSTAR 미국나스닥100\",\r\n            \"crdt_rate\": \"40.00\"\r\n        },\r\n        {\r\n            \"stck_shrn_iscd\": \"437350\",\r\n            \"hts_kor_isnm\": \"KBSTAR 미국단기투자등급회사채액티브\",\r\n            \"crdt_rate\": \"40.00\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

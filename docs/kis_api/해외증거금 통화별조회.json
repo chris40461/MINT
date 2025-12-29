@@ -1,0 +1,536 @@
+{
+  "sheet_name": "해외증거금 통화별조회",
+  "row_count": 52,
+  "columns": [
+    "해외증거금 통화별조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외증거금 통화별조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "메뉴 위치",
+      "Column_1": "[해외주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "API 명",
+      "Column_1": "해외증거금 통화별조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "API ID",
+      "Column_1": "해외주식-035",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "실전 TR_ID",
+      "Column_1": "TTTC2101R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "URL 명",
+      "Column_1": "/uapi/overseas-stock/v1/trading/foreign-margin",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "개요",
+      "Column_1": "해외증거금 통화별조회 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [7718] 해외주식 증거금상세 화면 의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "TTTC2101R",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공백 : 초기 조회\r\nN : 다음 데이터 조회 (output header의 tr_cont가 M일 경우)",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "F or M : 다음 데이터 있음\r\nD or E : 마지막 데이터",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "natn_name",
+      "Column_2": "국가명           ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "crcy_cd",
+      "Column_2": "통화코드          ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "frcr_dncl_amt1",
+      "Column_2": "외화예수금액       ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "186",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "ustl_buy_amt",
+      "Column_2": "미결제매수금액      ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "ustl_sll_amt",
+      "Column_2": "미결제매도금액      ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "frcr_rcvb_amt",
+      "Column_2": "외화미수금액       ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "frcr_mgn_amt",
+      "Column_2": "외화증거금액       ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "186",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "frcr_gnrl_ord_psbl_amt",
+      "Column_2": "외화일반주문가능금액  ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "frcr_ord_psbl_amt1",
+      "Column_2": "외화주문가능금액    ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "186",
+      "Column_6": " 원화주문가능환산금액",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "itgr_ord_psbl_amt",
+      "Column_2": "통합주문가능금액    ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": null,
+      "Column_1": "bass_exrt",
+      "Column_2": "기준환율          ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "Request Example (Python)",
+      "Column_1": "CANO:12345678\r\nACNT_PRDT_CD:01",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외증거금 통화별조회": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"natn_name\": \"미국\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"frcr_dncl_amt1\": \"698.190000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"694.37\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"1094.52\",\r\n            \"bass_exrt\": \"1349.40000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"홍콩\",\r\n            \"crcy_cd\": \"HKD\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"8247.35\",\r\n            \"bass_exrt\": \"172.97000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"홍콩\",\r\n            \"crcy_cd\": \"CNY\",\r\n            \"frcr_dncl_amt1\": \"1459.110000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"7705.45\",\r\n            \"bass_exrt\": \"186.89000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"중화인민공화국\",\r\n            \"crcy_cd\": \"CNY\",\r\n            \"frcr_dncl_amt1\": \"1459.110000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"1448.97\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"7713.10\",\r\n            \"bass_exrt\": \"186.89000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"일본\",\r\n            \"crcy_cd\": \"JPY\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"164359.92\",\r\n            \"bass_exrt\": \"8.68370000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"베트남\",\r\n            \"crcy_cd\": \"VND\",\r\n            \"frcr_dncl_amt1\": \"377568.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"네덜란드\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"frcr_dncl_amt1\": \"698.190000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"1094.52\",\r\n            \"bass_exrt\": \"1349.40000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"프랑스\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"frcr_dncl_amt1\": \"698.190000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"1094.52\",\r\n            \"bass_exrt\": \"1349.40000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"영국\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"frcr_dncl_amt1\": \"698.190000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"1094.52\",\r\n            \"bass_exrt\": \"1349.40000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"스위스\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"frcr_dncl_amt1\": \"698.190000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"1094.52\",\r\n            \"bass_exrt\": \"1349.40000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"싱가포르\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"frcr_dncl_amt1\": \"698.190000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"1094.52\",\r\n            \"bass_exrt\": \"1349.40000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"독일\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"frcr_dncl_amt1\": \"698.190000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"1094.52\",\r\n            \"bass_exrt\": \"1349.40000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"natn_name\": \"\",\r\n            \"crcy_cd\": \"\",\r\n            \"frcr_dncl_amt1\": \"0.000000\",\r\n            \"ustl_buy_amt\": \"0.00\",\r\n            \"ustl_sll_amt\": \"0.00\",\r\n            \"frcr_rcvb_amt\": \"0.00\",\r\n            \"frcr_mgn_amt\": \"0.000000\",\r\n            \"frcr_gnrl_ord_psbl_amt\": \"0.00\",\r\n            \"frcr_ord_psbl_amt1\": \"0.000000\",\r\n            \"itgr_ord_psbl_amt\": \"0.00\",\r\n            \"bass_exrt\": \"0.00000000\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0510\",\r\n    \"msg1\": \"조회가 완료되었습니다                                                           \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

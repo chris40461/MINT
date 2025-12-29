@@ -1,0 +1,556 @@
+{
+  "sheet_name": "주식현재가 회원사 종목매매동향",
+  "row_count": 54,
+  "columns": [
+    "주식현재가 회원사 종목매매동향",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "주식현재가 회원사 종목매매동향": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "메뉴 위치",
+      "Column_1": "[국내주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "API 명",
+      "Column_1": "주식현재가 회원사 종목매매동향",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "API ID",
+      "Column_1": "국내주식-197",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "실전 TR_ID",
+      "Column_1": "FHPST04540000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/inquire-member-daily",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "개요",
+      "Column_1": "주식현재가 회원사 종목매매동향 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0454] 증권사 종목매매동향 화면을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST04540000",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건시장분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J: KRX, NX: NXT, UN: 통합",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "주식종목코드입력",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "FID_INPUT_ISCD_2",
+      "Column_2": "회원사코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "회원사코드 (kis developers 포탈 사이트 포럼-> FAQ -> 종목정보 다운로드(국내) > 회원사 참조)",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "FID_INPUT_DATE_1",
+      "Column_2": "입력날짜1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "날짜 ~",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "FID_INPUT_DATE_2",
+      "Column_2": "입력날짜2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "~ 날짜",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "FID_SCTN_CLS_CODE",
+      "Column_2": "구간구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "total_seln_qty",
+      "Column_2": "총매도수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "total_shnu_qty",
+      "Column_2": "총매수2수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "ntby_qty",
+      "Column_2": "순매수수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:J\r\nFID_INPUT_ISCD:136480\r\nFID_INPUT_ISCD_2:00003\r\nFID_INPUT_DATE_1:20240501\r\nFID_INPUT_DATE_2:20240530\r\nFID_SCTN_CLS_CODE:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식현재가 회원사 종목매매동향": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240530\",\r\n            \"total_seln_qty\": \"55432\",\r\n            \"total_shnu_qty\": \"81112\",\r\n            \"ntby_qty\": \"25680\",\r\n            \"stck_prpr\": \"3240\",\r\n            \"prdy_vrss\": \"-65\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.97\",\r\n            \"acml_vol\": \"862835\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240529\",\r\n            \"total_seln_qty\": \"53901\",\r\n            \"total_shnu_qty\": \"130678\",\r\n            \"ntby_qty\": \"76777\",\r\n            \"stck_prpr\": \"3305\",\r\n            \"prdy_vrss\": \"-30\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.90\",\r\n            \"acml_vol\": \"974060\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240528\",\r\n            \"total_seln_qty\": \"139470\",\r\n            \"total_shnu_qty\": \"209017\",\r\n            \"ntby_qty\": \"69547\",\r\n            \"stck_prpr\": \"3335\",\r\n            \"prdy_vrss\": \"-30\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.89\",\r\n            \"acml_vol\": \"1553914\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240527\",\r\n            \"total_seln_qty\": \"239813\",\r\n            \"total_shnu_qty\": \"246930\",\r\n            \"ntby_qty\": \"7117\",\r\n            \"stck_prpr\": \"3365\",\r\n            \"prdy_vrss\": \"-30\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.88\",\r\n            \"acml_vol\": \"1750949\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240524\",\r\n            \"total_seln_qty\": \"1451049\",\r\n            \"total_shnu_qty\": \"1526087\",\r\n            \"ntby_qty\": \"75038\",\r\n            \"stck_prpr\": \"3395\",\r\n            \"prdy_vrss\": \"110\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"3.35\",\r\n            \"acml_vol\": \"11758204\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240523\",\r\n            \"total_seln_qty\": \"120530\",\r\n            \"total_shnu_qty\": \"159459\",\r\n            \"ntby_qty\": \"38929\",\r\n            \"stck_prpr\": \"3285\",\r\n            \"prdy_vrss\": \"-40\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.20\",\r\n            \"acml_vol\": \"1532424\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240522\",\r\n            \"total_seln_qty\": \"290601\",\r\n            \"total_shnu_qty\": \"292948\",\r\n            \"ntby_qty\": \"2347\",\r\n            \"stck_prpr\": \"3325\",\r\n            \"prdy_vrss\": \"60\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.84\",\r\n            \"acml_vol\": \"2579194\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240521\",\r\n            \"total_seln_qty\": \"118718\",\r\n            \"total_shnu_qty\": \"75046\",\r\n            \"ntby_qty\": \"-43672\",\r\n            \"stck_prpr\": \"3265\",\r\n            \"prdy_vrss\": \"20\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.62\",\r\n            \"acml_vol\": \"979173\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240520\",\r\n            \"total_seln_qty\": \"400866\",\r\n            \"total_shnu_qty\": \"290925\",\r\n            \"ntby_qty\": \"-109941\",\r\n            \"stck_prpr\": \"3245\",\r\n            \"prdy_vrss\": \"30\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.93\",\r\n            \"acml_vol\": \"3346515\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240517\",\r\n            \"total_seln_qty\": \"316302\",\r\n            \"total_shnu_qty\": \"397728\",\r\n            \"ntby_qty\": \"81426\",\r\n            \"stck_prpr\": \"3215\",\r\n            \"prdy_vrss\": \"60\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.90\",\r\n            \"acml_vol\": \"3089567\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240516\",\r\n            \"total_seln_qty\": \"107617\",\r\n            \"total_shnu_qty\": \"82162\",\r\n            \"ntby_qty\": \"-25455\",\r\n            \"stck_prpr\": \"3155\",\r\n            \"prdy_vrss\": \"-30\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.94\",\r\n            \"acml_vol\": \"767201\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240514\",\r\n            \"total_seln_qty\": \"59559\",\r\n            \"total_shnu_qty\": \"57909\",\r\n            \"ntby_qty\": \"-1650\",\r\n            \"stck_prpr\": \"3185\",\r\n            \"prdy_vrss\": \"45\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.43\",\r\n            \"acml_vol\": \"667569\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240513\",\r\n            \"total_seln_qty\": \"70787\",\r\n            \"total_shnu_qty\": \"91304\",\r\n            \"ntby_qty\": \"20517\",\r\n            \"stck_prpr\": \"3140\",\r\n            \"prdy_vrss\": \"-50\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.57\",\r\n            \"acml_vol\": \"1291905\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240510\",\r\n            \"total_seln_qty\": \"227523\",\r\n            \"total_shnu_qty\": \"160715\",\r\n            \"ntby_qty\": \"-66808\",\r\n            \"stck_prpr\": \"3190\",\r\n            \"prdy_vrss\": \"45\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.43\",\r\n            \"acml_vol\": \"1841506\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240509\",\r\n            \"total_seln_qty\": \"331604\",\r\n            \"total_shnu_qty\": \"160679\",\r\n            \"ntby_qty\": \"-170925\",\r\n            \"stck_prpr\": \"3145\",\r\n            \"prdy_vrss\": \"-15\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.47\",\r\n            \"acml_vol\": \"2145427\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240508\",\r\n            \"total_seln_qty\": \"158034\",\r\n            \"total_shnu_qty\": \"154720\",\r\n            \"ntby_qty\": \"-3314\",\r\n            \"stck_prpr\": \"3160\",\r\n            \"prdy_vrss\": \"100\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"3.27\",\r\n            \"acml_vol\": \"1915227\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240507\",\r\n            \"total_seln_qty\": \"23239\",\r\n            \"total_shnu_qty\": \"52555\",\r\n            \"ntby_qty\": \"29316\",\r\n            \"stck_prpr\": \"3060\",\r\n            \"prdy_vrss\": \"-10\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.33\",\r\n            \"acml_vol\": \"351326\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240503\",\r\n            \"total_seln_qty\": \"66664\",\r\n            \"total_shnu_qty\": \"94801\",\r\n            \"ntby_qty\": \"28137\",\r\n            \"stck_prpr\": \"3070\",\r\n            \"prdy_vrss\": \"-15\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.49\",\r\n            \"acml_vol\": \"420729\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240502\",\r\n            \"total_seln_qty\": \"46034\",\r\n            \"total_shnu_qty\": \"46915\",\r\n            \"ntby_qty\": \"881\",\r\n            \"stck_prpr\": \"3085\",\r\n            \"prdy_vrss\": \"30\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.98\",\r\n            \"acml_vol\": \"473617\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

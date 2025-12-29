@@ -1,0 +1,556 @@
+{
+  "sheet_name": "예탁원정보(무상증자일정)",
+  "row_count": 54,
+  "columns": [
+    "예탁원정보(무상증자일정)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "예탁원정보(무상증자일정)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "API 명",
+      "Column_1": "예탁원정보(무상증자일정)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "API ID",
+      "Column_1": "국내주식-144",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "실전 TR_ID",
+      "Column_1": "HHKDB669101C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ksdinfo/bonus-issue",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "개요",
+      "Column_1": "예탁원정보(무상증자일정) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0656] 무상증자 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 예탁원에서 제공한 자료이므로 정보용으로만 사용하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHKDB669101C0",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "Request Query Parameter",
+      "Column_1": "CTS",
+      "Column_2": "CTS",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": "공백 ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "F_DT",
+      "Column_2": "조회일자From",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "T_DT",
+      "Column_2": "조회일자To",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "SHT_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "공백: 전체,  특정종목 조회시 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "record_date",
+      "Column_2": "기준일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "sht_cd",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "isin_name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "fix_rate",
+      "Column_2": "확정배정율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "152",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "odd_rec_price",
+      "Column_2": "단주기준가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "right_dt",
+      "Column_2": "권리락일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "odd_pay_dt",
+      "Column_2": "단주대금지급일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "23",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "list_date",
+      "Column_2": "상장/등록일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "tot_issue_stk_qty",
+      "Column_2": "발행주식",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "issue_stk_qty",
+      "Column_2": "발행할주식",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": null,
+      "Column_1": "stk_kind",
+      "Column_2": "주식종류",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "Request Example (Python)",
+      "Column_1": "cts:\r\nf_dt:20230301\r\nt_dt:20240326\r\nsht_cd:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(무상증자일정)": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"record_date\": \"20240326\",\r\n            \"sht_cd\": \"466100\",\r\n            \"isin_name\": \"클로봇\",\r\n            \"fix_rate\": \"1000.0\",\r\n            \"odd_rec_price\": \"000000000\",\r\n            \"right_dt\": \"20240325\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"list_date\": \"\",\r\n            \"tot_issue_stk_qty\": \"     1885394\",\r\n            \"issue_stk_qty\": \"    18853940\",\r\n            \"stk_kind\": \"01\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"473980\",\r\n            \"isin_name\": \"노머스\",\r\n            \"fix_rate\": \"3900.0\",\r\n            \"odd_rec_price\": \"000000000\",\r\n            \"right_dt\": \"20240314\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"list_date\": \"\",\r\n            \"tot_issue_stk_qty\": \"      234220\",\r\n            \"issue_stk_qty\": \"     9134580\",\r\n            \"stk_kind\": \"01\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240314\",\r\n            \"sht_cd\": \"377220\",\r\n            \"isin_name\": \"프롬바이오\",\r\n            \"fix_rate\": \"100.00\",\r\n            \"odd_rec_price\": \"000000000\",\r\n            \"right_dt\": \"20240313\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"list_date\": \"20240405\",\r\n            \"tot_issue_stk_qty\": \"    14155000\",\r\n            \"issue_stk_qty\": \"    14155000\",\r\n            \"stk_kind\": \"01\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240307\",\r\n            \"sht_cd\": \"357230\",\r\n            \"isin_name\": \"에이치피오\",\r\n            \"fix_rate\": \"100.00\",\r\n            \"odd_rec_price\": \"000000000\",\r\n            \"right_dt\": \"20240306\",\r\n            \"odd_pay_dt\": \"\",\r\n            \"list_date\": \"20240329\",\r\n            \"tot_issue_stk_qty\": \"    21149725\",\r\n            \"issue_stk_qty\": \"    20337240\",\r\n            \"stk_kind\": \"01\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240305\",\r\n            \"sht_cd\": \"005810\",\r\n            \"isin_name\": \"풍산홀딩스\",\r\n            \"fix_rate\": \" 50.00\",\r\n            \"odd_rec_price\": \"000029850\",\r\n            \"right_dt\": \"20240304\",\r\n            \"odd_pay_dt\": \"2024/03/29 ~ 2024/03/29\",\r\n            \"list_date\": \"20240322\",\r\n            \"tot_issue_stk_qty\": \"     9748528\",\r\n            \"issue_stk_qty\": \"     4668764\",\r\n            \"stk_kind\": \"01\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

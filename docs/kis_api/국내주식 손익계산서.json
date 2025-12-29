@@ -1,0 +1,566 @@
+{
+  "sheet_name": "국내주식 손익계산서",
+  "row_count": 55,
+  "columns": [
+    "국내주식 손익계산서",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 손익계산서": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "API 명",
+      "Column_1": "국내주식 손익계산서",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "API ID",
+      "Column_1": "v1_국내주식-079",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "실전 TR_ID",
+      "Column_1": "FHKST66430200",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "모의 Domain",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/finance/income-statement",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "개요",
+      "Column_1": "국내주식 손익계산서 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0635] 재무분석종합 화면의 하단 '2. 손익계산서' 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKST66430200",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "Request Query Parameter",
+      "Column_1": "FID_DIV_CLS_CODE",
+      "Column_2": "분류 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0: 년, 1: 분기\r\n\r\n※ 분기데이터는 연단위 누적합산",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "fid_input_iscd",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "000660 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "stac_yymm",
+      "Column_2": "결산 년월",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "sale_account",
+      "Column_2": "매출액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "sale_cost",
+      "Column_2": "매출 원가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "sale_totl_prfi",
+      "Column_2": "매출 총 이익",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "depr_cost",
+      "Column_2": "감가상각비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": "출력되지 않는 데이터(99.99 로 표시)",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "sell_mang",
+      "Column_2": "판매 및 관리비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": "출력되지 않는 데이터(99.99 로 표시)",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "bsop_prti",
+      "Column_2": "영업 이익",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "bsop_non_ernn",
+      "Column_2": "영업 외 수익",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": "출력되지 않는 데이터(99.99 로 표시)",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "bsop_non_expn",
+      "Column_2": "영업 외 비용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": "출력되지 않는 데이터(99.99 로 표시)",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "op_prfi",
+      "Column_2": "경상 이익",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "spec_prfi",
+      "Column_2": "특별 이익",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "spec_loss",
+      "Column_2": "특별 손실",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "182",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": null,
+      "Column_1": "thtr_ntin",
+      "Column_2": "당기순이익",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "102",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_input_iscd\":\"005930\",\r\n\"fid_div_cls_code\":\"1\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 손익계산서": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stac_yymm\": \"202312\",\r\n            \"sale_account\": \"2589355.00\",\r\n            \"sale_cost\": \"1803886.00\",\r\n            \"sale_totl_prfi\": \"785469\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"65670.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"110063.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"154871.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202309\",\r\n            \"sale_account\": \"1911556.00\",\r\n            \"sale_cost\": \"1342731.00\",\r\n            \"sale_totl_prfi\": \"568825\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"37423.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"74820.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"91423.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202306\",\r\n            \"sale_account\": \"1237509.00\",\r\n            \"sale_cost\": \"876543.00\",\r\n            \"sale_totl_prfi\": \"360966\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"13087.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"35394.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"32982.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202303\",\r\n            \"sale_account\": \"637454.00\",\r\n            \"sale_cost\": \"460071.00\",\r\n            \"sale_totl_prfi\": \"177383\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"6402.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"18264.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"15746.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202212\",\r\n            \"sale_account\": \"3022314.00\",\r\n            \"sale_cost\": \"1900418.00\",\r\n            \"sale_totl_prfi\": \"1121896\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"433766.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"464405.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"556541.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202209\",\r\n            \"sale_account\": \"2317668.00\",\r\n            \"sale_cost\": \"1414141.00\",\r\n            \"sale_totl_prfi\": \"903527\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"390705.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"413856.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"318126.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202206\",\r\n            \"sale_account\": \"1549851.00\",\r\n            \"sale_cost\": \"933418.00\",\r\n            \"sale_totl_prfi\": \"616433\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"282185.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"295306.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"224234.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202203\",\r\n            \"sale_account\": \"777815.00\",\r\n            \"sale_cost\": \"470721.00\",\r\n            \"sale_totl_prfi\": \"307094\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"141214.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"150698.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"113246.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202112\",\r\n            \"sale_account\": \"2796048.00\",\r\n            \"sale_cost\": \"1664113.00\",\r\n            \"sale_totl_prfi\": \"1131935\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"516339.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"533518.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"399075.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202109\",\r\n            \"sale_account\": \"2030393.00\",\r\n            \"sale_cost\": \"1214648.00\",\r\n            \"sale_totl_prfi\": \"815745\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"377671.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"389889.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"290695.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202106\",\r\n            \"sale_account\": \"1290601.00\",\r\n            \"sale_cost\": \"785659.00\",\r\n            \"sale_totl_prfi\": \"504942\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"219496.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"226331.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"167762.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202103\",\r\n            \"sale_account\": \"653885.00\",\r\n            \"sale_cost\": \"415000.00\",\r\n            \"sale_totl_prfi\": \"238885\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"93829.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"97506.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"71417.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202012\",\r\n            \"sale_account\": \"2368070.00\",\r\n            \"sale_cost\": \"1444883.00\",\r\n            \"sale_totl_prfi\": \"923187\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"359939.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"363451.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"264078.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202009\",\r\n            \"sale_account\": \"1752555.00\",\r\n            \"sale_cost\": \"1066834.00\",\r\n            \"sale_totl_prfi\": \"685721\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"269469.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"273707.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"198007.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202006\",\r\n            \"sale_account\": \"1082913.00\",\r\n            \"sale_cost\": \"667129.00\",\r\n            \"sale_totl_prfi\": \"415784\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"145936.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"145265.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"104400.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202003\",\r\n            \"sale_account\": \"553252.00\",\r\n            \"sale_cost\": \"348067.00\",\r\n            \"sale_totl_prfi\": \"205185\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"64473.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"67569.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"48849.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201912\",\r\n            \"sale_account\": \"2304009.00\",\r\n            \"sale_cost\": \"1472396.00\",\r\n            \"sale_totl_prfi\": \"831613\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"277685.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"304322.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"217389.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201909\",\r\n            \"sale_account\": \"1705161.00\",\r\n            \"sale_cost\": \"1086850.00\",\r\n            \"sale_totl_prfi\": \"618311\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"206082.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"227131.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"165118.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201906\",\r\n            \"sale_account\": \"1085127.00\",\r\n            \"sale_cost\": \"686912.00\",\r\n            \"sale_totl_prfi\": \"398215\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"128303.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"140923.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"102242.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201903\",\r\n            \"sale_account\": \"523855.00\",\r\n            \"sale_cost\": \"327464.00\",\r\n            \"sale_totl_prfi\": \"196391\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"62333.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"69130.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"50436.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201812\",\r\n            \"sale_account\": \"2437714.00\",\r\n            \"sale_cost\": \"1323944.00\",\r\n            \"sale_totl_prfi\": \"1113770\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"588867.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"611600.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"443449.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201809\",\r\n            \"sale_account\": \"1845064.00\",\r\n            \"sale_cost\": \"983785.00\",\r\n            \"sale_totl_prfi\": \"861279\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"480861.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"495521.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"358827.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201806\",\r\n            \"sale_account\": \"1190464.00\",\r\n            \"sale_cost\": \"631841.00\",\r\n            \"sale_totl_prfi\": \"558623\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"305112.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"315827.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"227320.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201803\",\r\n            \"sale_account\": \"605637.00\",\r\n            \"sale_cost\": \"319095.00\",\r\n            \"sale_totl_prfi\": \"286542\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"156422.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"161759.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"116885.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201712\",\r\n            \"sale_account\": \"2395754.00\",\r\n            \"sale_cost\": \"1292907.00\",\r\n            \"sale_totl_prfi\": \"1102847\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"536450.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"561960.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"421867.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201709\",\r\n            \"sale_account\": \"1735970.00\",\r\n            \"sale_cost\": \"935596.00\",\r\n            \"sale_totl_prfi\": \"800374\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"384981.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"394916.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"299316.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201706\",\r\n            \"sale_account\": \"1115481.00\",\r\n            \"sale_cost\": \"605555.00\",\r\n            \"sale_totl_prfi\": \"509926\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"239649.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"245768.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"187382.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201703\",\r\n            \"sale_account\": \"505475.00\",\r\n            \"sale_cost\": \"281556.00\",\r\n            \"sale_totl_prfi\": \"223919\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"98984.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"101646.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"76844.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201612\",\r\n            \"sale_account\": \"2018667.00\",\r\n            \"sale_cost\": \"1202777.00\",\r\n            \"sale_totl_prfi\": \"815890\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"292407.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"307137.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"227261.00\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201609\",\r\n            \"sale_account\": \"1485350.00\",\r\n            \"sale_cost\": \"893942.00\",\r\n            \"sale_totl_prfi\": \"591408\",\r\n            \"depr_cost\": \"99.99\",\r\n            \"sell_mang\": \"99.99\",\r\n            \"bsop_prti\": \"200199.00\",\r\n            \"bsop_non_ernn\": \"99.99\",\r\n            \"bsop_non_expn\": \"99.99\",\r\n            \"op_prfi\": \"211651.00\",\r\n            \"spec_prfi\": \"99.99\",\r\n            \"spec_loss\": \"99.99\",\r\n            \"thtr_ntin\": \"156381.00\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

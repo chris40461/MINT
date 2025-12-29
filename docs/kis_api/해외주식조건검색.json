@@ -1,0 +1,936 @@
+{
+  "sheet_name": "해외주식조건검색",
+  "row_count": 92,
+  "columns": [
+    "해외주식조건검색",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식조건검색": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "메뉴 위치",
+      "Column_1": "[해외주식] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "API 명",
+      "Column_1": "해외주식조건검색",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "API ID",
+      "Column_1": "v1_해외주식-015",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "실전 TR_ID",
+      "Column_1": "HHDFS76410000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "모의 TR_ID",
+      "Column_1": "HHDFS76410000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "URL 명",
+      "Column_1": "/uapi/overseas-price/v1/quotations/inquire-search",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "개요",
+      "Column_1": "해외주식 조건검색 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [7641] 해외주식 조건검색 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n  \r\n현재 조건검색 결과값은 최대 100개까지 조회 가능합니다. 다음 조회(100개 이후의 값) 기능에 대해서는 개선검토 중에 있습니다.\r\n\r\n※ 지연시세 지연시간 : 미국 - 실시간무료(0분지연) / 홍콩, 베트남, 중국, 일본 - 15분지연 (중국은 실시간시세 신청 시 무료실시간시세 제공)\r\n   미국의 경우 0분지연시세로 제공되나, 장중 당일 시가는 상이할 수 있으며, 익일 정정 표시됩니다.\r\n\r\n※ 2024년 12월 13일(금) 오후 5시부터 HTS(efriend Plus) [7781] 시세신청(실시간) 화면에서 유료 서비스 신청 후 접근토큰 발급하면 최대 2시간 이후 실시간 유료 시세 수신 가능\r\n\r\n※ 그날 거래량이나 시세 형성이 안된 종목은 해외주식 기간별시세(HHDFS76240000)에서는 조회되지만 \r\n   해외주식 조건검색(HHDFS76410000)에서 조회되지 않습니다. (EX. NAS AATC)\r\n\r\n[미국주식시세 이용시 유의사항]\r\n■ 무료 실시간 시세 서비스가 기본 제공되며, 유료 실시간 시세 서비스는 HTS ‘[7781] 시세신청 (실시간)’과 MTS(모바일) ‘고객서비스 &gt; 거래 서비스신청 &gt; 해외주식 &gt; 해외 실시간시세 신청’ 에서 신청 가능합니다.\r\n※ 무료(매수/매도 각 1호가) : 나스닥 마켓센터에서 거래되는 호가 및 호가 잔량 정보\r\n※ 유료(매수/매도 각 1호가) : 미국 전체 거래소들의 통합 주문체결 및 최우선 호가\r\n■ 무료 실시간 시세 서비스는 유료 실시간 시세 서비스 대비 평균 50% 수준에 해당하는 정보이므로 \r\n현재가/호가/순간체결량/차트 등에서 일시적·부분적 차이가 있을 수 있습니다. \r\n■ 무료∙유료 모두 미국에 상장된 종목(뉴욕, 나스닥, 아멕스 등)의 시세를 제공하며, 동일한 시스템을 사용하여 주문∙체결됩니다. \r\n단, 무료∙유료의 기반 데이터 차이로 호가 및 체결 데이터는 차이가 발생할 수 있고, 이로 인해 발생하는 손실에 대해서 당사가 책임지지 않습니다.\r\n■ 무료 실시간 시세 서비스의 시가, 저가, 고가, 종가는 유료 실시간 시세 서비스와 다를 수 있으며, \r\n종목별 과거 데이터(거래량, 시가, 종가, 고가, 차트 데이터 등)는 장 종료 후(오후 12시경) 유료 실시간 시세 서비스 데이터와 동일하게 업데이트됩니다.\r\n■ 유료 실시간 시세 서비스는 신청 시 1~12개월까지 기간 선택 후 해당 요금을 일괄 납부하며, \r\n해지 시 해지한 달의 말일까지 시세 제공 후 남은 기간 해당 금액이 환급되니 유의하시기 바랍니다.\r\n(출처: 한국투자증권 외화증권 거래설명서 - https://www.truefriend.com/main/customer/guide/Guide.jsp?&cmd=TF04ag010002&currentPage=1&num=64)\r\n■ output2에 조회되는 순위(rank)는 거래량을 기준으로 내림차순 정렬 시 나오는 순위인 점 참고 부탁드립니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)\r\n\r\n※ 토큰 지정시 토큰 타입(\"Bearer\") 지정 필요. 즉, 발급받은 접근토큰 앞에 앞에 \"Bearer\" 붙여서 호출\r\nEX) \"Bearer eyJ..........8GA\"",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHDFS76410000",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인 / P : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "법인 : \"001\" / default   개인: \"\"",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "Request Query Parameter",
+      "Column_1": "AUTH",
+      "Column_2": "사용자권한정보",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "\"\" (Null 값 설정)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "EXCD",
+      "Column_2": "거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "NYS : 뉴욕, NAS : 나스닥,  AMS : 아멕스 \r\nHKS : 홍콩, SHS : 상해 , SZS : 심천\r\nHSX : 호치민, HNX : 하노이\r\nTSE : 도쿄",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_YN_PRICECUR",
+      "Column_2": "현재가선택조건",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "해당조건 사용시(1), 미사용시 필수항목아님",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_ST_PRICECUR",
+      "Column_2": "현재가시작범위가",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 각국통화(JPY, USD, HKD, CNY, VND) ",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_EN_PRICECUR",
+      "Column_2": "현재가끝범위가",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 각국통화(JPY, USD, HKD, CNY, VND) ",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_YN_RATE",
+      "Column_2": "등락율선택조건",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "해당조건 사용시(1), 미사용시 필수항목아님",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_ST_RATE",
+      "Column_2": "등락율시작율",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "%",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_EN_RATE",
+      "Column_2": "등락율끝율",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "%",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_YN_VALX",
+      "Column_2": "시가총액선택조건",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "해당조건 사용시(1), 미사용시 필수항목아님",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_ST_VALX",
+      "Column_2": "시가총액시작액",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 천",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_EN_VALX",
+      "Column_2": "시가총액끝액",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 천",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_YN_SHAR",
+      "Column_2": "발행주식수선택조건",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "해당조건 사용시(1), 미사용시 필수항목아님",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_ST_SHAR",
+      "Column_2": "발행주식시작수",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 천",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_EN_SHAR",
+      "Column_2": "발행주식끝수",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "112",
+      "Column_6": "단위: 천",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_YN_VOLUME",
+      "Column_2": "거래량선택조건",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "해당조건 사용시(1), 미사용시 필수항목아님",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_ST_VOLUME",
+      "Column_2": "거래량시작량",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 주",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_EN_VOLUME",
+      "Column_2": "거래량끝량",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 주",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_YN_AMT",
+      "Column_2": "거래대금선택조건",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "해당조건 사용시(1), 미사용시 필수항목아님",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_ST_AMT",
+      "Column_2": "거래대금시작금",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 천",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_EN_AMT",
+      "Column_2": "거래대금끝금",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "단위: 천",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_YN_EPS",
+      "Column_2": "EPS선택조건",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "해당조건 사용시(1), 미사용시 필수항목아님",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_ST_EPS",
+      "Column_2": "EPS시작",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_EN_EPS",
+      "Column_2": "EPS끝",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_YN_PER",
+      "Column_2": "PER선택조건",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "해당조건 사용시(1), 미사용시 필수항목아님",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_ST_PER",
+      "Column_2": "PER시작",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "CO_EN_PER",
+      "Column_2": "PER끝",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "KEYB",
+      "Column_2": "NEXT KEY BUFF",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": "\"\" 공백 입력",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세1",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "zdiv",
+      "Column_2": "소수점자리수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "소수점자리수",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "stat",
+      "Column_2": "거래상태정보",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "거래상태정보",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "crec",
+      "Column_2": "현재조회종목수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "현재조회종목수",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "trec",
+      "Column_2": "전체조회종목수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "전체조회종목수",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "nrec",
+      "Column_2": "Record Count",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "Record Count",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "조회결과 상세",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "rsym",
+      "Column_2": "실시간조회심볼",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "실시간조회심볼\r\n\r\nD+시장구분(3자리)+종목코드\r\n예) DNASAAPL : D+NAS(나스닥)+AAPL(애플)\r\n[시장구분]\r\nNYS : 뉴욕, NAS : 나스닥, AMS : 아멕스 ,\r\nTSE : 도쿄, HKS : 홍콩,\r\nSHS : 상해, SZS : 심천\r\nHSX : 호치민, HNX : 하노이\r\n",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "excd",
+      "Column_2": "거래소코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "4",
+      "Column_6": "거래소코드",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "48",
+      "Column_6": "종목명",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "symb",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "16",
+      "Column_6": "종목코드",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "last",
+      "Column_2": "현재가",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "현재가",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "shar",
+      "Column_2": "발행주식",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "14",
+      "Column_6": "발행주식수(단위: 천)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "valx",
+      "Column_2": "시가총액",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "14",
+      "Column_6": "시가총액(단위: 천)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "plow",
+      "Column_2": "저가",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "저가",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "phigh",
+      "Column_2": "고가",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "고가",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "popen",
+      "Column_2": "시가",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "시가",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "tvol",
+      "Column_2": "거래량",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "14",
+      "Column_6": "거래량(단위: 주)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "rate",
+      "Column_2": "등락율",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "등락율(%)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "diff",
+      "Column_2": "대비",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "대비",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "sign",
+      "Column_2": "기호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "기호",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "avol",
+      "Column_2": "거래대금",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "14",
+      "Column_6": "거래대금(단위: 천)",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "eps",
+      "Column_2": "EPS",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "14",
+      "Column_6": "EPS",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "per",
+      "Column_2": "PER",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "14",
+      "Column_6": "PER",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "rank",
+      "Column_2": "순위",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "6",
+      "Column_6": "순위",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "ename",
+      "Column_2": "영문종목명",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "48",
+      "Column_6": "영문종목명",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": null,
+      "Column_1": "e_ordyn",
+      "Column_2": "매매가능",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "가능 : O",
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "Request Example (Python)",
+      "Column_1": "{\r\n    \"AUTH\":\"\",\r\n    \"EXCD\":\"NAS\",\r\n    \"CO_YN_PRICECUR\":\"1\",\r\n    \"CO_ST_PRICECUR\":\"160\",\r\n    \"CO_EN_PRICECUR\":\"161\",\r\n    \"CO_YN_RATE\":\"\",\r\n    \"CO_ST_RATE\":\"\",\r\n    \"CO_EN_RATE\":\"\",\r\n    \"CO_YN_VALX\":\"\",\r\n    \"CO_ST_VALX\":\"\",\r\n    \"CO_EN_VALX\":\"\",\r\n    \"CO_YN_SHAR\":\"\",\r\n    \"CO_ST_SHAR\":\"\",\r\n    \"CO_EN_SHAR\":\"\",\r\n    \"CO_YN_VOLUME\":\"\",\r\n    \"CO_ST_VOLUME\":\"\",\r\n    \"CO_EN_VOLUME\":\"\",\r\n    \"CO_YN_AMT\":\"\",\r\n    \"CO_ST_AMT\":\"\",\r\n    \"CO_EN_AMT\":\"\",\r\n    CO_YN_EPS\":\"\",\r\n    CO_ST_EPS\":\"\",\r\n    CO_EN_EPS\":\"\",\r\n    CO_YN_PER\":\"\",\r\n    CO_ST_PER\":\"\",\r\n    CO_EN_PER\":\"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식조건검색": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"zdiv\": \"4\",\r\n        \"stat\": \"무료실시간\",\r\n        \"crec\": \"2\",\r\n        \"trec\": \"2\",\r\n        \"nrec\": \"2\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"rsym\": \"DNASTSLA\",\r\n            \"excd\": \"NAS\",\r\n            \"symb\": \"TSLA\",\r\n            \"name\": \"테슬라\",\r\n            \"last\": \"160.9500\",\r\n            \"sign\": \"5\",\r\n            \"diff\": \"6.8700\",\r\n            \"rate\": \"-4.09\",\r\n            \"tvol\": \"175862722\",\r\n            \"popen\": \"174.8700\",\r\n            \"phigh\": \"175.0500\",\r\n            \"plow\": \"156.9100\",\r\n            \"valx\": \"508239862\",\r\n            \"shar\": \"3157750000\",\r\n            \"avol\": \"28842552711\",\r\n            \"eps\": \"3.24\",\r\n            \"per\": \"49.73\",\r\n            \"rank\": \"1\",\r\n            \"ename\": \"TESLA INC\",\r\n            \"e_ordyn\": \"○\"\r\n        },\r\n        {\r\n            \"rsym\": \"DNASPANW\",\r\n            \"excd\": \"NAS\",\r\n            \"symb\": \"PANW\",\r\n            \"name\": \"팔로 알토 네트웍스\",\r\n            \"last\": \"160.7500\",\r\n            \"sign\": \"5\",\r\n            \"diff\": \"1.0300\",\r\n            \"rate\": \"-0.64\",\r\n            \"tvol\": \"3570070\",\r\n            \"popen\": \"168.2200\",\r\n            \"phigh\": \"168.9900\",\r\n            \"plow\": \"159.7700\",\r\n            \"valx\": \"48603888\",\r\n            \"shar\": \"302357000\",\r\n            \"avol\": \"580983313\",\r\n            \"eps\": \"0.50\",\r\n            \"per\": \"324.62\",\r\n            \"rank\": \"2\",\r\n            \"ename\": \"PALO ALTO NETWORKS INC\",\r\n            \"e_ordyn\": \"○\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

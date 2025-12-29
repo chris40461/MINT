@@ -1,0 +1,626 @@
+{
+  "sheet_name": "국내주식 증권사별 투자의견",
+  "row_count": 61,
+  "columns": [
+    "국내주식 증권사별 투자의견",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 증권사별 투자의견": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "API 명",
+      "Column_1": "국내주식 증권사별 투자의견",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "API ID",
+      "Column_1": "국내주식-189",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "실전 TR_ID",
+      "Column_1": "FHKST663400C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/invest-opbysec",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "개요",
+      "Column_1": "국내주식 증권사별 투자의견 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0608] 증권사별 투자의견 화면 의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n한 번의 호출에 20건까지 조회가 가능하기에, 일자 파라미터(FID_INPUT_DATE_1, FID_INPUT_DATE_2)를 조절하여 다음 데이터 조회하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKST663400C0",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건시장분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J(시장 구분 코드)",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "FID_COND_SCR_DIV_CODE",
+      "Column_2": "조건화면분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "16634(Primary key)",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "회원사코드 (kis developers 포탈 사이트 포럼-> FAQ -> 종목정보 다운로드(국내) 참조)",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "FID_DIV_CLS_CODE",
+      "Column_2": "분류구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "전체(0) 매수(1) 중립(2) 매도(3)",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "FID_INPUT_DATE_1",
+      "Column_2": "입력날짜1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "이후 ~",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "FID_INPUT_DATE_2",
+      "Column_2": "입력날짜2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "~ 이전",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "stck_shrn_iscd",
+      "Column_2": "주식단축종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "hts_kor_isnm",
+      "Column_2": "HTS한글종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "invt_opnn",
+      "Column_2": "투자의견",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "invt_opnn_cls_code",
+      "Column_2": "투자의견구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "rgbf_invt_opnn",
+      "Column_2": "직전투자의견",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "rgbf_invt_opnn_cls_code",
+      "Column_2": "직전투자의견구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "mbcr_name",
+      "Column_2": "회원사명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "50",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "hts_goal_prc",
+      "Column_2": "HTS목표가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "stck_prdy_clpr",
+      "Column_2": "주식전일종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "stft_esdg",
+      "Column_2": "주식선물괴리도",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": null,
+      "Column_1": "dprt",
+      "Column_2": "괴리율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:J\r\nFID_COND_SCR_DIV_CODE:16633\r\nFID_INPUT_ISCD:999\r\nFID_DIV_CLS_CODE:0\r\nFID_INPUT_DATE_1:20240428\r\nFID_INPUT_DATE_2:20240528",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 증권사별 투자의견": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240527\",\r\n            \"stck_shrn_iscd\": \"454910\",\r\n            \"hts_kor_isnm\": \"두산로보틱스\",\r\n            \"invt_opnn\": \"NotRated\",\r\n            \"invt_opnn_cls_code\": \"3\",\r\n            \"rgbf_invt_opnn\": \"NotRated\",\r\n            \"rgbf_invt_opnn_cls_code\": \"3\",\r\n            \"mbcr_name\": \"상상인\",\r\n            \"stck_prpr\": \"74300\",\r\n            \"prdy_vrss\": \"500\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.68\",\r\n            \"hts_goal_prc\": \"0\",\r\n            \"stck_prdy_clpr\": \"71600\",\r\n            \"stft_esdg\": \"74300\",\r\n            \"dprt\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240527\",\r\n            \"stck_shrn_iscd\": \"389140\",\r\n            \"hts_kor_isnm\": \"포바이포\",\r\n            \"invt_opnn\": \"NotRated\",\r\n            \"invt_opnn_cls_code\": \"3\",\r\n            \"rgbf_invt_opnn\": \"NotRated\",\r\n            \"rgbf_invt_opnn_cls_code\": \"3\",\r\n            \"mbcr_name\": \"상상인\",\r\n            \"stck_prpr\": \"10330\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"hts_goal_prc\": \"0\",\r\n            \"stck_prdy_clpr\": \"10120\",\r\n            \"stft_esdg\": \"10330\",\r\n            \"dprt\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240527\",\r\n            \"stck_shrn_iscd\": \"336260\",\r\n            \"hts_kor_isnm\": \"두산퓨얼셀\",\r\n            \"invt_opnn\": \"BUY\",\r\n            \"invt_opnn_cls_code\": \"2\",\r\n            \"rgbf_invt_opnn\": \"BUY\",\r\n            \"rgbf_invt_opnn_cls_code\": \"3\",\r\n            \"mbcr_name\": \"상상인\",\r\n            \"stck_prpr\": \"26150\",\r\n            \"prdy_vrss\": \"-50\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.19\",\r\n            \"hts_goal_prc\": \"33000\",\r\n            \"stck_prdy_clpr\": \"25000\",\r\n            \"stft_esdg\": \"-6850\",\r\n            \"dprt\": \"-20.76\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240527\",\r\n            \"stck_shrn_iscd\": \"298380\",\r\n            \"hts_kor_isnm\": \"에이비엘바이오\",\r\n            \"invt_opnn\": \"NotRated\",\r\n            \"invt_opnn_cls_code\": \"3\",\r\n            \"rgbf_invt_opnn\": \"NotRated\",\r\n            \"rgbf_invt_opnn_cls_code\": \"3\",\r\n            \"mbcr_name\": \"상상인\",\r\n            \"stck_prpr\": \"23300\",\r\n            \"prdy_vrss\": \"-100\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.43\",\r\n            \"hts_goal_prc\": \"0\",\r\n            \"stck_prdy_clpr\": \"24300\",\r\n            \"stft_esdg\": \"23300\",\r\n            \"dprt\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240527\",\r\n            \"stck_shrn_iscd\": \"377740\",\r\n            \"hts_kor_isnm\": \"바이오노트\",\r\n            \"invt_opnn\": \"BUY\",\r\n            \"invt_opnn_cls_code\": \"2\",\r\n            \"rgbf_invt_opnn\": \"BUY\",\r\n            \"rgbf_invt_opnn_cls_code\": \"3\",\r\n            \"mbcr_name\": \"다올투자\",\r\n            \"stck_prpr\": \"4135\",\r\n            \"prdy_vrss\": \"-10\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.24\",\r\n            \"hts_goal_prc\": \"5700\",\r\n            \"stck_prdy_clpr\": \"4175\",\r\n            \"stft_esdg\": \"-1565\",\r\n            \"dprt\": \"-27.46\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240527\",\r\n            \"stck_shrn_iscd\": \"137310\",\r\n            \"hts_kor_isnm\": \"에스디바이오센서\",\r\n            \"invt_opnn\": \"HOLD\",\r\n            \"invt_opnn_cls_code\": \"3\",\r\n            \"rgbf_invt_opnn\": \"HOLD\",\r\n            \"rgbf_invt_opnn_cls_code\": \"3\",\r\n            \"mbcr_name\": \"다올투자\",\r\n            \"stck_prpr\": \"10110\",\r\n            \"prdy_vrss\": \"60\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.60\",\r\n            \"hts_goal_prc\": \"11000\",\r\n            \"stck_prdy_clpr\": \"10060\",\r\n            \"stft_esdg\": \"-890\",\r\n            \"dprt\": \"-8.09\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240527\",\r\n            \"stck_shrn_iscd\": \"298020\",\r\n            \"hts_kor_isnm\": \"효성티앤씨\",\r\n            \"invt_opnn\": \"매수\",\r\n            \"invt_opnn_cls_code\": \"2\",\r\n            \"rgbf_invt_opnn\": \"매수\",\r\n            \"rgbf_invt_opnn_cls_code\": \"3\",\r\n            \"mbcr_name\": \"IBK투자\",\r\n            \"stck_prpr\": \"389000\",\r\n            \"prdy_vrss\": \"-19000\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-4.66\",\r\n            \"hts_goal_prc\": \"550000\",\r\n            \"stck_prdy_clpr\": \"400500\",\r\n            \"stft_esdg\": \"-161000\",\r\n            \"dprt\": \"-29.27\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

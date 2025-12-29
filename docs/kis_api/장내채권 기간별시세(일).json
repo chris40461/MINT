@@ -1,0 +1,486 @@
+{
+  "sheet_name": "장내채권 기간별시세(일)",
+  "row_count": 47,
+  "columns": [
+    "장내채권 기간별시세(일)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "장내채권 기간별시세(일)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "메뉴 위치",
+      "Column_1": "[장내채권] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "API 명",
+      "Column_1": "장내채권 기간별시세(일)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "API ID",
+      "Column_1": "국내주식-159",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "실전 TR_ID",
+      "Column_1": "FHKBJ773701C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "URL 명",
+      "Column_1": "/uapi/domestic-bond/v1/quotations/inquire-daily-itemchartprice",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "개요",
+      "Column_1": "장내채권 기간별시세(일) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0979] 장내채권종합주문 화면 가운데 \"일별\" 클릭 시 시세 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다. \r\n\r\n최근 30건까지 데이터 확인이 가능합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKBJ773701C0",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건 시장 구분 코드 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "Unique key(B)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "bond_oprc",
+      "Column_2": "채권시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "bond_hgpr",
+      "Column_2": "채권고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "bond_lwpr",
+      "Column_2": "채권저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "bond_prpr",
+      "Column_2": "채권현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:B\r\nFID_INPUT_ISCD:KR101501D967",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기간별시세(일)": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240610\",\r\n            \"bond_oprc\": \"0.00\",\r\n            \"bond_hgpr\": \"0.00\",\r\n            \"bond_lwpr\": \"0.00\",\r\n            \"bond_prpr\": \"10997.10\",\r\n            \"acml_vol\": \"0\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240607\",\r\n            \"bond_oprc\": \"10997.10\",\r\n            \"bond_hgpr\": \"10997.10\",\r\n            \"bond_lwpr\": \"10997.10\",\r\n            \"bond_prpr\": \"10997.10\",\r\n            \"acml_vol\": \"119\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240605\",\r\n            \"bond_oprc\": \"10997.50\",\r\n            \"bond_hgpr\": \"10997.50\",\r\n            \"bond_lwpr\": \"10997.50\",\r\n            \"bond_prpr\": \"10997.50\",\r\n            \"acml_vol\": \"97\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240530\",\r\n            \"bond_oprc\": \"10860.00\",\r\n            \"bond_hgpr\": \"10860.00\",\r\n            \"bond_lwpr\": \"10860.00\",\r\n            \"bond_prpr\": \"10860.00\",\r\n            \"acml_vol\": \"46\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240529\",\r\n            \"bond_oprc\": \"10873.00\",\r\n            \"bond_hgpr\": \"10873.00\",\r\n            \"bond_lwpr\": \"10873.00\",\r\n            \"bond_prpr\": \"10873.00\",\r\n            \"acml_vol\": \"3\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240528\",\r\n            \"bond_oprc\": \"8540.00\",\r\n            \"bond_hgpr\": \"10700.00\",\r\n            \"bond_lwpr\": \"8540.00\",\r\n            \"bond_prpr\": \"10700.00\",\r\n            \"acml_vol\": \"49\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240520\",\r\n            \"bond_oprc\": \"10867.70\",\r\n            \"bond_hgpr\": \"10867.70\",\r\n            \"bond_lwpr\": \"10867.70\",\r\n            \"bond_prpr\": \"10867.70\",\r\n            \"acml_vol\": \"14\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240517\",\r\n            \"bond_oprc\": \"10850.40\",\r\n            \"bond_hgpr\": \"10850.40\",\r\n            \"bond_lwpr\": \"10850.40\",\r\n            \"bond_prpr\": \"10850.40\",\r\n            \"acml_vol\": \"1015\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240514\",\r\n            \"bond_oprc\": \"10861.80\",\r\n            \"bond_hgpr\": \"10863.50\",\r\n            \"bond_lwpr\": \"10861.80\",\r\n            \"bond_prpr\": \"10863.50\",\r\n            \"acml_vol\": \"17549\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240513\",\r\n            \"bond_oprc\": \"10844.30\",\r\n            \"bond_hgpr\": \"10861.10\",\r\n            \"bond_lwpr\": \"10844.30\",\r\n            \"bond_prpr\": \"10861.10\",\r\n            \"acml_vol\": \"1963\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240510\",\r\n            \"bond_oprc\": \"10858.00\",\r\n            \"bond_hgpr\": \"10858.00\",\r\n            \"bond_lwpr\": \"10858.00\",\r\n            \"bond_prpr\": \"10858.00\",\r\n            \"acml_vol\": \"12\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240509\",\r\n            \"bond_oprc\": \"10857.00\",\r\n            \"bond_hgpr\": \"10857.00\",\r\n            \"bond_lwpr\": \"10857.00\",\r\n            \"bond_prpr\": \"10857.00\",\r\n            \"acml_vol\": \"2\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240508\",\r\n            \"bond_oprc\": \"10856.20\",\r\n            \"bond_hgpr\": \"10856.20\",\r\n            \"bond_lwpr\": \"10856.20\",\r\n            \"bond_prpr\": \"10856.20\",\r\n            \"acml_vol\": \"11\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240424\",\r\n            \"bond_oprc\": \"10820.70\",\r\n            \"bond_hgpr\": \"10820.70\",\r\n            \"bond_lwpr\": \"10820.70\",\r\n            \"bond_prpr\": \"10820.70\",\r\n            \"acml_vol\": \"931\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240423\",\r\n            \"bond_oprc\": \"10818.60\",\r\n            \"bond_hgpr\": \"10819.00\",\r\n            \"bond_lwpr\": \"10818.60\",\r\n            \"bond_prpr\": \"10819.00\",\r\n            \"acml_vol\": \"3708\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240422\",\r\n            \"bond_oprc\": \"10817.60\",\r\n            \"bond_hgpr\": \"10823.00\",\r\n            \"bond_lwpr\": \"10817.60\",\r\n            \"bond_prpr\": \"10823.00\",\r\n            \"acml_vol\": \"13959\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240308\",\r\n            \"bond_oprc\": \"10756.00\",\r\n            \"bond_hgpr\": \"10788.00\",\r\n            \"bond_lwpr\": \"10756.00\",\r\n            \"bond_prpr\": \"10788.00\",\r\n            \"acml_vol\": \"20\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231108\",\r\n            \"bond_oprc\": \"10600.00\",\r\n            \"bond_hgpr\": \"10600.00\",\r\n            \"bond_lwpr\": \"10600.00\",\r\n            \"bond_prpr\": \"10600.00\",\r\n            \"acml_vol\": \"949\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231018\",\r\n            \"bond_oprc\": \"10570.00\",\r\n            \"bond_hgpr\": \"10620.00\",\r\n            \"bond_lwpr\": \"10570.00\",\r\n            \"bond_prpr\": \"10620.00\",\r\n            \"acml_vol\": \"1890\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231013\",\r\n            \"bond_oprc\": \"10592.00\",\r\n            \"bond_hgpr\": \"10630.00\",\r\n            \"bond_lwpr\": \"10592.00\",\r\n            \"bond_prpr\": \"10630.00\",\r\n            \"acml_vol\": \"10714\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20231012\",\r\n            \"bond_oprc\": \"10541.00\",\r\n            \"bond_hgpr\": \"10592.00\",\r\n            \"bond_lwpr\": \"10541.00\",\r\n            \"bond_prpr\": \"10592.00\",\r\n            \"acml_vol\": \"5691\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230926\",\r\n            \"bond_oprc\": \"10615.70\",\r\n            \"bond_hgpr\": \"10615.70\",\r\n            \"bond_lwpr\": \"10615.70\",\r\n            \"bond_prpr\": \"10615.70\",\r\n            \"acml_vol\": \"4731\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230914\",\r\n            \"bond_oprc\": \"10579.00\",\r\n            \"bond_hgpr\": \"10579.00\",\r\n            \"bond_lwpr\": \"10579.00\",\r\n            \"bond_prpr\": \"10579.00\",\r\n            \"acml_vol\": \"10\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230913\",\r\n            \"bond_oprc\": \"10501.00\",\r\n            \"bond_hgpr\": \"10501.00\",\r\n            \"bond_lwpr\": \"10501.00\",\r\n            \"bond_prpr\": \"10501.00\",\r\n            \"acml_vol\": \"9\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230912\",\r\n            \"bond_oprc\": \"10499.10\",\r\n            \"bond_hgpr\": \"10540.00\",\r\n            \"bond_lwpr\": \"10499.10\",\r\n            \"bond_prpr\": \"10499.10\",\r\n            \"acml_vol\": \"30\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230829\",\r\n            \"bond_oprc\": \"10389.00\",\r\n            \"bond_hgpr\": \"10389.00\",\r\n            \"bond_lwpr\": \"10389.00\",\r\n            \"bond_prpr\": \"10389.00\",\r\n            \"acml_vol\": \"4761\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230825\",\r\n            \"bond_oprc\": \"10550.00\",\r\n            \"bond_hgpr\": \"10550.00\",\r\n            \"bond_lwpr\": \"10550.00\",\r\n            \"bond_prpr\": \"10550.00\",\r\n            \"acml_vol\": \"12555\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230818\",\r\n            \"bond_oprc\": \"10299.20\",\r\n            \"bond_hgpr\": \"10299.20\",\r\n            \"bond_lwpr\": \"10299.20\",\r\n            \"bond_prpr\": \"10299.20\",\r\n            \"acml_vol\": \"2838\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230814\",\r\n            \"bond_oprc\": \"10350.00\",\r\n            \"bond_hgpr\": \"10450.00\",\r\n            \"bond_lwpr\": \"10350.00\",\r\n            \"bond_prpr\": \"10450.00\",\r\n            \"acml_vol\": \"2838\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20230720\",\r\n            \"bond_oprc\": \"10527.00\",\r\n            \"bond_hgpr\": \"10527.00\",\r\n            \"bond_lwpr\": \"10527.00\",\r\n            \"bond_prpr\": \"10527.00\",\r\n            \"acml_vol\": \"18\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "sheet_name": "해외주식 실시간지연체결가",
+  "row_count": 51,
+  "columns": [
+    "해외주식 실시간지연체결가",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 실시간지연체결가": "API 통신방식",
+      "Column_1": "WEBSOCKET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "메뉴 위치",
+      "Column_1": "[해외주식] 실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "API 명",
+      "Column_1": "해외주식 실시간지연체결가",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "API ID",
+      "Column_1": "실시간-007",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "실전 TR_ID",
+      "Column_1": "HDFSCNT0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "URL 명",
+      "Column_1": "/tryitout/HDFSCNT0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "개요",
+      "Column_1": "해외주식 실시간지연체결가의 경우 기본적으로 무료시세(지연체결가)가 제공되며, \r\n아시아 국가의 경우 HTS(efriend Plus) [7781] 시세신청(실시간) 화면에서 유료 서비스 신청 시 API로도 유료시세(실시간체결가)를 받아보실 수 있습니다. (24.11.29 반영)\r\n\r\n※ 지연시세 지연시간 : 미국 - 실시간무료(0분지연) / 홍콩, 베트남, 중국, 일본 - 15분지연 (중국은 실시간시세 신청 시 무료실시간시세 제공)\r\n   미국의 경우 0분지연시세로 제공되나, 장중 당일 시가는 상이할 수 있으며, 익일 정정 표시됩니다.\r\n\r\n해당 API로 미국주간거래(10:00~16:00) 시세 조회도 가능합니다. \r\n※ 미국주간거래 실시간 조회 시, 맨 앞자리(R), tr_key 중 시장구분 값을 다음과 같이 입력 → 나스닥: BAQ, 뉴욕: BAY, 아멕스: BAA\r\n\r\n[참고자료]\r\n\r\n실시간시세(웹소켓) 파이썬 샘플코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/blob/main/websocket/python/ws_domestic_overseas_all.py\r\n\r\n실시간시세(웹소켓) API 사용방법에 대한 자세한 설명은 한국투자증권 Wikidocs 참고 부탁드립니다.\r\nhttps://wikidocs.net/book/7847 (국내주식 업데이트 완료, 추후 해외주식·국내선물옵션 업데이트 예정)\r\n\r\n종목코드 마스터파일 파이썬 정제코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/tree/main/stocks_info",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "286",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "tr_type",
+      "Column_2": "등록/해제",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "1: 등록, 2:해제",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 / P : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": "HDFSCNT0",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "tr_key",
+      "Column_2": "D거래소명종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "<미국 야간거래/아시아 주간거래 - 무료시세>\r\nD+시장구분(3자리)+종목코드\r\n예) DNASAAPL : D+NAS(나스닥)+AAPL(애플)\r\n[시장구분]\r\nNYS : 뉴욕, NAS : 나스닥, AMS : 아멕스 ,\r\nTSE : 도쿄, HKS : 홍콩,\r\nSHS : 상해, SZS : 심천\r\nHSX : 호치민, HNX : 하노이\r\n\r\n<미국 야간거래/아시아 주간거래 - 유료시세>\r\n※ 유료시세 신청시에만 유료시세 수신가능\r\n\"포럼 > FAQ > 해외주식 유료시세 신청방법\" 참고\r\nR+시장구분(3자리)+종목코드\r\n예) RNASAAPL : R+NAS(나스닥)+AAPL(애플)\r\n[시장구분]\r\nNYS : 뉴욕, NAS : 나스닥, AMS : 아멕스 ,\r\nTSE : 도쿄, HKS : 홍콩,\r\nSHS : 상해, SZS : 심천\r\nHSX : 호치민, HNX : 하노이\r\n\r\n<미국 주간거래>\r\nR+시장구분(3자리)+종목코드\r\n예) RBAQAAPL : R+BAQ(나스닥)+AAPL(애플)\r\n[시장구분]\r\nBAY : 뉴욕(주간), BAQ : 나스닥(주간). BAA : 아멕스(주간)",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "Response Body",
+      "Column_1": "RSYM",
+      "Column_2": "실시간종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "'각 항목사이에는 구분자로 ^ 사용,\r\n모든 데이터타입은 String으로 변환되어 push 처리됨'",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "SYMB",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "ZDIV",
+      "Column_2": "수수점자리수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "TYMD",
+      "Column_2": "현지영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "XYMD",
+      "Column_2": "현지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "XHMS",
+      "Column_2": "현지시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "KYMD",
+      "Column_2": "한국일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "KHMS",
+      "Column_2": "한국시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "OPEN",
+      "Column_2": "시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "HIGH",
+      "Column_2": "고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "LOW",
+      "Column_2": "저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "LAST",
+      "Column_2": "현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "SIGN",
+      "Column_2": "대비구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "DIFF",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "RATE",
+      "Column_2": "등락율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "PBID",
+      "Column_2": "매수호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "PASK",
+      "Column_2": "매도호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "VBID",
+      "Column_2": "매수잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "VASK",
+      "Column_2": "매도잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "EVOL",
+      "Column_2": "체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "TVOL",
+      "Column_2": "거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "TAMT",
+      "Column_2": "거래대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "BIVL",
+      "Column_2": "매도체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "매수호가가 매도주문 수량을 따라가서 체결된것을 표현하여 BIVL 이라는 표현을 사용",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "ASVL",
+      "Column_2": "매수체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "매도호가가 매수주문 수량을 따라가서 체결된것을 표현하여 ASVL 이라는 표현을 사용",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "STRN",
+      "Column_2": "체결강도",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": null,
+      "Column_1": "MTYP",
+      "Column_2": "시장구분 1:장중,2:장전,3:장후",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "Request Example (Python)",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 실시간지연체결가": "Response Example",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

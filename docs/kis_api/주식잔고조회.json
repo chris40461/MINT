@@ -1,0 +1,1046 @@
+{
+  "sheet_name": "주식잔고조회",
+  "row_count": 103,
+  "columns": [
+    "주식잔고조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "주식잔고조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "메뉴 위치",
+      "Column_1": "[국내주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "API 명",
+      "Column_1": "주식잔고조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "API ID",
+      "Column_1": "v1_국내주식-006",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "실전 TR_ID",
+      "Column_1": "TTTC8434R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "모의 TR_ID",
+      "Column_1": "VTTC8434R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/trading/inquire-balance",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "개요",
+      "Column_1": "주식 잔고조회 API입니다. \r\n실전계좌의 경우, 한 번의 호출에 최대 50건까지 확인 가능하며, 이후의 값은 연속조회를 통해 확인하실 수 있습니다. \r\n모의계좌의 경우, 한 번의 호출에 최대 20건까지 확인 가능하며, 이후의 값은 연속조회를 통해 확인하실 수 있습니다. \r\n\r\n* 당일 전량매도한 잔고도 보유수량 0으로 보여질 수 있으나, 해당 보유수량 0인 잔고는 최종 D-2일 이후에는 잔고에서 사라집니다.\r\n\r\n※ 중요 : 해당 API는 제공 정보량이 많아 조회속도가 느린 API입니다. 단순 주문 준비를 위해서는 주식매수/매도가능수량 조회 TR 사용을 권장 드립니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token\r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용)\r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자]\r\nTTTC8434R : 주식 잔고 조회\r\n\r\n[모의투자]\r\nVTTC8434R : 주식 잔고 조회",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공백 : 초기 조회\r\nN : 다음 데이터 조회 (output header의 tr_cont가 M일 경우)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인\r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호\r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "AFHR_FLPR_YN",
+      "Column_2": "시간외단일가, 거래소여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "N : 기본값,\r\nY : 시간외단일가,\r\nX : NXT 정규장 (프리마켓, 메인, 애프터마켓)\r\n※ NXT 선택 시 : NXT 거래종목만 시세 등 정보가 NXT 기준으로 변동됩니다. KRX 종목들은 그대로 유지",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "OFL_YN",
+      "Column_2": "오프라인여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공란(Default)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "INQR_DVSN",
+      "Column_2": "조회구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 대출일별\r\n02 : 종목별",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "UNPR_DVSN",
+      "Column_2": "단가구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 기본값",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "FUND_STTL_ICLD_YN",
+      "Column_2": "펀드결제분포함여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "N : 포함하지 않음\r\nY :  포함",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "FNCG_AMT_AUTO_RDPT_YN",
+      "Column_2": "융자금액자동상환여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "N : 기본값",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "PRCS_DVSN",
+      "Column_2": "처리구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "00 :  전일매매포함\r\n01 : 전일매매미포함",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "CTX_AREA_FK100",
+      "Column_2": "연속조회검색조건100",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "100",
+      "Column_6": "공란 : 최초 조회시\r\n이전 조회 Output CTX_AREA_FK100 값 : 다음페이지 조회시(2번째부터) ",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "CTX_AREA_NK100",
+      "Column_2": "연속조회키100",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "100",
+      "Column_6": "공란 : 최초 조회시\r\n이전 조회 Output CTX_AREA_NK100 값 : 다음페이지 조회시(2번째부터)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "F or M : 다음 데이터 있음\r\nD or E : 마지막 데이터",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공\r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "응답코드",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "응답메세지",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "ctx_area_fk100",
+      "Column_2": "연속조회검색조건100",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "ctx_area_nk100",
+      "Column_2": "연속조회키100",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세1",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "Array",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목번호(뒷 6자리)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "종목명",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "trad_dvsn_name",
+      "Column_2": "매매구분명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "매수매도구분",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "bfdy_buy_qty",
+      "Column_2": "전일매수수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "bfdy_sll_qty",
+      "Column_2": "전일매도수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "thdt_buyqty",
+      "Column_2": "금일매수수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "thdt_sll_qty",
+      "Column_2": "금일매도수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "hldg_qty",
+      "Column_2": "보유수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "ord_psbl_qty",
+      "Column_2": "주문가능수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "pchs_avg_pric",
+      "Column_2": "매입평균가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "22",
+      "Column_6": "매입금액 / 보유수량",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "pchs_amt",
+      "Column_2": "매입금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "prpr",
+      "Column_2": "현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "evlu_amt",
+      "Column_2": "평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "evlu_pfls_amt",
+      "Column_2": "평가손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "평가금액 - 매입금액",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "evlu_pfls_rt",
+      "Column_2": "평가손익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "evlu_erng_rt",
+      "Column_2": "평가수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "31",
+      "Column_6": "미사용항목(0으로 출력)",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "loan_dt",
+      "Column_2": "대출일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "INQR_DVSN(조회구분)을 01(대출일별)로 설정해야 값이 나옴",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "loan_amt",
+      "Column_2": "대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "stln_slng_chgs",
+      "Column_2": "대주매각대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "expd_dt",
+      "Column_2": "만기일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "fltt_rt",
+      "Column_2": "등락율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "31",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "bfdy_cprs_icdc",
+      "Column_2": "전일대비증감",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "item_mgna_rt_name",
+      "Column_2": "종목증거금율명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "grta_rt_name",
+      "Column_2": "보증금율명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "sbst_pric",
+      "Column_2": "대용가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "증권매매의 위탁보증금으로서 현금 대신에 사용되는 유가증권 가격",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "stck_loan_unpr",
+      "Column_2": "주식대출단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "22",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "Array",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "dnca_tot_amt",
+      "Column_2": "예수금총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "예수금",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "nxdy_excc_amt",
+      "Column_2": "익일정산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "D+1 예수금",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "prvs_rcdl_excc_amt",
+      "Column_2": "가수도정산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "D+2 예수금",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "cma_evlu_amt",
+      "Column_2": "CMA평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "bfdy_buy_amt",
+      "Column_2": "전일매수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "thdt_buy_amt",
+      "Column_2": "금일매수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "nxdy_auto_rdpt_amt",
+      "Column_2": "익일자동상환금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "bfdy_sll_amt",
+      "Column_2": "전일매도금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "thdt_sll_amt",
+      "Column_2": "금일매도금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "d2_auto_rdpt_amt",
+      "Column_2": "D+2자동상환금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "bfdy_tlex_amt",
+      "Column_2": "전일제비용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "thdt_tlex_amt",
+      "Column_2": "금일제비용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "tot_loan_amt",
+      "Column_2": "총대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "scts_evlu_amt",
+      "Column_2": "유가평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "tot_evlu_amt",
+      "Column_2": "총평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "유가증권 평가금액 합계금액 + D+2 예수금",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "nass_amt",
+      "Column_2": "순자산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "fncg_gld_auto_rdpt_yn",
+      "Column_2": "융자금자동상환여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "보유현금에 대한 융자금만 차감여부\r\n신용융자 매수체결 시점에서는 융자비율을 매매대금 100%로 계산 하였다가 수도결제일에 보증금에 해당하는 금액을 고객의 현금으로 충당하여 융자금을 감소시키는 업무",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "pchs_amt_smtl_amt",
+      "Column_2": "매입금액합계금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "evlu_amt_smtl_amt",
+      "Column_2": "평가금액합계금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "유가증권 평가금액 합계금액",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "evlu_pfls_smtl_amt",
+      "Column_2": "평가손익합계금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "tot_stln_slng_chgs",
+      "Column_2": "총대주매각대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "bfdy_tot_asst_evlu_amt",
+      "Column_2": "전일총자산평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "asst_icdc_amt",
+      "Column_2": "자산증감액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": null,
+      "Column_1": "asst_icdc_erng_rt",
+      "Column_2": "자산증감수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "31",
+      "Column_6": "데이터 미제공",
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\": \"810XXXXX\",\r\n\t\"ACNT_PRDT_CD\": \"01\",\r\n\t\"AFHR_FLPR_YN\": \"N\",\r\n\t\"OFL_YN\": \"\",\r\n\t\"INQR_DVSN\": \"01\",\r\n\t\"UNPR_DVSN\": \"01\",\r\n\t\"FUND_STTL_ICLD_YN\": \"N\",\r\n\t\"FNCG_AMT_AUTO_RDPT_YN\": \"N\",\r\n\t\"PRCS_DVSN\": \"01\",\r\n\t\"CTX_AREA_FK100\": \"\",\r\n\t\"CTX_AREA_NK100\": \"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식잔고조회": "Response Example",
+      "Column_1": "{\r\n  \"ctx_area_fk100\": \"81055689^01^N^N^01^01^N^                                                                            \",\r\n  \"ctx_area_nk100\": \"                                                                                                    \",\r\n  \"output1\": [\r\n    {\r\n      \"pdno\": \"009150\",\r\n      \"prdt_name\": \"삼성전기\",\r\n      \"trad_dvsn_name\": \"현금\",\r\n      \"bfdy_buy_qty\": \"12\",\r\n      \"bfdy_sll_qty\": \"0\",\r\n      \"thdt_buyqty\": \"1686\",\r\n      \"thdt_sll_qty\": \"41\",\r\n      \"hldg_qty\": \"1657\",\r\n      \"ord_psbl_qty\": \"1611\",\r\n      \"pchs_avg_pric\": \"135440.2517\",\r\n      \"pchs_amt\": \"224424497\",\r\n      \"prpr\": \"0\",\r\n      \"evlu_amt\": \"0\",\r\n      \"evlu_pfls_amt\": \"0\",\r\n      \"evlu_pfls_rt\": \"0.00\",\r\n      \"evlu_erng_rt\": \"0.00000000\",\r\n      \"loan_dt\": \"\",\r\n      \"loan_amt\": \"0\",\r\n      \"stln_slng_chgs\": \"0\",\r\n      \"expd_dt\": \"\",\r\n      \"fltt_rt\": \"-100.00000000\",\r\n      \"bfdy_cprs_icdc\": \"-184500\",\r\n      \"item_mgna_rt_name\": \"\",\r\n      \"grta_rt_name\": \"\",\r\n      \"sbst_pric\": \"140220\",\r\n      \"stck_loan_unpr\": \"0.0000\"\r\n    },\r\n    {\r\n      \"pdno\": \"009150\",\r\n      \"prdt_name\": \"삼성전기\",\r\n      \"trad_dvsn_name\": \"자기융자\",\r\n      \"bfdy_buy_qty\": \"3\",\r\n      \"bfdy_sll_qty\": \"0\",\r\n      \"thdt_buyqty\": \"0\",\r\n      \"thdt_sll_qty\": \"0\",\r\n      \"hldg_qty\": \"3\",\r\n      \"ord_psbl_qty\": \"3\",\r\n      \"pchs_avg_pric\": \"123000.0000\",\r\n      \"pchs_amt\": \"369000\",\r\n      \"prpr\": \"0\",\r\n      \"evlu_amt\": \"0\",\r\n      \"evlu_pfls_amt\": \"0\",\r\n      \"evlu_pfls_rt\": \"0.00\",\r\n      \"evlu_erng_rt\": \"0.00000000\",\r\n      \"loan_dt\": \"20211223\",\r\n      \"loan_amt\": \"369000\",\r\n      \"stln_slng_chgs\": \"0\",\r\n      \"expd_dt\": \"\",\r\n      \"fltt_rt\": \"-100.00000000\",\r\n      \"bfdy_cprs_icdc\": \"-184500\",\r\n      \"item_mgna_rt_name\": \"\",\r\n      \"grta_rt_name\": \"\",\r\n      \"sbst_pric\": \"140220\",\r\n      \"stck_loan_unpr\": \"123000.0000\"\r\n    }\r\n\t  ],\r\n  \"output2\": [\r\n        {\r\n            \"dnca_tot_amt\": \"346455\",\r\n            \"nxdy_excc_amt\": \"346455\",\r\n            \"prvs_rcdl_excc_amt\": \"346455\",\r\n            \"cma_evlu_amt\": \"0\",\r\n            \"bfdy_buy_amt\": \"0\",\r\n            \"thdt_buy_amt\": \"0\",\r\n            \"nxdy_auto_rdpt_amt\": \"0\",\r\n            \"bfdy_sll_amt\": \"0\",\r\n            \"thdt_sll_amt\": \"0\",\r\n            \"d2_auto_rdpt_amt\": \"0\",\r\n            \"bfdy_tlex_amt\": \"0\",\r\n            \"thdt_tlex_amt\": \"0\",\r\n            \"tot_loan_amt\": \"0\",\r\n            \"scts_evlu_amt\": \"1759600\",\r\n            \"tot_evlu_amt\": \"2106055\",\r\n            \"nass_amt\": \"2106055\",\r\n            \"fncg_gld_auto_rdpt_yn\": \"\",\r\n            \"pchs_amt_smtl_amt\": \"2516522\",\r\n            \"evlu_amt_smtl_amt\": \"1759600\",\r\n            \"evlu_pfls_smtl_amt\": \"-756922\",\r\n            \"tot_stln_slng_chgs\": \"0\",\r\n            \"bfdy_tot_asst_evlu_amt\": \"2142945\",\r\n            \"asst_icdc_amt\": \"-36890\",\r\n            \"asst_icdc_erng_rt\": \"0.00000000\"\r\n        }\r\n    ],\r\n  \"rt_cd\": \"0\",\r\n  \"msg_cd\": \"KIOK0510\",\r\n  \"msg1\": \"조회가 완료되었습니다                                                           \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

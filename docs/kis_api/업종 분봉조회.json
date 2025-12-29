@@ -1,0 +1,706 @@
+{
+  "sheet_name": "업종 분봉조회",
+  "row_count": 69,
+  "columns": [
+    "업종 분봉조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "업종 분봉조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "메뉴 위치",
+      "Column_1": "[국내주식] 업종/기타",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "API 명",
+      "Column_1": "업종 분봉조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "API ID",
+      "Column_1": "v1_국내주식-045",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "실전 TR_ID",
+      "Column_1": "FHKUP03500200",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/inquire-time-indexchartprice",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "개요",
+      "Column_1": "업종분봉조회 API입니다.\r\n실전계좌의 경우, 한 번의 호출에 최대 102건까지 확인 가능합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKUP03500200",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "FID 조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "U",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "FID_ETC_CLS_CODE",
+      "Column_2": "FID 기타 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "0: 기본 1:장마감,시간외 제외",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "FID 입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "0001 : 종합\r\n0002 : 대형주\r\n...\r\n포탈 (FAQ : 종목정보 다운로드(국내) - 업종코드 참조)",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "FID_INPUT_HOUR_1",
+      "Column_2": "FID 입력 시간1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "30, 60 -> 1분, 600-> 10분, 3600 -> 1시간",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "FID_PW_DATA_INCU_YN",
+      "Column_2": "FID 과거 데이터 포함 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "Y (과거) / N (당일)",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "Output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_prdy_vrss",
+      "Column_2": "업종 지수 전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_prdy_ctrt",
+      "Column_2": "업종 지수 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "prdy_nmix",
+      "Column_2": "전일 지수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "acml_tr_pbmn",
+      "Column_2": "누적 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "hts_kor_isnm",
+      "Column_2": "HTS 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_prpr",
+      "Column_2": "업종 지수 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_cls_code",
+      "Column_2": "업종 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "prdy_vol",
+      "Column_2": "전일 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_oprc",
+      "Column_2": "업종 지수 시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_hgpr",
+      "Column_2": "업종 지수 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_lwpr",
+      "Column_2": "업종 지수 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "futs_prdy_oprc",
+      "Column_2": "선물 전일 시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "futs_prdy_hgpr",
+      "Column_2": "선물 전일 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "futs_prdy_lwpr",
+      "Column_2": "선물 전일 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "Output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식 영업 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "stck_cntg_hour",
+      "Column_2": "주식 체결 시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_prpr",
+      "Column_2": "업종 지수 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_oprc",
+      "Column_2": "업종 지수 시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_hgpr",
+      "Column_2": "업종 지수 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "bstp_nmix_lwpr",
+      "Column_2": "업종 지수 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "cntg_vol",
+      "Column_2": "체결 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": null,
+      "Column_1": "acml_tr_pbmn",
+      "Column_2": "누적 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "Request Example (Python)",
+      "Column_1": "{\r\n\"FID_COND_MRKT_DIV_CODE\":\"U\",\r\n\"FID_INPUT_ISCD\":\"1001\",\r\n\"FID_INPUT_HOUR_1\":\"120\",\r\n\"FID_PW_DATA_INCU_YN\":\"Y\",\r\n\"FID_ETC_CLS_CODE\":\"0\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "업종 분봉조회": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"bstp_nmix_prdy_vrss\": \"-3.68\",\r\n        \"prdy_vrss_sign\": \"5\",\r\n        \"bstp_nmix_prdy_ctrt\": \"-0.44\",\r\n        \"prdy_nmix\": \"837.24\",\r\n        \"acml_vol\": \"554702\",\r\n        \"acml_tr_pbmn\": \"5740155\",\r\n        \"hts_kor_isnm\": \"KOSDAQ\",\r\n        \"bstp_nmix_prpr\": \"833.56\",\r\n        \"bstp_cls_code\": \"1001\",\r\n        \"prdy_vol\": \"1238780\",\r\n        \"bstp_nmix_oprc\": \"841.21\",\r\n        \"bstp_nmix_hgpr\": \"841.21\",\r\n        \"bstp_nmix_lwpr\": \"830.09\",\r\n        \"futs_prdy_oprc\": \"818.76\",\r\n        \"futs_prdy_hgpr\": \"839.52\",\r\n        \"futs_prdy_lwpr\": \"817.06\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"103200\",\r\n            \"bstp_nmix_prpr\": \"833.56\",\r\n            \"bstp_nmix_oprc\": \"834.07\",\r\n            \"bstp_nmix_hgpr\": \"834.07\",\r\n            \"bstp_nmix_lwpr\": \"833.56\",\r\n            \"cntg_vol\": \"4618\",\r\n            \"acml_tr_pbmn\": \"5740155\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"103000\",\r\n            \"bstp_nmix_prpr\": \"833.99\",\r\n            \"bstp_nmix_oprc\": \"834.29\",\r\n            \"bstp_nmix_hgpr\": \"834.29\",\r\n            \"bstp_nmix_lwpr\": \"833.89\",\r\n            \"cntg_vol\": \"4601\",\r\n            \"acml_tr_pbmn\": \"5689290\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"102800\",\r\n            \"bstp_nmix_prpr\": \"834.24\",\r\n            \"bstp_nmix_oprc\": \"833.47\",\r\n            \"bstp_nmix_hgpr\": \"834.32\",\r\n            \"bstp_nmix_lwpr\": \"833.44\",\r\n            \"cntg_vol\": \"4978\",\r\n            \"acml_tr_pbmn\": \"5635506\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"102600\",\r\n            \"bstp_nmix_prpr\": \"833.46\",\r\n            \"bstp_nmix_oprc\": \"832.36\",\r\n            \"bstp_nmix_hgpr\": \"833.46\",\r\n            \"bstp_nmix_lwpr\": \"832.36\",\r\n            \"cntg_vol\": \"5033\",\r\n            \"acml_tr_pbmn\": \"5581000\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"102400\",\r\n            \"bstp_nmix_prpr\": \"832.48\",\r\n            \"bstp_nmix_oprc\": \"832.92\",\r\n            \"bstp_nmix_hgpr\": \"832.92\",\r\n            \"bstp_nmix_lwpr\": \"832.47\",\r\n            \"cntg_vol\": \"5239\",\r\n            \"acml_tr_pbmn\": \"5518332\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"102200\",\r\n            \"bstp_nmix_prpr\": \"832.85\",\r\n            \"bstp_nmix_oprc\": \"832.77\",\r\n            \"bstp_nmix_hgpr\": \"832.87\",\r\n            \"bstp_nmix_lwpr\": \"832.69\",\r\n            \"cntg_vol\": \"6042\",\r\n            \"acml_tr_pbmn\": \"5455651\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"102000\",\r\n            \"bstp_nmix_prpr\": \"832.74\",\r\n            \"bstp_nmix_oprc\": \"832.55\",\r\n            \"bstp_nmix_hgpr\": \"833.25\",\r\n            \"bstp_nmix_lwpr\": \"832.55\",\r\n            \"cntg_vol\": \"6301\",\r\n            \"acml_tr_pbmn\": \"5372736\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"101800\",\r\n            \"bstp_nmix_prpr\": \"832.83\",\r\n            \"bstp_nmix_oprc\": \"832.51\",\r\n            \"bstp_nmix_hgpr\": \"832.83\",\r\n            \"bstp_nmix_lwpr\": \"832.22\",\r\n            \"cntg_vol\": \"5676\",\r\n            \"acml_tr_pbmn\": \"5284172\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"101600\",\r\n            \"bstp_nmix_prpr\": \"832.50\",\r\n            \"bstp_nmix_oprc\": \"832.27\",\r\n            \"bstp_nmix_hgpr\": \"832.62\",\r\n            \"bstp_nmix_lwpr\": \"832.09\",\r\n            \"cntg_vol\": \"4771\",\r\n            \"acml_tr_pbmn\": \"5219827\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"101400\",\r\n            \"bstp_nmix_prpr\": \"832.44\",\r\n            \"bstp_nmix_oprc\": \"832.03\",\r\n            \"bstp_nmix_hgpr\": \"832.52\",\r\n            \"bstp_nmix_lwpr\": \"832.03\",\r\n            \"cntg_vol\": \"6639\",\r\n            \"acml_tr_pbmn\": \"5167005\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"101200\",\r\n            \"bstp_nmix_prpr\": \"832.11\",\r\n            \"bstp_nmix_oprc\": \"831.98\",\r\n            \"bstp_nmix_hgpr\": \"832.24\",\r\n            \"bstp_nmix_lwpr\": \"831.75\",\r\n            \"cntg_vol\": \"6946\",\r\n            \"acml_tr_pbmn\": \"5093186\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"101000\",\r\n            \"bstp_nmix_prpr\": \"832.23\",\r\n            \"bstp_nmix_oprc\": \"831.36\",\r\n            \"bstp_nmix_hgpr\": \"832.23\",\r\n            \"bstp_nmix_lwpr\": \"831.35\",\r\n            \"cntg_vol\": \"6579\",\r\n            \"acml_tr_pbmn\": \"5011060\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"100800\",\r\n            \"bstp_nmix_prpr\": \"831.22\",\r\n            \"bstp_nmix_oprc\": \"831.05\",\r\n            \"bstp_nmix_hgpr\": \"831.22\",\r\n            \"bstp_nmix_lwpr\": \"830.55\",\r\n            \"cntg_vol\": \"6837\",\r\n            \"acml_tr_pbmn\": \"4928657\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"100600\",\r\n            \"bstp_nmix_prpr\": \"830.98\",\r\n            \"bstp_nmix_oprc\": \"831.46\",\r\n            \"bstp_nmix_hgpr\": \"831.54\",\r\n            \"bstp_nmix_lwpr\": \"830.98\",\r\n            \"cntg_vol\": \"6694\",\r\n            \"acml_tr_pbmn\": \"4854815\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"100400\",\r\n            \"bstp_nmix_prpr\": \"831.76\",\r\n            \"bstp_nmix_oprc\": \"830.79\",\r\n            \"bstp_nmix_hgpr\": \"831.76\",\r\n            \"bstp_nmix_lwpr\": \"830.79\",\r\n            \"cntg_vol\": \"6839\",\r\n            \"acml_tr_pbmn\": \"4781557\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"100200\",\r\n            \"bstp_nmix_prpr\": \"830.92\",\r\n            \"bstp_nmix_oprc\": \"831.17\",\r\n            \"bstp_nmix_hgpr\": \"831.21\",\r\n            \"bstp_nmix_lwpr\": \"830.71\",\r\n            \"cntg_vol\": \"9589\",\r\n            \"acml_tr_pbmn\": \"4724555\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"100000\",\r\n            \"bstp_nmix_prpr\": \"831.14\",\r\n            \"bstp_nmix_oprc\": \"831.32\",\r\n            \"bstp_nmix_hgpr\": \"831.52\",\r\n            \"bstp_nmix_lwpr\": \"830.90\",\r\n            \"cntg_vol\": \"8688\",\r\n            \"acml_tr_pbmn\": \"4652376\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"095800\",\r\n            \"bstp_nmix_prpr\": \"831.56\",\r\n            \"bstp_nmix_oprc\": \"831.32\",\r\n            \"bstp_nmix_hgpr\": \"831.76\",\r\n            \"bstp_nmix_lwpr\": \"831.32\",\r\n            \"cntg_vol\": \"6519\",\r\n            \"acml_tr_pbmn\": \"4568901\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"095600\",\r\n            \"bstp_nmix_prpr\": \"831.43\",\r\n            \"bstp_nmix_oprc\": \"830.68\",\r\n            \"bstp_nmix_hgpr\": \"831.43\",\r\n            \"bstp_nmix_lwpr\": \"830.52\",\r\n            \"cntg_vol\": \"7474\",\r\n            \"acml_tr_pbmn\": \"4497224\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"095400\",\r\n            \"bstp_nmix_prpr\": \"830.50\",\r\n            \"bstp_nmix_oprc\": \"831.46\",\r\n            \"bstp_nmix_hgpr\": \"831.46\",\r\n            \"bstp_nmix_lwpr\": \"830.50\",\r\n            \"cntg_vol\": \"9190\",\r\n            \"acml_tr_pbmn\": \"4423313\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"095200\",\r\n            \"bstp_nmix_prpr\": \"831.57\",\r\n            \"bstp_nmix_oprc\": \"831.45\",\r\n            \"bstp_nmix_hgpr\": \"831.59\",\r\n            \"bstp_nmix_lwpr\": \"831.38\",\r\n            \"cntg_vol\": \"7701\",\r\n            \"acml_tr_pbmn\": \"4324541\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"095000\",\r\n            \"bstp_nmix_prpr\": \"831.60\",\r\n            \"bstp_nmix_oprc\": \"831.45\",\r\n            \"bstp_nmix_hgpr\": \"831.82\",\r\n            \"bstp_nmix_lwpr\": \"831.39\",\r\n            \"cntg_vol\": \"7529\",\r\n            \"acml_tr_pbmn\": \"4247753\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"094800\",\r\n            \"bstp_nmix_prpr\": \"831.57\",\r\n            \"bstp_nmix_oprc\": \"831.71\",\r\n            \"bstp_nmix_hgpr\": \"831.76\",\r\n            \"bstp_nmix_lwpr\": \"831.47\",\r\n            \"cntg_vol\": \"7754\",\r\n            \"acml_tr_pbmn\": \"4165554\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"094600\",\r\n            \"bstp_nmix_prpr\": \"831.77\",\r\n            \"bstp_nmix_oprc\": \"830.50\",\r\n            \"bstp_nmix_hgpr\": \"831.91\",\r\n            \"bstp_nmix_lwpr\": \"830.44\",\r\n            \"cntg_vol\": \"9213\",\r\n            \"acml_tr_pbmn\": \"4076635\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"094400\",\r\n            \"bstp_nmix_prpr\": \"830.26\",\r\n            \"bstp_nmix_oprc\": \"830.57\",\r\n            \"bstp_nmix_hgpr\": \"830.67\",\r\n            \"bstp_nmix_lwpr\": \"830.09\",\r\n            \"cntg_vol\": \"7201\",\r\n            \"acml_tr_pbmn\": \"3971601\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"094200\",\r\n            \"bstp_nmix_prpr\": \"830.53\",\r\n            \"bstp_nmix_oprc\": \"831.03\",\r\n            \"bstp_nmix_hgpr\": \"831.21\",\r\n            \"bstp_nmix_lwpr\": \"830.48\",\r\n            \"cntg_vol\": \"7992\",\r\n            \"acml_tr_pbmn\": \"3886154\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"094000\",\r\n            \"bstp_nmix_prpr\": \"830.98\",\r\n            \"bstp_nmix_oprc\": \"831.26\",\r\n            \"bstp_nmix_hgpr\": \"831.26\",\r\n            \"bstp_nmix_lwpr\": \"830.32\",\r\n            \"cntg_vol\": \"9912\",\r\n            \"acml_tr_pbmn\": \"3790733\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"093800\",\r\n            \"bstp_nmix_prpr\": \"831.32\",\r\n            \"bstp_nmix_oprc\": \"832.07\",\r\n            \"bstp_nmix_hgpr\": \"832.07\",\r\n            \"bstp_nmix_lwpr\": \"831.27\",\r\n            \"cntg_vol\": \"9575\",\r\n            \"acml_tr_pbmn\": \"3663618\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"093600\",\r\n            \"bstp_nmix_prpr\": \"832.24\",\r\n            \"bstp_nmix_oprc\": \"831.34\",\r\n            \"bstp_nmix_hgpr\": \"832.30\",\r\n            \"bstp_nmix_lwpr\": \"831.34\",\r\n            \"cntg_vol\": \"10164\",\r\n            \"acml_tr_pbmn\": \"3561037\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"093400\",\r\n            \"bstp_nmix_prpr\": \"831.44\",\r\n            \"bstp_nmix_oprc\": \"832.64\",\r\n            \"bstp_nmix_hgpr\": \"832.64\",\r\n            \"bstp_nmix_lwpr\": \"831.44\",\r\n            \"cntg_vol\": \"11415\",\r\n            \"acml_tr_pbmn\": \"3447235\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"093200\",\r\n            \"bstp_nmix_prpr\": \"832.53\",\r\n            \"bstp_nmix_oprc\": \"833.45\",\r\n            \"bstp_nmix_hgpr\": \"833.66\",\r\n            \"bstp_nmix_lwpr\": \"832.53\",\r\n            \"cntg_vol\": \"11522\",\r\n            \"acml_tr_pbmn\": \"3316543\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"093000\",\r\n            \"bstp_nmix_prpr\": \"833.58\",\r\n            \"bstp_nmix_oprc\": \"833.59\",\r\n            \"bstp_nmix_hgpr\": \"834.05\",\r\n            \"bstp_nmix_lwpr\": \"833.36\",\r\n            \"cntg_vol\": \"11105\",\r\n            \"acml_tr_pbmn\": \"3203362\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"092800\",\r\n            \"bstp_nmix_prpr\": \"833.97\",\r\n            \"bstp_nmix_oprc\": \"832.91\",\r\n            \"bstp_nmix_hgpr\": \"833.97\",\r\n            \"bstp_nmix_lwpr\": \"832.36\",\r\n            \"cntg_vol\": \"15502\",\r\n            \"acml_tr_pbmn\": \"3071005\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"092600\",\r\n            \"bstp_nmix_prpr\": \"833.08\",\r\n            \"bstp_nmix_oprc\": \"835.04\",\r\n            \"bstp_nmix_hgpr\": \"835.04\",\r\n            \"bstp_nmix_lwpr\": \"833.00\",\r\n            \"cntg_vol\": \"15656\",\r\n            \"acml_tr_pbmn\": \"2928429\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"092400\",\r\n            \"bstp_nmix_prpr\": \"834.63\",\r\n            \"bstp_nmix_oprc\": \"833.51\",\r\n            \"bstp_nmix_hgpr\": \"834.98\",\r\n            \"bstp_nmix_lwpr\": \"833.51\",\r\n            \"cntg_vol\": \"16851\",\r\n            \"acml_tr_pbmn\": \"2747155\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"092200\",\r\n            \"bstp_nmix_prpr\": \"833.45\",\r\n            \"bstp_nmix_oprc\": \"835.50\",\r\n            \"bstp_nmix_hgpr\": \"835.50\",\r\n            \"bstp_nmix_lwpr\": \"833.45\",\r\n            \"cntg_vol\": \"16696\",\r\n            \"acml_tr_pbmn\": \"2583365\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"092000\",\r\n            \"bstp_nmix_prpr\": \"835.91\",\r\n            \"bstp_nmix_oprc\": \"835.96\",\r\n            \"bstp_nmix_hgpr\": \"836.14\",\r\n            \"bstp_nmix_lwpr\": \"835.76\",\r\n            \"cntg_vol\": \"16008\",\r\n            \"acml_tr_pbmn\": \"2424467\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"091800\",\r\n            \"bstp_nmix_prpr\": \"836.05\",\r\n            \"bstp_nmix_oprc\": \"838.39\",\r\n            \"bstp_nmix_hgpr\": \"838.39\",\r\n            \"bstp_nmix_lwpr\": \"835.98\",\r\n            \"cntg_vol\": \"16778\",\r\n            \"acml_tr_pbmn\": \"2260216\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"091600\",\r\n            \"bstp_nmix_prpr\": \"838.24\",\r\n            \"bstp_nmix_oprc\": \"837.19\",\r\n            \"bstp_nmix_hgpr\": \"838.70\",\r\n            \"bstp_nmix_lwpr\": \"837.19\",\r\n            \"cntg_vol\": \"17379\",\r\n            \"acml_tr_pbmn\": \"2098721\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"091400\",\r\n            \"bstp_nmix_prpr\": \"836.82\",\r\n            \"bstp_nmix_oprc\": \"836.88\",\r\n            \"bstp_nmix_hgpr\": \"837.94\",\r\n            \"bstp_nmix_lwpr\": \"836.48\",\r\n            \"cntg_vol\": \"19020\",\r\n            \"acml_tr_pbmn\": \"1934637\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"091200\",\r\n            \"bstp_nmix_prpr\": \"836.73\",\r\n            \"bstp_nmix_oprc\": \"837.87\",\r\n            \"bstp_nmix_hgpr\": \"838.34\",\r\n            \"bstp_nmix_lwpr\": \"836.73\",\r\n            \"cntg_vol\": \"27881\",\r\n            \"acml_tr_pbmn\": \"1781817\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"091000\",\r\n            \"bstp_nmix_prpr\": \"837.70\",\r\n            \"bstp_nmix_oprc\": \"837.68\",\r\n            \"bstp_nmix_hgpr\": \"837.72\",\r\n            \"bstp_nmix_lwpr\": \"837.38\",\r\n            \"cntg_vol\": \"16983\",\r\n            \"acml_tr_pbmn\": \"1606668\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"090800\",\r\n            \"bstp_nmix_prpr\": \"837.87\",\r\n            \"bstp_nmix_oprc\": \"840.59\",\r\n            \"bstp_nmix_hgpr\": \"840.59\",\r\n            \"bstp_nmix_lwpr\": \"837.87\",\r\n            \"cntg_vol\": \"21991\",\r\n            \"acml_tr_pbmn\": \"1441148\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"090600\",\r\n            \"bstp_nmix_prpr\": \"840.98\",\r\n            \"bstp_nmix_oprc\": \"839.46\",\r\n            \"bstp_nmix_hgpr\": \"841.17\",\r\n            \"bstp_nmix_lwpr\": \"839.46\",\r\n            \"cntg_vol\": \"20366\",\r\n            \"acml_tr_pbmn\": \"1234692\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"090400\",\r\n            \"bstp_nmix_prpr\": \"839.42\",\r\n            \"bstp_nmix_oprc\": \"836.70\",\r\n            \"bstp_nmix_hgpr\": \"839.42\",\r\n            \"bstp_nmix_lwpr\": \"836.70\",\r\n            \"cntg_vol\": \"27395\",\r\n            \"acml_tr_pbmn\": \"1007681\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"090200\",\r\n            \"bstp_nmix_prpr\": \"836.69\",\r\n            \"bstp_nmix_oprc\": \"838.54\",\r\n            \"bstp_nmix_hgpr\": \"838.54\",\r\n            \"bstp_nmix_lwpr\": \"835.19\",\r\n            \"cntg_vol\": \"31941\",\r\n            \"acml_tr_pbmn\": \"754939\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240129\",\r\n            \"stck_cntg_hour\": \"090000\",\r\n            \"bstp_nmix_prpr\": \"838.62\",\r\n            \"bstp_nmix_oprc\": \"841.21\",\r\n            \"bstp_nmix_hgpr\": \"841.21\",\r\n            \"bstp_nmix_lwpr\": \"838.42\",\r\n            \"cntg_vol\": \"33919\",\r\n            \"acml_tr_pbmn\": \"422108\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"999999\",\r\n            \"bstp_nmix_prpr\": \"837.24\",\r\n            \"bstp_nmix_oprc\": \"837.24\",\r\n            \"bstp_nmix_hgpr\": \"837.24\",\r\n            \"bstp_nmix_lwpr\": \"837.24\",\r\n            \"cntg_vol\": \"21566\",\r\n            \"acml_tr_pbmn\": \"11242548\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"888888\",\r\n            \"bstp_nmix_prpr\": \"837.24\",\r\n            \"bstp_nmix_oprc\": \"837.24\",\r\n            \"bstp_nmix_hgpr\": \"837.24\",\r\n            \"bstp_nmix_lwpr\": \"837.24\",\r\n            \"cntg_vol\": \"42\",\r\n            \"acml_tr_pbmn\": \"11058431\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"153200\",\r\n            \"bstp_nmix_prpr\": \"837.20\",\r\n            \"bstp_nmix_oprc\": \"837.19\",\r\n            \"bstp_nmix_hgpr\": \"837.20\",\r\n            \"bstp_nmix_lwpr\": \"837.19\",\r\n            \"cntg_vol\": \"126\",\r\n            \"acml_tr_pbmn\": \"11057509\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"153000\",\r\n            \"bstp_nmix_prpr\": \"837.19\",\r\n            \"bstp_nmix_oprc\": \"836.97\",\r\n            \"bstp_nmix_hgpr\": \"837.25\",\r\n            \"bstp_nmix_lwpr\": \"836.97\",\r\n            \"cntg_vol\": \"17043\",\r\n            \"acml_tr_pbmn\": \"11056788\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"152800\",\r\n            \"bstp_nmix_prpr\": \"836.97\",\r\n            \"bstp_nmix_oprc\": \"836.97\",\r\n            \"bstp_nmix_hgpr\": \"836.97\",\r\n            \"bstp_nmix_lwpr\": \"836.97\",\r\n            \"cntg_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"10792443\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"152600\",\r\n            \"bstp_nmix_prpr\": \"836.97\",\r\n            \"bstp_nmix_oprc\": \"836.97\",\r\n            \"bstp_nmix_hgpr\": \"836.97\",\r\n            \"bstp_nmix_lwpr\": \"836.97\",\r\n            \"cntg_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"10792443\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"152400\",\r\n            \"bstp_nmix_prpr\": \"836.97\",\r\n            \"bstp_nmix_oprc\": \"836.97\",\r\n            \"bstp_nmix_hgpr\": \"836.97\",\r\n            \"bstp_nmix_lwpr\": \"836.97\",\r\n            \"cntg_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"10792443\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"152200\",\r\n            \"bstp_nmix_prpr\": \"836.97\",\r\n            \"bstp_nmix_oprc\": \"836.97\",\r\n            \"bstp_nmix_hgpr\": \"836.97\",\r\n            \"bstp_nmix_lwpr\": \"836.97\",\r\n            \"cntg_vol\": \"0\",\r\n            \"acml_tr_pbmn\": \"10792443\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"152000\",\r\n            \"bstp_nmix_prpr\": \"836.97\",\r\n            \"bstp_nmix_oprc\": \"836.97\",\r\n            \"bstp_nmix_hgpr\": \"836.97\",\r\n            \"bstp_nmix_lwpr\": \"836.97\",\r\n            \"cntg_vol\": \"1000\",\r\n            \"acml_tr_pbmn\": \"10792443\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"151800\",\r\n            \"bstp_nmix_prpr\": \"837.01\",\r\n            \"bstp_nmix_oprc\": \"836.79\",\r\n            \"bstp_nmix_hgpr\": \"837.05\",\r\n            \"bstp_nmix_lwpr\": \"836.49\",\r\n            \"cntg_vol\": \"8328\",\r\n            \"acml_tr_pbmn\": \"10784186\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"151600\",\r\n            \"bstp_nmix_prpr\": \"836.90\",\r\n            \"bstp_nmix_oprc\": \"836.72\",\r\n            \"bstp_nmix_hgpr\": \"836.93\",\r\n            \"bstp_nmix_lwpr\": \"836.64\",\r\n            \"cntg_vol\": \"6227\",\r\n            \"acml_tr_pbmn\": \"10699895\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"151400\",\r\n            \"bstp_nmix_prpr\": \"836.86\",\r\n            \"bstp_nmix_oprc\": \"836.63\",\r\n            \"bstp_nmix_hgpr\": \"836.96\",\r\n            \"bstp_nmix_lwpr\": \"836.57\",\r\n            \"cntg_vol\": \"5728\",\r\n            \"acml_tr_pbmn\": \"10633883\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"151200\",\r\n            \"bstp_nmix_prpr\": \"836.70\",\r\n            \"bstp_nmix_oprc\": \"836.71\",\r\n            \"bstp_nmix_hgpr\": \"836.84\",\r\n            \"bstp_nmix_lwpr\": \"836.44\",\r\n            \"cntg_vol\": \"6163\",\r\n            \"acml_tr_pbmn\": \"10578452\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"151000\",\r\n            \"bstp_nmix_prpr\": \"836.83\",\r\n            \"bstp_nmix_oprc\": \"836.97\",\r\n            \"bstp_nmix_hgpr\": \"836.98\",\r\n            \"bstp_nmix_lwpr\": \"836.69\",\r\n            \"cntg_vol\": \"4617\",\r\n            \"acml_tr_pbmn\": \"10523064\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"150800\",\r\n            \"bstp_nmix_prpr\": \"836.92\",\r\n            \"bstp_nmix_oprc\": \"836.97\",\r\n            \"bstp_nmix_hgpr\": \"837.02\",\r\n            \"bstp_nmix_lwpr\": \"836.70\",\r\n            \"cntg_vol\": \"4728\",\r\n            \"acml_tr_pbmn\": \"10472083\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"150600\",\r\n            \"bstp_nmix_prpr\": \"836.97\",\r\n            \"bstp_nmix_oprc\": \"836.70\",\r\n            \"bstp_nmix_hgpr\": \"837.06\",\r\n            \"bstp_nmix_lwpr\": \"836.70\",\r\n            \"cntg_vol\": \"4719\",\r\n            \"acml_tr_pbmn\": \"10420811\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"150400\",\r\n            \"bstp_nmix_prpr\": \"836.66\",\r\n            \"bstp_nmix_oprc\": \"836.19\",\r\n            \"bstp_nmix_hgpr\": \"836.92\",\r\n            \"bstp_nmix_lwpr\": \"836.19\",\r\n            \"cntg_vol\": \"4377\",\r\n            \"acml_tr_pbmn\": \"10372366\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"150200\",\r\n            \"bstp_nmix_prpr\": \"836.29\",\r\n            \"bstp_nmix_oprc\": \"836.18\",\r\n            \"bstp_nmix_hgpr\": \"836.38\",\r\n            \"bstp_nmix_lwpr\": \"836.18\",\r\n            \"cntg_vol\": \"4261\",\r\n            \"acml_tr_pbmn\": \"10320188\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"150000\",\r\n            \"bstp_nmix_prpr\": \"836.28\",\r\n            \"bstp_nmix_oprc\": \"836.24\",\r\n            \"bstp_nmix_hgpr\": \"836.44\",\r\n            \"bstp_nmix_lwpr\": \"836.20\",\r\n            \"cntg_vol\": \"4420\",\r\n            \"acml_tr_pbmn\": \"10273218\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"145800\",\r\n            \"bstp_nmix_prpr\": \"836.43\",\r\n            \"bstp_nmix_oprc\": \"837.13\",\r\n            \"bstp_nmix_hgpr\": \"837.18\",\r\n            \"bstp_nmix_lwpr\": \"836.43\",\r\n            \"cntg_vol\": \"4215\",\r\n            \"acml_tr_pbmn\": \"10218137\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"145600\",\r\n            \"bstp_nmix_prpr\": \"837.23\",\r\n            \"bstp_nmix_oprc\": \"837.95\",\r\n            \"bstp_nmix_hgpr\": \"838.01\",\r\n            \"bstp_nmix_lwpr\": \"837.23\",\r\n            \"cntg_vol\": \"4978\",\r\n            \"acml_tr_pbmn\": \"10166106\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"145400\",\r\n            \"bstp_nmix_prpr\": \"837.89\",\r\n            \"bstp_nmix_oprc\": \"837.66\",\r\n            \"bstp_nmix_hgpr\": \"837.96\",\r\n            \"bstp_nmix_lwpr\": \"837.66\",\r\n            \"cntg_vol\": \"5102\",\r\n            \"acml_tr_pbmn\": \"10110923\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"145200\",\r\n            \"bstp_nmix_prpr\": \"837.66\",\r\n            \"bstp_nmix_oprc\": \"837.41\",\r\n            \"bstp_nmix_hgpr\": \"837.66\",\r\n            \"bstp_nmix_lwpr\": \"837.22\",\r\n            \"cntg_vol\": \"3840\",\r\n            \"acml_tr_pbmn\": \"10055054\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"145000\",\r\n            \"bstp_nmix_prpr\": \"837.58\",\r\n            \"bstp_nmix_oprc\": \"837.24\",\r\n            \"bstp_nmix_hgpr\": \"837.71\",\r\n            \"bstp_nmix_lwpr\": \"837.24\",\r\n            \"cntg_vol\": \"4172\",\r\n            \"acml_tr_pbmn\": \"10008690\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"144800\",\r\n            \"bstp_nmix_prpr\": \"837.37\",\r\n            \"bstp_nmix_oprc\": \"837.80\",\r\n            \"bstp_nmix_hgpr\": \"837.80\",\r\n            \"bstp_nmix_lwpr\": \"837.23\",\r\n            \"cntg_vol\": \"4593\",\r\n            \"acml_tr_pbmn\": \"9966720\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"144600\",\r\n            \"bstp_nmix_prpr\": \"837.66\",\r\n            \"bstp_nmix_oprc\": \"837.72\",\r\n            \"bstp_nmix_hgpr\": \"837.89\",\r\n            \"bstp_nmix_lwpr\": \"837.61\",\r\n            \"cntg_vol\": \"5105\",\r\n            \"acml_tr_pbmn\": \"9916624\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"144400\",\r\n            \"bstp_nmix_prpr\": \"837.72\",\r\n            \"bstp_nmix_oprc\": \"837.55\",\r\n            \"bstp_nmix_hgpr\": \"837.72\",\r\n            \"bstp_nmix_lwpr\": \"837.42\",\r\n            \"cntg_vol\": \"4214\",\r\n            \"acml_tr_pbmn\": \"9861241\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"144200\",\r\n            \"bstp_nmix_prpr\": \"837.50\",\r\n            \"bstp_nmix_oprc\": \"837.55\",\r\n            \"bstp_nmix_hgpr\": \"837.68\",\r\n            \"bstp_nmix_lwpr\": \"837.35\",\r\n            \"cntg_vol\": \"3357\",\r\n            \"acml_tr_pbmn\": \"9819268\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"144000\",\r\n            \"bstp_nmix_prpr\": \"837.56\",\r\n            \"bstp_nmix_oprc\": \"837.93\",\r\n            \"bstp_nmix_hgpr\": \"838.04\",\r\n            \"bstp_nmix_lwpr\": \"837.56\",\r\n            \"cntg_vol\": \"3515\",\r\n            \"acml_tr_pbmn\": \"9783824\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"143800\",\r\n            \"bstp_nmix_prpr\": \"837.96\",\r\n            \"bstp_nmix_oprc\": \"837.49\",\r\n            \"bstp_nmix_hgpr\": \"837.96\",\r\n            \"bstp_nmix_lwpr\": \"837.49\",\r\n            \"cntg_vol\": \"4026\",\r\n            \"acml_tr_pbmn\": \"9745091\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"143600\",\r\n            \"bstp_nmix_prpr\": \"837.50\",\r\n            \"bstp_nmix_oprc\": \"837.47\",\r\n            \"bstp_nmix_hgpr\": \"837.59\",\r\n            \"bstp_nmix_lwpr\": \"837.25\",\r\n            \"cntg_vol\": \"4327\",\r\n            \"acml_tr_pbmn\": \"9702397\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"143400\",\r\n            \"bstp_nmix_prpr\": \"837.44\",\r\n            \"bstp_nmix_oprc\": \"837.19\",\r\n            \"bstp_nmix_hgpr\": \"837.44\",\r\n            \"bstp_nmix_lwpr\": \"836.97\",\r\n            \"cntg_vol\": \"3352\",\r\n            \"acml_tr_pbmn\": \"9664056\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"143200\",\r\n            \"bstp_nmix_prpr\": \"837.19\",\r\n            \"bstp_nmix_oprc\": \"837.00\",\r\n            \"bstp_nmix_hgpr\": \"837.19\",\r\n            \"bstp_nmix_lwpr\": \"836.85\",\r\n            \"cntg_vol\": \"3969\",\r\n            \"acml_tr_pbmn\": \"9626091\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"143000\",\r\n            \"bstp_nmix_prpr\": \"836.85\",\r\n            \"bstp_nmix_oprc\": \"836.27\",\r\n            \"bstp_nmix_hgpr\": \"836.85\",\r\n            \"bstp_nmix_lwpr\": \"836.10\",\r\n            \"cntg_vol\": \"4263\",\r\n            \"acml_tr_pbmn\": \"9584077\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"142800\",\r\n            \"bstp_nmix_prpr\": \"836.18\",\r\n            \"bstp_nmix_oprc\": \"835.52\",\r\n            \"bstp_nmix_hgpr\": \"836.24\",\r\n            \"bstp_nmix_lwpr\": \"835.52\",\r\n            \"cntg_vol\": \"4294\",\r\n            \"acml_tr_pbmn\": \"9542286\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"142600\",\r\n            \"bstp_nmix_prpr\": \"835.62\",\r\n            \"bstp_nmix_oprc\": \"835.41\",\r\n            \"bstp_nmix_hgpr\": \"835.66\",\r\n            \"bstp_nmix_lwpr\": \"835.41\",\r\n            \"cntg_vol\": \"3538\",\r\n            \"acml_tr_pbmn\": \"9501271\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"142400\",\r\n            \"bstp_nmix_prpr\": \"835.44\",\r\n            \"bstp_nmix_oprc\": \"835.54\",\r\n            \"bstp_nmix_hgpr\": \"835.68\",\r\n            \"bstp_nmix_lwpr\": \"835.37\",\r\n            \"cntg_vol\": \"3291\",\r\n            \"acml_tr_pbmn\": \"9469724\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"142200\",\r\n            \"bstp_nmix_prpr\": \"835.48\",\r\n            \"bstp_nmix_oprc\": \"835.60\",\r\n            \"bstp_nmix_hgpr\": \"835.60\",\r\n            \"bstp_nmix_lwpr\": \"835.28\",\r\n            \"cntg_vol\": \"3640\",\r\n            \"acml_tr_pbmn\": \"9433016\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"142000\",\r\n            \"bstp_nmix_prpr\": \"835.70\",\r\n            \"bstp_nmix_oprc\": \"835.57\",\r\n            \"bstp_nmix_hgpr\": \"835.72\",\r\n            \"bstp_nmix_lwpr\": \"835.51\",\r\n            \"cntg_vol\": \"4522\",\r\n            \"acml_tr_pbmn\": \"9401939\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"141800\",\r\n            \"bstp_nmix_prpr\": \"835.54\",\r\n            \"bstp_nmix_oprc\": \"835.99\",\r\n            \"bstp_nmix_hgpr\": \"836.00\",\r\n            \"bstp_nmix_lwpr\": \"835.34\",\r\n            \"cntg_vol\": \"3266\",\r\n            \"acml_tr_pbmn\": \"9365741\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"141600\",\r\n            \"bstp_nmix_prpr\": \"835.98\",\r\n            \"bstp_nmix_oprc\": \"836.29\",\r\n            \"bstp_nmix_hgpr\": \"836.37\",\r\n            \"bstp_nmix_lwpr\": \"835.98\",\r\n            \"cntg_vol\": \"4813\",\r\n            \"acml_tr_pbmn\": \"9334612\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"141400\",\r\n            \"bstp_nmix_prpr\": \"836.34\",\r\n            \"bstp_nmix_oprc\": \"835.77\",\r\n            \"bstp_nmix_hgpr\": \"836.34\",\r\n            \"bstp_nmix_lwpr\": \"835.77\",\r\n            \"cntg_vol\": \"4714\",\r\n            \"acml_tr_pbmn\": \"9284831\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"141200\",\r\n            \"bstp_nmix_prpr\": \"835.79\",\r\n            \"bstp_nmix_oprc\": \"835.74\",\r\n            \"bstp_nmix_hgpr\": \"835.98\",\r\n            \"bstp_nmix_lwpr\": \"835.58\",\r\n            \"cntg_vol\": \"4125\",\r\n            \"acml_tr_pbmn\": \"9238577\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"141000\",\r\n            \"bstp_nmix_prpr\": \"835.74\",\r\n            \"bstp_nmix_oprc\": \"835.45\",\r\n            \"bstp_nmix_hgpr\": \"835.74\",\r\n            \"bstp_nmix_lwpr\": \"835.45\",\r\n            \"cntg_vol\": \"4232\",\r\n            \"acml_tr_pbmn\": \"9193950\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"140800\",\r\n            \"bstp_nmix_prpr\": \"835.10\",\r\n            \"bstp_nmix_oprc\": \"835.07\",\r\n            \"bstp_nmix_hgpr\": \"835.32\",\r\n            \"bstp_nmix_lwpr\": \"835.00\",\r\n            \"cntg_vol\": \"3639\",\r\n            \"acml_tr_pbmn\": \"9151925\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240126\",\r\n            \"stck_cntg_hour\": \"140600\",\r\n            \"bstp_nmix_prpr\": \"835.10\",\r\n            \"bstp_nmix_oprc\": \"835.09\",\r\n            \"bstp_nmix_hgpr\": \"835.23\",\r\n            \"bstp_nmix_lwpr\": \"834.96\",\r\n            \"cntg_vol\": \"4277\",\r\n     ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

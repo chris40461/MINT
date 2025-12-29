@@ -1,0 +1,1016 @@
+{
+  "sheet_name": "ETF_ETN 현재가",
+  "row_count": 100,
+  "columns": [
+    "ETF_ETN 현재가",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "ETF_ETN 현재가": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "메뉴 위치",
+      "Column_1": "[국내주식] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "API 명",
+      "Column_1": "ETF_ETN 현재가",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "API ID",
+      "Column_1": "v1_국내주식-068",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "실전 TR_ID",
+      "Column_1": "FHPST02400000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "URL 명",
+      "Column_1": "/uapi/etfetn/v1/quotations/inquire-price",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "개요",
+      "Column_1": "ETF/ETN 현재가 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0240] ETF/ETN 현재가 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST02400000",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "Request Query Parameter",
+      "Column_1": "fid_input_iscd",
+      "Column_2": "FID 입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "FID 조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "prdy_vol",
+      "Column_2": "전일 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_mxpr",
+      "Column_2": "주식 상한가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_llam",
+      "Column_2": "주식 하한가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_prdy_clpr",
+      "Column_2": "주식 전일 종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_oprc",
+      "Column_2": "주식 시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "prdy_clpr_vrss_oprc_rate",
+      "Column_2": "전일 종가 대비 시가2 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_hgpr",
+      "Column_2": "주식 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "prdy_clpr_vrss_hgpr_rate",
+      "Column_2": "전일 종가 대비 최고가 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_lwpr",
+      "Column_2": "주식 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "prdy_clpr_vrss_lwpr_rate",
+      "Column_2": "전일 종가 대비 최저가 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "prdy_last_nav",
+      "Column_2": "전일 최종 NAV",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "nav",
+      "Column_2": "NAV",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "nav_prdy_vrss",
+      "Column_2": "NAV 전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "nav_prdy_vrss_sign",
+      "Column_2": "NAV 전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "nav_prdy_ctrt",
+      "Column_2": "NAV 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "trc_errt",
+      "Column_2": "추적 오차율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_sdpr",
+      "Column_2": "주식 기준가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_sspr",
+      "Column_2": "주식 대용가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "nmix_ctrt",
+      "Column_2": "지수 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "135",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_crcl_stcn",
+      "Column_2": "ETF 유통 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_ntas_ttam",
+      "Column_2": "ETF 순자산 총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "22",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_frcr_ntas_ttam",
+      "Column_2": "ETF 외화 순자산 총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "22",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "frgn_limt_rate",
+      "Column_2": "외국인 한도 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "frgn_oder_able_qty",
+      "Column_2": "외국인 주문 가능 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_cu_unit_scrt_cnt",
+      "Column_2": "ETF CU 단위 증권 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_cnfg_issu_cnt",
+      "Column_2": "ETF 구성 종목 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_dvdn_cycl",
+      "Column_2": "ETF 배당 주기",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "crcd",
+      "Column_2": "통화 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_crcl_ntas_ttam",
+      "Column_2": "ETF 유통 순자산 총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "22",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_frcr_crcl_ntas_ttam",
+      "Column_2": "ETF 외화 유통 순자산 총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "22",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_frcr_last_ntas_wrth_val",
+      "Column_2": "ETF 외화 최종 순자산 가치 값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "lp_oder_able_cls_code",
+      "Column_2": "LP 주문 가능 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_dryy_hgpr",
+      "Column_2": "주식 연중 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "dryy_hgpr_vrss_prpr_rate",
+      "Column_2": "연중 최고가 대비 현재가 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "dryy_hgpr_date",
+      "Column_2": "연중 최고가 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_dryy_lwpr",
+      "Column_2": "주식 연중 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "dryy_lwpr_vrss_prpr_rate",
+      "Column_2": "연중 최저가 대비 현재가 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "dryy_lwpr_date",
+      "Column_2": "연중 최저가 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "bstp_kor_isnm",
+      "Column_2": "업종 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ※ 거래소 정보로 특정 종목은 업종구분이 없어 데이터 미회신",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "vi_cls_code",
+      "Column_2": "VI적용구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "lstn_stcn",
+      "Column_2": "상장 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "frgn_hldn_qty",
+      "Column_2": "외국인 보유 수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "frgn_hldn_qty_rate",
+      "Column_2": "외국인 보유 수량 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_trc_ert_mltp",
+      "Column_2": "ETF 추적 수익률 배수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "126",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "dprt",
+      "Column_2": "괴리율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "mbcr_name",
+      "Column_2": "회원사 명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "50",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "stck_lstn_date",
+      "Column_2": "주식 상장 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "mtrt_date",
+      "Column_2": "만기 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "shrg_type_code",
+      "Column_2": "분배금형태코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "lp_hldn_rate",
+      "Column_2": "LP 보유 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_trgt_nmix_bstp_code",
+      "Column_2": "ETF대상지수업종코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_div_name",
+      "Column_2": "ETF 분류 명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "etf_rprs_bstp_kor_isnm",
+      "Column_2": "ETF 대표 업종 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": null,
+      "Column_1": "lp_hldn_vol",
+      "Column_2": "ETN LP 보유량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_input_iscd\":\"069500\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ETF_ETN 현재가": "Response Example",
+      "Column_1": "{\r\n    \"output\": {\r\n        \"stck_prpr\": \"36090\",\r\n        \"prdy_vrss_sign\": \"2\",\r\n        \"prdy_vrss\": \"110\",\r\n        \"prdy_ctrt\": \"0.31\",\r\n        \"acml_vol\": \"3719307\",\r\n        \"prdy_vol\": \"6463600\",\r\n        \"stck_mxpr\": \"46770\",\r\n        \"stck_llam\": \"25190\",\r\n        \"stck_prdy_clpr\": \"35980\",\r\n        \"stck_oprc\": \"36300\",\r\n        \"prdy_clpr_vrss_oprc_rate\": \"0.89\",\r\n        \"stck_hgpr\": \"36510\",\r\n        \"prdy_clpr_vrss_hgpr_rate\": \"1.47\",\r\n        \"stck_lwpr\": \"36040\",\r\n        \"prdy_clpr_vrss_lwpr_rate\": \"0.17\",\r\n        \"prdy_last_nav\": \"36036.22\",\r\n        \"nav\": \"36127.30\",\r\n        \"nav_prdy_vrss\": \"91.08\",\r\n        \"nav_prdy_vrss_sign\": \"2\",\r\n        \"nav_prdy_ctrt\": \"0.25\",\r\n        \"trc_errt\": \"0.53\",\r\n        \"stck_sdpr\": \"35980\",\r\n        \"stck_sspr\": \"28780\",\r\n        \"etf_crcl_stcn\": \"191550000\",\r\n        \"etf_ntas_ttam\": \"69027\",\r\n        \"etf_frcr_ntas_ttam\": \"0\",\r\n        \"frgn_limt_rate\": \"100.0000\",\r\n        \"frgn_oder_able_qty\": \"150950685\",\r\n        \"etf_cu_unit_scrt_cnt\": \"50000\",\r\n        \"etf_cnfg_issu_cnt\": \"201\",\r\n        \"etf_dvdn_cycl\": \"2\",\r\n        \"crcd\": \"KRW\",\r\n        \"etf_crcl_ntas_ttam\": \"0\",\r\n        \"etf_frcr_crcl_ntas_ttam\": \"0\",\r\n        \"etf_frcr_last_ntas_wrth_val\": \"0\",\r\n        \"lp_oder_able_cls_code\": \"N\",\r\n        \"stck_dryy_hgpr\": \"36510\",\r\n        \"dryy_hgpr_vrss_prpr_rate\": \"-1.15\",\r\n        \"dryy_hgpr_date\": \"20240223\",\r\n        \"stck_dryy_lwpr\": \"32748\",\r\n        \"dryy_lwpr_vrss_prpr_rate\": \"10.21\",\r\n        \"dryy_lwpr_date\": \"20240118\",\r\n        \"bstp_kor_isnm\": \"ETF(실물복제/수익증권)\",\r\n        \"vi_cls_code\": \"N\",\r\n        \"lstn_stcn\": \"191550000\",\r\n        \"frgn_hldn_qty\": \"40599315\",\r\n        \"frgn_hldn_qty_rate\": \"21.20\",\r\n        \"etf_trc_ert_mltp\": \"1.00\",\r\n        \"dprt\": \"-0.10\",\r\n        \"mbcr_name\": \"삼성자산운용(ETF)\",\r\n        \"stck_lstn_date\": \"20021014\",\r\n        \"mtrt_date\": \"0\",\r\n        \"shrg_type_code\": \"  \",\r\n        \"lp_hldn_rate\": \"0.00\",\r\n        \"etf_trgt_nmix_bstp_code\": \"2001\",\r\n        \"etf_div_name\": \"수익증권형\",\r\n        \"etf_rprs_bstp_kor_isnm\": \"KOSPI200\",\r\n        \"lp_hldn_vol\": \"0\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

@@ -1,0 +1,1236 @@
+{
+  "sheet_name": "장내채권 기본조회",
+  "row_count": 122,
+  "columns": [
+    "장내채권 기본조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "장내채권 기본조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "메뉴 위치",
+      "Column_1": "[장내채권] 기본시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "API 명",
+      "Column_1": "장내채권 기본조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "API ID",
+      "Column_1": "국내주식-129",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "실전 TR_ID",
+      "Column_1": "CTPF1114R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "URL 명",
+      "Column_1": "/uapi/domestic-bond/v1/quotations/search-bond-info",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "개요",
+      "Column_1": "장내채권 기본조회 API입니다. \r\n장내채권의 상품정보를 확인 가능합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTPF1114R",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "Request Query Parameter",
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "상품번호",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "PRDT_TYPE_CD",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "Unique key(302)",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_bond_item_name",
+      "Column_2": "증권예탁결제원채권종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_bond_item_eng_name",
+      "Column_2": "증권예탁결제원채권종목영문명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_bond_lstg_type_cd",
+      "Column_2": "증권예탁결제원채권상장유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_ofrg_dvsn_cd",
+      "Column_2": "증권예탁결제원모집구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_bond_int_dfrm_dvsn_cd",
+      "Column_2": "증권예탁결제원채권이자지급구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "issu_dt",
+      "Column_2": "발행일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "rdpt_dt",
+      "Column_2": "상환일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "rvnu_dt",
+      "Column_2": "매출일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "iso_crcy_cd",
+      "Column_2": "통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "mdwy_rdpt_dt",
+      "Column_2": "중도상환일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_rcvg_bond_dsct_rt",
+      "Column_2": "증권예탁결제원수신채권할인율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2212",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_rcvg_bond_srfc_inrt",
+      "Column_2": "증권예탁결제원수신채권표면이율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2012",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "bond_expd_rdpt_rt",
+      "Column_2": "채권만기상환율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2212",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_prca_rdpt_mthd_cd",
+      "Column_2": "증권예탁결제원원금상환방법코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "int_caltm_mcnt",
+      "Column_2": "이자계산기간개월수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_int_calc_unit_cd",
+      "Column_2": "증권예탁결제원이자계산단위코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " 1.발행금액\r\n2.만원\r\n3.십만원\r\n4.백만원",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "uval_cut_dvsn_cd",
+      "Column_2": "절상절사구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "uval_cut_dcpt_dgit",
+      "Column_2": "절상절사소수점자릿수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_dydv_caltm_aply_dvsn_cd",
+      "Column_2": "증권예탁결제원일할계산기간적용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "dydv_calc_dcnt",
+      "Column_2": "일할계산일수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "bond_expd_asrc_erng_rt",
+      "Column_2": "채권만기보장수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2212",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "padf_plac_hdof_name",
+      "Column_2": "원리금지급장소본점명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "lstg_dt",
+      "Column_2": "상장일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "lstg_abol_dt",
+      "Column_2": "상장폐지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_bond_issu_mthd_cd",
+      "Column_2": "증권예탁결제원채권발행방법코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "laps_indf_yn",
+      "Column_2": "경과이자지급여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_lhdy_pnia_dfrm_mthd_cd",
+      "Column_2": "증권예탁결제원공휴일원리금지급",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "frst_int_dfrm_dt",
+      "Column_2": "최초이자지급일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_prcm_lnkg_gvbd_yn",
+      "Column_2": "증권예탁결제원물가연동국고채여",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "dpsi_end_dt",
+      "Column_2": "예탁종료일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "dpsi_strt_dt",
+      "Column_2": "예탁시작일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "dpsi_psbl_yn",
+      "Column_2": "예탁가능여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "atyp_rdpt_bond_erlm_yn",
+      "Column_2": "비정형상환채권등록여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "dshn_occr_yn",
+      "Column_2": "부도발생여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "expd_exts_yn",
+      "Column_2": "만기연장여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "pclr_ptcr_text",
+      "Column_2": "특이사항내용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "500",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "dpsi_psbl_excp_stat_cd",
+      "Column_2": "예탁가능예외상태코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "expd_exts_srdp_rcnt",
+      "Column_2": "만기연장분할상환횟수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "expd_exts_srdp_rt",
+      "Column_2": "만기연장분할상환율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2212",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "expd_rdpt_rt",
+      "Column_2": "만기상환율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "expd_asrc_erng_rt",
+      "Column_2": "만기보장수익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "bond_int_dfrm_mthd_cd",
+      "Column_2": "채권이자지급방법코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " 01.할인채\r\n02.복리채\r\n03.이표채.확정금리\r\n04.이표채.금리연동\r\n05.이표채.변동금리\r\n06.단리채\r\n07.분할채\r\n09.복5단2\r\n19.기타.고정금리\r\n29.기타.변동금리",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "int_dfrm_day_type_cd",
+      "Column_2": "이자지급일유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " 01.발행일\r\n02.만기일\r\n03.특정일",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "prca_dfmt_term_mcnt",
+      "Column_2": "원금거치기간개월수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "splt_rdpt_rcnt",
+      "Column_2": "분할상환횟수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "rgbf_int_dfrm_dt",
+      "Column_2": "직전이자지급일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "nxtm_int_dfrm_dt",
+      "Column_2": "차기이자지급일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "sprx_psbl_yn",
+      "Column_2": "분리과세가능여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ictx_rt_dvsn_cd",
+      "Column_2": "소득세율구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "bond_clsf_cd",
+      "Column_2": "채권분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "bond_clsf_kor_name",
+      "Column_2": "채권분류한글명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "int_mned_dvsn_cd",
+      "Column_2": "이자월말구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "1.일자기준\r\n2.말일기준",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "pnia_int_calc_unpr",
+      "Column_2": "원리금이자계산단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "234",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "frn_intr",
+      "Column_2": "FRN금리",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1512",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "aply_day_prcm_idx_lnkg_cefc",
+      "Column_2": "적용일물가지수연동계수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "151",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_expd_dydv_calc_bass_cd",
+      "Column_2": "증권예탁결제원만기일할계산기준",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "expd_dydv_calc_dcnt",
+      "Column_2": "만기일할계산일수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "7",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_cbbw_dvsn_cd",
+      "Column_2": "증권예탁결제원신종사채구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "crfd_item_yn",
+      "Column_2": "크라우드펀딩종목여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "pnia_bank_ofdy_dfrm_mthd_cd",
+      "Column_2": "원리금은행휴무일지급방법코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "qib_yn",
+      "Column_2": "QIB여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "qib_cclc_dt",
+      "Column_2": "QIB해지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "csbd_yn",
+      "Column_2": "영구채여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "csbd_cclc_dt",
+      "Column_2": "영구채해지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_opcb_yn",
+      "Column_2": "증권예탁결제원옵션부사채여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_sodn_yn",
+      "Column_2": "증권예탁결제원후순위채권여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_rqdi_scty_yn",
+      "Column_2": "증권예탁결제원유동화증권여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "elec_scty_yn",
+      "Column_2": "전자증권여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "rght_ecis_mbdy_dvsn_cd",
+      "Column_2": "권리행사주체구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "int_rkng_mthd_dvsn_cd",
+      "Column_2": "이자산정방법구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ofrg_dvsn_cd",
+      "Column_2": "모집구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_tot_issu_amt",
+      "Column_2": "증권예탁결제원총발행금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "202",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "next_indf_chk_ecls_yn",
+      "Column_2": "다음이자지급체크제외여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_bond_intr_dvsn_cd",
+      "Column_2": "증권예탁결제원채권금리구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_inrt_aply_dvsn_cd",
+      "Column_2": "증권예탁결제원이율적용구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "krx_issu_istt_cd",
+      "Column_2": "KRX발행기관코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_indf_frqc_uder_calc_cd",
+      "Column_2": "증권예탁결제원이자지급주기미만",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "ksd_indf_frqc_uder_calc_dcnt",
+      "Column_2": "증권예탁결제원이자지급주기미만",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": null,
+      "Column_1": "tlg_rcvg_dtl_dtime",
+      "Column_2": "전문수신상세일시",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "Request Example (Python)",
+      "Column_1": "PDNO:KR2033022D33\r\nPRDT_TYPE_CD:302",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "장내채권 기본조회": "Response Example",
+      "Column_1": "{\r\n    \"output\": {\r\n        \"pdno\": \"KR2033022D33\",\r\n        \"prdt_type_cd\": \"302\",\r\n        \"ksd_bond_item_name\": \"충북지역개발채권 23-03\",\r\n        \"ksd_bond_item_eng_name\": \"CHUNGBUK PROVINCIAL DEVELOPMENT 23-03\",\r\n        \"ksd_bond_lstg_type_cd\": \"11\",\r\n        \"ksd_ofrg_dvsn_cd\": \"11\",\r\n        \"ksd_bond_int_dfrm_dvsn_cd\": \"3\",\r\n        \"issu_dt\": \"20230331\",\r\n        \"rdpt_dt\": \"20280331\",\r\n        \"rvnu_dt\": \"20230302\",\r\n        \"iso_crcy_cd\": \"KRW\",\r\n        \"mdwy_rdpt_dt\": \"00000000\",\r\n        \"ksd_rcvg_bond_dsct_rt\": \"0.000000000000\",\r\n        \"ksd_rcvg_bond_srfc_inrt\": \"2.500000000000\",\r\n        \"bond_expd_rdpt_rt\": \"100.000000000000\",\r\n        \"ksd_prca_rdpt_mthd_cd\": \"11\",\r\n        \"int_caltm_mcnt\": \"12\",\r\n        \"ksd_int_calc_unit_cd\": \"1\",\r\n        \"uval_cut_dvsn_cd\": \"2\",\r\n        \"uval_cut_dcpt_dgit\": \"0\",\r\n        \"ksd_dydv_caltm_aply_dvsn_cd\": \"1\",\r\n        \"dydv_calc_dcnt\": \"0\",\r\n        \"bond_expd_asrc_erng_rt\": \"0.000000000000\",\r\n        \"padf_plac_hdof_name\": \"농협은행\",\r\n        \"lstg_dt\": \"20230302\",\r\n        \"lstg_abol_dt\": \"20280401\",\r\n        \"ksd_bond_issu_mthd_cd\": \"2\",\r\n        \"laps_indf_yn\": \"Y\",\r\n        \"ksd_lhdy_pnia_dfrm_mthd_cd\": \"2\",\r\n        \"frst_int_dfrm_dt\": \"00000000\",\r\n        \"ksd_prcm_lnkg_gvbd_yn\": \"N\",\r\n        \"dpsi_end_dt\": \"20280401\",\r\n        \"dpsi_strt_dt\": \"20230302\",\r\n        \"dpsi_psbl_yn\": \"Y\",\r\n        \"atyp_rdpt_bond_erlm_yn\": \"N\",\r\n        \"dshn_occr_yn\": \"N\",\r\n        \"expd_exts_yn\": \"N\",\r\n        \"pclr_ptcr_text\": \"\",\r\n        \"dpsi_psbl_excp_stat_cd\": \"\",\r\n        \"expd_exts_srdp_rcnt\": \"0\",\r\n        \"expd_exts_srdp_rt\": \"0.000000000000\",\r\n        \"expd_rdpt_rt\": \"0.00000000\",\r\n        \"expd_asrc_erng_rt\": \"0.00000000\",\r\n        \"bond_int_dfrm_mthd_cd\": \"02\",\r\n        \"int_dfrm_day_type_cd\": \"02\",\r\n        \"prca_dfmt_term_mcnt\": \"0\",\r\n        \"splt_rdpt_rcnt\": \"0\",\r\n        \"rgbf_int_dfrm_dt\": \"\",\r\n        \"nxtm_int_dfrm_dt\": \"20280331\",\r\n        \"sprx_psbl_yn\": \"N\",\r\n        \"ictx_rt_dvsn_cd\": \"\",\r\n        \"bond_clsf_cd\": \"112555\",\r\n        \"bond_clsf_kor_name\": \"충북지역개발채권\",\r\n        \"int_mned_dvsn_cd\": \"2\",\r\n        \"pnia_int_calc_unpr\": \"0.0000\",\r\n        \"frn_intr\": \"0.000000000000\",\r\n        \"aply_day_prcm_idx_lnkg_cefc\": \"0.0000000000\",\r\n        \"ksd_expd_dydv_calc_bass_cd\": \"\",\r\n        \"expd_dydv_calc_dcnt\": \"0\",\r\n        \"ksd_cbbw_dvsn_cd\": \"9\",\r\n        \"crfd_item_yn\": \"N\",\r\n        \"pnia_bank_ofdy_dfrm_mthd_cd\": \"1\",\r\n        \"qib_yn\": \"N\",\r\n        \"qib_cclc_dt\": \"00000000\",\r\n        \"csbd_yn\": \"N\",\r\n        \"csbd_cclc_dt\": \"00000000\",\r\n        \"ksd_opcb_yn\": \"N\",\r\n        \"ksd_sodn_yn\": \"N\",\r\n        \"ksd_rqdi_scty_yn\": \"N\",\r\n        \"elec_scty_yn\": \"Y\",\r\n        \"rght_ecis_mbdy_dvsn_cd\": \"1\",\r\n        \"int_rkng_mthd_dvsn_cd\": \"1\",\r\n        \"ofrg_dvsn_cd\": \"\",\r\n        \"ksd_tot_issu_amt\": \"17303560000.00\",\r\n        \"next_indf_chk_ecls_yn\": \"N\",\r\n        \"ksd_bond_intr_dvsn_cd\": \"1\",\r\n        \"ksd_inrt_aply_dvsn_cd\": \"1\",\r\n        \"krx_issu_istt_cd\": \"MB033\",\r\n        \"ksd_indf_frqc_uder_calc_cd\": \"1\",\r\n        \"ksd_indf_frqc_uder_calc_dcnt\": \"0\",\r\n        \"tlg_rcvg_dtl_dtime\": \"20240625060514023\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0530\",\r\n    \"msg1\": \"조회되었습니다                                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

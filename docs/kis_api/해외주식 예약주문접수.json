@@ -1,0 +1,546 @@
+{
+  "sheet_name": "해외주식 예약주문접수",
+  "row_count": 53,
+  "columns": [
+    "해외주식 예약주문접수",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 예약주문접수": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "메뉴 위치",
+      "Column_1": "[해외주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "API 명",
+      "Column_1": "해외주식 예약주문접수",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "API ID",
+      "Column_1": "v1_해외주식-002",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "실전 TR_ID",
+      "Column_1": "(미국예약매수) TTTT3014U  (미국예약매도) TTTT3016U   (중국/홍콩/일본/베트남 예약주문) TTTS3013U",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "모의 TR_ID",
+      "Column_1": "(미국예약매수) VTTT3014U  (미국예약매도) VTTT3016U   (중국/홍콩/일본/베트남 예약주문) VTTS3013U",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "URL 명",
+      "Column_1": "/uapi/overseas-stock/v1/trading/order-resv",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "개요",
+      "Column_1": "미국거래소 운영시간 외 미국주식을 예약 매매하기 위한 API입니다.\r\n\r\n* 해외주식 서비스 신청 후 이용 가능합니다. (아래 링크 3번 해외증권 거래신청 참고)\r\nhttps://securities.koreainvestment.com/main/bond/research/_static/TF03ca010001.jsp\r\n\r\n※ POST API의 경우 BODY값의 key값들을 대문자로 작성하셔야 합니다.\r\n   (EX. \"CANO\" : \"12345678\", \"ACNT_PRDT_CD\": \"01\",...)\r\n\r\n* 아래 각 국가의 시장별 예약주문 접수 가능 시간을 확인하시길 바랍니다.\r\n\r\n미국 예약주문 접수시간\r\n1) 10:00 ~ 23:20 / 10:00 ~ 22:20 (서머타임 시)\r\n2) 주문제한 : 16:30 ~ 16:45 경까지 (사유 : 시스템 정산작업시간)\r\n3) 23:30 정규장으로 주문 전송 (서머타임 시 22:30 정규장 주문 전송)\r\n4) 미국 거래소 운영시간(한국시간 기준) : 23:30 ~ 06:00 (썸머타임 적용 시 22:30 ~ 05:00)\r\n\r\n홍콩 예약주문 접수시간\r\n1) 09:00 ~ 10:20 접수, 10:30 주문전송\r\n2) 10:40 ~ 13:50 접수, 14:00 주문전송\r\n\r\n중국 예약주문 접수시간\r\n1) 09:00 ~ 10:20 접수, 10:30 주문전송\r\n2) 10:40 ~ 13:50 접수, 14:00 주문전송\r\n\r\n일본 예약주문 접수시간\r\n1) 09:10 ~ 12:20 까지 접수, 12:30 주문전송\r\n\r\n베트남 예약주문 접수시간\r\n1) 09:00 ~ 11:00 까지 접수, 11:15 주문전송\r\n2) 11:20 ~ 14:50 까지 접수, 15:00 주문전송\r\n\r\n* 예약주문 유의사항\r\n1) 예약주문 유효기간 : 당일\r\n - 미국장 마감 후, 미체결주문은 자동취소\r\n - 미국휴장 시, 익 영업일로 이전\r\n   (미국예약주문화면에서 취소 가능)\r\n2) 증거금 및 잔고보유 : 체크 안함\r\n3) 주문전송 불가사유\r\n - 매수증거금 부족: 수수료 포함 매수금액부족, 환전, 시세이용료 출금, 인출에 의한 증거금 부족\r\n - 기타 매수증거금 부족, 매도가능수량 부족, 주권변경 등 권리발생으로 인한 주문불가사유 발생\r\n4) 지정가주문만 가능\r\n* 단 미국 예약매도주문(TTTT3016U)의 경우, MOO(장개시시장가)로 주문 접수 가능",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token\r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용)\r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자]\r\nTTTT3016U : 미국 매도 예약 주문\r\nTTTT3014U : 미국 매수 예약 주문\r\nTTTS3013U : 중국/홍콩/일본/베트남 예약 매수/매도/취소 주문\r\n\r\n[모의투자]\r\nVTTT3016U : 미국 매도 예약 주문\r\nVTTT3014U : 미국 매수 예약 주문\r\nVTTS3013U : 중국/홍콩/일본/베트남 예약 매수/매도/취소 주문",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인\r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호\r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "Request Body",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "SLL_BUY_DVSN_CD",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용\r\n01 : 매도\r\n02 : 매수",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "RVSE_CNCL_DVSN_CD",
+      "Column_2": "정정취소구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용\r\n00 : \"매도/매수 주문\"시 필수 항목\r\n02 : 취소",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "PRDT_TYPE_CD",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용\r\n515 : 일본\r\n501 : 홍콩 / 543 : 홍콩CNY / 558 : 홍콩USD\r\n507 : 베트남 하노이거래소 / 508 : 베트남 호치민거래소\r\n551 : 중국 상해A / 552 : 중국 심천A",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "OVRS_EXCG_CD",
+      "Column_2": "해외거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "NASD : 나스닥\r\nNYSE : 뉴욕\r\nAMEX : 아멕스\r\nSEHK : 홍콩\r\nSHAA : 중국상해\r\nSZAA : 중국심천\r\nTKSE : 일본\r\nHASE : 베트남 하노이\r\nVNSE : 베트남 호치민",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "FT_ORD_QTY",
+      "Column_2": "FT주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "FT_ORD_UNPR3",
+      "Column_2": "FT주문단가3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "27",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "ORD_SVR_DVSN_CD",
+      "Column_2": "주문서버구분코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "\"0\"(Default)",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "RSVN_ORD_RCIT_DT",
+      "Column_2": "예약주문접수일자",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": "tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "ORD_DVSN",
+      "Column_2": "주문구분",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "20",
+      "Column_6": "tr_id가 TTTT3014U(미국 예약 매수 주문)인 경우만 사용\r\n00 : 지정가\r\n35 : TWAP\r\n36 : VWAP\r\n\r\ntr_id가 TTTT3016U(미국 예약 매도 주문)인 경우만 사용\r\n00 : 지정가\r\n31 : MOO(장개시시장가)\r\n35 : TWAP\r\n36 : VWAP",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "OVRS_RSVN_ODNO",
+      "Column_2": "해외예약주문번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "10",
+      "Column_6": "tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 사용",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "ALGO_ORD_TMD_DVSN_CD",
+      "Column_2": "알고리즘주문시간구분코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "※ TWAP, VWAP 주문에서만 사용. 예약주문은 시간입력 불가하여 02로 값 고정\r\n※ 정규장 종료 10분전까지 가능 ",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공 \r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "응답코드",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "응답메세지",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "ODNO",
+      "Column_2": "한국거래소전송주문조직번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "tr_id가 TTTT3016U(미국 예약 매도 주문) / TTTT3014U(미국 예약 매수 주문)인 경우만 출력",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "RSVN_ORD_RCIT_DT",
+      "Column_2": "예약주문접수일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 출력",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": null,
+      "Column_1": "OVRS_RSVN_ODNO",
+      "Column_2": "해외예약주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "tr_id가 TTTS3013U(중국/홍콩/일본/베트남 예약 주문)인 경우만 출력",
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "Request Example (Python)",
+      "Column_1": "{\r\n\"CANO\": \"810XXXXX\",\r\n\"ACNT_PRDT_CD\":\"AAPL\",\r\n\"PDNO\": \"AAPL\",\r\n\"OVRS_EXCG_CD\": \"NASD\",\r\n\"FT_ORD_QTY\": \"1\",\r\n\"FT_ORD_UNPR3\": \"148.00\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 예약주문접수": "Response Example",
+      "Column_1": "{\r\n  \"rt_cd\": \"0\",\r\n  \"msg_cd\": \"APBK0013\",\r\n  \"msg1\": \"주문 전송 완료 되었습니다.\",\r\n  \"output\": {\r\n    \"ODNO\": \"0030138295\"\r\n  }\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

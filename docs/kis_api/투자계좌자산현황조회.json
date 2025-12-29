@@ -1,0 +1,766 @@
+{
+  "sheet_name": "투자계좌자산현황조회",
+  "row_count": 75,
+  "columns": [
+    "투자계좌자산현황조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "투자계좌자산현황조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "메뉴 위치",
+      "Column_1": "[국내주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "API 명",
+      "Column_1": "투자계좌자산현황조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "API ID",
+      "Column_1": "v1_국내주식-048",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "실전 TR_ID",
+      "Column_1": "CTRP6548R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/trading/inquire-account-balance",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "개요",
+      "Column_1": "투자계좌자산현황조회 API입니다.\r\n\r\noutput1은 한국투자 HTS(eFriend Plus) &gt; [0891] 계좌 자산비중(결제기준) 화면 아래 테이블의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTRP6548R",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공백 : 초기 조회\r\nN : 다음 데이터 조회 (output header의 tr_cont가 M일 경우)",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "INQR_DVSN_1",
+      "Column_2": "조회구분1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "공백입력",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "BSPR_BF_DT_APLY_YN",
+      "Column_2": "기준가이전일자적용여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "공백입력",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "F or M : 다음 데이터 있음\r\nD or E : 마지막 데이터",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "Output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "Array [아래 순서대로 출력 : 20항목]\r\n1: 주식\r\n2: 펀드/MMW\r\n3: IMA\r\n4: 채권\r\n5: ELS/DLS\r\n6: WRAP\r\n7: 신탁\r\n8: RP/발행어음\r\n9: 해외주식\r\n10: 해외채권\r\n11: 금현물\r\n12: CD/CP\r\n13: 전자단기사채\r\n14: 타사상품\r\n15: 외화전자단기사채\r\n16: 외화 ELS/DLS\r\n17: 외화\r\n18: 예수금\r\n19: 청약자예수금\r\n20: 합계\r\n\r\n[21번 계좌일 경우 : 17항목]\r\n1: 수익증권\r\n2: IMA\r\n3: 채권\r\n4: ELS/DLS\r\n5: WRAP\r\n6: 신탁\r\n7: RP\r\n8: 외화rp\r\n9: 해외채권\r\n10: CD/CP\r\n11: 전자단기사채\r\n12: 외화전자단기사채\r\n13: 외화ELS/DLS\r\n14: 외화평가금액\r\n15: 예수금+cma\r\n16: 청약자예수금\r\n17: 합계",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "pchs_amt",
+      "Column_2": "매입금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "evlu_amt",
+      "Column_2": "평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "evlu_pfls_amt",
+      "Column_2": "평가손익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "crdt_lnd_amt",
+      "Column_2": "신용대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "real_nass_amt",
+      "Column_2": "실제순자산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "whol_weit_rt",
+      "Column_2": "전체비중율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "228",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "Output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "pchs_amt_smtl",
+      "Column_2": "매입금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "유가매입금액",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "nass_tot_amt",
+      "Column_2": "순자산총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "loan_amt_smtl",
+      "Column_2": "대출금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "evlu_pfls_amt_smtl",
+      "Column_2": "평가손익금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " 평가손익금액",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "evlu_amt_smtl",
+      "Column_2": "평가금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " 유가평가금액",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tot_asst_amt",
+      "Column_2": "총자산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " 총 자산금액",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tot_lnda_tot_ulst_lnda",
+      "Column_2": "총대출금액총융자대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "cma_auto_loan_amt",
+      "Column_2": "CMA자동대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tot_mgln_amt",
+      "Column_2": "총담보대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "stln_evlu_amt",
+      "Column_2": "대주평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "crdt_fncg_amt",
+      "Column_2": "신용융자금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "ocl_apl_loan_amt",
+      "Column_2": "OCL_APL대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "pldg_stup_amt",
+      "Column_2": "질권설정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "frcr_evlu_tota",
+      "Column_2": "외화평가총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tot_dncl_amt",
+      "Column_2": "총예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "cma_evlu_amt",
+      "Column_2": "CMA평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "dncl_amt",
+      "Column_2": "예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "tot_sbst_amt",
+      "Column_2": "총대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "thdt_rcvb_amt",
+      "Column_2": "당일미수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "ovrs_stck_evlu_amt1",
+      "Column_2": "해외주식평가금액1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "236",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "ovrs_bond_evlu_amt",
+      "Column_2": "해외채권평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "236",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "mmf_cma_mgge_loan_amt",
+      "Column_2": "MMFCMA담보대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "sbsc_dncl_amt",
+      "Column_2": "청약예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "pbst_sbsc_fnds_loan_use_amt",
+      "Column_2": "공모주청약자금대출사용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": null,
+      "Column_1": "etpr_crdt_grnt_loan_amt",
+      "Column_2": "기업신용공여대출금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\":\"12345678\",\r\n\t\"ACNT_PRDT_CD\":\"01\",\r\n\t\"INQR_DVSN_1\":\"\",\r\n\t\"BSPR_BF_DT_APLY_YN\":\"\",\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "투자계좌자산현황조회": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"pchs_amt\": \"129105\",\r\n            \"evlu_amt\": \"406000\",\r\n            \"evlu_pfls_amt\": \"276895\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"406000\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"161026228\",\r\n            \"evlu_amt\": \"185144504\",\r\n            \"evlu_pfls_amt\": \"24118276\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"185144504\",\r\n            \"whol_weit_rt\": \"0.01000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"1651434483743\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"1651434483743\",\r\n            \"whol_weit_rt\": \"99.97000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"249855300\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"249855300\",\r\n            \"whol_weit_rt\": \"0.01000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"0\",\r\n            \"evlu_amt\": \"0\",\r\n            \"evlu_pfls_amt\": \"0\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"0\",\r\n            \"whol_weit_rt\": \"0.00000000\"\r\n        },\r\n        {\r\n            \"pchs_amt\": \"161155333\",\r\n            \"evlu_amt\": \"1651869889547\",\r\n            \"evlu_pfls_amt\": \"24395171\",\r\n            \"crdt_lnd_amt\": \"0\",\r\n            \"real_nass_amt\": \"1651869889547\",\r\n            \"whol_weit_rt\": \"100.00000000\"\r\n        }\r\n    ],\r\n    \"output2\": {\r\n        \"pchs_amt_smtl\": \"161155333\",\r\n        \"nass_tot_amt\": \"185550504\",\r\n        \"loan_amt_smtl\": \"0\",\r\n        \"evlu_pfls_amt_smtl\": \"24395171\",\r\n        \"evlu_amt_smtl\": \"185550504\",\r\n        \"tot_asst_amt\": \"1651869889547\",\r\n        \"tot_lnda_tot_ulst_lnda\": \"0\",\r\n        \"cma_auto_loan_amt\": \"0\",\r\n        \"tot_mgln_amt\": \"0\",\r\n        \"stln_evlu_amt\": \"0\",\r\n        \"crdt_fncg_amt\": \"0\",\r\n        \"ocl_apl_loan_amt\": \"0\",\r\n        \"pldg_stup_amt\": \"0\",\r\n        \"frcr_evlu_tota\": \"1651434483743\",\r\n        \"tot_dncl_amt\": \"249855300\",\r\n        \"cma_evlu_amt\": \"0\",\r\n        \"dncl_amt\": \"249855300\",\r\n        \"tot_sbst_amt\": \"0\",\r\n        \"thdt_rcvb_amt\": \"0\",\r\n        \"ovrs_stck_evlu_amt1\": \"185144504.000000\",\r\n        \"ovrs_bond_evlu_amt\": \"0.000000\",\r\n        \"mmf_cma_mgge_loan_amt\": \"0\",\r\n        \"sbsc_dncl_amt\": \"0\",\r\n        \"pbst_sbsc_fnds_loan_use_amt\": \"0\",\r\n        \"etpr_crdt_grnt_loan_amt\": \"0\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0530\",\r\n    \"msg1\": \"조회되었습니다                                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

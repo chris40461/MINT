@@ -1,0 +1,686 @@
+{
+  "sheet_name": "ELW 당일급변종목",
+  "row_count": 67,
+  "columns": [
+    "ELW 당일급변종목",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "ELW 당일급변종목": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "메뉴 위치",
+      "Column_1": "[국내주식] ELW 시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "API 명",
+      "Column_1": "ELW 당일급변종목",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "API ID",
+      "Column_1": "국내주식-171",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "실전 TR_ID",
+      "Column_1": "FHPEW02870000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "URL 명",
+      "Column_1": "/uapi/elw/v1/ranking/quick-change",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "개요",
+      "Column_1": "ELW 당일급변종목 API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0287] ELW 당일급변종목 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPEW02870000",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건시장분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (W)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_COND_SCR_DIV_CODE",
+      "Column_2": "조건화면분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "Unique key(20287)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_UNAS_INPUT_ISCD",
+      "Column_2": "기초자산입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "'000000(전체), 2001(코스피200)\r\n, 3003(코스닥150), 005930(삼성전자) '",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "발행사",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "'00000(전체), 00003(한국투자증권)\r\n, 00017(KB증권), 00005(미래에셋주식회사)'",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_MRKT_CLS_CODE",
+      "Column_2": "시장구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "Unique key(A)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_INPUT_PRICE_1",
+      "Column_2": "가격(이상)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_INPUT_PRICE_2",
+      "Column_2": "가격(이하)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_INPUT_VOL_1",
+      "Column_2": "거래량(이상)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_INPUT_VOL_2",
+      "Column_2": "거래량(이하)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_HOUR_CLS_CODE",
+      "Column_2": "시간구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "1(분), 2(일)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_INPUT_HOUR_1",
+      "Column_2": "입력 일 또는 분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_INPUT_HOUR_2",
+      "Column_2": "기준시간(분 선택 시)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_RANK_SORT_CLS_CODE",
+      "Column_2": "순위정렬구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "'1(가격급등), 2(가격급락), 3(거래량급증)\r\n, 4(매수잔량급증), 5(매도잔량급증)'",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "FID_BLNG_CLS_CODE",
+      "Column_2": "결재방법",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0(전체), 1(일반), 2(조기종료)",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "elw_shrn_iscd",
+      "Column_2": "ELW단축종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "elw_kor_isnm",
+      "Column_2": "ELW한글종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "elw_prpr",
+      "Column_2": "ELW현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "askp",
+      "Column_2": "매도호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "bidp",
+      "Column_2": "매수호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "total_askp_rsqn",
+      "Column_2": "총매도호가잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "total_bidp_rsqn",
+      "Column_2": "총매수호가잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "stnd_val",
+      "Column_2": "기준값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "stnd_val_vrss",
+      "Column_2": "기준값대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": null,
+      "Column_1": "stnd_val_ctrt",
+      "Column_2": "기준값대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "162",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:W\r\nFID_COND_SCR_DIV_CODE:20287\r\nFID_UNAS_INPUT_ISCD:000000\r\nFID_INPUT_ISCD:00000\r\nFID_MRKT_CLS_CODE:A\r\nFID_INPUT_PRICE_1:\r\nFID_INPUT_PRICE_2:\r\nFID_INPUT_VOL_1:\r\nFID_INPUT_VOL_2:\r\nFID_HOUR_CLS_CODE:2\r\nFID_INPUT_HOUR_1:1\r\nFID_INPUT_HOUR_2:\r\nFID_RANK_SORT_CLS_CODE:1\r\nFID_BLNG_CLS_CODE:0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 당일급변종목": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"elw_shrn_iscd\": \"57JAKW\",\r\n            \"elw_kor_isnm\": \"한국JAKWLS일렉콜\",\r\n            \"elw_prpr\": \"460\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"350\",\r\n            \"prdy_ctrt\": \"318.18\",\r\n            \"askp\": \"0\",\r\n            \"bidp\": \"145\",\r\n            \"total_askp_rsqn\": \"0\",\r\n            \"total_bidp_rsqn\": \"49060\",\r\n            \"acml_vol\": \"3320\",\r\n            \"stnd_val\": \"110\",\r\n            \"stnd_val_vrss\": \"350\",\r\n            \"stnd_val_ctrt\": \"318.18\"\r\n        },\r\n        {\r\n            \"elw_shrn_iscd\": \"58JF27\",\r\n            \"elw_kor_isnm\": \"KBJF27KOSPI200콜\",\r\n            \"elw_prpr\": \"2395\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1745\",\r\n            \"prdy_ctrt\": \"268.46\",\r\n            \"askp\": \"0\",\r\n            \"bidp\": \"15\",\r\n            \"total_askp_rsqn\": \"0\",\r\n            \"total_bidp_rsqn\": \"29000\",\r\n            \"acml_vol\": \"100\",\r\n            \"stnd_val\": \"650\",\r\n            \"stnd_val_vrss\": \"1745\",\r\n            \"stnd_val_ctrt\": \"268.46\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

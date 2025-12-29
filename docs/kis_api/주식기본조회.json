@@ -1,0 +1,1096 @@
+{
+  "sheet_name": "주식기본조회",
+  "row_count": 108,
+  "columns": [
+    "주식기본조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "주식기본조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "API 명",
+      "Column_1": "주식기본조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "API ID",
+      "Column_1": "v1_국내주식-067",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "실전 TR_ID",
+      "Column_1": "CTPF1002R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/search-stock-info",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "개요",
+      "Column_1": "주식기본조회 API입니다.\r\n국내주식 종목의 종목상세정보를 확인할 수 있습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTPF1002R",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "Request Query Parameter",
+      "Column_1": "PRDT_TYPE_CD",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "300: 주식, ETF, ETN, ELW \r\n301 : 선물옵션 \r\n302 : 채권 \r\n306 : ELS'",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목번호 (6자리)\r\nETN의 경우, Q로 시작 (EX. Q500001)",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세1",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "prdt_type_cd",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "mket_id_cd",
+      "Column_2": "시장ID코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "AGR.농축산물파생\r\nBON.채권파생\r\nCMD.일반상품시장\r\nCUR.통화파생\r\nENG.에너지파생\r\nEQU.주식파생\r\nETF.ETF파생\r\nIRT.금리파생\r\nKNX.코넥스\r\nKSQ.코스닥\r\nMTL.금속파생\r\nSPI.주가지수파생\r\nSTK.유가증권",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "scty_grp_id_cd",
+      "Column_2": "증권그룹ID코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " BC.수익증권\r\nDR.주식예탁증서\r\nEF.ETF\r\nEN.ETN\r\nEW.ELW\r\nFE.해외ETF\r\nFO.선물옵션\r\nFS.외국주권\r\nFU.선물\r\nFX.플렉스 선물\r\nGD.금현물\r\nIC.투자계약증권\r\nIF.사회간접자본투융자회사\r\nKN.코넥스주권\r\nMF.투자회사\r\nOP.옵션\r\nRT.부동산투자회사\r\nSC.선박투자회사\r\nSR.신주인수권증서\r\nST.주권\r\nSW.신주인수권증권\r\nTC.신탁수익증권",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "excg_dvsn_cd",
+      "Column_2": "거래소구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " 01.한국증권\r\n02.증권거래소\r\n03.코스닥\r\n04.K-OTC\r\n05.선물거래소\r\n06.CME\r\n07.EUREX\r\n21.금현물\r\n50.미국주간\r\n51.홍콩\r\n52.상해B\r\n53.심천\r\n54.홍콩거래소\r\n55.미국\r\n56.일본\r\n57.상해A\r\n58.심천A\r\n59.베트남\r\n61.장전시간외시장\r\n64.경쟁대량매매\r\n65.경매매시장\r\n81.시간외단일가시장",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "setl_mmdd",
+      "Column_2": "결산월일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "lstg_stqt",
+      "Column_2": "상장주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "lstg_cptl_amt",
+      "Column_2": "상장자본금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "cpta",
+      "Column_2": "자본금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "papr",
+      "Column_2": "액면가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "issu_pric",
+      "Column_2": "발행가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "kospi200_item_yn",
+      "Column_2": "코스피200종목여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "scts_mket_lstg_dt",
+      "Column_2": "유가증권시장상장일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "scts_mket_lstg_abol_dt",
+      "Column_2": "유가증권시장상장폐지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "kosdaq_mket_lstg_dt",
+      "Column_2": "코스닥시장상장일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "kosdaq_mket_lstg_abol_dt",
+      "Column_2": "코스닥시장상장폐지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "frbd_mket_lstg_dt",
+      "Column_2": "프리보드시장상장일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "frbd_mket_lstg_abol_dt",
+      "Column_2": "프리보드시장상장폐지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "reits_kind_cd",
+      "Column_2": "리츠종류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "etf_dvsn_cd",
+      "Column_2": "ETF구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "oilf_fund_yn",
+      "Column_2": "유전펀드여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "idx_bztp_lcls_cd",
+      "Column_2": "지수업종대분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "idx_bztp_mcls_cd",
+      "Column_2": "지수업종중분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "idx_bztp_scls_cd",
+      "Column_2": "지수업종소분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "stck_kind_cd",
+      "Column_2": "주식종류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " 000.해당사항없음\r\n101.보통주\r\n201.우선주\r\n202.2우선주\r\n203.3우선주\r\n204.4우선주\r\n205.5우선주\r\n206.6우선주\r\n207.7우선주\r\n208.8우선주\r\n209.9우선주\r\n210.10우선주\r\n211.11우선주\r\n212.12우선주\r\n213.13우선주\r\n214.14우선주\r\n215.15우선주\r\n216.16우선주\r\n217.17우선주\r\n218.18우선주\r\n219.19우선주\r\n220.20우선주\r\n301.후배주\r\n401.혼합주",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "mfnd_opng_dt",
+      "Column_2": "뮤추얼펀드개시일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "mfnd_end_dt",
+      "Column_2": "뮤추얼펀드종료일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "dpsi_erlm_cncl_dt",
+      "Column_2": "예탁등록취소일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "etf_cu_qty",
+      "Column_2": "ETFCU수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "prdt_name120",
+      "Column_2": "상품명120",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "120",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "prdt_abrv_name",
+      "Column_2": "상품약어명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "std_pdno",
+      "Column_2": "표준상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "prdt_eng_name",
+      "Column_2": "상품영문명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "prdt_eng_name120",
+      "Column_2": "상품영문명120",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "120",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "prdt_eng_abrv_name",
+      "Column_2": "상품영문약어명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "dpsi_aptm_erlm_yn",
+      "Column_2": "예탁지정등록여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "etf_txtn_type_cd",
+      "Column_2": "ETF과세유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "etf_type_cd",
+      "Column_2": "ETF유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "lstg_abol_dt",
+      "Column_2": "상장폐지일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "nwst_odst_dvsn_cd",
+      "Column_2": "신주구주구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "sbst_pric",
+      "Column_2": "대용가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "thco_sbst_pric",
+      "Column_2": "당사대용가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "thco_sbst_pric_chng_dt",
+      "Column_2": "당사대용가격변경일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "tr_stop_yn",
+      "Column_2": "거래정지여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "admn_item_yn",
+      "Column_2": "관리종목여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "thdt_clpr",
+      "Column_2": "당일종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "bfdy_clpr",
+      "Column_2": "전일종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "clpr_chng_dt",
+      "Column_2": "종가변경일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "std_idst_clsf_cd",
+      "Column_2": "표준산업분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "std_idst_clsf_cd_name",
+      "Column_2": "표준산업분류코드명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "130",
+      "Column_6": "표준산업소분류코드\r\n000000\t해당사항없음                                     \r\n010101\t작물 재배업                                      \r\n010102\t축산업                                           \r\n010103\t작물재배 및 축산 복합농업                        \r\n010104\t작물재배 및 축산 관련 서비스업                   \r\n010105\t수렵 및 관련 서비스업                            \r\n010201\t임업                                             \r\n010301\t어로 어업                                        \r\n010302\t양식어업 및 어업관련 서비스업                    \r\n020501\t석탄 광업                                        \r\n020502\t원유 및 천연가스 채굴업                          \r\n020601\t철 광업                                          \r\n020602\t비철금속 광업                                    \r\n020701\t토사석 광업                                      \r\n020702\t기타 비금속광물 광업                             \r\n020801\t광업 지원 서비스업                               \r\n031001\t도축, 육류 가공 및 저장 처리업                   \r\n031002\t수산물 가공 및 저장 처리업                       \r\n031003\t과실, 채소 가공 및 저장 처리업                   \r\n031004\t동물성 및 식물성 유지 제조업                     \r\n031005\t낙농제품 및 식용빙과류 제조업                    \r\n031006\t곡물가공품, 전분 및 전분제품 제조업              \r\n031007\t기타 식품 제조업                                 \r\n031008\t동물용 사료 및 조제식품 제조업                   \r\n031101\t알콜음료 제조업                                  \r\n031102\t비알콜음료 및 얼음 제조업                        \r\n031201\t담배 제조업                                      \r\n031301\t방적 및 가공사 제조업                            \r\n031302\t직물직조 및 직물제품 제조업                      \r\n031303\t편조원단 및 편조제품 제조업                      \r\n031304\t섬유제품 염색, 정리 및 마무리 가공업             \r\n031309\t기타 섬유제품 제조업                             \r\n031401\t봉제의복 제조업                                  \r\n031402\t모피가공 및 모피제품 제조업                      \r\n031403\t편조의복 제조업                                  \r\n031404\t의복 액세서리 제조업                             \r\n031501\t가죽, 가방 및 유사제품 제조업                    \r\n031502\t신발 및 신발부분품 제조업                        \r\n031601\t제재 및 목재 가공업                              \r\n031602\t나무제품 제조업                                  \r\n031603\t코르크 및 조물 제품 제조업                       \r\n031701\t펄프, 종이 및 판지 제조업                        \r\n031702\t골판지, 종이 상자 및 종이용기 제조업             \r\n031709\t기타 종이 및 판지 제품 제조업                    \r\n031801\t인쇄 및 인쇄관련 산업                            \r\n031802\t기록매체 복제업                                  \r\n031901\t코크스 및 연탄 제조업                            \r\n031902\t석유 정제품 제조업                               \r\n032001\t기초화학물질 제조업                              \r\n032002\t비료 및 질소화합물 제조업                        \r\n032003\t합성고무 및 플라스틱 물질 제조업                 \r\n032004\t기타 화학제품 제조업                             \r\n032005\t화학섬유 제조업                                  \r\n032101\t기초 의약물질 및 생물학적 제제 제조업            \r\n032102\t의약품 제조업                                    \r\n032103\t의료용품 및 기타 의약관련제품 제조업             \r\n032201\t고무제품 제조업                                  \r\n032202\t플라스틱제품 제조업                              \r\n032301\t유리 및 유리제품 제조업                          \r\n032302\t도자기 및 기타 요업제품 제조업                   \r\n032303\t시멘트, 석회, 플라스터 및 그 제품 제조업         \r\n032309\t기타 비금속 광물제품 제조업                      \r\n032401\t1차 철강 제조업                                  \r\n032402\t1차 비철금속 제조업                              \r\n032403\t금속 주조업                                      \r\n032501\t구조용 금속제품, 탱크 및 증기발생기 제조업       \r\n032502\t무기 및 총포탄 제조업                            \r\n032509\t기타 금속가공제품 제조업                         \r\n032601\t반도체 제조업                                    \r\n032602\t전자부품 제조업                                  \r\n032603\t컴퓨터 및 주변장치 제조업                        \r\n032604\t통신 및 방송 장비 제조업                         \r\n032605\t영상 및 음향기기 제조업                          \r\n032606\t마그네틱 및 광학 매체 제조업                     \r\n032701\t의료용 기기 제조업                               \r\n032702\t측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; ?\r\n032703\t안경, 사진장비 및 기타 광학기기 제조업           \r\n032704\t시계 및 시계부품 제조업                          \r\n032801\t전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 \r\n032802\t일차전지 및 축전지 제조업                        \r\n032803\t절연선 및 케이블 제조업                          \r\n032804\t전구 및 조명장치 제조업                          \r\n032805\t가정용 기기 제조업                               \r\n032809\t기타 전기장비 제조업                             \r\n032901\t일반 목적용 기계 제조업                          \r\n032902\t특수 목적용 기계 제조업                          \r\n033001\t자동차용 엔진 및 자동차 제조업                   \r\n033002\t자동차 차체 및 트레일러 제조업                   \r\n033003\t자동차 부품 제조업                               \r\n033101\t선박 및 보트 건조업                              \r\n033102\t철도장비 제조업                                  \r\n033103\t항공기,우주선 및 부품 제조업                     \r\n033109\t그외 기타 운송장비 제조업                        \r\n033201\t가구 제조업                                      \r\n033301\t귀금속 및 장신용품 제조업                        \r\n033302\t악기 제조업                                      \r\n033303\t운동 및 경기용구 제조업                          \r\n033304\t인형,장난감 및 오락용품 제조업                   \r\n033309\t그외 기타 제품 제조업                            \r\n043501\t전기업                                           \r\n043502\t가스 제조 및 배관공급업                          \r\n043503\t증기, 냉온수 및 공기조절 공급업                  \r\n043601\t수도사업                                         \r\n053701\t하수, 폐수 및 분뇨 처리업                        \r\n053801\t폐기물 수집운반업                                \r\n053802\t폐기물 처리업                                    \r\n053803\t금속 및 비금속 원료 재생업                       \r\n053901\t환경 정화 및 복원업                              \r\n064101\t건물 건설업                                      \r\n064102\t토목 건설업                                      \r\n064201\t기반조성 및 시설물 축조관련 전문공사업           \r\n064202\t건물설비 설치 공사업                             \r\n064203\t전기 및 통신 공사업                              \r\n064204\t실내건축 및 건축 마무리 공사업                   \r\n064205\t건설장비 운영업                                  \r\n074501\t자동차 판매업                                    \r\n074502\t자동차 부품 및 내장품 판매업                     \r\n074503\t모터사이클 및 부품 판매업                        \r\n074601\t상품 중개업                                      \r\n074602\t산업용 농축산물 및 산동물 도매업                 \r\n074603\t음·식료품 및 담배 도매업                        \r\n074604\t가정용품 도매업                                  \r\n074605\t기계장비 및 관련 물품 도매업                     \r\n074606\t건축자재, 철물 및 난방장치 도매업                \r\n074607\t기타 전문 도매업                                 \r\n074608\t상품 종합 도매업                                 \r\n074701\t종합 소매업                                      \r\n074702\t음·식료품 및 담배 소매업                        \r\n074703\t정보통신장비 소매업                              \r\n074704\t섬유, 의복, 신발 및 가죽제품 소매업              \r\n074705\t기타 가정용품 소매업                             \r\n074706\t문화, 오락 및 여가 용품 소매업                   \r\n074707\t연료 소매업                                      \r\n074708\t기타 상품 전문 소매업                            \r\n074709\t무점포 소매업                                    \r\n084901\t철도운송업                                       \r\n084902\t육상 여객 운송업                                 \r\n084903\t도로 화물 운송업                                 \r\n084904\t소화물 전문 운송업                               \r\n084905\t파이프라인 운송업                                \r\n085001\t해상 운송업                                      \r\n085002\t내륙 수상 및 항만내 운송업                       \r\n085101\t정기 항공 운송업                                 \r\n085102\t부정기 항공 운송업                               \r\n085201\t보관 및 창고업                                   \r\n085209\t기타 운송관련 서비스업                           \r\n095501\t숙박시설 운영업                                  \r\n095509\t기타 숙박업                                      \r\n095601\t음식점업                                         \r\n095602\t주점 및 비알콜음료점업                           \r\n105801\t서적, 잡지 및 기타 인쇄물 출판업                 \r\n105802\t소프트웨어 개발 및 공급업                        \r\n105901\t영화, 비디오물, 방송프로그램 제작 및 배급업      \r\n105902\t오디오물 출판 및 원판 녹음업                     \r\n106001\t라디오 방송업                                    \r\n106002\t텔레비전 방송업                                  \r\n106101\t우편업                                           \r\n106102\t전기통신업                                       \r\n106201\t컴퓨터 프로그래밍, 시스템 통합 및 관리업         \r\n106301\t자료처리, 호스팅, 포털 및 기타 인터넷 정보매개서?\r\n106309\t기타 정보 서비스업                               \r\n116401\t은행 및 저축기관                                 \r\n116402\t투자기관                                         \r\n116409\t기타 금융업                                      \r\n116501\t보험업                                           \r\n116502\t재 보험업                                        \r\n116503\t연금 및 공제업                                   \r\n116601\t금융지원 서비스업                                \r\n116602\t보험 및 연금관련 서비스업                        \r\n126801\t부동산 임대 및 공급업                            \r\n126802\t부동산 관련 서비스업                             \r\n126901\t운송장비 임대업                                  \r\n126902\t개인 및 가정용품 임대업                          \r\n126903\t산업용 기계 및 장비 임대업                       \r\n126904\t무형재산권 임대업                                \r\n137001\t자연과학 및 공학 연구개발업                      \r\n137002\t인문 및 사회과학 연구개발업                      \r\n137101\t법무관련 서비스업                                \r\n137102\t회계 및 세무관련 서비스업                        \r\n137103\t광고업                                           \r\n137104\t시장조사 및 여론조사업                           \r\n137105\t회사본부, 지주회사 및 경영컨설팅 서비스업        \r\n137201\t건축기술, 엔지니어링 및 관련기술 서비스업        \r\n137209\t기타 과학기술 서비스업                           \r\n137301\t수의업                                           \r\n137302\t전문디자인업                                     \r\n137303\t사진 촬영 및 처리업                              \r\n137309\t그외 기타 전문, 과학 및 기술 서비스업            \r\n147401\t사업시설 유지관리 서비스업                       \r\n147402\t건물·산업설비 청소 및 방제 서비스업             \r\n147403\t조경 관리 및 유지 서비스업                       \r\n147501\t인력공급 및 고용알선업                           \r\n147502\t여행사 및 기타 여행보조 서비스업                 \r\n147503\t경비, 경호 및 탐정업                             \r\n147509\t기타 사업지원 서비스업                           \r\n158401\t입법 및 일반 정부 행정                           \r\n158402\t사회 및 산업정책 행정                            \r\n158403\t외무 및 국방 행정                                \r\n158404\t사법 및 공공질서 행정                            \r\n158405\t사회보장 행정                                    \r\n168501\t초등 교육기관                                    \r\n168502\t중등 교육기관                                    \r\n168503\t고등 교육기관                                    \r\n168504\t특수학교, 외국인학교 및 대안학교                 \r\n168505\t일반 교습 학원                                   \r\n168506\t기타 교육기관                                    \r\n168507\t교육지원 서비스업                                \r\n178601\t병원                                             \r\n178602\t의원                                             \r\n178603\t공중 보건 의료업                                 \r\n178609\t기타 보건업                                      \r\n178701\t거주 복지시설 운영업                             \r\n178702\t비거주 복지시설 운영업                           \r\n189001\t창작 및 예술관련 서비스업                        \r\n189002\t도서관, 사적지 및 유사 여가관련 서비스업         \r\n189101\t스포츠 서비스업                                  \r\n189102\t유원지 및 기타 오락관련 서비스업                 \r\n199401\t산업 및 전문가 단체                              \r\n199402\t노동조합                                         \r\n199409\t기타 협회 및 단체                                \r\n199501\t기계 및 장비 수리업                              \r\n199502\t자동차 및 모터사이클 수리업                      \r\n199503\t개인 및 가정용품 수리업                          \r\n199601\t미용, 욕탕 및 유사 서비스업                      \r\n199609\t그외 기타 개인 서비스업                          \r\n209701\t가구내 고용활동                                  \r\n209801\t자가 소비를 위한 가사 생산 활동                  \r\n209802\t자가 소비를 위한 가사 서비스 활동                \r\n219901\t국제 및 외국기관  ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "idx_bztp_lcls_cd_name",
+      "Column_2": "지수업종대분류코드명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " 표준산업대분류코드\r\n00\t해당사항없음                                                            \r\n01\t농업, 임업 및 어업                                                      \r\n02\t광업                                                                    \r\n03\t제조업                                                                  \r\n04\t전기, 가스, 증기 및 수도사업                                            \r\n05\t하수-폐기물 처리, 원료재생 및환경복원업                                 \r\n06\t건설업                                                                  \r\n07\t도매 및 소매업                                                          \r\n08\t운수업                                                                  \r\n09\t숙박 및 음식점업                                                        \r\n10\t출판, 영상, 방송통신 및 정보서비스업                                    \r\n11\t금융 및 보험업                                                          \r\n12\t부동산업 및 임대업                                                      \r\n13\t전문, 과학 및 기술 서비스업                                             \r\n14\t사업시설관리 및 사업지원서비스업                                        \r\n15\t공공행정, 국방 및 사회보장 행정                                         \r\n16\t교육 서비스업                                                           \r\n17\t보건업 및 사회복지 서비스업                                             \r\n18\t예술, 스포츠 및 여가관련 서비스업                                       \r\n19\t협회 및 단체, 수리 및 기타 개인 서비스업                                \r\n20\t가구내 고용활동 및 달리 분류되지 않은 자가소비생산활동                  \r\n21\t국제 및 외국기관 ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "idx_bztp_mcls_cd_name",
+      "Column_2": "지수업종중분류코드명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " 표준산업중분류코드                                                   \r\n0000\t해당사항없음                                                            \r\n0101\t농업                                                                    \r\n0102\t임업                                                                    \r\n0103\t어업                                                                    \r\n0205\t석탄, 원유 및 천연가스 광업                                             \r\n0206\t금속 광업                                                               \r\n0207\t비금속광물 광업; 연료용 제외                                            \r\n0208\t광업 지원 서비스업                                                      \r\n0310\t식료품 제조업                                                           \r\n0311\t음료 제조업                                                             \r\n0312\t담배 제조업                                                             \r\n0313\t섬유제품 제조업; 의복제외                                               \r\n0314\t의복, 의복액세서리 및 모피제품제조업                                    \r\n0315\t가죽, 가방 및 신발 제조업                                               \r\n0316\t목재 및 나무제품 제조업;가구제외                                        \r\n0317\t펄프, 종이 및 종이제품 제조업                                           \r\n0318\t인쇄 및 기록매체 복제업                                                 \r\n0319\t코크스, 연탄 및 석유정제품 제조업                                       \r\n0320\t화학물질 및 화학제품 제조업;의약품 제외                                 \r\n0321\t의료용 물질 및 의약품 제조업                                            \r\n0322\t고무제품 및 플라스틱제품 제조업                                         \r\n0323\t비금속 광물제품 제조업                                                  \r\n0324\t1차 금속 제조업                                                         \r\n0325\t금속가공제품 제조업;기계 및가구 제외                                    \r\n0326\t전자부품, 컴퓨터, 영상, 음향 및 통신장비 제조업                         \r\n0327\t의료, 정밀, 광학기기 및 시계 제조업                                     \r\n0328\t전기장비 제조업                                                         \r\n0329\t기타 기계 및 장비 제조업                                                \r\n0330\t자동차 및 트레일러 제조업                                               \r\n0331\t기타 운송장비 제조업                                                    \r\n0332\t가구 제조업                                                             \r\n0333\t기타 제품 제조업                                                        \r\n0435\t전기, 가스, 증기 및 공기조절 공급업                                     \r\n0436\t수도사업                                                                \r\n0537\t하수, 폐수 및 분뇨 처리업                                               \r\n0538\t폐기물 수집운반, 처리 및 원료재생업                                     \r\n0539\t환경 정화 및 복원업                                                     \r\n0641\t종합 건설업                                                             \r\n0642\t전문직별 공사업                                                         \r\n0745\t자동차 및 부품 판매업                                                   \r\n0746\t도매 및 상품중개업                                                      \r\n0747\t소매업; 자동차 제외                                                     \r\n0849\t육상운송 및 파이프라인 운송업                                           \r\n0850\t수상 운송업                                                             \r\n0851\t항공 운송업                                                             \r\n0852\t창고 및 운송관련 서비스업                                               \r\n0955\t숙박업                                                                  \r\n0956\t음식점 및 주점업                                                        \r\n1058\t출판업                                                                  \r\n1059\t영상·오디오 기록물 제작 및 배급업                                      \r\n1060\t방송업                                                                  \r\n1061\t통신업                                                                  \r\n1062\t컴퓨터 프로그래밍, 시스템 통합및 관리업                                 \r\n1063\t정보서비스업                                                            \r\n1164\t금융업                                                                  \r\n1165\t보험 및 연금업                                                          \r\n1166\t금융 및 보험 관련 서비스업                                              \r\n1268\t부동산업                                                                \r\n1269\t임대업;부동산 제외                                                      \r\n1370\t연구개발업                                                              \r\n1371\t전문서비스업                                                            \r\n1372\t건축기술, 엔지니어링 및 기타과학기술 서비스업                           \r\n1373\t기타 전문, 과학 및 기술 서비스업                                        \r\n1474\t사업시설 관리 및 조경 서비스업                                          \r\n1475\t사업지원 서비스업                                                       \r\n1584\t공공행정, 국방 및 사회보장 행정                                         \r\n1685\t교육 서비스업                                                           \r\n1786\t보건업                                                                  \r\n1787\t사회복지 서비스업                                                       \r\n1890\t창작, 예술 및 여가관련 서비스업                                         \r\n1891\t스포츠 및 오락관련 서비스업                                             \r\n1994\t협회 및 단체                                                            \r\n1995\t수리업                                                                  \r\n1996\t기타 개인 서비스업                                                      \r\n2097\t가구내 고용활동                                                         \r\n2098\t달리 분류되지 않은 자가소비를 위한가구의 재화 및 서비스 생산활동        \r\n2199\t국제 및 외국기관     ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "idx_bztp_scls_cd_name",
+      "Column_2": "지수업종소분류코드명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " 표준산업소분류코드 참조",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "ocr_no",
+      "Column_2": "OCR번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "crfd_item_yn",
+      "Column_2": "크라우드펀딩종목여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "elec_scty_yn",
+      "Column_2": "전자증권여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "issu_istt_cd",
+      "Column_2": "발행기관코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "etf_chas_erng_rt_dbnb",
+      "Column_2": "ETF추적수익율배수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "etf_etn_ivst_heed_item_yn",
+      "Column_2": "ETFETN투자유의종목여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "stln_int_rt_dvsn_cd",
+      "Column_2": "대주이자율구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "frnr_psnl_lmt_rt",
+      "Column_2": "외국인개인한도비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "24",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "lstg_rqsr_issu_istt_cd",
+      "Column_2": "상장신청인발행기관코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "lstg_rqsr_item_cd",
+      "Column_2": "상장신청인종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "trst_istt_issu_istt_cd",
+      "Column_2": "신탁기관발행기관코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "cptt_trad_tr_psbl_yn",
+      "Column_2": "NXT 거래종목여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "NXT 거래가능한 종목은 Y, 그 외 종목은 N",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": null,
+      "Column_1": "nxt_tr_stop_yn",
+      "Column_2": "NXT 거래정지여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "NXT 거래종목 중 거래정지가 된 종목은 Y, 그 외 모든 종목은 N",
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "Request Example (Python)",
+      "Column_1": "{\r\n\"PDNO\":\"000660\",\r\n\"PRDT_TYPE_CD\":\"300\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식기본조회": "Response Example",
+      "Column_1": "{\r\n    \"output\": {\r\n        \"pdno\": \"00000A000660\",\r\n        \"prdt_type_cd\": \"300\",\r\n        \"mket_id_cd\": \"STK\",\r\n        \"scty_grp_id_cd\": \"ST\",\r\n        \"excg_dvsn_cd\": \"02\",\r\n        \"setl_mmdd\": \"12\",\r\n        \"lstg_stqt\": \"728002365\",\r\n        \"lstg_cptl_amt\": \"0\",\r\n        \"cpta\": \"3657652050000\",\r\n        \"papr\": \"5000\",\r\n        \"issu_pric\": \"5000\",\r\n        \"kospi200_item_yn\": \"Y\",\r\n        \"scts_mket_lstg_dt\": \"19961226\",\r\n        \"scts_mket_lstg_abol_dt\": \"\",\r\n        \"kosdaq_mket_lstg_dt\": \"\",\r\n        \"kosdaq_mket_lstg_abol_dt\": \"\",\r\n        \"frbd_mket_lstg_dt\": \"19961226\",\r\n        \"frbd_mket_lstg_abol_dt\": \"\",\r\n        \"reits_kind_cd\": \"\",\r\n        \"etf_dvsn_cd\": \"0\",\r\n        \"oilf_fund_yn\": \"N\",\r\n        \"idx_bztp_lcls_cd\": \"002\",\r\n        \"idx_bztp_mcls_cd\": \"013\",\r\n        \"idx_bztp_scls_cd\": \"013\",\r\n        \"stck_kind_cd\": \"101\",\r\n        \"mfnd_opng_dt\": \"\",\r\n        \"mfnd_end_dt\": \"\",\r\n        \"dpsi_erlm_cncl_dt\": \"\",\r\n        \"etf_cu_qty\": \"0\",\r\n        \"prdt_name\": \"에스케이하이닉스보통주\",\r\n        \"prdt_name120\": \"에스케이하이닉스보통주\",\r\n        \"prdt_abrv_name\": \"SK하이닉스\",\r\n        \"std_pdno\": \"KR7000660001\",\r\n        \"prdt_eng_name\": \"SK hynix\",\r\n        \"prdt_eng_name120\": \"SK hynix\",\r\n        \"prdt_eng_abrv_name\": \"SK hynix\",\r\n        \"dpsi_aptm_erlm_yn\": \"Y\",\r\n        \"etf_txtn_type_cd\": \"00\",\r\n        \"etf_type_cd\": \"\",\r\n        \"lstg_abol_dt\": \"\",\r\n        \"nwst_odst_dvsn_cd\": \"1\",\r\n        \"sbst_pric\": \"115980\",\r\n        \"thco_sbst_pric\": \"115980\",\r\n        \"thco_sbst_pric_chng_dt\": \"20240215\",\r\n        \"tr_stop_yn\": \"N\",\r\n        \"admn_item_yn\": \"N\",\r\n        \"thdt_clpr\": \"146800\",\r\n        \"bfdy_clpr\": \"148700\",\r\n        \"clpr_chng_dt\": \"20240216\",\r\n        \"std_idst_clsf_cd\": \"032601\",\r\n        \"std_idst_clsf_cd_name\": \"반도체 제조업\",\r\n        \"idx_bztp_lcls_cd_name\": \"시가총액규모대\",\r\n        \"idx_bztp_mcls_cd_name\": \"전기,전자\",\r\n        \"idx_bztp_scls_cd_name\": \"전기,전자\",\r\n        \"ocr_no\": \"1147\",\r\n        \"crfd_item_yn\": \"N\",\r\n        \"elec_scty_yn\": \"Y\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0530\",\r\n    \"msg1\": \"조회되었습니다                                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

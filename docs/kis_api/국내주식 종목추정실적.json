@@ -1,0 +1,636 @@
+{
+  "sheet_name": "국내주식 종목추정실적",
+  "row_count": 62,
+  "columns": [
+    "국내주식 종목추정실적",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 종목추정실적": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "API 명",
+      "Column_1": "국내주식 종목추정실적",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "API ID",
+      "Column_1": "국내주식-187",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "실전 TR_ID",
+      "Column_1": "HHKST668300C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/estimate-perform",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "개요",
+      "Column_1": "국내주식 종목추정실적 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0613] 종목추정실적 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다. \r\n \r\n※ 본 화면의 추정실적 및 투자의견은 당월 초의 애널리스트의 의견사항이므로 월중 변동 사항이 있을 수 있음을 유의하시기 바랍니다.\r\n※ 종목별 수익추정은 리서치본부에서 매월 발표되는 거래소, 코스닥 160여개 기업에 한정합니다. 구체적인 종목 리스트는 추정종목리스트를 참고하기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHKST668300C0",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "Request Query Parameter",
+      "Column_1": "SHT_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "ex) 265520",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "sht_cd",
+      "Column_2": "ELW단축종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "item_kor_nm",
+      "Column_2": "HTS한글종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "name1",
+      "Column_2": "ELW현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "name2",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "estdate",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "rcmd_name",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "capital",
+      "Column_2": "누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "forn_item_lmtrt",
+      "Column_2": "행사가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "'(추정손익계산서-6개 array)\r\n  매출액, 매출액증감율,\r\n  영업이익, 영업이익증감율,\r\n  순이익, 순이익증감율,'",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data1",
+      "Column_2": "DATA1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data2",
+      "Column_2": "DATA2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data3",
+      "Column_2": "DATA3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data4",
+      "Column_2": "DATA4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data5",
+      "Column_2": "DATA5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "output3",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "'(투자지표-8개 array)\r\n  EBITDA(십억원), EPS(원), \r\n  EPS 증감율(0.1%),  PER(배, 0.1%), \r\n  EV/EBITDA(배, 0.1), ROE(0.1%),\r\n  부채비율(0.1%), 이자보상배율(0.1%)'",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data1",
+      "Column_2": "DATA1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data2",
+      "Column_2": "DATA2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data3",
+      "Column_2": "DATA3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data4",
+      "Column_2": "DATA4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "data5",
+      "Column_2": "DATA5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "15",
+      "Column_6": "결산연월(outblock4) 참조",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "output4",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": null,
+      "Column_1": "dt",
+      "Column_2": "결산년월",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "DATA1 ~5 결산월 정보",
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "Request Example (Python)",
+      "Column_1": "SHT_CD:005930",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 종목추정실적": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"sht_cd\": \"A005930\",\r\n        \"item_kor_nm\": \"삼성전자\",\r\n        \"name1\": \"김한국\",\r\n        \"name2\": \"\",\r\n        \"estdate\": \"20240109\",\r\n        \"rcmd_name\": \"매수\",\r\n        \"capital\": \"8975.0\",\r\n        \"forn_item_lmtrt\": \"0.00\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"data1\": \"2796048.0\",\r\n            \"data2\": \"3022314.0\",\r\n            \"data3\": \"2581509.0\",\r\n            \"data4\": \"3048945.0\",\r\n            \"data5\": \"3295675.0\"\r\n        },\r\n        {\r\n            \"data1\": \"181.0\",\r\n            \"data2\": \"81.0\",\r\n            \"data3\": \"-146.0\",\r\n            \"data4\": \"181.0\",\r\n            \"data5\": \"81.0\"\r\n        },\r\n        {\r\n            \"data1\": \"516339.0\",\r\n            \"data2\": \"433766.0\",\r\n            \"data3\": \"65405.0\",\r\n            \"data4\": \"330172.0\",\r\n            \"data5\": \"555410.0\"\r\n        },\r\n        {\r\n            \"data1\": \"435.0\",\r\n            \"data2\": \"-160.0\",\r\n            \"data3\": \"-849.0\",\r\n            \"data4\": \"4048.0\",\r\n            \"data5\": \"682.0\"\r\n        },\r\n        {\r\n            \"data1\": \"392438.0\",\r\n            \"data2\": \"547300.0\",\r\n            \"data3\": \"106144.0\",\r\n            \"data4\": \"253332.0\",\r\n            \"data5\": \"422055.0\"\r\n        },\r\n        {\r\n            \"data1\": \"504.0\",\r\n            \"data2\": \"395.0\",\r\n            \"data3\": \"-806.0\",\r\n            \"data4\": \"1387.0\",\r\n            \"data5\": \"666.0\"\r\n        }\r\n    ],\r\n    \"output3\": [\r\n        {\r\n            \"data1\": \"858812.0\",\r\n            \"data2\": \"824843.0\",\r\n            \"data3\": \"483199.0\",\r\n            \"data4\": \"792602.0\",\r\n            \"data5\": \"1043367.0\"\r\n        },\r\n        {\r\n            \"data1\": \"57770.0\",\r\n            \"data2\": \"80570.0\",\r\n            \"data3\": \"15609.0\",\r\n            \"data4\": \"36983.0\",\r\n            \"data5\": \"61483.0\"\r\n        },\r\n        {\r\n            \"data1\": \"504.0\",\r\n            \"data2\": \"395.0\",\r\n            \"data3\": \"-806.0\",\r\n            \"data4\": \"1369.0\",\r\n            \"data5\": \"662.0\"\r\n        },\r\n        {\r\n            \"data1\": \"136.0\",\r\n            \"data2\": \"69.0\",\r\n            \"data3\": \"503.0\",\r\n            \"data4\": \"207.0\",\r\n            \"data5\": \"124.0\"\r\n        },\r\n        {\r\n            \"data1\": \"50.0\",\r\n            \"data2\": \"34.0\",\r\n            \"data3\": \"95.0\",\r\n            \"data4\": \"53.0\",\r\n            \"data5\": \"39.0\"\r\n        },\r\n        {\r\n            \"data1\": \"139.0\",\r\n            \"data2\": \"171.0\",\r\n            \"data3\": \"31.0\",\r\n            \"data4\": \"70.0\",\r\n            \"data5\": \"109.0\"\r\n        },\r\n        {\r\n            \"data1\": \"399.0\",\r\n            \"data2\": \"264.0\",\r\n            \"data3\": \"255.0\",\r\n            \"data4\": \"226.0\",\r\n            \"data5\": \"163.0\"\r\n        },\r\n        {\r\n            \"data1\": \"1197.0\",\r\n            \"data2\": \"568.0\",\r\n            \"data3\": \"58.0\",\r\n            \"data4\": \"232.0\",\r\n            \"data5\": \"655.0\"\r\n        }\r\n    ],\r\n    \"output4\": [\r\n        {\r\n            \"dt\": \"2021.12\"\r\n        },\r\n        {\r\n            \"dt\": \"2022.12\"\r\n        },\r\n        {\r\n            \"dt\": \"2023.12E\"\r\n        },\r\n        {\r\n            \"dt\": \"2024.12E\"\r\n        },\r\n        {\r\n            \"dt\": \"2025.12E\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

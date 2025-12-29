@@ -1,0 +1,666 @@
+{
+  "sheet_name": "당사 해외주식담보대출 가능 종목",
+  "row_count": 65,
+  "columns": [
+    "당사 해외주식담보대출 가능 종목",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "당사 해외주식담보대출 가능 종목": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "메뉴 위치",
+      "Column_1": "[해외주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "API 명",
+      "Column_1": "당사 해외주식담보대출 가능 종목",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "API ID",
+      "Column_1": "해외주식-051",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "실전 TR_ID",
+      "Column_1": "CTLN4050R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "URL 명",
+      "Column_1": "/uapi/overseas-price/v1/quotations/colable-by-company",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "개요",
+      "Column_1": "당사 해외주식담보대출 가능 종목 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0497] 당사 해외주식담보대출 가능 종목 화면 의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n한 번의 호출에 20건까지 조회가 가능하며 다음조회가 불가하기에, PDNO에 데이터 확인하고자 하는 종목코드를 입력하여 단건조회용으로 사용하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTLN4050R",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "Request Query Parameter",
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "ex)AMD",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "PRDT_TYPE_CD",
+      "Column_2": "상품유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "INQR_STRT_DT",
+      "Column_2": "조회시작일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "INQR_END_DT",
+      "Column_2": "조회종료일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "INQR_DVSN",
+      "Column_2": "조회구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "NATN_CD",
+      "Column_2": "국가코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "840(미국), 344(홍콩), 156(중국)",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "INQR_SQN_DVSN",
+      "Column_2": "조회순서구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01(이름순), 02(코드순)",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "RT_DVSN_CD",
+      "Column_2": "비율구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "RT",
+      "Column_2": "비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "LOAN_PSBL_YN",
+      "Column_2": "대출가능여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "CTX_AREA_FK100",
+      "Column_2": "연속조회검색조건100",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "CTX_AREA_NK100",
+      "Column_2": "연속조회키100",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "100",
+      "Column_6": "공백",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "ovrs_item_name",
+      "Column_2": "해외종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "loan_rt",
+      "Column_2": "대출비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "mgge_mntn_rt",
+      "Column_2": "담보유지비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "mgge_ensu_rt",
+      "Column_2": "담보확보비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "238",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "loan_exec_psbl_yn",
+      "Column_2": "대출실행가능여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "stff_name",
+      "Column_2": "직원명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "erlm_dt",
+      "Column_2": "등록일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "tr_mket_name",
+      "Column_2": "거래시장명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "crcy_cd",
+      "Column_2": "통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "natn_kor_name",
+      "Column_2": "국가한글명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "ovrs_excg_cd",
+      "Column_2": "해외거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": null,
+      "Column_1": "loan_psbl_item_num",
+      "Column_2": "대출가능종목수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "Request Example (Python)",
+      "Column_1": "PDNO:AMD\r\nPRDT_TYPE_CD:\r\nINQR_STRT_DT:\r\nINQR_END_DT:\r\nINQR_DVSN:\r\nNATN_CD:840\r\nINQR_SQN_DVSN:02\r\nRT_DVSN_CD:\r\nRT:\r\nLOAN_PSBL_YN:\r\nCTX_AREA_FK100:\r\nCTX_AREA_NK100:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "당사 해외주식담보대출 가능 종목": "Response Example",
+      "Column_1": "{\r\n    \"ctx_area_fk100\": \"AMD!^!^!^!^!^840!^02                                                                                \",\r\n    \"ctx_area_nk100\": \"                                                                                                    \",\r\n    \"output1\": [\r\n        {\r\n            \"pdno\": \"AMD\",\r\n            \"ovrs_item_name\": \"AMD\",\r\n            \"loan_rt\": \"50.00000000\",\r\n            \"mgge_mntn_rt\": \"170.00000000\",\r\n            \"mgge_ensu_rt\": \"170.00000000\",\r\n            \"loan_exec_psbl_yn\": \"Y\",\r\n            \"stff_name\": \"109477.석재민\",\r\n            \"erlm_dt\": \"20221230\",\r\n            \"tr_mket_name\": \"나스닥\",\r\n            \"crcy_cd\": \"USD\",\r\n            \"natn_kor_name\": \"미국\",\r\n            \"ovrs_excg_cd\": \"NASD\"\r\n        }\r\n    ],\r\n    \"output2\": {\r\n        \"loan_psbl_item_num\": \"403\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0460\",\r\n    \"msg1\": \"조회 되었습니다. (마지막 자료)                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

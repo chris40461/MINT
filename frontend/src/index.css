@@ -1,0 +1,149 @@
+/* 참고: docs/frontend/01-setup.md */
+
+/* Pretendard 폰트 */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 전역 스타일 */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* 스크롤바 스타일 (Chrome, Safari) */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400;
+  }
+}
+
+/* 유틸리티 클래스 */
+@layer utilities {
+  /* 등락률 표시 */
+  .change-rate-up {
+    @apply text-red-500 font-semibold;
+  }
+
+  .change-rate-down {
+    @apply text-blue-500 font-semibold;
+  }
+
+  /* 카드 스타일 */
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-lg transition-shadow cursor-pointer;
+  }
+
+  /* 버튼 스타일 */
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors;
+  }
+
+  .btn-primary {
+    @apply btn bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .btn-secondary {
+    @apply btn bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+
+  /* 배지 스타일 */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-bullish {
+    @apply badge bg-red-100 text-red-600;
+  }
+
+  .badge-bearish {
+    @apply badge bg-blue-100 text-blue-600;
+  }
+
+  .badge-neutral {
+    @apply badge bg-gray-100 text-gray-600;
+  }
+
+  /* 로딩 스피너 */
+  .spinner {
+    @apply inline-block w-6 h-6 border-2 border-gray-300 border-t-blue-600 rounded-full animate-spin;
+  }
+
+  /* 테이블 스타일 */
+  .table-container {
+    @apply overflow-x-auto rounded-lg shadow;
+  }
+
+  .table {
+    @apply min-w-full divide-y divide-gray-200;
+  }
+
+  .table-header {
+    @apply bg-gray-50;
+  }
+
+  .table-row {
+    @apply hover:bg-gray-50 transition-colors;
+  }
+
+  .table-cell {
+    @apply px-6 py-4 text-sm;
+  }
+
+  /* 입력 필드 */
+  .input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
+}
+
+/* 애니메이션 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s ease-out;
+}

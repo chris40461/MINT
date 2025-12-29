@@ -1,0 +1,486 @@
+{
+  "sheet_name": "국내주식 안정성비율",
+  "row_count": 47,
+  "columns": [
+    "국내주식 안정성비율",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 안정성비율": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "API 명",
+      "Column_1": "국내주식 안정성비율",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "API ID",
+      "Column_1": "v1_국내주식-083",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "실전 TR_ID",
+      "Column_1": "FHKST66430600",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/finance/stability-ratio",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "개요",
+      "Column_1": "국내주식 안정성비율 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0635] 재무분석종합 화면의 하단 '5. 안정성비율' 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKST66430600",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "Request Query Parameter",
+      "Column_1": "fid_input_iscd",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "000660 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "fid_div_cls_code",
+      "Column_2": "분류 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0: 년, 1: 분기",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "J",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "stac_yymm",
+      "Column_2": "결산 년월",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "lblt_rate",
+      "Column_2": "부채 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "bram_depn",
+      "Column_2": "차입금 의존도",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "crnt_rate",
+      "Column_2": "유동 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": null,
+      "Column_1": "quck_rate",
+      "Column_2": "당좌 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_input_iscd\":\"005930\",\r\n\"fid_div_cls_code\":\"1\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 안정성비율": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stac_yymm\": \"202312\",\r\n            \"lblt_rate\": \"25.36\",\r\n            \"bram_depn\": \"2.78\",\r\n            \"crnt_rate\": \"258.77\",\r\n            \"quck_rate\": \"190.59\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202309\",\r\n            \"lblt_rate\": \"24.89\",\r\n            \"bram_depn\": \"2.21\",\r\n            \"crnt_rate\": \"280.39\",\r\n            \"quck_rate\": \"205.34\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202306\",\r\n            \"lblt_rate\": \"24.80\",\r\n            \"bram_depn\": \"2.04\",\r\n            \"crnt_rate\": \"288.18\",\r\n            \"quck_rate\": \"209.76\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202303\",\r\n            \"lblt_rate\": \"26.21\",\r\n            \"bram_depn\": \"2.19\",\r\n            \"crnt_rate\": \"281.95\",\r\n            \"quck_rate\": \"210.40\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202212\",\r\n            \"lblt_rate\": \"26.41\",\r\n            \"bram_depn\": \"2.30\",\r\n            \"crnt_rate\": \"278.86\",\r\n            \"quck_rate\": \"212.24\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202209\",\r\n            \"lblt_rate\": \"36.35\",\r\n            \"bram_depn\": \"2.65\",\r\n            \"crnt_rate\": \"294.17\",\r\n            \"quck_rate\": \"226.96\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202206\",\r\n            \"lblt_rate\": \"36.64\",\r\n            \"bram_depn\": \"3.89\",\r\n            \"crnt_rate\": \"283.45\",\r\n            \"quck_rate\": \"220.96\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202203\",\r\n            \"lblt_rate\": \"39.34\",\r\n            \"bram_depn\": \"4.11\",\r\n            \"crnt_rate\": \"256.86\",\r\n            \"quck_rate\": \"204.26\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202112\",\r\n            \"lblt_rate\": \"39.92\",\r\n            \"bram_depn\": \"4.31\",\r\n            \"crnt_rate\": \"247.58\",\r\n            \"quck_rate\": \"200.62\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202109\",\r\n            \"lblt_rate\": \"38.30\",\r\n            \"bram_depn\": \"4.65\",\r\n            \"crnt_rate\": \"259.91\",\r\n            \"quck_rate\": \"213.74\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202106\",\r\n            \"lblt_rate\": \"36.29\",\r\n            \"bram_depn\": \"4.35\",\r\n            \"crnt_rate\": \"263.75\",\r\n            \"quck_rate\": \"217.39\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202103\",\r\n            \"lblt_rate\": \"43.23\",\r\n            \"bram_depn\": \"5.08\",\r\n            \"crnt_rate\": \"232.11\",\r\n            \"quck_rate\": \"198.13\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202012\",\r\n            \"lblt_rate\": \"37.07\",\r\n            \"bram_depn\": \"5.35\",\r\n            \"crnt_rate\": \"262.17\",\r\n            \"quck_rate\": \"219.79\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202009\",\r\n            \"lblt_rate\": \"36.09\",\r\n            \"bram_depn\": \"5.22\",\r\n            \"crnt_rate\": \"278.77\",\r\n            \"quck_rate\": \"234.36\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202006\",\r\n            \"lblt_rate\": \"32.67\",\r\n            \"bram_depn\": \"4.66\",\r\n            \"crnt_rate\": \"300.88\",\r\n            \"quck_rate\": \"252.96\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"202003\",\r\n            \"lblt_rate\": \"34.19\",\r\n            \"bram_depn\": \"4.38\",\r\n            \"crnt_rate\": \"288.34\",\r\n            \"quck_rate\": \"244.41\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201912\",\r\n            \"lblt_rate\": \"34.12\",\r\n            \"bram_depn\": \"5.22\",\r\n            \"crnt_rate\": \"284.38\",\r\n            \"quck_rate\": \"242.41\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201909\",\r\n            \"lblt_rate\": \"34.14\",\r\n            \"bram_depn\": \"4.57\",\r\n            \"crnt_rate\": \"293.89\",\r\n            \"quck_rate\": \"245.06\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201906\",\r\n            \"lblt_rate\": \"33.05\",\r\n            \"bram_depn\": \"4.51\",\r\n            \"crnt_rate\": \"292.42\",\r\n            \"quck_rate\": \"239.74\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201903\",\r\n            \"lblt_rate\": \"36.27\",\r\n            \"bram_depn\": \"3.83\",\r\n            \"crnt_rate\": \"263.37\",\r\n            \"quck_rate\": \"216.66\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201812\",\r\n            \"lblt_rate\": \"36.97\",\r\n            \"bram_depn\": \"4.32\",\r\n            \"crnt_rate\": \"252.89\",\r\n            \"quck_rate\": \"210.93\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201809\",\r\n            \"lblt_rate\": \"39.28\",\r\n            \"bram_depn\": \"6.43\",\r\n            \"crnt_rate\": \"235.97\",\r\n            \"quck_rate\": \"198.16\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201806\",\r\n            \"lblt_rate\": \"36.70\",\r\n            \"bram_depn\": \"5.05\",\r\n            \"crnt_rate\": \"239.29\",\r\n            \"quck_rate\": \"197.58\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201803\",\r\n            \"lblt_rate\": \"39.96\",\r\n            \"bram_depn\": \"4.12\",\r\n            \"crnt_rate\": \"226.86\",\r\n            \"quck_rate\": \"188.10\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201712\",\r\n            \"lblt_rate\": \"40.68\",\r\n            \"bram_depn\": \"6.23\",\r\n            \"crnt_rate\": \"218.80\",\r\n            \"quck_rate\": \"181.61\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201709\",\r\n            \"lblt_rate\": \"40.76\",\r\n            \"bram_depn\": \"6.26\",\r\n            \"crnt_rate\": \"219.61\",\r\n            \"quck_rate\": \"178.76\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201706\",\r\n            \"lblt_rate\": \"38.31\",\r\n            \"bram_depn\": \"6.02\",\r\n            \"crnt_rate\": \"226.06\",\r\n            \"quck_rate\": \"186.68\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201703\",\r\n            \"lblt_rate\": \"39.20\",\r\n            \"bram_depn\": \"5.01\",\r\n            \"crnt_rate\": \"227.44\",\r\n            \"quck_rate\": \"188.99\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201612\",\r\n            \"lblt_rate\": \"35.87\",\r\n            \"bram_depn\": \"5.83\",\r\n            \"crnt_rate\": \"258.54\",\r\n            \"quck_rate\": \"224.99\"\r\n        },\r\n        {\r\n            \"stac_yymm\": \"201609\",\r\n            \"lblt_rate\": \"36.17\",\r\n            \"bram_depn\": \"5.30\",\r\n            \"crnt_rate\": \"261.93\",\r\n            \"quck_rate\": \"225.50\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

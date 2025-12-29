@@ -1,0 +1,346 @@
+{
+  "sheet_name": "국내ETF NAV추이",
+  "row_count": 33,
+  "columns": [
+    "국내ETF NAV추이",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내ETF NAV추이": "API 통신방식",
+      "Column_1": "WEBSOCKET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "메뉴 위치",
+      "Column_1": "[국내주식] 실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "API 명",
+      "Column_1": "국내ETF NAV추이",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "API ID",
+      "Column_1": "실시간-051",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "실전 TR_ID",
+      "Column_1": "H0STNAV0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "URL 명",
+      "Column_1": "/tryitout/H0STNAV0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "개요",
+      "Column_1": "[참고자료]\r\n실시간시세(웹소켓) 파이썬 샘플코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/blob/main/websocket/python/ws_domestic_overseas_all.py\r\n\r\n실시간시세(웹소켓) API 사용방법에 대한 자세한 설명은 한국투자증권 Wikidocs 참고 부탁드립니다.\r\nhttps://wikidocs.net/book/7847 (국내주식 업데이트 완료, 추후 해외주식·국내선물옵션 업데이트 예정)\r\n\r\n종목코드 마스터파일 파이썬 정제코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/tree/main/stocks_info",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 / P : 개인",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "tr_type",
+      "Column_2": "등록/해제",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "1: 등록, 2:해제",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "utf-8",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "H0STNAV0",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "tr_key",
+      "Column_2": "구분값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드 (ex. 005930 삼성전자)",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "Response Body",
+      "Column_1": "MKSC_SHRN_ISCD",
+      "Column_2": "유가증권단축종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "NAV",
+      "Column_2": "NAV",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "NAV_PRDY_VRSS_SIGN",
+      "Column_2": "NAV전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "NAV_PRDY_VRSS",
+      "Column_2": "NAV전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "NAV_PRDY_CTRT",
+      "Column_2": "NAV전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "OPRC_NAV",
+      "Column_2": "NAV시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "HPRC_NAV",
+      "Column_2": "NAV고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": null,
+      "Column_1": "LPRC_NAV",
+      "Column_2": "NAV저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "Request Example (Python)",
+      "Column_1": "{\r\n         \"header\":\r\n         {\r\n                  \"approval_key\": \"35xxxxxa-bxxa-4xxb-87xxx-f56xxxxxxxxxx\",\r\n                  \"custtype\":\"P\",\r\n                  \"tr_type\":\"1\",\r\n                  \"content-type\":\"utf-8\"\r\n         },\r\n         \"body\":\r\n         {\r\n                  \"input\":\r\n                  {\r\n                           \"tr_id\":\"H0STNAV0\",\r\n                           \"tr_key\":\"069500\"\r\n                  }\r\n         }\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내ETF NAV추이": "Response Example",
+      "Column_1": "# 연결 확인\r\n{\r\n    \"header\": {\r\n        \"tr_id\": \"H0STNAV0\", \r\n        \"tr_key\": \"069500\", \r\n        \"encrypt\": \"N\"\r\n        }, \r\n    \"body\": {\r\n        \"rt_cd\": \"0\", \r\n        \"msg_cd\": \"OPSP0000\",\r\n        \"msg1\": \"SUBSCRIBE SUCCESS\", \r\n        \"output\": {\r\n            \"iv\": \"0123456789abcdef\", \r\n            \"key\": \"abcdefghijklmnopabcdefghijklmnop\"}\r\n        }\r\n}\r\n\r\n# output\r\n0|H0STNAV0|001|069500^37235.46^5^-381.26^-1.01^37646.25^37646.25^37202.10",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

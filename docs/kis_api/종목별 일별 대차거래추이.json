@@ -1,0 +1,566 @@
+{
+  "sheet_name": "종목별 일별 대차거래추이",
+  "row_count": 55,
+  "columns": [
+    "종목별 일별 대차거래추이",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "종목별 일별 대차거래추이": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "메뉴 위치",
+      "Column_1": "[국내주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "API 명",
+      "Column_1": "종목별 일별 대차거래추이",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "API ID",
+      "Column_1": "국내주식-135",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "실전 TR_ID",
+      "Column_1": "HHPST074500C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/daily-loan-trans",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "개요",
+      "Column_1": "종목별 일별 대차거래추이 API입니다.\r\n한 번의 조회에 최대 100건까지 조회 가능하며, start_date, end_date 를 수정하여 다음 조회가 가능합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHPST074500C0",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "Request Query Parameter",
+      "Column_1": "MRKT_DIV_CLS_CODE",
+      "Column_2": "조회구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "1(코스피), 2(코스닥), 3(종목)",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "MKSC_SHRN_ISCD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "종목코드",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "START_DATE",
+      "Column_2": "조회시작일시",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "조회기간 ~",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "END_DATE",
+      "Column_2": "조회종료일시",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 조회기간",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "CTS",
+      "Column_2": "이전조회KEY",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "bsop_date",
+      "Column_2": "일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식 종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "new_stcn",
+      "Column_2": "당일 증가 주수 (체결)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "rdmp_stcn",
+      "Column_2": "당일 감소 주수 (상환)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "prdy_rmnd_vrss",
+      "Column_2": "대차거래 증감",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "rmnd_stcn",
+      "Column_2": "당일 잔고 주수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": null,
+      "Column_1": "rmnd_amt",
+      "Column_2": "당일 잔고 금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "Request Example (Python)",
+      "Column_1": "mrkt_div_cls_code:1\r\nmksc_shrn_iscd:005930\r\nstart_date:20240401\r\nend_date:20240430\r\ncts:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "종목별 일별 대차거래추이": "Response Example",
+      "Column_1": "{\r\n    \"output2\": [\r\n        {\r\n            \"bsop_date\": \"20240430\",\r\n            \"stck_prpr\": \"2692.06\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"4.62\",\r\n            \"prdy_ctrt\": \"0.17\",\r\n            \"acml_vol\": \"460083500\",\r\n            \"new_stcn\": \"14379227\",\r\n            \"rdmp_stcn\": \"13993603\",\r\n            \"prdy_rmnd_vrss\": \"385624\",\r\n            \"rmnd_stcn\": \"947521840\",\r\n            \"rmnd_amt\": \"47504735\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240429\",\r\n            \"stck_prpr\": \"2687.44\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"31.11\",\r\n            \"prdy_ctrt\": \"1.17\",\r\n            \"acml_vol\": \"470546000\",\r\n            \"new_stcn\": \"6028334\",\r\n            \"rdmp_stcn\": \"13437664\",\r\n            \"prdy_rmnd_vrss\": \"-7409330\",\r\n            \"rmnd_stcn\": \"947136216\",\r\n            \"rmnd_amt\": \"47367356\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240426\",\r\n            \"stck_prpr\": \"2656.33\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"27.71\",\r\n            \"prdy_ctrt\": \"1.05\",\r\n            \"acml_vol\": \"450520700\",\r\n            \"new_stcn\": \"14406990\",\r\n            \"rdmp_stcn\": \"12079739\",\r\n            \"prdy_rmnd_vrss\": \"2327251\",\r\n            \"rmnd_stcn\": \"954545546\",\r\n            \"rmnd_amt\": \"46874865\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240425\",\r\n            \"stck_prpr\": \"2628.62\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-47.13\",\r\n            \"prdy_ctrt\": \"-1.76\",\r\n            \"acml_vol\": \"334062400\",\r\n            \"new_stcn\": \"4765719\",\r\n            \"rdmp_stcn\": \"13112635\",\r\n            \"prdy_rmnd_vrss\": \"-8346916\",\r\n            \"rmnd_stcn\": \"952231269\",\r\n            \"rmnd_amt\": \"46089010\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240424\",\r\n            \"stck_prpr\": \"2675.75\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"52.73\",\r\n            \"prdy_ctrt\": \"2.01\",\r\n            \"acml_vol\": \"325739600\",\r\n            \"new_stcn\": \"19649840\",\r\n            \"rdmp_stcn\": \"8993910\",\r\n            \"prdy_rmnd_vrss\": \"10655930\",\r\n            \"rmnd_stcn\": \"960577194\",\r\n            \"rmnd_amt\": \"47488544\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240423\",\r\n            \"stck_prpr\": \"2623.02\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-6.42\",\r\n            \"prdy_ctrt\": \"-0.24\",\r\n            \"acml_vol\": \"430275800\",\r\n            \"new_stcn\": \"7802761\",\r\n            \"rdmp_stcn\": \"7414164\",\r\n            \"prdy_rmnd_vrss\": \"388597\",\r\n            \"rmnd_stcn\": \"949921264\",\r\n            \"rmnd_amt\": \"46108475\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240422\",\r\n            \"stck_prpr\": \"2629.44\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"37.58\",\r\n            \"prdy_ctrt\": \"1.45\",\r\n            \"acml_vol\": \"401892200\",\r\n            \"new_stcn\": \"10841550\",\r\n            \"rdmp_stcn\": \"18150018\",\r\n            \"prdy_rmnd_vrss\": \"-7308468\",\r\n            \"rmnd_stcn\": \"949532667\",\r\n            \"rmnd_amt\": \"46211861\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240419\",\r\n            \"stck_prpr\": \"2591.86\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-42.84\",\r\n            \"prdy_ctrt\": \"-1.63\",\r\n            \"acml_vol\": \"809473400\",\r\n            \"new_stcn\": \"8657583\",\r\n            \"rdmp_stcn\": \"12304586\",\r\n            \"prdy_rmnd_vrss\": \"-3647003\",\r\n            \"rmnd_stcn\": \"956841135\",\r\n            \"rmnd_amt\": \"45225405\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240418\",\r\n            \"stck_prpr\": \"2634.70\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"50.52\",\r\n            \"prdy_ctrt\": \"1.95\",\r\n            \"acml_vol\": \"478786200\",\r\n            \"new_stcn\": \"13218317\",\r\n            \"rdmp_stcn\": \"16631496\",\r\n            \"prdy_rmnd_vrss\": \"-3413179\",\r\n            \"rmnd_stcn\": \"960488138\",\r\n            \"rmnd_amt\": \"46007513\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240417\",\r\n            \"stck_prpr\": \"2584.18\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-25.45\",\r\n            \"prdy_ctrt\": \"-0.98\",\r\n            \"acml_vol\": \"414348100\",\r\n            \"new_stcn\": \"13838612\",\r\n            \"rdmp_stcn\": \"9001120\",\r\n            \"prdy_rmnd_vrss\": \"4837492\",\r\n            \"rmnd_stcn\": \"963901317\",\r\n            \"rmnd_amt\": \"45199389\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240416\",\r\n            \"stck_prpr\": \"2609.63\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-60.80\",\r\n            \"prdy_ctrt\": \"-2.28\",\r\n            \"acml_vol\": \"570212100\",\r\n            \"new_stcn\": \"8029982\",\r\n            \"rdmp_stcn\": \"9662633\",\r\n            \"prdy_rmnd_vrss\": \"-1632651\",\r\n            \"rmnd_stcn\": \"959063825\",\r\n            \"rmnd_amt\": \"45461648\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240415\",\r\n            \"stck_prpr\": \"2670.43\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-11.39\",\r\n            \"prdy_ctrt\": \"-0.42\",\r\n            \"acml_vol\": \"561950000\",\r\n            \"new_stcn\": \"13418896\",\r\n            \"rdmp_stcn\": \"9863897\",\r\n            \"prdy_rmnd_vrss\": \"3554999\",\r\n            \"rmnd_stcn\": \"960696476\",\r\n            \"rmnd_amt\": \"46397052\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240412\",\r\n            \"stck_prpr\": \"2681.82\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-25.14\",\r\n            \"prdy_ctrt\": \"-0.93\",\r\n            \"acml_vol\": \"514575300\",\r\n            \"new_stcn\": \"16291814\",\r\n            \"rdmp_stcn\": \"6220088\",\r\n            \"prdy_rmnd_vrss\": \"10071726\",\r\n            \"rmnd_stcn\": \"957141477\",\r\n            \"rmnd_amt\": \"46559127\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240411\",\r\n            \"stck_prpr\": \"2706.96\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1.80\",\r\n            \"prdy_ctrt\": \"0.07\",\r\n            \"acml_vol\": \"561333400\",\r\n            \"new_stcn\": \"14878420\",\r\n            \"rdmp_stcn\": \"10305585\",\r\n            \"prdy_rmnd_vrss\": \"4572835\",\r\n            \"rmnd_stcn\": \"947069751\",\r\n            \"rmnd_amt\": \"46395176\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240409\",\r\n            \"stck_prpr\": \"2705.16\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-12.49\",\r\n            \"prdy_ctrt\": \"-0.46\",\r\n            \"acml_vol\": \"470183700\",\r\n            \"new_stcn\": \"10784436\",\r\n            \"rdmp_stcn\": \"6933242\",\r\n            \"prdy_rmnd_vrss\": \"3851194\",\r\n            \"rmnd_stcn\": \"942496916\",\r\n            \"rmnd_amt\": \"46082940\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240408\",\r\n            \"stck_prpr\": \"2717.65\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"3.44\",\r\n            \"prdy_ctrt\": \"0.13\",\r\n            \"acml_vol\": \"620652500\",\r\n            \"new_stcn\": \"16939713\",\r\n            \"rdmp_stcn\": \"12571632\",\r\n            \"prdy_rmnd_vrss\": \"4368081\",\r\n            \"rmnd_stcn\": \"938645722\",\r\n            \"rmnd_amt\": \"46069590\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240405\",\r\n            \"stck_prpr\": \"2714.21\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-27.79\",\r\n            \"prdy_ctrt\": \"-1.01\",\r\n            \"acml_vol\": \"621030600\",\r\n            \"new_stcn\": \"5614441\",\r\n            \"rdmp_stcn\": \"11701229\",\r\n            \"prdy_rmnd_vrss\": \"-6086788\",\r\n            \"rmnd_stcn\": \"934277641\",\r\n            \"rmnd_amt\": \"45207497\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240404\",\r\n            \"stck_prpr\": \"2742.00\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"35.03\",\r\n            \"prdy_ctrt\": \"1.29\",\r\n            \"acml_vol\": \"477952800\",\r\n            \"new_stcn\": \"12221690\",\r\n            \"rdmp_stcn\": \"5093795\",\r\n            \"prdy_rmnd_vrss\": \"7127895\",\r\n            \"rmnd_stcn\": \"940364429\",\r\n            \"rmnd_amt\": \"45926211\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240403\",\r\n            \"stck_prpr\": \"2706.97\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-46.19\",\r\n            \"prdy_ctrt\": \"-1.68\",\r\n            \"acml_vol\": \"640806300\",\r\n            \"new_stcn\": \"14817975\",\r\n            \"rdmp_stcn\": \"15348355\",\r\n            \"prdy_rmnd_vrss\": \"-530380\",\r\n            \"rmnd_stcn\": \"933236534\",\r\n            \"rmnd_amt\": \"44837956\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240402\",\r\n            \"stck_prpr\": \"2753.16\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"5.30\",\r\n            \"prdy_ctrt\": \"0.19\",\r\n            \"acml_vol\": \"630392900\",\r\n            \"new_stcn\": \"12689747\",\r\n            \"rdmp_stcn\": \"9723610\",\r\n            \"prdy_rmnd_vrss\": \"2966137\",\r\n            \"rmnd_stcn\": \"933766914\",\r\n            \"rmnd_amt\": \"45180305\"\r\n        },\r\n        {\r\n            \"bsop_date\": \"20240401\",\r\n            \"stck_prpr\": \"2747.86\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"1.23\",\r\n            \"prdy_ctrt\": \"0.04\",\r\n            \"acml_vol\": \"397600500\",\r\n            \"new_stcn\": \"8654205\",\r\n            \"rdmp_stcn\": \"9951822\",\r\n            \"prdy_rmnd_vrss\": \"-1297617\",\r\n            \"rmnd_stcn\": \"930800777\",\r\n            \"rmnd_amt\": \"45158153\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

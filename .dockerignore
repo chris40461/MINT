@@ -1,0 +1,50 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Node.js (프론트엔드)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Temporary files
+*.tmp
+.cache/
+
+# Docker (빌드에 포함 안함)
+docker-compose.yml
+README-DOCKER.md
+
+# Environment
+# .env는 각 Dockerfile에서 선택적으로 COPY

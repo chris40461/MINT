@@ -1,0 +1,916 @@
+{
+  "sheet_name": "국내주식 실시간호가 (통합)",
+  "row_count": 90,
+  "columns": [
+    "국내주식 실시간호가 (통합)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 실시간호가 (통합)": "API 통신방식",
+      "Column_1": "WEBSOCKET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "메뉴 위치",
+      "Column_1": "[국내주식] 실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "API 명",
+      "Column_1": "국내주식 실시간호가 (통합)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "API ID",
+      "Column_1": "국내주식 실시간호가 (통합)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "실전 TR_ID",
+      "Column_1": "H0UNASP0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "URL 명",
+      "Column_1": "/tryitout/H0UNASP0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "개요",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "286",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "'B : 법인\r\nP : 개인'",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "tr_type",
+      "Column_2": "거래타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "'1 : 등록\r\n2 : 해제'",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "'\tutf-8'",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "H0UNASP0 : 실시간 주식 체결가 통합",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "tr_key",
+      "Column_2": "구분값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드 (ex 005930 삼성전자)",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "Response Body",
+      "Column_1": "MKSC_SHRN_ISCD",
+      "Column_2": "유가증권 단축 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BSOP_HOUR",
+      "Column_2": "영업 시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "HOUR_CLS_CODE",
+      "Column_2": "시간 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP1",
+      "Column_2": "매도호가1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP2",
+      "Column_2": "매도호가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP3",
+      "Column_2": "매도호가3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP4",
+      "Column_2": "매도호가4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP5",
+      "Column_2": "매도호가5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP6",
+      "Column_2": "매도호가6",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP7",
+      "Column_2": "매도호가7",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP8",
+      "Column_2": "매도호가8",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP9",
+      "Column_2": "매도호가9",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP10",
+      "Column_2": "매도호가10",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP1",
+      "Column_2": "매수호가1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP2",
+      "Column_2": "매수호가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP3",
+      "Column_2": "매수호가3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP4",
+      "Column_2": "매수호가4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP5",
+      "Column_2": "매수호가5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP6",
+      "Column_2": "매수호가6",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP7",
+      "Column_2": "매수호가7",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP8",
+      "Column_2": "매수호가8",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP9",
+      "Column_2": "매수호가9",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP10",
+      "Column_2": "매수호가10",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN1",
+      "Column_2": "매도호가 잔량1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN2",
+      "Column_2": "매도호가 잔량2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN3",
+      "Column_2": "매도호가 잔량3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN4",
+      "Column_2": "매도호가 잔량4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN5",
+      "Column_2": "매도호가 잔량5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN6",
+      "Column_2": "매도호가 잔량6",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN7",
+      "Column_2": "매도호가 잔량7",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN8",
+      "Column_2": "매도호가 잔량8",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN9",
+      "Column_2": "매도호가 잔량9",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ASKP_RSQN10",
+      "Column_2": "매도호가 잔량10",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN1",
+      "Column_2": "매수호가 잔량1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN2",
+      "Column_2": "매수호가 잔량2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN3",
+      "Column_2": "매수호가 잔량3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN4",
+      "Column_2": "매수호가 잔량4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN5",
+      "Column_2": "매수호가 잔량5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN6",
+      "Column_2": "매수호가 잔량6",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN7",
+      "Column_2": "매수호가 잔량7",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN8",
+      "Column_2": "매수호가 잔량8",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN9",
+      "Column_2": "매수호가 잔량9",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "BIDP_RSQN10",
+      "Column_2": "매수호가 잔량10",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "TOTAL_ASKP_RSQN",
+      "Column_2": "총 매도호가 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "TOTAL_BIDP_RSQN",
+      "Column_2": "총 매수호가 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "OVTM_TOTAL_ASKP_RSQN",
+      "Column_2": "시간외 총 매도호가 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "OVTM_TOTAL_BIDP_RSQN",
+      "Column_2": "시간외 총 매수호가 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ANTC_CNPR",
+      "Column_2": "예상 체결가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ANTC_CNQN",
+      "Column_2": "예상 체결량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ANTC_VOL",
+      "Column_2": "예상 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ANTC_CNTG_VRSS",
+      "Column_2": "예상 체결 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ANTC_CNTG_VRSS_SIGN",
+      "Column_2": "예상 체결 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ANTC_CNTG_PRDY_CTRT",
+      "Column_2": "예상 체결 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "ACML_VOL",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "TOTAL_ASKP_RSQN_ICDC",
+      "Column_2": "총 매도호가 잔량 증감",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "TOTAL_BIDP_RSQN_ICDC",
+      "Column_2": "총 매수호가 잔량 증감",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "OVTM_TOTAL_ASKP_ICDC",
+      "Column_2": "시간외 총 매도호가 증감",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "OVTM_TOTAL_BIDP_ICDC",
+      "Column_2": "시간외 총 매수호가 증감",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "STCK_DEAL_CLS_CODE",
+      "Column_2": "주식 매매 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "KMID_PRC",
+      "Column_2": "KRX 중간가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "KMID_TOTAL_RSQN",
+      "Column_2": "KRX 중간가잔량합계수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "KMID_CLS_CODE",
+      "Column_2": "KRX 중간가 매수매도 구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "NMID_PRC",
+      "Column_2": "NXT 중간가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "NMID_TOTAL_RSQN",
+      "Column_2": "NXT 중간가잔량합계수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": null,
+      "Column_1": "NMID_CLS_CODE",
+      "Column_2": "NXT 중간가 매수매도 구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "Request Example (Python)",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간호가 (통합)": "Response Example",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

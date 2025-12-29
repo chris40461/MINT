@@ -1,0 +1,1296 @@
+{
+  "sheet_name": "관심종목(멀티종목) 시세조회",
+  "row_count": 128,
+  "columns": [
+    "관심종목(멀티종목) 시세조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "관심종목(멀티종목) 시세조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "메뉴 위치",
+      "Column_1": "[국내주식] 시세분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "API 명",
+      "Column_1": "관심종목(멀티종목) 시세조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "API ID",
+      "Column_1": "국내주식-205",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "실전 TR_ID",
+      "Column_1": "FHKST11300006",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/intstock-multprice",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "개요",
+      "Column_1": "관심종목(멀티종목) 시세조회 API입니다.\r\n① 관심종목 그룹조회 → ② 관심종목 그룹별 종목조회 → ③ 관심종목(멀티종목) 시세조회 순서대로 호출하셔서 관심종목 시세 조회 가능합니다.\r\n\r\n※ 한 번의 호출에 최대 30종목의 시세 확인 가능합니다.\r\n그룹별종목조회 결과를 아래와 같이 입력하셔서 총 30종목까지 복수종목 조회 가능합니다.(아래 Example 참고)\r\n. fid_mrkt_cls_code(시장구분) → FID_COND_MRKT_DIV_CODE_1\r\n. jong_code(종목코드) 1 → FID_INPUT_ISCD_1\r\n...\r\n\r\n한국투자증권 Github 에서 관심종목 복수시세조회 파이썬 샘플코드를 참고하실 수 있습니다.\r\nhttps://github.com/koreainvestment/open-trading-api/blob/main/rest/get_interest_stocks_price.py",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKST11300006",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE_1",
+      "Column_2": "조건 시장 분류 코드1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "그룹별종목조회 결과 fid_mrkt_cls_code(시장구분) 1 입력\r\nJ: KRX, NX: NXT, UN: 통합\r\nex) J\r\n",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_1",
+      "Column_2": "입력 종목코드1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "그룹별종목조회 결과 jong_code(종목코드) 1 입력\r\nex) 005930",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_2",
+      "Column_2": "조건 시장 분류 코드2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_2",
+      "Column_2": "입력 종목코드2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_3",
+      "Column_2": "조건 시장 분류 코드3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_3",
+      "Column_2": "입력 종목코드3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_4",
+      "Column_2": "조건 시장 분류 코드4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_4",
+      "Column_2": "입력 종목코드4",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_5",
+      "Column_2": "조건 시장 분류 코드5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_5",
+      "Column_2": "입력 종목코드5",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_6",
+      "Column_2": "조건 시장 분류 코드6",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_6",
+      "Column_2": "입력 종목코드6",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_7",
+      "Column_2": "조건 시장 분류 코드7",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_7",
+      "Column_2": "입력 종목코드7",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_8",
+      "Column_2": "조건 시장 분류 코드8",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_8",
+      "Column_2": "입력 종목코드8",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_9",
+      "Column_2": "조건 시장 분류 코드9",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_9",
+      "Column_2": "입력 종목코드9",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_10",
+      "Column_2": "조건 시장 분류 코드10",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_10",
+      "Column_2": "입력 종목코드10",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_11",
+      "Column_2": "조건 시장 분류 코드11",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_11",
+      "Column_2": "입력 종목코드11",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_12",
+      "Column_2": "조건 시장 분류 코드12",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_12",
+      "Column_2": "입력 종목코드12",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_13",
+      "Column_2": "조건 시장 분류 코드13",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_13",
+      "Column_2": "입력 종목코드13",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_14",
+      "Column_2": "조건 시장 분류 코드14",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_14",
+      "Column_2": "입력 종목코드14",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_15",
+      "Column_2": "조건 시장 분류 코드15",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_15",
+      "Column_2": "입력 종목코드15",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_16",
+      "Column_2": "조건 시장 분류 코드16",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_16",
+      "Column_2": "입력 종목코드16",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_17",
+      "Column_2": "조건 시장 분류 코드17",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_17",
+      "Column_2": "입력 종목코드17",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_18",
+      "Column_2": "조건 시장 분류 코드18",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_18",
+      "Column_2": " 입력 종목코드18",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_19",
+      "Column_2": "조건 시장 분류 코드19",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_19",
+      "Column_2": "입력 종목코드19",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_20",
+      "Column_2": "조건 시장 분류 코드20",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_20",
+      "Column_2": "입력 종목코드20",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_21",
+      "Column_2": "조건 시장 분류 코드21",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_21",
+      "Column_2": "입력 종목코드21",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_22",
+      "Column_2": "조건 시장 분류 코드22",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_22",
+      "Column_2": "입력 종목코드22",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_23",
+      "Column_2": "조건 시장 분류 코드23",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_23",
+      "Column_2": "입력 종목코드23",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_24",
+      "Column_2": "조건 시장 분류 코드24",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_24",
+      "Column_2": "입력 종목코드24",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_25",
+      "Column_2": "조건 시장 분류 코드25",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_25",
+      "Column_2": "입력 종목코드25",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_26",
+      "Column_2": "조건 시장 분류 코드26",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_26",
+      "Column_2": "입력 종목코드26",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_27",
+      "Column_2": "조건 시장 분류 코드27",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_27",
+      "Column_2": "입력 종목코드27",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_28",
+      "Column_2": "조건 시장 분류 코드28",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_28",
+      "Column_2": "입력 종목코드28",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_29",
+      "Column_2": "조건 시장 분류 코드29",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_29",
+      "Column_2": "입력 종목코드29",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_COND_MRKT_DIV_CODE_30",
+      "Column_2": "조건 시장 분류 코드30",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "FID_INPUT_ISCD_30",
+      "Column_2": "입력 종목코드30",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "kospi_kosdaq_cls_name",
+      "Column_2": "코스피 코스닥 구분 명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "mrkt_trtm_cls_name",
+      "Column_2": "시장 조치 구분 명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "hour_cls_code",
+      "Column_2": "시간 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter_shrn_iscd",
+      "Column_2": "관심 단축 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "16",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter_kor_isnm",
+      "Column_2": "관심 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_prpr",
+      "Column_2": "관심2 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_prdy_vrss",
+      "Column_2": "관심2 전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_oprc",
+      "Column_2": "관심2 시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_hgpr",
+      "Column_2": "관심2 고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_lwpr",
+      "Column_2": "관심2 저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_llam",
+      "Column_2": "관심2 하한가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_mxpr",
+      "Column_2": "관심2 상한가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_askp",
+      "Column_2": "관심2 매도호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_bidp",
+      "Column_2": "관심2 매수호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "seln_rsqn",
+      "Column_2": "매도 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "shnu_rsqn",
+      "Column_2": "매수2 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "total_askp_rsqn",
+      "Column_2": "총 매도호가 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "total_bidp_rsqn",
+      "Column_2": "총 매수호가 잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "acml_tr_pbmn",
+      "Column_2": "누적 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_prdy_clpr",
+      "Column_2": "관심2 전일 종가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "oprc_vrss_hgpr_rate",
+      "Column_2": "시가 대비 최고가 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "intr_antc_cntg_vrss",
+      "Column_2": "관심 예상 체결 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "intr_antc_cntg_vrss_sign",
+      "Column_2": "관심 예상 체결 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "intr_antc_cntg_prdy_ctrt",
+      "Column_2": "관심 예상 체결 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "72",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "intr_antc_vol",
+      "Column_2": "관심 예상 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": null,
+      "Column_1": "inter2_sdpr",
+      "Column_2": "관심2 기준가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "11",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE_1:J\r\nFID_INPUT_ISCD_1:005930\r\nFID_COND_MRKT_DIV_CODE_2:J\r\nFID_INPUT_ISCD_2:000660\r\nFID_COND_MRKT_DIV_CODE_3:U\r\nFID_INPUT_ISCD_3:0001",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "관심종목(멀티종목) 시세조회": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"kospi_kosdaq_cls_name\": \"거래소\",\r\n            \"mrkt_trtm_cls_name\": \"거래소\",\r\n            \"hour_cls_code\": \"0\",\r\n            \"inter_shrn_iscd\": \"005930\",\r\n            \"inter_kor_isnm\": \"삼성전자\",\r\n            \"inter2_prpr\": \"77400\",\r\n            \"inter2_prdy_vrss\": \"-800\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.02\",\r\n            \"acml_vol\": \"15713440\",\r\n            \"inter2_oprc\": \"78600\",\r\n            \"inter2_hgpr\": \"78800\",\r\n            \"inter2_lwpr\": \"77200\",\r\n            \"inter2_llam\": \"54800\",\r\n            \"inter2_mxpr\": \"101600\",\r\n            \"inter2_askp\": \"77400\",\r\n            \"inter2_bidp\": \"77300\",\r\n            \"seln_rsqn\": \"10248\",\r\n            \"shnu_rsqn\": \"269626\",\r\n            \"total_askp_rsqn\": \"1404667\",\r\n            \"total_bidp_rsqn\": \"2150657\",\r\n            \"acml_tr_pbmn\": \"1221686345500\",\r\n            \"inter2_prdy_clpr\": \"78200\",\r\n            \"oprc_vrss_hgpr_rate\": \"0.25\",\r\n            \"intr_antc_cntg_vrss\": \"0\",\r\n            \"intr_antc_cntg_vrss_sign\": \"3\",\r\n            \"intr_antc_cntg_prdy_ctrt\": \"0.00\",\r\n            \"intr_antc_vol\": \"0\",\r\n            \"inter2_sdpr\": \"78200\"\r\n        },\r\n        {\r\n            \"kospi_kosdaq_cls_name\": \"거래소\",\r\n            \"mrkt_trtm_cls_name\": \"거래소\",\r\n            \"hour_cls_code\": \"0\",\r\n            \"inter_shrn_iscd\": \"000660\",\r\n            \"inter_kor_isnm\": \"SK하이닉스\",\r\n            \"inter2_prpr\": \"189900\",\r\n            \"inter2_prdy_vrss\": \"-3100\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.61\",\r\n            \"acml_vol\": \"2758944\",\r\n            \"inter2_oprc\": \"192000\",\r\n            \"inter2_hgpr\": \"193500\",\r\n            \"inter2_lwpr\": \"189900\",\r\n            \"inter2_llam\": \"135100\",\r\n            \"inter2_mxpr\": \"250500\",\r\n            \"inter2_askp\": \"190000\",\r\n            \"inter2_bidp\": \"189900\",\r\n            \"seln_rsqn\": \"5625\",\r\n            \"shnu_rsqn\": \"4782\",\r\n            \"total_askp_rsqn\": \"27318\",\r\n            \"total_bidp_rsqn\": \"33313\",\r\n            \"acml_tr_pbmn\": \"528227479600\",\r\n            \"inter2_prdy_clpr\": \"193000\",\r\n            \"oprc_vrss_hgpr_rate\": \"0.78\",\r\n            \"intr_antc_cntg_vrss\": \"0\",\r\n            \"intr_antc_cntg_vrss_sign\": \"3\",\r\n            \"intr_antc_cntg_prdy_ctrt\": \"0.00\",\r\n            \"intr_antc_vol\": \"0\",\r\n            \"inter2_sdpr\": \"193000\"\r\n        },\r\n        {\r\n            \"kospi_kosdaq_cls_name\": \"업종\",\r\n            \"mrkt_trtm_cls_name\": \"\",\r\n            \"hour_cls_code\": \"2\",\r\n            \"inter_shrn_iscd\": \"0001\",\r\n            \"inter_kor_isnm\": \"종합\",\r\n            \"inter2_prpr\": \"2724.62\",\r\n            \"inter2_prdy_vrss\": \"-28.38\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.03\",\r\n            \"acml_vol\": \"561107\",\r\n            \"inter2_oprc\": \"2751.47\",\r\n            \"inter2_hgpr\": \"2752.17\",\r\n            \"inter2_lwpr\": \"2724.62\",\r\n            \"inter2_llam\": \"\",\r\n            \"inter2_mxpr\": \"\",\r\n            \"inter2_askp\": \"\",\r\n            \"inter2_bidp\": \"\",\r\n            \"seln_rsqn\": \"\",\r\n            \"shnu_rsqn\": \"\",\r\n            \"total_askp_rsqn\": \"19237981\",\r\n            \"total_bidp_rsqn\": \"49315150\",\r\n            \"acml_tr_pbmn\": \"10288958\",\r\n            \"inter2_prdy_clpr\": \"2753.00\",\r\n            \"oprc_vrss_hgpr_rate\": \"\",\r\n            \"intr_antc_cntg_vrss\": \"-28.18\",\r\n            \"intr_antc_cntg_vrss_sign\": \"5\",\r\n            \"intr_antc_cntg_prdy_ctrt\": \"-1.02\",\r\n            \"intr_antc_vol\": \"560841\",\r\n            \"inter2_sdpr\": \"2753.00\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

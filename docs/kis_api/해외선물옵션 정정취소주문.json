@@ -1,0 +1,496 @@
+{
+  "sheet_name": "해외선물옵션 정정취소주문",
+  "row_count": 48,
+  "columns": [
+    "해외선물옵션 정정취소주문",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외선물옵션 정정취소주문": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "메뉴 위치",
+      "Column_1": "[해외선물옵션] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "API 명",
+      "Column_1": "해외선물옵션 정정취소주문",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "API ID",
+      "Column_1": "v1_해외선물-002, 003",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "실전 TR_ID",
+      "Column_1": "(정정) OTFM3002U (취소) OTFM3003U",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "URL 명",
+      "Column_1": "/uapi/overseas-futureoption/v1/trading/order-rvsecncl",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "개요",
+      "Column_1": "해외선물옵션 정정취소주문 API 입니다.\r\n\r\n※ POST API의 경우 BODY값의 key값들을 대문자로 작성하셔야 합니다.\r\n   (EX. \"CANO\" : \"12345678\", \"ACNT_PRDT_CD\": \"01\",...)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)\r\n\r\n※ 토큰 지정시 토큰 타입(\"Bearer\") 지정 필요. 즉, 발급받은 접근토큰 앞에 앞에 \"Bearer\" 붙여서 호출\r\nEX) \"Bearer eyJ..........8GA\"",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자]\r\nOTFM3002U : 해외선물옵션주문정정\r\nOTFM3003U : 해외선물옵션주문취소",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "Request Body",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "ORGN_ORD_DT",
+      "Column_2": "원주문일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "원 주문 시 출력되는 ORD_DT 값을 입력 (현지거래일)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "ORGN_ODNO",
+      "Column_2": "원주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "정정/취소시 주문번호(ODNO) 8자리를 문자열처럼 \"0\"을 포함해서 전송 (원 주문 시 출력된 ODNO 값 활용)\r\n(ex. ORGN_ODNO : 00360686)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "FM_LIMIT_ORD_PRIC",
+      "Column_2": "FMLIMIT주문가격",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "20",
+      "Column_6": "OTFM3002U(해외선물옵션주문정정)만 사용",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "FM_STOP_ORD_PRIC",
+      "Column_2": "FMSTOP주문가격",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "20",
+      "Column_6": "OTFM3002U(해외선물옵션주문정정)만 사용",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "FM_LQD_LMT_ORD_PRIC",
+      "Column_2": "FM청산LIMIT주문가격",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "20",
+      "Column_6": "OTFM3002U(해외선물옵션주문정정)만 사용",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "FM_LQD_STOP_ORD_PRIC",
+      "Column_2": "FM청산STOP주문가격",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "20",
+      "Column_6": "OTFM3002U(해외선물옵션주문정정)만 사용",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "FM_HDGE_ORD_SCRN_YN",
+      "Column_2": "FM_HEDGE주문화면여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "N",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "FM_MKPR_CVSN_YN",
+      "Column_2": "FM시장가전환여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "OTFM3003U(해외선물옵션주문취소)만 사용\r\n\r\n※ FM_MKPR_CVSN_YN 항목에 'Y'로 설정하여 취소주문을 접수할 경우, 주문 취소확인이 들어오면 원장에서 시장가주문을 하나 또 내줌",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공\r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "output",
+      "Column_2": " ",
+      "Column_3": "object",
+      "Column_4": "N",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "ORD_DT",
+      "Column_2": "주문일자",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": " YYYYMMDD(ex. 20230811)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": null,
+      "Column_1": "ODNO",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": "접수한 주문의 일련번호(ex. 00360686)\r\n* 정정/취소시 문자열처럼 \"0\"을 포함해서 전송 \r\n  (ex. ORGN_ODNO : 00360686)",
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "Request Example (Python)",
+      "Column_1": "{\r\n    \"CANO\": \"81012345\",\r\n    \"ACNT_PRDT_CD\": \"08\",\r\n    \"ORGN_ORD_DT\": \"20221214\",\r\n    \"ORGN_ODNO\": \"00298044\",\r\n    \"FM_MKPR_CVSN_YN\": \"N\",\r\n    \"FM_HDGE_ORD_SCRN_YN\": \"N\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외선물옵션 정정취소주문": "Response Example",
+      "Column_1": "{\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"APBK0013\",\r\n    \"msg1\": \"주문 전송 완료 되었습니다.\",\r\n    \"output\": {\r\n        \"ORD_DT\": \"20221214\",\r\n        \"ODNO\": \"00298045\"\r\n    }\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

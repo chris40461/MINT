@@ -1,0 +1,536 @@
+{
+  "sheet_name": "예탁원정보(주식매수청구일정)",
+  "row_count": 52,
+  "columns": [
+    "예탁원정보(주식매수청구일정)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "예탁원정보(주식매수청구일정)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "API 명",
+      "Column_1": "예탁원정보(주식매수청구일정)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "API ID",
+      "Column_1": "국내주식-146",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "실전 TR_ID",
+      "Column_1": "HHKDB669103C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ksdinfo/purreq",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "개요",
+      "Column_1": "예탁원정보(주식매수청구일정) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0663] 주식매수청구 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 예탁원에서 제공한 자료이므로 정보용으로만 사용하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHKDB669103C0",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "Request Query Parameter",
+      "Column_1": "SHT_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "공백: 전체,  특정종목 조회시 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "T_DT",
+      "Column_2": "조회일자To",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "F_DT",
+      "Column_2": "조회일자From",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "CTS",
+      "Column_2": "CTS",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": "공백 ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "record_date",
+      "Column_2": "기준일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "sht_cd",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "isin_name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "stk_kind",
+      "Column_2": "주식종류",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "opp_opi_rcpt_term",
+      "Column_2": "반대의사접수시한",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "buy_req_rcpt_term",
+      "Column_2": "매수청구접수시한",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "buy_req_price",
+      "Column_2": " 매수청구가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "62",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "buy_amt_pay_dt",
+      "Column_2": "매수대금지급일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "62",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": null,
+      "Column_1": "get_meet_dt",
+      "Column_2": "주총일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "Request Example (Python)",
+      "Column_1": "cts:\r\nf_dt:20230301\r\nt_dt:20240326\r\nsht_cd:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주식매수청구일정)": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"record_date\": \"20240313\",\r\n            \"sht_cd\": \"065350\",\r\n            \"isin_name\": \"신성델타테크\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240326\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240311\",\r\n            \"sht_cd\": \"472850\",\r\n            \"isin_name\": \"폰드그룹\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240325\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240306\",\r\n            \"sht_cd\": \"238930\",\r\n            \"isin_name\": \"제이비케이랩\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240319\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240305\",\r\n            \"sht_cd\": \"435620\",\r\n            \"isin_name\": \"하나금융25호기업인수목적\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240409\",\r\n            \"buy_req_rcpt_term\": \"020240430\",\r\n            \"buy_req_price\": \"000000010578\",\r\n            \"buy_amt_pay_dt\": \"2024/05/16\",\r\n            \"get_meet_dt\": \"2024/04/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240305\",\r\n            \"sht_cd\": \"452450\",\r\n            \"isin_name\": \"피아이이\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240409\",\r\n            \"buy_req_rcpt_term\": \"020240430\",\r\n            \"buy_req_price\": \"000000006733\",\r\n            \"buy_amt_pay_dt\": \"2024/05/16\",\r\n            \"get_meet_dt\": \"2024/04/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240304\",\r\n            \"sht_cd\": \"065150\",\r\n            \"isin_name\": \"대산에프앤비\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240327\",\r\n            \"buy_req_rcpt_term\": \"020240417\",\r\n            \"buy_req_price\": \"000000000260\",\r\n            \"buy_amt_pay_dt\": \"2024/05/17\",\r\n            \"get_meet_dt\": \"2024/03/29\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"034110\",\r\n            \"isin_name\": \"조선호텔앤리조트\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240322\",\r\n            \"buy_req_rcpt_term\": \"020240412\",\r\n            \"buy_req_price\": \"000000016577\",\r\n            \"buy_amt_pay_dt\": \"2024/05/14\",\r\n            \"get_meet_dt\": \"2024/03/26\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240229\",\r\n            \"sht_cd\": \"034300\",\r\n            \"isin_name\": \"신세계건설\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240322\",\r\n            \"buy_req_rcpt_term\": \"020240412\",\r\n            \"buy_req_price\": \"000000011865\",\r\n            \"buy_amt_pay_dt\": \"2024/05/14\",\r\n            \"get_meet_dt\": \"2024/03/26\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240228\",\r\n            \"sht_cd\": \"011690\",\r\n            \"isin_name\": \"와이투솔루션\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240312\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240222\",\r\n            \"sht_cd\": \"021240\",\r\n            \"isin_name\": \"코웨이\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240320\",\r\n            \"buy_req_rcpt_term\": \"020240409\",\r\n            \"buy_req_price\": \"000000056357\",\r\n            \"buy_amt_pay_dt\": \"2024/05/07\",\r\n            \"get_meet_dt\": \"2024/03/22\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240222\",\r\n            \"sht_cd\": \"035720\",\r\n            \"isin_name\": \"카카오\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240307\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240221\",\r\n            \"sht_cd\": \"039310\",\r\n            \"isin_name\": \"세중\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240305\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240216\",\r\n            \"sht_cd\": \"101000\",\r\n            \"isin_name\": \"상상인인더스트리\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240308\",\r\n            \"buy_req_rcpt_term\": \"020240329\",\r\n            \"buy_req_price\": \"000000002310\",\r\n            \"buy_amt_pay_dt\": \"2024/04/30\",\r\n            \"get_meet_dt\": \"2024/03/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240216\",\r\n            \"sht_cd\": \"101005\",\r\n            \"isin_name\": \"상상인인더스트리1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240308\",\r\n            \"buy_req_rcpt_term\": \"020240329\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"2024/04/30\",\r\n            \"get_meet_dt\": \"2024/03/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240216\",\r\n            \"sht_cd\": \"101007\",\r\n            \"isin_name\": \"상상인인더스트리2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"opp_opi_rcpt_term\": \"020240308\",\r\n            \"buy_req_rcpt_term\": \"020240329\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"2024/04/30\",\r\n            \"get_meet_dt\": \"2024/03/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240216\",\r\n            \"sht_cd\": \"101009\",\r\n            \"isin_name\": \"상상인인더스트리3우\",\r\n            \"stk_kind\": \"3우선\",\r\n            \"opp_opi_rcpt_term\": \"020240308\",\r\n            \"buy_req_rcpt_term\": \"020240329\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"2024/04/30\",\r\n            \"get_meet_dt\": \"2024/03/12\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240214\",\r\n            \"sht_cd\": \"053300\",\r\n            \"isin_name\": \"한국정보인증\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240322\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240214\",\r\n            \"sht_cd\": \"123010\",\r\n            \"isin_name\": \"아이윈플러스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240227\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240214\",\r\n            \"sht_cd\": \"123015\",\r\n            \"isin_name\": \"아이윈플러스1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240227\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240214\",\r\n            \"sht_cd\": \"123017\",\r\n            \"isin_name\": \"아이윈플러스2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"opp_opi_rcpt_term\": \"020240227\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240214\",\r\n            \"sht_cd\": \"123019\",\r\n            \"isin_name\": \"아이윈플러스3우\",\r\n            \"stk_kind\": \"3우선\",\r\n            \"opp_opi_rcpt_term\": \"020240227\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240214\",\r\n            \"sht_cd\": \"12301A\",\r\n            \"isin_name\": \"아이윈플러스4우\",\r\n            \"stk_kind\": \"4우선\",\r\n            \"opp_opi_rcpt_term\": \"020240227\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240208\",\r\n            \"sht_cd\": \"044180\",\r\n            \"isin_name\": \"KD\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240226\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240208\",\r\n            \"sht_cd\": \"095190\",\r\n            \"isin_name\": \"이엠코리아\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240222\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240208\",\r\n            \"sht_cd\": \"097780\",\r\n            \"isin_name\": \"에코볼트\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240222\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240208\",\r\n            \"sht_cd\": \"097785\",\r\n            \"isin_name\": \"에코볼트1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240222\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240208\",\r\n            \"sht_cd\": \"457190\",\r\n            \"isin_name\": \"이수스페셜티케미컬\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240221\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240207\",\r\n            \"sht_cd\": \"019440\",\r\n            \"isin_name\": \"세아특수강\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240220\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"140430\",\r\n            \"isin_name\": \"카티스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240313\",\r\n            \"buy_req_rcpt_term\": \"020240403\",\r\n            \"buy_req_price\": \"000000003359\",\r\n            \"buy_amt_pay_dt\": \"2024/04/12\",\r\n            \"get_meet_dt\": \"2024/03/15\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"296170\",\r\n            \"isin_name\": \"에스엘바이젠\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240219\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"29617K\",\r\n            \"isin_name\": \"에스엘바이젠1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240219\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"29617L\",\r\n            \"isin_name\": \"에스엘바이젠2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"opp_opi_rcpt_term\": \"020240219\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"29617M\",\r\n            \"isin_name\": \"에스엘바이젠3우\",\r\n            \"stk_kind\": \"3우선\",\r\n            \"opp_opi_rcpt_term\": \"020240219\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"29617N\",\r\n            \"isin_name\": \"에스엘바이젠4우\",\r\n            \"stk_kind\": \"4우선\",\r\n            \"opp_opi_rcpt_term\": \"020240219\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"29617P\",\r\n            \"isin_name\": \"에스엘바이젠5우\",\r\n            \"stk_kind\": \"5우선\",\r\n            \"opp_opi_rcpt_term\": \"020240219\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"419270\",\r\n            \"isin_name\": \"신영해피투모로우제7호기업인수목적\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240229\",\r\n            \"buy_req_rcpt_term\": \"020240322\",\r\n            \"buy_req_price\": \"000000002092\",\r\n            \"buy_amt_pay_dt\": \"2024/04/05\",\r\n            \"get_meet_dt\": \"2024/03/05\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"436530\",\r\n            \"isin_name\": \"케이비제22호기업인수목적\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240313\",\r\n            \"buy_req_rcpt_term\": \"020240403\",\r\n            \"buy_req_price\": \"000000002093\",\r\n            \"buy_amt_pay_dt\": \"2024/04/12\",\r\n            \"get_meet_dt\": \"2024/03/15\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240205\",\r\n            \"sht_cd\": \"451250\",\r\n            \"isin_name\": \"삐아\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240229\",\r\n            \"buy_req_rcpt_term\": \"020240322\",\r\n            \"buy_req_price\": \"000000007334\",\r\n            \"buy_amt_pay_dt\": \"2024/04/05\",\r\n            \"get_meet_dt\": \"2024/03/05\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240129\",\r\n            \"sht_cd\": \"299910\",\r\n            \"isin_name\": \"베스파\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240213\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240126\",\r\n            \"sht_cd\": \"217270\",\r\n            \"isin_name\": \"넵튠\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240208\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240119\",\r\n            \"sht_cd\": \"151860\",\r\n            \"isin_name\": \"케이지이티에스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240208\",\r\n            \"buy_req_rcpt_term\": \"020240304\",\r\n            \"buy_req_price\": \"000000011116\",\r\n            \"buy_amt_pay_dt\": \"2024/04/04\",\r\n            \"get_meet_dt\": \"2024/02/14\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240118\",\r\n            \"sht_cd\": \"391060\",\r\n            \"isin_name\": \"엔에이치기업인수목적20호\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240221\",\r\n            \"buy_req_rcpt_term\": \"099991229\",\r\n            \"buy_req_price\": \"000000010580\",\r\n            \"buy_amt_pay_dt\": \"9999/12/31\",\r\n            \"get_meet_dt\": \"2024/02/23\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240118\",\r\n            \"sht_cd\": \"439270\",\r\n            \"isin_name\": \"크리에이츠\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240221\",\r\n            \"buy_req_rcpt_term\": \"099991229\",\r\n            \"buy_req_price\": \"000000024996\",\r\n            \"buy_amt_pay_dt\": \"9999/12/31\",\r\n            \"get_meet_dt\": \"2024/02/23\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240112\",\r\n            \"sht_cd\": \"445090\",\r\n            \"isin_name\": \"에이직랜드\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240125\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240112\",\r\n            \"sht_cd\": \"44509K\",\r\n            \"isin_name\": \"에이직랜드1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240125\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240112\",\r\n            \"sht_cd\": \"44509L\",\r\n            \"isin_name\": \"에이직랜드2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"opp_opi_rcpt_term\": \"020240125\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240111\",\r\n            \"sht_cd\": \"177350\",\r\n            \"isin_name\": \"베셀\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240111\",\r\n            \"sht_cd\": \"17735K\",\r\n            \"isin_name\": \"베셀1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240111\",\r\n            \"sht_cd\": \"222080\",\r\n            \"isin_name\": \"씨아이에스\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240111\",\r\n            \"sht_cd\": \"445090\",\r\n            \"isin_name\": \"에이직랜드\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240111\",\r\n            \"sht_cd\": \"44509K\",\r\n            \"isin_name\": \"에이직랜드1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240111\",\r\n            \"sht_cd\": \"44509L\",\r\n            \"isin_name\": \"에이직랜드2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240105\",\r\n            \"sht_cd\": \"009730\",\r\n            \"isin_name\": \"코센\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240118\",\r\n            \"buy_req_rcpt_term\": \"020240213\",\r\n            \"buy_req_price\": \"000000003054\",\r\n            \"buy_amt_pay_dt\": \"2024/03/13\",\r\n            \"get_meet_dt\": \"2024/01/22\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240103\",\r\n            \"sht_cd\": \"012160\",\r\n            \"isin_name\": \"영흥\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240123\",\r\n            \"buy_req_rcpt_term\": \"020240213\",\r\n            \"buy_req_price\": \"000000000566\",\r\n            \"buy_amt_pay_dt\": \"2024/03/13\",\r\n            \"get_meet_dt\": \"2024/01/25\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240102\",\r\n            \"sht_cd\": \"023530\",\r\n            \"isin_name\": \"롯데쇼핑\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240115\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"017680\",\r\n            \"isin_name\": \"데코앤에프\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240327\",\r\n            \"buy_req_rcpt_term\": \"020240417\",\r\n            \"buy_req_price\": \"000000063827\",\r\n            \"buy_amt_pay_dt\": \"2024/06/17\",\r\n            \"get_meet_dt\": \"2024/03/29\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"017685\",\r\n            \"isin_name\": \"데코앤에프1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240327\",\r\n            \"buy_req_rcpt_term\": \"020240417\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"2024/06/17\",\r\n            \"get_meet_dt\": \"2024/03/29\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"033540\",\r\n            \"isin_name\": \"파라텍\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240325\",\r\n            \"buy_req_rcpt_term\": \"020240415\",\r\n            \"buy_req_price\": \"000000002607\",\r\n            \"buy_amt_pay_dt\": \"2024/05/14\",\r\n            \"get_meet_dt\": \"2024/03/27\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"037710\",\r\n            \"isin_name\": \"광주신세계\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240326\",\r\n            \"buy_req_rcpt_term\": \"020240416\",\r\n            \"buy_req_price\": \"000000030905\",\r\n            \"buy_amt_pay_dt\": \"2024/05/10\",\r\n            \"get_meet_dt\": \"2024/03/28\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"065650\",\r\n            \"isin_name\": \"메디프론디비티\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240326\",\r\n            \"buy_req_rcpt_term\": \"020240416\",\r\n            \"buy_req_price\": \"000000001336\",\r\n            \"buy_amt_pay_dt\": \"2024/05/16\",\r\n            \"get_meet_dt\": \"2024/03/28\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"06565K\",\r\n            \"isin_name\": \"메디프론디비티 1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240326\",\r\n            \"buy_req_rcpt_term\": \"020240416\",\r\n            \"buy_req_price\": \"000000001336\",\r\n            \"buy_amt_pay_dt\": \"2024/05/16\",\r\n            \"get_meet_dt\": \"2024/03/28\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"215000\",\r\n            \"isin_name\": \"골프존\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240327\",\r\n            \"buy_req_rcpt_term\": \"020240417\",\r\n            \"buy_req_price\": \"000000087629\",\r\n            \"buy_amt_pay_dt\": \"2024/04/26\",\r\n            \"get_meet_dt\": \"2024/03/29\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"234690\",\r\n            \"isin_name\": \"녹십자웰빙\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240325\",\r\n            \"buy_req_rcpt_term\": \"020240415\",\r\n            \"buy_req_price\": \"000000009043\",\r\n            \"buy_amt_pay_dt\": \"2024/05/10\",\r\n            \"get_meet_dt\": \"2024/03/27\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"278270\",\r\n            \"isin_name\": \"네오임플란트\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240322\",\r\n            \"buy_req_rcpt_term\": \"020240412\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"2024/04/30\",\r\n            \"get_meet_dt\": \"2024/03/26\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231231\",\r\n            \"sht_cd\": \"371110\",\r\n            \"isin_name\": \"포인트임플란트\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240327\",\r\n            \"buy_req_rcpt_term\": \"020240417\",\r\n            \"buy_req_price\": \"000000002400\",\r\n            \"buy_amt_pay_dt\": \"2024/06/17\",\r\n            \"get_meet_dt\": \"2024/03/29\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"356950\",\r\n            \"isin_name\": \"클래스101\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"35695K\",\r\n            \"isin_name\": \"클래스101 1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"35695L\",\r\n            \"isin_name\": \"클래스101 2우\",\r\n            \"stk_kind\": \"2우선\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"35695M\",\r\n            \"isin_name\": \"클래스101 3우\",\r\n            \"stk_kind\": \"3우선\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"35695N\",\r\n            \"isin_name\": \"클래스101 4우\",\r\n            \"stk_kind\": \"4우선\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"35695P\",\r\n            \"isin_name\": \"클래스101 5우\",\r\n            \"stk_kind\": \"5우선\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"35695Q\",\r\n            \"isin_name\": \"클래스101 6우\",\r\n            \"stk_kind\": \"6우선\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"35695R\",\r\n            \"isin_name\": \"클래스101 7우\",\r\n            \"stk_kind\": \"7우선\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231229\",\r\n            \"sht_cd\": \"35695S\",\r\n            \"isin_name\": \"클래스101 8우\",\r\n            \"stk_kind\": \"8우선\",\r\n            \"opp_opi_rcpt_term\": \"020240116\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231226\",\r\n            \"sht_cd\": \"016880\",\r\n            \"isin_name\": \"웅진\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240108\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231222\",\r\n            \"sht_cd\": \"397880\",\r\n            \"isin_name\": \"교보11호기업인수목적\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240130\",\r\n            \"buy_req_rcpt_term\": \"020240220\",\r\n            \"buy_req_price\": \"000000002126\",\r\n            \"buy_amt_pay_dt\": \"2024/02/29\",\r\n            \"get_meet_dt\": \"2024/02/01\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231222\",\r\n            \"sht_cd\": \"420570\",\r\n            \"isin_name\": \"제이투케이바이오\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240130\",\r\n            \"buy_req_rcpt_term\": \"020240220\",\r\n            \"buy_req_price\": \"000000017267\",\r\n            \"buy_amt_pay_dt\": \"2024/02/29\",\r\n            \"get_meet_dt\": \"2024/02/01\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231214\",\r\n            \"sht_cd\": \"227100\",\r\n            \"isin_name\": \"에이치앤비디자인\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020231227\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231214\",\r\n            \"sht_cd\": \"22710K\",\r\n            \"isin_name\": \"에이치앤비디자인1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020231227\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231212\",\r\n            \"sht_cd\": \"369370\",\r\n            \"isin_name\": \"블리츠웨이\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240108\",\r\n            \"buy_req_rcpt_term\": \"020240129\",\r\n            \"buy_req_price\": \"000000002022\",\r\n            \"buy_amt_pay_dt\": \"2024/02/08\",\r\n            \"get_meet_dt\": \"2024/01/10\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231211\",\r\n            \"sht_cd\": \"041520\",\r\n            \"isin_name\": \"이라이콤\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020231221\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231211\",\r\n            \"sht_cd\": \"123840\",\r\n            \"isin_name\": \"한일진공\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"020240214\",\r\n            \"buy_req_price\": \"000000000465\",\r\n            \"buy_amt_pay_dt\": \"2024/03/15\",\r\n            \"get_meet_dt\": \"2024/01/26\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231211\",\r\n            \"sht_cd\": \"452240\",\r\n            \"isin_name\": \"뉴온\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"020240214\",\r\n            \"buy_req_price\": \"000000011964\",\r\n            \"buy_amt_pay_dt\": \"2024/02/27\",\r\n            \"get_meet_dt\": \"2024/01/26\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231211\",\r\n            \"sht_cd\": \"45224K\",\r\n            \"isin_name\": \"뉴온 1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020240124\",\r\n            \"buy_req_rcpt_term\": \"020240214\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"2024/02/27\",\r\n            \"get_meet_dt\": \"2024/01/26\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231206\",\r\n            \"sht_cd\": \"054210\",\r\n            \"isin_name\": \"이랜텍\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020231219\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231206\",\r\n            \"sht_cd\": \"05421K\",\r\n            \"isin_name\": \"이랜텍1우\",\r\n            \"stk_kind\": \"우선\",\r\n            \"opp_opi_rcpt_term\": \"020231219\",\r\n            \"buy_req_rcpt_term\": \"\",\r\n            \"buy_req_price\": \"000000000000\",\r\n            \"buy_amt_pay_dt\": \"\",\r\n            \"get_meet_dt\": \"\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231129\",\r\n            \"sht_cd\": \"034300\",\r\n            \"isin_name\": \"신세계건설\",\r\n            \"stk_kind\": \"보통\",\r\n            \"opp_opi_rcpt_term\": \"020231220\",\r\n            \"buy_req_rcpt_term\": \"020240110\",\r\n            \"buy_req_price\": \"000000013424\",\r\n            \"buy_amt_pay_dt\": \"2024/01/22\",\r\n            \"get_meet_dt\": \"2023/12/22\"\r\n        },\r\n        {\r\n            \"record_date\": \"20231129\",\r\n            \"",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

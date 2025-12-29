@@ -1,0 +1,536 @@
+{
+  "sheet_name": "ELW 민감도 추이(일별)",
+  "row_count": 52,
+  "columns": [
+    "ELW 민감도 추이(일별)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "ELW 민감도 추이(일별)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "메뉴 위치",
+      "Column_1": "[국내주식] ELW 시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "API 명",
+      "Column_1": "ELW 민감도 추이(일별)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "API ID",
+      "Column_1": "국내주식-176",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "실전 TR_ID",
+      "Column_1": "FHPEW02830200",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "URL 명",
+      "Column_1": "/uapi/elw/v1/quotations/sensitivity-trend-daily",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "개요",
+      "Column_1": "ELW 민감도 추이(일별) API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0283] ELW 민감도 추이 화면의 \"일자별\" 민감도추이 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다. ",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPEW02830200",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건시장분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (W)",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "ex)(58J438(KBJ438삼성전자풋)",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "elw_prpr",
+      "Column_2": "ELW현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "hts_thpr",
+      "Column_2": "HTS이론가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "delta_val",
+      "Column_2": "델타값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "114",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "gama",
+      "Column_2": "감마",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "theta",
+      "Column_2": "세타",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "vega",
+      "Column_2": "베가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": null,
+      "Column_1": "rho",
+      "Column_2": "로우",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:W\r\nFID_INPUT_ISCD:57K281",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 민감도 추이(일별)": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240507\",\r\n            \"elw_prpr\": \"25\",\r\n            \"prdy_vrss\": \"-20\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-44.44\",\r\n            \"hts_thpr\": \"20.39\",\r\n            \"delta_val\": \"-0.4034\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.5843\",\r\n            \"vega\": \"0.9954\",\r\n            \"rho\": \"-0.3529\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240503\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"hts_thpr\": \"39.43\",\r\n            \"delta_val\": \"-0.5792\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.5531\",\r\n            \"vega\": \"0.9786\",\r\n            \"rho\": \"-0.5143\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240502\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"hts_thpr\": \"37.16\",\r\n            \"delta_val\": \"-0.5529\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.5859\",\r\n            \"vega\": \"1.0136\",\r\n            \"rho\": \"-0.5143\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240430\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss\": \"-5\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-10.00\",\r\n            \"hts_thpr\": \"39.30\",\r\n            \"delta_val\": \"-0.5847\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.4979\",\r\n            \"vega\": \"1.0113\",\r\n            \"rho\": \"-0.5579\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240429\",\r\n            \"elw_prpr\": \"50\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"hts_thpr\": \"44.66\",\r\n            \"delta_val\": \"-0.6211\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.4599\",\r\n            \"vega\": \"0.9938\",\r\n            \"rho\": \"-0.6106\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240426\",\r\n            \"elw_prpr\": \"50\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"hts_thpr\": \"44.96\",\r\n            \"delta_val\": \"-0.6202\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.4439\",\r\n            \"vega\": \"1.0115\",\r\n            \"rho\": \"-0.6308\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240425\",\r\n            \"elw_prpr\": \"50\",\r\n            \"prdy_vrss\": \"5\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"11.11\",\r\n            \"hts_thpr\": \"47.92\",\r\n            \"delta_val\": \"-0.6534\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.3673\",\r\n            \"vega\": \"0.9917\",\r\n            \"rho\": \"-0.6802\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240424\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss\": \"-10\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-18.18\",\r\n            \"hts_thpr\": \"33.74\",\r\n            \"delta_val\": \"-0.5173\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.5516\",\r\n            \"vega\": \"1.1208\",\r\n            \"rho\": \"-0.5781\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240423\",\r\n            \"elw_prpr\": \"55\",\r\n            \"prdy_vrss\": \"-5\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-8.33\",\r\n            \"hts_thpr\": \"53.36\",\r\n            \"delta_val\": \"-0.6933\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.3086\",\r\n            \"vega\": \"0.9632\",\r\n            \"rho\": \"-0.7635\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240422\",\r\n            \"elw_prpr\": \"60\",\r\n            \"prdy_vrss\": \"15\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"33.33\",\r\n            \"hts_thpr\": \"49.10\",\r\n            \"delta_val\": \"-0.6135\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.4786\",\r\n            \"vega\": \"1.0740\",\r\n            \"rho\": \"-0.7166\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240419\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss\": \"10\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"28.57\",\r\n            \"hts_thpr\": \"38.76\",\r\n            \"delta_val\": \"-0.5727\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.4045\",\r\n            \"vega\": \"1.1391\",\r\n            \"rho\": \"-0.6851\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240418\",\r\n            \"elw_prpr\": \"35\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"hts_thpr\": \"28.22\",\r\n            \"delta_val\": \"-0.4785\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.4284\",\r\n            \"vega\": \"1.2033\",\r\n            \"rho\": \"-0.5988\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240417\",\r\n            \"elw_prpr\": \"35\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"hts_thpr\": \"31.87\",\r\n            \"delta_val\": \"-0.5156\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.3620\",\r\n            \"vega\": \"1.2100\",\r\n            \"rho\": \"-0.6539\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240416\",\r\n            \"elw_prpr\": \"35\",\r\n            \"prdy_vrss\": \"10\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"40.00\",\r\n            \"hts_thpr\": \"26.58\",\r\n            \"delta_val\": \"-0.4591\",\r\n            \"gama\": \"0.0000\",\r\n            \"theta\": \"0.4314\",\r\n            \"vega\": \"1.2378\",\r\n            \"rho\": \"-0.6115\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

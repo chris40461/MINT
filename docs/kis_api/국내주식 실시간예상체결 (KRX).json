@@ -1,0 +1,716 @@
+{
+  "sheet_name": "국내주식 실시간예상체결 (KRX)",
+  "row_count": 70,
+  "columns": [
+    "국내주식 실시간예상체결 (KRX)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 실시간예상체결 (KRX)": "API 통신방식",
+      "Column_1": "WEBSOCKET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "메뉴 위치",
+      "Column_1": "[국내주식] 실시간시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "API 명",
+      "Column_1": "국내주식 실시간예상체결 (KRX)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "API ID",
+      "Column_1": "실시간-041",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "실전 TR_ID",
+      "Column_1": "H0STANC0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "실전 Domain",
+      "Column_1": "ws://ops.koreainvestment.com:21000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "URL 명",
+      "Column_1": "/tryitout/H0STANC0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "개요",
+      "Column_1": "국내주식 실시간예상체결 API입니다.\r\n\r\n[참고자료]\r\n실시간시세(웹소켓) 파이썬 샘플코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/blob/main/websocket/python/ws_domestic_overseas_all.py\r\n\r\n실시간시세(웹소켓) API 사용방법에 대한 자세한 설명은 한국투자증권 Wikidocs 참고 부탁드립니다.\r\nhttps://wikidocs.net/book/7847 (국내주식 업데이트 완료, 추후 해외주식·국내선물옵션 업데이트 예정)\r\n\r\n종목코드 마스터파일 파이썬 정제코드는 한국투자증권 Github 참고 부탁드립니다.\r\nhttps://github.com/koreainvestment/open-trading-api/tree/main/stocks_info\r\n\r\n\r\n[호출 데이터]\r\n헤더와 바디 값을 합쳐 JSON 형태로 전송합니다.\r\n\r\n[응답 데이터]\r\n1. 정상 등록 여부 (JSON)\r\n- JSON[\"body\"][\"msg1\"] - 정상 응답 시, SUBSCRIBE SUCCESS\r\n- JSON[\"body\"][\"output\"][\"iv\"] - 실시간 결과 복호화에 필요한 AES256 IV (Initialize Vector)\r\n- JSON[\"body\"][\"output\"][\"key\"] - 실시간 결과 복호화에 필요한 AES256 Key\r\n\r\n2. 실시간 결과 응답 ( | 로 구분되는 값)\r\nex) 0|H0STCNT0|004|005930^123929^73100^5^...\r\n- 암호화 유무 : 0 암호화 되지 않은 데이터 / 1 암호화된 데이터\r\n- TR_ID : 등록한 tr_id (ex. H0STCNT0)\r\n- 데이터 건수 : (ex. 001 인 경우 데이터 건수 1건, 004인 경우 데이터 건수 4건)\r\n- 응답 데이터 : 아래 response 데이터 참조 ( ^로 구분됨)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "Request Header",
+      "Column_1": "approval_key",
+      "Column_2": "웹소켓 접속키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "실시간 (웹소켓) 접속키 발급 API(/oauth2/Approval)를 사용하여 발급받은 웹소켓 접속키",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 / P : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "tr_type",
+      "Column_2": "등록/해제",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "1: 등록, 2:해제",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "Request Body",
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "H0STANC0",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "tr_key",
+      "Column_2": "구분값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드 (ex 005930 삼성전자)",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "Response Body",
+      "Column_1": "MKSC_SHRN_ISCD",
+      "Column_2": "유가증권단축종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "STCK_CNTG_HOUR",
+      "Column_2": "주식체결시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "STCK_PRPR",
+      "Column_2": "주식현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "PRDY_VRSS_SIGN",
+      "Column_2": "전일대비구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "PRDY_VRSS",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "PRDY_CTRT",
+      "Column_2": "등락율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "WGHN_AVRG_STCK_PRC",
+      "Column_2": "가중평균주식가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "STCK_OPRC",
+      "Column_2": "시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "STCK_HGPR",
+      "Column_2": "고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "STCK_LWPR",
+      "Column_2": "저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "ASKP1",
+      "Column_2": "매도호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "BIDP1",
+      "Column_2": "매수호가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "CNTG_VOL",
+      "Column_2": "거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "ACML_VOL",
+      "Column_2": "누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "ACML_TR_PBMN",
+      "Column_2": "누적거래대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "SELN_CNTG_CSNU",
+      "Column_2": "매도체결건수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "SHNU_CNTG_CSNU",
+      "Column_2": "매수체결건수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "NTBY_CNTG_CSNU",
+      "Column_2": "순매수체결건수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "CTTR",
+      "Column_2": "체결강도",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "SELN_CNTG_SMTN",
+      "Column_2": "총매도수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "SHNU_CNTG_SMTN",
+      "Column_2": "총매수수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "CNTG_CLS_CODE",
+      "Column_2": "체결구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "SHNU_RATE",
+      "Column_2": "매수비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "PRDY_VOL_VRSS_ACML_VOL_RATE",
+      "Column_2": "전일거래량대비등락율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "OPRC_HOUR",
+      "Column_2": "시가시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "OPRC_VRSS_PRPR_SIGN",
+      "Column_2": "시가대비구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "OPRC_VRSS_PRPR",
+      "Column_2": "시가대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "HGPR_HOUR",
+      "Column_2": "최고가시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "HGPR_VRSS_PRPR_SIGN",
+      "Column_2": "고가대비구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "HGPR_VRSS_PRPR",
+      "Column_2": "고가대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "LWPR_HOUR",
+      "Column_2": "최저가시간",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "LWPR_VRSS_PRPR_SIGN",
+      "Column_2": "저가대비구분",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "LWPR_VRSS_PRPR",
+      "Column_2": "저가대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "BSOP_DATE",
+      "Column_2": "영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "NEW_MKOP_CLS_CODE",
+      "Column_2": "신장운영구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "TRHT_YN",
+      "Column_2": "거래정지여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "ASKP_RSQN1",
+      "Column_2": "매도호가잔량1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "BIDP_RSQN1",
+      "Column_2": "매수호가잔량1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "TOTAL_ASKP_RSQN",
+      "Column_2": "총매도호가잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "TOTAL_BIDP_RSQN",
+      "Column_2": "총매수호가잔량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "VOL_TNRT",
+      "Column_2": "거래량회전율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "PRDY_SMNS_HOUR_ACML_VOL",
+      "Column_2": "전일동시간누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "PRDY_SMNS_HOUR_ACML_VOL_RATE",
+      "Column_2": "전일동시간누적거래량비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "HOUR_CLS_CODE",
+      "Column_2": "시간구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": null,
+      "Column_1": "MRKT_TRTM_CLS_CODE",
+      "Column_2": "임의종료구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "Request Example (Python)",
+      "Column_1": "{\r\n         \"header\":\r\n         {\r\n                  \"approval_key\": \"35xxxxxa-bxxa-4xxb-87xxx-f56xxxxxxxxxx\",\r\n                  \"custtype\":\"P\",\r\n                  \"tr_type\":\"1\",\r\n                  \"content-type\":\"utf-8\"\r\n         },\r\n         \"body\":\r\n         {\r\n                  \"input\":\r\n                  {\r\n                           \"tr_id\":\"H0STANC0\",\r\n                           \"tr_key\":\"005930\"\r\n                  }\r\n         }\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 실시간예상체결 (KRX)": "Response Example",
+      "Column_1": "# 연결 확인\r\n{\r\n    \"header\": {\r\n        \"tr_id\": \"H0STANC0\", \r\n        \"tr_key\": \"005930\", \r\n        \"encrypt\": \"N\"\r\n        }, \r\n    \"body\": {\r\n        \"rt_cd\": \"0\", \r\n        \"msg_cd\": \"OPSP0000\",\r\n        \"msg1\": \"SUBSCRIBE SUCCESS\", \r\n        \"output\": {\r\n            \"iv\": \"0123456789abcdef\", \r\n            \"key\": \"abcdefghijklmnopabcdefghijklmnop\"}\r\n        }\r\n}\r\n\r\n# output\r\n0|H0STANC0|001|005930^084945^77600^2^1300^1.70^0.00^0^0^0^77600^77\r\n500^64^221986^17226113600^0^0^0^0.00^0^0^1^0.01^0.00^000000^3^0^000000^3^0^000000^3^\r\n0^20240426^00^N^11591^2878^41034^6265^0.00^0^0.00^B^",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

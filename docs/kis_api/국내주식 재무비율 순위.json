@@ -1,0 +1,806 @@
+{
+  "sheet_name": "국내주식 재무비율 순위",
+  "row_count": 79,
+  "columns": [
+    "국내주식 재무비율 순위",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식 재무비율 순위": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "메뉴 위치",
+      "Column_1": "[국내주식] 순위분석",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "API 명",
+      "Column_1": "국내주식 재무비율 순위",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "API ID",
+      "Column_1": "v1_국내주식-092",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "실전 TR_ID",
+      "Column_1": "FHPST01750000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ranking/finance-ratio",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "개요",
+      "Column_1": "국내주식 재무비율 순위 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0175] 재무비율순위 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n최대 30건 확인 가능하며, 다음 조회가 불가합니다.\r\n\r\n※ 30건 이상의 목록 조회가 필요한 경우, 대안으로 종목조건검색 API를 이용해서 원하는 종목 100개까지 검색할 수 있는 기능을 제공하고 있습니다.\r\n종목조건검색 API는 HTS(efriend Plus) [0110] 조건검색에서 등록 및 서버저장한 나의 조건 목록을 확인할 수 있는 API로,\r\n자세한 사용 방법은 공지사항 - [조건검색 필독] 조건검색 API 이용안내 참고 부탁드립니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPST01750000",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "Request Query Parameter",
+      "Column_1": "fid_trgt_cls_code",
+      "Column_2": "대상 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "0 : 전체",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_cond_mrkt_div_code",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분코드 (J:KRX, NX:NXT)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_cond_scr_div_code",
+      "Column_2": "조건 화면 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "Unique key( 20175 )",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_input_iscd",
+      "Column_2": "입력 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "0000:전체, 0001:거래소, 1001:코스닥, 2001:코스피200",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_div_cls_code",
+      "Column_2": "분류 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0 : 전체",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_input_price_1",
+      "Column_2": "입력 가격1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "입력값 없을때 전체 (가격 ~)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_input_price_2",
+      "Column_2": "입력 가격2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "입력값 없을때 전체 (~ 가격)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_vol_cnt",
+      "Column_2": "거래량 수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "입력값 없을때 전체 (거래량 ~)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_input_option_1",
+      "Column_2": "입력 옵션1",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "회계년도 입력 (ex 2023)",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_input_option_2",
+      "Column_2": "입력 옵션2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "0: 1/4분기 , 1: 반기, 2: 3/4분기, 3: 결산",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_rank_sort_cls_code",
+      "Column_2": "순위 정렬 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "7: 수익성 분석, 11 : 안정성 분석, 15: 성장성 분석, 20: 활동성 분석",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_blng_cls_code",
+      "Column_2": "소속 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "fid_trgt_exls_cls_code",
+      "Column_2": "대상 제외 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "0 : 전체",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "data_rank",
+      "Column_2": "데이터 순위",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "hts_kor_isnm",
+      "Column_2": "HTS 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "mksc_shrn_iscd",
+      "Column_2": "유가증권 단축 종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "stck_prpr",
+      "Column_2": "주식 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일 대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "cptl_op_prfi",
+      "Column_2": "총자본경상이익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "cptl_ntin_rate",
+      "Column_2": "총자본 순이익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "sale_totl_rate",
+      "Column_2": "매출액 총이익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "sale_ntin_rate",
+      "Column_2": "매출액 순이익율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "bis",
+      "Column_2": "자기자본비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "lblt_rate",
+      "Column_2": "부채 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "bram_depn",
+      "Column_2": "차입금 의존도",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "rsrv_rate",
+      "Column_2": "유보 비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "124",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "grs",
+      "Column_2": "매출액 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "124",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "op_prfi_inrt",
+      "Column_2": "경상 이익 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "124",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "bsop_prfi_inrt",
+      "Column_2": "영업 이익 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "124",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "ntin_inrt",
+      "Column_2": "순이익 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "124",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "equt_inrt",
+      "Column_2": "자기자본 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "cptl_tnrt",
+      "Column_2": "총자본회전율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "sale_bond_tnrt",
+      "Column_2": "매출 채권 회전율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "totl_aset_inrt",
+      "Column_2": "총자산 증가율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "92",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "stac_month",
+      "Column_2": "결산 월",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "stac_month_cls_code",
+      "Column_2": "결산 월 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": null,
+      "Column_1": "iqry_csnu",
+      "Column_2": "조회 건수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "Request Example (Python)",
+      "Column_1": "{\r\n\"fid_cond_mrkt_div_code\":\"J\",\r\n\"fid_cond_scr_div_code\":\"20175\",\r\n\"fid_input_iscd\":\"0000\",\r\n\"fid_div_cls_code\":\"0\",\r\n\"fid_input_price_1\":\"\",\r\n\"fid_input_price_2\":\"\",\r\n\"fid_vol_cnt\":\"\",\r\n\"fid_input_option_1\":\"2023\",\r\n\"fid_input_option_2\":\"3\",\r\n\"fid_rank_sort_cls_code\":\"7\",\r\n\"fid_blng_cls_code\":\"0\",\r\n\"fid_trgt_exls_cls_code\":\"0\",\r\n\"fid_trgt_cls_code\":\"0\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식 재무비율 순위": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"data_rank\": \"1\",\r\n            \"hts_kor_isnm\": \"한진칼\",\r\n            \"mksc_shrn_iscd\": \"180640\",\r\n            \"stck_prpr\": \"59500\",\r\n            \"prdy_vrss\": \"400\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.68\",\r\n            \"acml_vol\": \"46057\",\r\n            \"cptl_op_prfi\": \"177.14\",\r\n            \"cptl_ntin_rate\": \"12.41\",\r\n            \"sale_totl_rate\": \"51.17\",\r\n            \"sale_ntin_rate\": \"177.14\",\r\n            \"bis\": \"75.41\",\r\n            \"lblt_rate\": \"32.61\",\r\n            \"bram_depn\": \"16.29\",\r\n            \"rsrv_rate\": \"1583.70\",\r\n            \"grs\": \"43.44\",\r\n            \"op_prfi_inrt\": \"13.31\",\r\n            \"bsop_prfi_inrt\": \"259.13\",\r\n            \"ntin_inrt\": \"-52.67\",\r\n            \"equt_inrt\": \"17.84\",\r\n            \"cptl_tnrt\": \"0.10\",\r\n            \"sale_bond_tnrt\": \"10.18\",\r\n            \"totl_aset_inrt\": \"1.39\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"2\",\r\n            \"hts_kor_isnm\": \"한미반도체\",\r\n            \"mksc_shrn_iscd\": \"042700\",\r\n            \"stck_prpr\": \"97500\",\r\n            \"prdy_vrss\": \"1300\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.35\",\r\n            \"acml_vol\": \"319052\",\r\n            \"cptl_op_prfi\": \"170.24\",\r\n            \"cptl_ntin_rate\": \"44.40\",\r\n            \"sale_totl_rate\": \"45.81\",\r\n            \"sale_ntin_rate\": \"170.24\",\r\n            \"bis\": \"87.56\",\r\n            \"lblt_rate\": \"14.20\",\r\n            \"bram_depn\": \"0.22\",\r\n            \"rsrv_rate\": \"4282.44\",\r\n            \"grs\": \"-59.96\",\r\n            \"op_prfi_inrt\": \"85.51\",\r\n            \"bsop_prfi_inrt\": \"-83.40\",\r\n            \"ntin_inrt\": \"91.05\",\r\n            \"equt_inrt\": \"41.88\",\r\n            \"cptl_tnrt\": \"0.30\",\r\n            \"sale_bond_tnrt\": \"2.32\",\r\n            \"totl_aset_inrt\": \"34.34\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"3\",\r\n            \"hts_kor_isnm\": \"한라IMS\",\r\n            \"mksc_shrn_iscd\": \"092460\",\r\n            \"stck_prpr\": \"6000\",\r\n            \"prdy_vrss\": \"50\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.84\",\r\n            \"acml_vol\": \"6707\",\r\n            \"cptl_op_prfi\": \"115.30\",\r\n            \"cptl_ntin_rate\": \"45.59\",\r\n            \"sale_totl_rate\": \"35.14\",\r\n            \"sale_ntin_rate\": \"115.30\",\r\n            \"bis\": \"73.41\",\r\n            \"lblt_rate\": \"36.21\",\r\n            \"bram_depn\": \"11.43\",\r\n            \"rsrv_rate\": \"1769.56\",\r\n            \"grs\": \"-15.09\",\r\n            \"op_prfi_inrt\": \"799.56\",\r\n            \"bsop_prfi_inrt\": \"-56.41\",\r\n            \"ntin_inrt\": \"722.02\",\r\n            \"equt_inrt\": \"66.58\",\r\n            \"cptl_tnrt\": \"0.61\",\r\n            \"sale_bond_tnrt\": \"15.19\",\r\n            \"totl_aset_inrt\": \"20.84\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"4\",\r\n            \"hts_kor_isnm\": \"엘앤씨바이오\",\r\n            \"mksc_shrn_iscd\": \"290650\",\r\n            \"stck_prpr\": \"23600\",\r\n            \"prdy_vrss\": \"400\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.72\",\r\n            \"acml_vol\": \"23299\",\r\n            \"cptl_op_prfi\": \"99.18\",\r\n            \"cptl_ntin_rate\": \"29.41\",\r\n            \"sale_totl_rate\": \"52.81\",\r\n            \"sale_ntin_rate\": \"99.18\",\r\n            \"bis\": \"59.42\",\r\n            \"lblt_rate\": \"68.28\",\r\n            \"bram_depn\": \"30.27\",\r\n            \"rsrv_rate\": \"1254.06\",\r\n            \"grs\": \"40.39\",\r\n            \"op_prfi_inrt\": \"1621.06\",\r\n            \"bsop_prfi_inrt\": \"32.30\",\r\n            \"ntin_inrt\": \"1616.82\",\r\n            \"equt_inrt\": \"51.74\",\r\n            \"cptl_tnrt\": \"0.52\",\r\n            \"sale_bond_tnrt\": \"4.22\",\r\n            \"totl_aset_inrt\": \"36.35\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"5\",\r\n            \"hts_kor_isnm\": \"LX홀딩스\",\r\n            \"mksc_shrn_iscd\": \"383800\",\r\n            \"stck_prpr\": \"6960\",\r\n            \"prdy_vrss\": \"-40\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.57\",\r\n            \"acml_vol\": \"43462\",\r\n            \"cptl_op_prfi\": \"71.39\",\r\n            \"cptl_ntin_rate\": \"6.68\",\r\n            \"sale_totl_rate\": \"94.96\",\r\n            \"sale_ntin_rate\": \"71.39\",\r\n            \"bis\": \"97.97\",\r\n            \"lblt_rate\": \"2.07\",\r\n            \"bram_depn\": \"0.04\",\r\n            \"rsrv_rate\": \"2078.39\",\r\n            \"grs\": \"-49.15\",\r\n            \"op_prfi_inrt\": \"-54.13\",\r\n            \"bsop_prfi_inrt\": \"-56.95\",\r\n            \"ntin_inrt\": \"-55.41\",\r\n            \"equt_inrt\": \"0.00\",\r\n            \"cptl_tnrt\": \"0.10\",\r\n            \"sale_bond_tnrt\": \"0.00\",\r\n            \"totl_aset_inrt\": \"0.00\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"6\",\r\n            \"hts_kor_isnm\": \"남화산업\",\r\n            \"mksc_shrn_iscd\": \"111710\",\r\n            \"stck_prpr\": \"5550\",\r\n            \"prdy_vrss\": \"-70\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.25\",\r\n            \"acml_vol\": \"6167\",\r\n            \"cptl_op_prfi\": \"67.83\",\r\n            \"cptl_ntin_rate\": \"11.81\",\r\n            \"sale_totl_rate\": \"100.00\",\r\n            \"sale_ntin_rate\": \"67.83\",\r\n            \"bis\": \"92.25\",\r\n            \"lblt_rate\": \"8.40\",\r\n            \"bram_depn\": \"0.00\",\r\n            \"rsrv_rate\": \"3992.60\",\r\n            \"grs\": \"17.54\",\r\n            \"op_prfi_inrt\": \"39.10\",\r\n            \"bsop_prfi_inrt\": \"28.15\",\r\n            \"ntin_inrt\": \"50.28\",\r\n            \"equt_inrt\": \"10.96\",\r\n            \"cptl_tnrt\": \"0.19\",\r\n            \"sale_bond_tnrt\": \"0.00\",\r\n            \"totl_aset_inrt\": \"9.40\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"7\",\r\n            \"hts_kor_isnm\": \"한국자산신탁\",\r\n            \"mksc_shrn_iscd\": \"123890\",\r\n            \"stck_prpr\": \"3435\",\r\n            \"prdy_vrss\": \"-40\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.15\",\r\n            \"acml_vol\": \"114745\",\r\n            \"cptl_op_prfi\": \"58.16\",\r\n            \"cptl_ntin_rate\": \"10.28\",\r\n            \"sale_totl_rate\": \"69.89\",\r\n            \"sale_ntin_rate\": \"58.16\",\r\n            \"bis\": \"69.40\",\r\n            \"lblt_rate\": \"44.10\",\r\n            \"bram_depn\": \"23.44\",\r\n            \"rsrv_rate\": \"1556.75\",\r\n            \"grs\": \"9.52\",\r\n            \"op_prfi_inrt\": \"24.86\",\r\n            \"bsop_prfi_inrt\": \"-20.40\",\r\n            \"ntin_inrt\": \"26.18\",\r\n            \"equt_inrt\": \"11.47\",\r\n            \"cptl_tnrt\": \"0.26\",\r\n            \"sale_bond_tnrt\": \"0.00\",\r\n            \"totl_aset_inrt\": \"8.51\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"8\",\r\n            \"hts_kor_isnm\": \"현대지에프홀딩스\",\r\n            \"mksc_shrn_iscd\": \"005440\",\r\n            \"stck_prpr\": \"4190\",\r\n            \"prdy_vrss\": \"85\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"2.07\",\r\n            \"acml_vol\": \"119703\",\r\n            \"cptl_op_prfi\": \"57.82\",\r\n            \"cptl_ntin_rate\": \"32.87\",\r\n            \"sale_totl_rate\": \"16.24\",\r\n            \"sale_ntin_rate\": \"63.46\",\r\n            \"bis\": \"69.32\",\r\n            \"lblt_rate\": \"44.25\",\r\n            \"bram_depn\": \"7.16\",\r\n            \"rsrv_rate\": \"3097.52\",\r\n            \"grs\": \"7.28\",\r\n            \"op_prfi_inrt\": \"1767.95\",\r\n            \"bsop_prfi_inrt\": \"152.41\",\r\n            \"ntin_inrt\": \"957.30\",\r\n            \"equt_inrt\": \"46.84\",\r\n            \"cptl_tnrt\": \"0.75\",\r\n            \"sale_bond_tnrt\": \"3.42\",\r\n            \"totl_aset_inrt\": \"46.43\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"9\",\r\n            \"hts_kor_isnm\": \"HB솔루션\",\r\n            \"mksc_shrn_iscd\": \"297890\",\r\n            \"stck_prpr\": \"4395\",\r\n            \"prdy_vrss\": \"240\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"5.78\",\r\n            \"acml_vol\": \"4360947\",\r\n            \"cptl_op_prfi\": \"56.59\",\r\n            \"cptl_ntin_rate\": \"26.88\",\r\n            \"sale_totl_rate\": \"26.37\",\r\n            \"sale_ntin_rate\": \"56.59\",\r\n            \"bis\": \"76.96\",\r\n            \"lblt_rate\": \"29.94\",\r\n            \"bram_depn\": \"9.95\",\r\n            \"rsrv_rate\": \"483.05\",\r\n            \"grs\": \"-40.05\",\r\n            \"op_prfi_inrt\": \"87.41\",\r\n            \"bsop_prfi_inrt\": \"-53.78\",\r\n            \"ntin_inrt\": \"57.18\",\r\n            \"equt_inrt\": \"56.07\",\r\n            \"cptl_tnrt\": \"0.66\",\r\n            \"sale_bond_tnrt\": \"9.13\",\r\n            \"totl_aset_inrt\": \"31.92\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"10\",\r\n            \"hts_kor_isnm\": \"액토즈소프트\",\r\n            \"mksc_shrn_iscd\": \"052790\",\r\n            \"stck_prpr\": \"9200\",\r\n            \"prdy_vrss\": \"120\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.32\",\r\n            \"acml_vol\": \"11322\",\r\n            \"cptl_op_prfi\": \"52.47\",\r\n            \"cptl_ntin_rate\": \"13.07\",\r\n            \"sale_totl_rate\": \"85.52\",\r\n            \"sale_ntin_rate\": \"52.47\",\r\n            \"bis\": \"67.95\",\r\n            \"lblt_rate\": \"47.16\",\r\n            \"bram_depn\": \"1.56\",\r\n            \"rsrv_rate\": \"4140.61\",\r\n            \"grs\": \"35.08\",\r\n            \"op_prfi_inrt\": \"173.49\",\r\n            \"bsop_prfi_inrt\": \"50.33\",\r\n            \"ntin_inrt\": \"339.23\",\r\n            \"equt_inrt\": \"4.24\",\r\n            \"cptl_tnrt\": \"0.38\",\r\n            \"sale_bond_tnrt\": \"1.69\",\r\n            \"totl_aset_inrt\": \"-0.86\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"11\",\r\n            \"hts_kor_isnm\": \"비올\",\r\n            \"mksc_shrn_iscd\": \"335890\",\r\n            \"stck_prpr\": \"9000\",\r\n            \"prdy_vrss\": \"-220\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-2.39\",\r\n            \"acml_vol\": \"2021224\",\r\n            \"cptl_op_prfi\": \"50.71\",\r\n            \"cptl_ntin_rate\": \"39.77\",\r\n            \"sale_totl_rate\": \"77.77\",\r\n            \"sale_ntin_rate\": \"50.71\",\r\n            \"bis\": \"89.42\",\r\n            \"lblt_rate\": \"11.83\",\r\n            \"bram_depn\": \"1.02\",\r\n            \"rsrv_rate\": \"930.70\",\r\n            \"grs\": \"36.69\",\r\n            \"op_prfi_inrt\": \"89.29\",\r\n            \"bsop_prfi_inrt\": \"72.80\",\r\n            \"ntin_inrt\": \"87.93\",\r\n            \"equt_inrt\": \"46.71\",\r\n            \"cptl_tnrt\": \"0.89\",\r\n            \"sale_bond_tnrt\": \"9.93\",\r\n            \"totl_aset_inrt\": \"43.43\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"0\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"12\",\r\n            \"hts_kor_isnm\": \"케어젠\",\r\n            \"mksc_shrn_iscd\": \"214370\",\r\n            \"stck_prpr\": \"24250\",\r\n            \"prdy_vrss\": \"300\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.25\",\r\n            \"acml_vol\": \"92291\",\r\n            \"cptl_op_prfi\": \"50.41\",\r\n            \"cptl_ntin_rate\": \"16.59\",\r\n            \"sale_totl_rate\": \"73.68\",\r\n            \"sale_ntin_rate\": \"50.41\",\r\n            \"bis\": \"91.92\",\r\n            \"lblt_rate\": \"8.79\",\r\n            \"bram_depn\": \"0.00\",\r\n            \"rsrv_rate\": \"5382.82\",\r\n            \"grs\": \"14.63\",\r\n            \"op_prfi_inrt\": \"43.87\",\r\n            \"bsop_prfi_inrt\": \"20.08\",\r\n            \"ntin_inrt\": \"46.71\",\r\n            \"equt_inrt\": \"5.24\",\r\n            \"cptl_tnrt\": \"0.36\",\r\n            \"sale_bond_tnrt\": \"7.88\",\r\n            \"totl_aset_inrt\": \"5.64\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"0\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"13\",\r\n            \"hts_kor_isnm\": \"캡스톤파트너스\",\r\n            \"mksc_shrn_iscd\": \"452300\",\r\n            \"stck_prpr\": \"4840\",\r\n            \"prdy_vrss\": \"470\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"10.76\",\r\n            \"acml_vol\": \"929728\",\r\n            \"cptl_op_prfi\": \"50.13\",\r\n            \"cptl_ntin_rate\": \"20.74\",\r\n            \"sale_totl_rate\": \"90.77\",\r\n            \"sale_ntin_rate\": \"50.13\",\r\n            \"bis\": \"62.63\",\r\n            \"lblt_rate\": \"59.66\",\r\n            \"bram_depn\": \"25.63\",\r\n            \"rsrv_rate\": \"867.77\",\r\n            \"grs\": \"-15.09\",\r\n            \"op_prfi_inrt\": \"13.50\",\r\n            \"bsop_prfi_inrt\": \"-7.40\",\r\n            \"ntin_inrt\": \"8.21\",\r\n            \"equt_inrt\": \"40.76\",\r\n            \"cptl_tnrt\": \"0.68\",\r\n            \"sale_bond_tnrt\": \"0.00\",\r\n            \"totl_aset_inrt\": \"33.35\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"14\",\r\n            \"hts_kor_isnm\": \"HB인베스트먼트\",\r\n            \"mksc_shrn_iscd\": \"440290\",\r\n            \"stck_prpr\": \"3215\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"acml_vol\": \"26774\",\r\n            \"cptl_op_prfi\": \"46.91\",\r\n            \"cptl_ntin_rate\": \"15.32\",\r\n            \"sale_totl_rate\": \"90.90\",\r\n            \"sale_ntin_rate\": \"46.91\",\r\n            \"bis\": \"90.89\",\r\n            \"lblt_rate\": \"10.03\",\r\n            \"bram_depn\": \"0.00\",\r\n            \"rsrv_rate\": \"388.81\",\r\n            \"grs\": \"39.39\",\r\n            \"op_prfi_inrt\": \"19.39\",\r\n            \"bsop_prfi_inrt\": \"19.53\",\r\n            \"ntin_inrt\": \"22.90\",\r\n            \"equt_inrt\": \"20.05\",\r\n            \"cptl_tnrt\": \"0.36\",\r\n            \"sale_bond_tnrt\": \"0.00\",\r\n            \"totl_aset_inrt\": \"22.87\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"15\",\r\n            \"hts_kor_isnm\": \"클래시스\",\r\n            \"mksc_shrn_iscd\": \"214150\",\r\n            \"stck_prpr\": \"34650\",\r\n            \"prdy_vrss\": \"50\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.14\",\r\n            \"acml_vol\": \"73547\",\r\n            \"cptl_op_prfi\": \"43.97\",\r\n            \"cptl_ntin_rate\": \"22.47\",\r\n            \"sale_totl_rate\": \"77.78\",\r\n            \"sale_ntin_rate\": \"43.97\",\r\n            \"bis\": \"74.68\",\r\n            \"lblt_rate\": \"33.91\",\r\n            \"bram_depn\": \"18.35\",\r\n            \"rsrv_rate\": \"4332.41\",\r\n            \"grs\": \"31.36\",\r\n            \"op_prfi_inrt\": \"34.19\",\r\n            \"bsop_prfi_inrt\": \"36.92\",\r\n            \"ntin_inrt\": \"29.08\",\r\n            \"equt_inrt\": \"34.41\",\r\n            \"cptl_tnrt\": \"0.71\",\r\n            \"sale_bond_tnrt\": \"15.34\",\r\n            \"totl_aset_inrt\": \"8.62\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"16\",\r\n            \"hts_kor_isnm\": \"코엔텍\",\r\n            \"mksc_shrn_iscd\": \"029960\",\r\n            \"stck_prpr\": \"6830\",\r\n            \"prdy_vrss\": \"-40\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.58\",\r\n            \"acml_vol\": \"14290\",\r\n            \"cptl_op_prfi\": \"43.84\",\r\n            \"cptl_ntin_rate\": \"19.67\",\r\n            \"sale_totl_rate\": \"58.73\",\r\n            \"sale_ntin_rate\": \"43.84\",\r\n            \"bis\": \"81.88\",\r\n            \"lblt_rate\": \"22.13\",\r\n            \"bram_depn\": \"5.39\",\r\n            \"rsrv_rate\": \"622.42\",\r\n            \"grs\": \"21.85\",\r\n            \"op_prfi_inrt\": \"34.98\",\r\n            \"bsop_prfi_inrt\": \"32.27\",\r\n            \"ntin_inrt\": \"33.51\",\r\n            \"equt_inrt\": \"9.68\",\r\n            \"cptl_tnrt\": \"0.55\",\r\n            \"sale_bond_tnrt\": \"9.00\",\r\n            \"totl_aset_inrt\": \"7.26\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"17\",\r\n            \"hts_kor_isnm\": \"폴라리스오피스\",\r\n            \"mksc_shrn_iscd\": \"041020\",\r\n            \"stck_prpr\": \"7150\",\r\n            \"prdy_vrss\": \"-60\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.83\",\r\n            \"acml_vol\": \"560557\",\r\n            \"cptl_op_prfi\": \"43.82\",\r\n            \"cptl_ntin_rate\": \"18.08\",\r\n            \"sale_totl_rate\": \"39.36\",\r\n            \"sale_ntin_rate\": \"43.82\",\r\n            \"bis\": \"81.59\",\r\n            \"lblt_rate\": \"22.57\",\r\n            \"bram_depn\": \"4.04\",\r\n            \"rsrv_rate\": \"247.49\",\r\n            \"grs\": \"254.29\",\r\n            \"op_prfi_inrt\": \"125.32\",\r\n            \"bsop_prfi_inrt\": \"221.82\",\r\n            \"ntin_inrt\": \"116.06\",\r\n            \"equt_inrt\": \"331.24\",\r\n            \"cptl_tnrt\": \"0.50\",\r\n            \"sale_bond_tnrt\": \"4.79\",\r\n            \"totl_aset_inrt\": \"375.94\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"18\",\r\n            \"hts_kor_isnm\": \"바이오플러스\",\r\n            \"mksc_shrn_iscd\": \"099430\",\r\n            \"stck_prpr\": \"6810\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"acml_vol\": \"54755\",\r\n            \"cptl_op_prfi\": \"41.60\",\r\n            \"cptl_ntin_rate\": \"17.49\",\r\n            \"sale_totl_rate\": \"60.54\",\r\n            \"sale_ntin_rate\": \"41.60\",\r\n            \"bis\": \"79.41\",\r\n            \"lblt_rate\": \"25.92\",\r\n            \"bram_depn\": \"4.46\",\r\n            \"rsrv_rate\": \"336.08\",\r\n            \"grs\": \"21.50\",\r\n            \"op_prfi_inrt\": \"28.55\",\r\n            \"bsop_prfi_inrt\": \"16.99\",\r\n            \"ntin_inrt\": \"36.82\",\r\n            \"equt_inrt\": \"18.57\",\r\n            \"cptl_tnrt\": \"0.53\",\r\n            \"sale_bond_tnrt\": \"3.47\",\r\n            \"totl_aset_inrt\": \"39.69\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"19\",\r\n            \"hts_kor_isnm\": \"HPSP\",\r\n            \"mksc_shrn_iscd\": \"403870\",\r\n            \"stck_prpr\": \"52800\",\r\n            \"prdy_vrss\": \"600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"1.15\",\r\n            \"acml_vol\": \"224631\",\r\n            \"cptl_op_prfi\": \"41.43\",\r\n            \"cptl_ntin_rate\": \"37.44\",\r\n            \"sale_totl_rate\": \"69.10\",\r\n            \"sale_ntin_rate\": \"41.43\",\r\n            \"bis\": \"74.88\",\r\n            \"lblt_rate\": \"33.55\",\r\n            \"bram_depn\": \"1.17\",\r\n            \"rsrv_rate\": \"1825.82\",\r\n            \"grs\": \"73.66\",\r\n            \"op_prfi_inrt\": \"86.18\",\r\n            \"bsop_prfi_inrt\": \"88.39\",\r\n            \"ntin_inrt\": \"86.75\",\r\n            \"equt_inrt\": \"270.38\",\r\n            \"cptl_tnrt\": \"1.28\",\r\n            \"sale_bond_tnrt\": \"41.66\",\r\n            \"totl_aset_inrt\": \"184.79\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"20\",\r\n            \"hts_kor_isnm\": \"컴퍼니케이\",\r\n            \"mksc_shrn_iscd\": \"307930\",\r\n            \"stck_prpr\": \"8030\",\r\n            \"prdy_vrss\": \"-60\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.74\",\r\n            \"acml_vol\": \"209397\",\r\n            \"cptl_op_prfi\": \"40.84\",\r\n            \"cptl_ntin_rate\": \"7.52\",\r\n            \"sale_totl_rate\": \"71.06\",\r\n            \"sale_ntin_rate\": \"40.84\",\r\n            \"bis\": \"89.16\",\r\n            \"lblt_rate\": \"12.16\",\r\n            \"bram_depn\": \"6.37\",\r\n            \"rsrv_rate\": \"692.91\",\r\n            \"grs\": \"-42.27\",\r\n            \"op_prfi_inrt\": \"-71.04\",\r\n            \"bsop_prfi_inrt\": \"-70.37\",\r\n            \"ntin_inrt\": \"-65.74\",\r\n            \"equt_inrt\": \"3.96\",\r\n            \"cptl_tnrt\": \"0.21\",\r\n            \"sale_bond_tnrt\": \"0.00\",\r\n            \"totl_aset_inrt\": \"1.62\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"21\",\r\n            \"hts_kor_isnm\": \"피에스케이홀딩스\",\r\n            \"mksc_shrn_iscd\": \"031980\",\r\n            \"stck_prpr\": \"41050\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"acml_vol\": \"72338\",\r\n            \"cptl_op_prfi\": \"39.98\",\r\n            \"cptl_ntin_rate\": \"8.26\",\r\n            \"sale_totl_rate\": \"58.99\",\r\n            \"sale_ntin_rate\": \"39.98\",\r\n            \"bis\": \"84.33\",\r\n            \"lblt_rate\": \"18.58\",\r\n            \"bram_depn\": \"5.18\",\r\n            \"rsrv_rate\": \"2906.96\",\r\n            \"grs\": \"33.25\",\r\n            \"op_prfi_inrt\": \"-0.40\",\r\n            \"bsop_prfi_inrt\": \"81.06\",\r\n            \"ntin_inrt\": \"-5.79\",\r\n            \"equt_inrt\": \"20.21\",\r\n            \"cptl_tnrt\": \"0.24\",\r\n            \"sale_bond_tnrt\": \"8.37\",\r\n            \"totl_aset_inrt\": \"15.97\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"22\",\r\n            \"hts_kor_isnm\": \"린드먼아시아\",\r\n            \"mksc_shrn_iscd\": \"277070\",\r\n            \"stck_prpr\": \"5920\",\r\n            \"prdy_vrss\": \"-110\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-1.82\",\r\n            \"acml_vol\": \"10616\",\r\n            \"cptl_op_prfi\": \"39.24\",\r\n            \"cptl_ntin_rate\": \"3.86\",\r\n            \"sale_totl_rate\": \"88.54\",\r\n            \"sale_ntin_rate\": \"39.24\",\r\n            \"bis\": \"85.69\",\r\n            \"lblt_rate\": \"16.70\",\r\n            \"bram_depn\": \"0.00\",\r\n            \"rsrv_rate\": \"778.36\",\r\n            \"grs\": \"-38.51\",\r\n            \"op_prfi_inrt\": \"-55.32\",\r\n            \"bsop_prfi_inrt\": \"-56.61\",\r\n            \"ntin_inrt\": \"-51.01\",\r\n            \"equt_inrt\": \"1.44\",\r\n            \"cptl_tnrt\": \"0.12\",\r\n            \"sale_bond_tnrt\": \"0.00\",\r\n            \"totl_aset_inrt\": \"0.79\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"23\",\r\n            \"hts_kor_isnm\": \"인포바인\",\r\n            \"mksc_shrn_iscd\": \"115310\",\r\n            \"stck_prpr\": \"22150\",\r\n            \"prdy_vrss\": \"-200\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.89\",\r\n            \"acml_vol\": \"631\",\r\n            \"cptl_op_prfi\": \"38.66\",\r\n            \"cptl_ntin_rate\": \"7.68\",\r\n            \"sale_totl_rate\": \"100.00\",\r\n            \"sale_ntin_rate\": \"38.66\",\r\n            \"bis\": \"92.45\",\r\n            \"lblt_rate\": \"8.17\",\r\n            \"bram_depn\": \"0.00\",\r\n            \"rsrv_rate\": \"8316.36\",\r\n            \"grs\": \"8.90\",\r\n            \"op_prfi_inrt\": \"25.12\",\r\n            \"bsop_prfi_inrt\": \"14.40\",\r\n            \"ntin_inrt\": \"25.51\",\r\n            \"equt_inrt\": \"7.80\",\r\n            \"cptl_tnrt\": \"0.21\",\r\n            \"sale_bond_tnrt\": \"6.74\",\r\n            \"totl_aset_inrt\": \"7.94\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"24\",\r\n            \"hts_kor_isnm\": \"제놀루션\",\r\n            \"mksc_shrn_iscd\": \"225220\",\r\n            \"stck_prpr\": \"3865\",\r\n            \"prdy_vrss\": \"10\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.26\",\r\n            \"acml_vol\": \"8931\",\r\n            \"cptl_op_prfi\": \"38.34\",\r\n            \"cptl_ntin_rate\": \"13.95\",\r\n            \"sale_totl_rate\": \"69.20\",\r\n            \"sale_ntin_rate\": \"38.34\",\r\n            \"bis\": \"82.74\",\r\n            \"lblt_rate\": \"20.86\",\r\n            \"bram_depn\": \"14.75\",\r\n            \"rsrv_rate\": \"2070.62\",\r\n            \"grs\": \"-47.71\",\r\n            \"op_prfi_inrt\": \"-60.40\",\r\n            \"bsop_prfi_inrt\": \"-64.30\",\r\n            \"ntin_inrt\": \"-57.55\",\r\n            \"equt_inrt\": \"15.20\",\r\n            \"cptl_tnrt\": \"0.43\",\r\n            \"sale_bond_tnrt\": \"7.55\",\r\n            \"totl_aset_inrt\": \"20.55\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"25\",\r\n            \"hts_kor_isnm\": \"스틱인베스트먼트\",\r\n            \"mksc_shrn_iscd\": \"026890\",\r\n            \"stck_prpr\": \"7310\",\r\n            \"prdy_vrss\": \"10\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.14\",\r\n            \"acml_vol\": \"42011\",\r\n            \"cptl_op_prfi\": \"37.72\",\r\n            \"cptl_ntin_rate\": \"9.19\",\r\n            \"sale_totl_rate\": \"95.87\",\r\n            \"sale_ntin_rate\": \"37.72\",\r\n            \"bis\": \"92.91\",\r\n            \"lblt_rate\": \"7.63\",\r\n            \"bram_depn\": \"0.00\",\r\n            \"rsrv_rate\": \"1156.76\",\r\n            \"grs\": \"-5.22\",\r\n            \"op_prfi_inrt\": \"65.18\",\r\n            \"bsop_prfi_inrt\": \"38.47\",\r\n            \"ntin_inrt\": \"-6.51\",\r\n            \"equt_inrt\": \"3.14\",\r\n            \"cptl_tnrt\": \"0.26\",\r\n            \"sale_bond_tnrt\": \"0.00\",\r\n            \"totl_aset_inrt\": \"-0.15\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"26\",\r\n            \"hts_kor_isnm\": \"SG&G\",\r\n            \"mksc_shrn_iscd\": \"040610\",\r\n            \"stck_prpr\": \"1690\",\r\n            \"prdy_vrss\": \"-10\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.59\",\r\n            \"acml_vol\": \"78652\",\r\n            \"cptl_op_prfi\": \"37.65\",\r\n            \"cptl_ntin_rate\": \"3.79\",\r\n            \"sale_totl_rate\": \"10.17\",\r\n            \"sale_ntin_rate\": \"37.65\",\r\n            \"bis\": \"83.63\",\r\n            \"lblt_rate\": \"19.57\",\r\n            \"bram_depn\": \"10.94\",\r\n            \"rsrv_rate\": \"1802.44\",\r\n            \"grs\": \"-9.37\",\r\n            \"op_prfi_inrt\": \"-26.36\",\r\n            \"bsop_prfi_inrt\": \"-21.22\",\r\n            \"ntin_inrt\": \"-17.25\",\r\n            \"equt_inrt\": \"10.68\",\r\n            \"cptl_tnrt\": \"0.12\",\r\n            \"sale_bond_tnrt\": \"6.31\",\r\n            \"totl_aset_inrt\": \"1.69\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"27\",\r\n            \"hts_kor_isnm\": \"선바이오\",\r\n            \"mksc_shrn_iscd\": \"067370\",\r\n            \"stck_prpr\": \"8860\",\r\n            \"prdy_vrss\": \"10\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.11\",\r\n            \"acml_vol\": \"9474\",\r\n            \"cptl_op_prfi\": \"37.48\",\r\n            \"cptl_ntin_rate\": \"10.17\",\r\n            \"sale_totl_rate\": \"70.26\",\r\n            \"sale_ntin_rate\": \"37.48\",\r\n            \"bis\": \"58.97\",\r\n            \"lblt_rate\": \"69.59\",\r\n            \"bram_depn\": \"34.57\",\r\n            \"rsrv_rate\": \"360.22\",\r\n            \"grs\": \"65.65\",\r\n            \"op_prfi_inrt\": \"492.04\",\r\n            \"bsop_prfi_inrt\": \"2619.78\",\r\n            \"ntin_inrt\": \"429.92\",\r\n            \"equt_inrt\": \"17.90\",\r\n            \"cptl_tnrt\": \"0.47\",\r\n            \"sale_bond_tnrt\": \"2.98\",\r\n            \"totl_aset_inrt\": \"11.11\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"0\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"28\",\r\n            \"hts_kor_isnm\": \"넥스틴\",\r\n            \"mksc_shrn_iscd\": \"348210\",\r\n            \"stck_prpr\": \"71400\",\r\n            \"prdy_vrss\": \"600\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.85\",\r\n            \"acml_vol\": \"20944\",\r\n            \"cptl_op_prfi\": \"37.13\",\r\n            \"cptl_ntin_rate\": \"25.40\",\r\n            \"sale_totl_rate\": \"70.61\",\r\n            \"sale_ntin_rate\": \"37.13\",\r\n            \"bis\": \"83.18\",\r\n            \"lblt_rate\": \"20.21\",\r\n            \"bram_depn\": \"1.18\",\r\n            \"rsrv_rate\": \"2409.86\",\r\n            \"grs\": \"-26.81\",\r\n            \"op_prfi_inrt\": \"-38.52\",\r\n            \"bsop_prfi_inrt\": \"-37.71\",\r\n            \"ntin_inrt\": \"-36.78\",\r\n            \"equt_inrt\": \"26.57\",\r\n            \"cptl_tnrt\": \"0.83\",\r\n            \"sale_bond_tnrt\": \"8.40\",\r\n            \"totl_aset_inrt\": \"18.22\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"29\",\r\n            \"hts_kor_isnm\": \"인지소프트\",\r\n            \"mksc_shrn_iscd\": \"100030\",\r\n            \"stck_prpr\": \"18730\",\r\n            \"prdy_vrss\": \"-170\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_ctrt\": \"-0.90\",\r\n            \"acml_vol\": \"264\",\r\n            \"cptl_op_prfi\": \"36.63\",\r\n            \"cptl_ntin_rate\": \"13.91\",\r\n            \"sale_totl_rate\": \"41.78\",\r\n            \"sale_ntin_rate\": \"36.63\",\r\n            \"bis\": \"86.72\",\r\n            \"lblt_rate\": \"15.32\",\r\n            \"bram_depn\": \"2.89\",\r\n            \"rsrv_rate\": \"3548.32\",\r\n            \"grs\": \"6.75\",\r\n            \"op_prfi_inrt\": \"-38.13\",\r\n            \"bsop_prfi_inrt\": \"-21.98\",\r\n            \"ntin_inrt\": \"-38.07\",\r\n            \"equt_inrt\": \"-5.06\",\r\n            \"cptl_tnrt\": \"0.45\",\r\n            \"sale_bond_tnrt\": \"17.55\",\r\n            \"totl_aset_inrt\": \"-7.15\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        },\r\n        {\r\n            \"data_rank\": \"30\",\r\n            \"hts_kor_isnm\": \"티케이케미칼\",\r\n            \"mksc_shrn_iscd\": \"104480\",\r\n            \"stck_prpr\": \"1685\",\r\n            \"prdy_vrss\": \"3\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_ctrt\": \"0.18\",\r\n            \"acml_vol\": \"26105\",\r\n            \"cptl_op_prfi\": \"36.53\",\r\n            \"cptl_ntin_rate\": \"21.33\",\r\n            \"sale_totl_rate\": \"4.15\",\r\n            \"sale_ntin_rate\": \"36.53\",\r\n            \"bis\": \"66.22\",\r\n            \"lblt_rate\": \"51.01\",\r\n            \"bram_depn\": \"16.52\",\r\n            \"rsrv_rate\": \"1985.76\",\r\n            \"grs\": \"8.57\",\r\n            \"op_prfi_inrt\": \"-25.90\",\r\n            \"bsop_prfi_inrt\": \"-99.28\",\r\n            \"ntin_inrt\": \"-21.55\",\r\n            \"equt_inrt\": \"41.94\",\r\n            \"cptl_tnrt\": \"0.93\",\r\n            \"sale_bond_tnrt\": \"13.54\",\r\n            \"totl_aset_inrt\": \"24.61\",\r\n            \"stac_month\": \"12\",\r\n            \"stac_month_cls_code\": \"1\",\r\n            \"iqry_csnu\": \"1283\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "sheet_name": "선물옵션기간약정수수료일별",
+  "row_count": 80,
+  "columns": [
+    "선물옵션기간약정수수료일별",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "선물옵션기간약정수수료일별": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "메뉴 위치",
+      "Column_1": "[국내선물옵션] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "API 명",
+      "Column_1": "선물옵션기간약정수수료일별",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "API ID",
+      "Column_1": "v1_국내선물-017",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "실전 TR_ID",
+      "Column_1": "CTFO6119R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "URL 명",
+      "Column_1": "/uapi/domestic-futureoption/v1/trading/inquire-daily-amount-fee",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "개요",
+      "Column_1": "선물옵션기간약정수수료일별 API입니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "CTFO6119R",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공백 : 초기 조회\r\nN : 다음 데이터 조회 (output header의 tr_cont가 M일 경우)",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "INQR_STRT_DAY",
+      "Column_2": "조회시작일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "조회시작일(YYYYMMDD)",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "INQR_END_DAY",
+      "Column_2": "조회종료일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "조회종료일(YYYYMMDD)",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "CTX_AREA_FK200",
+      "Column_2": "연속조회검색조건200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "연속조회검색조건200",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "CTX_AREA_NK200",
+      "Column_2": "연속조회키200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": " 연속조회키200",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "F or M : 다음 데이터 있음\r\nD or E : 마지막 데이터",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "ord_dt",
+      "Column_2": "주문일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "item_name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "sll_agrm_amt",
+      "Column_2": "매도약정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "sll_fee",
+      "Column_2": "매도수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "buy_agrm_amt",
+      "Column_2": "매수약정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "buy_fee",
+      "Column_2": "매수수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "tot_fee_smtl",
+      "Column_2": "총수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "trad_pfls",
+      "Column_2": "매매손익",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세2",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "futr_agrm",
+      "Column_2": "선물약정",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "futr_agrm_amt",
+      "Column_2": "선물약정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "futr_agrm_amt_smtl",
+      "Column_2": "선물약정금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "futr_sll_fee_smtl",
+      "Column_2": "선물매도수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "futr_buy_fee_smtl",
+      "Column_2": "선물매수수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "futr_fee_smtl",
+      "Column_2": "선물수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "opt_agrm",
+      "Column_2": "옵션약정",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "opt_agrm_amt",
+      "Column_2": "옵션약정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "opt_agrm_amt_smtl",
+      "Column_2": "옵션약정금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "opt_sll_fee_smtl",
+      "Column_2": "옵션매도수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "opt_buy_fee_smtl",
+      "Column_2": "옵션매수수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "opt_fee_smtl",
+      "Column_2": "옵션수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "prdt_futr_agrm",
+      "Column_2": "상품선물약정",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "prdt_fuop",
+      "Column_2": "상품선물옵션",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "prdt_futr_evlu_amt",
+      "Column_2": "상품선물평가금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "futr_fee",
+      "Column_2": "선물수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "opt_fee",
+      "Column_2": "옵션수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "fee",
+      "Column_2": "수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "sll_agrm_amt",
+      "Column_2": "매도약정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "buy_agrm_amt",
+      "Column_2": "매수약정금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "agrm_amt_smtl",
+      "Column_2": "약정금액합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "sll_fee",
+      "Column_2": "매도수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "buy_fee",
+      "Column_2": "매수수수료",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "fee_smtl",
+      "Column_2": "수수료합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": null,
+      "Column_1": "trad_pfls_smtl",
+      "Column_2": "매매손익합계",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"CANO\":\"12345678\",\r\n\t\"ACNT_PRDT_CD\":\"03\",\r\n\t\"INQR_STRT_DAY\":\"20230901\",\r\n\t\"INQR_END_DAY\":\"20230920\",\r\n\t\"CTX_AREA_FK200\":\"\",\r\n\t\"CTX_AREA_NK200\":\"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "선물옵션기간약정수수료일별": "Response Example",
+      "Column_1": "{\r\n    \"ctx_area_fk200\": \"12345678!^03!^20230901!^20230920                                                                                                                                                                        \",\r\n    \"ctx_area_nk200\": \" !^                                                                                                                                                                                                     \",\r\n    \"output1\": [\r\n        {\r\n            \"ord_dt\": \"20230901\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"item_name\": \"F 202309\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"0\",\r\n            \"buy_fee\": \"0\",\r\n            \"tot_fee_smtl\": \"0\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230904\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"item_name\": \"F 202309\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"0\",\r\n            \"buy_fee\": \"0\",\r\n            \"tot_fee_smtl\": \"0\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230905\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"item_name\": \"F 202309\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"0\",\r\n            \"buy_fee\": \"0\",\r\n            \"tot_fee_smtl\": \"0\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230906\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"item_name\": \"F 202309\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"0\",\r\n            \"buy_fee\": \"0\",\r\n            \"tot_fee_smtl\": \"0\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230907\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"item_name\": \"F 202309\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"0\",\r\n            \"buy_fee\": \"0\",\r\n            \"tot_fee_smtl\": \"0\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230908\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"item_name\": \"F 202309\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"0\",\r\n            \"buy_fee\": \"0\",\r\n            \"tot_fee_smtl\": \"0\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230911\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"item_name\": \"F 202309\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"0\",\r\n            \"buy_fee\": \"0\",\r\n            \"tot_fee_smtl\": \"0\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230914\",\r\n            \"pdno\": \"KR4101T90003\",\r\n            \"item_name\": \"F 202309\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"0\",\r\n            \"buy_fee\": \"0\",\r\n            \"tot_fee_smtl\": \"0\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230920\",\r\n            \"pdno\": \"KR4101TC0008\",\r\n            \"item_name\": \"F 202312\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"419375000\",\r\n            \"buy_fee\": \"41140\",\r\n            \"tot_fee_smtl\": \"41140\",\r\n            \"trad_pfls\": \"0\"\r\n        },\r\n        {\r\n            \"ord_dt\": \"20230920\",\r\n            \"pdno\": \"KR4201TA3409\",\r\n            \"item_name\": \"C 202310 340.0\",\r\n            \"sll_agrm_amt\": \"0\",\r\n            \"sll_fee\": \"0\",\r\n            \"buy_agrm_amt\": \"700000\",\r\n            \"buy_fee\": \"2750\",\r\n            \"tot_fee_smtl\": \"2750\",\r\n            \"trad_pfls\": \"0\"\r\n        }\r\n    ],\r\n    \"output2\": {\r\n        \"futr_agrm\": \"0\",\r\n        \"futr_agrm_amt\": \"419375000\",\r\n        \"futr_agrm_amt_smtl\": \"419375000\",\r\n        \"futr_sll_fee_smtl\": \"0\",\r\n        \"futr_buy_fee_smtl\": \"41140\",\r\n        \"futr_fee_smtl\": \"41140\",\r\n        \"opt_agrm\": \"0\",\r\n        \"opt_agrm_amt\": \"700000\",\r\n        \"opt_agrm_amt_smtl\": \"700000\",\r\n        \"opt_sll_fee_smtl\": \"0\",\r\n        \"opt_buy_fee_smtl\": \"2750\",\r\n        \"opt_fee_smtl\": \"2750\",\r\n        \"prdt_futr_agrm\": \"0\",\r\n        \"prdt_fuop\": \"0\",\r\n        \"prdt_futr_evlu_amt\": \"0\",\r\n        \"futr_fee\": \"0\",\r\n        \"opt_fee\": \"0\",\r\n        \"fee\": \"0\",\r\n        \"sll_agrm_amt\": \"0\",\r\n        \"buy_agrm_amt\": \"420075000\",\r\n        \"agrm_amt_smtl\": \"420075000\",\r\n        \"sll_fee\": \"0\",\r\n        \"buy_fee\": \"43890\",\r\n        \"fee_smtl\": \"43890\",\r\n        \"trad_pfls_smtl\": \"0\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0460\",\r\n    \"msg1\": \"조회 되었습니다. (마지막 자료)                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

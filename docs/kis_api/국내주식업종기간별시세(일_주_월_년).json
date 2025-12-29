@@ -1,0 +1,696 @@
+{
+  "sheet_name": "국내주식업종기간별시세(일_주_월_년)",
+  "row_count": 68,
+  "columns": [
+    "국내주식업종기간별시세(일_주_월_년)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "메뉴 위치",
+      "Column_1": "[국내주식] 업종/기타",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "API 명",
+      "Column_1": "국내주식업종기간별시세(일_주_월_년)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "API ID",
+      "Column_1": "v1_국내주식-021",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "실전 TR_ID",
+      "Column_1": "FHKUP03500100",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "모의 TR_ID",
+      "Column_1": "FHKUP03500100",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/quotations/inquire-daily-indexchartprice",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "개요",
+      "Column_1": "국내주식 업종기간별시세(일/주/월/년) API입니다.\r\n실전계좌/모의계좌의 경우, 한 번의 호출에 최대 50건까지 확인 가능합니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "'[실전투자/모의투자]\r\nFHKUP03500100'",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 필수] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건 시장 분류 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "업종 : U",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "업종 상세코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "'0001 : 종합\r\n0002 : 대형주\r\n...\r\n포탈 (FAQ : 종목정보 다운로드(국내) - 업종코드 참조)'",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "FID_INPUT_DATE_1",
+      "Column_2": "조회 시작일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "조회 시작일자 (ex. 20220501)",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "FID_INPUT_DATE_2",
+      "Column_2": "조회 종료일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "조회 종료일자 (ex. 20220530)",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "FID_PERIOD_DIV_CODE",
+      "Column_2": "'\t기간분류코드'",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "'\tD:일봉 W:주봉, M:월봉, Y:년봉'",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 필수] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "Single",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일 대비 부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_prdy_ctrt",
+      "Column_2": "업종 지수 전일 대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "prdy_nmix",
+      "Column_2": "전일 지수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "acml_tr_pbmn",
+      "Column_2": "누적 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "hts_kor_isnm",
+      "Column_2": "HTS 한글 종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_prpr",
+      "Column_2": "업종 지수 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_cls_code",
+      "Column_2": "업종 구분 코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "prdy_vol",
+      "Column_2": "전일 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_oprc",
+      "Column_2": "업종 지수 시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_hgpr",
+      "Column_2": "업종 지수 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_lwpr",
+      "Column_2": "업종 지수 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "futs_prdy_oprc",
+      "Column_2": "선물 전일 시가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "futs_prdy_hgpr",
+      "Column_2": "선물 전일 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "futs_prdy_lwpr",
+      "Column_2": "선물 전일 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "Array",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식 영업 일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_prpr",
+      "Column_2": "업종 지수 현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_oprc",
+      "Column_2": "업종 지수 시가2",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_hgpr",
+      "Column_2": "업종 지수 최고가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "bstp_nmix_lwpr",
+      "Column_2": "업종 지수 최저가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적 거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "acml_tr_pbmn",
+      "Column_2": "누적 거래 대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": null,
+      "Column_1": "mod_yn",
+      "Column_2": "변경 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "Request Example (Python)",
+      "Column_1": "\"input\": {\r\n            \"fid_cond_mrkt_div_code\": \"U\",\r\n            \"fid_input_date_1\": \"20220411\",\r\n            \"fid_input_date_2\": \"20220509\",\r\n            \"fid_input_iscd\": \"0001\",\r\n            \"fid_period_div_code\": \"D\"\r\n        }",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "국내주식업종기간별시세(일_주_월_년)": "Response Example",
+      "Column_1": " \"output1\": {\r\n            \"acml_tr_pbmn\": \"4736153\",\r\n            \"acml_vol\": \"305715\",\r\n            \"bstp_cls_code\": \"0001\",\r\n            \"bstp_nmix_hgpr\": \"2653.87\",\r\n            \"bstp_nmix_lwpr\": \"2634.29\",\r\n            \"bstp_nmix_oprc\": \"2651.63\",\r\n            \"bstp_nmix_prdy_ctrt\": \"0.11\",\r\n            \"bstp_nmix_prdy_vrss\": \"2.78\",\r\n            \"bstp_nmix_prpr\": \"2642.07\",\r\n            \"futs_prdy_hgpr\": \"2641.68\",\r\n            \"futs_prdy_lwpr\": \"2605.38\",\r\n            \"futs_prdy_oprc\": \"2605.78\",\r\n            \"hts_kor_isnm\": \"\\uc885\\ud569\",\r\n            \"prdy_nmix\": \"2639.29\",\r\n            \"prdy_vol\": \"755653\",\r\n            \"prdy_vrss_sign\": \"2\"\r\n        },\r\n        \"output2\": [\r\n            {\r\n                \"acml_tr_pbmn\": \"9289660\",\r\n                \"acml_vol\": \"892653\",\r\n                \"bstp_nmix_hgpr\": \"2642.75\",\r\n                \"bstp_nmix_lwpr\": \"2606.08\",\r\n                \"bstp_nmix_oprc\": \"2634.32\",\r\n                \"bstp_nmix_prpr\": \"2610.81\",\r\n                \"mod_yn\": \"N\",\r\n                \"stck_bsop_date\": \"20220509\"\r\n            },\r\n            {\r\n                \"acml_tr_pbmn\": \"10595418\",\r\n                \"acml_vol\": \"1333936\",\r\n.....",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

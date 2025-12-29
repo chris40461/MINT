@@ -1,0 +1,776 @@
+{
+  "sheet_name": "해외주식 미체결내역",
+  "row_count": 76,
+  "columns": [
+    "해외주식 미체결내역",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "해외주식 미체결내역": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "메뉴 위치",
+      "Column_1": "[해외주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "API 명",
+      "Column_1": "해외주식 미체결내역",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "API ID",
+      "Column_1": "v1_해외주식-005",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "실전 TR_ID",
+      "Column_1": "TTTS3018R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "URL 명",
+      "Column_1": "/uapi/overseas-stock/v1/trading/inquire-nccs",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "개요",
+      "Column_1": "접수된 해외주식 주문 중 체결되지 않은 미체결 내역을 조회하는 API입니다.\r\n실전계좌의 경우, 한 번의 호출에 최대 40건까지 확인 가능하며, 이후의 값은 연속조회를 통해 확인하실 수 있습니다. \r\n\r\n※ 해외주식 미체결내역 API 모의투자에서는 사용이 불가합니다. \r\n   모의투자로 해외주식 미체결내역 확인시에는 해외주식 주문체결내역[v1_해외주식-007] API 조회하셔서 nccs_qty(미체결수량)으로 해외주식 미체결수량을 조회하실 수 있습니다.\r\n\r\n\r\n* 해외주식 서비스 신청 후 이용 가능합니다. (아래 링크 3번 해외증권 거래신청 참고)\r\nhttps://securities.koreainvestment.com/main/bond/research/_static/TF03ca010001.jsp\r\n\r\n* 해외 거래소 운영시간(한국시간 기준)\r\n1) 미국 : 23:30 ~ 06:00 (썸머타임 적용 시 22:30 ~ 05:00) \r\n   * 프리마켓(18:00 ~ 23:30, Summer Time : 17:00 ~ 22:30), 애프터마켓(06:00 ~ 07:00, Summer Time : 05:00 ~ 07:00)\r\n2) 일본 : (오전) 09:00 ~ 11:30, (오후) 12:30 ~ 15:00\r\n3) 상해 : 10:30 ~ 16:00\r\n4) 홍콩 : (오전) 10:30 ~ 13:00, (오후) 14:00 ~ 17:00",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token\r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용)\r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, Oauth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키 ",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자]\r\nTTTS3018R",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인\r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호\r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "OVRS_EXCG_CD",
+      "Column_2": "해외거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "NASD : 나스닥\r\nNYSE : 뉴욕 \r\nAMEX : 아멕스\r\nSEHK : 홍콩\r\nSHAA : 중국상해\r\nSZAA : 중국심천\r\nTKSE : 일본\r\nHASE : 베트남 하노이\r\nVNSE : 베트남 호치민\r\n\r\n* NASD 인 경우만 미국전체로 조회되며 나머지 거래소 코드는 해당 거래소만 조회됨\r\n* 공백 입력 시 다음조회가 불가능하므로, 반드시 거래소코드 입력해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "SORT_SQN",
+      "Column_2": "정렬순서",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "DS : 정순\r\n그외 : 역순\r\n\r\n[header tr_id: TTTS3018R]\r\n\"\"(공란)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "CTX_AREA_FK200",
+      "Column_2": "연속조회검색조건200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "공란 : 최초 조회시\r\n이전 조회 Output CTX_AREA_FK200값 : 다음페이지 조회시(2번째부터)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "CTX_AREA_NK200",
+      "Column_2": "연속조회키200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "공란 : 최초 조회시\r\n이전 조회 Output CTX_AREA_NK200값 : 다음페이지 조회시(2번째부터)",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공 \r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "응답코드",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "응답메세지",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ctx_area_fk200",
+      "Column_2": "연속조회검색조건200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ctx_area_nk200",
+      "Column_2": "연속조회키200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "array",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ord_dt",
+      "Column_2": "주문일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "주문접수 일자",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ord_gno_brno",
+      "Column_2": "주문채번지점번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "계좌 개설 시 관리점으로 선택한 영업점의 고유번호",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "odno",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "접수한 주문의 일련번호",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "orgn_odno",
+      "Column_2": "원주문번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "정정 또는 취소 대상 주문의 일련번호",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "prdt_name",
+      "Column_2": "상품명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "종목명",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "sll_buy_dvsn_cd",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 매도\r\n02 : 매수",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "sll_buy_dvsn_cd_name",
+      "Column_2": "매도매수구분코드명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "매수매도구분명",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "rvse_cncl_dvsn_cd",
+      "Column_2": "정정취소구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "01 : 정정\r\n02 : 취소",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "rvse_cncl_dvsn_cd_name",
+      "Column_2": "정정취소구분코드명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "정정취소구분명",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "rjct_rson",
+      "Column_2": "거부사유",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "정상 처리되지 못하고 거부된 주문의 사유",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "rjct_rson_name",
+      "Column_2": "거부사유명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "정상 처리되지 못하고 거부된 주문의 사유명",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ord_tmd",
+      "Column_2": "주문시각",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "6",
+      "Column_6": "주문 접수 시간 ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "tr_mket_name",
+      "Column_2": "거래시장명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "tr_crcy_cd",
+      "Column_2": "거래통화코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": "USD : 미국달러\r\nHKD : 홍콩달러\r\nCNY : 중국위안화\r\nJPY : 일본엔화\r\nVND : 베트남동",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "natn_cd",
+      "Column_2": "국가코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "3",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "natn_kor_name",
+      "Column_2": "국가한글명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ft_ord_qty",
+      "Column_2": "FT주문수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "주문수량",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ft_ccld_qty",
+      "Column_2": "FT체결수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "체결된 수량",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "nccs_qty",
+      "Column_2": "미체결수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "미체결수량",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ft_ord_unpr3",
+      "Column_2": "FT주문단가3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "26",
+      "Column_6": "주문가격",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ft_ccld_unpr3",
+      "Column_2": "FT체결단가3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "26",
+      "Column_6": "체결된 가격",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ft_ccld_amt3",
+      "Column_2": "FT체결금액3",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "23",
+      "Column_6": "체결된 금액",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "ovrs_excg_cd",
+      "Column_2": "해외거래소코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "4",
+      "Column_6": "NASD : 나스닥\r\nNYSE : 뉴욕\r\nAMEX : 아멕스\r\nSEHK : 홍콩\r\nSHAA : 중국상해\r\nSZAA : 중국심천\r\nTKSE : 일본\r\nHASE : 베트남 하노이\r\nVNSE : 베트남 호치민",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "prcs_stat_name",
+      "Column_2": "처리상태명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "\"\"",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "loan_type_cd",
+      "Column_2": "대출유형코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "00 해당사항없음\r\n01 자기융자일반형\r\n03 자기융자투자형\r\n05 유통융자일반형\r\n06 유통융자투자형\r\n07 자기대주\r\n09 유통대주\r\n10 현금\r\n11 주식담보대출\r\n12 수익증권담보대출\r\n13 ELS담보대출\r\n14 채권담보대출\r\n15 해외주식담보대출\r\n16 기업신용공여\r\n31 소액자동담보대출\r\n41 매도담보대출\r\n42 환매자금대출\r\n43 매입환매자금대출\r\n44 대여매도담보대출\r\n81 대차거래\r\n82 법인CMA론\r\n91 공모주청약자금대출\r\n92 매입자금\r\n93 미수론서비스\r\n94 대여",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "loan_dt",
+      "Column_2": "대출일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "대출 실행일자",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "usa_amk_exts_rqst_yn",
+      "Column_2": "미국애프터마켓연장신청여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "Y/N",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": null,
+      "Column_1": "splt_buy_attr_name",
+      "Column_2": "분할매수속성명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "60",
+      "Column_6": "정규장 종료 주문 시에는 '정규장 종료', 시간 입력 시에는 from ~ to 시간 표시됨",
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "Request Example (Python)",
+      "Column_1": "{\r\n\"CANO\": \"810XXXXX\",\r\n\"ACNT_PRDT_CD\":\"01\",\r\n\"OVRS_EXCG_CD\": \"NYSE\",\r\n\"SORT_SQN\": \"DS\",\r\n\"CTX_AREA_FK200\": \"\",\r\n\"CTX_AREA_NK200\": \"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "해외주식 미체결내역": "Response Example",
+      "Column_1": "{\r\n  \"ctx_area_fk200\": \"81055689^01^NYSE^DS^                                                                                                                                                                                    \",\r\n  \"ctx_area_nk200\": \"                                                                                                                                                                                                        \",\r\n  \"output\": [\r\n    {\r\n      \"ord_dt\": \"20220112\",\r\n      \"ord_gno_brno\": \"01790\",\r\n      \"odno\": \"0030138112\",\r\n      \"orgn_odno\": \"\",\r\n      \"pdno\": \"BA\",\r\n      \"prdt_name\": \"보잉\",\r\n      \"sll_buy_dvsn_cd\": \"02\",\r\n      \"sll_buy_dvsn_cd_name\": \"매수\",\r\n      \"rvse_cncl_dvsn_cd\": \"00\",\r\n      \"rvse_cncl_dvsn_cd_name\": \"\",\r\n      \"rjct_rson\": \"\",\r\n      \"rjct_rson_name\": \"\",\r\n      \"ord_tmd\": \"163209\",\r\n      \"tr_mket_name\": \"뉴욕거래소\",\r\n      \"tr_crcy_cd\": \"USD\",\r\n      \"natn_cd\": \"840\",\r\n      \"natn_kor_name\": \"미국\",\r\n      \"ft_ord_qty\": \"1\",\r\n      \"ft_ccld_qty\": \"0\",\r\n      \"nccs_qty\": \"1\",\r\n      \"ft_ord_unpr3\": \"200.00000000\",\r\n      \"ft_ccld_unpr3\": \"0.00000000\",\r\n      \"ft_ccld_amt3\": \"0.00000\",\r\n      \"ovrs_excg_cd\": \"NYSE\",\r\n      \"prcs_stat_name\": \"\",\r\n      \"loan_type_cd\": \"10\",\r\n      \"loan_dt\": \"\"\r\n    },\r\n    {\r\n      \"ord_dt\": \"20220112\",\r\n      \"ord_gno_brno\": \"01790\",\r\n      \"odno\": \"0030138113\",\r\n      \"orgn_odno\": \"\",\r\n      \"pdno\": \"BA\",\r\n      \"prdt_name\": \"보잉\",\r\n      \"sll_buy_dvsn_cd\": \"02\",\r\n      \"sll_buy_dvsn_cd_name\": \"매수\",\r\n      \"rvse_cncl_dvsn_cd\": \"00\",\r\n      \"rvse_cncl_dvsn_cd_name\": \"\",\r\n      \"rjct_rson\": \"\",\r\n      \"rjct_rson_name\": \"\",\r\n      \"ord_tmd\": \"163211\",\r\n      \"tr_mket_name\": \"뉴욕거래소\",\r\n      \"tr_crcy_cd\": \"USD\",\r\n      \"natn_cd\": \"840\",\r\n      \"natn_kor_name\": \"미국\",\r\n      \"ft_ord_qty\": \"1\",\r\n      \"ft_ccld_qty\": \"0\",\r\n      \"nccs_qty\": \"1\",\r\n      \"ft_ord_unpr3\": \"200.00000000\",\r\n      \"ft_ccld_unpr3\": \"0.00000000\",\r\n      \"ft_ccld_amt3\": \"0.00000\",\r\n      \"ovrs_excg_cd\": \"NYSE\",\r\n      \"prcs_stat_name\": \"\",\r\n      \"loan_type_cd\": \"10\",\r\n      \"loan_dt\": \"\",\r\n      \"loan_dt\": \"\"\r\n    }\r\n  ],\r\n  \"rt_cd\": \"0\",\r\n  \"msg_cd\": \"KIOK0510\",\r\n  \"msg1\": \"조회가 완료되었습니다                                                           \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

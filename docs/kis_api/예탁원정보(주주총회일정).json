@@ -1,0 +1,516 @@
+{
+  "sheet_name": "예탁원정보(주주총회일정)",
+  "row_count": 50,
+  "columns": [
+    "예탁원정보(주주총회일정)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "예탁원정보(주주총회일정)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "메뉴 위치",
+      "Column_1": "[국내주식] 종목정보",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "API 명",
+      "Column_1": "예탁원정보(주주총회일정)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "API ID",
+      "Column_1": "국내주식-154",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "실전 TR_ID",
+      "Column_1": "HHKDB669111C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/ksdinfo/sharehld-meet",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "개요",
+      "Column_1": "예탁원정보(주주총회일정) API입니다. \r\n한국투자 HTS(eFriend Plus) &gt; [0759] 주주총회 화면의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.\r\n\r\n※ 예탁원에서 제공한 자료이므로 정보용으로만 사용하시기 바랍니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "HHKDB669111C0",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "Request Query Parameter",
+      "Column_1": "CTS",
+      "Column_2": "CTS",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "17",
+      "Column_6": "공백 ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "F_DT",
+      "Column_2": "조회일자From",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "일자 ~",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "T_DT",
+      "Column_2": "조회일자To",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "~ 일자",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "SHT_CD",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": "공백: 전체,  특정종목 조회시 : 종목코드",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "record_date",
+      "Column_2": "기준일",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "sht_cd",
+      "Column_2": "종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "isin_name",
+      "Column_2": "종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "gen_meet_dt",
+      "Column_2": "주총일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "gen_meet_type",
+      "Column_2": "주총사유",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "agenda",
+      "Column_2": "주총의안",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "71",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": null,
+      "Column_1": "vote_tot_qty",
+      "Column_2": "의결권주식총수",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "Request Example (Python)",
+      "Column_1": "cts:\r\nf_dt:20230101\r\nt_dt:20240326\r\nsht_cd:",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "예탁원정보(주주총회일정)": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"record_date\": \"20240322\",\r\n            \"sht_cd\": \"388370\",\r\n            \"isin_name\": \"(주)우앤컴퍼니\",\r\n            \"gen_meet_dt\": \"2024/04/18\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"정관변경\",\r\n            \"vote_tot_qty\": \"      959800\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240322\",\r\n            \"sht_cd\": \"388370\",\r\n            \"isin_name\": \"(주)우앤컴퍼니\",\r\n            \"gen_meet_dt\": \"2024/04/18\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"이사선임\",\r\n            \"vote_tot_qty\": \"      959800\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240321\",\r\n            \"sht_cd\": \"323530\",\r\n            \"isin_name\": \"(주)아이월드제약\",\r\n            \"gen_meet_dt\": \"2024/04/25\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"사내이사 선임\",\r\n            \"vote_tot_qty\": \"    25721999\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240321\",\r\n            \"sht_cd\": \"323530\",\r\n            \"isin_name\": \"(주)아이월드제약\",\r\n            \"gen_meet_dt\": \"2024/04/25\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"정관변경\",\r\n            \"vote_tot_qty\": \"    25721999\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240321\",\r\n            \"sht_cd\": \"323530\",\r\n            \"isin_name\": \"(주)아이월드제약\",\r\n            \"gen_meet_dt\": \"2024/04/25\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"사외이사 선임\",\r\n            \"vote_tot_qty\": \"    25721999\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"091090\",\r\n            \"isin_name\": \"세원이앤씨(주)\",\r\n            \"gen_meet_dt\": \"2024/04/12\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"이사해임(주주제안)\",\r\n            \"vote_tot_qty\": \"    52754723\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"091090\",\r\n            \"isin_name\": \"세원이앤씨(주)\",\r\n            \"gen_meet_dt\": \"2024/04/12\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"정관변경(주주제안)\",\r\n            \"vote_tot_qty\": \"    52754723\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"091090\",\r\n            \"isin_name\": \"세원이앤씨(주)\",\r\n            \"gen_meet_dt\": \"2024/04/12\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"이사해임(주주제안)\",\r\n            \"vote_tot_qty\": \"    52754723\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"091090\",\r\n            \"isin_name\": \"세원이앤씨(주)\",\r\n            \"gen_meet_dt\": \"2024/04/12\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"사외이사 선임(주주제안)\",\r\n            \"vote_tot_qty\": \"    52754723\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240315\",\r\n            \"sht_cd\": \"091090\",\r\n            \"isin_name\": \"세원이앤씨(주)\",\r\n            \"gen_meet_dt\": \"2024/04/12\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"사내이사 선임(주주제안)\",\r\n            \"vote_tot_qty\": \"    52754723\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240312\",\r\n            \"sht_cd\": \"380440\",\r\n            \"isin_name\": \"엔에이치기업인수목적19호(주)\",\r\n            \"gen_meet_dt\": \"2024/04/19\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"청산결산보고서승인\",\r\n            \"vote_tot_qty\": \"    10258000\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"263540\",\r\n            \"isin_name\": \"(주)어스앤에어로스페이스\",\r\n            \"gen_meet_dt\": \"2024/04/03\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"사내이사 선임\",\r\n            \"vote_tot_qty\": \"    14294091\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"263540\",\r\n            \"isin_name\": \"(주)어스앤에어로스페이스\",\r\n            \"gen_meet_dt\": \"2024/04/03\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"사내이사 선임\",\r\n            \"vote_tot_qty\": \"    14294091\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"263540\",\r\n            \"isin_name\": \"(주)어스앤에어로스페이스\",\r\n            \"gen_meet_dt\": \"2024/04/03\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"정관변경\",\r\n            \"vote_tot_qty\": \"    14294091\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"263540\",\r\n            \"isin_name\": \"(주)어스앤에어로스페이스\",\r\n            \"gen_meet_dt\": \"2024/04/03\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"사내이사 선임\",\r\n            \"vote_tot_qty\": \"    14294091\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"263540\",\r\n            \"isin_name\": \"(주)어스앤에어로스페이스\",\r\n            \"gen_meet_dt\": \"2024/04/03\",\r\n            \"gen_meet_type\": \"임시총회\",\r\n            \"agenda\": \"사외이사 선임\",\r\n            \"vote_tot_qty\": \"    14294091\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240308\",\r\n            \"sht_cd\": \"343990\",\r\n            \"isin_name\": \"비즈플레이(주)\",\r\n            \"gen_meet_dt\": \"2024/03/27\",\r\n            \"gen_meet_type\": \"종류총회\",\r\n            \"agenda\": \"정관변경\",\r\n            \"vote_tot_qty\": \"    21751896\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240307\",\r\n            \"sht_cd\": \"001140\",\r\n            \"isin_name\": \"(주)국보\",\r\n            \"gen_meet_dt\": \"2024/04/26\",\r\n            \"gen_meet_type\": \"정기총회\",\r\n            \"agenda\": \"사내이사 선임\",\r\n            \"vote_tot_qty\": \"    13691728\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240307\",\r\n            \"sht_cd\": \"001140\",\r\n            \"isin_name\": \"(주)국보\",\r\n            \"gen_meet_dt\": \"2024/04/26\",\r\n            \"gen_meet_type\": \"정기총회\",\r\n            \"agenda\": \"감사선임\",\r\n            \"vote_tot_qty\": \"    13691728\"\r\n        },\r\n        {\r\n            \"record_date\": \"20240307\",\r\n            \"sht_cd\": \"001140\",\r\n            \"isin_name\": \"(주)국보\",\r\n            \"gen_meet_dt\": \"2024/04/26\",\r\n            \"gen_meet_type\": \"정기총회\",\r\n            \"agenda\": \"이사 보수한도액 승인\",\r\n            \"vote_tot_qty\": \"    13691728\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

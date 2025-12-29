@@ -1,0 +1,726 @@
+{
+  "sheet_name": "ELW LP매매추이",
+  "row_count": 71,
+  "columns": [
+    "ELW LP매매추이",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "ELW LP매매추이": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "메뉴 위치",
+      "Column_1": "[국내주식] ELW 시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "API 명",
+      "Column_1": "ELW LP매매추이",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "API ID",
+      "Column_1": "국내주식-182",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "실전 TR_ID",
+      "Column_1": "FHPEW03760000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "모의 TR_ID",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "모의 Domain",
+      "Column_1": "미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "URL 명",
+      "Column_1": "/uapi/elw/v1/quotations/lp-trade-trend",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "개요",
+      "Column_1": "ELW LP매매추이 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0376] ELW LP매매추이 화면 의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHPEW03760000",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "Request Query Parameter",
+      "Column_1": "FID_COND_MRKT_DIV_CODE",
+      "Column_2": "조건시장분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "시장구분(W)",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "입력종목코드(ex 52K577(미래 K577KOSDAQ150콜)",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "elw_prpr",
+      "Column_2": "ELW현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "acml_vol",
+      "Column_2": "누적거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prdy_vol",
+      "Column_2": "전일거래량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "stck_cnvr_rate",
+      "Column_2": "주식전환비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "136",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prit",
+      "Column_2": "패리티",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "lvrg_val",
+      "Column_2": "레버리지값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "114",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "gear",
+      "Column_2": "기어링",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prls_qryr_rate",
+      "Column_2": "손익분기비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "cfp",
+      "Column_2": "자본지지점",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "invl_val",
+      "Column_2": "내재가치값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "132",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "tmvl_val",
+      "Column_2": "시간가치값",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "132",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "acpr",
+      "Column_2": "행사가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "elw_ko_barrier",
+      "Column_2": "조기종료발생기준가격",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "stck_bsop_date",
+      "Column_2": "주식영업일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "elw_prpr",
+      "Column_2": "ELW현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prdy_vrss_sign",
+      "Column_2": "전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prdy_vrss",
+      "Column_2": "전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prdy_ctrt",
+      "Column_2": "전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "lp_seln_qty",
+      "Column_2": "LP매도수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "lp_seln_avrg_unpr",
+      "Column_2": "LP매도평균단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "lp_shnu_qty",
+      "Column_2": "LP매수수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "lp_shnu_avrg_unpr",
+      "Column_2": "LP매수평균단가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "lp_hvol",
+      "Column_2": "LP보유량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "lp_hldn_rate",
+      "Column_2": "LP보유비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "84",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "prsn_deal_qty",
+      "Column_2": "개인매매수량",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": null,
+      "Column_1": "apprch_rate",
+      "Column_2": "접근도",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "Request Example (Python)",
+      "Column_1": "FID_COND_MRKT_DIV_CODE:W\r\nFID_INPUT_ISCD:57K281",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW LP매매추이": "Response Example",
+      "Column_1": "{\r\n    \"output1\": {\r\n        \"elw_prpr\": \"40\",\r\n        \"prdy_vrss_sign\": \"2\",\r\n        \"prdy_vrss\": \"5\",\r\n        \"prdy_ctrt\": \"14.29\",\r\n        \"acml_vol\": \"320750\",\r\n        \"prdy_vol\": \"114850\",\r\n        \"stck_cnvr_rate\": \"0.010000\",\r\n        \"prit\": \"103.35\",\r\n        \"lvrg_val\": \"-12.130651\",\r\n        \"gear\": \"19.3500\",\r\n        \"prls_qryr_rate\": \"-1.8000\",\r\n        \"cfp\": \"-1.7100\",\r\n        \"invl_val\": \"27.00\",\r\n        \"tmvl_val\": \"13.00\",\r\n        \"acpr\": \"80000.00\",\r\n        \"elw_ko_barrier\": \"0.00\"\r\n    },\r\n    \"output2\": [\r\n        {\r\n            \"stck_bsop_date\": \"20240516\",\r\n            \"elw_prpr\": \"35\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"lp_seln_qty\": \"30030\",\r\n            \"lp_seln_avrg_unpr\": \"30\",\r\n            \"lp_shnu_qty\": \"84810\",\r\n            \"lp_shnu_avrg_unpr\": \"34\",\r\n            \"lp_hvol\": \"7999900\",\r\n            \"lp_hldn_rate\": \"99.99\",\r\n            \"prsn_deal_qty\": \"10\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240514\",\r\n            \"elw_prpr\": \"35\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-5\",\r\n            \"prdy_ctrt\": \"-12.50\",\r\n            \"lp_seln_qty\": \"73510\",\r\n            \"lp_seln_avrg_unpr\": \"35\",\r\n            \"lp_shnu_qty\": \"74440\",\r\n            \"lp_shnu_avrg_unpr\": \"35\",\r\n            \"lp_hvol\": \"7945120\",\r\n            \"lp_hldn_rate\": \"99.31\",\r\n            \"prsn_deal_qty\": \"1260\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240513\",\r\n            \"elw_prpr\": \"40\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"10\",\r\n            \"prdy_ctrt\": \"33.33\",\r\n            \"lp_seln_qty\": \"282010\",\r\n            \"lp_seln_avrg_unpr\": \"36\",\r\n            \"lp_shnu_qty\": \"277980\",\r\n            \"lp_shnu_avrg_unpr\": \"36\",\r\n            \"lp_hvol\": \"7944190\",\r\n            \"lp_hldn_rate\": \"99.30\",\r\n            \"prsn_deal_qty\": \"11140\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240510\",\r\n            \"elw_prpr\": \"30\",\r\n            \"prdy_vrss_sign\": \"2\",\r\n            \"prdy_vrss\": \"5\",\r\n            \"prdy_ctrt\": \"20.00\",\r\n            \"lp_seln_qty\": \"137480\",\r\n            \"lp_seln_avrg_unpr\": \"27\",\r\n            \"lp_shnu_qty\": \"209950\",\r\n            \"lp_shnu_avrg_unpr\": \"25\",\r\n            \"lp_hvol\": \"7948220\",\r\n            \"lp_hldn_rate\": \"99.35\",\r\n            \"prsn_deal_qty\": \"2040\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240509\",\r\n            \"elw_prpr\": \"25\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"lp_seln_qty\": \"280020\",\r\n            \"lp_seln_avrg_unpr\": \"25\",\r\n            \"lp_shnu_qty\": \"209910\",\r\n            \"lp_shnu_avrg_unpr\": \"25\",\r\n            \"lp_hvol\": \"7875750\",\r\n            \"lp_hldn_rate\": \"98.44\",\r\n            \"prsn_deal_qty\": \"120\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240508\",\r\n            \"elw_prpr\": \"25\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"lp_seln_qty\": \"630000\",\r\n            \"lp_seln_avrg_unpr\": \"25\",\r\n            \"lp_shnu_qty\": \"630000\",\r\n            \"lp_shnu_avrg_unpr\": \"25\",\r\n            \"lp_hvol\": \"7945860\",\r\n            \"lp_hldn_rate\": \"99.32\",\r\n            \"prsn_deal_qty\": \"10000\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240507\",\r\n            \"elw_prpr\": \"25\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-20\",\r\n            \"prdy_ctrt\": \"-44.44\",\r\n            \"lp_seln_qty\": \"98550\",\r\n            \"lp_seln_avrg_unpr\": \"27\",\r\n            \"lp_shnu_qty\": \"160420\",\r\n            \"lp_shnu_avrg_unpr\": \"28\",\r\n            \"lp_hvol\": \"7945860\",\r\n            \"lp_hldn_rate\": \"99.32\",\r\n            \"prsn_deal_qty\": \"26200\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240503\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"lp_seln_qty\": \"501890\",\r\n            \"lp_seln_avrg_unpr\": \"40\",\r\n            \"lp_shnu_qty\": \"491690\",\r\n            \"lp_shnu_avrg_unpr\": \"40\",\r\n            \"lp_hvol\": \"7883990\",\r\n            \"lp_hldn_rate\": \"98.55\",\r\n            \"prsn_deal_qty\": \"8440\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240502\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"lp_seln_qty\": \"402940\",\r\n            \"lp_seln_avrg_unpr\": \"40\",\r\n            \"lp_shnu_qty\": \"332240\",\r\n            \"lp_shnu_avrg_unpr\": \"40\",\r\n            \"lp_hvol\": \"7894190\",\r\n            \"lp_hldn_rate\": \"98.67\",\r\n            \"prsn_deal_qty\": \"54100\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240430\",\r\n            \"elw_prpr\": \"45\",\r\n            \"prdy_vrss_sign\": \"5\",\r\n            \"prdy_vrss\": \"-5\",\r\n            \"prdy_ctrt\": \"-10.00\",\r\n            \"lp_seln_qty\": \"27840\",\r\n            \"lp_seln_avrg_unpr\": \"48\",\r\n            \"lp_shnu_qty\": \"33540\",\r\n            \"lp_shnu_avrg_unpr\": \"45\",\r\n            \"lp_hvol\": \"7964890\",\r\n            \"lp_hldn_rate\": \"99.56\",\r\n            \"prsn_deal_qty\": \"710\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240429\",\r\n            \"elw_prpr\": \"50\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"lp_seln_qty\": \"211510\",\r\n            \"lp_seln_avrg_unpr\": \"50\",\r\n            \"lp_shnu_qty\": \"175810\",\r\n            \"lp_shnu_avrg_unpr\": \"50\",\r\n            \"lp_hvol\": \"7959190\",\r\n            \"lp_hldn_rate\": \"99.49\",\r\n            \"prsn_deal_qty\": \"15700\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },\r\n        {\r\n            \"stck_bsop_date\": \"20240426\",\r\n            \"elw_prpr\": \"50\",\r\n            \"prdy_vrss_sign\": \"3\",\r\n            \"prdy_vrss\": \"0\",\r\n            \"prdy_ctrt\": \"0.00\",\r\n            \"lp_seln_qty\": \"35700\",\r\n            \"lp_seln_avrg_unpr\": \"50\",\r\n            \"lp_shnu_qty\": \"91400\",\r\n            \"lp_shnu_avrg_unpr\": \"48\",\r\n            \"lp_hvol\": \"7994890\",\r\n            \"lp_hldn_rate\": \"99.93\",\r\n            \"prsn_deal_qty\": \"60\",\r\n            \"apprch_rate\": \"0.00\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

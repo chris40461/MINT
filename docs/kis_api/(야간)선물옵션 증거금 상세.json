@@ -1,0 +1,1286 @@
+{
+  "sheet_name": "(야간)선물옵션 증거금 상세",
+  "row_count": 127,
+  "columns": [
+    "(야간)선물옵션 증거금 상세",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "(야간)선물옵션 증거금 상세": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "메뉴 위치",
+      "Column_1": "[국내선물옵션] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "API 명",
+      "Column_1": "(야간)선물옵션 증거금 상세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "API ID",
+      "Column_1": "국내선물-024",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "실전 TR_ID",
+      "Column_1": "(구) JTCE6003R (신) CTFN7107R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "URL 명",
+      "Column_1": "/uapi/domestic-futureoption/v1/trading/ngt-margin-detail",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "개요",
+      "Column_1": "(야간)선물옵션 증거금상세 API입니다.\r\n한국투자 HTS(eFriend Force) &gt; [2537] 야간선물옵션 증거금상세 화면 의 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "(구) JTCE6003R (신) CTFN7107R",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공백 : 초기 조회\r\nN : 다음 데이터 조회 (output header의 tr_cont가 M일 경우)",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "Request Query Parameter",
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "  ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "MGNA_DVSN_CD",
+      "Column_2": "증거금 구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "위탁(01), 유지(02)",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "F or M : 다음 데이터 있음\r\nD or E : 마지막 데이터",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array\r\n아래 18가지 항목이 순서대로 출력됨\r\n(1) A. 신규증거금 - 선물 - 1.개별종목\r\n(2) A. 신규증거금 - 선물 - 2.스프레드\r\n(3) A. 신규증거금 - 3. ﻿﻿﻿옵션매수증거금\r\n﻿﻿(4) A. 신규증거금 - 4. 옵션매도증거금\r\n﻿﻿(5) A. 소계(1+2+3+4)\r\n(6) B. 순위험증거금 - 1. ﻿﻿가격변동증거금\r\n(7) B. 순위험증거금 - 2. ﻿﻿﻿선물스프레드증거금\r\n﻿﻿(8) B. 순위험증거금 - 3. 인수수도 증거금 등\r\n(9) B. 순위험증거금 - 4. 최소증거금\r\n(10) B. 순위험증거금 - 5. 옵션가격증거금\r\n(11) B. 순위험증거금 - 6. 총위험증거금\r\n(12) B. 소계SUM상품군별MAX[{MAX(1+2+3,4)+5},6]\r\n(13) C. 결제예정금액 - 1. ﻿﻿﻿당일옵션매수금액\r\n(14) ﻿﻿C. 결제예정금액 - 2. 당일옵션매도금액\r\n(15) C. 결제예정금액 - 3. ﻿﻿당일선물손실\r\n﻿﻿﻿(16) C. 결제예정금액 - 4. 당일선물이익 \r\n(17) C.소계(1-2+3-4)\r\n(18) (A)+B+(C)",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "cash_amt",
+      "Column_2": "현금금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "tot_amt",
+      "Column_2": "총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array\r\n아래 5가지 항목이 순서대로 출력됨\r\n(1) 예수금\r\n(2) 인출가능금액\r\n(3) 주문가능금액\r\n﻿﻿(4) 위탁증거금액\r\n﻿﻿(5) 추가증거금액\r\n\r\n※ 인출가능금액은 정산 후 인출가능 예정 금액입니다.\r\n현재 시점 실제 인출 가능금액은 정규장, 야간시장 인출가능금액 중 적은 금액 기준입니다.",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "cash_amt",
+      "Column_2": "현금금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "sbst_amt",
+      "Column_2": "대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "tot_amt",
+      "Column_2": "총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "output3",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "base_dpsa_gdat_grad_cd",
+      "Column_2": "기본예탁금차등등급코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "bfdy_sbst_sll_ccld_amt",
+      "Column_2": "전일대용매도체결금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "bfdy_sbst_sll_sbst_amt",
+      "Column_2": "전일대용매도대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "excc_dfpa",
+      "Column_2": "정산차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "fee_amt",
+      "Column_2": "수수료금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "nxdy_dncl_amt",
+      "Column_2": "익일예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_base_dpsa_gdat_grad_cd",
+      "Column_2": "옵션기본예탁금차등등급코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_buy_exus_acnt_yn",
+      "Column_2": "옵션매수전용계좌여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_dfpa",
+      "Column_2": "옵션차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "prsm_dpast_amt",
+      "Column_2": "추정예탁자산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "thdt_sbst_sll_ccld_amt",
+      "Column_2": "당일대용매도체결금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "thdt_sbst_sll_sbst_amt",
+      "Column_2": "당일대용매도대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "output1",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "Array 신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_new_mgn_amt",
+      "Column_2": "선물신규증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_sprd_ord_mgna",
+      "Column_2": "선물스프레드주문증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_sll_new_mgn_amt",
+      "Column_2": "옵션매도신규증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_buy_new_mgn_amt",
+      "Column_2": "옵션매수신규증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "new_mgn_amt",
+      "Column_2": "신규증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_pric_mgna",
+      "Column_2": "옵션가격증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "fuop_pric_altr_mgna",
+      "Column_2": "선물옵션가격변동증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_sprd_mgna",
+      "Column_2": "선물스프레드증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "uwdl_mgna",
+      "Column_2": "인수도증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "ctrt_per_min_mgna",
+      "Column_2": "계약당최소증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "tot_risk_mgna",
+      "Column_2": "총위험증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "netrisk_brkg_mgna",
+      "Column_2": "순위험위탁증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_sll_chgs",
+      "Column_2": "옵션매도대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_buy_chgs",
+      "Column_2": "옵션매수대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_loss_amt",
+      "Column_2": "선물손실금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_prft_amt",
+      "Column_2": "선물이익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "thdt_ccld_net_loss_amt",
+      "Column_2": "당일체결순손실금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "brkg_mgna",
+      "Column_2": "위탁증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "output2",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "Array 신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_new_mgn_amt",
+      "Column_2": "선물신규증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_sprd_ord_mgna",
+      "Column_2": "선물스프레드주문증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_sll_new_mgn_amt",
+      "Column_2": "옵션매도신규증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_buy_new_mgn_amt",
+      "Column_2": "옵션매수신규증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "new_mgn_amt",
+      "Column_2": "신규증거금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_pric_mgna",
+      "Column_2": "옵션가격증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "fuop_pric_altr_mgna",
+      "Column_2": "선물옵션가격변동증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_sprd_mgna",
+      "Column_2": "선물스프레드증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "uwdl_mgna",
+      "Column_2": "인수도증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "ctrt_per_min_mgna",
+      "Column_2": "계약당최소증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "tot_risk_mgna",
+      "Column_2": "총위험증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "netrisk_brkg_mgna",
+      "Column_2": "순위험위탁증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_sll_chgs",
+      "Column_2": "옵션매도대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_buy_chgs",
+      "Column_2": "옵션매수대금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_loss_amt",
+      "Column_2": "선물손실금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "futr_prft_amt",
+      "Column_2": "선물이익금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "thdt_ccld_net_loss_amt",
+      "Column_2": "당일체결순손실금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "brkg_mgna",
+      "Column_2": "위탁증거금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "output3",
+      "Column_2": "응답상세",
+      "Column_3": "object",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "Single 신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "dnca_cash",
+      "Column_2": "예수금현금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "dnca_sbst",
+      "Column_2": "예수금대용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "dnca_tota",
+      "Column_2": "예수금총액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "wdrw_psbl_cash_amt",
+      "Column_2": "인출가능현금금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "wdrw_psbl_sbsa",
+      "Column_2": "인출가능대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "wdrw_psbl_tot_amt",
+      "Column_2": "인출가능총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "ord_psbl_cash_amt",
+      "Column_2": "주문가능현금금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "ord_psbl_sbsa",
+      "Column_2": "주문가능대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "ord_psbl_tot_amt",
+      "Column_2": "주문가능총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "brkg_mgna_cash_amt",
+      "Column_2": "위탁증거금현금금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "brkg_mgna_sbst",
+      "Column_2": "위탁증거금대용",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "brkg_mgna_tot_amt",
+      "Column_2": "위탁증거금총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "add_mgna_cash_amt",
+      "Column_2": "추가증거금현금금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "add_mgna_sbsa",
+      "Column_2": "추가증거금대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "add_mgna_tot_amt",
+      "Column_2": "추가증거금총금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "bfdy_sbst_sll_sbst_amt",
+      "Column_2": "전일대용매도대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "thdt_sbst_sll_sbst_amt",
+      "Column_2": "당일대용매도대용금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "bfdy_sbst_sll_ccld_amt",
+      "Column_2": "전일대용매도체결금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "thdt_sbst_sll_ccld_amt",
+      "Column_2": "당일대용매도체결금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_dfpa",
+      "Column_2": "옵션차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "excc_dfpa",
+      "Column_2": "정산차금",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "fee_amt",
+      "Column_2": "수수료금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "nxdy_dncl_amt",
+      "Column_2": "익일예수금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "prsm_dpast_amt",
+      "Column_2": "추정예탁자산금액",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_buy_exus_acnt_yn",
+      "Column_2": "옵션매수전용계좌여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "base_dpsa_gdat_grad_cd",
+      "Column_2": "기본예탁금차등등급코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": null,
+      "Column_1": "opt_base_dpsa_gdat_grad_cd",
+      "Column_2": "옵션기본예탁금차등등급코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "19",
+      "Column_6": "신 TR 사용 필드",
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "Request Example (Python)",
+      "Column_1": "CANO:12345678\r\nACNT_PRDT_CD:03\r\nMGNA_DVSN_CD:01",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "(야간)선물옵션 증거금 상세": "Response Example",
+      "Column_1": "{\r\n    \"output1\": [\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        }\r\n    ],\r\n    \"output2\": [\r\n        {\r\n            \"cash_amt\": \"100000000\",\r\n            \"sbst_amt\": \"0\",\r\n            \"tot_amt\": \"100000000\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"100000000\",\r\n            \"sbst_amt\": \"0\",\r\n            \"tot_amt\": \"100000000\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"100000000\",\r\n            \"sbst_amt\": \"0\",\r\n            \"tot_amt\": \"100000000\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"sbst_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        },\r\n        {\r\n            \"cash_amt\": \"0\",\r\n            \"sbst_amt\": \"0\",\r\n            \"tot_amt\": \"0\"\r\n        }\r\n    ],\r\n    \"output3\": {\r\n        \"bfdy_sbst_sll_sbst_amt\": \"0\",\r\n        \"thdt_sbst_sll_sbst_amt\": \"0\",\r\n        \"bfdy_sbst_sll_ccld_amt\": \"0\",\r\n        \"thdt_sbst_sll_ccld_amt\": \"0\",\r\n        \"opt_buy_exus_acnt_yn\": \"N\",\r\n        \"base_dpsa_gdat_grad_cd\": \"03\",\r\n        \"opt_dfpa\": \"0\",\r\n        \"excc_dfpa\": \"0\",\r\n        \"fee_amt\": \"0\",\r\n        \"nxdy_dncl_amt\": \"100000000\",\r\n        \"prsm_dpast_amt\": \"100000000\",\r\n        \"opt_base_dpsa_gdat_grad_cd\": \"01\"\r\n    },\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0510\",\r\n    \"msg1\": \"조회가 완료되었습니다                                                           \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

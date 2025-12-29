@@ -1,0 +1,286 @@
+{
+  "sheet_name": "접근토큰발급(P)",
+  "row_count": 27,
+  "columns": [
+    "접근토큰발급(P)",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "접근토큰발급(P)": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "메뉴 위치",
+      "Column_1": "OAuth인증",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "API 명",
+      "Column_1": "접근토큰발급(P)",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "API ID",
+      "Column_1": "인증-001",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "실전 TR_ID",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "모의 TR_ID",
+      "Column_1": "",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "HTTP Method",
+      "Column_1": "POST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "모의 Domain",
+      "Column_1": "https://openapivts.koreainvestment.com:29443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "URL 명",
+      "Column_1": "/oauth2/tokenP",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "개요",
+      "Column_1": "본인 계좌에 필요한 인증 절차로, 인증을 통해 접근 토큰을 부여받아 오픈API 활용이 가능합니다.\r\n\r\n1. 접근토큰(access_token)의 유효기간은 24시간 이며(1일 1회발급 원칙) \r\n   갱신발급주기는 6시간 입니다.(6시간 이내는 기존 발급키로 응답)\r\n\r\n2. 접근토큰발급(/oauth2/tokenP) 시 접근토큰값(access_token)과 함께 수신되는 \r\n   접근토큰 유효기간(acess_token_token_expired)을 이용해 접근토큰을 관리하실 수 있습니다.\r\n\r\n\r\n[참고]\r\n\r\n'23.4.28 이후 지나치게 잦은 토큰 발급 요청건을 제어 하기 위해 신규 접근토큰발급 이후 일정시간 이내에 재호출 시에는 직전 토큰값을 리턴하게 되었습니다. 일정시간 이후 접근토큰발급 API 호출 시에는 신규 토큰값을 리턴합니다. \r\n접근토큰발급 API 호출 및 코드 작성하실 때 해당 사항을 참고하시길 바랍니다.\r\n\r\n※ 참고 : 포럼 &gt; 공지사항 &gt;  [수정] [중요] 접근 토큰 발급 변경 안내",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "Request Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "Request Body",
+      "Column_1": "grant_type",
+      "Column_2": "권한부여 Type",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "18",
+      "Column_6": "client_credentials",
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "Response Header",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "Response Body",
+      "Column_1": "access_token",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token\r\nex) \"eyJ0eXUxMiJ9.eyJz…...................................\"\r\n\r\n - 일반개인고객/일반법인고객\r\n  . Access token 유효기간 1일\r\n  .. 일정시간(6시간) 이내에 재호출 시에는 직전 토큰값을 리턴\r\n  . OAuth 2.0의 Client Credentials Grant 절차를 준용\r\n\r\n - 제휴법인\r\n  . Access token 유효기간 3개월\r\n  . Refresh token 유효기간 1년\r\n  . OAuth 2.0의 Authorization Code Grant 절차를 준용",
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": null,
+      "Column_1": "token_type",
+      "Column_2": "접근토큰유형",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "20",
+      "Column_6": "접근토큰유형 : \"Bearer\"\r\n※ API 호출 시, 접근토큰유형 \"Bearer\" 입력. ex) \"Bearer eyJ....\"",
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": null,
+      "Column_1": "expires_in",
+      "Column_2": "접근토큰 유효기간",
+      "Column_3": "number",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "유효기간(초)\r\nex) 7776000",
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": null,
+      "Column_1": "access_token_token_expired",
+      "Column_2": "접근토큰 유효기간(일시표시)",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "50",
+      "Column_6": "유효기간(년:월:일 시:분:초)\r\nex) \"2022-08-30 08:10:10\"",
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "Request Example (Python)",
+      "Column_1": "{\r\n  \"grant_type\": \"client_credentials\",\r\n  \"appkey\": \"PSg5dctL9dKPo727J13Ur405OSXXXXXXXXXX\",\r\n  \"appsecret\":  \"yo2t8zS68zpdjGuWvFyM9VikjXE0i0CbgPEamnqPA00G0bIfrdfQb2RUD1xP7SqatQXr1cD1fGUNsb78MMXoq6o4lAYt9YTtHAjbMoFy+c72kbq5owQY1Pvp39/x6ejpJlXCj7gE3yVOB/h25Hvl+URmYeBTfrQeOqIAOYc/OIXXXXXXXXXX\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "접근토큰발급(P)": "Response Example",
+      "Column_1": "{\r\n\t\"access_token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0b2tlbiIsImF1ZCI6ImMwNzM1NTYzLTA1MjctNDNhZS05ODRiLTJiNWI1ZWZmOWYyMyIsImlzcyI6InVub2d3IiwiZXhwIjoxNjQ5NzUxMTAwLCJpYXQiOjE2NDE5NzUxMDAsImp0aSI6IkJTZlM0QUtSSnpRVGpmdHRtdXZlenVQUTlKajc3cHZGdjBZVyJ9.Oyt_C639yUjWmRhymlszgt6jDo8fvIKkkxH1mMngunV1T15SCC4I3Xe6MXxcY23DXunzBfR1uI0KXXXXXXXXXX\",\r\n\t\"access_token_token_expired\":\"2023-12-22 08:16:59\",\r\n\t\"token_type\":\"Bearer\",\r\n\t\"expires_in\":86400\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

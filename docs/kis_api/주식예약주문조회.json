@@ -1,0 +1,756 @@
+{
+  "sheet_name": "주식예약주문조회",
+  "row_count": 74,
+  "columns": [
+    "주식예약주문조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "주식예약주문조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "메뉴 위치",
+      "Column_1": "[국내주식] 주문/계좌",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "API 명",
+      "Column_1": "주식예약주문조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "API ID",
+      "Column_1": "v1_국내주식-020",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "실전 TR_ID",
+      "Column_1": "CTSC0004R",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "URL 명",
+      "Column_1": "/uapi/domestic-stock/v1/trading/order-resv-ccnl",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "개요",
+      "Column_1": "국내예약주문 처리내역 조회 API 입니다.\r\n실전계좌/모의계좌의 경우, 한 번의 호출에 최대 20건까지 확인 가능하며, 이후의 값은 연속조회를 통해 확인하실 수 있습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appsecret (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "[실전투자]\r\nCTSC0004R : 국내주식예약주문조회\r\n* 모의투자 사용 불가",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "공백 : 초기 조회\r\nN : 다음 데이터 조회 (output header의 tr_cont가 M일 경우)",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객타입",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "Request Query Parameter",
+      "Column_1": "RSVN_ORD_ORD_DT",
+      "Column_2": "예약주문시작일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "RSVN_ORD_END_DT",
+      "Column_2": "예약주문종료일자",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "RSVN_ORD_SEQ",
+      "Column_2": "예약주문순번",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "TMNL_MDIA_KIND_CD",
+      "Column_2": "단말매체종류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "\"00\" 입력",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "CANO",
+      "Column_2": "종합계좌번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "계좌번호 체계(8-2)의 앞 8자리",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "ACNT_PRDT_CD",
+      "Column_2": "계좌상품코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "계좌번호 체계(8-2)의 뒤 2자리",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "PRCS_DVSN_CD",
+      "Column_2": "처리구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0: 전체\r\n1: 처리내역\r\n2: 미처리내역",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "CNCL_YN",
+      "Column_2": "취소여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "\"Y\" 유효한 주문만 조회",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "PDNO",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "종목코드(6자리) (공백 입력 시 전체 조회)",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "SLL_BUY_DVSN_CD",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "CTX_AREA_FK200",
+      "Column_2": "연속조회검색조건200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "다음 페이지 조회시 사용",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "CTX_AREA_NK200",
+      "Column_2": "연속조회키200",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "200",
+      "Column_6": "다음 페이지 조회시 사용",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "F or M : 다음 데이터 있음\r\nD or E : 마지막 데이터",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "0 : 성공 \r\n0 이외의 값 : 실패",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "array",
+      "Column_4": "Y",
+      "Column_5": "",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "rsvn_ord_seq",
+      "Column_2": "예약주문 순번",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "rsvn_ord_ord_dt",
+      "Column_2": "예약주문주문일자",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "rsvn_ord_rcit_dt",
+      "Column_2": "예약주문접수일자",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "pdno",
+      "Column_2": "상품번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "ord_dvsn_cd",
+      "Column_2": "주문구분코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "ord_rsvn_qty",
+      "Column_2": "주문예약수량",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "tot_ccld_qty",
+      "Column_2": "총체결수량",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "cncl_ord_dt",
+      "Column_2": "취소주문일자",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "ord_tmd",
+      "Column_2": "주문시각",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "6",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "ctac_tlno",
+      "Column_2": "연락전화번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "20",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "rjct_rson2",
+      "Column_2": "거부사유2",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "200",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "odno",
+      "Column_2": "주문번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "10",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "rsvn_ord_rcit_tmd",
+      "Column_2": "예약주문접수시각",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "6",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "kor_item_shtn_name",
+      "Column_2": "한글종목단축명",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "60",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "sll_buy_dvsn_cd",
+      "Column_2": "매도매수구분코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "ord_rsvn_unpr",
+      "Column_2": "주문예약단가",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "tot_ccld_amt",
+      "Column_2": "총체결금액",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "19",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "loan_dt",
+      "Column_2": "대출일자",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "cncl_rcit_tmd",
+      "Column_2": "취소접수시각",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "6",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "prcs_rslt",
+      "Column_2": "처리결과",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "60",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "ord_dvsn_name",
+      "Column_2": "주문구분명",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "60",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "tmnl_mdia_kind_cd",
+      "Column_2": "단말매체종류코드",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": null,
+      "Column_1": "rsvn_end_dt",
+      "Column_2": "예약종료일자",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "8",
+      "Column_6": "",
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "Request Example (Python)",
+      "Column_1": "{\r\n\t\"RSVN_ORD_ORD_DT\":\"20220520\",\r\n\t\"RSVN_ORD_END_DT\":\"20220523\",\r\n\t\"RSVN_ORD_SEQ\":\"\",\r\n\t\"TMNL_MDIA_KIND_CD\":\"00\",\r\n\t\"CANO\":\"81019970\",\r\n\t\"ACNT_PRDT_CD\":\"01\",\r\n\t\r\n\t\"PRCS_DVSN_CD\":\"0\",\r\n\t\"CNCL_YN\":\"Y\",\r\n\t\"PDNO\":\"\",\r\n\t\"SLL_BUY_DVSN_CD\":\"\",\r\n\t\"CTX_AREA_FK200\":\"\",\r\n\t\"CTX_AREA_NK200\":\"\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "주식예약주문조회": "Response Example",
+      "Column_1": "{\r\n    \"ctx_area_fk200\": \"20220520!^null!^0!^Y!^!^                                                                                                                                                                                \",\r\n    \"ctx_area_nk200\": \" !^ !^                                                                                                                                                                                                  \",\r\n    \"output\": [\r\n        {\r\n            \"rsvn_ord_seq\": \"42401\",\r\n            \"rsvn_ord_ord_dt\": \"20220523\",\r\n            \"rsvn_ord_rcit_dt\": \"20220520\",\r\n            \"pdno\": \"005940\",\r\n            \"ord_dvsn_cd\": \"01\",\r\n            \"ord_rsvn_qty\": \"1\",\r\n            \"tot_ccld_qty\": \"0\",\r\n            \"cncl_ord_dt\": \"\",\r\n            \"ord_tmd\": \"\",\r\n            \"ctac_tlno\": \"0\",\r\n            \"rjct_rson2\": \"\",\r\n            \"odno\": \"\",\r\n            \"rsvn_ord_rcit_tmd\": \"165318\",\r\n            \"kor_item_shtn_name\": \"NH투자증권\",\r\n            \"sll_buy_dvsn_cd\": \"02\",\r\n            \"ord_rsvn_unpr\": \"6000\",\r\n            \"tot_ccld_amt\": \"0\",\r\n            \"loan_dt\": \"\",\r\n            \"cncl_rcit_tmd\": \"\",\r\n            \"prcs_rslt\": \"미처리\",\r\n            \"ord_dvsn_name\": \"현금매수\",\r\n            \"tmnl_mdia_kind_cd\": \"31\",\r\n            \"rsvn_end_dt\": \"20220523\"\r\n        },\r\n        {\r\n            \"rsvn_ord_seq\": \"42405\",\r\n            \"rsvn_ord_ord_dt\": \"20220523\",\r\n            \"rsvn_ord_rcit_dt\": \"20220520\",\r\n            \"pdno\": \"005940\",\r\n            \"ord_dvsn_cd\": \"01\",\r\n            \"ord_rsvn_qty\": \"1\",\r\n            \"tot_ccld_qty\": \"0\",\r\n            \"cncl_ord_dt\": \"\",\r\n            \"ord_tmd\": \"\",\r\n            \"ctac_tlno\": \"0\",\r\n            \"rjct_rson2\": \"\",\r\n            \"odno\": \"\",\r\n            \"rsvn_ord_rcit_tmd\": \"170422\",\r\n            \"kor_item_shtn_name\": \"NH투자증권\",\r\n            \"sll_buy_dvsn_cd\": \"02\",\r\n            \"ord_rsvn_unpr\": \"6000\",\r\n            \"tot_ccld_amt\": \"0\",\r\n            \"loan_dt\": \"\",\r\n            \"cncl_rcit_tmd\": \"\",\r\n            \"prcs_rslt\": \"미처리\",\r\n            \"ord_dvsn_name\": \"현금매수\",\r\n            \"tmnl_mdia_kind_cd\": \"31\",\r\n            \"rsvn_end_dt\": \"\"\r\n        },\r\n        {\r\n            \"rsvn_ord_seq\": \"42406\",\r\n            \"rsvn_ord_ord_dt\": \"20220523\",\r\n            \"rsvn_ord_rcit_dt\": \"20220520\",\r\n            \"pdno\": \"005940\",\r\n            \"ord_dvsn_cd\": \"01\",\r\n            \"ord_rsvn_qty\": \"1\",\r\n            \"tot_ccld_qty\": \"0\",\r\n            \"cncl_ord_dt\": \"\",\r\n            \"ord_tmd\": \"\",\r\n            \"ctac_tlno\": \"0\",\r\n            \"rjct_rson2\": \"\",\r\n            \"odno\": \"\",\r\n            \"rsvn_ord_rcit_tmd\": \"170453\",\r\n            \"kor_item_shtn_name\": \"NH투자증권\",\r\n            \"sll_buy_dvsn_cd\": \"02\",\r\n            \"ord_rsvn_unpr\": \"6000\",\r\n            \"tot_ccld_amt\": \"0\",\r\n            \"loan_dt\": \"\",\r\n            \"cncl_rcit_tmd\": \"\",\r\n            \"prcs_rslt\": \"미처리\",\r\n            \"ord_dvsn_name\": \"현금매수\",\r\n            \"tmnl_mdia_kind_cd\": \"31\",\r\n            \"rsvn_end_dt\": \"20220523\"\r\n        }\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"KIOK0460\",\r\n    \"msg1\": \"조회 되었습니다. (마지막 자료)                                                  \"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}

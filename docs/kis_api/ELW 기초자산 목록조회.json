@@ -1,0 +1,496 @@
+{
+  "sheet_name": "ELW 기초자산 목록조회",
+  "row_count": 48,
+  "columns": [
+    "ELW 기초자산 목록조회",
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7"
+  ],
+  "data": [
+    {
+      "ELW 기초자산 목록조회": "API 통신방식",
+      "Column_1": "REST",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "메뉴 위치",
+      "Column_1": "[국내주식] ELW 시세",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "API 명",
+      "Column_1": "ELW 기초자산 목록조회",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "API ID",
+      "Column_1": "국내주식-185",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "실전 TR_ID",
+      "Column_1": "FHKEW154100C0",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "모의 TR_ID",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "기본정보",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "HTTP Method",
+      "Column_1": "GET",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "실전 Domain",
+      "Column_1": "https://openapi.koreainvestment.com:9443",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "모의 Domain",
+      "Column_1": "모의투자 미지원",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "URL 명",
+      "Column_1": "/uapi/elw/v1/quotations/udrl-asset-list",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "개요",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "개요",
+      "Column_1": "ELW 기초자산 목록조회 API입니다.\r\n한국투자 HTS(eFriend Plus) &gt; [0288] ELW 기초자산별 ELW 시세 화면 의 \"왼쪽 기초자산 목록\" 기능을 API로 개발한 사항으로, 해당 화면을 참고하시면 기능을 이해하기 쉽습니다.",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "Layout",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "구분",
+      "Column_1": "Element",
+      "Column_2": "한글명",
+      "Column_3": "Type",
+      "Column_4": "Required",
+      "Column_5": "Length",
+      "Column_6": "Description",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "Request Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "authorization",
+      "Column_2": "접근토큰",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "350",
+      "Column_6": "OAuth 토큰이 필요한 API 경우 발급한 Access token \r\n일반고객(Access token 유효기간 1일, OAuth 2.0의 Client Credentials Grant 절차를 준용) \r\n법인(Access token 유효기간 3개월, Refresh token 유효기간 1년, OAuth 2.0의 Authorization Code Grant 절차를 준용)",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "appkey",
+      "Column_2": "앱키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "36",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "appsecret",
+      "Column_2": "앱시크릿키",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "180",
+      "Column_6": "한국투자증권 홈페이지에서 발급받은 appkey (절대 노출되지 않도록 주의해주세요.)",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "personalseckey",
+      "Column_2": "고객식별키",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "180",
+      "Column_6": "[법인 필수] 제휴사 회원 관리를 위한 고객식별키",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "FHKEW154100C0",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "custtype",
+      "Column_2": "고객 타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": "B : 법인 \r\nP : 개인",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "seq_no",
+      "Column_2": "일련번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "2",
+      "Column_6": "[법인 필수] 001",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "mac_address",
+      "Column_2": "맥주소",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "법인고객 혹은 개인고객의 Mac address 값",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "phone_number",
+      "Column_2": "핸드폰번호",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 제휴사APP을 사용하는 경우 사용자(회원) 핸드폰번호 \r\nex) 01011112222 (하이픈 등 구분값 제거)",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "ip_addr",
+      "Column_2": "접속 단말 공인 IP",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "12",
+      "Column_6": "[법인 필수] 사용자(회원)의 IP Address",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "Request Query Parameter",
+      "Column_1": "FID_COND_SCR_DIV_CODE",
+      "Column_2": "조건화면분류코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "5",
+      "Column_6": "11541(Primary key)",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "FID_RANK_SORT_CLS_CODE",
+      "Column_2": "순위정렬구분코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "2",
+      "Column_6": "0(종목명순), 1(콜발행종목순), 2(풋발행종목순), 3(전일대비 상승율순), 4(전일대비 하락율순), 5(현재가 크기순), 6(종목코드순)",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "FID_INPUT_ISCD",
+      "Column_2": "입력종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "12",
+      "Column_6": "00000(전체), 00003(한국투자증권), 00017(KB증권), 00005(미래에셋)",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "Response Header",
+      "Column_1": "content-type",
+      "Column_2": "컨텐츠타입",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": "application/json; charset=utf-8",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "tr_id",
+      "Column_2": "거래ID",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "13",
+      "Column_6": "요청한 tr_id",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "tr_cont",
+      "Column_2": "연속 거래 여부",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "1",
+      "Column_6": "tr_cont를 이용한 다음조회 불가 API",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "gt_uid",
+      "Column_2": "Global UID",
+      "Column_3": "string",
+      "Column_4": "N",
+      "Column_5": "32",
+      "Column_6": "[법인 전용] 거래고유번호로 사용하므로 거래별로 UNIQUE해야 함",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "Response Body",
+      "Column_1": "rt_cd",
+      "Column_2": "성공 실패 여부",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "msg_cd",
+      "Column_2": "응답코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "8",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "msg1",
+      "Column_2": "응답메세지",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "80",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "output",
+      "Column_2": "응답상세",
+      "Column_3": "object array",
+      "Column_4": "Y",
+      "Column_5": " ",
+      "Column_6": "array",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "unas_shrn_iscd",
+      "Column_2": "기초자산단축종목코드",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "9",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "unas_isnm",
+      "Column_2": "기초자산종목명",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "40",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "unas_prpr",
+      "Column_2": "기초자산현재가",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "unas_prdy_vrss",
+      "Column_2": "기초자산전일대비",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "112",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "unas_prdy_vrss_sign",
+      "Column_2": "기초자산전일대비부호",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "1",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": null,
+      "Column_1": "unas_prdy_ctrt",
+      "Column_2": "기초자산전일대비율",
+      "Column_3": "string",
+      "Column_4": "Y",
+      "Column_5": "82",
+      "Column_6": " ",
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "Example",
+      "Column_1": null,
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "Request Example (Python)",
+      "Column_1": "FID_COND_SCR_DIV_CODE:11541\r\nFID_RANK_SORT_CLS_CODE:0\r\nFID_INPUT_ISCD:00000",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    },
+    {
+      "ELW 기초자산 목록조회": "Response Example",
+      "Column_1": "{\r\n    \"output\": [\r\n        {\r\n            \"unas_shrn_iscd\": \"2001\",\r\n            \"unas_isnm\": \"KOSPI200\",\r\n            \"unas_prpr\": \"371.33\",\r\n            \"unas_prdy_vrss\": \"0.17\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"0.05\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"000990\",\r\n            \"unas_isnm\": \"DB하이텍\",\r\n            \"unas_prpr\": \"40850.00\",\r\n            \"unas_prdy_vrss\": \"-300.00\",\r\n            \"unas_prdy_vrss_sign\": \"5\",\r\n            \"unas_prdy_ctrt\": \"-0.73\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"009540\",\r\n            \"unas_isnm\": \"HD한국조선해양\",\r\n            \"unas_prpr\": \"135400.00\",\r\n            \"unas_prdy_vrss\": \"1100.00\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"0.82\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"267260\",\r\n            \"unas_isnm\": \"HD현대일렉트릭\",\r\n            \"unas_prpr\": \"302500.00\",\r\n            \"unas_prdy_vrss\": \"9000.00\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"3.07\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"028300\",\r\n            \"unas_isnm\": \"HLB\",\r\n            \"unas_prpr\": \"64700.00\",\r\n            \"unas_prdy_vrss\": \"8500.00\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"15.12\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"011200\",\r\n            \"unas_isnm\": \"HMM\",\r\n            \"unas_prpr\": \"18010.00\",\r\n            \"unas_prdy_vrss\": \"460.00\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"2.62\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"403870\",\r\n            \"unas_isnm\": \"HPSP\",\r\n            \"unas_prpr\": \"45200.00\",\r\n            \"unas_prdy_vrss\": \"2900.00\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"6.86\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"035900\",\r\n            \"unas_isnm\": \"JYP Ent.\",\r\n            \"unas_prpr\": \"58800.00\",\r\n            \"unas_prdy_vrss\": \"-1700.00\",\r\n            \"unas_prdy_vrss_sign\": \"5\",\r\n            \"unas_prdy_ctrt\": \"-2.81\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"105560\",\r\n            \"unas_isnm\": \"KB금융\",\r\n            \"unas_prpr\": \"77100.00\",\r\n            \"unas_prdy_vrss\": \"800.00\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"1.05\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"3003\",\r\n            \"unas_isnm\": \"KSQ150\",\r\n            \"unas_prpr\": \"1355.15\",\r\n            \"unas_prdy_vrss\": \"0.44\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"0.03\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"030200\",\r\n            \"unas_isnm\": \"KT\",\r\n            \"unas_prpr\": \"36150.00\",\r\n            \"unas_prdy_vrss\": \"-450.00\",\r\n            \"unas_prdy_vrss_sign\": \"5\",\r\n            \"unas_prdy_ctrt\": \"-1.23\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"033780\",\r\n            \"unas_isnm\": \"KT&G\",\r\n            \"unas_prpr\": \"86100.00\",\r\n            \"unas_prdy_vrss\": \"-100.00\",\r\n            \"unas_prdy_vrss_sign\": \"5\",\r\n            \"unas_prdy_ctrt\": \"-0.12\"\r\n        },\r\n        {\r\n            \"unas_shrn_iscd\": \"003550\",\r\n            \"unas_isnm\": \"LG\",\r\n            \"unas_prpr\": \"81400.00\",\r\n            \"unas_prdy_vrss\": \"1500.00\",\r\n            \"unas_prdy_vrss_sign\": \"2\",\r\n            \"unas_prdy_ctrt\": \"1.88\"\r\n        },...\r\n    ],\r\n    \"rt_cd\": \"0\",\r\n    \"msg_cd\": \"MCA00000\",\r\n    \"msg1\": \"정상처리 되었습니다.\"\r\n}",
+      "Column_2": null,
+      "Column_3": null,
+      "Column_4": null,
+      "Column_5": null,
+      "Column_6": null,
+      "Column_7": null
+    }
+  ]
+}
