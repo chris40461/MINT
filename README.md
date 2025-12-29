@@ -112,7 +112,14 @@ pytest tests/ -v
 
 - [CLAUDE.md](.claude/CLAUDE.md): 전체 프로젝트 설계 문서
 - [README-DOCKER.md](README-DOCKER.md): Docker 사용 가이드
-- [docs/](docs/): 아키텍처 및 API 문서
+- [docs/](docs/): 아키텍처 및 API 문서 - 수정 예정
+
+---
+
+## 💡 레퍼런스
+
+- 본 프로젝트는 [Prism Insight](https://github.com/dragon1086/prism-insight?tab=readme-ov-file) 에 영감을 받아서 시작한 개인 프로젝트 입니다.
+- 해당 프로젝트에 대한 문의나 피드백은 [chris40461@gmail.com](mailto:chris40461@gmail.com) 으로 연락주세요!
 
 ---
 
