@@ -32,14 +32,15 @@ export const Header = ({ className }: HeaderProps) => {
   }
 
   return (
-    <header className={clsx('bg-gray-900 border-b border-gray-800', className)}>
-      <nav className="container mx-auto px-4 py-4">
+    <header className={clsx('bg-white border-b border-gray-200 shadow-sm', className)}>
+      <nav className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* 로고 */}
           <Link
             to="/"
-            className="text-2xl font-bold text-white hover:text-white transition-colors"
+            className="flex items-center gap-2 text-2xl font-bold text-emerald-600 hover:text-emerald-500 transition-colors"
           >
+            <img src="/mint-logo.png" alt="MINT Logo" className="h-10 w-auto" />
             {appConfig.name}
           </Link>
 
@@ -52,8 +53,8 @@ export const Header = ({ className }: HeaderProps) => {
                 className={clsx(
                   'font-medium transition-colors',
                   isActive(item.path)
-                    ? 'text-cyan-400'
-                    : 'text-gray-300 hover:text-cyan-400'
+                    ? 'text-emerald-600'
+                    : 'text-gray-600 hover:text-emerald-500'
                 )}
               >
                 {item.label}

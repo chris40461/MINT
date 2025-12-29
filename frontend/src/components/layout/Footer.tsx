@@ -17,25 +17,25 @@ export const Footer = ({ className }: FooterProps) => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className={clsx('bg-gray-950 border-t border-gray-800 mt-auto', className)}>
+    <footer className={clsx('bg-gray-50 border-t border-gray-200 mt-auto', className)}>
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* 저작권 */}
-          <div className="text-center md:text-left text-gray-400 text-sm">
-            © {currentYear} {appConfig.name}. AI 기반 한국 주식 컨설팅 플랫폼
+          <div className="text-center md:text-left text-gray-600 text-sm">
+            © {currentYear} {appConfig.name}
           </div>
 
           {/* 링크 */}
           <div className="flex items-center gap-4 text-sm">
             <a
-              href="https://github.com/chris40461/SKKU-insight"
+              href="https://github.com/twkim96/MINT"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-cyan-400 transition-colors"
+              className="text-gray-500 hover:text-emerald-600 transition-colors"
             >
               GitHub
             </a>
-            <span className="text-gray-600">|</span>
+            <span className="text-gray-300">|</span>
             <span className="text-gray-500">v{appConfig.version}</span>
           </div>
         </div>

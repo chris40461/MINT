@@ -14,6 +14,20 @@ export default {
         background: '#ffffff',
         foreground: '#111827',
 
+        // MINT 브랜드 색상
+        mint: {
+          50: '#f0fdf8',
+          100: '#dcfce9',
+          200: '#bbf7d8',
+          300: '#86efb9',
+          400: '#4ade87',
+          500: '#22c55e',
+          600: '#16a34a',
+          700: '#15803d',
+          800: '#166534',
+          900: '#14532d',
+        },
+
         // 주식 색상
         bullish: {
           DEFAULT: '#ef4444', // 빨강 (한국 상승)
