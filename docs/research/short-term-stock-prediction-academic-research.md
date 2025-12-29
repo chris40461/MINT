@@ -399,7 +399,7 @@ COMPANY_ANALYSIS_PROMPT = """
 - 단기 예측에서 **상위 10개 특성**만으로도 충분한 성능
 - 나머지 특성 제거 시 과적합 감소
 
-**SKKU-INSIGHT 적용:**
+**MINT 적용:**
 - Morning Report 점수 계산 시 SHAP 값 활용 고려
 - 특성 개수를 **10-15개로 제한**하여 과적합 방지
 
@@ -428,7 +428,7 @@ COMPANY_ANALYSIS_PROMPT = """
 - 과도한 기술적 지표 사용
 - 복잡한 모델 (Random Forest, XGBoost)
 
-**SKKU-INSIGHT 적용:**
+**MINT 적용:**
 1. **특성 개수 제한**: 15개 이내
 2. **단순한 가중 평균**: 복잡한 ML 모델 대신 Rule-based 점수화
 3. **Out-of-sample 테스트**: 과거 데이터로 백테스팅 필수
@@ -686,7 +686,7 @@ class AdaptiveWeightingService:
    - 한국 시장에서는 더 중요할 가능성
    - **Volume z-score, Trading Fractions** 활용 권장
 
-### B. SKKU-INSIGHT 적용 전략
+### B. MINT 적용 전략
 
 #### Morning Report (단기 예측)
 - Momentum (35%) + Volume (25%) 중심
@@ -772,6 +772,6 @@ class AdaptiveWeightingService:
 ---
 
 **문서 작성일**: 2025-11-14
-**작성자**: SKKU-INSIGHT Research Team
+**작성자**: MINT Research Team
 **버전**: 1.0
 **다음 업데이트**: 백테스팅 결과 반영 (2025-11-28 예정)

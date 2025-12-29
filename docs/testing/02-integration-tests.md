@@ -65,7 +65,7 @@ def test_db():
 
     DATABASE_URL = os.getenv(
         "TEST_DATABASE_URL",
-        "postgresql://test:test@localhost/skku_insight_test"
+        "postgresql://test:test@localhost/mint_test"
     )
 
     engine = create_engine(DATABASE_URL)
@@ -635,7 +635,7 @@ pytest -m integration -v
 ```bash
 # .env.test
 
-DATABASE_URL=postgresql://test:test@localhost/skku_insight_test
+DATABASE_URL=postgresql://test:test@localhost/mint_test
 REDIS_URL=redis://localhost:6379/1
 
 # LLM 비활성화 (통합 테스트에서는 모킹)
@@ -660,7 +660,7 @@ services:
     environment:
       POSTGRES_USER: test
       POSTGRES_PASSWORD: test
-      POSTGRES_DB: skku_insight_test
+      POSTGRES_DB: mint_test
     ports:
       - "5433:5432"
 
@@ -684,4 +684,4 @@ docker-compose -f docker-compose.test.yml down -v
 ---
 
 **마지막 업데이트**: 2025-11-06
-**작성자**: SKKU-INSIGHT 개발팀
+**작성자**: MINT 개발팀

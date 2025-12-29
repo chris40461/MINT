@@ -85,9 +85,9 @@ export const devConfig = {
 export const appConfig = {
   /**
    * 애플리케이션 이름
-   * @default 'SKKU-INSIGHT'
+   * @default 'MINT'
    */
-  name: getEnv('VITE_APP_NAME', 'SKKU-INSIGHT'),
+  name: getEnv('VITE_APP_NAME', 'MINT'),
 
   /**
    * 애플리케이션 버전

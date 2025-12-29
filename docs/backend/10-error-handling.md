@@ -274,31 +274,31 @@ logger.debug(f"Composite score calculated: {score}")
 ```python
 # backend/app/core/exceptions.py
 
-class SKKUInsightException(Exception):
+class MintException(Exception):
     """
     프로젝트 기본 예외
     """
     pass
 
-class DataCollectionError(SKKUInsightException):
+class DataCollectionError(MintException):
     """
     데이터 수집 실패
     """
     pass
 
-class LLMServiceError(SKKUInsightException):
+class LLMServiceError(MintException):
     """
     LLM 서비스 오류
     """
     pass
 
-class CacheError(SKKUInsightException):
+class CacheError(MintException):
     """
     캐시 오류
     """
     pass
 
-class AnalysisError(SKKUInsightException):
+class AnalysisError(MintException):
     """
     분석 실패
     """
@@ -312,15 +312,15 @@ class AnalysisError(SKKUInsightException):
 
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
-from app.core.exceptions import SKKUInsightException
+from app.core.exceptions import MintException
 import logging
 
 logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
-@app.exception_handler(SKKUInsightException)
-async def skku_exception_handler(request: Request, exc: SKKUInsightException):
+@app.exception_handler(MintException)
+async def skku_exception_handler(request: Request, exc: MintException):
     """
     프로젝트 커스텀 예외 핸들러
     """
@@ -391,7 +391,7 @@ async def run_morning_triggers(date: datetime) -> List[Dict]:
         raise
     except Exception as e:
         logger.critical(f"Unexpected error in run_morning_triggers: {e}", exc_info=True)
-        raise SKKUInsightException("Morning triggers failed")
+        raise MintException("Morning triggers failed")
 ```
 
 ---
@@ -499,7 +499,7 @@ async def send_error_notification(
     if slack_webhook_url:
         try:
             payload = {
-                "text": f"⚠️ SKKU-INSIGHT 에러 발생",
+                "text": f"⚠️ MINT 에러 발생",
                 "blocks": [
                     {
                         "type": "section",
@@ -655,4 +655,4 @@ cache_hit_rate = Gauge(
 ---
 
 **마지막 업데이트**: 2025-11-06
-**작성자**: SKKU-INSIGHT 개발팀
+**작성자**: MINT 개발팀

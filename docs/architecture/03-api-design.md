@@ -2,7 +2,7 @@
 
 ## 📌 문서 목적
 
-SKKU-INSIGHT의 전체 REST API 엔드포인트를 정의하고, Request/Response 형식, 에러 핸들링, Rate Limiting 전략을 설명합니다.
+MINT의 전체 REST API 엔드포인트를 정의하고, Request/Response 형식, 에러 핸들링, Rate Limiting 전략을 설명합니다.
 
 ---
 
@@ -11,7 +11,7 @@ SKKU-INSIGHT의 전체 REST API 엔드포인트를 정의하고, Request/Respons
 ### Base URL
 ```
 개발: http://localhost:8000/api/v1
-프로덕션: https://api.skku-insight.com/api/v1
+프로덕션: https://api.mint.com/api/v1
 ```
 
 ### 버전 관리
@@ -1151,7 +1151,7 @@ GET /api/v1/triggers/history?ticker=005930&page=2&per_page=20
 ```python
 ALLOWED_ORIGINS = [
     "http://localhost:3000",  # 개발
-    "https://skku-insight.com"  # 프로덕션
+    "https://mint.com"  # 프로덕션
 ]
 ```
 
@@ -1174,4 +1174,4 @@ X-Request-ID: req_1234567890abcdef
 ---
 
 **마지막 업데이트**: 2025-11-06
-**작성자**: SKKU-INSIGHT 개발팀
+**작성자**: MINT 개발팀

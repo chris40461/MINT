@@ -713,4 +713,4 @@ if value == float('inf') or value == float('-inf'):
 ---
 
 **마지막 업데이트**: 2025-11-06
-**작성자**: SKKU-INSIGHT 개발팀
+**작성자**: MINT 개발팀
