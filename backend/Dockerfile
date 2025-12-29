@@ -1,11 +1,11 @@
-# SKKU-INSIGHT Backend Dockerfile
+# MINT Backend Dockerfile
 # Python 3.12 기반 경량 이미지
 
 FROM python:3.12-slim
 
 # 메타데이터
 LABEL maintainer="Taewon"
-LABEL description="SKKU-INSIGHT - 한국 주식 컨설팅 플랫폼 Backend"
+LABEL description="MINT - 한국 주식 컨설팅 플랫폼 Backend"
 
 # 작업 디렉토리 설정
 WORKDIR /app

@@ -4,7 +4,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: skku-insight-backend
+    container_name: mint-backend
     ports:
       - "8000:8000"
     volumes:
@@ -16,14 +16,14 @@ services:
       - ENVIRONMENT=production
       - DEBUG=false
       - LOG_LEVEL=INFO
-      - DATABASE_URL=sqlite:////app/data/skku_insight.db
+      - DATABASE_URL=sqlite:////app/data/mint.db
       - SCHEDULER_ENABLED=true
       - TZ=Asia/Seoul
     env_file:
       - ./backend/.env
     restart: unless-stopped
     networks:
-      - skku-network
+      - mint-network
     healthcheck:
       test: ["CMD", "python3", "-c", "import httpx; httpx.get('http://localhost:8000/health', timeout=5)"]
       interval: 30s
@@ -36,14 +36,14 @@ services:
     build:
       context: ./price-poller
       dockerfile: Dockerfile
-    container_name: skku-insight-price-poller
+    container_name: mint-price-poller
     restart: unless-stopped
     volumes:
       - ./data:/app/data
     environment:
       - ENVIRONMENT=production
       - LOG_LEVEL=INFO
-      - DATABASE_URL=sqlite:////app/data/skku_insight.db
+      - DATABASE_URL=sqlite:////app/data/mint.db
       - TZ=Asia/Seoul
     env_file:
       - ./.env
@@ -51,10 +51,10 @@ services:
       backend:
         condition: service_healthy
     networks:
-      - skku-network
+      - mint-network
 
 networks:
-  skku-network:
+  mint-network:
     driver: bridge
 
 volumes:

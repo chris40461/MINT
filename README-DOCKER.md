@@ -1,4 +1,4 @@
-# 🐳 SKKU-INSIGHT Docker 실행 가이드
+# 🐳 MINT Docker 실행 가이드
 
 ## 📋 목차
 - [빠른 시작](#빠른-시작)
@@ -36,7 +36,7 @@ grep DART_API_KEY .env
 
 ```bash
 # 프로젝트 루트에서 실행
-cd /home/chris40461/SKKU-insight
+cd /home/chris40461/MINT
 
 # 이미지 빌드 및 컨테이너 시작
 docker-compose up -d
@@ -52,18 +52,18 @@ curl http://localhost:8000/health
 
 ```bash
 # 1. 이미지 빌드
-docker build -t skku-insight-backend .
+docker build -t mint-backend .
 
 # 2. 컨테이너 실행
 docker run -d \
-  --name skku-insight \
+  --name mint \
   -p 8000:8000 \
   -v $(pwd)/data:/app/data \
   --env-file .env \
-  skku-insight-backend
+  mint-backend
 
 # 3. 로그 확인
-docker logs -f skku-insight
+docker logs -f mint
 ```
 
 ---
@@ -134,14 +134,14 @@ docker-compose build --no-cache
 docker-compose up -d --build
 
 # 이미지 삭제
-docker rmi skku-insight-backend
+docker rmi mint-backend
 ```
 
 ### 데이터 관리
 
 ```bash
 # DB 백업
-docker-compose exec backend cp /app/data/skku_insight.db /app/data/backup_$(date +%Y%m%d).db
+docker-compose exec backend cp /app/data/mint.db /app/data/backup_$(date +%Y%m%d).db
 
 # 로그 확인
 docker-compose exec backend tail -f /app/data/logs/app.log
@@ -176,7 +176,7 @@ ALLOWED_ORIGINS=https://yourdomain.com
 services:
   backend:
     environment:
-      - DATABASE_URL=postgresql://skku:changeme@postgres:5432/skku_insight
+      - DATABASE_URL=postgresql://skku:changeme@postgres:5432/mint
     depends_on:
       - postgres
 
@@ -187,7 +187,7 @@ services:
 ### 3️⃣ Nginx 리버스 프록시 (선택)
 
 ```nginx
-# /etc/nginx/sites-available/skku-insight
+# /etc/nginx/sites-available/mint
 server {
     listen 80;
     server_name your-domain.com;
@@ -239,7 +239,7 @@ docker-compose up -d
 
 ```bash
 # 권한 수정
-chmod 666 data/skku_insight.db
+chmod 666 data/mint.db
 
 # 또는 컨테이너 재생성
 docker-compose down
@@ -268,10 +268,10 @@ docker-compose up -d
 curl http://localhost:8000/health
 
 # Docker 헬스 상태
-docker ps --filter "name=skku-insight"
+docker ps --filter "name=mint"
 
 # 리소스 사용량
-docker stats skku-insight-backend
+docker stats mint-backend
 ```
 
 ### 로그 분석

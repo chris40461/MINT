@@ -11,7 +11,7 @@ from pydantic_settings import BaseSettings
 from typing import Optional
 from pathlib import Path
 
-# 프로젝트 루트 디렉토리 경로 (SKKU-insight/)
+# 프로젝트 루트 디렉토리 경로 (MINT/)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 ENV_FILE = PROJECT_ROOT / ".env"
 
@@ -26,7 +26,7 @@ class Settings(BaseSettings):
     LOG_FILE: str = "./data/logs/app.log"
 
     # 데이터베이스
-    DATABASE_URL: str = "sqlite:///./skku_insight.db"
+    DATABASE_URL: str = "sqlite:///./mint.db"
 
     # API Keys
     GEMINI_API_KEY: str = ""

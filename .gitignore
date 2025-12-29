@@ -209,8 +209,8 @@ __marimo__/
 .env
 */docs_cache
 
-# SKKU-insight specific
-data/skku_insight.db
+# MINT specific
+data/mint.db
 data/*.json
 data/*.csv
 data/logs/

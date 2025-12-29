@@ -15,7 +15,7 @@ from app.db.models import Base
 # DB 파일 경로 (프로젝트 루트/data/db.sqlite)
 DB_DIR = Path(__file__).parent.parent.parent.parent / "data"
 DB_DIR.mkdir(parents=True, exist_ok=True)
-DB_PATH = DB_DIR / "skku_insight.db"
+DB_PATH = DB_DIR / "mint.db"
 
 # SQLite 연결 문자열
 DATABASE_URL = f"sqlite:///{DB_PATH}"

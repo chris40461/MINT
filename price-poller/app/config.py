@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     # Environment
     ENVIRONMENT: str = "production"
     LOG_LEVEL: str = "INFO"
-    DATABASE_URL: str = "sqlite:////app/data/skku_insight.db"
+    DATABASE_URL: str = "sqlite:////app/data/mint.db"
 
     # KIS API
     KIS_APP_KEY: str

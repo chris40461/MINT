@@ -2,9 +2,10 @@
 # 참고: docs/architecture/03-api-design.md
 
 """
-SKKU-INSIGHT FastAPI 애플리케이션
+MINT FastAPI 애플리케이션
 
 장 시작/마감 리포트, 급등주 감지, 기업 분석을 제공하는 API 서버
+- MINT: 주식시장을 시원하고 빠르게!
 """
 
 from fastapi import FastAPI
@@ -39,7 +40,7 @@ async def lifespan(app: FastAPI):
     from app.db.models import FinancialData
 
     # 앱 시작
-    logger.info("🚀 SKKU-INSIGHT 애플리케이션 시작")
+    logger.info("🚀 MINT 애플리케이션 시작")
 
     # 스케줄러 시작 (개발 환경에서도 실행)
     if settings.SCHEDULER_ENABLED:
@@ -210,7 +211,7 @@ async def lifespan(app: FastAPI):
     yield  # 앱 실행 중
 
     # 앱 종료
-    logger.info("🛑 SKKU-INSIGHT 애플리케이션 종료")
+    logger.info("🛑 MINT 애플리케이션 종료")
     if settings.SCHEDULER_ENABLED:
         stop_scheduler()
 
@@ -223,7 +224,7 @@ def create_app() -> FastAPI:
         FastAPI: 설정된 FastAPI 인스턴스
     """
     app = FastAPI(
-        title="SKKU-INSIGHT API",
+        title="MINT API",
         description="한국 주식 컨설팅 플랫폼 API",
         version="0.1.0",
         docs_url="/docs" if settings.DEBUG else None,
@@ -276,7 +277,7 @@ def setup_routers(app: FastAPI) -> None:
     async def root():
         """루트 엔드포인트"""
         return {
-            "message": "SKKU-INSIGHT API",
+            "message": "MINT API",
             "version": "0.1.0",
             "docs": "/docs"
         }
