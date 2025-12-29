@@ -1,4 +1,10 @@
-# 🚀 SKKU-INSIGHT - 한국 주식 컨설팅 플랫폼
+<p align="center">
+  <img src="MINT.png" alt="MINT Logo" width="200"/>
+</p>
+
+# 🌿 MINT - 한국 주식 컨설팅 플랫폼
+
+> **MINT**: 주식시장을 시원하고 빠르게!
 
 ## 📌 프로젝트 개요
 
@@ -11,7 +17,7 @@ AI 기반 한국 주식 투자 컨설팅 플랫폼 (자동매매 X, 투자 의�
 
 ### 기술 스택
 - **Backend**: FastAPI, Python 3.12, SQLite
-- **Frontend**: React, TypeScript (구현 예정)
+- **Frontend**: React, TypeScript, Tailwind CSS
 - **LLM**: Google Gemini 2.5 Flash
 - **Data**: pykrx, DART API, Naver Finance
 
@@ -23,7 +29,7 @@ AI 기반 한국 주식 투자 컨설팅 플랫폼 (자동매매 X, 투자 의�
 
 ```bash
 # 프로젝트 루트로 이동
-cd /home/chris40461/SKKU-insight
+cd /path/to/MINT
 
 # 의존성 설치
 pip3 install -r backend/requirements.txt
@@ -66,7 +72,7 @@ docker-compose down
 ## 📁 디렉토리 구조
 
 ```
-SKKU-insight/
+MINT/
 ├── backend/                # FastAPI 백엔드
 │   ├── app/               # 애플리케이션 코드
 │   ├── tests/             # 테스트
@@ -75,10 +81,15 @@ SKKU-insight/
 │   ├── .env.example       # 환경 변수 템플릿
 │   └── Dockerfile         # Docker 이미지
 │
-├── frontend/              # React 프론트엔드 (구현 예정)
+├── frontend/              # React 프론트엔드
+│   ├── src/               # 소스 코드
+│   ├── public/            # 정적 파일 (로고, favicon)
+│   └── package.json       # Node.js 의존성
+│
+├── price-poller/          # 실시간 가격 폴링 서비스
 │
 ├── data/                  # 데이터 저장
-│   ├── skku_insight.db   # SQLite 데이터베이스
+│   ├── mint.db           # SQLite 데이터베이스
 │   └── logs/             # 로그 파일
 │
 ├── docs/                  # 문서
