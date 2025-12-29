@@ -185,10 +185,10 @@ export function AnalysisListPage() {
 
   if (isDataLoading) {
     return (
-      <div className="min-h-screen bg-gray-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-400 mx-auto mb-4"></div>
-          <p className="text-gray-400">종목 정보를 불러오는 중...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-400 mx-auto mb-4"></div>
+          <p className="text-gray-600">종목 정보를 불러오는 중...</p>
         </div>
       </div>
     )
@@ -196,10 +196,10 @@ export function AnalysisListPage() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-900">
+      <div className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-8">
-          <div className="bg-red-900 border border-red-700 rounded-lg p-6">
-            <p className="text-red-200">
+          <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+            <p className="text-red-700">
               종목 정보를 불러오는 중 오류가 발생했습니다: {(error as Error).message}
             </p>
           </div>
@@ -209,15 +209,15 @@ export function AnalysisListPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-6">
-          <h1 className="text-3xl font-bold text-white mb-2 flex items-center gap-3">
-            <Building2 className="text-cyan-400" />
+          <h1 className="text-3xl font-bold text-gray-900 mb-2 flex items-center gap-3">
+            <Building2 className="text-emerald-600" />
             기업 분석
           </h1>
-          <p className="text-gray-400">
+          <p className="text-gray-600">
             {filterType === 'TRIGGER'
               ? '오늘의 급등주 트리거 종목'
               : filterType === 'REPORT'
@@ -234,8 +234,8 @@ export function AnalysisListPage() {
               onClick={() => handleFilterTypeChange(type)}
               className={`px-4 py-2 rounded-lg font-medium transition-colors ${
                 filterType === type
-                  ? 'bg-cyan-600 text-white'
-                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                  ? 'bg-emerald-600 text-white'
+                  : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'
               }`}
             >
               {type === 'ALL' ? '전체' : type === 'TRIGGER' ? '급등주' : '리포트'}
@@ -245,31 +245,31 @@ export function AnalysisListPage() {
 
         {/* Search and Filters */}
         {filterType === 'ALL' && (
-          <div className="bg-gray-800 rounded-lg p-4 mb-6 space-y-4">
+          <div className="bg-white rounded-lg p-4 mb-6 space-y-4">
             {/* Search Bar */}
             <div className="flex items-center gap-4">
               <div className="relative flex-1">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-600" size={20} />
                 <input
                   type="text"
                   value={searchKeyword}
                   onChange={(e) => setSearchKeyword(e.target.value)}
                   placeholder="종목명 또는 코드 검색..."
-                  className="w-full pl-10 pr-4 py-2.5 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                  className="w-full pl-10 pr-4 py-2.5 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                 />
               </div>
               <button
                 onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
                 className={`flex items-center gap-2 px-4 py-2.5 rounded-lg font-medium transition-colors ${
                   showAdvancedFilters || activeFilterCount > 0
-                    ? 'bg-cyan-600 text-white'
-                    : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                    ? 'bg-emerald-600 text-white'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-200'
                 }`}
               >
                 <SlidersHorizontal size={18} />
                 <span>필터</span>
                 {activeFilterCount > 0 && (
-                  <span className="bg-white text-cyan-600 text-xs font-bold px-1.5 py-0.5 rounded-full">
+                  <span className="bg-white text-emerald-600 text-xs font-bold px-1.5 py-0.5 rounded-full">
                     {activeFilterCount}
                   </span>
                 )}
@@ -279,15 +279,15 @@ export function AnalysisListPage() {
 
             {/* Advanced Filters */}
             {showAdvancedFilters && (
-              <div className="pt-4 border-t border-gray-700 space-y-4">
+              <div className="pt-4 border-t border-gray-200 space-y-4">
                 {/* Row 1: Market & Sector */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div>
-                    <label className="block text-gray-400 text-sm mb-1">시장</label>
+                    <label className="block text-gray-600 text-sm mb-1">시장</label>
                     <select
                       value={filters.market || ''}
                       onChange={(e) => handleFilterChange('market', e.target.value)}
-                      className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                      className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                     >
                       <option value="">전체</option>
                       <option value="KOSPI">KOSPI</option>
@@ -295,21 +295,21 @@ export function AnalysisListPage() {
                     </select>
                   </div>
                   <div>
-                    <label className="block text-gray-400 text-sm mb-1">시가총액 (억원)</label>
+                    <label className="block text-gray-600 text-sm mb-1">시가총액 (억원)</label>
                     <div className="flex gap-2">
                       <input
                         type="number"
                         value={filters.minMarketCap}
                         onChange={(e) => handleFilterChange('minMarketCap', e.target.value)}
                         placeholder="최소"
-                        className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                        className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                       />
                       <input
                         type="number"
                         value={filters.maxMarketCap}
                         onChange={(e) => handleFilterChange('maxMarketCap', e.target.value)}
                         placeholder="최대"
-                        className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                        className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                       />
                     </div>
                   </div>
@@ -318,7 +318,7 @@ export function AnalysisListPage() {
                 {/* Row 2: Financial Ratios */}
                 <div className="grid grid-cols-3 gap-4">
                   <div>
-                    <label className="block text-gray-400 text-sm mb-1">PER</label>
+                    <label className="block text-gray-600 text-sm mb-1">PER</label>
                     <div className="flex gap-2">
                       <input
                         type="number"
@@ -326,7 +326,7 @@ export function AnalysisListPage() {
                         onChange={(e) => handleFilterChange('minPer', e.target.value)}
                         placeholder="최소"
                         step="0.1"
-                        className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                        className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                       />
                       <input
                         type="number"
@@ -334,12 +334,12 @@ export function AnalysisListPage() {
                         onChange={(e) => handleFilterChange('maxPer', e.target.value)}
                         placeholder="최대"
                         step="0.1"
-                        className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                        className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                       />
                     </div>
                   </div>
                   <div>
-                    <label className="block text-gray-400 text-sm mb-1">PBR</label>
+                    <label className="block text-gray-600 text-sm mb-1">PBR</label>
                     <div className="flex gap-2">
                       <input
                         type="number"
@@ -347,7 +347,7 @@ export function AnalysisListPage() {
                         onChange={(e) => handleFilterChange('minPbr', e.target.value)}
                         placeholder="최소"
                         step="0.1"
-                        className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                        className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                       />
                       <input
                         type="number"
@@ -355,12 +355,12 @@ export function AnalysisListPage() {
                         onChange={(e) => handleFilterChange('maxPbr', e.target.value)}
                         placeholder="최대"
                         step="0.1"
-                        className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                        className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                       />
                     </div>
                   </div>
                   <div>
-                    <label className="block text-gray-400 text-sm mb-1">ROE (%)</label>
+                    <label className="block text-gray-600 text-sm mb-1">ROE (%)</label>
                     <div className="flex gap-2">
                       <input
                         type="number"
@@ -368,7 +368,7 @@ export function AnalysisListPage() {
                         onChange={(e) => handleFilterChange('minRoe', e.target.value)}
                         placeholder="최소"
                         step="1"
-                        className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                        className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                       />
                       <input
                         type="number"
@@ -376,7 +376,7 @@ export function AnalysisListPage() {
                         onChange={(e) => handleFilterChange('maxRoe', e.target.value)}
                         placeholder="최대"
                         step="1"
-                        className="w-full px-3 py-2 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-cyan-400 focus:outline-none"
+                        className="w-full px-3 py-2 bg-white text-gray-900 rounded-lg border border-gray-300 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
                       />
                     </div>
                   </div>
@@ -387,7 +387,7 @@ export function AnalysisListPage() {
                   <div className="flex justify-end">
                     <button
                       onClick={resetFilters}
-                      className="flex items-center gap-2 px-4 py-2 text-gray-400 hover:text-white transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors"
                     >
                       <X size={16} />
                       필터 초기화
@@ -398,8 +398,8 @@ export function AnalysisListPage() {
             )}
 
             {/* Sort Options */}
-            <div className="flex items-center gap-3 pt-2 border-t border-gray-700">
-              <span className="text-gray-400 text-sm flex items-center gap-1">
+            <div className="flex items-center gap-3 pt-2 border-t border-gray-200">
+              <span className="text-gray-600 text-sm flex items-center gap-1">
                 <ArrowUpDown size={14} />
                 정렬:
               </span>
@@ -415,8 +415,8 @@ export function AnalysisListPage() {
                   onClick={() => handleSortChange(field)}
                   className={`px-3 py-1.5 rounded text-sm font-medium transition-colors flex items-center gap-1 ${
                     sortBy === field
-                      ? 'bg-cyan-600 text-white'
-                      : 'bg-gray-700 text-gray-400 hover:bg-gray-600'
+                      ? 'bg-emerald-600 text-white'
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                   }`}
                 >
                   {label}
@@ -434,14 +434,14 @@ export function AnalysisListPage() {
         {/* Results */}
         {isLoading && !isInitialLoad ? (
           <div className="flex items-center justify-center py-20">
-            <Loader2 className="animate-spin text-cyan-400" size={40} />
-            <span className="ml-3 text-gray-400">검색 중...</span>
+            <Loader2 className="animate-spin text-emerald-600" size={40} />
+            <span className="ml-3 text-gray-600">검색 중...</span>
           </div>
         ) : stocks.length === 0 ? (
-          <Card className="bg-gray-800 border-gray-700">
+          <Card className="bg-white border-gray-200">
             <div className="p-12 text-center">
               <Search className="mx-auto mb-4 text-gray-600" size={48} />
-              <p className="text-gray-400 text-lg">
+              <p className="text-gray-600 text-lg">
                 {filterType === 'TRIGGER'
                   ? '오늘의 급등주 트리거가 아직 생성되지 않았습니다.'
                   : filterType === 'REPORT'
@@ -451,7 +451,7 @@ export function AnalysisListPage() {
               {filterType === 'ALL' && activeFilterCount > 0 && (
                 <button
                   onClick={resetFilters}
-                  className="mt-4 text-cyan-400 hover:text-cyan-300 transition-colors"
+                  className="mt-4 text-emerald-600 hover:text-emerald-700 transition-colors"
                 >
                   필터 초기화하기
                 </button>
@@ -463,73 +463,73 @@ export function AnalysisListPage() {
             {stocks.map((stock: Stock) => (
               <Card
                 key={stock.ticker}
-                className="bg-gray-800 border-gray-700 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-900/20 transition-all cursor-pointer group"
+                className="bg-white border-gray-200 hover:border-emerald-400 hover:shadow-lg hover:shadow-emerald-200/50 transition-all cursor-pointer group"
                 onClick={() => navigate(`/analysis/${stock.ticker}`)}
               >
                 <div className="p-5">
                   {/* Header */}
                   <div className="mb-3">
                     <div className="flex items-start justify-between mb-1">
-                      <h3 className="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors truncate flex-1 mr-2">
+                      <h3 className="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors truncate flex-1 mr-2">
                         {stock.name}
                       </h3>
                       <span
                         className={`px-2 py-0.5 rounded text-xs font-semibold flex-shrink-0 ${
                           stock.market === 'KOSPI'
-                            ? 'bg-blue-900/50 text-blue-400 border border-blue-700'
+                            ? 'bg-blue-100 text-blue-700 border border-blue-300'
                             : stock.market === 'KOSDAQ'
-                            ? 'bg-green-900/50 text-green-400 border border-green-700'
-                            : 'bg-gray-700 text-gray-400 border border-gray-600'
+                            ? 'bg-purple-100 text-purple-700 border border-purple-300'
+                            : 'bg-gray-100 text-gray-600 border border-gray-300'
                         }`}
                       >
                         {stock.market || 'N/A'}
                       </span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span className="text-gray-400 text-sm">{stock.ticker}</span>
+                      <span className="text-gray-600 text-sm">{stock.ticker}</span>
                     </div>
                   </div>
 
                   {/* Divider */}
-                  <div className="border-t border-gray-700 my-3"></div>
+                  <div className="border-t border-gray-200 my-3"></div>
 
                   {/* Financial Data */}
                   <div className="grid grid-cols-2 gap-2">
-                    <div className="bg-gray-750 rounded px-2 py-1.5">
+                    <div className="bg-gray-100 rounded px-2 py-1.5">
                       <span className="text-gray-500 text-xs block">시가총액</span>
-                      <span className="text-white font-semibold text-sm">
+                      <span className="text-gray-900 font-semibold text-sm">
                         {stock.market_cap > 0 ? formatMarketCap(stock.market_cap) : 'N/A'}
                       </span>
                     </div>
-                    <div className="bg-gray-750 rounded px-2 py-1.5">
+                    <div className="bg-gray-100 rounded px-2 py-1.5">
                       <span className="text-gray-500 text-xs block">PER</span>
                       <span
                         className={`font-semibold text-sm ${
                           stock.per && stock.per > 0 && stock.per < 15
-                            ? 'text-green-400'
-                            : 'text-white'
+                            ? 'text-emerald-600'
+                            : 'text-gray-900'
                         }`}
                       >
                         {stock.per === 0 || !stock.per ? 'N/A' : stock.per.toFixed(2)}
                       </span>
                     </div>
-                    <div className="bg-gray-750 rounded px-2 py-1.5">
+                    <div className="bg-gray-100 rounded px-2 py-1.5">
                       <span className="text-gray-500 text-xs block">PBR</span>
                       <span
                         className={`font-semibold text-sm ${
                           stock.pbr && stock.pbr > 0 && stock.pbr < 1
-                            ? 'text-green-400'
-                            : 'text-white'
+                            ? 'text-emerald-600'
+                            : 'text-gray-900'
                         }`}
                       >
                         {stock.pbr === 0 || !stock.pbr ? 'N/A' : stock.pbr.toFixed(2)}
                       </span>
                     </div>
-                    <div className="bg-gray-750 rounded px-2 py-1.5">
+                    <div className="bg-gray-100 rounded px-2 py-1.5">
                       <span className="text-gray-500 text-xs block">ROE</span>
                       <span
                         className={`font-semibold text-sm ${
-                          stock.roe && stock.roe > 15 ? 'text-green-400' : 'text-white'
+                          stock.roe && stock.roe > 15 ? 'text-emerald-600' : 'text-gray-900'
                         }`}
                       >
                         {stock.roe === 0 || !stock.roe ? 'N/A' : `${stock.roe.toFixed(2)}%`}
@@ -538,8 +538,8 @@ export function AnalysisListPage() {
                   </div>
 
                   {/* Action */}
-                  <div className="mt-4 pt-3 border-t border-gray-700">
-                    <div className="flex items-center justify-center text-cyan-400 text-sm font-medium group-hover:text-cyan-300 transition-colors">
+                  <div className="mt-4 pt-3 border-t border-gray-200">
+                    <div className="flex items-center justify-center text-emerald-600 text-sm font-medium group-hover:text-emerald-700 transition-colors">
                       <span>상세 분석 보기</span>
                       <TrendingUp size={16} className="ml-1" />
                     </div>
