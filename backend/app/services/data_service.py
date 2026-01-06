@@ -14,11 +14,7 @@ import logging
 import time
 import asyncio
 from functools import lru_cache
-
-try:
-    from pykrx import stock
-except ImportError:
-    raise ImportError("pykrx가 설치되지 않았습니다. pip install pykrx를 실행하세요.")
+from app.utils.krx_data_client import stock
 
 try:
     import OpenDartReader
@@ -107,15 +103,17 @@ class DataService:
                 prev_date = await self.get_previous_trading_day(date)
                 return await self.get_market_snapshot(prev_date, max_retries - 1)
 
-            # 2. 상장주식수 추가 (필요한 경우)
+            # 2. 시가총액 + 상장주식수 추가
             try:
                 cap = self._retry_request(
                     lambda: stock.get_market_cap_by_ticker(date_str, market="ALL")
                 )
-                # 상장주식수만 추가 (나머지 컬럼은 이미 존재)
+                # 시가총액 + 상장주식수 추가
+                df['시가총액'] = cap['시가총액']
                 df['상장주식수'] = cap['상장주식수']
             except Exception as e:
-                logger.warning(f"상장주식수 조회 실패: {e}")
+                logger.warning(f"시가총액/상장주식수 조회 실패: {e}")
+                df['시가총액'] = 0
                 df['상장주식수'] = 0
 
             # 3. 인덱스를 'ticker' 컬럼으로 변환
@@ -225,7 +223,7 @@ class DataService:
                     )
 
                     if not df.empty:
-                        price = int(df.iloc[-1]['종가'])
+                        price = int(df.iloc[-1]['Close'])
                         logger.debug(f"{ticker}: pykrx 가격 ({price}) from {date_str}")
                         return price
 
@@ -580,15 +578,21 @@ class DataService:
             return {'debt_ratio': 0.0, 'revenue_growth_yoy': 0.0}
 
         try:
-            # 전년도 사업보고서 조회
-            year = datetime.now().year - 1
+            # 사업보고서는 3월 말에 제출됨
+            # year-1 먼저 시도, 없으면 year-2로 fallback
+            current_year = datetime.now().year
+            years_to_try = [current_year - 1, current_year - 2]
 
-            df = await asyncio.to_thread(
-                self.dart.finstate,
-                ticker,
-                year,
-                reprt_code='11011'  # 사업보고서
-            )
+            df = None
+            for year in years_to_try:
+                df = await asyncio.to_thread(
+                    self.dart.finstate,
+                    ticker,
+                    year,
+                    reprt_code='11011'  # 사업보고서
+                )
+                if df is not None and not df.empty:
+                    break
 
             if df is None or df.empty:
                 return {'debt_ratio': 0.0, 'revenue_growth_yoy': 0.0}
@@ -722,7 +726,7 @@ class DataService:
         from bs4 import BeautifulSoup
         from datetime import datetime, timedelta
         import feedparser
-        from pykrx import stock as pykrx_stock
+        from app.utils.krx_data_client import stock as pykrx_stock
 
         news_list = []
 
@@ -886,8 +890,8 @@ class DataService:
                 logger.warning(f"{ticker}: 기술적 지표 계산을 위한 데이터 부족 (len={len(prices_df)})")
                 return self._get_default_technical_indicators()
 
-            # 종가 Series 추출
-            prices = prices_df['종가']
+            # 종가 Series 추출 (krx_data_client는 영문 컬럼 반환)
+            prices = prices_df['Close']
             current_price = float(prices.iloc[-1])
 
             # RSI 계산
@@ -1385,10 +1389,10 @@ class DataService:
             # 최신 데이터부터 period+1개 선택
             df_ohlcv = df_ohlcv.tail(period + 1)
 
-            # True Range 계산
-            high = df_ohlcv['고가'].values
-            low = df_ohlcv['저가'].values
-            close = df_ohlcv['종가'].values
+            # True Range 계산 (krx_data_client는 영문 컬럼 반환)
+            high = df_ohlcv['High'].values
+            low = df_ohlcv['Low'].values
+            close = df_ohlcv['Close'].values
 
             tr_list = []
             for i in range(1, len(df_ohlcv)):
