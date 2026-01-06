@@ -810,3 +810,250 @@ class TriggerService:
                     saved_count += 1
 
             logger.info(f"✅ 트리거 결과 DB 저장 완료: {date_str} ({session}), {saved_count}개 종목")
+
+
+class PreSurgeDetector:
+    """
+    급등 전조(조짐) 감지기 - 거래량 선행, 가격 후행 원리
+
+    학술 근거:
+    - 거래량은 주가에 선행 (Volume precedes price)
+    - 세력 매집 시 거래량 먼저 급증, 가격은 아직 크게 안 오름
+    - 조짐 감지 후 급등 확률 높음
+
+    감지 조건:
+    1. 거래량: 5일 평균 대비 N배 이상 급증
+    2. 가격: 아직 크게 안 오름 (±3% 이내)
+    → 이 조합 = 매집(Accumulation) 신호
+    """
+
+    def __init__(
+        self,
+        volume_threshold: float = 3.0,
+        price_threshold: float = 3.0
+    ):
+        """
+        Args:
+            volume_threshold: 5일 평균 대비 거래량 배수 (기본 3.0 = 3배)
+            price_threshold: 가격 변동 상한 (기본 ±3%)
+        """
+        self.volume_threshold = volume_threshold
+        self.price_threshold = price_threshold
+        self.data_service = DataService()
+
+    def detect_accumulation_signal(
+        self,
+        ticker: str,
+        name: str,
+        current_volume: int,
+        avg_volume_5d: int,
+        change_rate: float,
+        current_price: int = 0
+    ) -> Dict | None:
+        """
+        단일 종목 매집(Accumulation) 신호 감지
+
+        조건:
+        - 거래량: 5일 평균 대비 N배 이상 급증
+        - 가격: 아직 크게 안 오름 (±3% 이내)
+        → 세력 매집 가능성 → 곧 상승 전조
+
+        Args:
+            ticker: 종목코드
+            name: 종목명
+            current_volume: 현재 거래량
+            avg_volume_5d: 5일 평균 거래량
+            change_rate: 등락률 (%)
+            current_price: 현재가 (optional)
+
+        Returns:
+            감지 시: {"ticker": ..., "volume_ratio": ..., "signal": "accumulation"}
+            미감지 시: None
+        """
+        if avg_volume_5d <= 0:
+            return None
+
+        volume_ratio = current_volume / avg_volume_5d
+
+        # 조짐 조건: 거래량 급증 + 가격 미동
+        if volume_ratio >= self.volume_threshold and abs(change_rate) <= self.price_threshold:
+            return {
+                "ticker": ticker,
+                "name": name,
+                "volume_ratio": round(volume_ratio, 2),
+                "change_rate": round(change_rate, 2),
+                "current_price": current_price,
+                "signal": "accumulation",  # 매집 신호
+                "confidence": min(volume_ratio / 5.0, 1.0),  # 신뢰도 (5배일 때 100%)
+                "detected_at": datetime.now().isoformat()
+            }
+
+        return None
+
+    async def scan_all_stocks(self) -> List[Dict]:
+        """
+        전체 종목 스캔하여 조짐 감지
+
+        Returns:
+            감지된 종목 리스트
+        """
+        from app.db.database import get_db
+        from app.db.models import FinancialData
+
+        logger.info("PreSurgeDetector: 전체 종목 스캔 시작")
+
+        # 1. 필터 통과 종목 조회
+        with get_db() as db:
+            tickers = [
+                row.ticker
+                for row in db.query(FinancialData).filter_by(filter_status='pass').all()
+            ]
+
+        if not tickers:
+            logger.warning("필터 통과 종목 없음")
+            return []
+
+        # 2. 실시간 가격 조회
+        realtime_prices = await self.data_service.get_realtime_prices_bulk(tickers)
+
+        if not realtime_prices:
+            logger.warning("realtime_prices 데이터 없음")
+            return []
+
+        # 3. 5일 평균 거래량 조회 (배치)
+        avg_volumes = await self._get_avg_volumes_5d_batch(tickers)
+
+        # 4. 각 종목별 조짐 감지
+        detected = []
+        for ticker in tickers:
+            rt = realtime_prices.get(ticker)
+            if not rt:
+                continue
+
+            current_volume = rt.get('volume', 0)
+            change_rate = rt.get('change_rate', 0.0)
+            current_price = rt.get('current_price', 0)
+            name = rt.get('name', ticker)
+            avg_volume = avg_volumes.get(ticker, 0)
+
+            signal = self.detect_accumulation_signal(
+                ticker=ticker,
+                name=name,
+                current_volume=current_volume,
+                avg_volume_5d=avg_volume,
+                change_rate=change_rate,
+                current_price=current_price
+            )
+
+            if signal:
+                detected.append(signal)
+                logger.info(
+                    f"🔍 조짐 감지: {name}({ticker}) - "
+                    f"거래량 {signal['volume_ratio']:.1f}배, "
+                    f"등락률 {signal['change_rate']:+.2f}%"
+                )
+
+        logger.info(f"PreSurgeDetector: 총 {len(detected)}개 종목 조짐 감지")
+        return detected
+
+    async def _get_avg_volumes_5d_batch(self, tickers: List[str]) -> Dict[str, int]:
+        """
+        5일 평균 거래량 배치 조회
+
+        Args:
+            tickers: 종목 코드 리스트
+
+        Returns:
+            {ticker: avg_volume_5d}
+        """
+        from datetime import timedelta
+
+        result = {}
+        today = datetime.now()
+
+        # 최근 5 거래일 데이터 조회
+        for i in range(1, 10):  # 최대 10일 전까지 (주말 고려)
+            try:
+                target_date = today - timedelta(days=i)
+                df = await self.data_service.get_market_snapshot(target_date)
+
+                if df.empty:
+                    continue
+
+                df = df.set_index('ticker')
+
+                for ticker in tickers:
+                    if ticker not in df.index:
+                        continue
+
+                    volume = df.loc[ticker].get('거래량', 0)
+                    if ticker not in result:
+                        result[ticker] = []
+                    result[ticker].append(volume)
+
+                # 5일치 수집되면 중단
+                if all(len(result.get(t, [])) >= 5 for t in tickers if t in result):
+                    break
+
+            except Exception as e:
+                logger.warning(f"거래량 조회 실패 ({target_date}): {e}")
+                continue
+
+        # 평균 계산
+        avg_result = {}
+        for ticker, volumes in result.items():
+            if volumes:
+                avg_result[ticker] = int(sum(volumes) / len(volumes))
+
+        return avg_result
+
+    async def detect_and_notify(self) -> List[Dict]:
+        """
+        조짐 감지 후 알림 (텔레그램 연동용)
+
+        Returns:
+            감지된 종목 리스트
+        """
+        detected = await self.scan_all_stocks()
+
+        if detected:
+            # 신뢰도 순 정렬
+            detected.sort(key=lambda x: x['confidence'], reverse=True)
+
+            # DB 저장
+            self._save_to_db(detected)
+
+            logger.info(f"🚀 조짐 감지 완료: {len(detected)}개 종목")
+
+        return detected
+
+    def _save_to_db(self, detected: List[Dict]):
+        """
+        감지 결과 DB 저장
+
+        Args:
+            detected: 감지된 종목 리스트
+        """
+        from app.db.database import get_db
+        from app.db.models import TriggerResult
+
+        date_str = datetime.now().strftime('%Y-%m-%d')
+
+        with get_db() as db:
+            for signal in detected:
+                db_trigger = TriggerResult(
+                    ticker=signal['ticker'],
+                    name=signal['name'],
+                    trigger_type='pre_surge',  # 새 트리거 타입
+                    session='realtime',
+                    current_price=signal.get('current_price', 0),
+                    change_rate=signal['change_rate'],
+                    volume=0,  # volume_ratio로 대체
+                    trading_value=0,
+                    composite_score=signal['confidence'],
+                    date=date_str,
+                    detected_at=datetime.fromisoformat(signal['detected_at'])
+                )
+                db.add(db_trigger)
+
+            logger.info(f"✅ 조짐 감지 결과 DB 저장: {len(detected)}개")
