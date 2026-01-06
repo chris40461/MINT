@@ -31,12 +31,21 @@ class Settings(BaseSettings):
     # API Keys
     GEMINI_API_KEY: str = ""
     DART_API_KEY: Optional[str] = None
-    KIS_APP_KEY: Optional[str] = None
-    KIS_APP_SECRET: Optional[str] = None
+    KIS_APP_KEY: str = ""
+    KIS_APP_SECRET: str = ""
+
+    # KAKAO
+    KAKAO_ID : str = ""
+    KAKAO_PW : str = ""
+    
+    # 텔레그램 봇
+    TELEGRAM_BOT_TOKEN: Optional[str] = None
+    TELEGRAM_CHAT_ID: Optional[str] = None
+    TELEGRAM_ENABLED: bool = True
 
     # LLM 설정
     GEMINI_MODEL: str = "gemini-2.5-flash"
-    GEMINI_MAX_TOKENS: int = 4000
+    GEMINI_MAX_TOKENS: int = 65536
     GEMINI_TEMPERATURE: float = 0.3
 
     # 스케줄러

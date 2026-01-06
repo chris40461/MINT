@@ -12,6 +12,7 @@ import sys
 from pathlib import Path
 
 from app.api.dependencies import get_trigger_service, get_report_service, get_data_service, get_analysis_service
+from app.services.notification_service import notification_service
 
 logger = logging.getLogger(__name__)
 
@@ -182,6 +183,13 @@ async def generate_morning_report_job():
                 db.add(new_report)
                 logger.info(f"📝 [장 시작 리포트] DB 저장")
 
+        # 텔레그램 알림 전송
+        try:
+            await notification_service.send_morning_report(report)
+            logger.info("📱 [장 시작 리포트] 텔레그램 전송 완료")
+        except Exception as e:
+            logger.warning(f"📱 [장 시작 리포트] 텔레그램 전송 실패: {e}")
+
         logger.info(f"✅ [장 시작 리포트] 생성 완료")
     except Exception as e:
         logger.error(f"❌ [장 시작 리포트] 생성 실패: {e}", exc_info=True)
@@ -292,6 +300,25 @@ async def generate_afternoon_report_job():
                 )
                 db.add(new_report)
                 logger.info(f"📝 [장 마감 리포트] DB 저장")
+
+        # 텔레그램 알림 전송 (웹 리포트와 동일한 상세 정보)
+        try:
+            telegram_report = {
+                'date': date_str,
+                'market_summary': market_summary,
+                'market_summary_text': report.get('market_summary_text', ''),
+                'market_breadth': report.get('market_breadth', {}),
+                'sector_analysis': report.get('sector_analysis', {}),
+                'supply_demand_analysis': report.get('supply_demand_analysis', ''),
+                'today_themes': report.get('today_themes', []),
+                'surge_analysis': report.get('surge_analysis', []),
+                'tomorrow_strategy': report.get('tomorrow_strategy', ''),
+                'check_points': report.get('check_points', [])
+            }
+            await notification_service.send_afternoon_report(telegram_report)
+            logger.info("📱 [장 마감 리포트] 텔레그램 전송 완료")
+        except Exception as e:
+            logger.warning(f"📱 [장 마감 리포트] 텔레그램 전송 실패: {e}")
 
         logger.info(f"✅ [장 마감 리포트] 생성 완료")
     except Exception as e:
