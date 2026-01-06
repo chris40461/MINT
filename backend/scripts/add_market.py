@@ -18,7 +18,7 @@ from tqdm.asyncio import tqdm
 # 프로젝트 루트를 sys.path에 추가
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from pykrx import stock as pykrx_stock
+from app.utils.krx_data_client import stock as pykrx_stock
 from app.db.database import init_db, get_db
 from app.db.models import FinancialData
 from app.services.data_service import DataService
