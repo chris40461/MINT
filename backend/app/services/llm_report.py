@@ -38,7 +38,7 @@ from app.utils.llm_utils import deduplicate_news
 import pandas as pd
 import json
 
-from pykrx import stock
+from app.utils.krx_data_client import stock
 
 logger = logging.getLogger(__name__)
 
