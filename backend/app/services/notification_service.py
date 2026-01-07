@@ -8,6 +8,7 @@
 """
 
 import logging
+import html
 from typing import Dict, List, Optional
 from datetime import datetime
 
@@ -18,6 +19,13 @@ from telegram.error import TelegramError
 from app.core.config import settings
 
 logger = logging.getLogger(__name__)
+
+
+def escape(text: str) -> str:
+    """HTML 특수문자 이스케이프"""
+    if not text:
+        return ''
+    return html.escape(str(text))
 
 
 class NotificationService:
@@ -83,7 +91,7 @@ class NotificationService:
             market_forecast = report.get('market_forecast', '')
             if market_forecast:
                 message += f"""<b>📊 시장 전망</b>
-{market_forecast}
+{escape(market_forecast)}
 
 """
             # ═══════════════════ KOSPI 예상 범위 ═══════════════════
@@ -97,7 +105,7 @@ class NotificationService:
 🔻 하단: <code>{low:,.0f}</code>  🔺 상단: <code>{high:,.0f}</code>
 """
                 if reasoning:
-                    message += f"💡 {reasoning}\n"
+                    message += f"💡 {escape(reasoning)}\n"
                 message += "\n"
 
             # ═══════════════════ 시장 리스크 ═══════════════════
@@ -105,7 +113,7 @@ class NotificationService:
             if market_risks:
                 message += "<b>⚠️ 시장 리스크</b>\n"
                 for risk in market_risks[:5]:
-                    message += f"• {risk}\n"
+                    message += f"• {escape(risk)}\n"
                 message += "\n"
 
             # ═══════════════════ 섹터 분석 ═══════════════════
@@ -121,18 +129,18 @@ class NotificationService:
                         if isinstance(item, dict):
                             sector = item.get('sector', '')
                             reason = item.get('reason', '')
-                            message += f"  • <b>{sector}</b>\n    └ {reason}\n"
+                            message += f"  • <b>{escape(sector)}</b>\n    └ {escape(reason)}\n"
                         else:
-                            message += f"  • {item}\n"
+                            message += f"  • {escape(str(item))}\n"
                 if bearish:
                     message += "📉 <b>주의 섹터</b>\n"
                     for item in bearish[:3]:
                         if isinstance(item, dict):
                             sector = item.get('sector', '')
                             reason = item.get('reason', '')
-                            message += f"  • <b>{sector}</b>\n    └ {reason}\n"
+                            message += f"  • <b>{escape(sector)}</b>\n    └ {escape(reason)}\n"
                         else:
-                            message += f"  • {item}\n"
+                            message += f"  • {escape(str(item))}\n"
                 message += "\n"
 
             # ═══════════════════ 주목 종목 Top 10 ═══════════════════
@@ -143,11 +151,11 @@ class NotificationService:
 """
                 for stock in top_stocks[:10]:
                     rank = stock.get('rank', '-')
-                    name = stock.get('name', 'N/A')
-                    ticker = stock.get('ticker', 'N/A')
+                    name = escape(stock.get('name', 'N/A'))
+                    ticker = escape(stock.get('ticker', 'N/A'))
                     current_price = stock.get('current_price', 0)
                     score = stock.get('score', 0)
-                    reason = stock.get('reason', '')
+                    reason = escape(stock.get('reason', ''))
                     entry_strategy = stock.get('entry_strategy', {}) or {}
 
                     # 순위 이모지
@@ -163,7 +171,7 @@ class NotificationService:
                         target1 = entry_strategy.get('target_price_1', 0)
                         target2 = entry_strategy.get('target_price_2', 0)
                         stop = entry_strategy.get('stop_loss', 0)
-                        timing = entry_strategy.get('entry_timing', '')
+                        timing = escape(entry_strategy.get('entry_timing', ''))
                         confidence = entry_strategy.get('confidence', 0)
 
                         if target1 and stop:
@@ -181,7 +189,7 @@ class NotificationService:
                 message += f"""
 <b>💡 오늘의 투자 전략</b>
 
-{strategy}
+{escape(strategy)}
 
 """
             # ═══════════════════ 일정 ═══════════════════
@@ -190,8 +198,8 @@ class NotificationService:
                 message += "<b>📆 오늘의 매매 일정</b>\n"
                 for time_slot, event in list(daily_schedule.items())[:4]:
                     time_display = time_slot.replace('_', ' ~ ')
-                    message += f"⏰ <b>{time_display}</b>\n"
-                    message += f"   {event}\n"
+                    message += f"⏰ <b>{escape(time_display)}</b>\n"
+                    message += f"   {escape(event)}\n"
                 message += "\n"
 
             # ═══════════════════ 푸터 ═══════════════════
@@ -250,7 +258,7 @@ class NotificationService:
                 if market_breadth:
                     sentiment = market_breadth.get('sentiment', '')
                     interpretation = market_breadth.get('interpretation', '')
-                    message += f"📍 <b>{sentiment}</b>: {interpretation}\n"
+                    message += f"📍 <b>{escape(sentiment)}</b>: {escape(interpretation)}\n"
                 message += "\n"
 
             # ═══════════════════ 수급 동향 ═══════════════════
@@ -275,14 +283,14 @@ class NotificationService:
             summary_text = report.get('market_summary_text', '')
             if summary_text:
                 message += f"""<b>📋 시장 요약</b>
-{summary_text}
+{escape(summary_text)}
 
 """
             # ═══════════════════ 수급 분석 ═══════════════════
             supply_demand = report.get('supply_demand_analysis', '')
             if supply_demand:
                 message += f"""<b>💹 수급 분석</b>
-{supply_demand}
+{escape(supply_demand)}
 
 """
             # ═══════════════════ 섹터 분석 ═══════════════════
@@ -299,9 +307,9 @@ class NotificationService:
                             sector = item.get('sector', '')
                             change = item.get('change', '')
                             reason = item.get('reason', '')
-                            message += f"  • <b>{sector}</b> {change}\n    └ {reason}\n"
+                            message += f"  • <b>{escape(sector)}</b> {escape(change)}\n    └ {escape(reason)}\n"
                         else:
-                            message += f"  • {item}\n"
+                            message += f"  • {escape(str(item))}\n"
                 if bearish:
                     message += "📉 <b>약세 섹터</b>\n"
                     for item in bearish[:3]:
@@ -309,9 +317,9 @@ class NotificationService:
                             sector = item.get('sector', '')
                             change = item.get('change', '')
                             reason = item.get('reason', '')
-                            message += f"  • <b>{sector}</b> {change}\n    └ {reason}\n"
+                            message += f"  • <b>{escape(sector)}</b> {escape(change)}\n    └ {escape(reason)}\n"
                         else:
-                            message += f"  • {item}\n"
+                            message += f"  • {escape(str(item))}\n"
                 message += "\n"
 
             # ═══════════════════ 오늘의 테마 ═══════════════════
@@ -324,13 +332,13 @@ class NotificationService:
                         drivers = theme.get('drivers', '')
                         leading_stocks = theme.get('leading_stocks', [])
                         stocks_str = ', '.join(leading_stocks[:3]) if leading_stocks else ''
-                        message += f"🔹 <b>{theme_name}</b>\n"
+                        message += f"🔹 <b>{escape(theme_name)}</b>\n"
                         if drivers:
-                            message += f"   {drivers}\n"
+                            message += f"   {escape(drivers)}\n"
                         if stocks_str:
-                            message += f"   📌 대장주: {stocks_str}\n"
+                            message += f"   📌 대장주: {escape(stocks_str)}\n"
                     else:
-                        message += f"🔹 {theme}\n"
+                        message += f"🔹 {escape(str(theme))}\n"
                 message += "\n"
 
             # ═══════════════════ 급등주 분석 ═══════════════════
@@ -340,11 +348,11 @@ class NotificationService:
 
 """
                 for i, stock in enumerate(surge_analysis[:5], 1):
-                    name = stock.get('name', 'N/A')
-                    ticker = stock.get('ticker', 'N/A')
-                    category = stock.get('category', '')
-                    reason = stock.get('reason', '')
-                    outlook = stock.get('outlook', '')
+                    name = escape(stock.get('name', 'N/A'))
+                    ticker = escape(stock.get('ticker', 'N/A'))
+                    category = escape(stock.get('category', ''))
+                    reason = escape(stock.get('reason', ''))
+                    outlook = escape(stock.get('outlook', ''))
                     change_rate = stock.get('change_rate', 0)
 
                     message += f"""
@@ -360,7 +368,7 @@ class NotificationService:
             if check_points:
                 message += "\n<b>✅ 내일 체크포인트</b>\n"
                 for point in check_points[:5]:
-                    message += f"• {point}\n"
+                    message += f"• {escape(point)}\n"
                 message += "\n"
 
             # ═══════════════════ 내일 전략 ═══════════════════
@@ -368,7 +376,7 @@ class NotificationService:
             if tomorrow_strategy:
                 message += f"""<b>💡 내일 투자 전략</b>
 
-{tomorrow_strategy}
+{escape(tomorrow_strategy)}
 
 """
             # ═══════════════════ 푸터 ═══════════════════
@@ -397,8 +405,8 @@ class NotificationService:
 
 """
             for i, signal in enumerate(signals[:5], 1):
-                name = signal.get('name', 'N/A')
-                ticker = signal.get('ticker', 'N/A')
+                name = escape(signal.get('name', 'N/A'))
+                ticker = escape(signal.get('ticker', 'N/A'))
                 volume_ratio = signal.get('volume_ratio', 0)
                 change_rate = signal.get('change_rate', 0)
                 current_price = signal.get('current_price', 0)
@@ -426,10 +434,10 @@ class NotificationService:
     async def send_custom_alert(self, title: str, content: str) -> bool:
         """커스텀 알림 전송"""
         message = f"""
-<b>🔔 {title}</b>
+<b>🔔 {escape(title)}</b>
 
 
-{content}
+{escape(content)}
 
 <i>🤖 MINT Alert</i>
 """
