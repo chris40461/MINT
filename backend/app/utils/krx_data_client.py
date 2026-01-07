@@ -1635,7 +1635,7 @@ class KRXDataClient:
         if date is None:
             date = self.get_nearest_business_day()
 
-        tickers = self.get_market_ticker_name(date=date, market=market)
+        tickers = self.get_market_ticker_name(ticker_or_date=date, market=market)
         return list(tickers.keys())
 
     @retry_on_session_expired()
