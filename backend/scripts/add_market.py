@@ -7,13 +7,9 @@
 - tqdm 진행률 표시
 """
 
-import asyncio
 import sys
-import os
 from pathlib import Path
-from datetime import datetime
-import time
-from tqdm.asyncio import tqdm
+from datetime import datetime, timedelta
 
 # 프로젝트 루트를 sys.path에 추가
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -21,7 +17,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from app.utils.krx_data_client import stock as pykrx_stock
 from app.db.database import init_db, get_db
 from app.db.models import FinancialData
-from app.services.data_service import DataService
 from app.utils.filters import StockFilter
 
 def add_market_info():
@@ -61,14 +56,16 @@ def add_market_info():
                 record.market = "기타"
                 other_count += 1
 
+        db.commit()
+
     print(f"   완료: KOSPI {kospi_count:,}개, KOSDAQ {kosdaq_count:,}개, 기타 {other_count:,}개")
 
 
-async def main():
+def main():
     """메인 실행"""
     print()
     print("╔" + "=" * 78 + "╗")
-    print("║" + " " * 25 + "Financial Data Batch Collector" + " " * 23 + "║")
+    print("║" + " " * 25 + "Market Info Updater" + " " * 29 + "║")
     print("╚" + "=" * 78 + "╝")
     print()
 
@@ -83,4 +80,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

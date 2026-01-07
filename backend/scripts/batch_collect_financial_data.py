@@ -70,6 +70,8 @@ def add_market_info():
                 record.market = "기타"
                 other_count += 1
 
+        db.commit()
+
     print(f"   완료: KOSPI {kospi_count:,}개, KOSDAQ {kosdaq_count:,}개, 기타 {other_count:,}개")
 
 
