@@ -211,7 +211,7 @@ price-poller/  (리팩토링 후)
 │   ├── clients/
 │   │   ├── kis_rest_client.py     # REST API 클라이언트 (기존 유지)
 │   │   ├── kis_websocket.py       # ★ WebSocket 클라이언트 (신규)
-│   │   └── pykrx_client.py        # pykrx 래퍼 (기술적 지표용)
+│   │   └── krx_data_client.py     # 커스텀 KRX Data Marketplace 클라이언트 (backend에서 복사)
 │   │
 │   ├── collectors/
 │   │   ├── rest_collector.py      # REST 데이터 수집기
@@ -357,7 +357,9 @@ class ImbalanceHandler:
         if self.strategy == 'smote_tomek':
             sampler = SMOTETomek(random_state=42)
         elif self.strategy == 'borderline':
-            sampler = SMOTE(kind='borderline1', random_state=42)
+            # imbalanced-learn 0.12+ 에서 kind 파라미터 deprecated
+            from imblearn.over_sampling import BorderlineSMOTE
+            sampler = BorderlineSMOTE(kind='borderline-1', random_state=42)
         else:
             sampler = SMOTE(random_state=42)
         return sampler.fit_resample(X, y)
@@ -1480,6 +1482,199 @@ AUC: {metrics['auc']:.3f}
 
 ---
 
+## 부록: Dependencies (requirements.txt)
+
+```
+# ML Core
+xgboost>=2.1.0,<4.0.0
+lightgbm>=4.0.0,<5.0.0
+scikit-learn>=1.4.0,<2.0.0
+imbalanced-learn>=0.12.0,<1.0.0
+
+# Data Processing
+pandas>=2.0.0,<3.0.0
+pyarrow>=14.0.0
+numpy>=1.24.0,<3.0.0
+
+# Async & Networking
+websockets>=12.0,<16.0
+httpx>=0.25.0,<1.0.0
+aiohttp>=3.9.0,<4.0.0
+
+# Hyperparameter Tuning
+optuna>=3.5.0,<5.0.0
+
+# Database
+sqlalchemy>=2.0.0,<3.0.0
+psycopg2-binary>=2.9.0,<3.0.0
+
+# Configuration & Utils
+pydantic-settings>=2.0.0,<3.0.0
+tenacity>=8.0.0,<10.0.0
+
+# Serialization
+joblib>=1.3.0,<2.0.0
+
+# Note: pykrx 대신 커스텀 krx_data_client 사용
+# 필요 의존성: requests, nest_asyncio, holidays
+requests>=2.31.0
+nest_asyncio>=1.5.0
+holidays>=0.40
+```
+
+**주의**: XGBoost 2.1.0+ 에서 `eval_metric`, `early_stopping_rounds` 등의 파라미터는 `fit()` 메서드가 아닌 **생성자**에서 지정해야 합니다.
+
+---
+
+## 부록: Feature History 테이블 스키마
+
+```sql
+-- Feature 히스토리 저장 (학습용)
+CREATE TABLE feature_history (
+    id SERIAL PRIMARY KEY,
+    timestamp TIMESTAMP NOT NULL,
+    ticker VARCHAR(10) NOT NULL,
+
+    -- 가격 정보
+    current_price INTEGER,
+    open_price INTEGER,
+    high_price INTEGER,
+    low_price INTEGER,
+    volume BIGINT,
+    change_rate FLOAT,
+
+    -- 호가/수급 정보
+    total_bid_rsqn BIGINT,           -- 총 매수호가 잔량
+    total_ask_rsqn BIGINT,           -- 총 매도호가 잔량
+    ofi FLOAT,                        -- Order Flow Imbalance
+
+    -- WebSocket 실시간 정보
+    cttr FLOAT,                       -- 체결강도
+    shnu_rate FLOAT,                  -- 매수비율
+
+    -- 계산된 Feature
+    volume_ratio FLOAT,               -- 거래량 비율 (현재/5일평균)
+    rsi_14 FLOAT,
+    macd_hist FLOAT,
+    bb_position FLOAT,
+    ma20_distance FLOAT,
+
+    -- 메타데이터
+    data_source VARCHAR(20),          -- 'rest' or 'websocket'
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    -- 인덱스용
+    CONSTRAINT idx_feature_history_ticker_ts UNIQUE (ticker, timestamp)
+);
+
+-- 조회 성능을 위한 인덱스
+CREATE INDEX idx_feature_history_timestamp ON feature_history(timestamp);
+CREATE INDEX idx_feature_history_ticker ON feature_history(ticker);
+
+-- 파티셔닝 (30일 보관)
+-- PostgreSQL 12+ 에서는 자동 파티셔닝 권장
+```
+
+---
+
+## 부록: 모델 직렬화 (Model Serialization)
+
+**권장 형식**: `joblib` (sklearn 호환 모델에 최적화)
+
+```python
+import joblib
+from datetime import date
+from pathlib import Path
+
+class ModelSerializer:
+    """
+    학습된 모델 저장/로드
+
+    저장 구조:
+    models/
+    └── presurge_v1/
+        ├── model.joblib          # 앙상블 모델 (개별 모델 + 가중치)
+        ├── threshold.json        # 최적화된 decision threshold
+        ├── feature_names.json    # Feature 이름 목록
+        └── metadata.json         # 학습 일시, 성능 지표 등
+    """
+
+    def save_model(self, model_artifact: dict, path: str):
+        """모델 아티팩트 저장"""
+        path = Path(path)
+        path.mkdir(parents=True, exist_ok=True)
+
+        # 모델 저장 (joblib)
+        joblib.dump({
+            'models': model_artifact['models'],
+            'weights': model_artifact['weights'],
+        }, path / 'model.joblib')
+
+        # 메타데이터 저장 (JSON)
+        import json
+        with open(path / 'threshold.json', 'w') as f:
+            json.dump({'threshold': model_artifact['threshold']}, f)
+
+        with open(path / 'feature_names.json', 'w') as f:
+            json.dump(model_artifact['feature_names'], f)
+
+        with open(path / 'metadata.json', 'w') as f:
+            json.dump({
+                'trained_at': model_artifact['trained_at'],
+                'metrics': model_artifact['metrics'],
+            }, f, indent=2)
+
+    def load_model(self, path: str) -> dict:
+        """모델 아티팩트 로드"""
+        path = Path(path)
+
+        model_data = joblib.load(path / 'model.joblib')
+
+        import json
+        with open(path / 'threshold.json', 'r') as f:
+            threshold = json.load(f)['threshold']
+
+        with open(path / 'feature_names.json', 'r') as f:
+            feature_names = json.load(f)
+
+        with open(path / 'metadata.json', 'r') as f:
+            metadata = json.load(f)
+
+        return {
+            'models': model_data['models'],
+            'weights': model_data['weights'],
+            'threshold': threshold,
+            'feature_names': feature_names,
+            **metadata,
+        }
+```
+
+---
+
+## 부록: krx_data_client 사용법
+
+기존 `pykrx`와 동일한 인터페이스를 제공하는 커스텀 클라이언트입니다.
+(`backend/app/utils/krx_data_client.py`에서 복사)
+
+```python
+from krx_data_client import KRXDataClient
+
+# 환경변수 필요: KAKAO_ID, KAKAO_PW
+client = KRXDataClient()
+
+# pykrx와 동일한 인터페이스
+df = client.get_market_ohlcv("20240101", "20240131", "005930")
+df = client.get_market_fundamental("20240101", "20240131", "005930")
+df = client.get_market_trading_volume("20240101", "20240131", "005930")
+```
+
+**장점**:
+- KRX Data Marketplace 직접 연동 (스크래핑 아님)
+- pykrx보다 안정적 (웹사이트 변경에 영향 없음)
+- 세션 자동 재로그인
+
+---
+
 ## 부록: 버전 히스토리
 
 | 버전 | 날짜 | 변경 내용 |
@@ -1489,3 +1684,4 @@ AUC: {metrics['auc']:.3f}
 | v1.2 | 2025-01-06 | 최신 연구 반영 (Class Imbalance, Concept Drift, LOB DL 모델) |
 | v1.3 | 2025-01-06 | 모니터링/백테스팅 시스템, 학술 레퍼런스 추가 |
 | v1.4 | 2025-01-06 | 수익률 기반 평가 지표(Sharpe, Profit Factor), 레이블 기준 최적화, WebSocket 재연결/Circuit Breaker 추가 |
+| v1.5 | 2025-01-07 | plan-verify 검증 반영: BorderlineSMOTE 수정, requirements.txt/DB 스키마/모델 직렬화 추가, pykrx→krx_data_client 변경 |
